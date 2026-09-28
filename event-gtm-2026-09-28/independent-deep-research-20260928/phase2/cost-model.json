@@ -1,0 +1,170 @@
+{
+  "price_date": "2026-09-28",
+  "currency": "USD",
+  "type": "planning_estimate_not_invoice",
+  "source": "https://developers.openai.com/api/docs/pricing",
+  "rates_per_million_tokens": {
+    "gpt-6-luna": {
+      "input": 0.1,
+      "cached_input": 0.01,
+      "cache_write": 0.125,
+      "output": 0.5
+    },
+    "gpt-6-sol": {
+      "input": 2,
+      "cached_input": 0.2,
+      "cache_write": 2.5,
+      "output": 10
+    },
+    "gpt-6-astra": {
+      "input": 10,
+      "cached_input": 1,
+      "cache_write": 12.5,
+      "output": 50
+    }
+  },
+  "assumptions": {
+    "processing": "Standard short_context",
+    "cache": "No discount assumed; uncached scenario excludes cache_write charge; add surcharge sensitivity separately",
+    "output_tokens": "includes assumed reasoning+visible tokens; actual distribution unknown",
+    "retry_factor": 1.1,
+    "pipeline_usage": "not_executed; token counts hypothetical",
+    "privacy": "no private data sent; model and account access untested"
+  },
+  "stages": [
+    {
+      "stage": "profile_parse",
+      "model": "gpt-6-luna",
+      "input_tokens": 4000,
+      "output_tokens": 500,
+      "frequency_per_flow": 1,
+      "cost_usd": 0.00065
+    },
+    {
+      "stage": "explanation",
+      "model": "gpt-6-sol",
+      "input_tokens": 12000,
+      "output_tokens": 2000,
+      "frequency_per_flow": 1,
+      "cost_usd": 0.044
+    },
+    {
+      "stage": "draft",
+      "model": "gpt-6-sol",
+      "input_tokens": 8000,
+      "output_tokens": 1500,
+      "frequency_per_flow": 1,
+      "cost_usd": 0.031
+    },
+    {
+      "stage": "search_content_input",
+      "model": "gpt-6-sol",
+      "input_tokens": 6000,
+      "output_tokens": 0,
+      "frequency_per_flow": 1,
+      "cost_usd": 0.012
+    },
+    {
+      "stage": "hard_case_escalation",
+      "model": "gpt-6-astra",
+      "input_tokens": 8000,
+      "output_tokens": 1000,
+      "frequency_per_flow": 0.1,
+      "cost_usd": 0.013000000000000001
+    }
+  ],
+  "flow_model_usd": 0.10064999999999999,
+  "flow_search_usd": 0.03,
+  "flow_variable_usd_with_retry": 0.143715,
+  "weekly_4_refreshes_usd_per_customer": 0.1848,
+  "daily_30_refreshes_usd_per_customer": 1.386,
+  "refresh_variable_usd": 0.0462,
+  "scenarios": [
+    {
+      "scenario": "pilot",
+      "customers": 10,
+      "catalog_editions_assumed": 1000,
+      "flows_per_month": 40,
+      "shared_pages_refreshed_per_month": 500,
+      "models_usd": 4.7311,
+      "search_usd": 1.32,
+      "maps_usd": 30.0,
+      "r2_usd": 0.0,
+      "db_usd_low": 25,
+      "db_usd_high": 25,
+      "app_worker_usd_low": 15,
+      "app_worker_usd_high": 60,
+      "tech_total_usd_low": 76.05,
+      "tech_total_usd_high": 121.05,
+      "human_hours_assumed": 6.83,
+      "human_usd_assumed": 273.33,
+      "total_with_human_usd_low": 349.38,
+      "total_with_human_usd_high": 394.38,
+      "tech_usd_per_flow_low": 1.9013,
+      "all_in_usd_per_flow_low": 8.7346,
+      "license_usd": "unknown_excluded; baseline_requires_authorized_sources",
+      "useful_result_cost": "not_measured; divide full attributable cost by real accepted results"
+    },
+    {
+      "scenario": "mvp",
+      "customers": 100,
+      "catalog_editions_assumed": 10000,
+      "flows_per_month": 400,
+      "shared_pages_refreshed_per_month": 5000,
+      "models_usd": 47.311,
+      "search_usd": 13.2,
+      "maps_usd": 30.0,
+      "r2_usd": 0.15,
+      "db_usd_low": 25,
+      "db_usd_high": 75,
+      "app_worker_usd_low": 30,
+      "app_worker_usd_high": 150,
+      "tech_total_usd_low": 145.66,
+      "tech_total_usd_high": 315.66,
+      "human_hours_assumed": 68.33,
+      "human_usd_assumed": 2733.33,
+      "total_with_human_usd_low": 2878.99,
+      "total_with_human_usd_high": 3048.99,
+      "tech_usd_per_flow_low": 0.3642,
+      "all_in_usd_per_flow_low": 7.1975,
+      "license_usd": "unknown_excluded; baseline_requires_authorized_sources",
+      "useful_result_cost": "not_measured; divide full attributable cost by real accepted results"
+    },
+    {
+      "scenario": "growth",
+      "customers": 1000,
+      "catalog_editions_assumed": 100000,
+      "flows_per_month": 4000,
+      "shared_pages_refreshed_per_month": 50000,
+      "models_usd": 473.11,
+      "search_usd": 132.0,
+      "maps_usd": 32.5,
+      "r2_usd": 2.85,
+      "db_usd_low": 75,
+      "db_usd_high": 250,
+      "app_worker_usd_low": 150,
+      "app_worker_usd_high": 600,
+      "tech_total_usd_low": 865.46,
+      "tech_total_usd_high": 1490.46,
+      "human_hours_assumed": 683.33,
+      "human_usd_assumed": 27333.33,
+      "total_with_human_usd_low": 28198.79,
+      "total_with_human_usd_high": 28823.79,
+      "tech_usd_per_flow_low": 0.2164,
+      "all_in_usd_per_flow_low": 7.0497,
+      "license_usd": "unknown_excluded; baseline_requires_authorized_sources",
+      "useful_result_cost": "not_measured; divide full attributable cost by real accepted results"
+    }
+  ],
+  "sensitivities": {
+    "extra_10000_sol_output_tokens_usd": 0.1,
+    "extra_search_calls_10_tool_fee_usd": 0.1,
+    "human_extra_5_minutes_at_40_usd_per_hour": 3.3333333333333335,
+    "licenses_monthly_not_quotes": [
+      0,
+      500,
+      5000
+    ],
+    "cache_write_extra_if_all_assumed_input_written_usd_per_flow": 0.0151
+  }
+}

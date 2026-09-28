@@ -1,0 +1,14 @@
+{
+  "fetch_id": "fetch_enr_307b582145ca53a2",
+  "source_url": "https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-india/",
+  "final_url": "https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-india/",
+  "observed_at": "2026-09-28T15:48:00.638834+00:00",
+  "http_status": 200,
+  "content_sha256": "28944330c24d83955e333308653f41545c064aa57fe1edcf3f4bf1c1aa7830ad",
+  "bytes": 273420,
+  "content_type": "text/html; charset=UTF-8",
+  "robots_status": 200,
+  "robots_decision": "allowed",
+  "attempts": 1,
+  "prior_error": null
+}

@@ -1,0 +1,1111 @@
+{
+  "schema_version": 1,
+  "consulted_on": "2026-09-28",
+  "currency_default": "USD",
+  "scope": "official public rates, storage/redistribution restrictions, no OpenAI",
+  "not_measured": [
+    "API success rate",
+    "API latency",
+    "geocoding accuracy",
+    "billing invoice",
+    "production cost"
+  ],
+  "accounts_created": 0,
+  "billable_api_calls": 0,
+  "sources": [
+    {
+      "source_id": "google_price",
+      "url": "https://developers.google.com/maps/billing-and-pricing/pricing",
+      "publisher": "Google",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": "2026-09-24",
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "google_terms",
+      "url": "https://cloud.google.com/maps-platform/terms/maps-service-terms",
+      "publisher": "Google",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "google_geocoding_policy",
+      "url": "https://developers.google.com/maps/documentation/geocoding/policies",
+      "publisher": "Google",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "mapbox_price",
+      "url": "https://www.mapbox.com/pricing",
+      "publisher": "Mapbox",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "mapbox_geocoding",
+      "url": "https://docs.mapbox.com/api/search/geocoding/",
+      "publisher": "Mapbox",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "mapbox_attribution",
+      "url": "https://docs.mapbox.com/help/dive-deeper/attribution/",
+      "publisher": "Mapbox",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "maptiler_price",
+      "url": "https://www.maptiler.com/cloud/pricing/",
+      "publisher": "MapTiler",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "maptiler_cloud_terms",
+      "url": "https://www.maptiler.com/terms/cloud/",
+      "publisher": "MapTiler",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "maptiler_general_terms",
+      "url": "https://www.maptiler.com/terms/",
+      "publisher": "MapTiler",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "maptiler_search",
+      "url": "https://www.maptiler.com/search/",
+      "publisher": "MapTiler",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "nominatim_policy",
+      "url": "https://operations.osmfoundation.org/policies/nominatim/",
+      "publisher": "OSMF",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "osm_copyright",
+      "url": "https://www.openstreetmap.org/copyright",
+      "publisher": "OSMF",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "osm_tiles",
+      "url": "https://operations.osmfoundation.org/policies/tiles/",
+      "publisher": "OSMF",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "supabase_price",
+      "url": "https://supabase.com/pricing",
+      "publisher": "Supabase",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "neon_price",
+      "url": "https://neon.com/pricing",
+      "publisher": "Neon",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "public_http_get_after_web_reader_internal_error",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "neon_plans",
+      "url": "https://neon.com/docs/introduction/plans",
+      "publisher": "Neon",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "public_http_get_after_web_reader_internal_error",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "neon_old_price_announcement",
+      "url": "https://neon.com/blog/major-compute-price-reduction-on-neon",
+      "publisher": "Neon",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": "2025-11-03",
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "neon_backend",
+      "url": "https://neon.com/blog/neon-backend-is-ga",
+      "publisher": "Neon",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "r2_price",
+      "url": "https://developers.cloudflare.com/r2/pricing/",
+      "publisher": "Cloudflare",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "exa_price",
+      "url": "https://exa.ai/docs/admin/pricing",
+      "publisher": "Exa",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": "2026-09-23",
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "exa_marketing_price",
+      "url": "https://exa.ai/pricing",
+      "publisher": "Exa",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "exa_terms",
+      "url": "https://exa.ai/assets/Exa_Labs_Terms_of_Service.pdf/",
+      "publisher": "Exa",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "firecrawl_price",
+      "url": "https://www.firecrawl.dev/pricing",
+      "publisher": "Firecrawl",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": "2026-09-04",
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "firecrawl_search",
+      "url": "https://docs.firecrawl.dev/features/search",
+      "publisher": "Firecrawl",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "firecrawl_scrape",
+      "url": "https://docs.firecrawl.dev/features/scrape",
+      "publisher": "Firecrawl",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": null,
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    },
+    {
+      "source_id": "firecrawl_terms",
+      "url": "https://www.firecrawl.dev/terms-of-service",
+      "publisher": "Firecrawl",
+      "consulted_on": "2026-09-28",
+      "source_effective_or_modified_date": "2024-11-05",
+      "source_date_semantics": "effective/modified as explicitly shown; null if not recorded",
+      "retrieval_status": "opened",
+      "method": "web_reader",
+      "api_tested": false,
+      "full_body_retained": false
+    }
+  ],
+  "rates": [
+    {
+      "provider": "Google",
+      "product": "Dynamic Maps",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_map_loads",
+      "price": 7,
+      "source_ids": [
+        "google_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 10000,
+      "band_upper": 100000
+    },
+    {
+      "provider": "Google",
+      "product": "Geocoding",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_billable_events",
+      "price": 5,
+      "source_ids": [
+        "google_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 10000,
+      "band_upper": 100000
+    },
+    {
+      "provider": "Mapbox",
+      "product": "GL JS",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_map_initializations",
+      "price": 5,
+      "source_ids": [
+        "mapbox_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 50000,
+      "band_upper": 100000
+    },
+    {
+      "provider": "Mapbox",
+      "product": "Temporary Geocoding",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_queries",
+      "price": 0.75,
+      "source_ids": [
+        "mapbox_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 100000,
+      "band_upper": 500000,
+      "retention": "no_cache_no_storage"
+    },
+    {
+      "provider": "Mapbox",
+      "product": "Permanent Geocoding",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_queries",
+      "price": 5,
+      "source_ids": [
+        "mapbox_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 0,
+      "band_upper": 500000,
+      "retention": "indefinite_if_permanent_true",
+      "redistribution": "not_permitted_per_public_pricing",
+      "availability": "docs require card or enterprise; pricing requests sales contact"
+    },
+    {
+      "provider": "MapTiler",
+      "product": "Cloud",
+      "plan": "Free",
+      "currency": "USD",
+      "unit": "month",
+      "price": 0,
+      "source_ids": [
+        "maptiler_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "quotas": {
+        "map_sessions": 5000,
+        "search_sessions": 1000,
+        "api_requests": 100000
+      },
+      "commercial_use": "noncommercial_or_commercial_research_and_development_only"
+    },
+    {
+      "provider": "MapTiler",
+      "product": "Cloud",
+      "plan": "Flex",
+      "currency": "USD",
+      "unit": "month",
+      "price": 30,
+      "source_ids": [
+        "maptiler_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "quotas": {
+        "map_sessions": 25000,
+        "search_sessions": 3000,
+        "api_requests": 500000
+      }
+    },
+    {
+      "provider": "MapTiler",
+      "product": "Cloud map session excess",
+      "plan": "Flex",
+      "currency": "USD",
+      "unit": "1000_sessions",
+      "price": 2.5,
+      "source_ids": [
+        "maptiler_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "MapTiler",
+      "product": "Cloud search session excess",
+      "plan": "Flex",
+      "currency": "USD",
+      "unit": "1000_sessions",
+      "price": 2.5,
+      "source_ids": [
+        "maptiler_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "MapTiler",
+      "product": "Cloud API request excess",
+      "plan": "Flex",
+      "currency": "USD",
+      "unit": "1000_requests",
+      "price": 0.15,
+      "source_ids": [
+        "maptiler_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "note": "Direct geocode API call counted as request; do not double count requests covered by SDK sessions"
+    },
+    {
+      "provider": "OSMF",
+      "product": "Nominatim public",
+      "plan": "public_donated_service",
+      "currency": "USD",
+      "unit": "request",
+      "price": null,
+      "source_ids": [
+        "nominatim_policy"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "monetary_tariff": "not_published",
+      "limits": {
+        "absolute_requests_per_second_per_application": 1,
+        "periodic_or_over_one_day_requests_per_minute": 4
+      },
+      "recommended_as_mvp_backend": false
+    },
+    {
+      "provider": "Supabase",
+      "product": "Postgres and platform",
+      "plan": "Free",
+      "currency": "USD",
+      "unit": "month",
+      "price": 0,
+      "source_ids": [
+        "supabase_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "quotas": {
+        "database_gb": 0.5,
+        "file_storage_gb": 1,
+        "egress_gb": 5,
+        "cached_egress_gb": 5,
+        "active_projects": 2
+      },
+      "limitations": [
+        "pause after 7 inactive days",
+        "no automatic backups"
+      ]
+    },
+    {
+      "provider": "Supabase",
+      "product": "Postgres and platform",
+      "plan": "Pro",
+      "currency": "USD",
+      "unit": "month",
+      "price": 25,
+      "source_ids": [
+        "supabase_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "quotas": {
+        "database_gb_per_project": 8,
+        "file_storage_gb": 100,
+        "egress_gb": 250,
+        "cached_egress_gb": 250,
+        "compute_credit_usd": 10
+      },
+      "note": "One Micro covered by credit; compute billed hourly; extras excluded"
+    },
+    {
+      "provider": "Supabase",
+      "product": "database disk excess",
+      "plan": "Pro",
+      "currency": "USD",
+      "unit": "GB_month",
+      "price": 0.125,
+      "source_ids": [
+        "supabase_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Supabase",
+      "product": "file storage excess",
+      "plan": "Pro",
+      "currency": "USD",
+      "unit": "GB_month",
+      "price": 0.0213,
+      "source_ids": [
+        "supabase_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Supabase",
+      "product": "egress excess",
+      "plan": "Pro",
+      "currency": "USD",
+      "unit": "GB",
+      "price": 0.09,
+      "source_ids": [
+        "supabase_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Supabase",
+      "product": "cached egress excess",
+      "plan": "Pro",
+      "currency": "USD",
+      "unit": "GB",
+      "price": 0.03,
+      "source_ids": [
+        "supabase_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Neon",
+      "product": "Postgres",
+      "plan": "Free",
+      "currency": "USD",
+      "unit": "month",
+      "price": 0,
+      "source_ids": [
+        "neon_plans"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "quotas": {
+        "cu_hours_per_project": 100,
+        "database_gb_per_project": 0.5,
+        "egress_gb_per_project": 5,
+        "projects": 100
+      },
+      "inactive_suspend_minutes": 5
+    },
+    {
+      "provider": "Neon",
+      "product": "Postgres compute",
+      "plan": "Launch",
+      "currency": "USD",
+      "unit": "CU_hour",
+      "price": 0.106,
+      "source_ids": [
+        "neon_plans"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "minimum_monthly_charge_usd": 0,
+      "note": "Invoices below 0.50 USD not collected; older 5 USD floor superseded"
+    },
+    {
+      "provider": "Neon",
+      "product": "Postgres compute",
+      "plan": "Scale",
+      "currency": "USD",
+      "unit": "CU_hour",
+      "price": 0.222,
+      "source_ids": [
+        "neon_plans"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Neon",
+      "product": "Postgres storage",
+      "plan": "Launch/Scale",
+      "currency": "USD",
+      "unit": "GB_month",
+      "price": 0.35,
+      "source_ids": [
+        "neon_plans"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Neon",
+      "product": "Instant restore history storage",
+      "plan": "Launch/Scale",
+      "currency": "USD",
+      "unit": "GB_month",
+      "price": 0.2,
+      "source_ids": [
+        "neon_plans"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Neon",
+      "product": "Public egress excess",
+      "plan": "Launch/Scale",
+      "currency": "USD",
+      "unit": "GB",
+      "price": 0.1,
+      "source_ids": [
+        "neon_plans"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_gb_per_project": 500
+    },
+    {
+      "provider": "Neon",
+      "product": "Additional branch",
+      "plan": "Launch/Scale",
+      "currency": "USD",
+      "unit": "branch_month",
+      "price": 1.5,
+      "source_ids": [
+        "neon_plans"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "prorated": "hourly"
+    },
+    {
+      "provider": "Cloudflare",
+      "product": "R2 storage",
+      "plan": "Standard",
+      "currency": "USD",
+      "unit": "GB_month",
+      "price": 0.015,
+      "source_ids": [
+        "r2_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 10,
+      "rounding": "ceil to next GB-month billing unit"
+    },
+    {
+      "provider": "Cloudflare",
+      "product": "R2 class A",
+      "plan": "Standard",
+      "currency": "USD",
+      "unit": "million_operations",
+      "price": 4.5,
+      "source_ids": [
+        "r2_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 1,
+      "rounding": "ceil to next million",
+      "examples": [
+        "PUT",
+        "LIST"
+      ]
+    },
+    {
+      "provider": "Cloudflare",
+      "product": "R2 class B",
+      "plan": "Standard",
+      "currency": "USD",
+      "unit": "million_operations",
+      "price": 0.36,
+      "source_ids": [
+        "r2_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 10,
+      "rounding": "ceil to next million",
+      "examples": [
+        "GET",
+        "HEAD"
+      ]
+    },
+    {
+      "provider": "Cloudflare",
+      "product": "R2 Internet egress",
+      "plan": "Standard",
+      "currency": "USD",
+      "unit": "GB",
+      "price": 0,
+      "source_ids": [
+        "r2_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "note": "Other connected service charges may apply"
+    },
+    {
+      "provider": "Cloudflare",
+      "product": "R2 storage",
+      "plan": "Infrequent Access",
+      "currency": "USD",
+      "unit": "GB_month",
+      "price": 0.01,
+      "source_ids": [
+        "r2_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "free_monthly_units": 0,
+      "minimum_duration_days": 30
+    },
+    {
+      "provider": "Cloudflare",
+      "product": "R2 data retrieval",
+      "plan": "Infrequent Access",
+      "currency": "USD",
+      "unit": "GB",
+      "price": 0.01,
+      "source_ids": [
+        "r2_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Exa",
+      "product": "Search",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_requests",
+      "price": 7,
+      "source_ids": [
+        "exa_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_results_per_request": 10,
+      "free_monthly_credit_usd": 10,
+      "free_credit_reset": "balance resets to 10 USD on first day of month",
+      "onboarding_bonus_excluded": true
+    },
+    {
+      "provider": "Exa",
+      "product": "Extra search result above 10",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_results",
+      "price": 1,
+      "source_ids": [
+        "exa_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false
+    },
+    {
+      "provider": "Exa",
+      "product": "Contents",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_pages_per_content_type",
+      "price": 1,
+      "source_ids": [
+        "exa_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "note": "text plus highlights for a page count as 2"
+    },
+    {
+      "provider": "Exa",
+      "product": "AI page summaries",
+      "plan": "pay_as_you_go",
+      "currency": "USD",
+      "unit": "1000_pages",
+      "price": 1,
+      "source_ids": [
+        "exa_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "note": "Summary add-on on search; /contents also bills by content type. Do not double count summary content type plus add-on without confirming endpoint invoice semantics. Base scenario should request text only."
+    },
+    {
+      "provider": "Exa",
+      "product": "Deep Search",
+      "plan": "deep/deep-lite",
+      "currency": "USD",
+      "unit": "1000_requests",
+      "price": 12,
+      "source_ids": [
+        "exa_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_results_per_request": 10
+    },
+    {
+      "provider": "Exa",
+      "product": "Deep Search",
+      "plan": "deep-reasoning",
+      "currency": "USD",
+      "unit": "1000_requests",
+      "price": 15,
+      "source_ids": [
+        "exa_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_results_per_request": 10
+    },
+    {
+      "provider": "Firecrawl",
+      "product": "Credits",
+      "plan": "Free",
+      "currency": "USD",
+      "unit": "month",
+      "price": 0,
+      "source_ids": [
+        "firecrawl_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_credits_month": 1000,
+      "concurrency": 2,
+      "limits": {
+        "scrape_map_search_requests_minute": 10,
+        "crawl_agent_requests_minute": 2
+      }
+    },
+    {
+      "provider": "Firecrawl",
+      "product": "Credits",
+      "plan": "Hobby monthly",
+      "currency": "USD",
+      "unit": "month",
+      "price": 19,
+      "source_ids": [
+        "firecrawl_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_credits_month": 5000,
+      "billing_commitment": "monthly"
+    },
+    {
+      "provider": "Firecrawl",
+      "product": "Credits",
+      "plan": "Hobby annual",
+      "currency": "USD",
+      "unit": "month_equivalent",
+      "price": 16,
+      "source_ids": [
+        "firecrawl_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_credits_month": 5000,
+      "billing_commitment": "annual"
+    },
+    {
+      "provider": "Firecrawl",
+      "product": "Credits",
+      "plan": "Standard annual",
+      "currency": "USD",
+      "unit": "month_equivalent",
+      "price": 83,
+      "source_ids": [
+        "firecrawl_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "included_credits_month": 100000,
+      "billing_commitment": "annual"
+    },
+    {
+      "provider": "Firecrawl",
+      "product": "Credit topup",
+      "plan": "Hobby",
+      "currency": "USD",
+      "unit": "1000_credits",
+      "price": 5,
+      "source_ids": [
+        "firecrawl_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "requires_paid_plan": true
+    },
+    {
+      "provider": "Firecrawl",
+      "product": "Credit topup",
+      "plan": "Standard",
+      "currency": "USD",
+      "unit": "2000_credits",
+      "price": 5,
+      "source_ids": [
+        "firecrawl_price"
+      ],
+      "observed_on": "2026-09-28",
+      "measured_usage": false,
+      "requires_paid_plan": true
+    }
+  ],
+  "credit_unit_rules": [
+    {
+      "provider": "Firecrawl",
+      "operation": "basic scrape",
+      "credits": 1,
+      "unit": "webpage",
+      "source_id": "firecrawl_price"
+    },
+    {
+      "provider": "Firecrawl",
+      "operation": "search",
+      "credits": 2,
+      "unit": "block_of_up_to_10_results_rounded_up",
+      "source_id": "firecrawl_search"
+    },
+    {
+      "provider": "Firecrawl",
+      "operation": "PDF parse",
+      "credits": 1,
+      "unit": "PDF_page",
+      "source_id": "firecrawl_search"
+    },
+    {
+      "provider": "Firecrawl",
+      "operation": "JSON format supplement",
+      "credits": 4,
+      "unit": "webpage_in_addition_to_base",
+      "source_id": "firecrawl_search"
+    },
+    {
+      "provider": "Firecrawl",
+      "operation": "returned HTTP 403 or 404",
+      "credits": 1,
+      "unit": "basic_scrape_page",
+      "source_id": "firecrawl_price"
+    }
+  ],
+  "policy_findings": [
+    {
+      "provider": "Google",
+      "scope": "non_EEA_geocoding",
+      "retention": "general_lat_lng_cache_up_to_30_days; indefinite_user_isolated_exception_not_shared_cross_user; place_id_indefinite",
+      "map_restriction": "not_with_non_google_map",
+      "source_ids": [
+        "google_terms",
+        "google_geocoding_policy"
+      ]
+    },
+    {
+      "provider": "Mapbox",
+      "scope": "geocoding",
+      "retention": "temporary_no_cache; permanent_indefinite_with_parameter_and_account_eligibility",
+      "redistribution": "permanent_results_own_personal_or_business_use_not_distribution_or_sublicense",
+      "source_ids": [
+        "mapbox_price",
+        "mapbox_geocoding"
+      ]
+    },
+    {
+      "provider": "MapTiler",
+      "scope": "cloud_geocoding",
+      "retention": "permanent_for_most_uses",
+      "export": "search_results_outside_service_allowed; geocoding_bulk_allowed; attribution_in_or_with_database; no_substitute_dataset",
+      "source_ids": [
+        "maptiler_cloud_terms",
+        "maptiler_general_terms",
+        "maptiler_search"
+      ]
+    },
+    {
+      "provider": "OSMF",
+      "scope": "public_Nominatim",
+      "limits": "1 request/second absolute; limited one-time bulk single machine/thread with cache; recurring/over-day 4 per minute; no autocomplete/systematic sets/generic no-code geocoder",
+      "license": "ODbL_attribution_and_applicable_share_alike",
+      "source_ids": [
+        "nominatim_policy",
+        "osm_copyright"
+      ]
+    },
+    {
+      "provider": "Exa",
+      "scope": "content",
+      "permission": "third_party_rights_not_transferred_by_service_purchase; no_quality_or_rights_guarantee",
+      "source_ids": [
+        "exa_terms"
+      ]
+    },
+    {
+      "provider": "Firecrawl",
+      "scope": "content",
+      "permission": "no_infringement_of_third_party_law_or_contract; paid_tool_not_origin_license",
+      "source_ids": [
+        "firecrawl_terms"
+      ]
+    }
+  ],
+  "retrieval_errors": [
+    {
+      "url": "https://neon.com/pricing",
+      "method": "web_reader",
+      "result": "Internal Error",
+      "recovered_by_public_http_get": true
+    },
+    {
+      "url": "https://neon.com/docs/introduction/plans",
+      "method": "web_reader",
+      "result": "Internal Error",
+      "recovered_by_public_http_get": true
+    },
+    {
+      "url": "https://neon.tech/pricing",
+      "method": "web_reader",
+      "result": "Internal Error",
+      "recovered_by_public_http_get": false
+    },
+    {
+      "url": "https://neon.com/docs/introduction/pro-plan",
+      "method": "web_reader",
+      "result": "Internal Error",
+      "recovered_by_public_http_get": false
+    }
+  ],
+  "pricing_conflicts": [
+    {
+      "provider": "Neon",
+      "older_source_id": "neon_old_price_announcement",
+      "current_source_id": "neon_plans",
+      "field": "minimum_monthly_charge",
+      "older_value_usd": 5,
+      "current_value_usd": 0,
+      "resolution": "current_documentation_preferred"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+id,method,extractor_version,scope,started_at,finished_at,pages_attempted,pages_completed,pages_failed,records_output,measured_cost_usd,billing_status,closure_reason
+nontech-web-research,primary_web_search_and_open,curation1,four_series_international,2026-09-28,2026-09-28,,,8,24,,charge_unobservable,"57 distinct cited sources:46body_read,11index_only;8 documented failed attempts; success and total attempt counts unavailable"
+acquisition-v1,published_iCal_and_selected_organizer_pages,1,international_exploration_not_census,2026-09-28T09:39:17.556521+00:00,2026-09-28T10:02:22.362310+00:00,18,18,0,652,,no_paid_provider_called; research_tool_charge_unavailable,bounded_exploratory_execution; rights_and_geography_pending

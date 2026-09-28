@@ -1,0 +1,321 @@
+{
+  "reviewed_at": "2026-09-28",
+  "review_type": "agent_review_not_human_gold_labels",
+  "incoming_aliases": [
+    {
+      "canonical_event_id": "evt_85b4aa9c3b9e839a",
+      "incoming_title": "PyCon Lithuania",
+      "date": "2024-04-02",
+      "url_key": "pycon.lt/2024",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon Lithuania 2024"
+    },
+    {
+      "canonical_event_id": "evt_0617c91d76effd08",
+      "incoming_title": "Python Brasil",
+      "date": "2024-10-16",
+      "url_key": "2024.pythonbrasil.org.br",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "Python Brasil 2024"
+    },
+    {
+      "canonical_event_id": "evt_c74bf11ac6632c88",
+      "incoming_title": "PyCon LT",
+      "date": "2023-05-17",
+      "url_key": "pycon.lt/2023",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon LT 2023"
+    },
+    {
+      "canonical_event_id": "evt_11dfac6b972886d3",
+      "incoming_title": "PyConUK",
+      "date": "2023-09-22",
+      "url_key": "2023.pyconuk.org",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon UK 2023"
+    },
+    {
+      "canonical_event_id": "evt_b4c8b4590ac55632",
+      "incoming_title": "DjangoCon US",
+      "date": "2026-08-24",
+      "url_key": "2026.djangocon.us",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "DjangoCon US 2026"
+    },
+    {
+      "canonical_event_id": "evt_f0f8bded21075692",
+      "incoming_title": "SciPy India",
+      "date": "2026-12-19",
+      "url_key": "scipy.in/2026",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "SciPy India 2026"
+    },
+    {
+      "canonical_event_id": "evt_2634393393f34463",
+      "incoming_title": "PyCon Italia",
+      "date": "2023-05-25",
+      "url_key": "pycon.it",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon Italia 2023"
+    },
+    {
+      "canonical_event_id": "evt_a79023c8971a4f81",
+      "incoming_title": "PyCon+Web",
+      "date": "2025-01-24",
+      "url_key": "pyconweb.com",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon+Web 2025"
+    },
+    {
+      "canonical_event_id": "evt_a669b8c177ec9d3e",
+      "incoming_title": "DjangoCon Europe",
+      "date": "2023-05-29",
+      "url_key": "2023.djangocon.eu",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": " DjangoCon Europe 2023"
+    },
+    {
+      "canonical_event_id": "evt_8cdd2e7babdd0f59",
+      "incoming_title": "Pycon India",
+      "date": "2023-09-29",
+      "url_key": "in.pycon.org/2023",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon India 2023"
+    },
+    {
+      "canonical_event_id": "evt_3c52692b4c7b359a",
+      "incoming_title": "XtremePython Online Conference",
+      "date": "2022-12-27",
+      "url_key": "xtremepython.dev",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "XtremePython 2022"
+    },
+    {
+      "canonical_event_id": "evt_8d9fb0b6dce8d4e0",
+      "incoming_title": "XtremePython Online Conference",
+      "date": "2026-11-17",
+      "url_key": "xtremepython.dev",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "XtremePython 2026"
+    },
+    {
+      "canonical_event_id": "evt_6b5a0fd819a9d8cc",
+      "incoming_title": "Python + DS fwdays",
+      "date": "2024-04-20",
+      "url_key": "fwdays.com/en/event/python-ds-fwdays-2024",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "Python fwdays 2024"
+    },
+    {
+      "canonical_event_id": "evt_bd2f8bc30e62ee46",
+      "incoming_title": "PyBay",
+      "date": "2024-09-21",
+      "url_key": "pybay.org",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyBay 2024"
+    },
+    {
+      "canonical_event_id": "evt_faba8e7ade066007",
+      "incoming_title": "PyCon DE & PyData Berlin",
+      "date": "2023-04-17",
+      "url_key": "2023.pycon.de",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon DE & PyData Berlin 2023"
+    },
+    {
+      "canonical_event_id": "evt_7c5fc9d164e418c7",
+      "incoming_title": "XtremePython Online Conference",
+      "date": "2025-11-18",
+      "url_key": "xtremepython.dev",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "XtremePython 2025"
+    },
+    {
+      "canonical_event_id": "evt_1f682cf6c078c19d",
+      "incoming_title": "PyCon DE & PyData",
+      "date": "2022-04-11",
+      "url_key": "2022.pycon.de",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon DE & PyData Berlin 2022"
+    },
+    {
+      "canonical_event_id": "evt_e7ede83cbe091d7c",
+      "incoming_title": "PyCon Namibia",
+      "date": "2023-02-21",
+      "url_key": "na.pycon.org",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon Namibia 2023"
+    },
+    {
+      "canonical_event_id": "evt_e933ba98ab18197d",
+      "incoming_title": "DjangoCon",
+      "date": "2023-10-16",
+      "url_key": "2023.djangocon.us",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "DjangoCon US 2023"
+    },
+    {
+      "canonical_event_id": "evt_ef72a6da489bd37d",
+      "incoming_title": "PyCon UK",
+      "date": "2022-09-16",
+      "url_key": "2022.pyconuk.org",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon UK 2022"
+    },
+    {
+      "canonical_event_id": "evt_85da920c7850c2f0",
+      "incoming_title": "DjangoCon US",
+      "date": "2024-09-22",
+      "url_key": "2024.djangocon.us",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "DjangoCon US 2024"
+    },
+    {
+      "canonical_event_id": "evt_37e3aa5dc7eac5c4",
+      "incoming_title": "Pycascades",
+      "date": "2022-02-05",
+      "url_key": "2022.pycascades.com",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCascades Remote 2020"
+    },
+    {
+      "canonical_event_id": "evt_87623077ad9fa7d8",
+      "incoming_title": "SciPy",
+      "date": "2026-07-13",
+      "url_key": "scipy2026.scipy.org",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "SciPy 2026"
+    },
+    {
+      "canonical_event_id": "evt_d50594b6091aa66f",
+      "incoming_title": "PyConf Hyderabad",
+      "date": "2026-03-14",
+      "url_key": "2026.pyconfhyd.org",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyConf Hyderabad 2026"
+    },
+    {
+      "canonical_event_id": "evt_9a81ea11eb0c3746",
+      "incoming_title": "Python Web Conf",
+      "date": "2023-03-13",
+      "url_key": "2023.pythonwebconf.com",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "Python Web Conf 2023"
+    },
+    {
+      "canonical_event_id": "evt_38c7a7ad6251ac77",
+      "incoming_title": "PyConFR",
+      "date": "2023-02-16",
+      "url_key": "pycon.fr/2023",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyConFr 2023"
+    },
+    {
+      "canonical_event_id": "evt_40c98b9afafcca48",
+      "incoming_title": "pycascades",
+      "date": "2025-02-08",
+      "url_key": "2025.pycascades.com",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCascades 2025"
+    },
+    {
+      "canonical_event_id": "evt_cf8c0af0c3218349",
+      "incoming_title": "PyConFR",
+      "date": "2024-10-31",
+      "url_key": "pycon.fr/2024",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon FR 2024"
+    },
+    {
+      "canonical_event_id": "evt_2ac3662f74f40025",
+      "incoming_title": "GeoPython",
+      "date": "2023-03-06",
+      "url_key": "2023.geopython.net",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "GeoPython 2023"
+    },
+    {
+      "canonical_event_id": "evt_99acac13cfa3f79d",
+      "incoming_title": "PyConZA",
+      "date": "2021-10-07",
+      "url_key": "za.pycon.org",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon ZA 2021"
+    },
+    {
+      "canonical_event_id": "evt_b8d7930d73c2506f",
+      "incoming_title": "PyCon Greece",
+      "date": "2025-08-29",
+      "url_key": "2025.pycon.gr/en",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon Greece 2025"
+    },
+    {
+      "canonical_event_id": "evt_2fa5b72d6d1f3c6c",
+      "incoming_title": "enterPy",
+      "date": "2022-10-25",
+      "url_key": "enterpy.de",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "enterPy 2022"
+    },
+    {
+      "canonical_event_id": "evt_29cc8dea6e758db0",
+      "incoming_title": "PyCon Italia",
+      "date": "2025-05-28",
+      "url_key": "2025.pycon.it/en",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon Italia 2025"
+    },
+    {
+      "canonical_event_id": "evt_3e054b00e3fa046b",
+      "incoming_title": "PyCon India",
+      "date": "2024-09-20",
+      "url_key": "in.pycon.org/2024",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon India 2024"
+    },
+    {
+      "canonical_event_id": "evt_9b60cbcf47c3ab13",
+      "incoming_title": "XtremePython",
+      "date": "2023-12-05",
+      "url_key": "xtremepython.dev",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "XtremePython 2023"
+    },
+    {
+      "canonical_event_id": "evt_20ccee0b7a792a00",
+      "incoming_title": "PyCon",
+      "date": "2022-04-27",
+      "url_key": "us.pycon.org/2022",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "PyCon US 2022"
+    },
+    {
+      "canonical_event_id": "evt_c67a0800fc2cf273",
+      "incoming_title": "Django Day",
+      "date": "2024-10-04",
+      "url_key": "2024.djangoday.dk",
+      "reason": "Agent-reviewed same event homepage and exact start date; year/acronym/generic conference suffix varies; preserve conflicting titles as assertions",
+      "legacy_title": "Django Day Copenhagen 2024"
+    }
+  ],
+  "inherited_redirects": [
+    {
+      "alias_event_id": "evt_e031096e2872cd62",
+      "canonical_event_id": "evt_a1dd3167c969522d",
+      "reason": "Same exact Meetup occurrence URL njdjssydcnbzb and date; NZPUG prefix only",
+      "url_key": "meetup.com/nzpug-auckland/events/njdjssydcnbzb"
+    },
+    {
+      "alias_event_id": "evt_de2f158d806fd72f",
+      "canonical_event_id": "evt_5fc2ba3af4a8b8d2",
+      "reason": "Same Python Leiden meeting URL 2026-09-17; trailing title whitespace",
+      "url_key": "pythonleiden.nl/meeting-2026-09-17.html"
+    }
+  ],
+  "not_merged": [
+    "Scikit-learn Sprint and Jupyter Sprint are different workshops sharing homepage/date",
+    "RTNS conference and Junior Researcher Workshop are different co-located events",
+    "InnerSource Summit multi-location entries require event-location review"
+  ]
+}

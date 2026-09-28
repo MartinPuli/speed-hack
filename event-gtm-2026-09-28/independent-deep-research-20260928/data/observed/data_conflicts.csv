@@ -1,0 +1,4 @@
+id,entity_table,entity_id,field,assertion_ids_json,resolution,status,reviewer,source_id
+data_conflicts_f30f6db7f66d9d78,sponsorship_packages,sponsorship_packages_9049ea803184f13a,amount_min,[],"PDF says 6000; website says +6000 and sold out. Preserve PDF offer, do not treat as current quote.",unresolved_version_or_range,,src_7dac876b9781d5e3
+data_conflicts_2b79b02441f801a4,event_editions,evt_9438314c52d10a5f,start_date,[],Python.org HTML listing observed Oct17; live iCal and dated organizer update Nov21. Prefer organizer update.,resolved_for_current_view; stale_listing_retained,,src_4b1f01673b1b0849
+data_conflicts_d059e0462702b9e3,event_editions,evt_dc71e11656e99e2d,end_date,"[""as_8c49ed0f4f50fc9c"",""assertions_804dc2a019ce4149""]",ICS DTEND 20241006 implies exclusive end Oct5; organizer explicitly includes Oct6. Current view corrected; raw metadata retained.,resolved_organizer_preferred,,src_da2557fd2a75f70b

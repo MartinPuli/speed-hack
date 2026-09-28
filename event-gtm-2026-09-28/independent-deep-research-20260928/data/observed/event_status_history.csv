@@ -1,0 +1,2 @@
+id,event_id,previous_status,new_status,announced_at,effective_at,reason,source_id
+event_status_history_1a9d30d5b7376ef6,evt_9438314c52d10a5f,scheduled_2026-10-17_Trinity_College,rescheduled_2026-11-21_venue_TBA,2026-08-27,2026-11-21,Original venue unable to host; date re-confirmed by organizer,src_4b1f01673b1b0849

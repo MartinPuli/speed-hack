@@ -1,0 +1,11 @@
+id,entity_table,entity_id,alias,external_system,valid_from,valid_to,equivalence_reason,review_status,source_id
+alias_54d9f5c168efd053,companies,co_6f348ef7bc564637,Qube Research & Technologies Limited,organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_a8039e7f5b60402a
+alias_1295e32d76888df0,companies,co_d78d9a6911dedbdf,The Open Source Initiative,organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_a8039e7f5b60402a
+alias_6e60a5c8575c8805,companies,co_da1f7df424253d20,US Digital Service,organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_7ad814aa572fc9ba
+alias_87edb3854178f8c0,companies,co_d9082bdcf7eaf584,Auth0 by Okta,organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_7ad814aa572fc9ba
+alias_70d337d0a322b57e,companies,co_e25481764d2dd413,Haystack (by deepset),organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_54d689b8cce30f65
+alias_70f1ce7bc7828b2d,companies,co_cdc00f6c62a542af,EdgeDB,organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_54d689b8cce30f65
+alias_3821dbb70916a312,companies,co_b17a3bcc21f120a7,DevITJobs,organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_54d689b8cce30f65
+alias_3443d46507ab1d48,companies,co_307bc6d73f16c336,Western Governors University (WGU),organizer_publication,,,Reviewed brand/name normalization; Gel rename supported by corporate announcement.,reviewed,src_b7abf127fce0b3ab
+entity_aliases_f9759fb1c9869178,companies,co_cdf32394d26ce945,CCR,,2025-04,,"Published brand change; historical source spelling preserved, agreement continuity not inferred",reviewed_brand_link; legal_identity_unverified,src_732081c726ddf250
+entity_aliases_77b450fce3397d57,companies,co_cdf32394d26ce945,Grupo CCR,,2025-04,,Published rebrand link; historical company legal identity and sponsorship transfer are not asserted,reviewed_brand_transition_only,src_291e81826ac76d32

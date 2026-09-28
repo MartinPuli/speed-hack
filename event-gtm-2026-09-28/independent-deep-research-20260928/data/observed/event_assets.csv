@@ -1,0 +1,3 @@
+id,event_id,asset_type,url,author,language,published_at,rights,locator,source_id
+event_assets_b99b744d9a233d46,evt_5b75e8160a2e1a5d,sponsorship_prospectus,https://2023.es.pycon.org/theme/assets/files/pycones2023_patrocinios.pdf,,,,commercial_reuse_not_cleared; original_not_redistributed,pages cited per assertion,src_ce8c1dd48eac4cc9
+event_assets_397d2d1f64b205cd,evt_46dba274af8639b7,sponsorship_prospectus,https://2025.pycon.org.au/files/Sponsor%20PyCon%20AU%202025%20-%20Prospectus%20v3.pdf,,,,commercial_reuse_not_cleared; original_not_redistributed,pages cited per assertion,src_89db9a524d695750

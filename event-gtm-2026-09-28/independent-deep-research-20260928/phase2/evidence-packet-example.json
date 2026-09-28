@@ -1,0 +1,340 @@
+{
+  "purpose": "demonstrate narrow evidence retrieval, not personalized or ranked relevance",
+  "cutoff": "2026-09-28",
+  "events": [
+    {
+      "id": "evt_9da972220c78ac0f",
+      "title": "PyBay 2026",
+      "start_date": "2026-10-03",
+      "country": "United States",
+      "format": "conference"
+    },
+    {
+      "id": "evt_ce6bd55ee3cb5a28",
+      "title": "Python Meeting Düsseldorf",
+      "start_date": "2026-10-07",
+      "country": "Germany",
+      "format": "community_meeting"
+    },
+    {
+      "id": "evt_3a3a17d29cb47ddf",
+      "title": "PyCon Africa 2026",
+      "start_date": "2026-10-07",
+      "country": "Uganda",
+      "format": "conference"
+    },
+    {
+      "id": "evt_a0ed01477347f0b3",
+      "title": "PyEducation – IPAF – Alda de Fátima",
+      "start_date": "2026-10-08",
+      "country": "Angola",
+      "format": "community_meeting"
+    },
+    {
+      "id": "evt_c43d6fa25b911b1b",
+      "title": "PyCon Greece 2026",
+      "start_date": "2026-10-12",
+      "country": "Greece",
+      "format": "conference"
+    },
+    {
+      "id": "evt_d4fe659e50c08239",
+      "title": "Frieze London 2026",
+      "start_date": "2026-10-14",
+      "country": "United Kingdom",
+      "format": "art_fair"
+    },
+    {
+      "id": "evt_f7f941f37fc9424b",
+      "title": "PyCon NL 2026",
+      "start_date": "2026-10-15",
+      "country": "Netherlands",
+      "format": "conference"
+    },
+    {
+      "id": "evt_6f2e680bdac0b5b0",
+      "title": "PyCon Taiwan",
+      "start_date": "2026-10-17",
+      "country": "Taiwan",
+      "format": "conference"
+    },
+    {
+      "id": "evt_612aaae6f98fc90a",
+      "title": "Django Girls Ho 2026",
+      "start_date": "2026-10-22",
+      "country": "Ghana",
+      "format": "community_meeting"
+    },
+    {
+      "id": "evt_8e903408da778d07",
+      "title": "PyCon Panamá 2026",
+      "start_date": "2026-10-22",
+      "country": "Panama",
+      "format": "conference"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "as_11f4b55b2fa5c4d0",
+      "entity_id": "evt_3a3a17d29cb47ddf",
+      "field": "location_raw",
+      "value_json": "\"Kampala, Uganda\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_4346a7aa0db6c8a9",
+      "entity_id": "evt_3a3a17d29cb47ddf",
+      "field": "start_date",
+      "value_json": "\"2026-10-07\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_939bd5e0ad4872e7",
+      "entity_id": "evt_3a3a17d29cb47ddf",
+      "field": "title",
+      "value_json": "\"PyCon Africa 2026\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_886e635e43949127",
+      "entity_id": "evt_612aaae6f98fc90a",
+      "field": "location_raw",
+      "value_json": "\"Ho, Ghana\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_9a79fd121a2aa1ea",
+      "entity_id": "evt_612aaae6f98fc90a",
+      "field": "start_date",
+      "value_json": "\"2026-10-22\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_d9b15662a3ad8108",
+      "entity_id": "evt_612aaae6f98fc90a",
+      "field": "title",
+      "value_json": "\"Django Girls Ho 2026\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_cccaba6683cc7a11",
+      "entity_id": "evt_6f2e680bdac0b5b0",
+      "field": "location_raw",
+      "value_json": "\"Taipei City, Taiwan\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_b01ba97a44bf8e4f",
+      "entity_id": "evt_6f2e680bdac0b5b0",
+      "field": "start_date",
+      "value_json": "\"2026-10-17\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_3f41fc9f4312cd6e",
+      "entity_id": "evt_6f2e680bdac0b5b0",
+      "field": "title",
+      "value_json": "\"PyCon Taiwan\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_eed3db8989dfbc8d",
+      "entity_id": "evt_8e903408da778d07",
+      "field": "location_raw",
+      "value_json": "\"Panama City, Panama\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_f140b32a7876e8b1",
+      "entity_id": "evt_8e903408da778d07",
+      "field": "start_date",
+      "value_json": "\"2026-10-22\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_44320a30a2f8f426",
+      "entity_id": "evt_8e903408da778d07",
+      "field": "title",
+      "value_json": "\"PyCon Panamá 2026\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_943d6fe81052efea",
+      "entity_id": "evt_9da972220c78ac0f",
+      "field": "location_raw",
+      "value_json": "\"San Francisco, CA, USA\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_d6d791a4247306a8",
+      "entity_id": "evt_9da972220c78ac0f",
+      "field": "start_date",
+      "value_json": "\"2026-10-03\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_2049a967c40d8b8b",
+      "entity_id": "evt_9da972220c78ac0f",
+      "field": "title",
+      "value_json": "\"PyBay 2026\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_bbba04507c8b692b",
+      "entity_id": "evt_a0ed01477347f0b3",
+      "field": "location_raw",
+      "value_json": "\"Namibe, Angola\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_3219d936d961bcc1",
+      "entity_id": "evt_a0ed01477347f0b3",
+      "field": "start_date",
+      "value_json": "\"2026-10-08\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_fc9931acbca23d14",
+      "entity_id": "evt_a0ed01477347f0b3",
+      "field": "title",
+      "value_json": "\"PyEducation – IPAF – Alda de Fátima\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_380c3fa9ebac65d8",
+      "entity_id": "evt_c43d6fa25b911b1b",
+      "field": "location_raw",
+      "value_json": "\"Athens , Greece\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_2d96c686a0d89a0d",
+      "entity_id": "evt_c43d6fa25b911b1b",
+      "field": "start_date",
+      "value_json": "\"2026-10-12\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_b900e890013c3354",
+      "entity_id": "evt_c43d6fa25b911b1b",
+      "field": "title",
+      "value_json": "\"PyCon Greece 2026\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_5559faba6bc835ba",
+      "entity_id": "evt_ce6bd55ee3cb5a28",
+      "field": "location_raw",
+      "value_json": "\"Düsseldorf, Germany\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_aee727aec9665beb",
+      "entity_id": "evt_ce6bd55ee3cb5a28",
+      "field": "start_date",
+      "value_json": "\"2026-10-07\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_5a1fb6840c84f1e4",
+      "entity_id": "evt_ce6bd55ee3cb5a28",
+      "field": "title",
+      "value_json": "\"Python Meeting Düsseldorf\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_997fcf525289e6c4",
+      "entity_id": "evt_d4fe659e50c08239",
+      "field": "location_raw",
+      "value_json": "\"London; The Regent’s Park, Reino Unido\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://press.frieze.com/flfm26-first-details/"
+    },
+    {
+      "id": "as_dfb2390a990bc265",
+      "entity_id": "evt_d4fe659e50c08239",
+      "field": "start_date",
+      "value_json": "\"2026-10-14\"",
+      "confidence_basis": "primary_body_verified",
+      "url": "https://press.frieze.com/flfm26-first-details/"
+    },
+    {
+      "id": "assertions_77dc5d18f82d080e",
+      "entity_id": "evt_d4fe659e50c08239",
+      "field": "start_date",
+      "value_json": "\"2026-10-14\"",
+      "confidence_basis": "primary_body_verified",
+      "url": "https://press.frieze.com/flfm26-first-details/"
+    },
+    {
+      "id": "as_939867b6c46ae4ed",
+      "entity_id": "evt_d4fe659e50c08239",
+      "field": "title",
+      "value_json": "\"Frieze London 2026\"",
+      "confidence_basis": "primary_body_verified",
+      "url": "https://press.frieze.com/flfm26-first-details/"
+    },
+    {
+      "id": "assertions_6b25619656d7ce8c",
+      "entity_id": "evt_d4fe659e50c08239",
+      "field": "title",
+      "value_json": "\"Frieze London 2026\"",
+      "confidence_basis": "primary_body_verified",
+      "url": "https://press.frieze.com/flfm26-first-details/"
+    },
+    {
+      "id": "as_4aea672445f1f862",
+      "entity_id": "evt_f7f941f37fc9424b",
+      "field": "location_raw",
+      "value_json": "\"Utrecht, The Netherlands\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_22d3aef2b654419d",
+      "entity_id": "evt_f7f941f37fc9424b",
+      "field": "start_date",
+      "value_json": "\"2026-10-15\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    },
+    {
+      "id": "as_a65e7005d8ef760e",
+      "entity_id": "evt_f7f941f37fc9424b",
+      "field": "title",
+      "value_json": "\"PyCon NL 2026\"",
+      "confidence_basis": "Fuente identificada; no verificación independiente de resultados.",
+      "url": "https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics"
+    }
+  ],
+  "missing": [
+    "budget",
+    "availability",
+    "audience relevance"
+  ],
+  "no_private_data": true
+}

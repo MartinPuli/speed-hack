@@ -1,0 +1,14 @@
+{
+  "fetch_id": "fetch_enr_1c044cd8ce806e6b",
+  "source_url": "https://archive.fosdem.org/2026/about/sponsors/",
+  "final_url": "https://archive.fosdem.org/2026/about/sponsors/",
+  "observed_at": "2026-09-28T15:47:58.025489+00:00",
+  "http_status": 200,
+  "content_sha256": "5f53f53838ee3034916289de57104cdba575bf19ab96fda3e4b38b4ce1d88972",
+  "bytes": 28737,
+  "content_type": "text/html",
+  "robots_status": 404,
+  "robots_decision": "robots_absent",
+  "attempts": 1,
+  "prior_error": null
+}

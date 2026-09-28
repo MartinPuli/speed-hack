@@ -1,0 +1,93 @@
+[
+  {
+    "event_id": "evt_9da972220c78ac0f",
+    "name": "PyBay 2026",
+    "date": "2026-10-03",
+    "end_date": "2026-10-03",
+    "timezone": null,
+    "status": "upcoming_announced; organizer_rechecked",
+    "address": "1675 Owens St, San Francisco, CA 94158, USA",
+    "country": "United States",
+    "latitude": null,
+    "longitude": null,
+    "location_precision": "published_address_ungeocoded",
+    "source_url": "https://pretix.eu/bapya/pybay-2026/",
+    "verified_on": "2026-09-28",
+    "prices": [
+      {
+        "amount": 375,
+        "currency": "USD",
+        "availability": "conflicting_expired_deadline; verify_before_purchase"
+      },
+      {
+        "amount": 200,
+        "currency": "USD",
+        "availability": "conflicting_expired_deadline; verify_before_purchase"
+      },
+      {
+        "amount": 40,
+        "currency": "USD",
+        "availability": "conflicting_expired_deadline; verify_before_purchase"
+      }
+    ],
+    "fit": "Illustrative developer-event exploration, no actual company profile",
+    "limitations": "Travel budget, ticket availability and audience fit require confirmation"
+  },
+  {
+    "event_id": "evt_3a3a17d29cb47ddf",
+    "name": "PyCon Africa 2026",
+    "date": "2026-10-07",
+    "end_date": "2026-10-11",
+    "timezone": null,
+    "status": "upcoming_announced; organizer_rechecked",
+    "address": "Wavamunno Rd, Kampala, Uganda",
+    "country": "Uganda",
+    "latitude": null,
+    "longitude": null,
+    "location_precision": "published_address_ungeocoded",
+    "source_url": "https://africa.pycon.org/",
+    "verified_on": "2026-09-28",
+    "prices": [
+      {
+        "amount": 292500,
+        "currency": "UGX",
+        "availability": "advertised_available; checkout_not_tested"
+      },
+      {
+        "amount": 214600,
+        "currency": "UGX",
+        "availability": "advertised_available; checkout_not_tested"
+      },
+      {
+        "amount": 200000,
+        "currency": "UGX",
+        "availability": "advertised_available; checkout_not_tested"
+      },
+      {
+        "amount": 604500,
+        "currency": "UGX",
+        "availability": "advertised_available; checkout_not_tested"
+      }
+    ],
+    "fit": "Illustrative developer-event exploration, no actual company profile",
+    "limitations": "Travel budget, ticket availability and audience fit require confirmation"
+  },
+  {
+    "event_id": "evt_f7f941f37fc9424b",
+    "name": "PyCon NL 2026",
+    "date": "2026-10-15",
+    "end_date": "2026-10-15",
+    "timezone": null,
+    "status": "upcoming_announced; organizer_rechecked",
+    "address": "Jaarbeursplein 6, 3521 AL Utrecht, The Netherlands",
+    "country": "Netherlands",
+    "latitude": null,
+    "longitude": null,
+    "location_precision": "published_address_ungeocoded",
+    "source_url": "https://www.pycon-nl.org/",
+    "verified_on": "2026-09-28",
+    "prices": [],
+    "fit": "Illustrative developer-event exploration, no actual company profile",
+    "limitations": "Travel budget, ticket availability and audience fit require confirmation"
+  }
+]

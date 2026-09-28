@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Build artefacts and the previous version of the site.
+Disallow: /cache/
+Disallow: /_data/
+Disallow: /old/
+
+Sitemap: https://www.conferences-computer.science/sitemap.xml

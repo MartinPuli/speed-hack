@@ -1,0 +1,289 @@
+id,name,domain,company_url,aliases_json,description,industry,products_json,markets_json,size_text,missing_reasons_json,source_id
+co_0fb9765e58d296e5,Bloomberg,techatbloomberg.com,https://www.techatbloomberg.com/?utm_medium=cto&utm_content=site-partner&utm_source=site-partner&utm_campaign=MKTG_2002TechEvent_PyConUS&tactic=600319,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_ea3bd73e2b506e00,Meta,about.facebook.com,https://about.facebook.com/meta/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_bbdefa2950f49882,Google,opensource.google,https://opensource.google/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_9fbf261b62c1d7c0,Microsoft,azure.microsoft.com,https://azure.microsoft.com/en-us/develop/python/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_8d4321d936320802,NVIDIA,developer.nvidia.com,https://developer.nvidia.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_7d1507284a5757ca,AWS,aws.amazon.com,https://aws.amazon.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_67b51232d90eef07,Capital One,capitalone.com,https://www.capitalone.com/tech/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_d888a3e4ea95d404,Indeed,opensource.indeed.com,http://opensource.indeed.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f5b3373a9fbd0315,Corning Incorporated,corning.com,https://www.corning.com/worldwide/en.html,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_fee6fd0cc1707a18,Ansys,ansys.com,https://www.ansys.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_6f348ef7bc564637,Qube Research & Technologies,qube-rt.com,https://www.qube-rt.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f7d9f5a90479d632,Ramp,ramp.com,https://ramp.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_c4fe98345289633c,Fannie Mae,fanniemae.com,https://www.fanniemae.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_9f8230c43ce398d6,Motional,motional.com,http://www.motional.com/careers,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_7606c4cbaae85d2d,"Anaconda, Inc",anaconda.com,https://www.anaconda.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_916a98f0fa2a39af,IBM,ibm.com,https://www.ibm.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_c9a2dcb05123781d,Coiled,coiled.io,https://coiled.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_8dfe5e6cf73b1d6b,Red Hat,redhat.com,https://www.redhat.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_04b6c31ced2043ce,Rebellion Defense,rebelliondefense.com,https://rebelliondefense.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f344a3efa4668566,Prefect,prefect.io,https://www.prefect.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_50cfd89765d6d5dd,Crunchy Data,crunchydata.com,https://www.crunchydata.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_8dfea6856769fb4d,Shortcut,shortcut.com,http://shortcut.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_5a1ad84a47ec210d,Hudson River Trading,hudsonrivertrading.com,https://www.hudsonrivertrading.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_200e997d97c7a78a,Linode,linode.com,http://linode.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_6c2949a5b9698d22,JetBrains,jetbrains.com,https://www.jetbrains.com/pycharm/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_039e65978ab36874,AKASA,akasa.com,https://www.akasa.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_99c090636aa0f68a,OpenEDG Python Institute,pythoninstitute.org,https://pythoninstitute.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_9202af6ce925b26a,Oracle,oracle.com,https://www.oracle.com/cloud/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_8a44b67ae1db24f9,Codeanywhere,codeanywhere.com,https://codeanywhere.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_0cf6855c1a3c323b,Sentry,sentry.io,https://sentry.io/welcome/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_472e893c30310a7b,Tidelift,tidelift.com,https://tidelift.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f8532933789406dc,Real Python,realpython.com,https://realpython.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_a82261cfdc8e1155,New Relic,newrelic.com,https://newrelic.com/signup?utm_source=event&utm_medium=devrel_event&utm_campaign=amer-fy23-q1-pycon,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_737e91b03ee3cfc5,Sourcegraph,srcgr.ph,https://srcgr.ph/uemWl,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_8fbeda012c76d899,"Docker, Inc.",docker.com,https://www.docker.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_cc634dced3e6279e,OpenRefactory,openrefactory.com,https://www.openrefactory.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_1706716bb5eebbe2,Superblocks,superblocks.com,https://www.superblocks.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_a5302c4694722195,Rookout,rookout.com,https://www.rookout.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_de5a1adf4fedcce1,Snowflake,snowflake.com,https://www.snowflake.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_7ba99a119580a884,OpenTeams,openteams.com,https://www.openteams.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_524f3f7ce2bc0326,Bodo.ai,bodo.ai,https://bodo.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_986051385feae5b9,Elastic,elastic.co,https://www.elastic.co/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_19dd31ffd7bb951a,Two Sigma,twosigma.com,https://www.twosigma.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_eda870f040899043,Sonatype,sonatype.com,https://www.sonatype.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_84a3693331a95fd0,Activeloop,activeloop.ai,http://activeloop.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_c7ad2ac22b4500bd,Rivian,rivian.com,http://www.rivian.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_4458f786505ab7bb,SonarSource,sonarsource.com,https://www.sonarsource.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_b337951cb83ffa44,Wayfair,aboutwayfair.com,https://www.aboutwayfair.com/careers/tech-blog,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_c723ccd1e1a6eb20,Bluevine,bluevine.com,https://www.bluevine.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f8849d864257947c,Deepgram,developers.deepgram.com,https://developers.deepgram.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_1d772ffb5ed5f970,Sourcery,sourcery.ai,https://sourcery.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_1c6cda31110c57fa,PagerDuty,pagerduty.com,https://www.pagerduty.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_bb043f4f48305a61,Cuttlesoft,cuttlesoft.com,https://cuttlesoft.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_50bc66d8aae5ae90,Anvil,anvil.works,https://anvil.works/?utm_source=sponsorship:pycon-2021,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_335030e60af34715,Cockroach Labs,cockroachlabs.com,http://www.cockroachlabs.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_17d43645b4daf733,Platform.sh,platform.sh,https://platform.sh/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_d9082bdcf7eaf584,Auth0,auth0.com,https://auth0.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_b7750a3df0d40d27,Contrast Security,contrastsecurity.com,https://www.contrastsecurity.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_93d59962b06d8e0f,Reuven Lerner — Python training,lerner.co.il,https://lerner.co.il,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_a2a83943d5534752,Saturn Cloud,saturncloud.io,https://saturncloud.io/?utm_source=PyCon&utm_medium=Try&utm_campaign=Try,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_065c04f51f8295c9,"Tatari, Inc.",tatari.tv,https://www.tatari.tv/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_d3566809b85a6169,CircleCI,circleci.com,https://circleci.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_e06a2145ce9bb611,Python Academy,python-academy.com,https://www.python-academy.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_7352f353c460e74c,Twitter,about.twitter.com,https://about.twitter.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_2d6c9f56bae05223,Guidebook,guidebook.com,http://www.guidebook.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_1e86eae524ed28f9,Quansight,quansight.com,https://www.quansight.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_13ed070478ef62c3,Netflix,about.netflix.com,https://about.netflix.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f96e1cd338ed25c1,Sticker Mule,mule.to,https://mule.to/p2oh,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_35832d1c4a470cad,PythonAnywhere LLP,pythonanywhere.com,https://www.pythonanywhere.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_cd90699b064c8ea9,Ordina Pythoneers,ordina.nl,https://www.ordina.nl/vakgebieden/python/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_a3ec05bacf98ab46,REVSYS,revsys.com,https://www.revsys.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_89d01c9ba73cb5c4,Twilio,twilio.com,https://www.twilio.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_c629c048fbb93653,Python Engineer Development Association,pythonic-exam.com,https://www.pythonic-exam.com/en,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_7839b6ada259ffca,Recursion Pharmaceuticals,recursion.com,https://www.recursion.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_58fd7151c0e14591,IP2Location,ip2location.com,https://www.ip2location.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_202d35b234122dd9,Fulfil.iO,fulfil.io,https://www.fulfil.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_fefaa42da40ecf93,Hostinger,hostinger.com,https://www.hostinger.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f80e6507f90e6c33,Research Affiliates,researchaffiliates.com,https://www.researchaffiliates.com/about-us/technology,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_9174f65ba89173ac,Gretel.ai,gretel.ai,https://gretel.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_564119e3839812ca,Praca.pl,praca.pl,https://www.praca.pl/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_8b8c575a7f97894b,"Accounting Data Solutions, LLC",accountingdatasolutions.com,https://www.accountingdatasolutions.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_1dd7fa803674c56e,SEO25.com,seo25.com,https://www.seo25.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_44d32dc33740cc89,Fortive,fortive.com,https://fortive.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_a478b4566be5cb00,PostgreSQL,postgresql.org,https://www.postgresql.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_067e837f5e319f9b,Targeted Web Traffic,targetedwebtraffic.com,https://www.targetedwebtraffic.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_031ac995a40ff061,LaunchDarkly,launchdarkly.com,https://launchdarkly.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_332668ef885f84aa,minimumdepositcasinos.org,minimumdepositcasinos.org,https://www.minimumdepositcasinos.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_bb3ff901cf098794,BeProud,beproud.jp,https://www.beproud.jp/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_0de7775d90dfeb81,PyLadies,pyladies.com,https://pyladies.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_d78d9a6911dedbdf,Open Source Initiative,opensource.org,https://opensource.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_8005db898448a804,Python Software Foundation,python.org,https://www.python.org/psf-landing/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_a6158572ac986721,No Starch Press,nostarch.com,https://nostarch.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_f270cf67ebde6e36,NumFOCUS,numfocus.org,https://numfocus.org,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_9e6d67222e41669b,Chainguard,chainguard.dev,https://chainguard.dev/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_fb43d12620ce8705,"OtterTune, Inc.",ottertune.com,https://ottertune.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_483d9d2baa1c72ea,Devron,devron.ai,https://www.devron.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_870035512490d725,Slim.AI,slim.ai,https://www.slim.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_728f72723a0c5799,OpenBlender,openblender.io,https://www.openblender.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_bf0e59763d382462,Union.ai,union.ai,https://union.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_457d5bf09e1107ec,Ploomber,ploomber.io,https://ploomber.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_b4281b9196d3c2e2,Rasgo,rasgoml.com,https://www.rasgoml.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a8039e7f5b60402a
+co_3ccbd9105a45d8fc,Salesforce,opensource.salesforce.com,https://opensource.salesforce.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_5b162b0485992362,Citadel Securities,citadelsecurities.com,https://www.citadelsecurities.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_c63a9876a150404e,Delta Lake,delta.io,https://delta.io,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_2dae946ece4887f3,Courier,courier.com,https://www.courier.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_fff54f474949593e,Jane Street,janestreet.com,https://www.janestreet.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_8bd191612e518228,Voloridge Investment Management,voloridge.com,https://www.voloridge.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_71cb02ed8285bbc0,Covalent,covalent.xyz,https://www.covalent.xyz/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_4efb305aa25d3762,Descope,descope.com,https://www.descope.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_583a0126b22c6e8c,Taipy,taipy.io,https://www.taipy.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_dda458ae9a200140,Jina AI,jina.ai,http://www.jina.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_de19a670b445db55,Noteable,noteable.io,https://noteable.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_e4540a7c8404b1be,Temporal,temporal.io,https://www.temporal.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_e1c8b17102a886c6,Retool,retool.com,https://retool.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_e25481764d2dd413,deepset,deepset.ai,https://www.deepset.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_37b61d8e485adf54,Akamai Cloud Computing Services,linode.com,https://www.linode.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_b7f79e8d35e86317,Cape Privacy,capeprivacy.com,https://capeprivacy.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_aacca8bcb37aefa0,Verizon,verizon.com,https://www.verizon.com/support/residential/internet/equipment/open-source-software,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_66a4c7087268d4e4,HENNGE (Japan),hennge.com,https://hennge.com/global/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_4d8bd97f03109ac1,Datadog,datadoghq.com,https://www.datadoghq.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_da1f7df424253d20,U.S. Digital Service,usds.gov,http://www.usds.gov,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_b2f7f26289c74cdf,Coherence,withcoherence.com,https://www.withcoherence.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_13fd9e770be36698,neo4j,neo4j.com,https://neo4j.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_08e05b2a2d20f9bb,TelemetryHub,telemetryhub.com,https://telemetryhub.com/?utm_source=pycon_2023&utm_medium=event&utm_campaign=sponsor_landingpage_link,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_b0c5ed0373c6dce9,Anyscale,anyscale.com,https://www.anyscale.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_e2657581fe469aaa,Infobip,infobip.com,https://www.infobip.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_6cf8f6a5860efce5,Einblick Analytics Inc.,einblick.ai,https://www.einblick.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_bffa48eb238c593b,Six Feet Up,sixfeetup.com,https://www.sixfeetup.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_2d11bbe7f5477739,Toyota Financial Services,toyotafinancial.com,https://www.toyotafinancial.com/us/en.html,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_4327ae043030e56a,Lincoln Loop,lincolnloop.com,https://lincolnloop.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_edcf0458016a0e5b,Healthvana,healthvana.com,https://healthvana.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_3db1f560db626918,Canva,canva.com,https://www.canva.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_b17a3bcc21f120a7,DevITjobs,devitjobs.us,https://devitjobs.us/jobs/Python/all/all,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_e0239380f6ff1805,CrossCompute,crosscompute.com,https://crosscompute.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_ba07354baa798e5e,Adimian.be SPRL,adimian.com,https://www.adimian.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_4d3ac065f59aec6d,it-jobs.de,it-jobs.de,https://it-jobs.de,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_528568279a01be76,dmTECH GmbH,dm-jobs.com,https://www.dm-jobs.com/dmTECH/?locale=de_DE&wt_mc=.display.python.sponsoring.logo,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_3e84c86692aa4049,PRISMA Capacity Platform,prisma-capacity.eu,https://www.prisma-capacity.eu/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_f4ba7fa74be66d39,EaseUS Software,easeus.com,https://www.easeus.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_4cef8fea9158d905,ionic,ionic.io,https://ionic.io/framework,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_812e332889a7564f,Nixtla,nixtla.io,https://www.nixtla.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_5bcad0dd47c63afb,Ponder,ponder.io,https://ponder.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_c6a6190da8fc5898,Predibase,predibase.com,https://www.predibase.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_59b6c17db39c038f,Fixie AI,fixie.ai,https://fixie.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_a792f3832079c9c0,Wherobots Inc.,wherobots.ai,https://www.wherobots.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_f1bda1e1fec8c7e8,Pynecone,pynecone.io,https://pynecone.io,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_2bf4825e44cdc9ae,Neptyne,neptyne.com,https://neptyne.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_db3d8d2564eb3c00,Generally Intelligent,generallyintelligent.com,https://generallyintelligent.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_9e5809708c79b689,IMC Trading,imc.com,https://www.imc.com/us/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_94189646941b7448,PyCon APAC Community,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_5a0732b8ea1c3aad,"Department of Biostatistics and Data Science, University of Kansas Medical Center",kumc.edu,https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science.html,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_cc23a96448fd7632,BeeWare Project,beeware.org,https://beeware.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_81815e3cad013bb9,CodeDay,codeday.org,https://www.codeday.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_f68ae76006d5e2a5,Research Affiliates LLC,researchaffiliates.com,https://www.researchaffiliates.com/about-us/technology,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_4fa81ae73ef76393,Federal Reserve Bank of Kansas City,kansascityfed.org,https://www.kansascityfed.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7ad814aa572fc9ba
+co_0f214b80de91c060,Fastly,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_4202df23a0dc9b38,Cubist Systematic Strategies,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_c4e96ef720ad19a2,Streamlit,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_066b5b5ad80702e1,American Express,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_1cc9a79bdaf09793,MongoDB,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_df8e966c94469b23,Algorand,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_6366233f6ef38437,Pydantic,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_210769549f09f59f,DataStax,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_307bc6d73f16c336,Western Governors University,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_8a8753c28b6b54ca,ActiveState,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_478e21ce840c85a4,Endor labs,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_2f9bbb1bdf86d55d,"Posit, PBC",,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_2dca01215ad0cc73,Sauce Labs,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_230ba08123703313,Swan Softweb Solutions,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_dcb345e2ec079849,Rezoomex,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_f5454ed41a73cbd8,Vonage,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_cdc00f6c62a542af,Gel,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_738e22f0acab814c,Cloudflare,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_aa6f421798e44f08,Awesomic,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_d5dd4c3ebd80327d,Bright Data,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_991785478cf242c1,Tecton,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_3cb882789f1a7e57,ASML,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_200beb22745b2048,Flet,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_2e9f768344ff39ac,Astral,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_ce554bafb278bd40,Buttondown,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_c25d8cc5b1ca791d,Sticker Robot,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_65a09602c00946f2,LambdaTest Inc.,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_66943866c3d1464a,Zama,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_83504cbc492dffaf,Pixee,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_996fc72ddada5862,dltHub,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_57e0b2387be546e2,PandasAI,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_02ce47da0b9aed8e,Exaloop,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_981e57f9981406a3,dispatch.run,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_3a4ad37e305ff3bb,Trellis,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_b2ac8229e084792b,DAGWorks Inc.,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_fbcb6e6044d117b0,"Martian Learning, Inc.",,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_f414a277236480ec,Turn the Tables,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_9e7369079f0afaa9,Black Python Devs,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_3ac39942387ec818,PyData Pittsburgh,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_86b7474c8a220dd4,Python en Español,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_dad9f18eb98b68a1,Plotly Technologies Inc,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_36b4d5dc2f83e881,PJM Interconnection,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_7adc0c04165eb258,Code & Supply Scholarship Fund,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_32423eaa5cdf1bdd,Summit Technology Group (STG),,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_0de9afdbd83c22a5,Code & Supply,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_4987a1e2e36cd283,The New Stack,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_54d689b8cce30f65
+co_e7d0134ab143cd58,AutoKitteh,autokitteh.com,http://autokitteh.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_ab8a2c59b7a5aab0,Old Mission,oldmissioncapital.com,https://www.oldmissioncapital.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_8121beb55cfc4e78,Salesforce Heroku,heroku.com,https://www.heroku.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_264afbe0e67e4d6c,PydanticAI,docs.pydantic.dev,https://docs.pydantic.dev/latest/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_ef847f180cddedc8,Kensho,kensho.com,https://kensho.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_f7c640a5d8ec7e07,Codeflash,codeflash.ai,http://codeflash.ai,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_efef66d3c8c24b75,"Analog Devices, Inc.",analog.com,https://analog.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_ef2a33c946942c1a,ReversingLabs,reversinglabs.com,https://www.reversinglabs.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_be6a999624b589e8,Duolingo,careers.duolingo.com,https://careers.duolingo.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_68323c1446f37e1a,AlphaSense,alpha-sense.com,https://www.alpha-sense.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_49bc63a939e3dc9d,Dagster Labs,dagster.io,https://dagster.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_34fb46c847bb9df9,Redis,redis.io,https://redis.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_b649d599b84fedef,CodSpeed,codspeed.io,https://codspeed.io,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_551bb918d277a0b8,Packt,packtpub.com,https://www.packtpub.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_2e7f62e682871d45,Parafin,parafin.com,https://www.parafin.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_2e1aeda295a4aa60,Litestar,litestar.dev,https://litestar.dev/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_9b7962c5e2194352,Hackers Guild PGH,hackersguildpgh.com,https://hackersguildpgh.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_dd71f579bce44b7d,Commonwealth Bank of Australia,commbank.com.au,https://www.commbank.com.au/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_6463ddf3a85d484a,Feedzai,feedzai.com,https://www.feedzai.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_f0a5da17e0ffa3a2,Fern,link.buildwithfern.com,https://link.buildwithfern.com/pycon,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_470cc0dbf4fe63a4,Povera Loads & Logic,povera-lnl.com,https://povera-lnl.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_dd41fdd48abbb792,Altitude/C,altitudec.com,https://www.altitudec.com/en,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_e6848cee8f1317af,LWN.net,lwn.net,https://lwn.net,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_e461c42c5b63638d,Open Source JobHub,opensourcejobhub.com,https://opensourcejobhub.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_1122599ca325f7cc,Linux Magazine,linux-magazine.com,https://www.linux-magazine.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_d1d51d9d49d832dc,Cult.Repo,cultrepo.com,https://www.cultrepo.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_4e012a661d688be5,Technical.ly,technical.ly,https://technical.ly/subscribe/?utm_source=mediapartner&utm_medium=mediapartner&utm_campaign=1682conf,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_df30a48992da7fe8,All Hands AI,all-hands.dev,https://all-hands.dev,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_bb531fb3ff53bfc0,MLJAR,mljar.com,https://mljar.com,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_9bb02c2376cbe857,Fabi.ai,fabi.ai,https://www.fabi.ai/?isAgentOpen=false,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_bdab02a27f174582,DiffStudio Labs LLC,diffstudio.co,https://diffstudio.co/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_30bfadbaae53434b,Gooey.AI,gooey.ai,https://gooey.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_fc2fdb562fc2c3ab,Ragas,ragas.io,https://www.ragas.io/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_359ee6143ee54372,AgentOpsAI,,#,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_9842013434f2e089,Griptape,griptape.ai,https://griptape.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_eac4ef06e1f85dee,Django Software Foundation,djangoproject.com,https://www.djangoproject.com/foundation/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_97e2e60dd19e6057,Electronic Frontier Foundation,eff.org,https://eff.org,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_8a5d10d41874f633,Python Asia Organization,pycon.asia,https://pycon.asia/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_5232b110b3de305c,The Carpentries,carpentries.org,https://carpentries.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_6cc54ee64ccd801f,PyBeach,pybeach.org,https://pybeach.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_2e5c845a2ddab02c,EuroPython Society,europython-society.org,https://www.europython-society.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b7abf127fce0b3ab
+co_2bed2032ed3d8300,Stripe,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_c39eeea4f6bd2ac8,ACI.dev,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_c70eca6b0f88f44d,Anthropic,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_e853b4e183ed0870,ElevenLabs,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_8e3fa58150808a5b,Prolific,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_d41ebd9f02722fc8,Crusoe,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_70b93d3608313cd2,Incident.io,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_8d5a5d7c8a5247e0,Requesty,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_c47b326f8616b1ac,Cogna,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_9386a3ba56fe072b,Memories.ai,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_ffad923c7afc100d,Daytona,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_7e7964dc9ade6e37,Inforcer,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_e470d891c0bda7d8,Runware,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_f7b4ccaa2c70afd3,Encore,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_60fefd770b1ea964,Firebolt,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_c3d2fc7362f6456c,Quantexa,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_7cdbc9084feb6ac0,Manus,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_f88b4c55c427dedc,Atla,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_29df502941c913a3,Oneleet,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_45b56112dc05f205,Dawn Capital,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_5fa4d12e4db1381b,Crane Venture Partners,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_d3c22a826e97e9ad,Chapter One,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa4f79b66f07fd27
+co_89601a2c41e3b6bc,Granola,granola.ai,https://www.granola.ai/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_34a13184c03f8f36
+co_e463a0a91c7e7649,Encord,encord.com,https://encord.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_34a13184c03f8f36
+co_4508fb4b8faf880e,Gallery B612,galleryb612.com,https://www.galleryb612.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_2317a3403ba9944e
+co_7a474816e1df006f,Python España,es.python.org,https://es.python.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_ce8c1dd48eac4cc9
+co_eab2b224009c1a94,Universidad de Guadalajara,fil.com.mx,https://fil.com.mx/info/informacion.asp,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_3aefef19f688ac04
+co_f48400f83e37776f,Associação Casa Azul,institucional.flip.org.br,https://institucional.flip.org.br/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_2a92377ffe0f4a36
+co_900ee8b810f616ff,Grupo CCR,motiva.com.br,https://www.motiva.com.br/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_1ade6a464f1902c2
+co_ce8abceb4413767f,Grupo CCR / Instituto CCR,motiva.com.br,https://www.motiva.com.br/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_914993877530c7cd
+co_34675f39a044ec05,Eletronuclear,eletronuclear.gov.br,https://www.eletronuclear.gov.br/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_f2148c2a6a269c9a
+co_cdf32394d26ce945,Motiva,motiva.com.br,https://www.motiva.com.br/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_1701afab8d50a6be
+co_57ee08443fa06828,Instituto Motiva,motiva.com.br,https://www.motiva.com.br/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_5967a1b322cb6c23
+co_f5f94c23c65dcf5b,Frieze,frieze.com,https://www.frieze.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_642521ca61c47b44
+co_27df9ed9a477af0f,BMW,bmw.com,https://www.bmw.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_7f009c35488b790c
+co_ddcaff469655adca,Deutsche Bank,db.com,https://www.db.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_0de479a1942a4ae6
+co_aa7aebce2826ab39,Stone Island,stoneisland.com,https://www.stoneisland.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_aa6616996a7a56c5
+co_43a59fa9e7215420,Fédération française de tennis,fft.fr,https://www.fft.fr/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_6f3ef2341546f8f3
+co_027d59970c306e9c,ENGIE,engie.com,https://www.engie.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_b62d0636e83527d0
+co_573abb3ca06e6abb,Renault,renault.com,https://www.renault.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_a37046d28c94bfbc
+co_ba2436bd25a09dd5,Emirates,emirates.com,https://www.emirates.com/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_33217bc4be0ea729
+co_56046651cb41a568,BNP Paribas,group.bnpparibas,https://group.bnpparibas/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_6f3ef2341546f8f3
+co_993850041adad584,Bay Area Python Association,bapya.org,https://www.bapya.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_abf7fb34450f3065
+co_67a63a52ea9f4651,PyCon Uganda and PyCon Africa,africa.pycon.org,https://africa.pycon.org/,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_ace0e2408f544ea8
+co_aa2be35854d57bb8,IBM Research,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_da2557fd2a75f70b
+co_0d38795585b0c069,The Data Tank,,,,,,,,,"{""description"":""not_enriched"",""current_budget"":""not_public"",""current_interest"":""unknown""}",src_da2557fd2a75f70b

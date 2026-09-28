@@ -1,0 +1,3 @@
+id,event_id,title,description,topic,track,format,start_at,end_at,space_id,agenda_version,status,source_id
+sessions_c81cd8eee4692644,evt_dc71e11656e99e2d,Python en Quantum+AI.,,,,keynote,2024-10-05T10:00:00,2024-10-05T10:45:00,,website_observed_2026-09-28,announced; timezone_not_published,src_da2557fd2a75f70b
+sessions_e65b20007de8e620,evt_dc71e11656e99e2d,"Menos hype, más responsabilidad: quién decide qué en el uso de datos y la IA",,,,keynote,2024-10-05T17:30:00,2024-10-05T18:15:00,,website_observed_2026-09-28,announced; timezone_not_published,src_da2557fd2a75f70b

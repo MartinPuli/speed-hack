@@ -1,0 +1,167 @@
+{
+  "kind": "local_SQLite_FTS5_warm_cache",
+  "event_rows": 16986,
+  "queries": [
+    {
+      "query": "Python",
+      "limit": 10,
+      "returned": 10,
+      "p50_ms": 0.272,
+      "max_ms": 0.432,
+      "runs": 10,
+      "candidate_ids": [
+        "evt2_0482bb3a1a44257ca029af3a",
+        "evt2_710bc6d749b857a6212c0510",
+        "evt2_e767e356f12731f5e18779b2",
+        "evt2_2d930ff12154bf9d4784530a",
+        "evt2_d4964e29bc69f3921ad85661",
+        "evt2_e12b8919c7abcb1a6c5cf449",
+        "evt2_c0b9b509bc3775a447f9a0f3",
+        "evt2_5b36b005b57e039f53c28558",
+        "evt_2036f81b0ea8dcd7",
+        "evt_4b1f9a1de2a0267f"
+      ],
+      "human_precision_at_10": null
+    },
+    {
+      "query": "Kubernetes",
+      "limit": 10,
+      "returned": 4,
+      "p50_ms": 0.038,
+      "max_ms": 0.068,
+      "runs": 10,
+      "candidate_ids": [
+        "evt2_e86e0824786ed82583b68dbd",
+        "evt2_93bfbbb11f6b8db4b591fd82",
+        "evt2_25d0938e124b4915563b7044",
+        "evt2_3107005e7b7b26bb9b464f72"
+      ],
+      "human_precision_at_10": null
+    },
+    {
+      "query": "AI",
+      "limit": 10,
+      "returned": 10,
+      "p50_ms": 0.204,
+      "max_ms": 0.249,
+      "runs": 10,
+      "candidate_ids": [
+        "evt_af5c6933fb8159e9",
+        "evt2_a8bb3358fa898e87f2e64489",
+        "evt2_d335972d3f832cdf611b7a2e",
+        "evt2_f3eff479b0aab7000045ca40",
+        "evt2_7acd43b56c2a8e1e409ad18a",
+        "evt2_37af40763733e75165edbcd7",
+        "evt2_f8204e610fd1d103ca1b3abe",
+        "evt2_b6faf3f74f9bdf1941f07ed7",
+        "evt2_5ebb4d80f5af647cfbd8715b",
+        "evt2_b9199d5cff41b3a2c539a24d"
+      ],
+      "human_precision_at_10": null
+    },
+    {
+      "query": "DevOps",
+      "limit": 10,
+      "returned": 10,
+      "p50_ms": 0.383,
+      "max_ms": 0.402,
+      "runs": 10,
+      "candidate_ids": [
+        "evt2_537fe796bd5013f26d2691e4",
+        "evt2_ea50c4568e4ab4f3f0f4008f",
+        "evt2_c66c80d877030a3a3937bd86",
+        "evt2_e0dacb6d833e15db8d2d391c",
+        "evt2_2f54db8cc5fc0357a477b4b2",
+        "evt2_da537fe854d6d735cac43e33",
+        "evt2_03439a79805b1f5b37869998",
+        "evt2_a9c3fba38e2607827339b716",
+        "evt2_3913558b95a868c0a0c829e3",
+        "evt2_33e557633597439421e9d8b6"
+      ],
+      "human_precision_at_10": null
+    },
+    {
+      "query": "FOSDEM",
+      "limit": 10,
+      "returned": 10,
+      "p50_ms": 0.058,
+      "max_ms": 0.077,
+      "runs": 10,
+      "candidate_ids": [
+        "evt2_5d3aaad7d3e48b05dfd8966e",
+        "evt2_8a5a4f7bb2d96a956634dfa9",
+        "evt2_8b691b142e8ec9d2c896ad87",
+        "evt2_47b7e5fc7e95290e61e4d6be",
+        "evt2_dae807276cd6ead3ca1b1e77",
+        "evt_fe9b0a48de67e90a",
+        "evt_451d0693e338d3f9",
+        "evt_770129eb2abce6be",
+        "evt_39c7c95949c9cd36",
+        "evt_9da30b0fa0940673"
+      ],
+      "human_precision_at_10": null
+    },
+    {
+      "query": "Helsinki",
+      "limit": 10,
+      "returned": 10,
+      "p50_ms": 2.412,
+      "max_ms": 2.524,
+      "runs": 10,
+      "candidate_ids": [
+        "evt_e870860652ad0659",
+        "evt_4b39c8f5211cfee6",
+        "evt_efe17b6e56fd5572",
+        "evt_5d52fabd19ff5f97",
+        "evt_8748e36e7b87304a",
+        "evt2_0d2ea15cd24fd5e403765c39",
+        "evt_5deaec442ecd2887",
+        "evt2_97a844e5a0e9c8c0ca1aad58",
+        "evt2_a4602956a5c893782604354d",
+        "evt2_fda8124a067155939b4ba541"
+      ],
+      "human_precision_at_10": null
+    },
+    {
+      "query": "startup",
+      "limit": 10,
+      "returned": 8,
+      "p50_ms": 0.058,
+      "max_ms": 0.093,
+      "runs": 10,
+      "candidate_ids": [
+        "evt2_fe7255d2d4a224e88b219b6e",
+        "evt2_b104e69d003d7f0e4194721f",
+        "evt2_fd2af11b1b0561b8ac519306",
+        "evt2_58f2dfc666b4618e8537ed15",
+        "evt2_84ab75e150533713f11ce27b",
+        "evt2_a255767720b6026adb3a24a9",
+        "evt2_431af49d089054d0f2cfd89e",
+        "evt2_99acfdec67d6f0627377f13f"
+      ],
+      "human_precision_at_10": null
+    },
+    {
+      "query": "cloud",
+      "limit": 10,
+      "returned": 10,
+      "p50_ms": 0.102,
+      "max_ms": 0.133,
+      "runs": 10,
+      "candidate_ids": [
+        "evt2_71ebbdbfc34c3f2a10bdede7",
+        "evt_3e5acad6adf38308",
+        "evt2_66d19ea35743679361a7b7a7",
+        "evt2_bce7109cf6a92f827159ac4b",
+        "evt2_df9dc58b96f5c76bf62f13ec",
+        "evt2_fe87fbb432ab29f0f84b75d3",
+        "evt2_db2caf89ce17cd826a8e2b4f",
+        "evt2_d1815c5982c43601856f85b3",
+        "evt2_2afa441e0899078e1cf7f02f",
+        "evt2_6caa4aadcc889a32973ae72b"
+      ],
+      "human_precision_at_10": null
+    }
+  ],
+  "relevance": "unmeasured; no human labels and no claim of recommendation quality"
+}

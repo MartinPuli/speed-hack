@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "assertions": 162,
+  "by_kind": {
+    "sponsor_named": 136,
+    "organizer": 3,
+    "audience_metric": 6,
+    "outcome_metric": 6,
+    "sponsor_package": 5,
+    "call_for_sponsors": 1,
+    "company_news": 1,
+    "company_profile": 3,
+    "audience_profile": 1
+  },
+  "sponsor_roles": {
+    "sponsor": 133,
+    "media_partner": 3
+  },
+  "editions": 6,
+  "checks": [
+    "unique_assertions",
+    "required_provenance",
+    "source_hash_linkage",
+    "HTTP_success",
+    "temporal_order",
+    "no_payment_inference",
+    "price_currency_tax",
+    "rate_semantics",
+    "no_personal_contact_fields",
+    "unique_relationships"
+  ]
+}

@@ -1,0 +1,8 @@
+link_id,session_id,person_id,company_id,role,affiliation,status,source_id,extra_json,missing_reasons_json
+sp_a4c1cc53f23b1dc2,session_9f2c9b1a5f7a3ea9,person_7d2785dc3b5641c7,,speaker,,announced_in_agenda,src_ec0ee27d9ee37cc0,,"{""affiliation"":""not_found_in_consulted_sources"",""company_id"":""not_found_in_consulted_sources""}"
+sp_34f754e9ce528060,session_9f2c9b1a5f7a3ea9,person_8676ab214110b57b,,speaker,,announced_in_agenda,src_ec0ee27d9ee37cc0,,"{""affiliation"":""not_found_in_consulted_sources"",""company_id"":""not_found_in_consulted_sources""}"
+sp_43de31306b47969f,session_ddd6e61d787705bd,person_e1f98ff692bafec1,,speaker,,announced_in_agenda,src_ec0ee27d9ee37cc0,,"{""affiliation"":""not_found_in_consulted_sources"",""company_id"":""not_found_in_consulted_sources""}"
+sp_35d0415f6559ed25,session_ddd6e61d787705bd,person_bf6d76ecb3db00a0,,speaker,,announced_in_agenda,src_ec0ee27d9ee37cc0,,"{""affiliation"":""not_found_in_consulted_sources"",""company_id"":""not_found_in_consulted_sources""}"
+sp_2625e2154cd3d31d,session_e874e749f2926add,person_3b69640863f08546,,speaker,,announced_in_agenda,src_ec0ee27d9ee37cc0,,"{""affiliation"":""not_found_in_consulted_sources"",""company_id"":""not_found_in_consulted_sources""}"
+sp_6378e354783d84f7,session_758c2cc78d41bae9,person_24f5475b8261592b,,speaker,,announced_in_agenda,src_ec0ee27d9ee37cc0,,"{""affiliation"":""not_found_in_consulted_sources"",""company_id"":""not_found_in_consulted_sources""}"
+sp_45ede7cf83cf2cbb,session_758c2cc78d41bae9,person_6265f27128293845,,speaker,,announced_in_agenda,src_ec0ee27d9ee37cc0,,"{""affiliation"":""not_found_in_consulted_sources"",""company_id"":""not_found_in_consulted_sources""}"

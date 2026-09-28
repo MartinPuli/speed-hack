@@ -1,0 +1,2 @@
+relation_id,from_edition_id,to_edition_id,type,evidence_class,source_id,extra_json,missing_reasons_json
+rel_eff5ec41752904dd,evt_972df455e0b3f068,evt_e41bc37a43b4420d,co_located_official,explicit_source_statement,src_f402d36a48ea4259,,{}

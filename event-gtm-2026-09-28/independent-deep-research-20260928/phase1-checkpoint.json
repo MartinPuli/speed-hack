@@ -1,0 +1,31 @@
+{
+  "phase": "phase1_acquisition_normalization_validation",
+  "checkpoint_at_utc": "2026-09-28T10:29:02.720639+00:00",
+  "state": "research_completed_with_explicit_continuation_queue",
+  "counts": {
+    "event_editions": 688,
+    "series": 101,
+    "organizations": 288,
+    "sponsor_roles": 319,
+    "sponsor_or_partner_roles": 21,
+    "sources": 160,
+    "assertions": 21557,
+    "original_news_articles": 10,
+    "historical_editions": 650,
+    "upcoming_or_current_editions": 38,
+    "provisional_or_secondary_cores": 8,
+    "observed_repeat_presences": 127
+  },
+  "artifacts": {
+    "dataset.sqlite": "d46318592f3f59f6884fd9077d226da2c05ccd576cefcaae1ae197d0b306d4b3",
+    "run_manifest.json": "06c5aac34ce36939a458f9a579cec49e0755b1827b875e50adbb6b8db882c860",
+    "coverage.csv": "c63e64fddc49423797b6cbe55e4a634e8e9746357b7ef5f9d5c6d83931fc7b0e",
+    "qa-results.json": "f0ad46886d8a4aa2edd21f85d8a7c1a7fc72cfce15f2eaedfbe12cc3c6d49df3",
+    "phase1-research.md": "23b27355c44899e76d62f7438b89a461a80d55b46d7cd6f3d4b697515e5e6d13",
+    "phase1-market-access.md": "4546ac4fbd417b89ff2d999fa2212733c00035f7930fe0dd9052578c635a89f3",
+    "phase1-source-inventory.md": "139dbb9c9521c4a459b5ac650abc5dc51103d9528ae25c62a6140b78224da616",
+    "validation_report.md": "00f92dfa88c8c06c492c0012b271856f41c8fa098afc54efdc260eeceef7d90b",
+    "quality_report.md": "b0ab2355f6a9039966134d919a337bb151653b7d045da661d656ae70977495cb"
+  },
+  "note": "Corrections during final QA may update files. Phase2 investigation begins only after this checkpoint."
+}

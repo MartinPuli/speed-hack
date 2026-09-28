@@ -1,0 +1,3 @@
+id,event_id,deadline_type,date,date_precision,timezone,status,requirements,source_id
+event_deadlines_f2c1b0214398a725,evt_9da972220c78ac0f,regular_ticket_sales_deadline,2026-09-26,day,,published_deadline_past_at_observation; verify,,src_9a4dd5ba3e78bf93
+event_deadlines_667781c701c97139,evt_9438314c52d10a5f,call_for_proposals_deadline,2026-08-30,day,,published_deadline_past_at_observation; verify,,src_4b1f01673b1b0849

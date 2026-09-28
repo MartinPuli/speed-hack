@@ -1,0 +1,2662 @@
+[
+  {
+    "title": "Feria Internacional del Libro de Guadalajara 2021",
+    "start_date": "2021-11-27",
+    "end_date": "2021-12-05",
+    "location": "Guadalajara, Jalisco; Expo Guadalajara",
+    "country": "México",
+    "format": "híbrido",
+    "sector": "editorial / cultura",
+    "series": "FIL Guadalajara",
+    "source_url": "https://www.gaceta.udg.mx/prepara-fil-guadalajara-edicion-2021-de-forma-presencial/",
+    "source_title": "Prepara FIL Guadalajara edición 2021 de forma presencial",
+    "publisher": "Gaceta UdeG",
+    "publication_date": null,
+    "organizer": "Universidad de Guadalajara",
+    "organizer_url": "https://fil.com.mx/info/informacion.asp",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Feria Internacional del Libro de Guadalajara 2021",
+        "source_url": "https://www.gaceta.udg.mx/prepara-fil-guadalajara-edicion-2021-de-forma-presencial/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Feria Internacional del Libro de Guadalajara 2021.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2021-11-27",
+        "source_url": "https://www.gaceta.udg.mx/prepara-fil-guadalajara-edicion-2021-de-forma-presencial/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2021-11-27.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2021-12-05",
+        "source_url": "https://www.gaceta.udg.mx/prepara-fil-guadalajara-edicion-2021-de-forma-presencial/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2021-12-05.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Guadalajara, Jalisco; Expo Guadalajara",
+        "source_url": "https://www.gaceta.udg.mx/prepara-fil-guadalajara-edicion-2021-de-forma-presencial/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Guadalajara, Jalisco; Expo Guadalajara.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Universidad de Guadalajara",
+        "source_url": "https://fil.com.mx/info/informacion.asp",
+        "locator": "Bienvenidos a la FIL",
+        "paraphrase": "La página institucional atribuye la creación de la feria a la Universidad de Guadalajara; entidad organizadora normalizada a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.gaceta.udg.mx/los-lectores-se-reencontraron-con-la-fil/",
+        "locator": "Concluye este domingo / balance",
+        "paraphrase": "El balance informa cierre y conteos por recinto.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "venue_scope",
+        "value": "También CCU, Foro FIL, Hotel Hilton y centros universitarios",
+        "source_url": "https://www.gaceta.udg.mx/los-lectores-se-reencontraron-con-la-fil/",
+        "locator": "Desglose por recinto",
+        "paraphrase": "El agregado presencial no corresponde sólo a Expo Guadalajara.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [
+      {
+        "name": "asistencia_presencial_reportada",
+        "value": 251900,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://www.gaceta.udg.mx/los-lectores-se-reencontraron-con-la-fil/",
+        "locator": "Balance del 5 de diciembre de 2021",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "asistencia_expo_guadalajara_reportada",
+        "value": 205000,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://www.gaceta.udg.mx/los-lectores-se-reencontraron-con-la-fil/",
+        "locator": "Desglose por recinto",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "profesionales_del_libro",
+        "value": 3278,
+        "unit": "profesionales",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://www.gaceta.udg.mx/los-lectores-se-reencontraron-con-la-fil/",
+        "locator": "Balance de la edición 35",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Feria Internacional del Libro de Guadalajara 2022",
+    "start_date": "2022-11-26",
+    "end_date": "2022-12-04",
+    "location": "Guadalajara, Jalisco; Expo Guadalajara",
+    "country": "México",
+    "format": "presencial",
+    "sector": "editorial / cultura",
+    "series": "FIL Guadalajara",
+    "source_url": "https://www.gaceta.udg.mx/806-mil-805-lectores-se-reencontraron-en-la-fil-guadalajara/",
+    "source_title": "806 mil 805 lectores se reencontraron en la FIL Guadalajara",
+    "publisher": "Gaceta UdeG",
+    "publication_date": null,
+    "organizer": "Universidad de Guadalajara",
+    "organizer_url": "https://fil.com.mx/info/informacion.asp",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Feria Internacional del Libro de Guadalajara 2022",
+        "source_url": "https://www.gaceta.udg.mx/806-mil-805-lectores-se-reencontraron-en-la-fil-guadalajara/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Feria Internacional del Libro de Guadalajara 2022.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2022-11-26",
+        "source_url": "https://www.gaceta.udg.mx/806-mil-805-lectores-se-reencontraron-en-la-fil-guadalajara/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2022-11-26.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2022-12-04",
+        "source_url": "https://www.gaceta.udg.mx/806-mil-805-lectores-se-reencontraron-en-la-fil-guadalajara/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2022-12-04.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Guadalajara, Jalisco; Expo Guadalajara",
+        "source_url": "https://www.gaceta.udg.mx/806-mil-805-lectores-se-reencontraron-en-la-fil-guadalajara/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Guadalajara, Jalisco; Expo Guadalajara.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Universidad de Guadalajara",
+        "source_url": "https://fil.com.mx/info/informacion.asp",
+        "locator": "Bienvenidos a la FIL",
+        "paraphrase": "La página institucional atribuye la creación de la feria a la Universidad de Guadalajara; entidad organizadora normalizada a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [
+      {
+        "name": "asistencia_reportada",
+        "value": 806805,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://www.gaceta.udg.mx/806-mil-805-lectores-se-reencontraron-en-la-fil-guadalajara/",
+        "locator": "Balance de la edición 2022",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Feria Internacional del Libro de Guadalajara 2023",
+    "start_date": "2023-11-25",
+    "end_date": "2023-12-03",
+    "location": "Guadalajara, Jalisco; Expo Guadalajara",
+    "country": "México",
+    "format": "presencial",
+    "sector": "editorial / cultura",
+    "series": "FIL Guadalajara",
+    "source_url": "https://www.cucsh.udg.mx/noticias/fil-guadalajara-anuncia-su-programa-general-2023",
+    "source_title": "FIL Guadalajara anuncia su Programa General 2023",
+    "publisher": "CUCSH / Universidad de Guadalajara",
+    "publication_date": null,
+    "organizer": "Universidad de Guadalajara",
+    "organizer_url": "https://fil.com.mx/info/informacion.asp",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Feria Internacional del Libro de Guadalajara 2023",
+        "source_url": "https://www.cucsh.udg.mx/noticias/fil-guadalajara-anuncia-su-programa-general-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Feria Internacional del Libro de Guadalajara 2023.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2023-11-25",
+        "source_url": "https://www.cucsh.udg.mx/noticias/fil-guadalajara-anuncia-su-programa-general-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2023-11-25.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2023-12-03",
+        "source_url": "https://www.cucsh.udg.mx/noticias/fil-guadalajara-anuncia-su-programa-general-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2023-12-03.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Guadalajara, Jalisco; Expo Guadalajara",
+        "source_url": "https://www.cucsh.udg.mx/noticias/fil-guadalajara-anuncia-su-programa-general-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Guadalajara, Jalisco; Expo Guadalajara.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Universidad de Guadalajara",
+        "source_url": "https://fil.com.mx/info/informacion.asp",
+        "locator": "Bienvenidos a la FIL",
+        "paraphrase": "La página institucional atribuye la creación de la feria a la Universidad de Guadalajara; entidad organizadora normalizada a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.udg.mx/es/noticia/con-mas-de-857-mil-visitantes-fil-2023-rompe-record-de-asistencia?q=es%2Fnoticia%2Fcon-mas-de-857-mil-visitantes-fil-2023-rompe-record-de-asistencia",
+        "locator": "Balance de nueve días",
+        "paraphrase": "La universidad comunica el balance de la edición 37.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [
+      {
+        "name": "asistencia_reportada",
+        "value": 857315,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://www.udg.mx/es/noticia/con-mas-de-857-mil-visitantes-fil-2023-rompe-record-de-asistencia?q=es%2Fnoticia%2Fcon-mas-de-857-mil-visitantes-fil-2023-rompe-record-de-asistencia",
+        "locator": "Primer párrafo; 3 de diciembre de 2023",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Feria Internacional del Libro de Guadalajara 2024",
+    "start_date": "2024-11-30",
+    "end_date": "2024-12-08",
+    "location": "Guadalajara, Jalisco; Expo Guadalajara",
+    "country": "México",
+    "format": "presencial",
+    "sector": "editorial / cultura",
+    "series": "FIL Guadalajara",
+    "source_url": "https://udg.mx/evento/feria-internacional-del-libro-2024-invitado-de-honor-espana",
+    "source_title": "Feria Internacional del Libro 2024, invitado de honor España",
+    "publisher": "Universidad de Guadalajara",
+    "publication_date": null,
+    "organizer": "Universidad de Guadalajara",
+    "organizer_url": "https://fil.com.mx/info/informacion.asp",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Feria Internacional del Libro de Guadalajara 2024",
+        "source_url": "https://udg.mx/evento/feria-internacional-del-libro-2024-invitado-de-honor-espana",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Feria Internacional del Libro de Guadalajara 2024.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2024-11-30",
+        "source_url": "https://udg.mx/evento/feria-internacional-del-libro-2024-invitado-de-honor-espana",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2024-11-30.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2024-12-08",
+        "source_url": "https://udg.mx/evento/feria-internacional-del-libro-2024-invitado-de-honor-espana",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2024-12-08.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Guadalajara, Jalisco; Expo Guadalajara",
+        "source_url": "https://udg.mx/evento/feria-internacional-del-libro-2024-invitado-de-honor-espana",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Guadalajara, Jalisco; Expo Guadalajara.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Universidad de Guadalajara",
+        "source_url": "https://fil.com.mx/info/informacion.asp",
+        "locator": "Bienvenidos a la FIL",
+        "paraphrase": "La página institucional atribuye la creación de la feria a la Universidad de Guadalajara; entidad organizadora normalizada a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Numeralia, columna 2024",
+        "paraphrase": "La organización publica cifras de esta edición.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [
+      {
+        "name": "asistencia_reportada",
+        "value": 907300,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2024, fila Público asistente",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "profesionales_del_libro",
+        "value": 18100,
+        "unit": "profesionales",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2024, fila Profesionales del libro",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "sellos_editoriales",
+        "value": 2769,
+        "unit": "sellos",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2024, fila Sellos editoriales",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "patrocinadores_y_auspiciantes",
+        "value": 70,
+        "unit": "organizaciones",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2024, fila Patrocinadores y auspiciantes",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Feria Internacional del Libro de Guadalajara 2025",
+    "start_date": "2025-11-29",
+    "end_date": "2025-12-07",
+    "location": "Guadalajara, Jalisco; Expo Guadalajara",
+    "country": "México",
+    "format": "presencial",
+    "sector": "editorial / cultura",
+    "series": "FIL Guadalajara",
+    "source_url": "https://fil.com.mx/prensa/boletin.asp?id=3186&ids=2",
+    "source_title": "Italia reafirma su compromiso cultural rumbo a la FIL Guadalajara 2026",
+    "publisher": "FIL Guadalajara",
+    "publication_date": "2025-04-09",
+    "organizer": "Universidad de Guadalajara",
+    "organizer_url": "https://fil.com.mx/info/informacion.asp",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Feria Internacional del Libro de Guadalajara 2025",
+        "source_url": "https://fil.com.mx/prensa/boletin.asp?id=3186&ids=2",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Feria Internacional del Libro de Guadalajara 2025.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2025-11-29",
+        "source_url": "https://fil.com.mx/prensa/boletin.asp?id=3186&ids=2",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2025-11-29.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2025-12-07",
+        "source_url": "https://fil.com.mx/prensa/boletin.asp?id=3186&ids=2",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2025-12-07.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Guadalajara, Jalisco; Expo Guadalajara",
+        "source_url": "https://fil.com.mx/prensa/boletin.asp?id=3186&ids=2",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Guadalajara, Jalisco; Expo Guadalajara.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Universidad de Guadalajara",
+        "source_url": "https://fil.com.mx/info/informacion.asp",
+        "locator": "Bienvenidos a la FIL",
+        "paraphrase": "La página institucional atribuye la creación de la feria a la Universidad de Guadalajara; entidad organizadora normalizada a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Numeralia, columna 2025",
+        "paraphrase": "La organización publica cifras de esta edición.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "ticket_general",
+        "value": {
+          "amount": 30,
+          "currency": "MXN",
+          "scope": "entrada general; tarifa anunciada"
+        },
+        "source_url": "https://www.fil.com.mx/prensa/boletin.asp?id=3205&ids=1",
+        "locator": "Venta de boletos, línea 152",
+        "paraphrase": "La nota del 6 de octubre de 2025 fija el boleto general en 30 MXN.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "ticketing_platform",
+        "value": "Boletomóvil",
+        "source_url": "https://www.fil.com.mx/prensa/boletin.asp?id=3205&ids=1",
+        "locator": "Venta de boletos",
+        "paraphrase": "Se nombra la plataforma de venta; no se recuperó un enlace de checkout de esa edición.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "attendance_caveat",
+        "value": "El balance del último día era una proyección preliminar al cierre",
+        "source_url": "https://fil.com.mx/ingles/prensa/boletin.asp?id=3316&ids=",
+        "locator": "Balance del 7 de diciembre de 2025",
+        "paraphrase": "La numeralia posterior repite 953112; no se obtuvo auditoría independiente.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "sponsorship_inventory",
+        "value": "Activaciones, espacios y experiencias adaptadas; niveles Platino, Plus y Oro",
+        "source_url": "https://www.fil.com.mx/patro/patro.asp",
+        "locator": "Patrocinadores FIL 2025",
+        "paraphrase": "No se extrajeron precios de paquetes ni nombres a partir de logos no leídos.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [
+      {
+        "name": "asistencia_reportada",
+        "value": 953112,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2025, fila Público asistente",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "profesionales_del_libro",
+        "value": 18400,
+        "unit": "profesionales",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2025, fila Profesionales del libro",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "sellos_editoriales",
+        "value": 2790,
+        "unit": "sellos",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2025, fila Sellos editoriales",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "patrocinadores_y_auspiciantes",
+        "value": 72,
+        "unit": "organizaciones",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+        "locator": "Tabla La FIL en números, columna 2025, fila Patrocinadores y auspiciantes",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Feria Internacional del Libro de Guadalajara 2026",
+    "start_date": "2026-11-28",
+    "end_date": "2026-12-06",
+    "location": "Guadalajara, Jalisco; Expo Guadalajara",
+    "country": "México",
+    "format": "presencial",
+    "sector": "editorial / cultura",
+    "series": "FIL Guadalajara",
+    "source_url": "https://fil.com.mx/info/faq.asp",
+    "source_title": "Preguntas frecuentes: FIL 2026",
+    "publisher": "FIL Guadalajara",
+    "publication_date": null,
+    "organizer": "Universidad de Guadalajara",
+    "organizer_url": "https://fil.com.mx/info/informacion.asp",
+    "status": "announced",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Feria Internacional del Libro de Guadalajara 2026",
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Feria Internacional del Libro de Guadalajara 2026.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2026-11-28",
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2026-11-28.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2026-12-06",
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2026-12-06.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Guadalajara, Jalisco; Expo Guadalajara",
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Guadalajara, Jalisco; Expo Guadalajara.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Universidad de Guadalajara",
+        "source_url": "https://fil.com.mx/info/informacion.asp",
+        "locator": "Bienvenidos a la FIL",
+        "paraphrase": "La página institucional atribuye la creación de la feria a la Universidad de Guadalajara; entidad organizadora normalizada a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "ticket_general",
+        "value": {
+          "amount": 40,
+          "currency": "MXN",
+          "scope": "adultos"
+        },
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "FAQ: ¿Cuánto cuesta el boleto?, línea 129",
+        "paraphrase": "{'amount': 40, 'currency': 'MXN', 'scope': 'adultos'}",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "ticket_discount",
+        "value": {
+          "amount": 30,
+          "currency": "MXN",
+          "scope": "categorías con descuento enumeradas"
+        },
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "FAQ: ¿Cuánto cuesta el boleto?, línea 130",
+        "paraphrase": "{'amount': 30, 'currency': 'MXN', 'scope': 'categorías con descuento enumeradas'}",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "ticket_udg_student",
+        "value": {
+          "amount": 25,
+          "currency": "MXN",
+          "scope": "estudiantes UdeG con credencial vigente"
+        },
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "FAQ: ¿Cuánto cuesta el boleto?, línea 131",
+        "paraphrase": "{'amount': 25, 'currency': 'MXN', 'scope': 'estudiantes UdeG con credencial vigente'}",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "professional_access",
+        "value": "Algunas actividades requieren registro y cuota aparte",
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "FAQ: Programa de actividades, líneas 172–179",
+        "paraphrase": "Algunas actividades requieren registro y cuota aparte",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "guest_of_honor",
+        "value": "Italia",
+        "source_url": "https://fil.com.mx/info/faq.asp",
+        "locator": "FAQ: Invitado de Honor, líneas 188–190",
+        "paraphrase": "Italia",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Flip — Festa Literária Internacional de Paraty 2021",
+    "start_date": "2021-11-27",
+    "end_date": "2021-12-05",
+    "location": "Online; sede de la serie: Paraty, RJ",
+    "country": "Brasil",
+    "format": "online",
+    "sector": "literatura / cultura",
+    "series": "Flip",
+    "source_url": "https://flip.org.br/noticias/flip-confirma-as-datas-da-19-ordf-edicao/",
+    "source_title": "Flip confirma as datas da 19ª edição",
+    "publisher": "Flip",
+    "publication_date": null,
+    "organizer": "Associação Casa Azul",
+    "organizer_url": "https://institucional.flip.org.br/",
+    "status": "reported_held",
+    "source_access": "search_index",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Flip — Festa Literária Internacional de Paraty 2021",
+        "source_url": "https://flip.org.br/noticias/flip-confirma-as-datas-da-19-ordf-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "title: Flip — Festa Literária Internacional de Paraty 2021.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "start_date",
+        "value": "2021-11-27",
+        "source_url": "https://flip.org.br/noticias/flip-confirma-as-datas-da-19-ordf-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "start_date: 2021-11-27.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "end_date",
+        "value": "2021-12-05",
+        "source_url": "https://flip.org.br/noticias/flip-confirma-as-datas-da-19-ordf-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "end_date: 2021-12-05.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "location",
+        "value": "Online; sede de la serie: Paraty, RJ",
+        "source_url": "https://flip.org.br/noticias/flip-confirma-as-datas-da-19-ordf-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "location: Online; sede de la serie: Paraty, RJ.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "organizer",
+        "value": "Associação Casa Azul",
+        "source_url": "https://www.flip.org.br/patronos/",
+        "locator": "Programa de patronos; identificación de Associação Casa Azul",
+        "paraphrase": "Identidad institucional normalizada a nivel de serie; la fuente consultada es de 2025.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "date_scope",
+        "value": "Sólo Programa Principal; Flipinha se anunció del 22 al 27 de noviembre",
+        "source_url": "https://flip.org.br/noticias/flip-confirma-as-datas-da-19-ordf-edicao/",
+        "locator": "Fechas de la 19ª edición",
+        "paraphrase": "Sólo Programa Principal; Flipinha se anunció del 22 al 27 de noviembre",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "format",
+        "value": "online",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Retrospectiva de ediciones 2020–2024",
+        "paraphrase": "La nota de 2025 confirma que 2020 y 2021 fueron virtuales.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://institucional.flip.org.br/agenda-2021/",
+        "locator": "Agenda 2021; enlaces a videos",
+        "paraphrase": "Agenda preservada con grabaciones de las mesas; no se extrajeron asistentes.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "provisional_primary_index_only"
+  },
+  {
+    "title": "Flip — Festa Literária Internacional de Paraty 2022",
+    "start_date": "2022-11-23",
+    "end_date": "2022-11-27",
+    "location": "Paraty, Rio de Janeiro",
+    "country": "Brasil",
+    "format": "presencial",
+    "sector": "literatura / cultura",
+    "series": "Flip",
+    "source_url": "https://institucional.flip.org.br/home-2022/",
+    "source_title": "Home 2022",
+    "publisher": "Flip",
+    "publication_date": null,
+    "organizer": "Associação Casa Azul",
+    "organizer_url": "https://institucional.flip.org.br/",
+    "status": "reported_held",
+    "source_access": "search_index",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Flip — Festa Literária Internacional de Paraty 2022",
+        "source_url": "https://institucional.flip.org.br/home-2022/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "title: Flip — Festa Literária Internacional de Paraty 2022.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "start_date",
+        "value": "2022-11-23",
+        "source_url": "https://institucional.flip.org.br/home-2022/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "start_date: 2022-11-23.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "end_date",
+        "value": "2022-11-27",
+        "source_url": "https://institucional.flip.org.br/home-2022/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "end_date: 2022-11-27.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "location",
+        "value": "Paraty, Rio de Janeiro",
+        "source_url": "https://institucional.flip.org.br/home-2022/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "location: Paraty, Rio de Janeiro.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "organizer",
+        "value": "Associação Casa Azul",
+        "source_url": "https://www.flip.org.br/patronos/",
+        "locator": "Programa de patronos; identificación de Associação Casa Azul",
+        "paraphrase": "Identidad institucional normalizada a nivel de serie; la fuente consultada es de 2025.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Retrospectiva de ediciones 2022–2024",
+        "paraphrase": "La nota de 2025 describe las ediciones presenciales realizadas en noviembre de 2022/2023 y octubre de 2024.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      }
+    ],
+    "sponsors": [],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "provisional_primary_index_only"
+  },
+  {
+    "title": "Flip — Festa Literária Internacional de Paraty 2023",
+    "start_date": "2023-11-22",
+    "end_date": "2023-11-26",
+    "location": "Paraty, Rio de Janeiro",
+    "country": "Brasil",
+    "format": "presencial",
+    "sector": "literatura / cultura",
+    "series": "Flip",
+    "source_url": "https://www.flip.org.br/confira-as-datas-da-21a-flip/",
+    "source_title": "Confira as datas da 21ª Flip",
+    "publisher": "Flip",
+    "publication_date": "2023-05-24",
+    "organizer": "Associação Casa Azul",
+    "organizer_url": "https://institucional.flip.org.br/",
+    "status": "reported_held",
+    "source_access": "search_index",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Flip — Festa Literária Internacional de Paraty 2023",
+        "source_url": "https://www.flip.org.br/confira-as-datas-da-21a-flip/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "title: Flip — Festa Literária Internacional de Paraty 2023.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "start_date",
+        "value": "2023-11-22",
+        "source_url": "https://www.flip.org.br/confira-as-datas-da-21a-flip/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "start_date: 2023-11-22.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "end_date",
+        "value": "2023-11-26",
+        "source_url": "https://www.flip.org.br/confira-as-datas-da-21a-flip/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "end_date: 2023-11-26.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "location",
+        "value": "Paraty, Rio de Janeiro",
+        "source_url": "https://www.flip.org.br/confira-as-datas-da-21a-flip/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "location: Paraty, Rio de Janeiro.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "organizer",
+        "value": "Associação Casa Azul",
+        "source_url": "https://www.flip.org.br/patronos/",
+        "locator": "Programa de patronos; identificación de Associação Casa Azul",
+        "paraphrase": "Identidad institucional normalizada a nivel de serie; la fuente consultada es de 2025.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Retrospectiva de ediciones 2022–2024",
+        "paraphrase": "La nota de 2025 describe las ediciones presenciales realizadas en noviembre de 2022/2023 y octubre de 2024.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "sponsor_activation",
+        "value": "Transporte y programación gratuita sobre cultura, mujeres y clima",
+        "source_url": "https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf",
+        "locator": "ESG PERFORMANCE; proyectos del Instituto CCR",
+        "paraphrase": "Transporte y programación gratuita sobre cultura, mujeres y clima",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Grupo CCR",
+        "company_url": "https://www.motiva.com.br/",
+        "role": "Patrocinador y socio oficial de movilidad",
+        "level": "Oro",
+        "source_url": "https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf",
+        "locator": "ESG PERFORMANCE; párrafo In 2023 ... gold sponsor",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "provisional_primary_index_only"
+  },
+  {
+    "title": "Flip — Festa Literária Internacional de Paraty 2024",
+    "start_date": "2024-10-09",
+    "end_date": "2024-10-13",
+    "location": "Paraty, Rio de Janeiro",
+    "country": "Brasil",
+    "format": "presencial",
+    "sector": "literatura / cultura",
+    "series": "Flip",
+    "source_url": "https://2024.flip.org.br/",
+    "source_title": "Flip 2024 Home",
+    "publisher": "Flip",
+    "publication_date": null,
+    "organizer": "Associação Casa Azul",
+    "organizer_url": "https://institucional.flip.org.br/",
+    "status": "reported_held",
+    "source_access": "search_index",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Flip — Festa Literária Internacional de Paraty 2024",
+        "source_url": "https://2024.flip.org.br/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "title: Flip — Festa Literária Internacional de Paraty 2024.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "start_date",
+        "value": "2024-10-09",
+        "source_url": "https://2024.flip.org.br/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "start_date: 2024-10-09.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "end_date",
+        "value": "2024-10-13",
+        "source_url": "https://2024.flip.org.br/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "end_date: 2024-10-13.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "location",
+        "value": "Paraty, Rio de Janeiro",
+        "source_url": "https://2024.flip.org.br/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "location: Paraty, Rio de Janeiro.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "organizer",
+        "value": "Associação Casa Azul",
+        "source_url": "https://www.flip.org.br/patronos/",
+        "locator": "Programa de patronos; identificación de Associação Casa Azul",
+        "paraphrase": "Identidad institucional normalizada a nivel de serie; la fuente consultada es de 2025.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Retrospectiva de ediciones 2022–2024",
+        "paraphrase": "La nota de 2025 describe las ediciones presenciales realizadas en noviembre de 2022/2023 y octubre de 2024.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "side_event",
+        "value": "Casa CCR: 10–12 de octubre, Rua Marechal Deodoro 384; entrada gratuita",
+        "source_url": "https://www.motiva.com.br/en/news/instituto-ccr-amplia-presenca-na-flip/",
+        "locator": "Serviço – Programação da Casa CCR, líneas 31–32 y 55–58",
+        "paraphrase": "Casa CCR: 10–12 de octubre, Rua Marechal Deodoro 384; entrada gratuita",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Grupo CCR / Instituto CCR",
+        "company_url": "https://www.motiva.com.br/",
+        "role": "Socio oficial de movilidad y programación Casa CCR",
+        "level": null,
+        "source_url": "https://www.motiva.com.br/en/news/instituto-ccr-amplia-presenca-na-flip/",
+        "locator": "Cuerpo, líneas 23–41",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "Eletronuclear",
+        "company_url": "https://www.eletronuclear.gov.br/",
+        "role": "Patrocinador mediante incentivo cultural",
+        "level": null,
+        "source_url": "https://www.eletronuclear.gov.br/Quem-Somos/Governanca/Documents/Balan%C3%A7os/2024/1.%20RELAT%C3%93RIO%20ADMINISTRA%C3%87%C3%83O%20E%20RESPONSABILIDADE%20SOCIAL%202024.pdf",
+        "locator": "Responsabilidade Social; cuatro proyectos incentivados",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "transporte_objetivo",
+        "value": 2600,
+        "unit": "personas",
+        "method": "Expectativa declarada, no resultado medido.",
+        "status": "planned",
+        "source_url": "https://www.motiva.com.br/en/news/instituto-ccr-amplia-presenca-na-flip/",
+        "locator": "Ações de mobilidade e circularidade; línea 42",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "provisional_primary_index_only"
+  },
+  {
+    "title": "Flip — Festa Literária Internacional de Paraty 2025",
+    "start_date": "2025-07-30",
+    "end_date": "2025-08-03",
+    "location": "Paraty, Rio de Janeiro",
+    "country": "Brasil",
+    "format": "presencial",
+    "sector": "literatura / cultura",
+    "series": "Flip",
+    "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+    "source_title": "Flip anuncia a data da 23ª edição",
+    "publisher": "Flip",
+    "publication_date": "2025-02-18",
+    "organizer": "Associação Casa Azul",
+    "organizer_url": "https://institucional.flip.org.br/",
+    "status": "reported_held",
+    "source_access": "search_index",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Flip — Festa Literária Internacional de Paraty 2025",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "title: Flip — Festa Literária Internacional de Paraty 2025.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "start_date",
+        "value": "2025-07-30",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "start_date: 2025-07-30.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "end_date",
+        "value": "2025-08-03",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "end_date: 2025-08-03.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "location",
+        "value": "Paraty, Rio de Janeiro",
+        "source_url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "location: Paraty, Rio de Janeiro.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "organizer",
+        "value": "Associação Casa Azul",
+        "source_url": "https://www.flip.org.br/patronos/",
+        "locator": "Programa de patronos; identificación de Associação Casa Azul",
+        "paraphrase": "Identidad institucional normalizada a nivel de serie; la fuente consultada es de 2025.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "side_event",
+        "value": "Casa Flip+Motiva: 31 julio–3 agosto; Rua Marechal Deodoro 384; entrada gratuita",
+        "source_url": "https://www.motiva.com.br/en/news/motiva-assina-programacao-na-flip-pelo-segundo-ano-consecutivo/",
+        "locator": "SERVIÇOS; líneas 117–126",
+        "paraphrase": "Casa Flip+Motiva: 31 julio–3 agosto; Rua Marechal Deodoro 384; entrada gratuita",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.motiva.com.br/en/news/motiva-assina-programacao-na-flip-pelo-segundo-ano-consecutivo/",
+        "locator": "Pie de fotografía y cuerpo; líneas 31–36",
+        "paraphrase": "Noticia durante el festival documenta público y comienzo de programación.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "entity_alias",
+        "value": "Grupo CCR → Motiva, cambio de marca anunciado para 24 abril 2025",
+        "source_url": "https://www.motiva.com.br/en/news/motiva-sera-a-nova-marca-do-grupo-ccr/",
+        "locator": "Anuncio del 24 de marzo de 2025",
+        "paraphrase": "No interpretar dos nombres de marca como dos sponsors independientes.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Motiva",
+        "company_url": "https://www.motiva.com.br/",
+        "role": "Patrocinador; socio oficial de movilidad; Casa Flip+Motiva",
+        "level": null,
+        "source_url": "https://www.motiva.com.br/en/news/motiva-assina-programacao-na-flip-pelo-segundo-ano-consecutivo/",
+        "locator": "Cuerpo y Apoio a festivais literários pelo Brasil",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "inversion_apoyo_y_activaciones",
+        "value": 2000000,
+        "unit": "BRL",
+        "method": "Inversión declarada por sponsor; recursos propios e incentivados. No equivale a fee de derechos ni gasto auditado.",
+        "status": "announced",
+        "source_url": "https://www.motiva.com.br/en/news/motiva-assina-programacao-na-flip-pelo-segundo-ano-consecutivo/",
+        "locator": "Apoio a festivais literários pelo Brasil; línea 94",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "inscripciones_concurso_cuentos_minimo",
+        "value": 698,
+        "unit": "inscripciones",
+        "method": "Sponsor informa más de 698 inscripciones; no asistencia al festival.",
+        "status": "reported_lower_bound",
+        "source_url": "https://www.motiva.com.br/en/news/motiva-assina-programacao-na-flip-pelo-segundo-ano-consecutivo/",
+        "locator": "Concurso revela novas vozes; línea 69",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "visitantes_casa_flip_motiva",
+        "value": 2792,
+        "unit": "visitas de activación",
+        "method": "Sponsor reporta visitantes de su Casa, no de todo el festival; no se especifica deduplicación de personas. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://rodovias.motiva.com.br/riosp/noticias/2026/julho/motiva-assina-a-programacao-oficial-da-flip-pelo-terceiro-ano-co/",
+        "locator": "Retrospectiva 2025, línea 90",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "provisional_primary_index_only"
+  },
+  {
+    "title": "Flip — Festa Literária Internacional de Paraty 2026",
+    "start_date": "2026-07-22",
+    "end_date": "2026-07-26",
+    "location": "Paraty, Rio de Janeiro",
+    "country": "Brasil",
+    "format": "presencial",
+    "sector": "literatura / cultura",
+    "series": "Flip",
+    "source_url": "https://flip.org.br/evento/flip-2026/",
+    "source_title": "Flip 2026; cabecera 24ª Flip",
+    "publisher": "Flip",
+    "publication_date": null,
+    "organizer": "Associação Casa Azul",
+    "organizer_url": "https://institucional.flip.org.br/",
+    "status": "announced",
+    "source_access": "search_index",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Flip — Festa Literária Internacional de Paraty 2026",
+        "source_url": "https://flip.org.br/evento/flip-2026/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "title: Flip — Festa Literária Internacional de Paraty 2026.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "start_date",
+        "value": "2026-07-22",
+        "source_url": "https://flip.org.br/evento/flip-2026/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "start_date: 2026-07-22.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "end_date",
+        "value": "2026-07-26",
+        "source_url": "https://flip.org.br/evento/flip-2026/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "end_date: 2026-07-26.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "location",
+        "value": "Paraty, Rio de Janeiro",
+        "source_url": "https://flip.org.br/evento/flip-2026/",
+        "locator": "Cabecera / anuncio fechado de la edición",
+        "paraphrase": "location: Paraty, Rio de Janeiro.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "organizer",
+        "value": "Associação Casa Azul",
+        "source_url": "https://www.flip.org.br/patronos/",
+        "locator": "Programa de patronos; identificación de Associação Casa Azul",
+        "paraphrase": "Identidad institucional normalizada a nivel de serie; la fuente consultada es de 2025.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "field": "status_caveat",
+        "value": "Fecha pasada; esta extracción sólo obtuvo anuncio y agenda primaria, sin recap primario de cierre",
+        "source_url": "https://flip.org.br/evento/flip-2026/",
+        "locator": "Cabecera y agenda",
+        "paraphrase": "El estado announced no significa cancelación: celebración efectiva no verificada en este lote.",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Instituto Motiva",
+        "company_url": "https://www.motiva.com.br/",
+        "role": "Apoyo a programación oficial y acceso cultural",
+        "level": null,
+        "source_url": "https://rodovias.motiva.com.br/riosp/noticias/2026/julho/motiva-assina-a-programacao-oficial-da-flip-pelo-terceiro-ano-co/",
+        "locator": "Motiva assina a programação oficial da Flip pelo terceiro ano consecutivo",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "provisional_primary_index_only"
+  },
+  {
+    "title": "Frieze London 2021",
+    "start_date": "2021-10-13",
+    "end_date": "2021-10-17",
+    "location": "London; The Regent’s Park",
+    "country": "Reino Unido",
+    "format": "presencial",
+    "sector": "arte contemporáneo / mercado del arte",
+    "series": "Frieze London",
+    "source_url": "https://www.frieze.com/article/galleries-and-programming-frieze-london-and-frieze-masters-2021",
+    "source_title": "Galleries and Programming for Frieze London and Frieze Masters 2021",
+    "publisher": "Frieze",
+    "publication_date": "2021-08-16",
+    "organizer": "Frieze",
+    "organizer_url": "https://www.frieze.com/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Frieze London 2021",
+        "source_url": "https://www.frieze.com/article/galleries-and-programming-frieze-london-and-frieze-masters-2021",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Frieze London 2021.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2021-10-13",
+        "source_url": "https://www.frieze.com/article/galleries-and-programming-frieze-london-and-frieze-masters-2021",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2021-10-13.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2021-10-17",
+        "source_url": "https://www.frieze.com/article/galleries-and-programming-frieze-london-and-frieze-masters-2021",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2021-10-17.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "London; The Regent’s Park",
+        "source_url": "https://www.frieze.com/article/galleries-and-programming-frieze-london-and-frieze-masters-2021",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: London; The Regent’s Park.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Incluye jornadas de preview; London se conserva separado de Masters",
+        "source_url": "https://www.frieze.com/article/galleries-and-programming-frieze-london-and-frieze-masters-2021",
+        "locator": "Fechas de las ferias",
+        "paraphrase": "La misma fecha de feria no asegura acceso general todos los días.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "sponsor_activation",
+        "value": "Instalación Sunrise/Sunset con faros LED reciclados en el BMW Lounge",
+        "source_url": "https://www.frieze.com/bmw-open-work-2021-madeline-hollander",
+        "locator": "Comisión de Madeline Hollander",
+        "paraphrase": "Instalación Sunrise/Sunset con faros LED reciclados en el BMW Lounge",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://croynielsen.com/fairs/frieze-london-2021/",
+        "locator": "Past fair; installation views",
+        "paraphrase": "La galería participante conserva vistas de instalación de la edición.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "BMW",
+        "company_url": "https://www.bmw.com/",
+        "role": "Colaboración artística BMW Open Work",
+        "level": null,
+        "source_url": "https://www.frieze.com/bmw-open-work-2021-madeline-hollander",
+        "locator": "2021 BMW Open Work; colaboración con BMW",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Frieze London 2022",
+    "start_date": "2022-10-12",
+    "end_date": "2022-10-16",
+    "location": "London; The Regent’s Park",
+    "country": "Reino Unido",
+    "format": "presencial",
+    "sector": "arte contemporáneo / mercado del arte",
+    "series": "Frieze London",
+    "source_url": "https://www.frieze.com/article/frieze-london-and-masters-vip-visitor-faqs",
+    "source_title": "Frieze London and Masters VIP Visitor FAQs",
+    "publisher": "Frieze",
+    "publication_date": "2022-09-20",
+    "organizer": "Frieze",
+    "organizer_url": "https://www.frieze.com/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Frieze London 2022",
+        "source_url": "https://www.frieze.com/article/frieze-london-and-masters-vip-visitor-faqs",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Frieze London 2022.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2022-10-12",
+        "source_url": "https://www.frieze.com/article/frieze-london-and-masters-vip-visitor-faqs",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2022-10-12.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2022-10-16",
+        "source_url": "https://www.frieze.com/article/frieze-london-and-masters-vip-visitor-faqs",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2022-10-16.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "London; The Regent’s Park",
+        "source_url": "https://www.frieze.com/article/frieze-london-and-masters-vip-visitor-faqs",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: London; The Regent’s Park.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Incluye jornadas de preview; London se conserva separado de Masters",
+        "source_url": "https://www.frieze.com/article/frieze-london-and-masters-vip-visitor-faqs",
+        "locator": "Fechas de las ferias",
+        "paraphrase": "La misma fecha de feria no asegura acceso general todos los días.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.deutsche-bank.it/news/detail/dbmagazine-il-dietro-le-quinte-delle-fiere-arte-organizzate-da-frieze-nel-2022?language_id=1",
+        "locator": "Recap del 28 octubre 2022",
+        "paraphrase": "El sponsor repasa los cuatro encuentros de 2022, incluido Londres.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Deutsche Bank",
+        "company_url": "https://www.db.com/",
+        "role": "Patrocinador global principal",
+        "level": "Global Lead Partner",
+        "source_url": "https://www.deutsche-bank.it/news/detail/dbmagazine-il-dietro-le-quinte-delle-fiere-arte-organizzate-da-frieze-nel-2022?language_id=1",
+        "locator": "Art:LIVE; Londra 12/16 ottobre",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Frieze London 2023",
+    "start_date": "2023-10-11",
+    "end_date": "2023-10-15",
+    "location": "London; The Regent’s Park",
+    "country": "Reino Unido",
+    "format": "presencial",
+    "sector": "arte contemporáneo / mercado del arte",
+    "series": "Frieze London",
+    "source_url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+    "source_title": "The Galleries and Curators for Frieze London and Frieze Masters 2023",
+    "publisher": "Frieze",
+    "publication_date": "2023-06-22",
+    "organizer": "Frieze",
+    "organizer_url": "https://www.frieze.com/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Frieze London 2023",
+        "source_url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Frieze London 2023.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2023-10-11",
+        "source_url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2023-10-11.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2023-10-15",
+        "source_url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2023-10-15.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "London; The Regent’s Park",
+        "source_url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: London; The Regent’s Park.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Incluye jornadas de preview; London se conserva separado de Masters",
+        "source_url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+        "locator": "Fechas de las ferias",
+        "paraphrase": "La misma fecha de feria no asegura acceso general todos los días.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "sponsor_change",
+        "value": "Inicio de colaboración Stone Island / Focus",
+        "source_url": "https://www.frieze.com/article/revealed-highlights-frieze-london-and-frieze-masters-2023?language=en",
+        "locator": "FOCUS",
+        "paraphrase": "El organizador identifica expresamente el debut en 2023; no se infiere baja de otro sponsor.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.frieze.com/article/jack-obrien-wins-2023-camden-art-centre-emerging-artist-prize-frieze-london",
+        "locator": "Premio anunciado el 11 octubre 2023; fotografía del acto",
+        "paraphrase": "El organizador documenta el premio de la edición y las galerías participantes.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Stone Island",
+        "company_url": "https://www.stoneisland.com/",
+        "role": "Socio de la sección Focus",
+        "level": "Official Partner of Focus",
+        "source_url": "https://www.frieze.com/article/revealed-highlights-frieze-london-and-frieze-masters-2023?language=en",
+        "locator": "FOCUS; debut of Stone Island",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "galerias_anunciadas_minimo",
+        "value": 160,
+        "unit": "galerías",
+        "method": "Programa anunciado: más de 160 galerías; no asistencia ni ventas.",
+        "status": "announced_lower_bound",
+        "source_url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+        "locator": "Frieze London, línea 55",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Frieze London 2024",
+    "start_date": "2024-10-09",
+    "end_date": "2024-10-13",
+    "location": "London; The Regent’s Park",
+    "country": "Reino Unido",
+    "format": "presencial",
+    "sector": "arte contemporáneo / mercado del arte",
+    "series": "Frieze London",
+    "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+    "source_title": "Frieze Unveils Bold Design for Frieze London 2024",
+    "publisher": "Frieze",
+    "publication_date": "2024-06-27",
+    "organizer": "Frieze",
+    "organizer_url": "https://www.frieze.com/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Frieze London 2024",
+        "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Frieze London 2024.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2024-10-09",
+        "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2024-10-09.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2024-10-13",
+        "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2024-10-13.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "London; The Regent’s Park",
+        "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: London; The Regent’s Park.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Incluye jornadas de preview; London se conserva separado de Masters",
+        "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+        "locator": "Fechas de las ferias",
+        "paraphrase": "La misma fecha de feria no asegura acceso general todos los días.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "side_program",
+        "value": "East End Day 6 octubre y West End Night 10 octubre",
+        "source_url": "https://www.frieze.com/article/east-end-day-and-west-end-night-2024",
+        "locator": "East End Day and West End Night 2024",
+        "paraphrase": "Actividades de Frieze Week fuera del intervalo de la feria y algunas con cita previa.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://app.frieze.com/article/funds-prizes-collaborations-frieze-london-frieze-masters-2025",
+        "locator": "Fotografía retrospectiva: Nat Faulkner wins ... at Frieze London 2024",
+        "paraphrase": "El organizador preserva evidencia retrospectiva del premio de 2024.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Deutsche Bank",
+        "company_url": "https://www.db.com/",
+        "role": "Patrocinador global principal",
+        "level": "Global Lead Partner",
+        "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+        "locator": "Global Lead Partner",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "Stone Island",
+        "company_url": "https://www.stoneisland.com/",
+        "role": "Apoyo a galerías Focus",
+        "level": null,
+        "source_url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+        "locator": "Focus: becas a galerías",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Frieze London 2025",
+    "start_date": "2025-10-15",
+    "end_date": "2025-10-19",
+    "location": "London; The Regent’s Park",
+    "country": "Reino Unido",
+    "format": "presencial",
+    "sector": "arte contemporáneo / mercado del arte",
+    "series": "Frieze London",
+    "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-first-details/",
+    "source_title": "Frieze London & Frieze Masters 2025 to Highlight Curatorial Innovation",
+    "publisher": "Frieze",
+    "publication_date": "2025-06-05",
+    "organizer": "Frieze",
+    "organizer_url": "https://www.frieze.com/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Frieze London 2025",
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Frieze London 2025.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2025-10-15",
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2025-10-15.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2025-10-19",
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2025-10-19.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "London; The Regent’s Park",
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: London; The Regent’s Park.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Incluye jornadas de preview; London se conserva separado de Masters",
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-first-details/",
+        "locator": "Fechas de las ferias",
+        "paraphrase": "La misma fecha de feria no asegura acceso general todos los días.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-end-of-fair/",
+        "locator": "Recap del 19 octubre 2025",
+        "paraphrase": "El organizador anuncia la conclusión de ambas ferias.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "reported_sale",
+        "value": {
+          "gallery": "David Zwirner",
+          "artist": "Chris Ofili",
+          "amount": 700000,
+          "currency": "USD"
+        },
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-end-of-fair/",
+        "locator": "Ventas en Frieze London; línea 42",
+        "paraphrase": "Venta declarada en recap del organizador, sin auditoría; no es ROI agregado ni venta típica.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Deutsche Bank",
+        "company_url": "https://www.db.com/",
+        "role": "Patrocinador / colaboración de 22 años",
+        "level": null,
+        "source_url": "https://press.frieze.com/frieze-london-frieze-masters-2025-end-of-fair/",
+        "locator": "Declaración de Claudio de Sanctis",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Frieze London 2026",
+    "start_date": "2026-10-14",
+    "end_date": "2026-10-18",
+    "location": "London; The Regent’s Park",
+    "country": "Reino Unido",
+    "format": "presencial",
+    "sector": "arte contemporáneo / mercado del arte",
+    "series": "Frieze London",
+    "source_url": "https://press.frieze.com/flfm26-first-details/",
+    "source_title": "Frieze London & Frieze Masters: Six Continents in Dialogue",
+    "publisher": "Frieze",
+    "publication_date": "2026-06-11",
+    "organizer": "Frieze",
+    "organizer_url": "https://www.frieze.com/",
+    "status": "announced",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Frieze London 2026",
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Frieze London 2026.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2026-10-14",
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2026-10-14.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2026-10-18",
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2026-10-18.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "London; The Regent’s Park",
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: London; The Regent’s Park.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Incluye jornadas de preview; London se conserva separado de Masters",
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Fechas de las ferias",
+        "paraphrase": "La misma fecha de feria no asegura acceso general todos los días.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "sponsor_activation",
+        "value": "Instalación de Studio Lenca en lounges Deutsche Bank",
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Global Lead Partner",
+        "paraphrase": "Activación anunciada para 2026.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Deutsche Bank",
+        "company_url": "https://www.db.com/",
+        "role": "Patrocinador global principal",
+        "level": "Global Lead Partner",
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Global Lead Partner",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "Stone Island",
+        "company_url": "https://www.stoneisland.com/",
+        "role": "Apoyo a galerías Focus",
+        "level": null,
+        "source_url": "https://press.frieze.com/flfm26-first-details/",
+        "locator": "Stone Island support since 2023",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Roland-Garros 2022",
+    "start_date": "2022-05-16",
+    "end_date": "2022-06-05",
+    "location": "Paris; Stade Roland-Garros",
+    "country": "Francia",
+    "format": "presencial",
+    "sector": "deporte / tenis",
+    "series": "Roland-Garros",
+    "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-innovations-commitments-edition-2022",
+    "source_title": "Roland-Garros: innovations and commitments for 2022",
+    "publisher": "FFT / Roland-Garros",
+    "publication_date": "2022-03-16",
+    "organizer": "Fédération française de tennis",
+    "organizer_url": "https://www.fft.fr/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Roland-Garros 2022",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-innovations-commitments-edition-2022",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Roland-Garros 2022.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2022-05-16",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-innovations-commitments-edition-2022",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2022-05-16.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2022-06-05",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-innovations-commitments-edition-2022",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2022-06-05.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Paris; Stade Roland-Garros",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-innovations-commitments-edition-2022",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Paris; Stade Roland-Garros.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Torneo completo, incluida Opening Week / clasificación",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-innovations-commitments-edition-2022",
+        "locator": "Fechas del torneo",
+        "paraphrase": "No confundir con las dos semanas del cuadro principal.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Fédération française de tennis",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Renouvellement entre BNP Paribas et la FFT",
+        "paraphrase": "Organizador normalizado a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "ticket_under25",
+        "value": {
+          "amount": 10,
+          "currency": "EUR",
+          "scope": "contingente de menores de 25, no precio general"
+        },
+        "source_url": "https://www.rolandgarros.com/en-us/article/figures-record-breaking-stats-roland-garros-2022",
+        "locator": "Roland for all; línea 105",
+        "paraphrase": "{'amount': 10, 'currency': 'EUR', 'scope': 'contingente de menores de 25, no precio general'}",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "sponsor_change",
+        "value": "Renault inicia acuerdo de cinco años desde 2022",
+        "source_url": "https://www.renault.fr/renault-mag/thematique-autour-de-renault/renault-devient-partenaire-premium-de-rolandgarros.html",
+        "locator": "Renault devient Partenaire Premium",
+        "paraphrase": "Inicio documentado; no se afirma qué sponsor salió ni se extrapolan activaciones futuras.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "ENGIE",
+        "company_url": "https://www.engie.com/",
+        "role": "Patrocinador de la activación Fresque Écologique du Tennis",
+        "level": null,
+        "source_url": "https://www.rolandgarros.com/en-us/article/figures-record-breaking-stats-roland-garros-2022",
+        "locator": "Fresque Écologique du Tennis",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "Renault",
+        "company_url": "https://www.renault.com/",
+        "role": "Patrocinador premium",
+        "level": "Premium",
+        "source_url": "https://www.renault.fr/renault-mag/thematique-autour-de-renault/renault-devient-partenaire-premium-de-rolandgarros.html",
+        "locator": "Anuncio del 2 mayo 2022",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "espectadores_reportados",
+        "value": 613586,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://www.rolandgarros.com/en-us/article/figures-record-breaking-stats-roland-garros-2022",
+        "locator": "Cifras de la edición; líneas 120–122",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "visitantes_activacion_engie",
+        "value": 11300,
+        "unit": "visitas de stand",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported",
+        "source_url": "https://www.rolandgarros.com/en-us/article/figures-record-breaking-stats-roland-garros-2022",
+        "locator": "Fresque Écologique du Tennis; líneas 90–92",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "entradas_reducidas_menores25",
+        "value": 21574,
+        "unit": "entradas",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente.",
+        "status": "reported",
+        "source_url": "https://www.rolandgarros.com/en-us/article/figures-record-breaking-stats-roland-garros-2022",
+        "locator": "Roland for all; línea 105",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Roland-Garros 2023",
+    "start_date": "2023-05-22",
+    "end_date": "2023-06-11",
+    "location": "Paris; Stade Roland-Garros",
+    "country": "Francia",
+    "format": "presencial",
+    "sector": "deporte / tenis",
+    "series": "Roland-Garros",
+    "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-2023-opening-official-ticketing-offers-15-march",
+    "source_title": "Roland-Garros 2023: ticketing opens on 15 march!",
+    "publisher": "FFT / Roland-Garros",
+    "publication_date": "2023-03-08",
+    "organizer": "Fédération française de tennis",
+    "organizer_url": "https://www.fft.fr/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Roland-Garros 2023",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-2023-opening-official-ticketing-offers-15-march",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Roland-Garros 2023.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2023-05-22",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-2023-opening-official-ticketing-offers-15-march",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2023-05-22.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2023-06-11",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-2023-opening-official-ticketing-offers-15-march",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2023-06-11.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Paris; Stade Roland-Garros",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-2023-opening-official-ticketing-offers-15-march",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Paris; Stade Roland-Garros.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Torneo completo, incluida Opening Week / clasificación",
+        "source_url": "https://www.rolandgarros.com/en-us/article/roland-garros-2023-opening-official-ticketing-offers-15-march",
+        "locator": "Fechas del torneo",
+        "paraphrase": "No confundir con las dos semanas del cuadro principal.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Fédération française de tennis",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Renouvellement entre BNP Paribas et la FFT",
+        "paraphrase": "Organizador normalizado a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Renault",
+        "company_url": "https://www.renault.com/",
+        "role": "Patrocinador premium",
+        "level": "Premium",
+        "source_url": "https://media.renault.com/roland-garros-2023-la-marque-renault-monte-au-filet/?lang=fra",
+        "locator": "Primeros bullets",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "espectadores_reportados_minimo",
+        "value": 630000,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported_lower_bound",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/chiffres-manquants-finales-messieurs-double-dames-quinzieme-journee-dimanche-11-juin",
+        "locator": "630 000; incluye Opening Week",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "flota_anunciada",
+        "value": 185,
+        "unit": "vehículos",
+        "method": "Inventario logístico anunciado por sponsor.",
+        "status": "announced",
+        "source_url": "https://media.renault.com/roland-garros-2023-la-marque-renault-monte-au-filet/?lang=fra",
+        "locator": "Flota para jugadores y oficiales",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Roland-Garros 2024",
+    "start_date": "2024-05-20",
+    "end_date": "2024-06-09",
+    "location": "Paris; Stade Roland-Garros",
+    "country": "Francia",
+    "format": "presencial",
+    "sector": "deporte / tenis",
+    "series": "Roland-Garros",
+    "source_url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+    "source_title": "Emirates is back in action at Roland-Garros 2024",
+    "publisher": "Emirates",
+    "publication_date": "2024-05-17",
+    "organizer": "Fédération française de tennis",
+    "organizer_url": "https://www.fft.fr/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Roland-Garros 2024",
+        "source_url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Roland-Garros 2024.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2024-05-20",
+        "source_url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2024-05-20.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2024-06-09",
+        "source_url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2024-06-09.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Paris; Stade Roland-Garros",
+        "source_url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Paris; Stade Roland-Garros.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Torneo completo, incluida Opening Week / clasificación",
+        "source_url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+        "locator": "Fechas del torneo",
+        "paraphrase": "No confundir con las dos semanas del cuadro principal.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Fédération française de tennis",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Renouvellement entre BNP Paribas et la FFT",
+        "paraphrase": "Organizador normalizado a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Emirates",
+        "company_url": "https://www.emirates.com/",
+        "role": "Aerolínea oficial y patrocinador premium",
+        "level": "Premium",
+        "source_url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+        "locator": "Subtítulo y primer párrafo",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "Renault",
+        "company_url": "https://www.renault.com/",
+        "role": "Patrocinador premium",
+        "level": "Premium",
+        "source_url": "https://media.renault.com/game-5-and-match-renault-electrifies-roland-garros/?lang=eng",
+        "locator": "Tercer año consecutivo",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "espectadores_bilan_ultimo_dia",
+        "value": 670000,
+        "unit": "asistencias",
+        "method": "Declaración en conferencia de cierre; cifra posterior oficial difiere. No se sabe si la diferencia es redondeo, corte temporal o metodología. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported_at_final_day",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/bilan-edition-2024-gilles-moretton-amelie-mauresmo-conference-de-presse",
+        "locator": "Billetterie mobile; 9 junio 2024",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "name": "espectadores_referencia_posterior",
+        "value": 675080,
+        "unit": "asistencias",
+        "method": "Revista FFT de 2025; conteo referido a 2024. No se documenta si reemplaza la declaración de 670000; conservar ambas observaciones. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported_later",
+        "source_url": "https://digital.fft.fr/04-divers/federal/2025/NL%20CLUBS/TI571-Interactif_compressed.pdf",
+        "locator": "ROLAND-GARROS en quelques chiffres",
+        "source_access": "search_index",
+        "evidence_status": "provisional_primary_index_only"
+      },
+      {
+        "name": "flota_anunciada",
+        "value": 180,
+        "unit": "vehículos",
+        "method": "Inventario logístico anunciado por sponsor.",
+        "status": "announced",
+        "source_url": "https://media.renault.com/game-5-and-match-renault-electrifies-roland-garros/?lang=eng",
+        "locator": "Bullets iniciales",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Roland-Garros 2025",
+    "start_date": "2025-05-19",
+    "end_date": "2025-06-08",
+    "location": "Paris; Stade Roland-Garros",
+    "country": "Francia",
+    "format": "presencial",
+    "sector": "deporte / tenis",
+    "series": "Roland-Garros",
+    "source_url": "https://media.renault.com/?p=529529",
+    "source_title": "Renault 4 Savane 4x4 Concept en première mondiale à Roland-Garros 2025",
+    "publisher": "Renault",
+    "publication_date": "2025-05-16",
+    "organizer": "Fédération française de tennis",
+    "organizer_url": "https://www.fft.fr/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Roland-Garros 2025",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Roland-Garros 2025.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2025-05-19",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2025-05-19.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2025-06-08",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2025-06-08.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Paris; Stade Roland-Garros",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Paris; Stade Roland-Garros.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Torneo completo, incluida Opening Week / clasificación",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Fechas del torneo",
+        "paraphrase": "No confundir con las dos semanas del cuadro principal.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Fédération française de tennis",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Renouvellement entre BNP Paribas et la FFT",
+        "paraphrase": "Organizador normalizado a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "company_launch_signal",
+        "value": "Presentación de Renault 4 Savane 4x4 Concept en el stand del torneo",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Anuncio del 16 mayo 2025",
+        "paraphrase": "Relaciona lanzamiento de producto y activación de sponsor; no prueba ventas atribuidas.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.rolandgarros.com/en-us/page/roland-garros-past-editions-2025-coco-gauff-carlos-alcaraz",
+        "locator": "Past editions 2025; finales del 8 junio",
+        "paraphrase": "Archivo oficial de resultados de 2025.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "Renault",
+        "company_url": "https://www.renault.com/",
+        "role": "Patrocinador premium y transportista oficial",
+        "level": "Premium",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Cuarto año consecutivo",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "flota_anunciada",
+        "value": 187,
+        "unit": "vehículos",
+        "method": "Inventario logístico anunciado por sponsor.",
+        "status": "announced",
+        "source_url": "https://media.renault.com/?p=529529",
+        "locator": "Transporteur officiel",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Roland-Garros 2026",
+    "start_date": "2026-05-18",
+    "end_date": "2026-06-07",
+    "location": "Paris; Stade Roland-Garros",
+    "country": "Francia",
+    "format": "presencial",
+    "sector": "deporte / tenis",
+    "series": "Roland-Garros",
+    "source_url": "https://www.rolandgarros.com/fr-fr/article/medias-accreditations-presse-radio-photo-tv-roland-garros-2026",
+    "source_title": "Médias : processus d’accréditation pour Roland-Garros 2026",
+    "publisher": "FFT / Roland-Garros",
+    "publication_date": "2026-02-09",
+    "organizer": "Fédération française de tennis",
+    "organizer_url": "https://www.fft.fr/",
+    "status": "reported_held",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Roland-Garros 2026",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/medias-accreditations-presse-radio-photo-tv-roland-garros-2026",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Roland-Garros 2026.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2026-05-18",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/medias-accreditations-presse-radio-photo-tv-roland-garros-2026",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2026-05-18.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2026-06-07",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/medias-accreditations-presse-radio-photo-tv-roland-garros-2026",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2026-06-07.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Paris; Stade Roland-Garros",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/medias-accreditations-presse-radio-photo-tv-roland-garros-2026",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Paris; Stade Roland-Garros.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Torneo completo, incluida Opening Week / clasificación",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/medias-accreditations-presse-radio-photo-tv-roland-garros-2026",
+        "locator": "Fechas del torneo",
+        "paraphrase": "No confundir con las dos semanas del cuadro principal.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Fédération française de tennis",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Renouvellement entre BNP Paribas et la FFT",
+        "paraphrase": "Organizador normalizado a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "status",
+        "value": "reported_held",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/edition-2026-amelie-mauresmo-bilan-reussites-surprises-conference-de-presse",
+        "locator": "Conferencia de balance",
+        "paraphrase": "La directora ofrece balance durante la jornada final.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "BNP Paribas",
+        "company_url": "https://group.bnpparibas/",
+        "role": "Socio histórico; renovación desde 2027",
+        "level": null,
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Anuncio del 24 mayo 2026",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [
+      {
+        "name": "espectadores_reportados_minimo",
+        "value": 727000,
+        "unit": "asistencias",
+        "method": "Declaración de la organización; metodología de conteo no publicada en esta fuente. No se interpreta como personas únicas ni se suma entre eventos.",
+        "status": "reported_lower_bound",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/edition-2026-amelie-mauresmo-bilan-reussites-surprises-conference-de-presse",
+        "locator": "Une édition à la hauteur des espérances; 7 junio 2026",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  },
+  {
+    "title": "Roland-Garros 2027",
+    "start_date": "2027-05-17",
+    "end_date": "2027-06-06",
+    "location": "Paris; Stade Roland-Garros",
+    "country": "Francia",
+    "format": "presencial",
+    "sector": "deporte / tenis",
+    "series": "Roland-Garros",
+    "source_url": "https://travel.rolandgarros.com/fr/conditions",
+    "source_title": "Conditions générales de vente billetterie Roland-Garros 2027",
+    "publisher": "FFT / Roland-Garros",
+    "publication_date": "2026-05-24",
+    "organizer": "Fédération française de tennis",
+    "organizer_url": "https://www.fft.fr/",
+    "status": "announced",
+    "source_access": "web_open",
+    "facts": [
+      {
+        "field": "title",
+        "value": "Roland-Garros 2027",
+        "source_url": "https://travel.rolandgarros.com/fr/conditions",
+        "locator": "Cuerpo principal",
+        "paraphrase": "title: Roland-Garros 2027.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "start_date",
+        "value": "2027-05-17",
+        "source_url": "https://travel.rolandgarros.com/fr/conditions",
+        "locator": "Cuerpo principal",
+        "paraphrase": "start_date: 2027-05-17.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "end_date",
+        "value": "2027-06-06",
+        "source_url": "https://travel.rolandgarros.com/fr/conditions",
+        "locator": "Cuerpo principal",
+        "paraphrase": "end_date: 2027-06-06.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "location",
+        "value": "Paris; Stade Roland-Garros",
+        "source_url": "https://travel.rolandgarros.com/fr/conditions",
+        "locator": "Cuerpo principal",
+        "paraphrase": "location: Paris; Stade Roland-Garros.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "date_scope",
+        "value": "Torneo completo, incluida Opening Week / clasificación",
+        "source_url": "https://travel.rolandgarros.com/fr/conditions",
+        "locator": "Fechas del torneo",
+        "paraphrase": "No confundir con las dos semanas del cuadro principal.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "organizer",
+        "value": "Fédération française de tennis",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Renouvellement entre BNP Paribas et la FFT",
+        "paraphrase": "Organizador normalizado a nivel de serie.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      },
+      {
+        "field": "sponsor_renewal",
+        "value": "Acuerdo prolongado desde 2027 durante al menos cinco años",
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Introducción",
+        "paraphrase": "La renovación está anunciada; no se registra como ingreso cobrado ni activación realizada.",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "sponsors": [
+      {
+        "name": "BNP Paribas",
+        "company_url": "https://group.bnpparibas/",
+        "role": "Socio histórico; renovación desde 2027",
+        "level": null,
+        "source_url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+        "locator": "Anuncio del 24 mayo 2026",
+        "source_access": "web_open",
+        "evidence_status": "primary_body_verified"
+      }
+    ],
+    "metrics": [],
+    "platform_links": [],
+    "validation_status": "primary_body_verified"
+  }
+]

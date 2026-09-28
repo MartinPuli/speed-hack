@@ -1,0 +1,1524 @@
+{
+  "schema_version": "1.0",
+  "scope": "Vías de acceso oficiales y preparación Luma; no inventario mundial",
+  "checked_at": "2026-09-28",
+  "historical_window": {
+    "start": "2021-09-28",
+    "end": "2026-09-28"
+  },
+  "sources": [
+    {
+      "url": "https://docs.luma.com/reference/getting-started-with-your-api",
+      "publisher": "Luma",
+      "title": "Getting Started",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "authentication",
+          "value": "x-luma-api-key",
+          "locator": "Authentication",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "plan_required",
+          "value": "Luma Plus",
+          "locator": "Requirements",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "key_scope",
+          "value": "Un calendario por clave",
+          "locator": "Creating an API Key",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "base_url",
+          "value": "https://public-api.luma.com",
+          "locator": "About the API",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://help.luma.com/p/mcp",
+      "publisher": "Luma",
+      "title": "Luma MCP Server",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "commercial_dataset_rights_not_established",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "endpoint",
+          "value": "https://mcp.luma.com",
+          "locator": "intro",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "plus_required",
+          "value": false,
+          "locator": "intro",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "public_discovery",
+          "value": "Próximos eventos: keyword, location, date range",
+          "locator": "What It Can Do",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "historical_scope",
+          "value": "Eventos del usuario asistidos/alojados, según acceso",
+          "locator": "Your events",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "oauth",
+          "value": "Client ID Metadata Documents; no dynamic registration",
+          "locator": "Other MCP Clients",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "changes",
+          "value": "Acciones como el usuario conectado",
+          "locator": "Access and Privacy",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Capacidades documentadas; no conexión ni autenticación ejecutadas."
+    },
+    {
+      "url": "https://luma.com/pricing",
+      "publisher": "Luma",
+      "title": "Pricing",
+      "language": "en",
+      "source_type": "official_pricing",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "plus_usd_month_billed_annually",
+          "value": 59,
+          "locator": "Luma Plus",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "free_platform_fee_pct",
+          "value": 5,
+          "locator": "Free",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "plus_platform_fee_pct",
+          "value": 0,
+          "locator": "Luma Plus",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "payment_processor_extra",
+          "value": true,
+          "locator": "Stripe note",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Precio mensual sin facturación anual no verificado."
+    },
+    {
+      "url": "https://docs.luma.com/reference/get_v1-events-get",
+      "publisher": "Luma",
+      "title": "Get Event",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "commercial_dataset_rights_not_established",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "endpoint",
+          "value": "GET /v1/events/get",
+          "locator": "HTTP",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "public_other_events",
+          "value": "Campos públicos con access:view",
+          "locator": "description",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "own_events",
+          "value": "Detalle de gestión con access:manage",
+          "locator": "description",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://docs.luma.com/reference/get_v1-calendars-events-list",
+      "publisher": "Luma",
+      "title": "List Events",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "commercial_dataset_rights_not_established",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "endpoint",
+          "value": "GET /v1/calendars/events/list",
+          "locator": "HTTP",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "pagination",
+          "value": "pagination_cursor / pagination_limit",
+          "locator": "Query Params",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "date_filters",
+          "value": [
+            "before",
+            "after"
+          ],
+          "locator": "Query Params",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "scope",
+          "value": "Calendario; manage y opcional view",
+          "locator": "description",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "location_view",
+          "value": "Ofuscada a ciudad para eventos ajenos listados",
+          "locator": "description",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://docs.luma.com/reference/rate-limits",
+      "publisher": "Luma",
+      "title": "Rate Limits",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "calendar_requests_per_minute",
+          "value": 200,
+          "locator": "Rate Limits",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "organization_requests_per_minute",
+          "value": 500,
+          "locator": "Rate Limits",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "backoff",
+          "value": "429 / Retry-After",
+          "locator": "Rate Limit Headers",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://docs.luma.com/reference/post_v1-events-create",
+      "publisher": "Luma",
+      "title": "Create Event",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "endpoint",
+          "value": "POST /v1/events/create",
+          "locator": "HTTP",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "required",
+          "value": [
+            "name",
+            "start_at",
+            "timezone"
+          ],
+          "locator": "Body Params",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "visibility",
+          "value": [
+            "public",
+            "members-only",
+            "private"
+          ],
+          "locator": "visibility",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "draft_state",
+          "value": "No documentado en este contrato",
+          "locator": "Body Params",
+          "evidence_class": "research_limitation"
+        }
+      ],
+      "notes": "No se ejecutó. Privado no equivale a borrador."
+    },
+    {
+      "url": "https://luma.com/terms",
+      "publisher": "Luma",
+      "title": "Terms of Use",
+      "language": "en",
+      "source_type": "terms",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "permission_or_bona_fide_supported_interface_use_required",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "access_limit",
+          "value": "Interfaces públicamente soportadas",
+          "locator": "Acceptable Use",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "reuse_limit",
+          "value": "Reutilización de Site Content restringida",
+          "locator": "Copyright, Trademarks, and other Intellectual Property",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://luma.com/wmrrdpcj",
+      "publisher": "Moth Quantum / Luma",
+      "title": "Moth Hack 2026",
+      "language": "en",
+      "source_type": "public_event_page",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "public_facts_only_commercial_reuse_pending",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "event_name",
+          "value": "Moth Hack 2026",
+          "locator": "title",
+          "evidence_class": "publisher_announcement"
+        },
+        {
+          "field": "organizer",
+          "value": "Moth Quantum",
+          "locator": "Hosted by",
+          "evidence_class": "publisher_announcement"
+        },
+        {
+          "field": "activity_dates",
+          "value": [
+            "2026-09-26",
+            "2026-09-27"
+          ],
+          "locator": "About Event",
+          "evidence_class": "publisher_announcement"
+        },
+        {
+          "field": "location",
+          "value": "19 D'Arblay St, London W1F 8ED, UK",
+          "locator": "Location",
+          "evidence_class": "publisher_announcement"
+        },
+        {
+          "field": "entry_price",
+          "value": "Free to enter",
+          "locator": "About Event",
+          "evidence_class": "publisher_announcement"
+        }
+      ],
+      "notes": "Prueba de página pública; anuncio no acredita asistencia real ni resultados."
+    },
+    {
+      "url": "https://www.eventbrite.com/platform/new/api",
+      "publisher": "Eventbrite",
+      "title": "Eventbrite API Docs",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_search_primary_source",
+      "access_status": "indexed_only",
+      "reuse_status": "permission_required_before_catalog_extraction",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "search_api_retired",
+          "value": "2019-12-12",
+          "locator": "Search Events - deprecated",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "organization_list",
+          "value": "GET /organizations/{organization_id}/events/",
+          "locator": "List Events by Organization",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "history_filter",
+          "value": "time_filter",
+          "locator": "List Events by Organization",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Aperturas directas 429/error; hechos visibles en índice de fuente oficial. No llamada autenticada."
+    },
+    {
+      "url": "https://www.eventbrite.com/corporate/legal/legalterms/",
+      "publisher": "Eventbrite",
+      "title": "Legal Terms",
+      "language": "en",
+      "source_type": "terms_index",
+      "access_method": "web_search_primary_source",
+      "access_status": "indexed_only",
+      "reuse_status": "pending_terms_validation",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "linked_terms",
+          "value": [
+            "Terms of Service",
+            "API terms of use"
+          ],
+          "locator": "Third party / Consumer",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "La apertura directa falló 429."
+    },
+    {
+      "url": "https://www.eventbrite.co/help/en-ca/articles/251210/eventbrite-terms-of-service/",
+      "publisher": "Eventbrite",
+      "title": "Eventbrite Terms of Service",
+      "language": "en",
+      "source_type": "terms",
+      "access_method": "web_search_primary_source",
+      "access_status": "indexed_only",
+      "reuse_status": "scraping_and_commercial_site_content_use_restricted",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "restriction",
+          "value": "Prohibición de scraping y uso comercial de Site Content",
+          "locator": "13. Scraping or Commercial Use of Site Content is Prohibited",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Apertura directa falló; corroboración directa pendiente."
+    },
+    {
+      "url": "https://help.partiful.com/en-us/articles/15525563-what-is-a-public-event",
+      "publisher": "Partiful",
+      "title": "What is a Public Event?",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "public_does_not_grant_commercial_reuse",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "public_discovery",
+          "value": "Indexable y enviado a Explore",
+          "locator": "Public Event",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "published_on",
+          "value": "2026-07-01",
+          "locator": "article date",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "default_visibility",
+          "value": "Private",
+          "locator": "How do I set my event to public?",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://help.partiful.com/en-us/articles/15525648-how-does-partiful-protect-my-data",
+      "publisher": "Partiful",
+      "title": "How does Partiful protect my data?",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "private_guest_data_excluded",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "guests_access",
+          "value": "Roles autenticados pertinentes; anfitrión puede ocultar lista",
+          "locator": "article body",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://partiful.com/terms",
+      "publisher": "Partiful",
+      "title": "Terms of service",
+      "language": "en",
+      "source_type": "terms",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "commercial_use_requires_written_authorization",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "revision",
+          "value": "2026-09-25",
+          "locator": "Date of Last Revision",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "commercial_use",
+          "value": "Autorización escrita salvo excepción aplicable",
+          "locator": "Commercial Use",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://partiful.com/explore",
+      "publisher": "Partiful",
+      "title": "Browse and find local events",
+      "language": "en",
+      "source_type": "public_catalog",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "commercial_reuse_pending",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "regions_observed",
+          "value": [
+            "new york city",
+            "los angeles",
+            "san francisco"
+          ],
+          "locator": "section headings",
+          "evidence_class": "direct_observation"
+        },
+        {
+          "field": "relative_dates",
+          "value": true,
+          "locator": "event cards",
+          "evidence_class": "direct_observation"
+        },
+        {
+          "field": "outside_recommendations_present",
+          "value": true,
+          "locator": "Tompkins Square Dog Parade / Coffee Festival",
+          "evidence_class": "direct_observation"
+        }
+      ],
+      "notes": "Conteos de tarjetas no tratados como asistencia. No descarga de listas de invitados."
+    },
+    {
+      "url": "https://www.meetup.com/graphql/",
+      "publisher": "Meetup",
+      "title": "API Doc Introduction",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "api_license_applies",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "api",
+          "value": "GraphQL",
+          "locator": "title",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "pro_api_access",
+          "value": true,
+          "locator": "Get API access and more with Meetup Pro",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Se llegó por redirección desde /api/."
+    },
+    {
+      "url": "https://help.meetup.com/hc/en-us/articles/41453576628749-How-can-I-get-access-to-Meetup-s-API",
+      "publisher": "Meetup",
+      "title": "How can I get access to Meetup's API?",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "approval_required",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "new_oauth_consumers",
+          "value": "Pro activo y solicitud",
+          "locator": "How do I apply for OAuth authorization?",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "approval_guaranteed",
+          "value": false,
+          "locator": "How do I apply for OAuth authorization?",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "access_changed",
+          "value": "2025-02",
+          "locator": "opening note",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://login.10times.com/platform",
+      "publisher": "10times",
+      "title": "Smart Event Management Platform",
+      "language": "en",
+      "source_type": "official_product",
+      "access_method": "web_search_primary_source",
+      "access_status": "indexed_only",
+      "reuse_status": "written_agreement_required",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "api_marketed",
+          "value": "Intercambio de datos entre plataformas del dashboard",
+          "locator": "Data Access API",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "No prueba API pública global."
+    },
+    {
+      "url": "https://10times.com/terms-of-service",
+      "publisher": "10times",
+      "title": "Terms of Service",
+      "language": "en",
+      "source_type": "terms",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "automated_and_commercial_use_requires_agreement",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "commercial_restriction",
+          "value": "Datos para uso personal salvo acuerdo escrito",
+          "locator": "VII Others Terms",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "automation_restriction",
+          "value": "Prohibición de scripts/crawlers salvo acuerdo",
+          "locator": "VII Others Terms",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://sessionize.com/playbook/developers/api",
+      "publisher": "Sessionize",
+      "title": "API: Access your data from code",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "only_published_or_authorized_endpoint",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "formats",
+          "value": [
+            "JSON",
+            "XML",
+            "iCalendar"
+          ],
+          "locator": "What formats are available?",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "entities",
+          "value": [
+            "sessions",
+            "speakers",
+            "rooms"
+          ],
+          "locator": "What data is available?",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "authentication_required",
+          "value": false,
+          "locator": "What about authentication?",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "owner_controls_fields",
+          "value": true,
+          "locator": "What about authentication?",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "cache_minutes",
+          "value": 5,
+          "locator": "Troubleshooting",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Endpoint sin auth puede ser confidencial; no enumerar IDs."
+    },
+    {
+      "url": "https://sessionize.com/api/v2/jl4ktls0/view/All",
+      "publisher": "Sessionize",
+      "title": "Official demo JSON",
+      "language": "en",
+      "source_type": "api_demo",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "demo_testing_only",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "synthetic",
+          "value": true,
+          "locator": "sessions[*].description / documentation",
+          "evidence_class": "direct_observation"
+        },
+        {
+          "field": "keys",
+          "value": [
+            "sessions",
+            "speakers",
+            "questions",
+            "categories",
+            "rooms"
+          ],
+          "locator": "JSON top-level",
+          "evidence_class": "direct_observation"
+        }
+      ],
+      "notes": "No incluido en eventos observados ni volumen histórico."
+    },
+    {
+      "url": "https://docs.pretix.eu/dev/api/",
+      "publisher": "pretix",
+      "title": "REST API",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "owner_authorization_required",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "resources",
+          "value": [
+            "events",
+            "sub-events",
+            "items",
+            "orders",
+            "exporters"
+          ],
+          "locator": "Resources and endpoints",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://docs.pretix.eu/dev/api/fundamentals.html",
+      "publisher": "pretix",
+      "title": "Basic concepts",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "owner_authorization_required",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "authentication",
+          "value": [
+            "token",
+            "OAuth",
+            "device"
+          ],
+          "locator": "Authentication",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "permissions",
+          "value": "Equipos, organizador y evento",
+          "locator": "Permissions",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://developers.tickettailor.com/docs/api/ticket-tailor-api/",
+      "publisher": "Ticket Tailor",
+      "title": "Ticket Tailor API",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "own_box_office_access",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "scope",
+          "value": "Box office de la clave",
+          "locator": "Sign up",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "authentication",
+          "value": "HTTP Basic API key",
+          "locator": "Authentication",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "rate_limit",
+          "value": {
+            "requests": 5000,
+            "minutes": 30
+          },
+          "locator": "Rate limiting",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "page_max",
+          "value": 100,
+          "locator": "Pagination",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://help.tickettailor.com/en/articles/4593218-how-do-i-connect-to-the-ticket-tailor-api",
+      "publisher": "Ticket Tailor",
+      "title": "How do I connect to the Ticket Tailor API?",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "own_box_office_access",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "availability",
+          "value": "Todos sus usuarios; datos de box office propio",
+          "locator": "article body",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "ticket_issue_cost",
+          "value": "1 crédito, incluso ticket gratuito",
+          "locator": "Things to note",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "published_on",
+          "value": "2025-12-19",
+          "locator": "article date",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://help.humanitix.com/en/articles/8888275-public-api-documentation",
+      "publisher": "Humanitix",
+      "title": "Public API documentation",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "owned_shared_events_only",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "scope",
+          "value": "Eventos propios/compartidos",
+          "locator": "API Documentation",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "mode",
+          "value": "read-only",
+          "locator": "intro",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "authentication",
+          "value": "x-api-key",
+          "locator": "How to find your API Key",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "requests_per_minute",
+          "value": 200,
+          "locator": "Commonly asked questions",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://static.humanitix.com/pdfs/api_terms_of_use.pdf",
+      "publisher": "Humanitix",
+      "title": "API Terms of Use",
+      "language": "en",
+      "source_type": "terms",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "consent_and_reuse_restrictions",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "consent_required",
+          "value": true,
+          "locator": "p4 §4",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "standalone_resale_restricted",
+          "value": true,
+          "locator": "p3 §3",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "competing_product_restriction",
+          "value": true,
+          "locator": "p4 §3",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "PDF leído; no listas privadas recuperadas."
+    },
+    {
+      "url": "https://partners-endpoint.dice.fm/graphql/docs/index.html",
+      "publisher": "DICE",
+      "title": "Ticket Holders API",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "partner_auth_required",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "endpoint",
+          "value": "https://partners-endpoint.dice.fm/graphql",
+          "locator": "API Endpoints",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "authentication",
+          "value": "Token desde MIO",
+          "locator": "Authorization",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "scope",
+          "value": "Eventos del partner",
+          "locator": "intro / Viewer",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Documentación técnica accesible; no autenticación ni compradores extraídos."
+    },
+    {
+      "url": "https://archive.org/help/wayback_api.php",
+      "publisher": "Internet Archive",
+      "title": "Wayback Machine APIs",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "underlying_rights_not_granted",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "availability_endpoint",
+          "value": "https://archive.org/wayback/available?url=example.com&timestamp=20060101",
+          "locator": "Wayback Availability JSON API",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "cdx_documentation",
+          "value": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+          "locator": "Wayback CDX Server API",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+      "publisher": "Internet Archive",
+      "title": "Wayback CDX Server",
+      "language": "en",
+      "source_type": "official_source_code_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "underlying_rights_not_granted",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "purpose",
+          "value": "Consultar índice de capturas por URL y filtros",
+          "locator": "README",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.ticketfairy.com/developers",
+      "publisher": "Ticket Fairy",
+      "title": "API, SDK, MCP and Agent Docs",
+      "language": "en",
+      "source_type": "official_documentation",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "commercial_retention_terms_pending",
+      "checked_at": "2026-09-28",
+      "facts": [
+        {
+          "field": "public_listing",
+          "value": "GET https://www.ticketfairy.com/api/v1/events/listing",
+          "locator": "Public event API",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "read_auth_required",
+          "value": false,
+          "locator": "Authentication",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "filters",
+          "value": [
+            "section_type=past",
+            "from",
+            "to",
+            "country",
+            "cursor"
+          ],
+          "locator": "Parameters",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "page_max",
+          "value": 200,
+          "locator": "Parameters",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "requests_per_minute",
+          "value": 120,
+          "locator": "Rate limits",
+          "evidence_class": "official_documentation"
+        },
+        {
+          "field": "mcp",
+          "value": "https://www.ticketfairy.com/agentic/mcp",
+          "locator": "Public MCP server",
+          "evidence_class": "official_documentation"
+        }
+      ],
+      "notes": "Endpoint solicitado sin éxito; no prueba de inventario ni cinco años recuperables."
+    }
+  ],
+  "attempts": [
+    {
+      "attempt_id": "platform-access-001",
+      "url": "https://docs.luma.com/reference/getting-started-with-your-api",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-002",
+      "url": "https://help.luma.com/p/mcp",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-003",
+      "url": "https://luma.com/pricing",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-004",
+      "url": "https://docs.luma.com/reference/get_v1-events-get",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-005",
+      "url": "https://docs.luma.com/reference/get_v1-calendars-events-list",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-006",
+      "url": "https://docs.luma.com/reference/rate-limits",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-007",
+      "url": "https://docs.luma.com/reference/post_v1-events-create",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-008",
+      "url": "https://luma.com/terms",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-009",
+      "url": "https://luma.com/wmrrdpcj",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-010",
+      "url": "https://www.eventbrite.com/platform/new/api",
+      "checked_at": "2026-09-28",
+      "method": "web_search_primary_source",
+      "status": "indexed_only",
+      "notes": "Fuente primaria encontrada en índice; apertura directa no completada o no realizada; ver notas."
+    },
+    {
+      "attempt_id": "platform-access-011",
+      "url": "https://www.eventbrite.com/corporate/legal/legalterms/",
+      "checked_at": "2026-09-28",
+      "method": "web_search_primary_source",
+      "status": "indexed_only",
+      "notes": "Fuente primaria encontrada en índice; apertura directa no completada o no realizada; ver notas."
+    },
+    {
+      "attempt_id": "platform-access-012",
+      "url": "https://www.eventbrite.co/help/en-ca/articles/251210/eventbrite-terms-of-service/",
+      "checked_at": "2026-09-28",
+      "method": "web_search_primary_source",
+      "status": "indexed_only",
+      "notes": "Fuente primaria encontrada en índice; apertura directa no completada o no realizada; ver notas."
+    },
+    {
+      "attempt_id": "platform-access-013",
+      "url": "https://help.partiful.com/en-us/articles/15525563-what-is-a-public-event",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-014",
+      "url": "https://help.partiful.com/en-us/articles/15525648-how-does-partiful-protect-my-data",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-015",
+      "url": "https://partiful.com/terms",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-016",
+      "url": "https://partiful.com/explore",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-017",
+      "url": "https://www.meetup.com/graphql/",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-018",
+      "url": "https://help.meetup.com/hc/en-us/articles/41453576628749-How-can-I-get-access-to-Meetup-s-API",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-019",
+      "url": "https://login.10times.com/platform",
+      "checked_at": "2026-09-28",
+      "method": "web_search_primary_source",
+      "status": "indexed_only",
+      "notes": "Fuente primaria encontrada en índice; apertura directa no completada o no realizada; ver notas."
+    },
+    {
+      "attempt_id": "platform-access-020",
+      "url": "https://10times.com/terms-of-service",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-021",
+      "url": "https://sessionize.com/playbook/developers/api",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-022",
+      "url": "https://sessionize.com/api/v2/jl4ktls0/view/All",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-023",
+      "url": "https://docs.pretix.eu/dev/api/",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-024",
+      "url": "https://docs.pretix.eu/dev/api/fundamentals.html",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-025",
+      "url": "https://developers.tickettailor.com/docs/api/ticket-tailor-api/",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-026",
+      "url": "https://help.tickettailor.com/en/articles/4593218-how-do-i-connect-to-the-ticket-tailor-api",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-027",
+      "url": "https://help.humanitix.com/en/articles/8888275-public-api-documentation",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-028",
+      "url": "https://static.humanitix.com/pdfs/api_terms_of_use.pdf",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-029",
+      "url": "https://partners-endpoint.dice.fm/graphql/docs/index.html",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-030",
+      "url": "https://archive.org/help/wayback_api.php",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-031",
+      "url": "https://github.com/internetarchive/wayback/tree/master/wayback-cdx-server",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-032",
+      "url": "https://www.ticketfairy.com/developers",
+      "checked_at": "2026-09-28",
+      "method": "web_public_read",
+      "status": "read",
+      "notes": "Lectura pública completada; no equivale a prueba autenticada."
+    },
+    {
+      "attempt_id": "platform-access-033",
+      "url": "https://help.luma.com/p/luma-api",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "timeout",
+      "attempt_count": 2,
+      "notes": "Dos intentos; documentación REST alternativa accesible."
+    },
+    {
+      "attempt_id": "platform-access-034",
+      "url": "https://www.eventbrite.com/platform/new/api",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "http_429_or_tool_error",
+      "attempt_count": 2,
+      "notes": "Primer intento 429; segundo error. Índice oficial accesible."
+    },
+    {
+      "attempt_id": "platform-access-035",
+      "url": "https://www.eventbrite.com/corporate/legal/legalterms/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "http_429",
+      "attempt_count": 1,
+      "notes": "No se eludió límite."
+    },
+    {
+      "attempt_id": "platform-access-036",
+      "url": "https://api.10times.com/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_inaccessible",
+      "attempt_count": 1,
+      "notes": "Endpoint candidato no confirmado; no tratar como API documentada."
+    },
+    {
+      "attempt_id": "platform-access-037",
+      "url": "https://sessionize.com/playbook/embed/api/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_inaccessible",
+      "attempt_count": 1,
+      "notes": "Ruta alternativa oficial localizada /playbook/developers/api."
+    },
+    {
+      "attempt_id": "platform-access-038",
+      "url": "https://humanitix.stoplight.io/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "javascript_shell_only",
+      "attempt_count": 1,
+      "notes": "Ayuda oficial alternativa confirmó alcance."
+    },
+    {
+      "attempt_id": "platform-access-039",
+      "url": "https://dice.fm/partners",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "http_403",
+      "attempt_count": 1,
+      "notes": "Referencia GraphQL oficial accesible por búsqueda."
+    },
+    {
+      "attempt_id": "platform-access-040",
+      "url": "https://docs.luma.com/reference/post_v1-events-create.md",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "HTML sin sufijo .md accesible."
+    },
+    {
+      "attempt_id": "platform-access-041",
+      "url": "https://docs.luma.com/reference/get_v1-events-get.md",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "HTML accesible."
+    },
+    {
+      "attempt_id": "platform-access-042",
+      "url": "https://docs.luma.com/reference/rate-limits.md",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "HTML accesible."
+    },
+    {
+      "attempt_id": "platform-access-043",
+      "url": "https://docs.luma.com/reference/get_v1-calendars-events-list.md",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "HTML accesible."
+    },
+    {
+      "attempt_id": "platform-access-044",
+      "url": "https://docs.luma.com/reference/post_v1-events-update.md",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "No detalle update extraído."
+    },
+    {
+      "attempt_id": "platform-access-045",
+      "url": "https://www.eventbrite.com/help/en-us/articles/251210/eventbrite-terms-of-service/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "http_429",
+      "attempt_count": 1,
+      "notes": "Se conservó evidencia indexada oficial y límite de lectura."
+    },
+    {
+      "attempt_id": "platform-access-046",
+      "url": "https://www.eventbrite.co/help/en-ca/articles/251210/eventbrite-terms-of-service/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "Contenido visible en índice oficial."
+    },
+    {
+      "attempt_id": "platform-access-047",
+      "url": "https://archive.org/wayback/available?url=kubecon.io&timestamp=20211001",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "No captura recuperada."
+    },
+    {
+      "attempt_id": "platform-access-048",
+      "url": "https://www.ticketfairy.com/api/v1/events/listing?section_type=past&from=2021-09-28&to=2026-09-28&sort=start_date&order=asc&size=10",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_inaccessible",
+      "attempt_count": 1,
+      "notes": "Petición documentada; runtime no confirmado."
+    },
+    {
+      "attempt_id": "platform-access-049",
+      "url": "https://www.ticketfairy.com/api/v1/events/listing?section_type=past&from=2021-09-28&to=2026-09-28&sort=start_date&order=asc&size=10",
+      "checked_at": "2026-09-28",
+      "method": "python_urllib",
+      "status": "dns_error",
+      "attempt_count": 1,
+      "notes": "Sandbox: nodename nor servname provided, or not known. Duración observada 0.01 s."
+    },
+    {
+      "attempt_id": "platform-access-050",
+      "url": "https://www.ticketfairy.com/terms-and-conditions",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_inaccessible",
+      "attempt_count": 1,
+      "notes": "URL candidata de términos no validada; licencia pendiente."
+    },
+    {
+      "attempt_id": "platform-access-051",
+      "url": "https://www.eventbrite.com/help/en-us/articles/838605/api-terms-of-use/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_inaccessible",
+      "attempt_count": 1,
+      "notes": "Ruta candidata no validada; no afirmación sobre contenido."
+    },
+    {
+      "attempt_id": "platform-access-052",
+      "url": "https://blog.10times.com/why-ai-needs-clean-structured-event-data-and-how-10times-helps/",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "tool_error",
+      "attempt_count": 1,
+      "notes": "Marketing oficial indexado; no evidencia usada de licencia."
+    }
+  ],
+  "attempt_log_note": "Registro resumido por URL/resultado, no log exhaustivo de cada find/open. Las consultas sintéticas o fallidas no son eventos extraídos.",
+  "constraints": [
+    "No compras",
+    "No autenticación de cuentas",
+    "No publicación ni contacto",
+    "No listas privadas"
+  ],
+  "observed_event_records_in_this_batch": 0,
+  "notes": "Moth Hack es prueba de acceso con hechos de página; integrar como edición solo tras normalización/deduplicación del lote principal. Sessionize demo expresamente excluida."
+}

@@ -1,0 +1,118 @@
+{
+  "batch": "illustrative-examples",
+  "derived_tables": {
+    "event_concepts": [
+      {
+        "concept_id": "concept_hypothetical_python_feedback",
+        "brief_id": null,
+        "title": "Clínica de herramientas Python: probar un flujo y registrar qué falla",
+        "objective": "Hipótesis sintética: obtener feedback de uso; no objetivo aprobado por un cliente",
+        "audience": "Propuesta: personas que desarrollan con Python",
+        "format": "Propuesta: taller de 90 minutos",
+        "proposed_place": null,
+        "proposed_date": null,
+        "rationale": "Precedentes de sesiones técnicas y paquetes publicados; no prueba de éxito del concepto",
+        "budget_estimate": null,
+        "pending_json": "[\"comprador_y_objetivo\", \"producto_real\", \"host_autorizado\", \"fecha\", \"zona_horaria\", \"modalidad_y_lugar\", \"idioma\", \"presupuesto\", \"registro_y_precio\", \"capacidad\", \"permisos_de_medicion\"]",
+        "input_ids_json": "[\"evt_f483ad3b81f46644\", \"evt_b7c57b9d55e12e77\", \"evt_2f5a7f654cc3781d\", \"evt_084faf6811b39ff7\", \"evt_095fb499a803def2\", \"src_864a12d7a61ca222\", \"src_ec0ee27d9ee37cc0\"]",
+        "status": "synthetic_research_proposal_not_existing_event"
+      }
+    ],
+    "luma_drafts": [
+      {
+        "draft_id": "draft_local_python_feedback",
+        "concept_id": "concept_hypothetical_python_feedback",
+        "title": "Clínica de herramientas Python: probar un flujo y registrar qué falla",
+        "description": "PROPUESTA POR REVISAR. Taller para personas que desarrollan con Python y quieren probar un flujo concreto de una herramienta. Propuesta: 15 minutos de contexto, 35 de prueba guiada, 25 de trabajo sobre problemas y 15 de devolución. Producto, anfitrión, idioma, fecha, zona, modalidad, registro y cupos pendientes. Ninguna empresa ni persona está confirmada como sponsor o speaker.",
+        "agenda_json": "[{\"activity\": \"contexto\", \"minutes\": 15}, {\"activity\": \"prueba guiada\", \"minutes\": 35}, {\"activity\": \"problemas\", \"minutes\": 25}, {\"activity\": \"devolución\", \"minutes\": 15}]",
+        "supported_fields_json": "{\"description_md\": \"PROPUESTA POR REVISAR. Taller para personas que desarrollan con Python y quieren probar un flujo concreto de una herramienta. Propuesta: 15 minutos de contexto, 35 de prueba guiada, 25 de trabajo sobre problemas y 15 de devolución. Producto, anfitrión, idioma, fecha, zona, modalidad, registro y cupos pendientes. Ninguna empresa ni persona está confirmada como sponsor o speaker.\", \"name\": \"Clínica de herramientas Python: probar un flujo y registrar qué falla\", \"start_at\": null, \"timezone\": null}",
+        "status": "local_requires_data_not_publishable",
+        "version": "1",
+        "pending_json": "[\"comprador_y_objetivo\", \"producto_real\", \"host_autorizado\", \"fecha\", \"zona_horaria\", \"modalidad_y_lugar\", \"idioma\", \"presupuesto\", \"registro_y_precio\", \"capacidad\", \"permisos_de_medicion\"]",
+        "remote_id": null
+      }
+    ],
+    "draft_field_evidence": [
+      {
+        "field_id": "df_1de52ecfbc62cc6e",
+        "draft_id": "draft_local_python_feedback",
+        "field": "name",
+        "value_json": "\"Clínica de herramientas Python: probar un flujo y registrar qué falla\"",
+        "origin": "researcher_proposal_from_precedents",
+        "source_ids_json": "[\"src_864a12d7a61ca222\", \"src_ec0ee27d9ee37cc0\"]",
+        "approval_status": "not_approved"
+      },
+      {
+        "field_id": "df_2919f9cc5bc76147",
+        "draft_id": "draft_local_python_feedback",
+        "field": "description_md",
+        "value_json": "\"PROPUESTA POR REVISAR. Taller para personas que desarrollan con Python y quieren probar un flujo concreto de una herramienta. Propuesta: 15 minutos de contexto, 35 de prueba guiada, 25 de trabajo sobre problemas y 15 de devolución. Producto, anfitrión, idioma, fecha, zona, modalidad, registro y cupos pendientes. Ninguna empresa ni persona está confirmada como sponsor o speaker.\"",
+        "origin": "researcher_proposal_from_precedents",
+        "source_ids_json": "[\"src_864a12d7a61ca222\", \"src_ec0ee27d9ee37cc0\"]",
+        "approval_status": "not_approved"
+      },
+      {
+        "field_id": "df_09a2d07bd9b5fdb6",
+        "draft_id": "draft_local_python_feedback",
+        "field": "start_at",
+        "value_json": "null",
+        "origin": "pending_human_input",
+        "source_ids_json": "[]",
+        "approval_status": "not_approved"
+      },
+      {
+        "field_id": "df_ee9642d930918933",
+        "draft_id": "draft_local_python_feedback",
+        "field": "timezone",
+        "value_json": "null",
+        "origin": "pending_human_input",
+        "source_ids_json": "[]",
+        "approval_status": "not_approved"
+      }
+    ],
+    "sponsor_match_scores": [
+      {
+        "match_id": "sm_bffdc36da346569c",
+        "company_id": "org_8d4321d936320802",
+        "edition_id": null,
+        "concept_id": "concept_hypothetical_python_feedback",
+        "cutoff": "2026-09-28",
+        "components_json": "{\"category_exclusivity\": null, \"current_budget\": null, \"historical_pycon_sponsor_editions\": 5, \"permission_to_contact\": false}",
+        "score": null,
+        "interest_status": "unobserved",
+        "missing_json": "[\"current_sponsorship_objective\", \"budget\", \"category_fit_for_real_product\", \"channel_and_authorization\", \"agreement\"]",
+        "method": "research_example_historical_affinity_not_ranked",
+        "version": "1",
+        "input_ids_json": "[\"role_80784b0494154df7\", \"role_970def2d362a350b\", \"role_96f68b0853feb767\", \"role_21402b8a9cbbaa90\", \"role_28204b00d7a01609\"]"
+      },
+      {
+        "match_id": "sm_31cf4f4189373a05",
+        "company_id": "org_bbdefa2950f49882",
+        "edition_id": null,
+        "concept_id": "concept_hypothetical_python_feedback",
+        "cutoff": "2026-09-28",
+        "components_json": "{\"category_exclusivity\": null, \"current_budget\": null, \"historical_pycon_sponsor_editions\": 5, \"permission_to_contact\": false}",
+        "score": null,
+        "interest_status": "unobserved",
+        "missing_json": "[\"current_sponsorship_objective\", \"budget\", \"category_fit_for_real_product\", \"channel_and_authorization\", \"agreement\"]",
+        "method": "research_example_historical_affinity_not_ranked",
+        "version": "1",
+        "input_ids_json": "[\"role_c525f1b7dea04286\", \"role_77568a68b55c83cb\", \"role_fd3ac69f8571740c\", \"role_eca8e40b8f79d8dd\", \"role_9dfc22fe154a8e59\"]"
+      },
+      {
+        "match_id": "sm_804229146b637584",
+        "company_id": "org_67b51232d90eef07",
+        "edition_id": null,
+        "concept_id": "concept_hypothetical_python_feedback",
+        "cutoff": "2026-09-28",
+        "components_json": "{\"category_exclusivity\": null, \"current_budget\": null, \"historical_pycon_sponsor_editions\": 5, \"permission_to_contact\": false}",
+        "score": null,
+        "interest_status": "unobserved",
+        "missing_json": "[\"current_sponsorship_objective\", \"budget\", \"category_fit_for_real_product\", \"channel_and_authorization\", \"agreement\"]",
+        "method": "research_example_historical_affinity_not_ranked",
+        "version": "1",
+        "input_ids_json": "[\"role_7c90487edec0407c\", \"role_eba92a1f658de279\", \"role_679e8cc56c5c1707\", \"role_711156a5ff8a03f1\", \"role_4daa519400eb8a64\"]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,960 @@
+{
+  "executed_on": "2026-09-28",
+  "scope": "Muestra internacional exploratoria no técnica; 2021-09-28 a 2026-09-28 y futuros confirmados.",
+  "method": "Búsqueda multilingüe y lectura de fuentes primarias mediante web.run; curación manual. No extracción de Eventbrite ni Partiful, sin credenciales, compras, contactos ni registro en sitios.",
+  "search_queries": [
+    {
+      "q": "site.rolandgarros.com 2024 2023 tournament attendance partners BNP Paribas Lacoste dates"
+    },
+    {
+      "q": "site.frieze.com London 2024 2023 fair attendance Deutsche Bank dates"
+    },
+    {
+      "q": "site.flip.org.br 2023 2024 balanço Flip patrocinadores"
+    },
+    "site.flip.org.br edições anteriores 2021 2022 2023 2024 2025 2026",
+    "site.fil.com.mx 2025 2024 2023 cifras visitantes 2026 fechas",
+    "site.frieze.com London 2021 2022 2023 2024 2025 2026 dates",
+    {
+      "q": "\"Flip 2024\" \"9 a 13\" site:flip.org.br"
+    },
+    {
+      "q": "\"Flip 2022\" \"23 a 27\" site:flip.org.br"
+    },
+    {
+      "q": "\"Flip 2025\" \"balanço\" site:flip.org.br"
+    },
+    {
+      "q": "\"Flip 2026\" site:flip.org.br"
+    },
+    {
+      "q": "FIL Guadalajara 2021 251900 27 noviembre 5 diciembre site:udg.mx"
+    },
+    {
+      "q": "FIL Guadalajara 2022 806805 26 noviembre 4 diciembre site:udg.mx"
+    },
+    {
+      "q": "FIL Guadalajara 2023 857315 25 noviembre 3 diciembre site:udg.mx"
+    },
+    {
+      "q": "FIL Guadalajara 2024 907300 30 noviembre 8 diciembre site:udg.mx"
+    },
+    {
+      "q": "\"FIL\" \"2021\" \"27 de noviembre\" site:udg.mx"
+    },
+    {
+      "q": "\"FIL 2022\" \"806\" site:udg.mx"
+    },
+    {
+      "q": "\"FIL 2025\" \"29 de noviembre\" site:fil.com.mx"
+    },
+    {
+      "q": "\"FIL 2025\" patrocinadores HSBC Bancomext site:fil.com.mx"
+    },
+    {
+      "q": "site.udg.mx \"2022\" \"806 mil\" \"FIL\""
+    },
+    {
+      "q": "site.fil.com.mx \"2025\" \"29 de noviembre al 7 de diciembre\""
+    },
+    {
+      "q": "site.fil.com.mx \"2025\" \"patrocinadores\""
+    },
+    {
+      "q": "site.press.frieze.com \"London\" \"2021\" \"13\" \"Deutsche\""
+    },
+    {
+      "q": "site.press.frieze.com \"London\" \"2022\" \"12\" \"Deutsche\""
+    },
+    {
+      "q": "site.press.frieze.com \"London\" \"2023\" \"11\" \"Deutsche\""
+    },
+    {
+      "q": "site.press.frieze.com \"London\" \"2024\" \"9\" \"Deutsche\""
+    },
+    {
+      "q": "site.frieze.com \"Frieze London\" \"2021\" \"13–17\""
+    },
+    {
+      "q": "site.frieze.com \"Frieze London\" \"2022\" \"85,000\""
+    },
+    {
+      "q": "site.frieze.com \"Frieze London\" \"2023\" \"85,000\""
+    },
+    {
+      "q": "site.press.frieze.com \"2024\" \"90,000\" \"London\""
+    },
+    {
+      "q": "Frieze London 2022 end of fair report site:frieze.com"
+    },
+    {
+      "q": "Frieze London 2023 end of fair report site:frieze.com"
+    },
+    {
+      "q": "Frieze London 2024 end of fair report site:frieze.com"
+    },
+    {
+      "q": "site.flip.org.br \"2021\" \"27 de novembro a 5\""
+    },
+    {
+      "q": "site.flip.org.br \"2023\" \"Itaú\""
+    },
+    {
+      "q": "site.flip.org.br \"2024\" \"Petrobras\""
+    },
+    {
+      "q": "site.flip.org.br \"2025\" \"Shell\""
+    },
+    {
+      "q": "\"Flip\" \"2025\" \"patrocinadores\""
+    },
+    {
+      "q": "\"Flip\" \"2024\" \"patrocínio\""
+    },
+    {
+      "q": "\"Flip\" \"2023\" \"CCR\""
+    },
+    {
+      "q": "site.motiva.com.br \"Flip\" \"2025\""
+    },
+    {
+      "q": "site.motiva.com.br \"Flip\" \"2023\""
+    },
+    {
+      "q": "site.flip.org.br \"2026\" \"balanço\""
+    },
+    {
+      "q": "site.flip.org.br \"2025\" \"35 mil\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2022\" \"16 May\" \"5 June\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2023\" \"22 May\" \"11 June\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2024\" \"20 May\" \"9 June\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2025\" \"19 May\" \"8 June\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2026\" \"bilan\" \"spectateurs\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2025\" \"687\""
+    },
+    {
+      "q": "site.media.renault.com \"Roland-Garros\" \"2022\" \"premium\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2027\" \"17 mai\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2026\" \"bilan\" \"juin\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2025\" \"687\" \"spectateurs\""
+    },
+    {
+      "q": "site.media.renault.com \"Roland-Garros\" \"2025\" \"19 mai\""
+    },
+    {
+      "q": "site.rolandgarros.com \"2026\" \"partenaires\" \"BNP\""
+    },
+    {
+      "q": "site.motiva.com.br \"CCR\" \"agora\" \"Motiva\" \"2025\""
+    },
+    {
+      "q": "site.flip.org.br \"Associação Casa Azul\" \"Flip\""
+    },
+    {
+      "q": "site.frieze.com \"Stone Island\" \"2023\" \"Focus\""
+    },
+    {
+      "q": "site.frieze.com \"Frieze London\" \"2023\" \"Wins\" \"Focus\""
+    },
+    {
+      "q": "site.frieze.com \"Frieze London\" \"2024\" \"Wins\" \"Focus\""
+    },
+    {
+      "q": "site.flip.org.br \"2026\" \"encerra\""
+    },
+    {
+      "q": "Flip 2025 2024 2023 balanço festa literária",
+      "domains": [
+        "flip.org.br"
+      ]
+    },
+    {
+      "q": "Flip 2021 2022 edição datas",
+      "domains": [
+        "flip.org.br"
+      ]
+    },
+    {
+      "q": "FIL Guadalajara 2025 2024 2023 cifras",
+      "domains": [
+        "fil.com.mx",
+        "udg.mx"
+      ]
+    },
+    {
+      "q": "FIL Guadalajara 2021 2022 2026 fechas",
+      "domains": [
+        "fil.com.mx",
+        "udg.mx"
+      ]
+    },
+    {
+      "q": "Roland Garros 2022 2023 2024 bilan spectateurs",
+      "domains": [
+        "fft.fr",
+        "rolandgarros.com"
+      ]
+    },
+    {
+      "q": "Roland Garros 2025 2026 dates bilan Renault",
+      "domains": [
+        "fft.fr",
+        "rolandgarros.com",
+        "media.renault.com"
+      ]
+    }
+  ],
+  "used_sources": [
+    {
+      "url": "https://2024.flip.org.br/",
+      "title": "Flip 2024 Home",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://app.frieze.com/article/funds-prizes-collaborations-frieze-london-frieze-masters-2025",
+      "title": "New Funds, Artist Prizes and Collaborations at Frieze London and Frieze Masters | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf",
+      "title": "ESG PERFORMANCE",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index",
+        "failed"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://croynielsen.com/fairs/frieze-london-2021/",
+      "title": "Croy Nielsen — Frieze London",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://digital.fft.fr/04-divers/federal/2025/NL%20CLUBS/TI571-Interactif_compressed.pdf",
+      "title": "SPÉCIAL ROLAND-GARROS",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open",
+        "failed"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://fil.com.mx/info/faq.asp",
+      "title": "FIL Guadalajara | Preguntas frecuentes",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://fil.com.mx/info/informacion.asp",
+      "title": "FIL Guadalajara | Informaci�n",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://fil.com.mx/info/numeralia.asp?ids=1",
+      "title": "FIL Guadalajara | Numeralia",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://fil.com.mx/ingles/prensa/boletin.asp?id=3316&ids=",
+      "title": "FIL Guadalajara | Press",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index",
+        "failed"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://fil.com.mx/prensa/boletin.asp?id=3186&ids=2",
+      "title": "FIL Guadalajara | Prensa",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://flip.org.br/evento/flip-2026/",
+      "title": "Flip 2026 - Flip - Festa Literária Internacional de Paraty",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://flip.org.br/noticias/flip-confirma-as-datas-da-19-ordf-edicao/",
+      "title": "Flip confirma as datas da 19ª edição - Flip - Festa Literária Internacional de Paraty",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://institucional.flip.org.br/agenda-2021/",
+      "title": "Flip 2021 – Agenda Programação Principal – Flip",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://institucional.flip.org.br/home-2022/",
+      "title": "Home 2022 – Flip",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://media.renault.com/?p=529529",
+      "title": "Renault 4 Savane 4×4 Concept en première mondiale à Roland-Garros 2025 - Site media global de Renault",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://media.renault.com/game-5-and-match-renault-electrifies-roland-garros/?lang=eng",
+      "title": "Game, 5 and match, Renault electrifies Roland-Garros - Renault global media website",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://media.renault.com/roland-garros-2023-la-marque-renault-monte-au-filet/?lang=fra",
+      "title": "Roland-Garros 2023 : la marque Renault monte au filet - Site media global de Renault",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://press.frieze.com/flfm26-first-details/",
+      "title": "Frieze London & Frieze Masters: Six Continents in Dialogue | Frieze | Newsroom",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://press.frieze.com/frieze-london-frieze-masters-2025-end-of-fair/",
+      "title": "Frieze London & Frieze Masters 2025: Delivering Momentum and Vitality as London Takes Centre Stage | Frieze | Newsroom",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://press.frieze.com/frieze-london-frieze-masters-2025-first-details/",
+      "title": "Frieze London & Frieze Masters 2025 to Highlight Curatorial Innovation | Frieze | Newsroom",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://press.frieze.com/frieze-unveils-bold-design-for-frieze-london-2024-and-a-new-curatorial-direction-at-frieze-masters/",
+      "title": "Frieze Unveils Bold Design for Frieze London 2024 and a New Curatorial Direction at Frieze Masters | Frieze | Newsroom",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://rodovias.motiva.com.br/riosp/noticias/2026/julho/motiva-assina-a-programacao-oficial-da-flip-pelo-terceiro-ano-co/",
+      "title": "Motiva assina a programação oficial da Flip pelo terceiro ano consecutivo e amplia o acesso de crianças e jovens ao evento",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://travel.rolandgarros.com/fr/conditions",
+      "title": "Conditions Générales de Vente - Roland-Garros Travel",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://udg.mx/evento/feria-internacional-del-libro-2024-invitado-de-honor-espana",
+      "title": "Feria Internacional del Libro 2024, invitado de honor España | Universidad de Guadalajara",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.cucsh.udg.mx/noticias/fil-guadalajara-anuncia-su-programa-general-2023",
+      "title": "FIL Guadalajara anuncia su Programa General 2023 | CENTRO UNIVERSITARIO DE CIENCIAS SOCIALES Y HUMANIDADES",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.deutsche-bank.it/news/detail/dbmagazine-il-dietro-le-quinte-delle-fiere-arte-organizzate-da-frieze-nel-2022?language_id=1",
+      "title": "Il “dietro le quinte” delle fiere d’arte organizzate da Frieze nel 2022 – Deutsche Bank",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.eletronuclear.gov.br/Quem-Somos/Governanca/Documents/Balan%C3%A7os/2024/1.%20RELAT%C3%93RIO%20ADMINISTRA%C3%87%C3%83O%20E%20RESPONSABILIDADE%20SOCIAL%202024.pdf",
+      "title": "Tom / Alarico,",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open",
+        "failed"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.emirates.com/media-centre/emirates-is-back-in-action-at-roland-garros-2024/",
+      "title": "Emirates is back in action at Roland-Garros 2024",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.fil.com.mx/patro/patro.asp",
+      "title": "FIL Guadalajara | Patrocinios",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index",
+        "failed"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.fil.com.mx/prensa/boletin.asp?id=3205&ids=1",
+      "title": "FIL Guadalajara | Prensa",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.flip.org.br/confira-as-datas-da-21a-flip/",
+      "title": "Confira as datas da 21ª Flip - Flip",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+      "title": "Flip anuncia a data da 23ª edição - Flip",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index",
+        "failed"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.flip.org.br/patronos/",
+      "title": "Patronos - Flip",
+      "best_access": "search_index",
+      "observed_access_states": [
+        "search_index"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.frieze.com/article/east-end-day-and-west-end-night-2024",
+      "title": "East End Day and West End Night 2024 | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.frieze.com/article/frieze-london-and-masters-vip-visitor-faqs",
+      "title": "Frieze London and Masters VIP Visitor FAQs | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+      "title": "The Galleries and Curators for Frieze London and Frieze Masters 2023 | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open",
+        "failed"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.frieze.com/article/galleries-and-programming-frieze-london-and-frieze-masters-2021",
+      "title": "Galleries and Programming for Frieze London and Frieze Masters 2021 | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.frieze.com/article/jack-obrien-wins-2023-camden-art-centre-emerging-artist-prize-frieze-london",
+      "title": "Jack O’Brien Wins the 2023 Camden Art Centre Emerging Artist Prize at Frieze London | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.frieze.com/article/revealed-highlights-frieze-london-and-frieze-masters-2023?language=en",
+      "title": "Revealed: Highlights of Frieze London and Frieze Masters 2023 | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.frieze.com/bmw-open-work-2021-madeline-hollander",
+      "title": "A New Site-Specific Installation by Madeline Hollander for the 2021 BMW Open Work at Frieze London | Frieze",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.gaceta.udg.mx/806-mil-805-lectores-se-reencontraron-en-la-fil-guadalajara/",
+      "title": "806 mil 805 lectores se reencontraron en la FIL Guadalajara - Gaceta UDG",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.gaceta.udg.mx/los-lectores-se-reencontraron-con-la-fil/",
+      "title": "Los lectores se reencontraron con la FIL - Gaceta UDG",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.gaceta.udg.mx/prepara-fil-guadalajara-edicion-2021-de-forma-presencial/",
+      "title": "Prepara FIL Guadalajara edición 2021 de forma presencial - Gaceta UDG",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.motiva.com.br/en/news/instituto-ccr-amplia-presenca-na-flip/",
+      "title": "Instituto CCR amplia presença na Flip e assina espaço com uma programação gratuita com mais de 25 autores e especialistas",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.motiva.com.br/en/news/motiva-assina-programacao-na-flip-pelo-segundo-ano-consecutivo/",
+      "title": "Motiva participa da Flip e apoia novos talentos em 2025",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.motiva.com.br/en/news/motiva-sera-a-nova-marca-do-grupo-ccr/",
+      "title": "Motiva será a nova marca do Grupo CCR",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.renault.fr/renault-mag/thematique-autour-de-renault/renault-devient-partenaire-premium-de-rolandgarros.html",
+      "title": "Renault Partenaire Premium de Roland-Garros",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/en-us/article/figures-record-breaking-stats-roland-garros-2022",
+      "title": "Roland-Garros 2022 in figures - Roland-Garros 2026 - The official site",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/en-us/article/roland-garros-2023-opening-official-ticketing-offers-15-march",
+      "title": "Roland-Garros 2023: ticketing opens on 15 march! - Roland-Garros 2026 - The official site",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/en-us/article/roland-garros-innovations-commitments-edition-2022",
+      "title": "Roland-Garros: innovations and commitments for 2022 - Roland-Garros 2026 - The official site",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/en-us/page/roland-garros-past-editions-2025-coco-gauff-carlos-alcaraz",
+      "title": "2025 - Roland-Garros 2026 - The official site",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/fr-fr/article/bilan-edition-2024-gilles-moretton-amelie-mauresmo-conference-de-presse",
+      "title": "Édition 2024 : \"Trois semaines intenses et riches en émotions\" - Roland-Garros 2026 - Le site officiel",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/fr-fr/article/chiffres-manquants-finales-messieurs-double-dames-quinzieme-journee-dimanche-11-juin",
+      "title": "J15 : les chiffres du dimanche 11 juin - Roland-Garros 2026 - Le site officiel",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/fr-fr/article/edition-2026-amelie-mauresmo-bilan-reussites-surprises-conference-de-presse",
+      "title": "Amélie Mauresmo : \"Un tournoi à la hauteur de nos espérances\" - Roland-Garros 2026 - Le site officiel",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/fr-fr/article/medias-accreditations-presse-radio-photo-tv-roland-garros-2026",
+      "title": "Médias : processus d'accréditation pour Roland-Garros 2026 - Roland-Garros 2026 - Le site officiel",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.rolandgarros.com/fr-fr/article/roland-garros-bnp-paribas-renouvellement-partenariat-histoire-2032",
+      "title": "Roland-Garros et BNP Paribas : renouvellement d'un partenariat historique  - Roland-Garros 2026 - Le site officiel",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    },
+    {
+      "url": "https://www.udg.mx/es/noticia/con-mas-de-857-mil-visitantes-fil-2023-rompe-record-de-asistencia?q=es%2Fnoticia%2Fcon-mas-de-857-mil-visitantes-fil-2023-rompe-record-de-asistencia",
+      "title": "Con más de 857 mil visitantes, FIL 2023 rompe récord de asistencia | Universidad de Guadalajara",
+      "best_access": "web_open",
+      "observed_access_states": [
+        "search_index",
+        "web_open"
+      ],
+      "retrieved_on": "2026-09-28",
+      "rights_status": "No se determinó licencia general de reutilización comercial; se conservaron hechos parafraseados y referencias."
+    }
+  ],
+  "failed_attempts": [
+    {
+      "url": "https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/",
+      "title": null,
+      "access": "failed",
+      "detail": "Failed to fetch https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/: (403) Forbidden"
+    },
+    {
+      "url": "https://flip.org.br",
+      "title": null,
+      "access": "failed",
+      "detail": "Failed to fetch https://flip.org.br/: (403) Forbidden"
+    },
+    {
+      "url": "https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023",
+      "title": null,
+      "access": "failed",
+      "detail": "Failed to fetch https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023: (400) Timeout fetching"
+    },
+    {
+      "url": "https://fil.com.mx/ingles/prensa/boletin.asp?id=3316&ids=",
+      "title": null,
+      "access": "failed",
+      "detail": "Failed to fetch https://fil.com.mx/ingles/prensa/boletin.asp?id=3316&ids=: (400) Timeout fetching"
+    },
+    {
+      "url": "https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf",
+      "title": null,
+      "access": "failed",
+      "detail": "Failed to fetch https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf: (400) Content length is too large: 17389726"
+    },
+    {
+      "url": "https://www.fil.com.mx/patro/patro.asp",
+      "title": null,
+      "access": "failed",
+      "detail": "Error de recuperación; no se obtuvo cuerpo legible."
+    },
+    {
+      "url": "https://digital.fft.fr/04-divers/federal/2025/NL%20CLUBS/TI571-Interactif_compressed.pdf",
+      "title": null,
+      "access": "failed",
+      "detail": "Failed to fetch https://digital.fft.fr/04-divers/federal/2025/NL%20CLUBS/TI571-Interactif_compressed.pdf: (400) Timeout fetching"
+    },
+    {
+      "url": "https://www.eletronuclear.gov.br/Quem-Somos/Governanca/Documents/Balan%C3%A7os/2024/1.%20RELAT%C3%93RIO%20ADMINISTRA%C3%87%C3%83O%20E%20RESPONSABILIDADE%20SOCIAL%202024.pdf",
+      "title": null,
+      "access": "failed",
+      "detail": "Failed to fetch https://www.eletronuclear.gov.br/Quem-Somos/Governanca/Documents/Balan%C3%A7os/2024/1.%20RELAT%C3%93RIO%20ADMINISTRA%C3%87%C3%83O%20E%20RESPONSABILIDADE%20SOCIAL%202024.pdf: (400) Timeout fetching"
+    }
+  ],
+  "exclusions": [
+    {
+      "url": "https://www.fil.com.mx/patro/patro.asp",
+      "reason": "Lista mayormente representada por logos: niveles conservados; no se inventaron nombres ni niveles de sponsors a partir de imágenes no inspeccionadas."
+    },
+    {
+      "url": "https://press.frieze.com/",
+      "reason": "No se descargó biblioteca de prensa que exige registro/CAPTCHA; sólo texto público."
+    },
+    {
+      "url": "https://flip.org.br/",
+      "reason": "403: no se insistió en la página ni se eludió el bloqueo; algunas fuentes Flip permanecen sustentadas en índice de búsqueda, indicado en source_access."
+    }
+  ],
+  "continuation_queue": [
+    {
+      "priority": 1,
+      "action": "Conseguir recap primario de Flip 2026",
+      "seed_url": "https://flip.org.br/ed/24a-flip/",
+      "resume_point": "Agenda recuperada por índice; estatus de celebración pendiente."
+    },
+    {
+      "priority": 2,
+      "action": "Verificar en lectura directa los hechos marcados search_index",
+      "seed_url": "https://institucional.flip.org.br/edicoes-anteriores/",
+      "resume_point": "Evidencia por campo en nontech-facts.json; no reintentar barreras de acceso sin cambio legítimo de disponibilidad."
+    },
+    {
+      "priority": 3,
+      "action": "Auditar identidad, nivel y edición de sponsors FIL con un documento autorizado legible",
+      "seed_url": "https://www.fil.com.mx/patro/patro.asp",
+      "resume_point": "Niveles recuperados; relaciones nominales no extraídas."
+    },
+    {
+      "priority": 4,
+      "action": "Añadir series regionales pequeñas, África/Asia/Oceanía y música cuando se determine alcance",
+      "seed_url": null,
+      "resume_point": "Muestra sesgada a organizaciones grandes con archivo público; no universo exhaustivo."
+    },
+    {
+      "priority": 5,
+      "action": "Obtener paquetes comerciales de sponsors y resultados de negocio auditados",
+      "seed_url": null,
+      "resume_point": "Activaciones e inversión anunciada sí; ingresos atribuibles y retorno comercial desconocidos."
+    }
+  ],
+  "field_evidence_overrides": [
+    {
+      "url": "https://digital.fft.fr/04-divers/federal/2025/NL%20CLUBS/TI571-Interactif_compressed.pdf",
+      "reason": "Se abrió PDF parcial, pero recuperación del pasaje con 675080 falló. Esa métrica permanece provisional_primary_index_only."
+    },
+    {
+      "url": "https://www.eletronuclear.gov.br/Quem-Somos/Governanca/Documents/Balan%C3%A7os/2024/1.%20RELAT%C3%93RIO%20ADMINISTRA%C3%87%C3%83O%20E%20RESPONSABILIDADE%20SOCIAL%202024.pdf",
+      "reason": "Se abrió PDF parcial; el pasaje de patrocinio FLIP sólo estuvo legible en índice. Relación marcada provisional_primary_index_only."
+    },
+    {
+      "url": "https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf",
+      "reason": "17,4 MB exceden límite de web.run. Relación oro 2023 permanece provisional_primary_index_only; no se descargó por otra vía."
+    }
+  ]
+}

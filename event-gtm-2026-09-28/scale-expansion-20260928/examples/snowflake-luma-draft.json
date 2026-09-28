@@ -1,0 +1,20 @@
+{
+  "title": "Del prototipo Python al producto de datos: clínica de arquitectura",
+  "description": "Una sesión de trabajo para pasar de un prototipo a un producto de datos operable. Revisaremos una arquitectura de referencia, discutiremos calidad y gobierno, y pondremos números a las decisiones de coste. Usaremos ejemplos de demostración; no compartas información confidencial de tu empresa.\n\nDirigido a: data engineers y desarrolladores Python de empresas B2B europeas.\n\nAgenda propuesta\n18:00 — Bienvenida y problemas que queremos resolver\n18:15 — Caso técnico: calidad, gobierno y costes en un pipeline Python\n18:40 — Clínica en grupos: revisar una arquitectura de referencia\n19:15 — Puesta en común: decisiones y compromisos\n19:40 — Conversaciones abiertas y próximos pasos opcionales\n\nLa fecha, sede y facilitadores se anunciarán después de su confirmación. Las marcas citadas en el análisis no son sponsors confirmados de este encuentro. El seguimiento será opcional.",
+  "start_at": null,
+  "end_at": null,
+  "timezone": null,
+  "location": null,
+  "status": "local_editorial_draft_not_publishable_until_required_fields_confirmed",
+  "publication_target": "Luma",
+  "luma_event_id": null,
+  "pending": [
+    "Customer objective and success metric",
+    "Exact ICP and region",
+    "Confirmed budget and currency",
+    "Date, venue and capacity",
+    "Organizer identity and speakers",
+    "Sponsor fit, conflicts and interest",
+    "Consent and privacy copy for follow-up"
+  ]
+}

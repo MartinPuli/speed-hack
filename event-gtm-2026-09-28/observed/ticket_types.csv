@@ -1,0 +1,5 @@
+ticket_id,edition_id,name,requirements,benefits,paid,currency,source_id,extra_json,missing_reasons_json
+ticket_7120ec221af7b5b6,evt_095fb499a803def2,Corporate admission,,,True,USD,src_614ad78f4394b65d,,"{""benefits"":""not_found_in_consulted_sources"",""requirements"":""not_found_in_consulted_sources""}"
+ticket_438aa51ec2567376,evt_095fb499a803def2,Individual admission,,,True,USD,src_614ad78f4394b65d,,"{""benefits"":""not_found_in_consulted_sources"",""requirements"":""not_found_in_consulted_sources""}"
+ticket_6cfa24e883a117df,evt_095fb499a803def2,Student admission,,,True,USD,src_614ad78f4394b65d,,"{""benefits"":""not_found_in_consulted_sources"",""requirements"":""not_found_in_consulted_sources""}"
+ticket_af28f3a104b06b09,evt_095fb499a803def2,Tutorial,,,True,USD,src_614ad78f4394b65d,,"{""benefits"":""not_found_in_consulted_sources"",""requirements"":""not_found_in_consulted_sources""}"

@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://neon.com/pricing",
+    "resolved_url": "https://neon.com/pricing",
+    "retrieved_at": "2026-09-28T10:32:08.968538+00:00",
+    "method": "public_http_get_after_web_reader_internal_error",
+    "http_status": 200,
+    "sha256": "33e838e86ea407cabaf5f26a2c1fc41de42c9327c39846d9d6a40a59a479c38e",
+    "body_bytes": 657643,
+    "retained_full_body": false,
+    "short_evidence": {}
+  },
+  {
+    "url": "https://neon.com/docs/introduction/plans",
+    "resolved_url": "https://neon.com/docs/introduction/plans",
+    "retrieved_at": "2026-09-28T10:32:09.149540+00:00",
+    "method": "public_http_get_after_web_reader_internal_error",
+    "http_status": 200,
+    "sha256": "a7f1b8800c6f7622e9d7f17f72cc12ca4ce419dd79d4b86765f659a418fc1dc9",
+    "body_bytes": 547682,
+    "retained_full_body": false,
+    "short_evidence": {
+      "minimum": "no minimum monthly fee",
+      "small_invoice": "Invoices under $0.50 are not collected."
+    }
+  }
+]

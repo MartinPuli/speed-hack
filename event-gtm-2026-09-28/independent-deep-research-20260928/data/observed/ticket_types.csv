@@ -1,0 +1,20 @@
+id,event_id,name,eligibility,benefits_json,payment_mode,capacity,currency,source_id
+ticket_ca5e591c71e8ddd9,evt_1fc974874ad3a13f,Corporate,Corporate rate; conditions in source,,paid,,USD,src_8968da04e54783b9
+ticket_05cd1fd6971d8ee6,evt_1fc974874ad3a13f,Individual,Individual rate; conditions in source,,paid,,USD,src_8968da04e54783b9
+ticket_56ea643f54a9f776,evt_1fc974874ad3a13f,Student,Student rate; conditions in source,,paid,,USD,src_8968da04e54783b9
+ticket_f11b169fea3b2ce1,evt_1fc974874ad3a13f,Online,Online rate; conditions in source,,paid,,USD,src_8968da04e54783b9
+ticket_53568855372392bc,evt_1fc974874ad3a13f,Tutorial,Tutorial rate; conditions in source,,paid,,USD,src_8968da04e54783b9
+ticket_31ebd71d160c0cc8,evt_ec56dad6b0f54653,Corporate,Corporate rate; conditions in source,,paid,,USD,src_97831f9940b13eb4
+ticket_84c726182b46de8a,evt_ec56dad6b0f54653,Individual,Individual rate; conditions in source,,paid,,USD,src_97831f9940b13eb4
+ticket_618b4d0412b6d19b,evt_ec56dad6b0f54653,Student,Student rate; conditions in source,,paid,,USD,src_97831f9940b13eb4
+ticket_e7afb3fc5135ae8c,evt_ec56dad6b0f54653,Job Fair Only,Job Fair Only rate; conditions in source,,paid,,USD,src_97831f9940b13eb4
+ticket_b563f746d94c0d35,evt_ec56dad6b0f54653,Tutorial,Tutorial rate; conditions in source,,paid,,USD,src_97831f9940b13eb4
+ticket_types_8544e14f5339913e,evt_9da972220c78ac0f,Corporate / Business Regular,Corporate / Business Regular,,paid,,USD,src_abf7fb34450f3065
+ticket_types_e6b3ef35c1fad0b0,evt_9da972220c78ac0f,Individual / Personal Regular,Individual / Personal Regular,,paid,,USD,src_abf7fb34450f3065
+ticket_types_2aefd706af747649,evt_9da972220c78ac0f,Student / Academic Regular,Student / Academic Regular,,paid,,USD,src_abf7fb34450f3065
+ticket_types_6f2e6f7c34aa2c90,evt_3a3a17d29cb47ddf,Individual,Individual,,paid,,UGX,src_aaec996fb2f3a78c
+ticket_types_4a27a74f751ad416,evt_3a3a17d29cb47ddf,Student Regular,Student Regular,,paid,,UGX,src_aaec996fb2f3a78c
+ticket_types_490675d82575dac5,evt_3a3a17d29cb47ddf,Bulk minimum 5,Bulk minimum 5,,paid,,UGX,src_aaec996fb2f3a78c
+ticket_types_93c08f474c8783b2,evt_3a3a17d29cb47ddf,Corporate,Corporate,,paid,,UGX,src_aaec996fb2f3a78c
+ticket_types_f673b6b2d0adcedb,evt_f3c3ac908069c867,early_bird,,,paid,,EUR,src_c13d7441cc98d488
+ticket_types_551438c96e195e24,evt_f3c3ac908069c867,regular,,,paid,,EUR,src_c13d7441cc98d488

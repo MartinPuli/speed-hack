@@ -1,0 +1,14 @@
+{
+  "fetch_id": "fetch_enr_600701c0856b9e05",
+  "source_url": "https://www.snowflake.com/en/news/press-releases/snowflake-expands-aws-collaboration-with-6b-commitment-to-accelerate-enterprise-agentic-ai-adoption/",
+  "final_url": "https://www.snowflake.com/en/news/press-releases/snowflake-expands-aws-collaboration-with-6b-commitment-to-accelerate-enterprise-agentic-ai-adoption/",
+  "observed_at": "2026-09-28T15:48:05.509397+00:00",
+  "http_status": 200,
+  "content_sha256": "2ba3b41dc970f9866b5787a63051dad340b9eded79ebc468788b9048d9144e94",
+  "bytes": 496055,
+  "content_type": "text/html;charset=utf-8",
+  "robots_status": 200,
+  "robots_decision": "allowed",
+  "attempts": 1,
+  "prior_error": null
+}

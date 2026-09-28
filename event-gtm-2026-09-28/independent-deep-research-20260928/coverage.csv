@@ -1,0 +1,153 @@
+dimension,value,count,denominator,denominator_scope,percent_of_sample
+year,2021,24,688,collected_editions_only_not_world_universe,3.49
+year,2022,103,688,collected_editions_only_not_world_universe,14.97
+year,2023,125,688,collected_editions_only_not_world_universe,18.17
+year,2024,167,688,collected_editions_only_not_world_universe,24.27
+year,2025,159,688,collected_editions_only_not_world_universe,23.11
+year,2026,99,688,collected_editions_only_not_world_universe,14.39
+year,2027,11,688,collected_editions_only_not_world_universe,1.6
+territory,Angola,3,688,collected_editions_only_not_world_universe,0.44
+territory,Argentina,4,688,collected_editions_only_not_world_universe,0.58
+territory,Armenia,1,688,collected_editions_only_not_world_universe,0.15
+territory,Australia,7,688,collected_editions_only_not_world_universe,1.02
+territory,Austria,3,688,collected_editions_only_not_world_universe,0.44
+territory,Bangladesh,2,688,collected_editions_only_not_world_universe,0.29
+territory,Belgium,5,688,collected_editions_only_not_world_universe,0.73
+territory,Bolivia,4,688,collected_editions_only_not_world_universe,0.58
+territory,Brazil,25,688,collected_editions_only_not_world_universe,3.63
+territory,Cameroon,14,688,collected_editions_only_not_world_universe,2.03
+territory,Canada,1,688,collected_editions_only_not_world_universe,0.15
+territory,Chile,2,688,collected_editions_only_not_world_universe,0.29
+territory,Colombia,12,688,collected_editions_only_not_world_universe,1.74
+territory,Costa Rica,1,688,collected_editions_only_not_world_universe,0.15
+territory,Cuba,1,688,collected_editions_only_not_world_universe,0.15
+territory,Czech Republic,6,688,collected_editions_only_not_world_universe,0.87
+territory,Denmark,3,688,collected_editions_only_not_world_universe,0.44
+territory,Ecuador,4,688,collected_editions_only_not_world_universe,0.58
+territory,Equatorial Guinea,1,688,collected_editions_only_not_world_universe,0.15
+territory,Estonia,4,688,collected_editions_only_not_world_universe,0.58
+territory,Finland,8,688,collected_editions_only_not_world_universe,1.16
+territory,France,13,688,collected_editions_only_not_world_universe,1.89
+territory,Gambia,5,688,collected_editions_only_not_world_universe,0.73
+territory,Germany,54,688,collected_editions_only_not_world_universe,7.85
+territory,Ghana,12,688,collected_editions_only_not_world_universe,1.74
+territory,Greece,3,688,collected_editions_only_not_world_universe,0.44
+territory,Hong Kong,2,688,collected_editions_only_not_world_universe,0.29
+territory,India,7,688,collected_editions_only_not_world_universe,1.02
+territory,Indonesia,3,688,collected_editions_only_not_world_universe,0.44
+territory,Iran,3,688,collected_editions_only_not_world_universe,0.44
+territory,Ireland,7,688,collected_editions_only_not_world_universe,1.02
+territory,Israel,5,688,collected_editions_only_not_world_universe,0.73
+territory,Italy,7,688,collected_editions_only_not_world_universe,1.02
+territory,Japan,19,688,collected_editions_only_not_world_universe,2.76
+territory,Kenya,3,688,collected_editions_only_not_world_universe,0.44
+territory,Lithuania,5,688,collected_editions_only_not_world_universe,0.73
+territory,Malawi,1,688,collected_editions_only_not_world_universe,0.15
+territory,Mexico,9,688,collected_editions_only_not_world_universe,1.31
+territory,Mozambique,7,688,collected_editions_only_not_world_universe,1.02
+territory,Namibia,5,688,collected_editions_only_not_world_universe,0.73
+territory,Nepal,1,688,collected_editions_only_not_world_universe,0.15
+territory,Netherlands,54,688,collected_editions_only_not_world_universe,7.85
+territory,New Zealand,15,688,collected_editions_only_not_world_universe,2.18
+territory,Niger,7,688,collected_editions_only_not_world_universe,1.02
+territory,Nigeria,26,688,collected_editions_only_not_world_universe,3.78
+territory,Norway,1,688,collected_editions_only_not_world_universe,0.15
+territory,Pakistan,1,688,collected_editions_only_not_world_universe,0.15
+territory,Panama,3,688,collected_editions_only_not_world_universe,0.44
+territory,Philippines,8,688,collected_editions_only_not_world_universe,1.16
+territory,Poland,15,688,collected_editions_only_not_world_universe,2.18
+territory,Portugal,3,688,collected_editions_only_not_world_universe,0.44
+territory,Russia,4,688,collected_editions_only_not_world_universe,0.58
+territory,Singapore,1,688,collected_editions_only_not_world_universe,0.15
+territory,Slovakia,3,688,collected_editions_only_not_world_universe,0.44
+territory,Somalia,3,688,collected_editions_only_not_world_universe,0.44
+territory,South Africa,3,688,collected_editions_only_not_world_universe,0.44
+territory,South Korea,5,688,collected_editions_only_not_world_universe,0.73
+territory,Spain,10,688,collected_editions_only_not_world_universe,1.45
+territory,Sri Lanka,1,688,collected_editions_only_not_world_universe,0.15
+territory,Sweden,5,688,collected_editions_only_not_world_universe,0.73
+territory,Switzerland,11,688,collected_editions_only_not_world_universe,1.6
+territory,Taiwan,5,688,collected_editions_only_not_world_universe,0.73
+territory,Tanzania,3,688,collected_editions_only_not_world_universe,0.44
+territory,Thailand,3,688,collected_editions_only_not_world_universe,0.44
+territory,Togo,3,688,collected_editions_only_not_world_universe,0.44
+territory,Turkey,1,688,collected_editions_only_not_world_universe,0.15
+territory,Uganda,5,688,collected_editions_only_not_world_universe,0.73
+territory,Ukraine,1,688,collected_editions_only_not_world_universe,0.15
+territory,United Arab Emirates,3,688,collected_editions_only_not_world_universe,0.44
+territory,United Kingdom,19,688,collected_editions_only_not_world_universe,2.76
+territory,United States,55,688,collected_editions_only_not_world_universe,7.99
+territory,Zimbabwe,2,688,collected_editions_only_not_world_universe,0.29
+territory,unknown,127,688,collected_editions_only_not_world_universe,18.46
+format,art_fair,6,688,collected_editions_only_not_world_universe,0.87
+format,book_fair,6,688,collected_editions_only_not_world_universe,0.87
+format,community_meeting,259,688,collected_editions_only_not_world_universe,37.65
+format,conference,230,688,collected_editions_only_not_world_universe,33.43
+format,cultural_festival,1,688,collected_editions_only_not_world_universe,0.15
+format,cultural_gathering,3,688,collected_editions_only_not_world_universe,0.44
+format,hackathon,3,688,collected_editions_only_not_world_universe,0.44
+format,literary_festival,6,688,collected_editions_only_not_world_universe,0.87
+format,other_technical,126,688,collected_editions_only_not_world_universe,18.31
+format,sprint,7,688,collected_editions_only_not_world_universe,1.02
+format,tennis_tournament,6,688,collected_editions_only_not_world_universe,0.87
+format,trade_fair,2,688,collected_editions_only_not_world_universe,0.29
+format,webinar,1,688,collected_editions_only_not_world_universe,0.15
+format,workshop,32,688,collected_editions_only_not_world_universe,4.65
+sector,arte contemporáneo / mercado del arte,6,688,collected_editions_only_not_world_universe,0.87
+sector,arts,3,688,collected_editions_only_not_world_universe,0.44
+sector,deporte / tenis,6,688,collected_editions_only_not_world_universe,0.87
+sector,editorial / cultura,6,688,collected_editions_only_not_world_universe,0.87
+sector,literatura / cultura,6,688,collected_editions_only_not_world_universe,0.87
+sector,other,4,688,collected_editions_only_not_world_universe,0.58
+sector,technology,657,688,collected_editions_only_not_world_universe,95.49
+temporal_bucket,historical,650,688,collected_editions_only_not_world_universe,94.48
+temporal_bucket,upcoming_or_current,38,688,collected_editions_only_not_world_universe,5.52
+source,src_07ad0508d8bb441a,1,688,collected_editions_only_not_world_universe,0.15
+source,src_0e7b4b30161968fb,1,688,collected_editions_only_not_world_universe,0.15
+source,src_105ca3620163539b,349,688,collected_editions_only_not_world_universe,50.73
+source,src_1e9ba82b345b7a3b,1,688,collected_editions_only_not_world_universe,0.15
+source,src_2317a3403ba9944e,3,688,collected_editions_only_not_world_universe,0.44
+source,src_250acab3c85dbfa1,1,688,collected_editions_only_not_world_universe,0.15
+source,src_267e0627dc947437,1,688,collected_editions_only_not_world_universe,0.15
+source,src_33217bc4be0ea729,1,688,collected_editions_only_not_world_universe,0.15
+source,src_38b3e9b572dc81a7,1,688,collected_editions_only_not_world_universe,0.15
+source,src_3cca216945a62f3d,1,688,collected_editions_only_not_world_universe,0.15
+source,src_642521ca61c47b44,1,688,collected_editions_only_not_world_universe,0.15
+source,src_66f32ab2e391e67f,1,688,collected_editions_only_not_world_universe,0.15
+source,src_6b7b409be4fa4156,1,688,collected_editions_only_not_world_universe,0.15
+source,src_7f342d86233569f0,1,688,collected_editions_only_not_world_universe,0.15
+source,src_7fed1c8598d7bd1f,1,688,collected_editions_only_not_world_universe,0.15
+source,src_80b095d23342bb5a,1,688,collected_editions_only_not_world_universe,0.15
+source,src_8e12c6aa8c47e7b8,1,688,collected_editions_only_not_world_universe,0.15
+source,src_90f48305de6d0fef,1,688,collected_editions_only_not_world_universe,0.15
+source,src_947efca5c26335ec,1,688,collected_editions_only_not_world_universe,0.15
+source,src_9bfa177a797131b5,1,688,collected_editions_only_not_world_universe,0.15
+source,src_aa4f79b66f07fd27,1,688,collected_editions_only_not_world_universe,0.15
+source,src_af08650519d4bd96,1,688,collected_editions_only_not_world_universe,0.15
+source,src_b10d917700689230,1,688,collected_editions_only_not_world_universe,0.15
+source,src_b78720f3456482bd,1,688,collected_editions_only_not_world_universe,0.15
+source,src_bca1599a2f687a1a,303,688,collected_editions_only_not_world_universe,44.04
+source,src_bd02139477f1ea29,1,688,collected_editions_only_not_world_universe,0.15
+source,src_bfa4b2bf1f76dec0,1,688,collected_editions_only_not_world_universe,0.15
+source,src_c13d7441cc98d488,1,688,collected_editions_only_not_world_universe,0.15
+source,src_c5fd8dcde420d1b2,1,688,collected_editions_only_not_world_universe,0.15
+source,src_cf9cb7d13d9b0b35,1,688,collected_editions_only_not_world_universe,0.15
+source,src_d856d2647d07e8fe,1,688,collected_editions_only_not_world_universe,0.15
+source,src_db1171296d81ebde,1,688,collected_editions_only_not_world_universe,0.15
+source,src_ecd126e46aa5f958,1,688,collected_editions_only_not_world_universe,0.15
+source,src_f5648339c0e5d0f5,1,688,collected_editions_only_not_world_universe,0.15
+source,src_f67eaa1904019791,1,688,collected_editions_only_not_world_universe,0.15
+source,src_fd9f4b80d80140c6,1,688,collected_editions_only_not_world_universe,0.15
+field_completeness,title,688,688,collected_editions_only,100.0
+field_completeness,start_date,688,688,collected_editions_only,100.0
+field_completeness,end_date,687,688,collected_editions_only,99.85
+field_completeness,timezone,197,688,collected_editions_only,28.63
+field_completeness,location_raw,672,688,collected_editions_only,97.67
+field_completeness,country,561,688,collected_editions_only,81.54
+field_completeness,venue_id,3,688,collected_editions_only,0.44
+field_completeness,series_id,338,688,collected_editions_only,49.13
+enrichment_completeness,sponsor_evidence,16,688,collected_editions_only,2.33
+enrichment_completeness,audience,5,688,collected_editions_only,0.73
+enrichment_completeness,reported_metrics,14,688,collected_editions_only,2.03
+enrichment_completeness,ticket_prices,5,688,collected_editions_only,0.73
+enrichment_completeness,sponsorship_packages,2,688,collected_editions_only,0.29

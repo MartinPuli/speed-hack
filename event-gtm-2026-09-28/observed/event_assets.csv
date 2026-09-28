@@ -1,0 +1,2 @@
+asset_id,edition_id,type,url,language,published_at,rights,source_id,extra_json,missing_reasons_json
+asset_671fac67ec3f35b9,evt_095fb499a803def2,sponsorship_prospectus,https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf,en,,pending_commercial_review,src_864a12d7a61ca222,,"{""published_at"":""not_found_in_consulted_sources""}"

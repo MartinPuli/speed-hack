@@ -1,0 +1,14 @@
+{
+  "fetch_id": "fetch_enr_81e1378adebc2d9c",
+  "source_url": "https://2025.pycon.org.au/sponsor/",
+  "final_url": "https://2025.pycon.org.au/sponsor/",
+  "observed_at": "2026-09-28T15:48:05.783026+00:00",
+  "http_status": 200,
+  "content_sha256": "7c88264b0e21c0c7dfd400eb036fde3ea61c351dc8e35eebbadd9fe603171a6f",
+  "bytes": 18324,
+  "content_type": "text/html; charset=utf-8",
+  "robots_status": 404,
+  "robots_decision": "robots_absent",
+  "attempts": 1,
+  "prior_error": null
+}

@@ -1,0 +1,291 @@
+{
+  "host": {
+    "system": "Darwin",
+    "machine": "arm64",
+    "python": "3.9.6",
+    "sqlite": "3.51.0"
+  },
+  "dataset_bytes": 12132352,
+  "timing_scope": "local warm SQLite only; no network, LLM, PostgreSQL, concurrency or production claim",
+  "sql": [
+    {
+      "query": "future_core",
+      "rows": 31,
+      "samples": 200,
+      "warmups": 5,
+      "median_ms": 0.017979500000001036,
+      "p95_ms": 0.020499999999999685,
+      "min_ms": 0.01737500000000003,
+      "max_ms": 0.045459000000004635,
+      "plan": [
+        [
+          4,
+          0,
+          163,
+          "SEARCH event_editions USING INDEX editions_date (start_date>? AND start_date<?)"
+        ]
+      ]
+    },
+    {
+      "query": "evidence_3fields",
+      "rows": 32,
+      "samples": 200,
+      "warmups": 5,
+      "median_ms": 0.04360399999999917,
+      "p95_ms": 0.04579200000000283,
+      "min_ms": 0.04195800000000166,
+      "max_ms": 0.05229199999999545,
+      "plan": [
+        [
+          5,
+          0,
+          62,
+          "SEARCH a USING INDEX assertions_entity (entity_table=? AND entity_id=? AND field=?)"
+        ],
+        [
+          10,
+          0,
+          0,
+          "LIST SUBQUERY 1"
+        ],
+        [
+          16,
+          10,
+          163,
+          "SEARCH event_editions USING INDEX editions_date (start_date>? AND start_date<?)"
+        ],
+        [
+          30,
+          10,
+          0,
+          "CREATE BLOOM FILTER"
+        ],
+        [
+          62,
+          0,
+          46,
+          "SEARCH s USING INDEX sqlite_autoindex_sources_1 (id=?)"
+        ]
+      ]
+    },
+    {
+      "query": "sponsor_repeat_joins",
+      "rows": 186,
+      "samples": 200,
+      "warmups": 5,
+      "median_ms": 0.23960450000000064,
+      "p95_ms": 0.3077500000000094,
+      "min_ms": 0.2368749999999975,
+      "max_ms": 0.3761670000000106,
+      "plan": [
+        [
+          11,
+          0,
+          216,
+          "SCAN r"
+        ],
+        [
+          15,
+          0,
+          46,
+          "SEARCH co USING INDEX sqlite_autoindex_companies_1 (id=?)"
+        ],
+        [
+          21,
+          0,
+          46,
+          "SEARCH e USING INDEX sqlite_autoindex_event_editions_1 (id=?)"
+        ],
+        [
+          30,
+          0,
+          0,
+          "USE TEMP B-TREE FOR GROUP BY"
+        ],
+        [
+          73,
+          0,
+          0,
+          "USE TEMP B-TREE FOR count(DISTINCT)"
+        ],
+        [
+          76,
+          0,
+          0,
+          "USE TEMP B-TREE FOR ORDER BY"
+        ]
+      ]
+    }
+  ],
+  "fts5": [
+    {
+      "query": "python",
+      "elapsed_ms_single": 0.1116249999999902,
+      "rows": [
+        {
+          "id": "evt_4afc5a8d48e6af22",
+          "title": "Python Meeting Düsseldorf - Python Herbst Sprint 2025",
+          "bm25": -1.254336572962954
+        },
+        {
+          "id": "evt_2036f81b0ea8dcd7",
+          "title": "Python New Zealand: Python Learners' Co-op",
+          "bm25": -1.254336572962954
+        },
+        {
+          "id": "evt_4b1f9a1de2a0267f",
+          "title": "Python Live: Python Monolith: Solutions beyond microservices",
+          "bm25": -1.254336572962954
+        },
+        {
+          "id": "evt_db7735680e5a9a2e",
+          "title": "Open Source with Python | Python User Group Ho",
+          "bm25": -1.2201734380945748
+        },
+        {
+          "id": "evt_8d5e20dcbae7f181",
+          "title": "Python Practitioners' SIG",
+          "bm25": -1.1216845005299025
+        },
+        {
+          "id": "evt_a20f2dd832bf485f",
+          "title": "Xtreme Python",
+          "bm25": -1.0681944397865517
+        },
+        {
+          "id": "evt_eb570aa64e466d41",
+          "title": "Python Web Conference 2022",
+          "bm25": -1.0681944397865517
+        },
+        {
+          "id": "evt_deece9ae0dde839b",
+          "title": "Python Pizza Holguín",
+          "bm25": -1.0681944397865517
+        },
+        {
+          "id": "evt_3fe2f73a2602b6e9",
+          "title": "Getting back to Python land - Stockholm Python User Group",
+          "bm25": -1.0247942312499507
+        },
+        {
+          "id": "evt_fb99546d8a1fa641",
+          "title": "Dash - web applications, dashboards, and data visualisation from Python - New Zealand Python User Group - Auckland",
+          "bm25": -1.0247942312499507
+        }
+      ]
+    },
+    {
+      "query": "pycon",
+      "elapsed_ms_single": 0.06104099999999779,
+      "rows": [
+        {
+          "id": "evt_20041e6434ff620a",
+          "title": "PyCon Tanzania",
+          "bm25": -1.5360244057753933
+        },
+        {
+          "id": "evt_80df8e059d12d884",
+          "title": "PyCon Iran 2022",
+          "bm25": -1.455053001231275
+        },
+        {
+          "id": "evt_8412a029278f4d47",
+          "title": "PyCon Zimbabwe",
+          "bm25": -1.3821909168375304
+        },
+        {
+          "id": "evt_c3a69a7f1c1a8876",
+          "title": "PyCon Indonesia 2021",
+          "bm25": -1.3821909168375304
+        },
+        {
+          "id": "evt_b5e94cedf38673f2",
+          "title": "PyCon Uganda",
+          "bm25": -1.3821909168375304
+        },
+        {
+          "id": "evt_21b818abee646339",
+          "title": "PyCon Japan 2021",
+          "bm25": -1.3821909168375304
+        },
+        {
+          "id": "evt_aa73b9726ea22224",
+          "title": "PyCon Chile",
+          "bm25": -1.3821909168375304
+        },
+        {
+          "id": "evt_d34d8ef52beec619",
+          "title": "PyCon Sweden 2021",
+          "bm25": -1.3821909168375304
+        },
+        {
+          "id": "evt_99acac13cfa3f79d",
+          "title": "PyCon ZA 2021",
+          "bm25": -1.3821909168375304
+        },
+        {
+          "id": "evt_116e2a9fd9ecb6c4",
+          "title": "PyCon Colombia 2022",
+          "bm25": -1.3821909168375304
+        }
+      ]
+    },
+    {
+      "query": "art OR frieze",
+      "elapsed_ms_single": 0.017084000000000543,
+      "rows": [
+        {
+          "id": "evt_e1feb77eee70a360",
+          "title": "Frieze London 2021",
+          "bm25": -6.99500956363016
+        },
+        {
+          "id": "evt_53fb9701a6a908e5",
+          "title": "Frieze London 2022",
+          "bm25": -6.99500956363016
+        },
+        {
+          "id": "evt_99a8ced283d90fe1",
+          "title": "Frieze London 2023",
+          "bm25": -6.99500956363016
+        },
+        {
+          "id": "evt_4c0cf41806407c37",
+          "title": "Frieze London 2024",
+          "bm25": -6.99500956363016
+        },
+        {
+          "id": "evt_3fd86574b40703fe",
+          "title": "Frieze London 2025",
+          "bm25": -6.99500956363016
+        },
+        {
+          "id": "evt_d4fe659e50c08239",
+          "title": "Frieze London 2026",
+          "bm25": -6.99500956363016
+        },
+        {
+          "id": "evt_4c75646805affc70",
+          "title": "52nd Annual Stanford Powwow and Art Market",
+          "bm25": -3.952868035786307
+        }
+      ]
+    }
+  ],
+  "context_sizes": {
+    "all_event_and_assertion_rows": {
+      "utf8_bytes": 12707046,
+      "characters": 12684851,
+      "tokens_estimate_chars_div4": 3171213,
+      "token_count_measured": false
+    },
+    "ten_event_evidence_packet": {
+      "utf8_bytes": 11400,
+      "characters": 11355,
+      "tokens_estimate_chars_div4": 2839,
+      "token_count_measured": false
+    }
+  },
+  "size_ratio": 1114.6531578947368,
+  "warning": "Smaller packet excludes evidence; relevance, completeness and factual answer quality not evaluated."
+}

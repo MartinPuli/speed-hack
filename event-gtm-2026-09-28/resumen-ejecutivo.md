@@ -1,0 +1,11 @@
+# Resumen ejecutivo — Growth Atlas Event GTM
+
+Growth Atlas puede convertirse en un **expediente de decisión para equipos de growth antes de patrocinar eventos**: investigar organizador, ediciones previas, empresas participantes, audiencia declarada, paquetes y contradicciones, con evidencia por afirmación y preguntas que aún debe contestar el organizador.
+
+La muestra exploratoria al 28 de septiembre de 2026 reúne 97 ediciones, 259 fuentes, 5.961 afirmaciones, 380 empresas y 665 roles empresa–edición. Sus 410 etiquetas `sponsor` no confirman pagos. Veinte ediciones futuras fueron verificadas contra páginas primarias al corte; se hallaron conflictos oficiales de fecha (ITAP y PTC ASIA), y se corrigieron fechas de HANNOVER MESSE 2027 y CDIIF 2027. Hay 0 coordenadas y 49/97 países desconocidos; por ello el dataset no justifica pins ni una promesa de cobertura mundial.
+
+Los documentos del repo apoyan la dirección “motor de decisión e investigación”, con una UI dashboard, lista/dossier y mapa secundario. No prueban demanda, disposición a pagar o precisión de recomendaciones. Ocho casos sintéticos × tres heurísticas produjeron 24 ejecuciones; no hay etiquetas humanas ni presupuesto y resultados confirmados suficientes para evaluar calidad comercial.
+
+**Recomendación:** antes de expandir adquisición o automatizar outreach, realizar un piloto asistido con un equipo que tenga una decisión próxima y un presupuesto real. Definir con ese comprador segmento, geografía, outcome y criterio de utilidad. Construir primero la confianza del expediente: claims con fuente/fecha/recencia/uso permitido, conflicto visible, “desconocido” explícito, preguntas al organizador y decisión reabrible. El workflow determinístico y SQL/FTS bastan para iniciar; modelos ayudan a extraer/sintetizar con referencias validadas, sin autoridad sobre elegibilidad ni score. Sin multiagente, vector DB, scraper universal ni predicción de ROI hasta que una prueba concreta lo justifique.
+
+[Arquitectura recomendada](reports/arquitectura-recomendada.md) · [calidad de datos](quality_report.md) · [validación](validation_report.md) · [futuros verificados](reports/verificacion-futuros-2026-09-28.md) · [economía unitaria](costos-y-economia-unitaria.md).

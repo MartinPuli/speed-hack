@@ -1,0 +1,15 @@
+{
+  "fetch_id": "fetch_enr_b3e06bc63cb2095a",
+  "source_url": "https://www.cncf.io/wp-content/uploads/2025/09/KubeCon_India25_TransparencyReport.pdf",
+  "final_url": "https://www.cncf.io/wp-content/uploads/2025/09/KubeCon_India25_TransparencyReport.pdf",
+  "observed_at": "2026-09-28T15:48:03.974929+00:00",
+  "http_status": 200,
+  "content_sha256": "6ffc4cb3c2dbb21e5b309cc0efb6d28c25efeb6f29e41d7ea5c6ada98f113428",
+  "bytes": 4946105,
+  "content_type": "application/pdf",
+  "robots_status": 200,
+  "robots_decision": "allowed",
+  "attempts": 1,
+  "prior_error": null,
+  "pdf_page_count": 14
+}

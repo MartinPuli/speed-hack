@@ -1,0 +1,14 @@
+{
+  "fetch_id": "fetch_enr_13e04fbec02a7fe4",
+  "source_url": "https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-india/sponsor-list/",
+  "final_url": "https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-india/sponsor-list/",
+  "observed_at": "2026-09-28T15:48:01.760478+00:00",
+  "http_status": 200,
+  "content_sha256": "18eec88e8e1bb067c63adff2b9784621bf416866571492f72e5d78676a18457a",
+  "bytes": 105379,
+  "content_type": "text/html; charset=UTF-8",
+  "robots_status": 200,
+  "robots_decision": "allowed",
+  "attempts": 1,
+  "prior_error": null
+}

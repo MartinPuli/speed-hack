@@ -1,0 +1,42 @@
+{
+  "status": "complete",
+  "started_at": "2026-09-28T10:03:02Z",
+  "completed_at": "2026-09-28T15:29:18Z",
+  "historical_window_start": "2021-09-28",
+  "historical_window_end": "2026-09-28",
+  "future_verification_cutoff": "2026-09-28",
+  "future_horizon": "20 announcements checked against organizer/venue primary pages; announcement is not confirmation of delivery or commercial availability",
+  "geography": "international exploratory sample; missing countries remain null; zero coordinates",
+  "segment": "buyer and geography not finalized; do not assume B2B only",
+  "paid_acquisition_authorized": false,
+  "publication_or_contact_authorized": false,
+  "master_prompt_sha256": "45e26b871a30dac45a76f3b99c337be3c27498024d8e603203b4ea40aea13cb2",
+  "master_prompt_words": 9440,
+  "repository_commit": "cf03259a4c6308caac3d587b530120966f89ab3f",
+  "phases": [
+    "historical_dataset_and_validation",
+    "architecture_and_costs_grounded_in_dataset"
+  ],
+  "deliverables": [
+    "README.md",
+    "resumen-ejecutivo.md",
+    "quality_report.md",
+    "validation_report.md",
+    "costos-y-economia-unitaria.md",
+    "next_steps.md",
+    "reports/",
+    "event-gtm.sqlite",
+    "observed/",
+    "derived/",
+    "private-schemas/"
+  ],
+  "acceptance": "Research artifacts complete; application unchanged; no publication, contact, paid access, or provider API calls.",
+  "limitations": [
+    "No human relevance labels or paid conversion",
+    "No source rights clearance for commercial reuse",
+    "No coordinates or inferred pins",
+    "No historical as-of capture for past events",
+    "Official future event page review does not establish event occurrence or sponsorship inventory",
+    "No full independent fact audit"
+  ]
+}

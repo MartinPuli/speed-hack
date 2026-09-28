@@ -1,0 +1,2989 @@
+{
+  "batch": "noticias-eventos-2026-09-28",
+  "method": {
+    "window_start": "2021-09-28",
+    "window_end": "2026-09-28",
+    "checked_at": "2026-09-28",
+    "scope": "Lote de profundidad: prensa y fuentes corporativas; no censo de eventos ni licencia de reventa.",
+    "storage": "Metadatos, valores factuales, localizadores y resúmenes propios; no cuerpos de artículos, fotografías ni listas de asistentes.",
+    "dates": "published_at=fecha editorial; event_date/períodos=fecha del hecho; checked_at=consulta. null significa no establecido.",
+    "evidence": "reported es una afirmación atribuida, no verificación independiente del resultado. Anuncio, forecast, reservas y resultado realizado se separan.",
+    "geography": "Ciudades solo donde aparecen en una fuente de la edición. País desde CA/NV o nombre de ciudad se marca normalización geográfica; nunca se infiere ciudad desde país.",
+    "attempts": "Registro resumido por fuente/intento relevante, no log exhaustivo ni conteo de requests HTTP.",
+    "reuse": "pending_review en todos los textos salvo licencia específica comprobada; ser público no autoriza republicación comercial."
+  },
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/method-man--redman-to-headline-star-studded-heineken-house-lineup-at-the-coachella-valley-music-and-arts-festival-301780035.html",
+      "title": "Method Man & Redman to Headline Star-Studded Heineken House Lineup at the Coachella Valley Music and Arts Festival",
+      "publisher": "Heineken USA vía PR Newswire",
+      "language": "en",
+      "source_type": "company_press_release",
+      "published_at": "2023-03-23",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "activation",
+          "value": "Heineken House y primera degustación Heineken Silver",
+          "locator": "Cuerpo inicial y párrafos de Silver",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "event_periods",
+          "value": [
+            [
+              "2023-04-14",
+              "2023-04-16"
+            ],
+            [
+              "2023-04-21",
+              "2023-04-23"
+            ]
+          ],
+          "locator": "Weekend One / Weekend Two",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html",
+      "title": "CARRERA Signs on as Official Eyewear Partner of the 2023 Coachella Valley Music & Arts Festival",
+      "publisher": "CARRERA / Safilo vía PR Newswire",
+      "language": "en",
+      "source_type": "company_press_release",
+      "published_at": "2023-03-09",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "brand_parent",
+          "value": {
+            "brand": "CARRERA",
+            "parent": "Safilo Group"
+          },
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "role",
+          "value": "official_eyewear_partner; exclusividad de categoría",
+          "locator": "Primer párrafo y activación",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "location",
+          "value": "Indio, California",
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "launch",
+          "value": "CARRERA Woman, preview y lanzamiento exclusivo norteamericano previsto abril 2023",
+          "locator": "Párrafo partner tent",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/absolut-kicks-off-festival-season-with-mixing-it-up-cosmos--culture--an-exclusive-series-on-the-latest-trends-from-the-official-vodka-of-coachella-302098638.html",
+      "title": "Absolut Kicks off Festival Season with \"Mixing It Up: Cosmos & Culture\"",
+      "publisher": "Absolut vía PR Newswire",
+      "language": "en",
+      "source_type": "company_press_release",
+      "published_at": "2024-03-26",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "role",
+          "value": "official_vodka_partner",
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "activation",
+          "value": "Absolut.LAND y serie digital con Matt Rogers",
+          "locator": "Párrafos de activación",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.marketingdive.com/news/absolut-land-vodka-coachella-digital-metaverse-activations/711616/",
+      "title": "Absolut returns to Coachella with metaverse activation, content series",
+      "publisher": "Marketing Dive",
+      "language": "en",
+      "source_type": "editorial_based_on_press_release",
+      "published_at": "2024-03-28",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "derivation",
+          "value": "Cita información suministrada y comunicado enlazado",
+          "locator": "Dive Brief y enlace de press release",
+          "evidence_class": "observed"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/pusha-t--afrojack-to-headline-heineken-house-2025-lineup-at-the-coachella-valley-music-and-arts-festival-302391994.html",
+      "title": "Pusha T & Afrojack to Headline Heineken House 2025 Lineup at the Coachella Valley Music and Arts Festival",
+      "publisher": "Heineken USA vía PR Newswire",
+      "language": "en",
+      "source_type": "company_press_release",
+      "published_at": "2025-03-04",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "activation",
+          "value": "Heineken House; productos Original, Silver y 0.0",
+          "locator": "Cuerpo y cartera de productos",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "event_periods",
+          "value": [
+            [
+              "2025-04-11",
+              "2025-04-13"
+            ],
+            [
+              "2025-04-18",
+              "2025-04-20"
+            ]
+          ],
+          "locator": "Heineken House Line-Up",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.theheinekencompany.com/newsroom/moderation-is-the-hottest-headliner-for-this-summers-festivals/",
+      "title": "Moderation is the Hottest Headliner for this Summer’s Festivals",
+      "publisher": "HEINEKEN",
+      "language": "en",
+      "source_type": "company_report",
+      "published_at": "2025-06-30",
+      "checked_at": "2026-09-28",
+      "access_method": "web_search_index",
+      "access_status": "indexed_only",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "sales_change_percent",
+          "value": 125.5,
+          "locator": "Key takeaways y párrafo Coachella",
+          "evidence_class": "reported_indexed",
+          "company": "Heineken",
+          "product": "Heineken 0.0",
+          "edition_key": "coachella-2025",
+          "comparison": "2025 frente a 2024; ventas, unidad monetaria/volumen no detallada"
+        }
+      ],
+      "notes": "Texto pertinente visible en índice oficial; dos aperturas directas fallaron, la última 403. No consta lectura directa de la página."
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+      "title": "Inside Heineken’s limited-edition NA beer campaign at the US Open",
+      "publisher": "Modern Retail",
+      "language": "en",
+      "source_type": "original_interview",
+      "published_at": "2025-08-19",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "sales_change_percent_us_open_2024",
+          "value": 25,
+          "locator": "Segundo párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "sold_out",
+          "value": "L0VE.L0VE agotado en primera semana US Open 2024",
+          "locator": "Declaración de Timoney sobre inventario",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "distribution_expansion",
+          "value": "L0VE.L0VE se amplía al retail nacional EE.UU. en 2025",
+          "locator": "Primeros párrafos y entrevista",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "sales_change_percent_coachella_2025",
+          "value": 125.5,
+          "locator": "Declaración de Timoney sobre Coachella",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": "Gabriela Barkho entrevista a Maggie Timoney. Independencia editorial del medio, métricas aportadas por la empresa."
+    },
+    {
+      "url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+      "title": "Coachella 2025 Experiential: Pit Stops, Perfume Pods, Glimmers and High Tea",
+      "publisher": "Event Marketer",
+      "language": "en",
+      "source_type": "editorial_recap",
+      "published_at": "2025-04-24",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "official_partners",
+          "value": [
+            "Absolut: vodka",
+            "Electrolit: hidratación",
+            "Method: cuidado personal"
+          ],
+          "locator": "Secciones ABSOLUT, ELECTROLIT y METHOD",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "activation",
+          "value": "American Express: Amex Experience",
+          "locator": "AMERICAN EXPRESS",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "side_event",
+          "value": {
+            "name": "818 Outpost",
+            "date": "2025-04-11",
+            "presenter": "The h.wood Group",
+            "brand": "818 Tequila",
+            "attendance_lower_bound": 1500
+          },
+          "locator": "818 TEQUILA",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "giveaways",
+          "value": {
+            "brand": "Jisulife",
+            "approximate_units": 1000
+          },
+          "locator": "JISULIFE",
+          "evidence_class": "reported",
+          "notes": "Casi 1.000 ventiladores; no ventas ni leads."
+        }
+      ],
+      "notes": "Kait Shea; artículo original identificado por publicación y enlace desde republicación. Método de verificación de cifras de marcas no publicado."
+    },
+    {
+      "url": "https://www.chiefmarketer.com/coachella-marketing-roundup-21-brand-experiences/",
+      "title": "Coachella Marketing Roundup: 21 Brand Experiences",
+      "publisher": "Chief Marketer",
+      "language": "en",
+      "source_type": "partial_republication",
+      "published_at": "2025-05-04",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "republication_of",
+          "value": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "Editor’s Note y enlace al final",
+          "evidence_class": "observed"
+        }
+      ],
+      "notes": "La nota editorial atribuye el contenido a Event Marketer y enlaza el original. No aporta otra confirmación independiente."
+    },
+    {
+      "url": "https://news.panasonic.com/global/fr/press/en240910-2",
+      "title": "Panasonic Official Worldwide Olympic and Paralympic Partnership to End Following Paris 2024",
+      "publisher": "Panasonic Holdings",
+      "language": "en",
+      "source_type": "company_press_release",
+      "published_at": "2024-09-10",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "partnership_nonrenewal",
+          "value": {
+            "effective_month": "2024-12",
+            "party": "IOC",
+            "sponsor": "Panasonic"
+          },
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "paris_support",
+          "value": "Tecnología, productos, personal y operaciones en París 2024",
+          "locator": "Declaración CEO",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": "Ruta /fr/, contenido leído en inglés."
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/japans-panasonic-ends-37year-contract-as-top-olympics-sponsor-3608683",
+      "title": "Japan’s Panasonic ends 37-year contract as top Olympics sponsor",
+      "publisher": "Reuters, republicado por Investing.com",
+      "language": "en",
+      "source_type": "syndicated_reporting",
+      "published_at": "2024-09-10",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "report_origin",
+          "value": "Panasonic statement",
+          "locator": "Cuerpo: párrafos said in a statement / quoted in same statement",
+          "evidence_class": "observed"
+        }
+      ],
+      "notes": "Cita la misma declaración de Panasonic; no es medición independiente de ROI."
+    },
+    {
+      "url": "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+      "title": "Paris 2024: 27 millions d’euros investis dans le soutien à la communauté",
+      "publisher": "Airbnb",
+      "language": "fr",
+      "source_type": "company_press_release",
+      "published_at": "2024-04-09",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "investment",
+          "value": {
+            "amount": 27000000,
+            "currency": "EUR",
+            "category": "customer_support_operations",
+            "status": "announced"
+          },
+          "locator": "Segundo párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "role",
+          "value": "worldwide_olympic_and_paralympic_partner",
+          "locator": "Segundo párrafo",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://news.airbnb.com/en-in/30-surge-in-bookings-from-indian-guests-for-paris-2024-olympics",
+      "title": "30% surge in bookings from Indian guests for Paris 2024 Olympics",
+      "publisher": "Airbnb",
+      "language": "en",
+      "source_type": "company_report",
+      "published_at": "2024-07-22",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "nights_booked_change",
+          "value": {
+            "percentage": 400,
+            "qualifier": "más de cinco veces según redacción",
+            "as_of": "2024-03-31",
+            "region": "Paris region",
+            "stay_period": "Fechas Juegos Olímpicos 2024",
+            "comparison": "Misma fecha de observación un año antes"
+          },
+          "locator": "Key Takeaways y notas **",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": "Corte de los datos Q1 2024, no julio. URL con slash redirige a versión sin slash."
+    },
+    {
+      "url": "https://www.lemonde.fr/en/economy/article/2024/05/27/paris-2024-hotels-and-airbnb-rental-prices-continue-to-fall-due-to-oversupply_6672794_19.html",
+      "title": "Paris 2024: Hotels and Airbnb rental prices continue to fall due to oversupply",
+      "publisher": "Le Monde",
+      "language": "en",
+      "source_type": "original_reporting_translation",
+      "published_at": "2024-05-27",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "pre_event_market_observation",
+          "value": "Operadores entrevistados reportan oferta abundante y reducción de precios desde expectativas iniciales",
+          "locator": "Entrevistas WeHost / Checkmyguest",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": "Marjorie Cessac; traducción del original francés del mismo día. Página marcada Subscribers only; herramienta de lectura devolvió el texto. No se eludió control ni se guardó texto completo."
+    },
+    {
+      "url": "https://www.insee.fr/fr/statistiques/8670343",
+      "title": "Les Jeux de Paris 2024 renforcent l’attractivité touristique de Paris et de l’Île-de-France",
+      "publisher": "Insee / Choose Paris Region / DGE",
+      "language": "fr",
+      "source_type": "institutional_analysis",
+      "published_at": "2025-11-25",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "jop_dates",
+          "value": {
+            "olympics": [
+              "2024-07-26",
+              "2024-08-11"
+            ],
+            "paralympics": [
+              "2024-08-28",
+              "2024-09-08"
+            ]
+          },
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "short_stay_nights_change_percent_2024",
+          "value": 20.9,
+          "locator": "Primer apartado, comparación anual",
+          "evidence_class": "reported",
+          "population": "Turistas no residentes en Île-de-France, varias plataformas; no solo Airbnb"
+        },
+        {
+          "field": "method",
+          "value": "EFHCT y Eurostat; ATR para encuesta de motivación. Datos de cuatro plataformas con riesgo de doble conteo.",
+          "locator": "Sources",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://news.panasonic.com/global/presskits/ces2025",
+      "title": "CES 2025",
+      "publisher": "Panasonic",
+      "language": "en",
+      "source_type": "company_press_kit",
+      "published_at": "2025-01-06",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "event",
+          "value": {
+            "dates": [
+              "2025-01-07",
+              "2025-01-10"
+            ],
+            "city": "Las Vegas",
+            "country": "United States",
+            "booth": "LVCC Central Hall #16605"
+          },
+          "locator": "Cabecera y Panasonic Booth",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://news.panasonic.com/global/stories/16909",
+      "title": "Well into the Future: A Recap of Panasonic at CES 2025",
+      "publisher": "Panasonic",
+      "language": "en",
+      "source_type": "company_recap",
+      "published_at": "2025-02-28",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "role",
+          "value": "exhibitor; keynote de CEO",
+          "locator": "Primeros párrafos",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "launches",
+          "value": [
+            "OASYS",
+            "Umi"
+          ],
+          "locator": "Highlights from the Opening Keynote",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "alliance",
+          "value": "Anthropic",
+          "locator": "Highlights; no se afirma que Anthropic sea sponsor de CES",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://news.panasonic.com/global/stories/18277",
+      "title": "Panasonic’s AI Strategy Enters the Implementation Phase: Real-World Impact for Better Future Showcased at CES 2026",
+      "publisher": "Panasonic",
+      "language": "en",
+      "source_type": "company_recap",
+      "published_at": "2026-01-08",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "event",
+          "value": {
+            "dates": [
+              "2026-01-06",
+              "2026-01-09"
+            ],
+            "city": "Las Vegas"
+          },
+          "locator": "Introducción",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "exhibition",
+          "value": "Infraestructura AI, B2B y transición ambiental",
+          "locator": "Introducción",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": "Actualización 2026-01-15 añade vídeo; no equivale a fecha de inicio del evento."
+    },
+    {
+      "url": "https://news.panasonic.com/global/press/en250108-15",
+      "title": "Panasonic launches a business for the OASYS Residential Central Air Conditioning System in the US market",
+      "publisher": "Panasonic",
+      "language": "en",
+      "source_type": "company_press_release",
+      "published_at": "2025-01-08",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "launch",
+          "value": {
+            "product": "OASYS",
+            "market": "United States",
+            "date": "2025-01-07"
+          },
+          "locator": "Dateline y primer párrafo",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": "Cabecera publicada 8/1; dateline y lanzamiento comercial 7/1/2025."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/heineken-0-0-launches-limited-edition-l0vel0ve-cans-in-celebration-of-the-2024-us-open-302222411.html",
+      "title": "Heineken 0.0 Launches Limited Edition \"L0VE.L0VE\" Cans in Celebration of the 2024 US Open",
+      "publisher": "Heineken USA vía PR Newswire",
+      "language": "en",
+      "source_type": "company_press_release",
+      "published_at": "2024-08-14",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "activation",
+          "value": {
+            "product": "L0VE.L0VE Heineken 0.0",
+            "exclusive_channel": "US Open",
+            "dates": [
+              "2024-08-19",
+              "2024-09-08"
+            ]
+          },
+          "locator": "Primeros párrafos",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "role",
+          "value": "US Open partner",
+          "locator": "Declaración de CMO",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+      "title": "ESPN’s Exclusive First Ball to Last Ball Coverage of the 2024 US Open August 26–September 8",
+      "publisher": "ESPN",
+      "language": "en",
+      "source_type": "broadcaster_press_release",
+      "published_at": "2024-08-20",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "main_draw_dates",
+          "value": [
+            "2024-08-26",
+            "2024-09-08"
+          ],
+          "locator": "Título y calendario",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "media_sponsors",
+          "value": [
+            "Heineken Silver: cobertura diurna",
+            "IBM: primetime",
+            "Cadillac: finales"
+          ],
+          "locator": "Tabla de cobertura",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+      "title": "All of the 2025 US Open. All in One Place.",
+      "publisher": "ESPN",
+      "language": "en",
+      "source_type": "broadcaster_press_release",
+      "published_at": "2025-08-20",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "main_draw_dates",
+          "value": [
+            "2025-08-24",
+            "2025-09-07"
+          ],
+          "locator": "Introducción y calendario",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "media_sponsors",
+          "value": [
+            "Heineken 0.0: cobertura diurna",
+            "IBM: primetime"
+          ],
+          "locator": "Tabla de cobertura",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.usopen.org/en_US/news/articles/2025-05-29/2025_us_open_theme_art_celebrates_althea_gibson_breaking_barriers.html",
+      "title": "2025 US Open theme art celebrates Althea Gibson, breaking barriers",
+      "publisher": "USTA / US Open",
+      "language": "en",
+      "source_type": "organizer_announcement",
+      "published_at": "2025-05-29",
+      "checked_at": "2026-09-28",
+      "access_method": "web_search_index",
+      "access_status": "indexed_only",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "full_event_dates",
+          "value": [
+            "2025-08-18",
+            "2025-09-07"
+          ],
+          "locator": "Párrafo de tema 2025",
+          "evidence_class": "reported_indexed"
+        }
+      ],
+      "notes": "Texto indexado oficial legible; open devuelve cero líneas, no lectura directa."
+    },
+    {
+      "url": "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1",
+      "title": "Avenue 50 Closed for Festival Setup",
+      "publisher": "City of Indio / Indio Police Department",
+      "language": "en",
+      "source_type": "municipal_press_release",
+      "published_at": "2024-03-26",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "event",
+          "value": {
+            "dates": [
+              [
+                "2024-04-12",
+                "2024-04-14"
+              ],
+              [
+                "2024-04-19",
+                "2024-04-21"
+              ]
+            ],
+            "city": "Indio",
+            "venue": "Empire Polo Club"
+          },
+          "locator": "Párrafo Coachella y contexto municipal",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://www.bmi.com/event/coachella-music-festival-indio-ca",
+      "title": "Coachella Music Festival: Indio, CA",
+      "publisher": "BMI",
+      "language": "en",
+      "source_type": "industry_event_calendar",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "event_periods",
+          "value": [
+            [
+              "2024-04-12",
+              "2024-04-14"
+            ],
+            [
+              "2024-04-19",
+              "2024-04-21"
+            ]
+          ],
+          "locator": "Dates y texto Two weekends",
+          "evidence_class": "reported"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "url": "https://coachella.com/past-festivals",
+      "title": "Past Festivals",
+      "publisher": "Coachella / Goldenvoice",
+      "language": "en",
+      "source_type": "organizer_archive",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "access_status": "read",
+      "reuse_status": "pending_review",
+      "facts": [
+        {
+          "field": "archived_years",
+          "value": [
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "locator": "Past Festivals",
+          "evidence_class": "observed"
+        }
+      ],
+      "notes": "Lista años 2022–2026; fechas 2026 en cabecera NO se trasladan a años históricos. No extraídos carteles/imagenes."
+    }
+  ],
+  "editions": [
+    {
+      "key": "coachella-2023",
+      "title": "Coachella 2023",
+      "series_name": "Coachella",
+      "url": "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html",
+      "start_date": "2023-04-14",
+      "end_date": "2023-04-23",
+      "date_precision": "day",
+      "city": "Indio",
+      "country": null,
+      "venue_name": null,
+      "format": "music_festival",
+      "sector": "music_consumer_brands",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html",
+        "https://www.prnewswire.com/news-releases/method-man--redman-to-headline-star-studded-heineken-house-lineup-at-the-coachella-valley-music-and-arts-festival-301780035.html",
+        "https://coachella.com/past-festivals"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html"
+        ],
+        "start_date": [
+          "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html"
+        ],
+        "end_date": [
+          "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html"
+        ],
+        "city": [
+          "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Heineken",
+          "domain": null,
+          "role": "activation_host",
+          "tier": null,
+          "source_url": "https://www.prnewswire.com/news-releases/method-man--redman-to-headline-star-studded-heineken-house-lineup-at-the-coachella-valley-music-and-arts-festival-301780035.html",
+          "locator": "Párrafos de Heineken House y fechas de la activación",
+          "status": "announced",
+          "notes": null
+        },
+        {
+          "name": "CARRERA",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "official eyewear partner",
+          "source_url": "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html",
+          "locator": "Primer párrafo: official eyewear partnership",
+          "status": "announced",
+          "notes": null
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "date_segments": [
+        [
+          "2023-04-14",
+          "2023-04-16"
+        ],
+        [
+          "2023-04-21",
+          "2023-04-23"
+        ]
+      ],
+      "geography_notes": "País normalizado desde Indio, California; ciudad explícita. Venue no confirmado en esta evidencia.",
+      "gaps": [
+        "Ejecución y resultados de campañas no verificados con recap 2023",
+        "Importes de patrocinio desconocidos"
+      ],
+      "derived": {
+        "country": {
+          "value": "United States",
+          "method": "researcher_normalization_from_place",
+          "is_observed": false
+        }
+      }
+    },
+    {
+      "key": "coachella-2024",
+      "title": "Coachella 2024",
+      "series_name": "Coachella",
+      "url": "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1",
+      "start_date": "2024-04-12",
+      "end_date": "2024-04-21",
+      "date_precision": "day",
+      "city": "Indio",
+      "country": null,
+      "venue_name": "Empire Polo Club",
+      "format": "music_festival",
+      "sector": "music_consumer_brands",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1",
+        "https://www.prnewswire.com/news-releases/absolut-kicks-off-festival-season-with-mixing-it-up-cosmos--culture--an-exclusive-series-on-the-latest-trends-from-the-official-vodka-of-coachella-302098638.html",
+        "https://www.marketingdive.com/news/absolut-land-vodka-coachella-digital-metaverse-activations/711616/",
+        "https://www.bmi.com/event/coachella-music-festival-indio-ca",
+        "https://coachella.com/past-festivals"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1"
+        ],
+        "start_date": [
+          "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1"
+        ],
+        "end_date": [
+          "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1"
+        ],
+        "city": [
+          "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1"
+        ],
+        "venue_name": [
+          "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Absolut",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "official vodka partner",
+          "source_url": "https://www.prnewswire.com/news-releases/absolut-kicks-off-festival-season-with-mixing-it-up-cosmos--culture--an-exclusive-series-on-the-latest-trends-from-the-official-vodka-of-coachella-302098638.html",
+          "locator": "ABSOLUT / primer párrafo del comunicado",
+          "status": "announced",
+          "notes": null
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "date_segments": [
+        [
+          "2024-04-12",
+          "2024-04-14"
+        ],
+        [
+          "2024-04-19",
+          "2024-04-21"
+        ]
+      ],
+      "geography_notes": "País normalizado desde Indio, CA; ciudad y recinto explícitos.",
+      "gaps": [
+        "Resultados de Absolut no publicados en fuentes leídas"
+      ],
+      "derived": {
+        "country": {
+          "value": "United States",
+          "method": "researcher_normalization_from_place",
+          "is_observed": false
+        }
+      }
+    },
+    {
+      "key": "coachella-2025",
+      "title": "Coachella 2025",
+      "series_name": "Coachella",
+      "url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+      "start_date": "2025-04-11",
+      "end_date": "2025-04-20",
+      "date_precision": "day",
+      "city": "Indio",
+      "country": null,
+      "venue_name": "Empire Polo Club",
+      "format": "music_festival",
+      "sector": "music_consumer_brands",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+        "https://www.prnewswire.com/news-releases/pusha-t--afrojack-to-headline-heineken-house-2025-lineup-at-the-coachella-valley-music-and-arts-festival-302391994.html",
+        "https://www.theheinekencompany.com/newsroom/moderation-is-the-hottest-headliner-for-this-summers-festivals/",
+        "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+        "https://www.chiefmarketer.com/coachella-marketing-roundup-21-brand-experiences/",
+        "https://coachella.com/past-festivals"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ],
+        "start_date": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ],
+        "end_date": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ],
+        "city": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ],
+        "venue_name": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Heineken",
+          "domain": null,
+          "role": "activation_host",
+          "tier": null,
+          "source_url": "https://www.prnewswire.com/news-releases/pusha-t--afrojack-to-headline-heineken-house-2025-lineup-at-the-coachella-valley-music-and-arts-festival-302391994.html",
+          "locator": "Párrafos de Heineken House y fechas de la activación",
+          "status": "announced",
+          "notes": null
+        },
+        {
+          "name": "Absolut",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "official vodka partner",
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "ABSOLUT / primer párrafo del comunicado",
+          "status": "reported",
+          "notes": null
+        },
+        {
+          "name": "American Express",
+          "domain": null,
+          "role": "activation_host",
+          "tier": null,
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "AMERICAN EXPRESS",
+          "status": "reported",
+          "notes": null
+        },
+        {
+          "name": "Electrolit",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "official hydration partner",
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "ELECTROLIT",
+          "status": "reported",
+          "notes": null
+        },
+        {
+          "name": "Method",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "official personal care sponsor",
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "METHOD",
+          "status": "reported",
+          "notes": null
+        },
+        {
+          "name": "Jisulife",
+          "domain": null,
+          "role": "activation_host",
+          "tier": null,
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "JISULIFE",
+          "status": "reported",
+          "notes": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Heineken 0.0 ventas interanuales",
+          "value": 125.5,
+          "unit": "percent_change",
+          "denominator": "Ventas Heineken 0.0 Coachella 2024; base absoluta no publicada",
+          "status": "self_reported",
+          "source_url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+          "additional_source_urls": [
+            "https://www.theheinekencompany.com/newsroom/moderation-is-the-hottest-headliner-for-this-summers-festivals/"
+          ],
+          "locator": "Entrevista: declaración sobre Coachella",
+          "method": "Declaración empresarial; misma procedencia de la métrica en ambas publicaciones.",
+          "period_start": "2025-04-11",
+          "period_end": "2025-04-20",
+          "published_at": "2025-08-19",
+          "causal_attribution": false
+        },
+        {
+          "name": "Jisulife ventiladores entregados",
+          "value": 1000,
+          "qualifier": "nearly",
+          "unit": "products_distributed",
+          "denominator": null,
+          "status": "reported_by_press",
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "JISULIFE",
+          "method": "Método no publicado; no ventas ni usuarios únicos.",
+          "causal_attribution": false
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "date_segments": [
+        [
+          "2025-04-11",
+          "2025-04-13"
+        ],
+        [
+          "2025-04-18",
+          "2025-04-20"
+        ]
+      ],
+      "geography_notes": "País normalizado desde Indio, CA; ciudad/venue explícitos en recap.",
+      "gaps": [
+        "Ventas absolutas, fees y beneficio incremental desconocidos"
+      ],
+      "derived": {
+        "country": {
+          "value": "United States",
+          "method": "researcher_normalization_from_place",
+          "is_observed": false
+        }
+      }
+    },
+    {
+      "key": "818-outpost-2025",
+      "title": "818 Outpost 2025",
+      "series_name": "818 Outpost",
+      "url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+      "start_date": "2025-04-11",
+      "end_date": "2025-04-11",
+      "date_precision": "day",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "brand_pop_up",
+      "sector": "consumer_beverages",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+        "https://www.chiefmarketer.com/coachella-marketing-roundup-21-brand-experiences/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ],
+        "start_date": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ],
+        "end_date": [
+          "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "818 Tequila",
+          "domain": null,
+          "role": "activation_host",
+          "tier": null,
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "818 TEQUILA: 818 Outpost y presented by The h.wood Group",
+          "status": "reported",
+          "notes": null
+        },
+        {
+          "name": "The h.wood Group",
+          "domain": null,
+          "role": "presenter",
+          "tier": null,
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "818 TEQUILA: 818 Outpost y presented by The h.wood Group",
+          "status": "reported",
+          "notes": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Asistentes reportados",
+          "value": 1500,
+          "qualifier": "more_than",
+          "unit": "attendees",
+          "denominator": null,
+          "status": "reported_by_press",
+          "source_url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "818 TEQUILA",
+          "method": "Método no divulgado; no asistencia auditada."
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "related_edition_key": "coachella-2025",
+      "relation": "coincident_side_activation",
+      "geography_notes": "No trasladar automáticamente la ubicación del festival a este pop-up.",
+      "gaps": [
+        "Ubicación concreta y metodología de conteo ausentes"
+      ]
+    },
+    {
+      "key": "paris-olympics-2024",
+      "title": "Juegos Olímpicos París 2024",
+      "series_name": "Summer Olympic Games",
+      "url": "https://www.insee.fr/fr/statistiques/8670343",
+      "start_date": "2024-07-26",
+      "end_date": "2024-08-11",
+      "date_precision": "day",
+      "city": "Paris",
+      "country": "France",
+      "venue_name": null,
+      "format": "multi_sport_games",
+      "sector": "sports_travel_electronics",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://www.insee.fr/fr/statistiques/8670343",
+        "https://news.panasonic.com/global/fr/press/en240910-2",
+        "https://www.investing.com/news/stock-market-news/japans-panasonic-ends-37year-contract-as-top-olympics-sponsor-3608683",
+        "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+        "https://news.airbnb.com/en-in/30-surge-in-bookings-from-indian-guests-for-paris-2024-olympics",
+        "https://www.lemonde.fr/en/economy/article/2024/05/27/paris-2024-hotels-and-airbnb-rental-prices-continue-to-fall-due-to-oversupply_6672794_19.html"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "start_date": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "end_date": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "city": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "country": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Panasonic",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "worldwide TOP partner",
+          "source_url": "https://news.panasonic.com/global/fr/press/en240910-2",
+          "locator": "Título y primer párrafo; declaración final de CEO",
+          "status": "self_reported",
+          "notes": null
+        },
+        {
+          "name": "Airbnb",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "worldwide Olympic and Paralympic partner",
+          "source_url": "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+          "locator": "Segundo párrafo: partenaire mondial",
+          "status": "self_reported",
+          "notes": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Reservas de noches Airbnb en región de París",
+          "value": 400,
+          "qualifier": "source_says_over_five_times",
+          "unit": "percent_change",
+          "as_of": "2024-03-31",
+          "status": "company_reported_forward_bookings",
+          "denominator": "Reservas observadas a la misma fecha un año antes según fuente",
+          "source_url": "https://news.airbnb.com/en-in/30-surge-in-bookings-from-indian-guests-for-paris-2024-olympics",
+          "locator": "Key Takeaways y notas **",
+          "method": "Reservas para fechas olímpicas; no estancias realizadas ni ROI.",
+          "geography_scope": "Paris region",
+          "causal_attribution": false
+        },
+        {
+          "name": "Pernoctaciones de no residentes en alquileres cortos Île-de-France",
+          "value": 20.9,
+          "unit": "percent_change",
+          "period_start": "2024-01-01",
+          "period_end": "2024-12-31",
+          "denominator": "Mismo agregado regional año 2023",
+          "status": "institutional_reported",
+          "source_url": "https://www.insee.fr/fr/statistiques/8670343",
+          "locator": "Primer apartado y Sources",
+          "method": "Varias plataformas; estadística experimental con posible doble conteo.",
+          "scope": "Regional anual; contexto, no resultado causal de Juegos ni Airbnb",
+          "causal_attribution": false
+        }
+      ],
+      "costs": [
+        {
+          "name": "Soporte comunitario Airbnb conjunto París 2024",
+          "amount": 27000000,
+          "currency": "EUR",
+          "category": "customer_support_operations",
+          "status": "announced",
+          "allocation": "joint_olympic_and_paralympic_program",
+          "scope_edition_keys": [
+            "paris-olympics-2024",
+            "paris-paralympics-2024"
+          ],
+          "not_sponsorship_fee": true,
+          "source_url": "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+          "locator": "Segundo párrafo",
+          "published_at": "2024-04-09"
+        }
+      ],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "geography_notes": "París es ciudad anfitriona; sedes distribuidas. Métricas turísticas aquí son regionales y no se relabelan ciudad.",
+      "gaps": [
+        "Fee y ROI por sponsor desconocidos",
+        "Datos posteriores de reservas convertidas a estancias por sponsor ausentes"
+      ]
+    },
+    {
+      "key": "paris-paralympics-2024",
+      "title": "Juegos Paralímpicos París 2024",
+      "series_name": "Summer Paralympic Games",
+      "url": "https://www.insee.fr/fr/statistiques/8670343",
+      "start_date": "2024-08-28",
+      "end_date": "2024-09-08",
+      "date_precision": "day",
+      "city": "Paris",
+      "country": "France",
+      "venue_name": null,
+      "format": "multi_sport_games",
+      "sector": "sports_travel_electronics",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://www.insee.fr/fr/statistiques/8670343",
+        "https://news.panasonic.com/global/fr/press/en240910-2",
+        "https://www.investing.com/news/stock-market-news/japans-panasonic-ends-37year-contract-as-top-olympics-sponsor-3608683",
+        "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+        "https://www.lemonde.fr/en/economy/article/2024/05/27/paris-2024-hotels-and-airbnb-rental-prices-continue-to-fall-due-to-oversupply_6672794_19.html"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "start_date": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "end_date": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "city": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ],
+        "country": [
+          "https://www.insee.fr/fr/statistiques/8670343"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Panasonic",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "worldwide partner",
+          "source_url": "https://news.panasonic.com/global/fr/press/en240910-2",
+          "locator": "Título y primer párrafo; declaración final de CEO",
+          "status": "self_reported",
+          "notes": null
+        },
+        {
+          "name": "Airbnb",
+          "domain": null,
+          "role": "sponsor",
+          "tier": "worldwide Olympic and Paralympic partner",
+          "source_url": "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+          "locator": "Segundo párrafo: partenaire mondial",
+          "status": "self_reported",
+          "notes": null
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "geography_notes": "Métricas/inversión conjunta JOP no se duplican entre ambas ediciones."
+    },
+    {
+      "key": "ces-2025",
+      "title": "CES 2025",
+      "series_name": "CES",
+      "url": "https://news.panasonic.com/global/presskits/ces2025",
+      "start_date": "2025-01-07",
+      "end_date": "2025-01-10",
+      "date_precision": "day",
+      "city": "Las Vegas",
+      "country": "United States",
+      "venue_name": "Las Vegas Convention Center (booth Panasonic)",
+      "format": "trade_show",
+      "sector": "consumer_electronics_hvac_energy",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://news.panasonic.com/global/presskits/ces2025",
+        "https://news.panasonic.com/global/stories/16909",
+        "https://news.panasonic.com/global/press/en250108-15"
+      ],
+      "field_sources": {
+        "title": [
+          "https://news.panasonic.com/global/presskits/ces2025"
+        ],
+        "start_date": [
+          "https://news.panasonic.com/global/presskits/ces2025"
+        ],
+        "end_date": [
+          "https://news.panasonic.com/global/presskits/ces2025"
+        ],
+        "city": [
+          "https://news.panasonic.com/global/presskits/ces2025"
+        ],
+        "country": [
+          "https://news.panasonic.com/global/presskits/ces2025"
+        ],
+        "venue_name": [
+          "https://news.panasonic.com/global/presskits/ces2025"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Panasonic",
+          "domain": null,
+          "role": "exhibitor",
+          "tier": null,
+          "source_url": "https://news.panasonic.com/global/stories/16909",
+          "locator": "Introducción: exhibiting / showcased",
+          "status": "self_reported",
+          "notes": null
+        },
+        {
+          "name": "Panasonic",
+          "domain": null,
+          "role": "keynote_company",
+          "tier": null,
+          "source_url": "https://news.panasonic.com/global/presskits/ces2025",
+          "locator": "Opening Keynote",
+          "status": "announced",
+          "notes": null
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "gaps": [
+        "No leads, contratos o ROI del stand",
+        "Anthropic es alianza anunciada, no sponsor inferido"
+      ],
+      "venue_notes": "El press kit identifica LVCC Central Hall #16605 para Panasonic, no todas las sedes del CES."
+    },
+    {
+      "key": "ces-2026",
+      "title": "CES 2026",
+      "series_name": "CES",
+      "url": "https://news.panasonic.com/global/stories/18277",
+      "start_date": "2026-01-06",
+      "end_date": "2026-01-09",
+      "date_precision": "day",
+      "city": "Las Vegas",
+      "country": null,
+      "venue_name": null,
+      "format": "trade_show",
+      "sector": "consumer_electronics_hvac_energy",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://news.panasonic.com/global/stories/18277"
+      ],
+      "field_sources": {
+        "title": [
+          "https://news.panasonic.com/global/stories/18277"
+        ],
+        "start_date": [
+          "https://news.panasonic.com/global/stories/18277"
+        ],
+        "end_date": [
+          "https://news.panasonic.com/global/stories/18277"
+        ],
+        "city": [
+          "https://news.panasonic.com/global/stories/18277"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Panasonic",
+          "domain": null,
+          "role": "exhibitor",
+          "tier": null,
+          "source_url": "https://news.panasonic.com/global/stories/18277",
+          "locator": "Introducción: exhibiting / showcased",
+          "status": "self_reported",
+          "notes": null
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "geography_notes": "País normalizado desde Las Vegas; ciudad explícita.",
+      "gaps": [
+        "Métricas comerciales del expositor ausentes"
+      ],
+      "derived": {
+        "country": {
+          "value": "United States",
+          "method": "researcher_normalization_from_place",
+          "is_observed": false
+        }
+      }
+    },
+    {
+      "key": "us-open-tennis-2024",
+      "title": "US Open Tennis 2024",
+      "series_name": "US Open Tennis",
+      "url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+      "start_date": "2024-08-26",
+      "end_date": "2024-09-08",
+      "date_precision": "day",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "sports_tournament",
+      "sector": "sports_consumer_beverages",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+        "https://www.prnewswire.com/news-releases/heineken-0-0-launches-limited-edition-l0vel0ve-cans-in-celebration-of-the-2024-us-open-302222411.html",
+        "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/"
+        ],
+        "start_date": [
+          "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/"
+        ],
+        "end_date": [
+          "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Heineken",
+          "domain": null,
+          "role": "sponsor",
+          "tier": null,
+          "source_url": "https://www.prnewswire.com/news-releases/heineken-0-0-launches-limited-edition-l0vel0ve-cans-in-celebration-of-the-2024-us-open-302222411.html",
+          "locator": "Declaración CMO / entrevista CEO sobre partnership",
+          "status": "self_reported",
+          "notes": null
+        },
+        {
+          "name": "ESPN",
+          "domain": null,
+          "role": "broadcaster",
+          "tier": null,
+          "source_url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+          "locator": "Introducción: cobertura exclusiva",
+          "status": "announced",
+          "notes": null
+        },
+        {
+          "name": "Heineken",
+          "domain": null,
+          "role": "broadcast_sponsor",
+          "tier": "Heineken Silver",
+          "source_url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+          "locator": "Tabla de programación",
+          "status": "announced",
+          "notes": null
+        },
+        {
+          "name": "IBM",
+          "domain": null,
+          "role": "broadcast_sponsor",
+          "tier": "primetime",
+          "source_url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+          "locator": "Tabla de programación",
+          "status": "announced",
+          "notes": null
+        },
+        {
+          "name": "Cadillac",
+          "domain": null,
+          "role": "broadcast_sponsor",
+          "tier": "finales",
+          "source_url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+          "locator": "Tabla de programación",
+          "status": "announced",
+          "notes": null
+        }
+      ],
+      "metrics": [
+        {
+          "name": "Ventas onsite Heineken sin alcohol",
+          "value": 25,
+          "unit": "percent_change",
+          "denominator": "Ventas onsite Heineken sin alcohol US Open 2023; base absoluta ausente",
+          "status": "company_reported_via_interview",
+          "source_url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+          "locator": "Segundo párrafo",
+          "period_year": 2024,
+          "published_at": "2025-08-19",
+          "method": "Declaración empresarial; moneda/volumen no especificados.",
+          "causal_attribution": false
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "date_scope": "main_draw",
+      "activation_period": [
+        "2024-08-19",
+        "2024-09-08"
+      ],
+      "geography_notes": "No utilizar White Plains (dateline de marca) como ciudad del torneo; ubicación pendiente en este lote."
+    },
+    {
+      "key": "us-open-tennis-2025",
+      "title": "US Open Tennis 2025",
+      "series_name": "US Open Tennis",
+      "url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+      "start_date": "2025-08-24",
+      "end_date": "2025-09-07",
+      "date_precision": "day",
+      "city": "New York",
+      "country": null,
+      "venue_name": null,
+      "format": "sports_tournament",
+      "sector": "sports_consumer_beverages",
+      "status": "historical_evidence",
+      "source_urls": [
+        "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+        "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+        "https://www.usopen.org/en_US/news/articles/2025-05-29/2025_us_open_theme_art_celebrates_althea_gibson_breaking_barriers.html"
+      ],
+      "field_sources": {
+        "title": [
+          "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/"
+        ],
+        "start_date": [
+          "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/"
+        ],
+        "end_date": [
+          "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/"
+        ],
+        "city": [
+          "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Heineken",
+          "domain": null,
+          "role": "sponsor",
+          "tier": null,
+          "source_url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+          "locator": "Declaración CMO / entrevista CEO sobre partnership",
+          "status": "self_reported",
+          "notes": null
+        },
+        {
+          "name": "ESPN",
+          "domain": null,
+          "role": "broadcaster",
+          "tier": null,
+          "source_url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+          "locator": "Introducción: cobertura exclusiva",
+          "status": "announced",
+          "notes": null
+        },
+        {
+          "name": "Heineken",
+          "domain": null,
+          "role": "broadcast_sponsor",
+          "tier": "Heineken 0.0",
+          "source_url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+          "locator": "Tabla de programación",
+          "status": "announced",
+          "notes": null
+        },
+        {
+          "name": "IBM",
+          "domain": null,
+          "role": "broadcast_sponsor",
+          "tier": "primetime",
+          "source_url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+          "locator": "Tabla de programación",
+          "status": "announced",
+          "notes": null
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "checked_at": "2026-09-28",
+      "date_scope": "main_draw",
+      "broader_event_period": [
+        "2025-08-18",
+        "2025-09-07"
+      ],
+      "broader_event_period_access": "indexed_only_organizer",
+      "geography_notes": "Ciudad contextualizada explícitamente en comunicado ESPN; país normalizado.",
+      "gaps": [
+        "Resultado 2025 de la campaña no encontrado",
+        "Conflicto de fecha final con Modern Retail registrado"
+      ],
+      "derived": {
+        "country": {
+          "value": "United States",
+          "method": "researcher_normalization_from_place",
+          "is_observed": false
+        }
+      }
+    }
+  ],
+  "news_articles": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/method-man--redman-to-headline-star-studded-heineken-house-lineup-at-the-coachella-valley-music-and-arts-festival-301780035.html",
+      "title": "Method Man & Redman to Headline Star-Studded Heineken House Lineup at the Coachella Valley Music and Arts Festival",
+      "publisher": "Heineken USA vía PR Newswire",
+      "published_at": "2023-03-23",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "coachella-2023"
+      ],
+      "companies": [
+        "Heineken"
+      ],
+      "summary_own": "La marca anuncia escenario propio y prueba de un nuevo producto.",
+      "claims": [
+        {
+          "field": "activation",
+          "value": "Heineken House y primera degustación Heineken Silver",
+          "locator": "Cuerpo inicial y párrafos de Silver",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "event_periods",
+          "value": [
+            [
+              "2023-04-14",
+              "2023-04-16"
+            ],
+            [
+              "2023-04-21",
+              "2023-04-23"
+            ]
+          ],
+          "locator": "Weekend One / Weekend Two",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "heineken-coachella-2023",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html",
+      "title": "CARRERA Signs on as Official Eyewear Partner of the 2023 Coachella Valley Music & Arts Festival",
+      "publisher": "CARRERA / Safilo vía PR Newswire",
+      "published_at": "2023-03-09",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "coachella-2023"
+      ],
+      "companies": [
+        "CARRERA",
+        "Safilo Group"
+      ],
+      "summary_own": "La nueva asociación conecta exclusividad de categoría con lanzamiento de colección.",
+      "claims": [
+        {
+          "field": "brand_parent",
+          "value": {
+            "brand": "CARRERA",
+            "parent": "Safilo Group"
+          },
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "role",
+          "value": "official_eyewear_partner; exclusividad de categoría",
+          "locator": "Primer párrafo y activación",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "location",
+          "value": "Indio, California",
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "launch",
+          "value": "CARRERA Woman, preview y lanzamiento exclusivo norteamericano previsto abril 2023",
+          "locator": "Párrafo partner tent",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "carrera-coachella-2023",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/absolut-kicks-off-festival-season-with-mixing-it-up-cosmos--culture--an-exclusive-series-on-the-latest-trends-from-the-official-vodka-of-coachella-302098638.html",
+      "title": "Absolut Kicks off Festival Season with \"Mixing It Up: Cosmos & Culture\"",
+      "publisher": "Absolut vía PR Newswire",
+      "published_at": "2024-03-26",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "coachella-2024"
+      ],
+      "companies": [
+        "Absolut",
+        "Pernod Ricard"
+      ],
+      "summary_own": "Activación digital y presencia como vodka oficial, sin resultados cuantificados.",
+      "claims": [
+        {
+          "field": "role",
+          "value": "official_vodka_partner",
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "activation",
+          "value": "Absolut.LAND y serie digital con Matt Rogers",
+          "locator": "Párrafos de activación",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "absolut-coachella-2024",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.marketingdive.com/news/absolut-land-vodka-coachella-digital-metaverse-activations/711616/",
+      "title": "Absolut returns to Coachella with metaverse activation, content series",
+      "publisher": "Marketing Dive",
+      "published_at": "2024-03-28",
+      "read_at": "2026-09-28",
+      "article_type": "editorial_based_on_press_release",
+      "independence": "editorial_but_claim_origin_same_press_release",
+      "edition_keys": [
+        "coachella-2024"
+      ],
+      "companies": [
+        "Absolut"
+      ],
+      "summary_own": "Tratamiento editorial de un anuncio de la marca.",
+      "claims": [
+        {
+          "field": "derivation",
+          "value": "Cita información suministrada y comunicado enlazado",
+          "locator": "Dive Brief y enlace de press release",
+          "evidence_class": "observed"
+        }
+      ],
+      "dedup_cluster": "absolut-coachella-2024",
+      "access_status": "read",
+      "derived_from": [
+        "https://www.prnewswire.com/news-releases/absolut-kicks-off-festival-season-with-mixing-it-up-cosmos--culture--an-exclusive-series-on-the-latest-trends-from-the-official-vodka-of-coachella-302098638.html"
+      ]
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/pusha-t--afrojack-to-headline-heineken-house-2025-lineup-at-the-coachella-valley-music-and-arts-festival-302391994.html",
+      "title": "Pusha T & Afrojack to Headline Heineken House 2025 Lineup at the Coachella Valley Music and Arts Festival",
+      "publisher": "Heineken USA vía PR Newswire",
+      "published_at": "2025-03-04",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "coachella-2025"
+      ],
+      "companies": [
+        "Heineken"
+      ],
+      "summary_own": "Anuncio de la activación musical 2025.",
+      "claims": [
+        {
+          "field": "activation",
+          "value": "Heineken House; productos Original, Silver y 0.0",
+          "locator": "Cuerpo y cartera de productos",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "event_periods",
+          "value": [
+            [
+              "2025-04-11",
+              "2025-04-13"
+            ],
+            [
+              "2025-04-18",
+              "2025-04-20"
+            ]
+          ],
+          "locator": "Heineken House Line-Up",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "heineken-coachella-2025-program",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.theheinekencompany.com/newsroom/moderation-is-the-hottest-headliner-for-this-summers-festivals/",
+      "title": "Moderation is the Hottest Headliner for this Summer’s Festivals",
+      "publisher": "HEINEKEN",
+      "published_at": "2025-06-30",
+      "read_at": "2026-09-28",
+      "article_type": "company_report",
+      "independence": "company_origin_indexed_only",
+      "edition_keys": [
+        "coachella-2025"
+      ],
+      "companies": [
+        "Heineken"
+      ],
+      "summary_own": "La empresa publica crecimiento relativo de ventas; base absoluta ausente.",
+      "claims": [
+        {
+          "field": "sales_change_percent",
+          "value": 125.5,
+          "locator": "Key takeaways y párrafo Coachella",
+          "evidence_class": "reported_indexed"
+        }
+      ],
+      "dedup_cluster": "heineken-coachella-2025-sales",
+      "access_status": "indexed_only"
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+      "title": "Inside Heineken’s limited-edition NA beer campaign at the US Open",
+      "publisher": "Modern Retail",
+      "published_at": "2025-08-19",
+      "read_at": "2026-09-28",
+      "article_type": "original_interview",
+      "independence": "original_interview_metrics_self_reported",
+      "edition_keys": [
+        "coachella-2025",
+        "us-open-tennis-2024",
+        "us-open-tennis-2025"
+      ],
+      "companies": [
+        "Heineken"
+      ],
+      "summary_own": "Entrevista sobre inventario, ventas y expansión del canal de la activación.",
+      "claims": [
+        {
+          "field": "sales_change_percent_us_open_2024",
+          "value": 25,
+          "locator": "Segundo párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "sold_out",
+          "value": "L0VE.L0VE agotado en primera semana US Open 2024",
+          "locator": "Declaración de Timoney sobre inventario",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "distribution_expansion",
+          "value": "L0VE.L0VE se amplía al retail nacional EE.UU. en 2025",
+          "locator": "Primeros párrafos y entrevista",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "sales_change_percent_coachella_2025",
+          "value": 125.5,
+          "locator": "Declaración de Timoney sobre Coachella",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "modernretail-heineken-2025-08-19",
+      "access_status": "read",
+      "claim_origin_clusters": {
+        "sales_change_percent_coachella_2025": "heineken-coachella-2025-sales"
+      }
+    },
+    {
+      "url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+      "title": "Coachella 2025 Experiential: Pit Stops, Perfume Pods, Glimmers and High Tea",
+      "publisher": "Event Marketer",
+      "published_at": "2025-04-24",
+      "read_at": "2026-09-28",
+      "article_type": "editorial_recap",
+      "independence": "original_editorial_recap_metric_method_undisclosed",
+      "edition_keys": [
+        "coachella-2025",
+        "818-outpost-2025"
+      ],
+      "companies": [
+        "Absolut",
+        "American Express",
+        "Electrolit",
+        "Method",
+        "Jisulife",
+        "818 Tequila",
+        "The h.wood Group"
+      ],
+      "summary_own": "Recap de activaciones con roles y métricas operativas atribuidas al medio.",
+      "claims": [
+        {
+          "field": "official_partners",
+          "value": [
+            "Absolut: vodka",
+            "Electrolit: hidratación",
+            "Method: cuidado personal"
+          ],
+          "locator": "Secciones ABSOLUT, ELECTROLIT y METHOD",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "activation",
+          "value": "American Express: Amex Experience",
+          "locator": "AMERICAN EXPRESS",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "side_event",
+          "value": {
+            "name": "818 Outpost",
+            "date": "2025-04-11",
+            "presenter": "The h.wood Group",
+            "brand": "818 Tequila",
+            "attendance_lower_bound": 1500
+          },
+          "locator": "818 TEQUILA",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "giveaways",
+          "value": {
+            "brand": "Jisulife",
+            "approximate_units": 1000
+          },
+          "locator": "JISULIFE",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "eventmarketer-coachella-2025",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.chiefmarketer.com/coachella-marketing-roundup-21-brand-experiences/",
+      "title": "Coachella Marketing Roundup: 21 Brand Experiences",
+      "publisher": "Chief Marketer",
+      "published_at": "2025-05-04",
+      "read_at": "2026-09-28",
+      "article_type": "partial_republication",
+      "independence": "same_article_republication",
+      "edition_keys": [
+        "coachella-2025",
+        "818-outpost-2025"
+      ],
+      "companies": [
+        "Absolut",
+        "American Express",
+        "818 Tequila"
+      ],
+      "summary_own": "Reproducción parcial de otra publicación de la misma red.",
+      "claims": [
+        {
+          "field": "republication_of",
+          "value": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+          "locator": "Editor’s Note y enlace al final",
+          "evidence_class": "observed"
+        }
+      ],
+      "dedup_cluster": "eventmarketer-coachella-2025",
+      "access_status": "read",
+      "derived_from": [
+        "https://www.eventmarketer.com/article/coachella-2025-experiential/"
+      ]
+    },
+    {
+      "url": "https://news.panasonic.com/global/fr/press/en240910-2",
+      "title": "Panasonic Official Worldwide Olympic and Paralympic Partnership to End Following Paris 2024",
+      "publisher": "Panasonic Holdings",
+      "published_at": "2024-09-10",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "paris-olympics-2024",
+        "paris-paralympics-2024"
+      ],
+      "companies": [
+        "Panasonic"
+      ],
+      "summary_own": "No renovación contractual al terminar 2024; no se informa ROI.",
+      "claims": [
+        {
+          "field": "partnership_nonrenewal",
+          "value": {
+            "effective_month": "2024-12",
+            "party": "IOC",
+            "sponsor": "Panasonic"
+          },
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "paris_support",
+          "value": "Tecnología, productos, personal y operaciones en París 2024",
+          "locator": "Declaración CEO",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "panasonic-top-end-2024",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.investing.com/news/stock-market-news/japans-panasonic-ends-37year-contract-as-top-olympics-sponsor-3608683",
+      "title": "Japan’s Panasonic ends 37-year contract as top Olympics sponsor",
+      "publisher": "Reuters, republicado por Investing.com",
+      "published_at": "2024-09-10",
+      "read_at": "2026-09-28",
+      "article_type": "syndicated_reporting",
+      "independence": "wire_reporting_based_on_company_statement",
+      "edition_keys": [
+        "paris-olympics-2024",
+        "paris-paralympics-2024"
+      ],
+      "companies": [
+        "Panasonic"
+      ],
+      "summary_own": "Reuters informa la decisión citando a la empresa.",
+      "claims": [
+        {
+          "field": "report_origin",
+          "value": "Panasonic statement",
+          "locator": "Cuerpo: párrafos said in a statement / quoted in same statement",
+          "evidence_class": "observed"
+        }
+      ],
+      "dedup_cluster": "panasonic-top-end-2024",
+      "access_status": "read",
+      "derived_from": [
+        "https://news.panasonic.com/global/fr/press/en240910-2"
+      ],
+      "wire_origin": "Reuters"
+    },
+    {
+      "url": "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+      "title": "Paris 2024: 27 millions d’euros investis dans le soutien à la communauté",
+      "publisher": "Airbnb",
+      "published_at": "2024-04-09",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "paris-olympics-2024",
+        "paris-paralympics-2024"
+      ],
+      "companies": [
+        "Airbnb"
+      ],
+      "summary_own": "Inversión anunciada en soporte; no precio del patrocinio.",
+      "claims": [
+        {
+          "field": "investment",
+          "value": {
+            "amount": 27000000,
+            "currency": "EUR",
+            "category": "customer_support_operations",
+            "status": "announced"
+          },
+          "locator": "Segundo párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "role",
+          "value": "worldwide_olympic_and_paralympic_partner",
+          "locator": "Segundo párrafo",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "airbnb-paris-support-2024",
+      "access_status": "read"
+    },
+    {
+      "url": "https://news.airbnb.com/en-in/30-surge-in-bookings-from-indian-guests-for-paris-2024-olympics",
+      "title": "30% surge in bookings from Indian guests for Paris 2024 Olympics",
+      "publisher": "Airbnb",
+      "published_at": "2024-07-22",
+      "read_at": "2026-09-28",
+      "article_type": "company_report",
+      "independence": "company_origin",
+      "edition_keys": [
+        "paris-olympics-2024"
+      ],
+      "companies": [
+        "Airbnb"
+      ],
+      "summary_own": "Reservas previas, con fecha de corte distinta de publicación.",
+      "claims": [
+        {
+          "field": "nights_booked_change",
+          "value": {
+            "percentage": 400,
+            "qualifier": "más de cinco veces según redacción",
+            "as_of": "2024-03-31",
+            "region": "Paris region",
+            "stay_period": "Fechas Juegos Olímpicos 2024",
+            "comparison": "Misma fecha de observación un año antes"
+          },
+          "locator": "Key Takeaways y notas **",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "airbnb-paris-q1-bookings-2024",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.lemonde.fr/en/economy/article/2024/05/27/paris-2024-hotels-and-airbnb-rental-prices-continue-to-fall-due-to-oversupply_6672794_19.html",
+      "title": "Paris 2024: Hotels and Airbnb rental prices continue to fall due to oversupply",
+      "publisher": "Le Monde",
+      "published_at": "2024-05-27",
+      "read_at": "2026-09-28",
+      "article_type": "original_reporting_translation",
+      "independence": "original_reporting_translated_not_new_independent_source",
+      "edition_keys": [
+        "paris-olympics-2024",
+        "paris-paralympics-2024"
+      ],
+      "companies": [
+        "Airbnb",
+        "WeHost",
+        "Checkmyguest"
+      ],
+      "summary_own": "Reporteo con operadores aporta cautela sobre expectativas de alquiler.",
+      "claims": [
+        {
+          "field": "pre_event_market_observation",
+          "value": "Operadores entrevistados reportan oferta abundante y reducción de precios desde expectativas iniciales",
+          "locator": "Entrevistas WeHost / Checkmyguest",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "lemonde-paris-rentals-2024-05-27",
+      "access_status": "read",
+      "original_language": "fr"
+    },
+    {
+      "url": "https://www.insee.fr/fr/statistiques/8670343",
+      "title": "Les Jeux de Paris 2024 renforcent l’attractivité touristique de Paris et de l’Île-de-France",
+      "publisher": "Insee / Choose Paris Region / DGE",
+      "published_at": "2025-11-25",
+      "read_at": "2026-09-28",
+      "article_type": "institutional_analysis",
+      "independence": "independent_institutional_measurement_mixed_inputs",
+      "edition_keys": [
+        "paris-olympics-2024",
+        "paris-paralympics-2024"
+      ],
+      "companies": [],
+      "summary_own": "Análisis institucional posterior; distingue alojamientos y poblaciones.",
+      "claims": [
+        {
+          "field": "jop_dates",
+          "value": {
+            "olympics": [
+              "2024-07-26",
+              "2024-08-11"
+            ],
+            "paralympics": [
+              "2024-08-28",
+              "2024-09-08"
+            ]
+          },
+          "locator": "Primer párrafo",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "short_stay_nights_change_percent_2024",
+          "value": 20.9,
+          "locator": "Primer apartado, comparación anual",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "method",
+          "value": "EFHCT y Eurostat; ATR para encuesta de motivación. Datos de cuatro plataformas con riesgo de doble conteo.",
+          "locator": "Sources",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "insee-jop-tourism-2025",
+      "access_status": "read"
+    },
+    {
+      "url": "https://news.panasonic.com/global/stories/16909",
+      "title": "Well into the Future: A Recap of Panasonic at CES 2025",
+      "publisher": "Panasonic",
+      "published_at": "2025-02-28",
+      "read_at": "2026-09-28",
+      "article_type": "company_recap",
+      "independence": "company_origin",
+      "edition_keys": [
+        "ces-2025"
+      ],
+      "companies": [
+        "Panasonic",
+        "Anthropic"
+      ],
+      "summary_own": "El recap vincula exposición con productos y alianzas anunciados.",
+      "claims": [
+        {
+          "field": "role",
+          "value": "exhibitor; keynote de CEO",
+          "locator": "Primeros párrafos",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "launches",
+          "value": [
+            "OASYS",
+            "Umi"
+          ],
+          "locator": "Highlights from the Opening Keynote",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "alliance",
+          "value": "Anthropic",
+          "locator": "Highlights; no se afirma que Anthropic sea sponsor de CES",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "panasonic-ces-2025-recap",
+      "access_status": "read"
+    },
+    {
+      "url": "https://news.panasonic.com/global/stories/18277",
+      "title": "Panasonic’s AI Strategy Enters the Implementation Phase: Real-World Impact for Better Future Showcased at CES 2026",
+      "publisher": "Panasonic",
+      "published_at": "2026-01-08",
+      "read_at": "2026-09-28",
+      "article_type": "company_recap",
+      "independence": "company_origin",
+      "edition_keys": [
+        "ces-2026"
+      ],
+      "companies": [
+        "Panasonic"
+      ],
+      "summary_own": "La edición siguiente muestra hardware y soluciones empresariales.",
+      "claims": [
+        {
+          "field": "event",
+          "value": {
+            "dates": [
+              "2026-01-06",
+              "2026-01-09"
+            ],
+            "city": "Las Vegas"
+          },
+          "locator": "Introducción",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "exhibition",
+          "value": "Infraestructura AI, B2B y transición ambiental",
+          "locator": "Introducción",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "panasonic-ces-2026",
+      "access_status": "read"
+    },
+    {
+      "url": "https://news.panasonic.com/global/press/en250108-15",
+      "title": "Panasonic launches a business for the OASYS Residential Central Air Conditioning System in the US market",
+      "publisher": "Panasonic",
+      "published_at": "2025-01-08",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "ces-2025"
+      ],
+      "companies": [
+        "Panasonic"
+      ],
+      "summary_own": "Lanzamiento estadounidense de climatización, asociado al press kit CES.",
+      "claims": [
+        {
+          "field": "launch",
+          "value": {
+            "product": "OASYS",
+            "market": "United States",
+            "date": "2025-01-07"
+          },
+          "locator": "Dateline y primer párrafo",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "panasonic-oasys-us-2025",
+      "access_status": "read"
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/heineken-0-0-launches-limited-edition-l0vel0ve-cans-in-celebration-of-the-2024-us-open-302222411.html",
+      "title": "Heineken 0.0 Launches Limited Edition \"L0VE.L0VE\" Cans in Celebration of the 2024 US Open",
+      "publisher": "Heineken USA vía PR Newswire",
+      "published_at": "2024-08-14",
+      "read_at": "2026-09-28",
+      "article_type": "company_press_release",
+      "independence": "company_origin",
+      "edition_keys": [
+        "us-open-tennis-2024"
+      ],
+      "companies": [
+        "Heineken"
+      ],
+      "summary_own": "Envase de edición limitada con distribución exclusiva en el torneo.",
+      "claims": [
+        {
+          "field": "activation",
+          "value": {
+            "product": "L0VE.L0VE Heineken 0.0",
+            "exclusive_channel": "US Open",
+            "dates": [
+              "2024-08-19",
+              "2024-09-08"
+            ]
+          },
+          "locator": "Primeros párrafos",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "role",
+          "value": "US Open partner",
+          "locator": "Declaración de CMO",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "heineken-usopen-2024-cans",
+      "access_status": "read"
+    },
+    {
+      "url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+      "title": "ESPN’s Exclusive First Ball to Last Ball Coverage of the 2024 US Open August 26–September 8",
+      "publisher": "ESPN",
+      "published_at": "2024-08-20",
+      "read_at": "2026-09-28",
+      "article_type": "broadcaster_press_release",
+      "independence": "rights_holder_own_program",
+      "edition_keys": [
+        "us-open-tennis-2024"
+      ],
+      "companies": [
+        "ESPN",
+        "Heineken",
+        "IBM",
+        "Cadillac"
+      ],
+      "summary_own": "Parrilla publicada por el broadcaster distingue sponsors de cobertura.",
+      "claims": [
+        {
+          "field": "main_draw_dates",
+          "value": [
+            "2024-08-26",
+            "2024-09-08"
+          ],
+          "locator": "Título y calendario",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "media_sponsors",
+          "value": [
+            "Heineken Silver: cobertura diurna",
+            "IBM: primetime",
+            "Cadillac: finales"
+          ],
+          "locator": "Tabla de cobertura",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "espn-usopen-2024",
+      "access_status": "read"
+    },
+    {
+      "url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+      "title": "All of the 2025 US Open. All in One Place.",
+      "publisher": "ESPN",
+      "published_at": "2025-08-20",
+      "read_at": "2026-09-28",
+      "article_type": "broadcaster_press_release",
+      "independence": "rights_holder_own_program",
+      "edition_keys": [
+        "us-open-tennis-2025"
+      ],
+      "companies": [
+        "ESPN",
+        "Heineken",
+        "IBM"
+      ],
+      "summary_own": "La cobertura cambia de Heineken Silver a Heineken 0.0.",
+      "claims": [
+        {
+          "field": "main_draw_dates",
+          "value": [
+            "2025-08-24",
+            "2025-09-07"
+          ],
+          "locator": "Introducción y calendario",
+          "evidence_class": "reported"
+        },
+        {
+          "field": "media_sponsors",
+          "value": [
+            "Heineken 0.0: cobertura diurna",
+            "IBM: primetime"
+          ],
+          "locator": "Tabla de cobertura",
+          "evidence_class": "reported"
+        }
+      ],
+      "dedup_cluster": "espn-usopen-2025",
+      "access_status": "read"
+    }
+  ],
+  "company_signals": [
+    {
+      "id": "heineken-silver-us-2023",
+      "company": "Heineken",
+      "signal_type": "product_launch",
+      "edition_key": "coachella-2023",
+      "announced_at": "2023-03-23",
+      "event_date": null,
+      "event_date_precision": null,
+      "checked_at": "2026-09-28",
+      "description_own": "Heineken Silver entra en retail EE.UU.; degustación anunciada en el festival.",
+      "status": "announced",
+      "source_url": "https://www.prnewswire.com/news-releases/method-man--redman-to-headline-star-studded-heineken-house-lineup-at-the-coachella-valley-music-and-arts-festival-301780035.html",
+      "locator": "Párrafo Silver",
+      "confidence_basis": "Afirmación explícita atribuida; no probabilidad calculada ni prueba causal de ventas."
+    },
+    {
+      "id": "carrera-woman-na-2023",
+      "company": "CARRERA / Safilo",
+      "signal_type": "product_launch",
+      "edition_key": "coachella-2023",
+      "announced_at": "2023-03-09",
+      "event_date": "2023-04",
+      "event_date_precision": "month",
+      "checked_at": "2026-09-28",
+      "description_own": "Preview CARRERA Woman y lanzamiento norteamericano anunciado.",
+      "status": "announced",
+      "source_url": "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html",
+      "locator": "Partner tent",
+      "confidence_basis": "Afirmación explícita atribuida; no probabilidad calculada ni prueba causal de ventas."
+    },
+    {
+      "id": "panasonic-oasys-us-2025",
+      "company": "Panasonic",
+      "signal_type": "market_product_launch",
+      "edition_key": "ces-2025",
+      "announced_at": "2025-01-08",
+      "event_date": "2025-01-07",
+      "event_date_precision": "day",
+      "checked_at": "2026-09-28",
+      "description_own": "OASYS inicia oferta estadounidense.",
+      "status": "announced",
+      "source_url": "https://news.panasonic.com/global/press/en250108-15",
+      "locator": "Primer párrafo",
+      "confidence_basis": "Afirmación explícita atribuida; no probabilidad calculada ni prueba causal de ventas."
+    },
+    {
+      "id": "panasonic-anthropic-2025",
+      "company": "Panasonic",
+      "signal_type": "business_alliance",
+      "edition_key": "ces-2025",
+      "announced_at": "2025-02-28",
+      "event_date": null,
+      "event_date_precision": null,
+      "checked_at": "2026-09-28",
+      "description_own": "Recap confirma anuncio de alianza con Anthropic durante CES.",
+      "status": "reported",
+      "source_url": "https://news.panasonic.com/global/stories/16909",
+      "locator": "Highlights",
+      "confidence_basis": "Afirmación explícita atribuida; no probabilidad calculada ni prueba causal de ventas."
+    },
+    {
+      "id": "heineken-love-retail-us-2025",
+      "company": "Heineken",
+      "signal_type": "distribution_expansion",
+      "edition_key": "us-open-tennis-2025",
+      "announced_at": "2025-08-19",
+      "event_date": null,
+      "event_date_precision": null,
+      "checked_at": "2026-09-28",
+      "description_own": "Envase pasa de exclusividad onsite a retail nacional.",
+      "status": "reported",
+      "source_url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+      "locator": "Primeros párrafos",
+      "confidence_basis": "Afirmación explícita atribuida; no probabilidad calculada ni prueba causal de ventas."
+    },
+    {
+      "id": "panasonic-top-end-2024",
+      "company": "Panasonic",
+      "signal_type": "partnership_nonrenewal",
+      "edition_key": "paris-olympics-2024",
+      "announced_at": "2024-09-10",
+      "event_date": "2024-12",
+      "event_date_precision": "month",
+      "checked_at": "2026-09-28",
+      "description_own": "No se renueva contrato TOP al vencimiento.",
+      "status": "announced",
+      "source_url": "https://news.panasonic.com/global/fr/press/en240910-2",
+      "locator": "Primer párrafo",
+      "confidence_basis": "Afirmación explícita atribuida; no probabilidad calculada ni prueba causal de ventas."
+    }
+  ],
+  "attempts": [
+    {
+      "id": "news-source-01",
+      "url": "https://www.prnewswire.com/news-releases/method-man--redman-to-headline-star-studded-heineken-house-lineup-at-the-coachella-valley-music-and-arts-festival-301780035.html",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-02",
+      "url": "https://www.prnewswire.com/news-releases/carrera-signs-on-as-official-eyewear-partner-of-the-2023-coachella-valley-music--arts-festival-301768132.html",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-03",
+      "url": "https://www.prnewswire.com/news-releases/absolut-kicks-off-festival-season-with-mixing-it-up-cosmos--culture--an-exclusive-series-on-the-latest-trends-from-the-official-vodka-of-coachella-302098638.html",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-04",
+      "url": "https://www.marketingdive.com/news/absolut-land-vodka-coachella-digital-metaverse-activations/711616/",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-05",
+      "url": "https://www.prnewswire.com/news-releases/pusha-t--afrojack-to-headline-heineken-house-2025-lineup-at-the-coachella-valley-music-and-arts-festival-302391994.html",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-06",
+      "url": "https://www.theheinekencompany.com/newsroom/moderation-is-the-hottest-headliner-for-this-summers-festivals/",
+      "checked_at": "2026-09-28",
+      "method": "web_search_index",
+      "status": "indexed_only",
+      "notes": "Texto pertinente visible en índice oficial; dos aperturas directas fallaron, la última 403. No consta lectura directa de la página."
+    },
+    {
+      "id": "news-source-07",
+      "url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Gabriela Barkho entrevista a Maggie Timoney. Independencia editorial del medio, métricas aportadas por la empresa."
+    },
+    {
+      "id": "news-source-08",
+      "url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Kait Shea; artículo original identificado por publicación y enlace desde republicación. Método de verificación de cifras de marcas no publicado."
+    },
+    {
+      "id": "news-source-09",
+      "url": "https://www.chiefmarketer.com/coachella-marketing-roundup-21-brand-experiences/",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "La nota editorial atribuye el contenido a Event Marketer y enlaza el original. No aporta otra confirmación independiente."
+    },
+    {
+      "id": "news-source-10",
+      "url": "https://news.panasonic.com/global/fr/press/en240910-2",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Ruta /fr/, contenido leído en inglés."
+    },
+    {
+      "id": "news-source-11",
+      "url": "https://www.investing.com/news/stock-market-news/japans-panasonic-ends-37year-contract-as-top-olympics-sponsor-3608683",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Cita la misma declaración de Panasonic; no es medición independiente de ROI."
+    },
+    {
+      "id": "news-source-12",
+      "url": "https://news.airbnb.com/fr/paris-2024-27-millions-deuros-investis-dans-le-soutien-a-la-communaute",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-13",
+      "url": "https://news.airbnb.com/en-in/30-surge-in-bookings-from-indian-guests-for-paris-2024-olympics",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Corte de los datos Q1 2024, no julio. URL con slash redirige a versión sin slash."
+    },
+    {
+      "id": "news-source-14",
+      "url": "https://www.lemonde.fr/en/economy/article/2024/05/27/paris-2024-hotels-and-airbnb-rental-prices-continue-to-fall-due-to-oversupply_6672794_19.html",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Marjorie Cessac; traducción del original francés del mismo día. Página marcada Subscribers only; herramienta de lectura devolvió el texto. No se eludió control ni se guardó texto completo."
+    },
+    {
+      "id": "news-source-15",
+      "url": "https://www.insee.fr/fr/statistiques/8670343",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-16",
+      "url": "https://news.panasonic.com/global/presskits/ces2025",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-17",
+      "url": "https://news.panasonic.com/global/stories/16909",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-18",
+      "url": "https://news.panasonic.com/global/stories/18277",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Actualización 2026-01-15 añade vídeo; no equivale a fecha de inicio del evento."
+    },
+    {
+      "id": "news-source-19",
+      "url": "https://news.panasonic.com/global/press/en250108-15",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Cabecera publicada 8/1; dateline y lanzamiento comercial 7/1/2025."
+    },
+    {
+      "id": "news-source-20",
+      "url": "https://www.prnewswire.com/news-releases/heineken-0-0-launches-limited-edition-l0vel0ve-cans-in-celebration-of-the-2024-us-open-302222411.html",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-21",
+      "url": "https://espnpressroom.com/press-release/espns-exclusive-first-ball-to-last-ball-coverage-of-the-2024-us-open-august-26-september-8/",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-22",
+      "url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-23",
+      "url": "https://www.usopen.org/en_US/news/articles/2025-05-29/2025_us_open_theme_art_celebrates_althea_gibson_breaking_barriers.html",
+      "checked_at": "2026-09-28",
+      "method": "web_search_index",
+      "status": "indexed_only",
+      "notes": "Texto indexado oficial legible; open devuelve cero líneas, no lectura directa."
+    },
+    {
+      "id": "news-source-24",
+      "url": "https://www.indiopd.org/Home/Components/News/News/207/66?arch=1",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-25",
+      "url": "https://www.bmi.com/event/coachella-music-festival-indio-ca",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lectura dirigida de sección pertinente; sin autenticación ni extracción masiva."
+    },
+    {
+      "id": "news-source-26",
+      "url": "https://coachella.com/past-festivals",
+      "checked_at": "2026-09-28",
+      "method": "web_read",
+      "status": "read",
+      "notes": "Lista años 2022–2026; fechas 2026 en cabecera NO se trasladan a años históricos. No extraídos carteles/imagenes."
+    },
+    {
+      "id": "news-source-27",
+      "url": "https://apnews.com/article/3d47737847d3d211165697e57233146b",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "unavailable",
+      "notes": "Índice ofrece artículo 2/10/2024; apertura directa falló. No se añadieron nuevos claims."
+    },
+    {
+      "id": "news-source-28",
+      "url": "https://press.paris2024.org/news/board-of-directors-paris-2024-final-budget-in-surplus-by-at-least-26-8-million-euros-116f4-7578a.html",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "redirect_unrelated",
+      "notes": "Redirige a https://landing.wiztrust.com/en/success/paris2024; cifra del snippet no importada."
+    },
+    {
+      "id": "news-source-29",
+      "url": "https://www.theheinekencompany.com/sites/heineken-corp/files/heineken-corp/sustainability-and-responsibility/our-progress/heineken-n-v-annual-report-2023-final-22feb24-2.pdf",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "fetch_error",
+      "notes": "No se pudo leer el PDF; no se usa como corroboración."
+    },
+    {
+      "id": "news-source-30",
+      "url": "https://www.indiopd.org/home/showpublisheddocument/4798/638503352848230000",
+      "checked_at": "2026-09-28",
+      "method": "web_open",
+      "status": "fetch_error",
+      "notes": "PDF no legible; se leyó después noticia municipal HTML de marzo 2024."
+    }
+  ],
+  "queue": [
+    {
+      "url": "https://www.theheinekencompany.com/newsroom/moderation-is-the-hottest-headliner-for-this-summers-festivals/",
+      "task": "Conseguir copia primaria accesible o permiso; no reintentar en bucle ni eludir 403.",
+      "status": "blocked_direct_read",
+      "reason": "Métrica ya atribuida mediante entrevista accesible; verificación directa corporativa pendiente."
+    },
+    {
+      "url": "https://press.paris2024.org/news/board-of-directors-paris-2024-final-budget-in-surplus-by-at-least-26-8-million-euros-116f4-7578a.html",
+      "task": "Buscar preservación autorizada o fuente IOC equivalente.",
+      "status": "pending",
+      "reason": "URL original histórica dejó de servir el comunicado."
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/heineken-0-0-launches-limited-edition-l0vel0ve-cans-in-celebration-of-the-2024-us-open-302222411.html",
+      "task": "Completar ubicación primaria del US Open 2024 sin usar dateline de empresa.",
+      "status": "pending",
+      "reason": "No bloquea extracción del rol y activación; sí mapa de esta edición."
+    },
+    {
+      "url": "https://coachella.com/past-festivals",
+      "task": "Extender Coachella 2022 y 2026 con roles históricos específicos, no partners del sitio actual.",
+      "status": "pending",
+      "reason": "No arrastrar patrocinadores actuales hacia ediciones anteriores."
+    },
+    {
+      "url": "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+      "task": "Solicitar método/denominador de asistencia y entregas si el dato fuera decisivo.",
+      "status": "pending_no_contact_authorized",
+      "reason": "Reportes de operación sin prueba de incremento comercial."
+    },
+    {
+      "url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+      "task": "Conseguir absolutos, inversión y ventanas comparables para probar ROI.",
+      "status": "pending_no_contact_authorized",
+      "reason": "Crecimiento de ventas publicado no resuelve causalidad ni margen."
+    }
+  ],
+  "contradictions": [
+    {
+      "id": "usopen-2025-end",
+      "kind": "conflicting_dates",
+      "edition_key": "us-open-tennis-2025",
+      "claims": [
+        {
+          "value": "2025-09-08",
+          "source_url": "https://www.modernretail.co/marketing/inside-heinekens-limited-edition-na-beer-campaign-at-the-us-open/",
+          "locator": "Párrafo 2"
+        },
+        {
+          "value": "2025-09-07",
+          "source_url": "https://espnpressroom.com/press-release/all-of-the-2025-us-open-all-in-one-place/",
+          "locator": "Final masculina"
+        },
+        {
+          "value": "2025-09-07",
+          "source_url": "https://www.usopen.org/en_US/news/articles/2025-05-29/2025_us_open_theme_art_celebrates_althea_gibson_breaking_barriers.html",
+          "locator": "Índice oficial; tres semanas"
+        }
+      ],
+      "resolution": "Se usa 7/9 del programa del broadcaster, corroborado por índice del organizador; no se borra error del artículo."
+    },
+    {
+      "id": "airbnb-growth-rentals-not-comparable",
+      "kind": "different_denominators_not_contradiction",
+      "edition_key": "paris-olympics-2024",
+      "source_urls": [
+        "https://news.airbnb.com/en-in/30-surge-in-bookings-from-indian-guests-for-paris-2024-olympics",
+        "https://www.lemonde.fr/en/economy/article/2024/05/27/paris-2024-hotels-and-airbnb-rental-prices-continue-to-fall-due-to-oversupply_6672794_19.html",
+        "https://www.insee.fr/fr/statistiques/8670343"
+      ],
+      "resolution": "Crecimiento de reservas, expectativas de alquiler y pernoctaciones anuales no miden lo mismo; no promediar ni declarar una refutación."
+    },
+    {
+      "id": "ces2025-recap-attendance",
+      "kind": "scope_guard",
+      "edition_key": "ces-2025",
+      "source_urls": [
+        "https://news.panasonic.com/global/stories/16909"
+      ],
+      "resolution": "Asistencia total del CES mencionada por Panasonic no se convierte en visitantes, leads o ventas de su stand."
+    },
+    {
+      "id": "coachella-side-event-attendance",
+      "kind": "scope_guard",
+      "edition_key": "818-outpost-2025",
+      "source_urls": [
+        "https://www.eventmarketer.com/article/coachella-2025-experiential/",
+        "https://www.chiefmarketer.com/coachella-marketing-roundup-21-brand-experiences/"
+      ],
+      "resolution": "Conteo de 818 Outpost no pertenece a todo Coachella y republicación no suma otra medición."
+    }
+  ]
+}

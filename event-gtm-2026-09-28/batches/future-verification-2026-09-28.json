@@ -1,0 +1,883 @@
+{
+  "batch": "official_future_event_verification_2026-09-28",
+  "method": "manual_official_source_crosscheck_no_contact_no_paid_access",
+  "cutoff": "2026-09-28",
+  "sources": [
+    {
+      "url": "https://platform.industrialtransformationafrica.com/?lang=en",
+      "title": "Industrial Transformation Africa 2026 — official event page",
+      "publisher": "Hannover Fairs Africa",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-09-29/2026-10-01",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "OFEC Casablanca",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Casablanca",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "country",
+          "value": "Morocco",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://industrial-transformation.com/itap-2026-home/",
+      "title": "ITAP 2026 — official event page",
+      "publisher": "Hannover Fairs Asia Pacific",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "La página vigente de ITAP se cotejó con la página del recinto. Se conserva conflicto de fechas con un comunicado oficial anterior.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-10-21/2026-10-22",
+          "locator": "Event dates",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Suntec Singapore",
+          "locator": "Event venue",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Singapore",
+          "locator": "Event venue",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.suntecsingapore.com/event/itap-2026",
+      "title": "ITAP 2026 at Suntec Singapore",
+      "publisher": "Suntec Singapore",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-10-21/2026-10-22",
+          "locator": "Event listing",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Suntec Singapore",
+          "locator": "Event listing",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://en.cemat-asia.com/index-en.html",
+      "title": "CeMAT ASIA 2026",
+      "publisher": "Hannover Milano Fairs Shanghai",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "El render público mostró encabezado e información del certamen; no se completan datos no visibles.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-03/2026-11-06",
+          "locator": "Show information",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Shanghai",
+          "locator": "Show information",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ptc-asia.com/index-en.html",
+      "title": "PTC ASIA 2026",
+      "publisher": "Hannover Milano Fairs Shanghai",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "La portada vigente y la tabla de datos del mismo sitio difieren para el último día; conflicto preservado.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-03/2026-11-06",
+          "locator": "Homepage show dates",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Shanghai",
+          "locator": "Show information",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.ptc-asia.com/about_us/show-en_509.html",
+      "title": "PTC ASIA — show facts",
+      "publisher": "Hannover Milano Fairs Shanghai",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-03/2026-11-05",
+          "locator": "Show facts table",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "additional_date_line",
+          "value": "2026-11-06",
+          "locator": "Show facts table",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.comvac-asia.com/index-en-en.html",
+      "title": "ComVac ASIA 2026",
+      "publisher": "Hannover Milano Fairs Shanghai",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-03/2026-11-06",
+          "locator": "Show information",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://selangorsummit.com/event-components/selangor-techsphere-summit/",
+      "title": "Selangor Techsphere Summit 2026",
+      "publisher": "Invest Selangor / SIBS",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-10-14/2026-10-17",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Kuala Lumpur Convention Centre, Hall 5",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Kuala Lumpur",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://logisticsautomation.co.nz/show/2026/",
+      "title": "Logistics Automation New Zealand 2026",
+      "publisher": "XPO Exhibitions / Deutsche Messe",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-10/2026-11-11",
+          "locator": "Event dates",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Auckland Showgrounds",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Auckland",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.indosupplychain.com/",
+      "title": "Supply Chain Indonesia 2026",
+      "publisher": "Supply Chain Indonesia",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-25/2026-11-27",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "NICE",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Jakarta",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "country",
+          "value": "Indonesia",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://industrialtransformation.mx/en/",
+      "title": "Industrial Transformation Mexico — Smart Technology Expo",
+      "publisher": "Hannover Fairs Mexico",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "official_search_index",
+      "access_status": "indexed_official",
+      "reuse_status": "pending_commercial_review",
+      "notes": "La página del organizador fue localizada pero no se pudo abrir en la extracción; fechas y recinto se contrastaron con formulario oficial de exhibición.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-18/2026-11-20",
+          "locator": "Event homepage",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Expo Guadalajara",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://industrialtransformation.mx/wp-content/uploads/2026/04/Exhibitor-Form-2026.pdf",
+      "title": "Smart Technology Expo 2026 — exhibitor form",
+      "publisher": "Hannover Fairs Mexico",
+      "source_type": "official_exhibitor_form",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "official_search_index",
+      "access_status": "indexed_official",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-18/2026-11-20",
+          "locator": "Exhibitor form",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Expo Guadalajara, Guadalajara, Jalisco",
+          "locator": "Exhibitor form",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://industrialtransformationsaudi.com/",
+      "title": "Industrial Transformation Saudi Arabia 2026",
+      "publisher": "Hannover Fairs Saudi Arabia",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "official_search_index",
+      "access_status": "indexed_official",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-11-30/2026-12-02",
+          "locator": "Official event site",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Riyadh International Convention & Exhibition Center",
+          "locator": "Official event site",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Riyadh",
+          "locator": "Official event site",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "country",
+          "value": "Saudi Arabia",
+          "locator": "Official event site",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.intralogistica-italia.com/sono-aperte-le-iscrizioni-a-intralogistica-italia-2028/",
+      "title": "Intralogistica Italia 2028 — registrations open",
+      "publisher": "Fiera Milano / Intralogistica Italia",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Evento anunciado a largo plazo; disponibilidad de espacios y fecha sujetos a reconfirmación closer to the event.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2028-05-29/2028-06-01",
+          "locator": "Press release, 2026-07-01",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Fiera Milano Rho",
+          "locator": "Press release",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Milan",
+          "locator": "Press release",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://ifm.com.tr/tr/fuarlar/how-hub-of-warehouse-yeni-nesil-depo-sistemleri-ve-ic-lojistik-fuari-2027",
+      "title": "HOW — Hub of Warehouse 2027",
+      "publisher": "Hannover Fairs Turkey / Istanbul Expo Center",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2027-09-23/2027-09-25",
+          "locator": "Exhibition listing",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Istanbul Expo Center",
+          "locator": "Exhibition listing",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Istanbul",
+          "locator": "Exhibition listing",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://ias.pwee.cn/",
+      "title": "IAS 2026",
+      "publisher": "China Machinery Industry Federation / IAS",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "La ficha oficial en chino confirma fechas/ciudad/recinto; no se importan métricas de eventos concurrentes.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-10-12/2026-10-16",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "National Exhibition and Convention Center",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Shanghai",
+          "locator": "Event details",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.hannovermesse.de/en/for-visitors/tickets/index-2",
+      "title": "HANNOVER MESSE 2027 — tickets",
+      "publisher": "Deutsche Messe",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2027-04-05/2027-04-08",
+          "locator": "Visitor tickets",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Hannover",
+          "locator": "Visitor information",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://cdiif.com/en/",
+      "title": "Chengdu International Industry Fair 2027",
+      "publisher": "Hannover Milano Fairs China",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "La fecha del catálogo inicial (abril) se corrigió con la página oficial vigente (marzo).",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2027-03-02/2027-03-04",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "venue",
+          "value": "Western China International Expo City",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Chengdu",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://cdiif.com/",
+      "title": "成都国际工业博览会 2027",
+      "publisher": "Hannover Milano Fairs China",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "country",
+          "value": "China",
+          "locator": "Official event page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "dates",
+          "value": "2027-03-02/2027-03-04",
+          "locator": "Official event page",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/en/visit/fair-guide",
+      "title": "Frankfurt Book Fair — fair guide 2026",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-10-07/2026-10-11",
+          "locator": "Fair guide",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Frankfurt am Main",
+          "locator": "Fair guide",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/en/about-us/contact",
+      "title": "Frankfurt Book Fair — contact / venue",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "venue_address",
+          "value": "Ludwig-Erhard-Anlage 1, 60327 Frankfurt am Main, Germany",
+          "locator": "Contact information",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "country",
+          "value": "Germany",
+          "locator": "Contact information",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/",
+      "title": "Festival de Cannes 2027",
+      "publisher": "Festival de Cannes",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2027-05-11/2027-05-22",
+          "locator": "Official event page",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://capetownmarathon.com/",
+      "title": "Sanlam Cape Town Marathon 2027",
+      "publisher": "Cape Town Marathon",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "El 23 de mayo aplica al maratón de 42,2 km; otras pruebas son el 22. Sorteo/registro ordinario ya cerrado según FAQ; inventario de patrocinio no confirmado.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2027-05-22/2027-05-23",
+          "locator": "Official event page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Cape Town",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "country",
+          "value": "South Africa",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://capetownmarathon.com/FAQ/",
+      "title": "Cape Town Marathon — FAQ",
+      "publisher": "Cape Town Marathon",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "marathon_date",
+          "value": "2027-05-23",
+          "locator": "FAQ",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "registration",
+          "value": "ballot closed",
+          "locator": "FAQ",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.cccb.org/es/w/actividades/el-siglo-xviii",
+      "title": "El siglo XVIII — CCCB",
+      "publisher": "Centre de Cultura Contemporània de Barcelona",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Curso de larga duración, no evento de networking; fecha verificada y cupo presencial agotado al corte.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-09-29/2027-02-23",
+          "locator": "Activity page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Barcelona",
+          "locator": "Activity page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "availability",
+          "value": "sold out onsite",
+          "locator": "Activity page",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    },
+    {
+      "url": "https://www.nationalgallery.sg/sg/en/festivals/Slow-Saturday/Sunset-Yoga-and-Sound-Bath.html",
+      "title": "Sunset Yoga and Sound Bath — Slow Saturday",
+      "publisher": "National Gallery Singapore",
+      "source_type": "official_event_page",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_open",
+      "access_status": "opened",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Página primaria consultada el 2026-09-28; el resumen conserva solo los campos factuales indicados.",
+      "facts": [
+        {
+          "field": "dates",
+          "value": "2026-10-03",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        },
+        {
+          "field": "city",
+          "value": "Singapore",
+          "locator": "Event page",
+          "evidence_class": "official_source_statement"
+        }
+      ]
+    }
+  ],
+  "edition_updates": [
+    {
+      "key": "itap-2026",
+      "values": {
+        "end_date": "2026-10-22"
+      },
+      "field_sources": {
+        "end_date": [
+          "https://industrial-transformation.com/itap-2026-home/",
+          "https://www.suntecsingapore.com/event/itap-2026"
+        ]
+      },
+      "source_urls": [
+        "https://industrial-transformation.com/itap-2026-home/",
+        "https://www.suntecsingapore.com/event/itap-2026"
+      ],
+      "conflicts": [
+        {
+          "field": "date_range",
+          "values": [
+            {
+              "value": "2026-10-21/2026-10-22",
+              "source_urls": [
+                "https://industrial-transformation.com/itap-2026-home/",
+                "https://www.suntecsingapore.com/event/itap-2026"
+              ],
+              "status": "current event page and venue listing checked 2026-09-28"
+            },
+            {
+              "value": "2026-10-20/2026-10-21",
+              "source_urls": [
+                "https://www.hannovermesse.de/en/press/press-releases/hannover-messe/itap-to-return-in-october-2026-ahead-of-full-scale-2027-edition"
+              ],
+              "status": "earlier official press release 2026-08-18"
+            }
+          ],
+          "status": "preserved_official_source_disagreement",
+          "resolution": "Use current organizer event page and venue page dates for display; reconfirm directly before any spend. No direct outreach made."
+        }
+      ]
+    },
+    {
+      "key": "hannover-messe-2027",
+      "values": {
+        "end_date": "2027-04-08"
+      },
+      "field_sources": {
+        "start_date": [
+          "https://www.hannovermesse.de/en/for-visitors/tickets/index-2"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/en/for-visitors/tickets/index-2"
+        ]
+      },
+      "source_urls": [
+        "https://www.hannovermesse.de/en/for-visitors/tickets/index-2"
+      ]
+    },
+    {
+      "key": "cdiif-2027",
+      "values": {
+        "start_date": "2027-03-02",
+        "end_date": "2027-03-04"
+      },
+      "field_sources": {
+        "start_date": [
+          "https://cdiif.com/en/",
+          "https://cdiif.com/"
+        ],
+        "end_date": [
+          "https://cdiif.com/en/",
+          "https://cdiif.com/"
+        ]
+      },
+      "source_urls": [
+        "https://cdiif.com/en/",
+        "https://cdiif.com/"
+      ]
+    },
+    {
+      "key": "ptc-asia-2026",
+      "values": {
+        "start_date": "2026-11-03",
+        "end_date": "2026-11-06"
+      },
+      "field_sources": {
+        "start_date": [
+          "https://www.ptc-asia.com/index-en.html"
+        ],
+        "end_date": [
+          "https://www.ptc-asia.com/index-en.html"
+        ]
+      },
+      "source_urls": [
+        "https://www.ptc-asia.com/index-en.html",
+        "https://www.ptc-asia.com/about_us/show-en_509.html"
+      ],
+      "conflicts": [
+        {
+          "field": "date_range_end",
+          "values": [
+            {
+              "value": "2026-11-03/2026-11-06",
+              "source_urls": [
+                "https://www.ptc-asia.com/index-en.html"
+              ],
+              "status": "current homepage"
+            },
+            {
+              "value": "2026-11-03/2026-11-05",
+              "source_urls": [
+                "https://www.ptc-asia.com/about_us/show-en_509.html"
+              ],
+              "status": "show facts table; separately lists Nov 6 line"
+            }
+          ],
+          "status": "preserved_official_source_disagreement",
+          "resolution": "Display current homepage range; flag date detail as conditional and reconfirm before spend."
+        }
+      ]
+    }
+  ]
+}

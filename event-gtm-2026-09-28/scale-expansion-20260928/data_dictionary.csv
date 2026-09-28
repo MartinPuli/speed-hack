@@ -1,0 +1,755 @@
+table,column,storage_type,primary_key,not_null,null_meaning,lineage,definition
+assertions,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+assertions,entity_table,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity table
+assertions,entity_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity id
+assertions,field,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; field
+assertions,value_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value json
+assertions,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+assertions,locator,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; locator
+assertions,evidence_paraphrase,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; evidence paraphrase
+assertions,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+assertions,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+assertions,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+assertions,evidence_class,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; evidence class
+assertions,confidence_basis,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; confidence basis
+assertions,conflict_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; conflict status
+audience_metrics,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+audience_metrics,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+audience_metrics,segment,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; segment
+audience_metrics,metric,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; metric
+audience_metrics,value,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value
+audience_metrics,unit,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; unit
+audience_metrics,denominator,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; denominator
+audience_metrics,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+audience_metrics,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+audience_metrics,metric_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; metric status
+audience_metrics,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+audience_overlap,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+audience_overlap,entity_a_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity a id
+audience_overlap,entity_b_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity b id
+audience_overlap,universe,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; universe
+audience_overlap,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+audience_overlap,denominator,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; denominator
+audience_overlap,value,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value
+audience_overlap,unit,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; unit
+audience_overlap,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+audience_overlap,limitations,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; limitations
+audience_overlap,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+audience_overlap,input_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; input ids json
+audience_overlap,cutoff,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cutoff
+communities,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+communities,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+communities,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+communities,topic,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; topic
+communities,geography,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geography
+communities,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+communities,public_channels_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; public channels json
+communities,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+community_event_links,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+community_event_links,community_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; community id
+community_event_links,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+community_event_links,role,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; role
+community_event_links,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+community_event_links,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+community_event_links,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+companies,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+companies,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+companies,domain,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; domain
+companies,company_url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company url
+companies,aliases_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; aliases json
+companies,description,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; description
+companies,industry,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; industry
+companies,products_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; products json
+companies,markets_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; markets json
+companies,size_text,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; size text
+companies,missing_reasons_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; missing reasons json
+companies,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+company_profile_history,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+company_profile_history,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+company_profile_history,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+company_profile_history,products_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; products json
+company_profile_history,value_proposition,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value proposition
+company_profile_history,audiences_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; audiences json
+company_profile_history,markets_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; markets json
+company_profile_history,size_text,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; size text
+company_profile_history,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+company_profile_history,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+company_profile_history,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+company_profile_history,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+company_signals,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+company_signals,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+company_signals,signal_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; signal type
+company_signals,fact_date,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; fact date
+company_signals,geography,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geography
+company_signals,fact,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; fact
+company_signals,hypothesis,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; hypothesis
+company_signals,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+competitors,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+competitors,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+competitors,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+competitors,category,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; category
+competitors,buyer,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; buyer
+competitors,capabilities_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; capabilities json
+competitors,availability,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; availability
+competitors,data_coverage,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; data coverage
+competitors,refresh,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; refresh
+competitors,integrations_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; integrations json
+competitors,export_access,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; export access
+competitors,public_price,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; public price
+competitors,price_currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; price currency
+competitors,limitations,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; limitations
+competitors,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+crawl_runs,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+crawl_runs,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+crawl_runs,extractor_version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; extractor version
+crawl_runs,scope,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; scope
+crawl_runs,started_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; started at
+crawl_runs,finished_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; finished at
+crawl_runs,pages_attempted,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; pages attempted
+crawl_runs,pages_completed,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; pages completed
+crawl_runs,pages_failed,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; pages failed
+crawl_runs,records_output,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; records output
+crawl_runs,measured_cost_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; measured cost usd
+crawl_runs,billing_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; billing status
+crawl_runs,closure_reason,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; closure reason
+customer_briefs,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+customer_briefs,customer_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; customer id
+customer_briefs,website,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; website
+customer_briefs,objective,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; objective
+customer_briefs,offer,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; offer
+customer_briefs,audience,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; audience
+customer_briefs,geography,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geography
+customer_briefs,dates_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; dates json
+customer_briefs,budget,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; budget
+customer_briefs,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+customer_briefs,constraints_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; constraints json
+customer_briefs,priorities_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; priorities json
+customer_briefs,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+data_conflicts,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+data_conflicts,entity_table,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity table
+data_conflicts,entity_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity id
+data_conflicts,field,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; field
+data_conflicts,assertion_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; assertion ids json
+data_conflicts,resolution,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; resolution
+data_conflicts,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+data_conflicts,reviewer,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; reviewer
+data_conflicts,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+distribution_channels,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+distribution_channels,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+distribution_channels,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+distribution_channels,channel_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; channel type
+distribution_channels,topic,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; topic
+distribution_channels,geography,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geography
+distribution_channels,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+distribution_channels,access_terms,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; access terms
+distribution_channels,declared_size,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; declared size
+distribution_channels,size_observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; size observed at
+distribution_channels,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+distribution_metrics,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+distribution_metrics,channel_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; channel id
+distribution_metrics,metric,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; metric
+distribution_metrics,value,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value
+distribution_metrics,unit,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; unit
+distribution_metrics,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+distribution_metrics,scope,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; scope
+distribution_metrics,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+distribution_metrics,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+draft_field_evidence,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+draft_field_evidence,draft_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; draft id
+draft_field_evidence,field,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; field
+draft_field_evidence,value_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value json
+draft_field_evidence,origin,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; origin
+draft_field_evidence,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+draft_field_evidence,approval_state,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; approval state
+entity_aliases,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+entity_aliases,entity_table,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity table
+entity_aliases,entity_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity id
+entity_aliases,alias,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; alias
+entity_aliases,external_system,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; external system
+entity_aliases,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+entity_aliases,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+entity_aliases,equivalence_reason,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; equivalence reason
+entity_aliases,review_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; review status
+entity_aliases,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+entity_classifications,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+entity_classifications,entity_table,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity table
+entity_classifications,entity_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity id
+entity_classifications,term_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; term id
+entity_classifications,origin,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; origin
+entity_classifications,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+entity_classifications,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+entity_classifications,reviewed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; reviewed at
+entity_classifications,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+evaluation_cases,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+evaluation_cases,title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; title
+evaluation_cases,case_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; case type
+evaluation_cases,company_profile_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company profile json
+evaluation_cases,objective,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; objective
+evaluation_cases,constraints_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; constraints json
+evaluation_cases,cutoff,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cutoff
+evaluation_cases,candidate_universe,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; candidate universe
+evaluation_cases,label_origin,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; label origin
+evaluation_cases,split,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; split
+evaluation_cases,ground_truth_quality,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; ground truth quality
+event_assets,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_assets,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+event_assets,asset_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; asset type
+event_assets,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+event_assets,author,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; author
+event_assets,language,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; language
+event_assets,published_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; published at
+event_assets,rights,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; rights
+event_assets,locator,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; locator
+event_assets,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_company_roles,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_company_roles,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+event_company_roles,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+event_company_roles,role,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; role
+event_company_roles,level,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; level
+event_company_roles,relationship_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; relationship status
+event_company_roles,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+event_company_roles,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+event_company_roles,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_concepts,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_concepts,brief_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; brief id
+event_concepts,title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; title
+event_concepts,objective,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; objective
+event_concepts,audience,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; audience
+event_concepts,format,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; format
+event_concepts,proposed_location,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; proposed location
+event_concepts,proposed_date,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; proposed date
+event_concepts,rationale,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; rationale
+event_concepts,evidence_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; evidence ids json
+event_concepts,estimated_budget,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; estimated budget
+event_concepts,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+event_concepts,pending_decisions_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; pending decisions json
+event_concepts,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+event_costs,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_costs,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+event_costs,category,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; category
+event_costs,amount_min,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; amount min
+event_costs,amount_max,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; amount max
+event_costs,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+event_costs,unit,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; unit
+event_costs,taxes,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; taxes
+event_costs,inclusions,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; inclusions
+event_costs,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+event_costs,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+event_costs,cost_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cost status
+event_costs,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_deadlines,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_deadlines,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+event_deadlines,deadline_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; deadline type
+event_deadlines,date,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; date
+event_deadlines,date_precision,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; date precision
+event_deadlines,timezone,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; timezone
+event_deadlines,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+event_deadlines,requirements,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; requirements
+event_deadlines,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_editions,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_editions,series_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; series id
+event_editions,title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; title
+event_editions,canonical_url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; canonical url
+event_editions,start_date,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; start date
+event_editions,end_date,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; end date
+event_editions,start_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; start at
+event_editions,end_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; end at
+event_editions,timezone,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; timezone
+event_editions,date_precision,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; date precision
+event_editions,end_semantics,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; end semantics
+event_editions,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+event_editions,temporal_bucket,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; temporal bucket
+event_editions,location_raw,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; location raw
+event_editions,country,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; country
+event_editions,modality,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; modality
+event_editions,geo_precision,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geo precision
+event_editions,venue_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; venue id
+event_editions,format,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; format
+event_editions,sector,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; sector
+event_editions,topics_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; topics json
+event_editions,language,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; language
+event_editions,registration_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; registration status
+event_editions,last_verified,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; last verified
+event_editions,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_editions,missing_reasons_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; missing reasons json
+event_metrics,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_metrics,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+event_metrics,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+event_metrics,metric,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; metric
+event_metrics,value,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value
+event_metrics,unit,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; unit
+event_metrics,denominator,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; denominator
+event_metrics,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+event_metrics,attribution_method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; attribution method
+event_metrics,metric_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; metric status
+event_metrics,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_relations,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_relations,from_event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; from event id
+event_relations,to_event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; to event id
+event_relations,relation_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; relation type
+event_relations,origin,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; origin
+event_relations,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_series,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_series,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+event_series,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+event_series,identity_method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; identity method
+event_series,periodicity,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; periodicity
+event_series,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_space_assignments,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_space_assignments,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+event_space_assignments,session_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; session id
+event_space_assignments,space_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; space id
+event_space_assignments,start_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; start at
+event_space_assignments,end_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; end at
+event_space_assignments,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+event_space_assignments,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+event_status_history,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+event_status_history,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+event_status_history,previous_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; previous status
+event_status_history,new_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; new status
+event_status_history,announced_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; announced at
+event_status_history,effective_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; effective at
+event_status_history,reason,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; reason
+event_status_history,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+extraction_queue,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+extraction_queue,source_url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source url
+extraction_queue,family,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; family
+extraction_queue,geography,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geography
+extraction_queue,segment,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; segment
+extraction_queue,window_start,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; window start
+extraction_queue,window_end,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; window end
+extraction_queue,priority,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; priority
+extraction_queue,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+extraction_queue,last_processed,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; last processed
+extraction_queue,cursor,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cursor
+extraction_queue,blocking_reason,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; blocking reason
+extraction_queue,attempts,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; attempts
+extraction_queue,next_action,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; next action
+extraction_queue,completion_condition,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; completion condition
+fetch_attempts,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+fetch_attempts,run_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; run id
+fetch_attempts,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+fetch_attempts,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+fetch_attempts,result,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; result
+fetch_attempts,error_class,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; error class
+fetch_attempts,duration_ms,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; duration ms
+fetch_attempts,attempt_number,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; attempt number
+fetch_attempts,next_step,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; next step
+luma_drafts,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+luma_drafts,concept_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; concept id
+luma_drafts,title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; title
+luma_drafts,description,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; description
+luma_drafts,agenda_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; agenda json
+luma_drafts,supported_fields_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; supported fields json
+luma_drafts,local_state,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; local state
+luma_drafts,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+luma_drafts,pending_decisions_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; pending decisions json
+luma_drafts,luma_event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; luma event id
+market_context,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+market_context,region,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; region
+market_context,sector,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; sector
+market_context,variable,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; variable
+market_context,value,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value
+market_context,unit,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; unit
+market_context,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+market_context,decision_link,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; decision link
+market_context,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+news_articles,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+news_articles,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+news_articles,title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; title
+news_articles,publisher,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; publisher
+news_articles,author,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; author
+news_articles,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+news_articles,language,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; language
+news_articles,published_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; published at
+news_articles,updated_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; updated at
+news_articles,editorial_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; editorial type
+news_articles,summary,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; summary
+news_articles,event_date,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event date
+news_articles,access_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; access status
+news_dedup_clusters,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+news_dedup_clusters,article_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; article id
+news_dedup_clusters,cluster_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cluster id
+news_dedup_clusters,original_article_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; original article id
+news_dedup_clusters,relationship,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; relationship
+news_dedup_clusters,independence_basis,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; independence basis
+news_dedup_clusters,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+news_entity_links,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+news_entity_links,article_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; article id
+news_entity_links,entity_table,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity table
+news_entity_links,entity_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity id
+news_entity_links,mention_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; mention type
+news_entity_links,assertion_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; assertion id
+news_entity_links,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+news_entity_links,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+news_entity_links,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+opportunity_clusters,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+opportunity_clusters,region,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; region
+opportunity_clusters,audience,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; audience
+opportunity_clusters,topic,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; topic
+opportunity_clusters,format,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; format
+opportunity_clusters,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+opportunity_clusters,observed_supply,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed supply
+opportunity_clusters,demand_evidence,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; demand evidence
+opportunity_clusters,costs,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; costs
+opportunity_clusters,gaps,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; gaps
+opportunity_clusters,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+opportunity_clusters,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+opportunity_clusters,input_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; input ids json
+opportunity_clusters,cutoff,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cutoff
+participation,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+participation,person_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; person id
+participation,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+participation,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+participation,role,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; role
+participation,historical_job_title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; historical job title
+participation,participation_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; participation status
+participation,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+partner_relationships,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+partner_relationships,company_a_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company a id
+partner_relationships,company_b_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company b id
+partner_relationships,relationship_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; relationship type
+partner_relationships,stated_objective,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; stated objective
+partner_relationships,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+partner_relationships,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+partner_relationships,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+partner_relationships,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+people,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+people,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+people,professional_url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; professional url
+people,missing_reasons_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; missing reasons json
+people,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+platform_listings,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+platform_listings,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+platform_listings,platform,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; platform
+platform_listings,native_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; native id
+platform_listings,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+platform_listings,first_observed,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; first observed
+platform_listings,last_observed,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; last observed
+platform_listings,listing_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; listing status
+platform_listings,evidence_method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; evidence method
+platform_listings,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+professional_affiliations,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+professional_affiliations,person_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; person id
+professional_affiliations,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+professional_affiliations,role,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; role
+professional_affiliations,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+professional_affiliations,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+professional_affiliations,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+professional_affiliations,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+recommendation_candidates,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+recommendation_candidates,run_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; run id
+recommendation_candidates,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+recommendation_candidates,eligibility,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; eligibility
+recommendation_candidates,score_components_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; score components json
+recommendation_candidates,rank,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; rank
+recommendation_candidates,evidence_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; evidence ids json
+recommendation_candidates,missing_fields_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; missing fields json
+recommendation_candidates,explanation,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; explanation
+recommendation_candidates,human_label,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; human label
+recommendation_runs,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+recommendation_runs,case_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; case id
+recommendation_runs,cutoff,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cutoff
+recommendation_runs,dataset_version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; dataset version
+recommendation_runs,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+recommendation_runs,parameters_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; parameters json
+recommendation_runs,model_version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; model version
+recommendation_runs,elapsed_ms,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; elapsed ms
+recommendation_runs,measured_cost_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; measured cost usd
+recommendation_runs,billing_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; billing status
+record_versions,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+record_versions,entity_table,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity table
+record_versions,entity_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; entity id
+record_versions,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+record_versions,previous_value_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; previous value json
+record_versions,new_value_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; new value json
+record_versions,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+record_versions,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+record_versions,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+record_versions,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+record_versions,change_reason,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; change reason
+scale_batches,id,TEXT,1,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; id
+scale_batches,path,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; path
+scale_batches,sha256,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; sha256
+scale_batches,rows_read,INTEGER,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; rows read
+scale_batches,metadata_json,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; metadata json
+scale_dedupe_candidates,id,TEXT,1,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; id
+scale_dedupe_candidates,event_a,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; event a
+scale_dedupe_candidates,event_b,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; event b
+scale_dedupe_candidates,reason,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; reason
+scale_dedupe_candidates,status,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; status
+scale_enrichment_observations,id,TEXT,1,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; id
+scale_enrichment_observations,entity_table,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; entity table
+scale_enrichment_observations,entity_id,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; entity id
+scale_enrichment_observations,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+scale_enrichment_observations,payload_json,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; payload json
+scale_event_metadata,event_id,TEXT,1,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+scale_event_metadata,source_family,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; source family
+scale_event_metadata,native_id,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; native id
+scale_event_metadata,record_type,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; record type
+scale_event_metadata,city,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; city
+scale_event_metadata,country_normalized,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; country normalized
+scale_event_metadata,category,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; category
+scale_event_metadata,latitude,REAL,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; latitude
+scale_event_metadata,longitude,REAL,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; longitude
+scale_event_metadata,geo_precision,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; geo precision
+scale_event_metadata,geo_method,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; geo method
+scale_event_metadata,geo_verification,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; geo verification
+scale_event_metadata,source_modified_at,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; source modified at
+scale_event_metadata,parent_native_id,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; parent native id
+scale_event_metadata,original_data_source,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; original data source
+scale_event_metadata,license,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; license
+scale_event_metadata,inherited,INTEGER,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; inherited
+scale_migrations,id,TEXT,1,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; id
+scale_migrations,description,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; description
+scale_migrations,version,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; version
+scale_observations,id,TEXT,1,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; id
+scale_observations,event_id,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+scale_observations,source_id,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+scale_observations,batch,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; batch
+scale_observations,native_id,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; native id
+scale_observations,locator,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; locator
+scale_observations,observed_at,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+scale_observations,content_sha256,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; content sha256
+scale_observations,raw_values_json,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; raw values json
+scale_observations,dedupe_decision,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; dedupe decision
+scale_rejections,id,TEXT,1,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; id
+scale_rejections,batch,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; batch
+scale_rejections,locator,TEXT,0,0,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; locator
+scale_rejections,reason,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; reason
+scale_rejections,record_hash,TEXT,0,1,unknown/not_collected unless private/proposal table,migration_001,See inherited data_dictionary.csv and reports/schema-methods.md; record hash
+scoring_evaluations,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+scoring_evaluations,evaluation_set,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; evaluation set
+scoring_evaluations,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+scoring_evaluations,baseline,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; baseline
+scoring_evaluations,metric,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; metric
+scoring_evaluations,sample_size,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; sample size
+scoring_evaluations,value,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; value
+scoring_evaluations,definition,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; definition
+scoring_evaluations,uncertainty,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; uncertainty
+scoring_evaluations,limitations,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; limitations
+scoring_evaluations,measurement_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; measurement status
+search_queries,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+search_queries,query,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; query
+search_queries,service,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; service
+search_queries,language,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; language
+search_queries,filters_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; filters json
+search_queries,geography,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geography
+search_queries,window_start,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; window start
+search_queries,window_end,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; window end
+search_queries,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+search_queries,new_sources_count,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; new sources count
+search_queries,batch_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; batch id
+session_participants,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+session_participants,session_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; session id
+session_participants,person_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; person id
+session_participants,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+session_participants,role,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; role
+session_participants,historical_affiliation,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; historical affiliation
+session_participants,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+session_participants,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+sessions,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sessions,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+sessions,title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; title
+sessions,description,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; description
+sessions,topic,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; topic
+sessions,track,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; track
+sessions,format,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; format
+sessions,start_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; start at
+sessions,end_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; end at
+sessions,space_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; space id
+sessions,agenda_version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; agenda version
+sessions,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+sessions,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+source_snapshots,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+source_snapshots,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+source_snapshots,original_url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; original url
+source_snapshots,archive_url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; archive url
+source_snapshots,capture_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; capture at
+source_snapshots,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+source_snapshots,content_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; content type
+source_snapshots,sha256,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; sha256
+source_snapshots,availability,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; availability
+source_snapshots,retained_material,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; retained material
+source_snapshots,retention_basis,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; retention basis
+sources,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sources,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+sources,canonical_url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; canonical url
+sources,publisher,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; publisher
+sources,title,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; title
+sources,source_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source type
+sources,language,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; language
+sources,published_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; published at
+sources,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+sources,access_method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; access method
+sources,reuse_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; reuse status
+sources,extraction_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; extraction status
+sponsor_match_scores,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sponsor_match_scores,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+sponsor_match_scores,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+sponsor_match_scores,concept_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; concept id
+sponsor_match_scores,cutoff,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cutoff
+sponsor_match_scores,criteria_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; criteria json
+sponsor_match_scores,constraints_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; constraints json
+sponsor_match_scores,history,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; history
+sponsor_match_scores,score,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; score
+sponsor_match_scores,interest_status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; interest status
+sponsor_match_scores,uncertainty,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; uncertainty
+sponsor_match_scores,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+sponsor_match_scores,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+sponsor_match_scores,input_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; input ids json
+sponsor_profiles,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sponsor_profiles,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+sponsor_profiles,objectives_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; objectives json
+sponsor_profiles,audiences_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; audiences json
+sponsor_profiles,categories_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; categories json
+sponsor_profiles,geographies_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geographies json
+sponsor_profiles,proposal_channel,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; proposal channel
+sponsor_profiles,decision_process,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; decision process
+sponsor_profiles,budget_amount,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; budget amount
+sponsor_profiles,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+sponsor_profiles,missing_reasons_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; missing reasons json
+sponsor_profiles,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+sponsorship_deliverables,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sponsorship_deliverables,package_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; package id
+sponsorship_deliverables,agreement_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; agreement id
+sponsorship_deliverables,benefit_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; benefit type
+sponsorship_deliverables,description,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; description
+sponsorship_deliverables,quantity,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; quantity
+sponsorship_deliverables,unit,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; unit
+sponsorship_deliverables,promised_audience,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; promised audience
+sponsorship_deliverables,deadline,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; deadline
+sponsorship_deliverables,compliance_criterion,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; compliance criterion
+sponsorship_deliverables,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+sponsorship_history,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sponsorship_history,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+sponsorship_history,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+sponsorship_history,series_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; series id
+sponsorship_history,package_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; package id
+sponsorship_history,level,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; level
+sponsorship_history,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+sponsorship_history,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+sponsorship_history,modality,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; modality
+sponsorship_history,amount,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; amount
+sponsorship_history,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+sponsorship_history,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+sponsorship_observations,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sponsorship_observations,agreement_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; agreement id
+sponsorship_observations,deliverable_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; deliverable id
+sponsorship_observations,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+sponsorship_observations,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+sponsorship_observations,observation,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observation
+sponsorship_observations,status,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; status
+sponsorship_observations,metrics_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; metrics json
+sponsorship_observations,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+sponsorship_packages,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sponsorship_packages,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+sponsorship_packages,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+sponsorship_packages,amount_min,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; amount min
+sponsorship_packages,amount_max,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; amount max
+sponsorship_packages,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+sponsorship_packages,benefits_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; benefits json
+sponsorship_packages,exclusivity,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; exclusivity
+sponsorship_packages,inventory,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; inventory
+sponsorship_packages,availability,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; availability
+sponsorship_packages,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+sponsorship_packages,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+sponsorship_packages,deadline,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; deadline
+sponsorship_packages,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+sponsorship_renewals,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+sponsorship_renewals,company_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; company id
+sponsorship_renewals,series_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; series id
+sponsorship_renewals,previous_event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; previous event id
+sponsorship_renewals,next_event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; next event id
+sponsorship_renewals,previous_level,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; previous level
+sponsorship_renewals,next_level,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; next level
+sponsorship_renewals,classification,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; classification
+sponsorship_renewals,coverage_basis,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; coverage basis
+sponsorship_renewals,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+sponsorship_renewals,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+sponsorship_renewals,input_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; input ids json
+sponsorship_renewals,cutoff,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cutoff
+taxonomy_terms,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+taxonomy_terms,category,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; category
+taxonomy_terms,term,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; term
+taxonomy_terms,definition,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; definition
+taxonomy_terms,parent_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; parent id
+taxonomy_terms,synonyms_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; synonyms json
+taxonomy_terms,language,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; language
+taxonomy_terms,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+ticket_price_history,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+ticket_price_history,ticket_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; ticket id
+ticket_price_history,amount,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; amount
+ticket_price_history,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+ticket_price_history,fees,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; fees
+ticket_price_history,taxes,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; taxes
+ticket_price_history,sale_phase,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; sale phase
+ticket_price_history,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+ticket_price_history,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+ticket_price_history,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+ticket_price_history,availability,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; availability
+ticket_price_history,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+ticket_types,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+ticket_types,event_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; event id
+ticket_types,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+ticket_types,eligibility,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; eligibility
+ticket_types,benefits_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; benefits json
+ticket_types,payment_mode,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; payment mode
+ticket_types,capacity,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; capacity
+ticket_types,currency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; currency
+ticket_types,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+topic_trends,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+topic_trends,term_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; term id
+topic_trends,geography,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geography
+topic_trends,sector,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; sector
+topic_trends,period,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; period
+topic_trends,universe,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; universe
+topic_trends,count,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; count
+topic_trends,normalized_value,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; normalized value
+topic_trends,method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; method
+topic_trends,version,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; version
+topic_trends,input_ids_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; input ids json
+topic_trends,cutoff,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cutoff
+unit_economics_scenarios,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+unit_economics_scenarios,volume,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; volume
+unit_economics_scenarios,frequency,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; frequency
+unit_economics_scenarios,data_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; data usd
+unit_economics_scenarios,models_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; models usd
+unit_economics_scenarios,maps_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; maps usd
+unit_economics_scenarios,storage_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; storage usd
+unit_economics_scenarios,human_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; human usd
+unit_economics_scenarios,total_usd,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; total usd
+unit_economics_scenarios,cost_per_useful_result,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; cost per useful result
+unit_economics_scenarios,assumptions_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; assumptions json
+unit_economics_scenarios,estimate_or_measured,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; estimate or measured
+user_feedback,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+user_feedback,brief_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; brief id
+user_feedback,proposal_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; proposal id
+user_feedback,feedback_type,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; feedback type
+user_feedback,reason,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; reason
+user_feedback,observed_at,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; observed at
+user_feedback,later_outcome_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; later outcome json
+venue_spaces,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+venue_spaces,venue_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; venue id
+venue_spaces,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+venue_spaces,configuration,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; configuration
+venue_spaces,capacity,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; capacity
+venue_spaces,services_json,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; services json
+venue_spaces,accessibility,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; accessibility
+venue_spaces,valid_from,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid from
+venue_spaces,valid_to,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; valid to
+venue_spaces,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id
+venues,id,TEXT,1,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; id
+venues,name,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; name
+venues,address,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; address
+venues,city,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; city
+venues,country,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; country
+venues,latitude,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; latitude
+venues,longitude,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; longitude
+venues,geo_method,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geo method
+venues,geo_precision,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; geo precision
+venues,capacity,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; capacity
+venues,capacity_format,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; capacity format
+venues,url,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; url
+venues,business_channel,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; business channel
+venues,source_id,TEXT,0,0,unknown/not_collected unless private/proposal table,inherited_schema_66,See inherited data_dictionary.csv and reports/schema-methods.md; source id

@@ -1,0 +1,3902 @@
+[
+  {
+    "year": 2022,
+    "name": "Bloomberg",
+    "name_original": "Bloomberg Logo",
+    "company_url": "https://www.techatbloomberg.com/?utm_medium=cto&utm_content=site-partner&utm_source=site-partner&utm_campaign=MKTG_2002TechEvent_PyConUS&tactic=600319",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Bloomberg Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Meta",
+    "name_original": "Meta Logo",
+    "company_url": "https://about.facebook.com/meta/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Meta Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Google",
+    "name_original": "Google Logo",
+    "company_url": "https://opensource.google/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Google Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Microsoft",
+    "name_original": "Microsoft Logo",
+    "company_url": "https://azure.microsoft.com/en-us/develop/python/",
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=Microsoft Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "NVIDIA",
+    "name_original": "NVIDIA Logo",
+    "company_url": "https://developer.nvidia.com",
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=NVIDIA Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "AWS",
+    "name_original": "AWS Logo",
+    "company_url": "https://aws.amazon.com/",
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=AWS Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Capital One",
+    "name_original": "Capital One Logo",
+    "company_url": "https://www.capitalone.com/tech/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Capital One Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Indeed",
+    "name_original": "Indeed Logo",
+    "company_url": "http://opensource.indeed.com",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Indeed Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Corning Incorporated",
+    "name_original": "Corning Incorporated Logo",
+    "company_url": "https://www.corning.com/worldwide/en.html",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Corning Incorporated Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Ansys",
+    "name_original": "Ansys Logo",
+    "company_url": "https://www.ansys.com/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Ansys Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Qube Research & Technologies Limited",
+    "name_original": "Qube Research & Technologies Limited Logo",
+    "company_url": "https://www.qube-rt.com/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Qube Research & Technologies Limited Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Ramp",
+    "name_original": "Ramp Logo",
+    "company_url": "https://ramp.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Ramp Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Fannie Mae",
+    "name_original": "Fannie Mae Logo",
+    "company_url": "https://www.fanniemae.com",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Fannie Mae Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Motional",
+    "name_original": "Motional Logo",
+    "company_url": "http://www.motional.com/careers",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Motional Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Anaconda, Inc",
+    "name_original": "Anaconda, Inc Logo",
+    "company_url": "https://www.anaconda.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Anaconda, Inc Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "IBM",
+    "name_original": "IBM Logo",
+    "company_url": "https://www.ibm.com",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=IBM Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Coiled",
+    "name_original": "Coiled Logo",
+    "company_url": "https://coiled.io/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Coiled Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Red Hat",
+    "name_original": "Red Hat Logo",
+    "company_url": "https://www.redhat.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Red Hat Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Rebellion Defense",
+    "name_original": "Rebellion Defense Logo",
+    "company_url": "https://rebelliondefense.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Rebellion Defense Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Prefect",
+    "name_original": "Prefect Logo",
+    "company_url": "https://www.prefect.io/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Prefect Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Crunchy Data",
+    "name_original": "Crunchy Data Logo",
+    "company_url": "https://www.crunchydata.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Crunchy Data Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Shortcut",
+    "name_original": "Shortcut Logo",
+    "company_url": "http://shortcut.com",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Shortcut Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Hudson River Trading",
+    "name_original": "Hudson River Trading Logo",
+    "company_url": "https://www.hudsonrivertrading.com",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Hudson River Trading Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Linode",
+    "name_original": "Linode Logo",
+    "company_url": "http://linode.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Linode Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "JetBrains",
+    "name_original": "JetBrains Logo",
+    "company_url": "https://www.jetbrains.com/pycharm/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=JetBrains Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "AKASA",
+    "name_original": "AKASA Logo",
+    "company_url": "https://www.akasa.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=AKASA Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "OpenEDG Python Institute",
+    "name_original": "OpenEDG Python Institute Logo",
+    "company_url": "https://pythoninstitute.org/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=OpenEDG Python Institute Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Oracle",
+    "name_original": "Oracle Logo",
+    "company_url": "https://www.oracle.com/cloud/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Oracle Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Codeanywhere",
+    "name_original": "Codeanywhere Logo",
+    "company_url": "https://codeanywhere.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Codeanywhere Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Sentry",
+    "name_original": "Sentry Logo",
+    "company_url": "https://sentry.io/welcome/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Sentry Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Tidelift",
+    "name_original": "Tidelift Logo",
+    "company_url": "https://tidelift.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Tidelift Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Real Python",
+    "name_original": "Real Python Logo",
+    "company_url": "https://realpython.com",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Real Python Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "New Relic",
+    "name_original": "New Relic Logo",
+    "company_url": "https://newrelic.com/signup?utm_source=event&utm_medium=devrel_event&utm_campaign=amer-fy23-q1-pycon",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=New Relic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Sourcegraph",
+    "name_original": "Sourcegraph Logo",
+    "company_url": "https://srcgr.ph/uemWl",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Sourcegraph Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Docker, Inc.",
+    "name_original": "Docker, Inc. Logo",
+    "company_url": "https://www.docker.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Docker, Inc. Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "OpenRefactory",
+    "name_original": "OpenRefactory Logo",
+    "company_url": "https://www.openrefactory.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=OpenRefactory Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Superblocks",
+    "name_original": "Superblocks Logo",
+    "company_url": "https://www.superblocks.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Superblocks Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Rookout",
+    "name_original": "Rookout Logo",
+    "company_url": "https://www.rookout.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Rookout Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Snowflake",
+    "name_original": "Snowflake Logo",
+    "company_url": "https://www.snowflake.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Snowflake Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "OpenTeams",
+    "name_original": "OpenTeams Logo",
+    "company_url": "https://www.openteams.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=OpenTeams Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Bodo.ai",
+    "name_original": "Bodo.ai Logo",
+    "company_url": "https://bodo.ai",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Bodo.ai Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Elastic",
+    "name_original": "Elastic Logo",
+    "company_url": "https://www.elastic.co/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Elastic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Two Sigma",
+    "name_original": "Two Sigma Logo",
+    "company_url": "https://www.twosigma.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Two Sigma Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Sonatype",
+    "name_original": "Sonatype Logo",
+    "company_url": "https://www.sonatype.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Sonatype Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Activeloop",
+    "name_original": "Activeloop Logo",
+    "company_url": "http://activeloop.ai",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Activeloop Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Rivian",
+    "name_original": "Rivian Logo",
+    "company_url": "http://www.rivian.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Rivian Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "SonarSource",
+    "name_original": "SonarSource Logo",
+    "company_url": "https://www.sonarsource.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=SonarSource Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Wayfair",
+    "name_original": "Wayfair Logo",
+    "company_url": "https://www.aboutwayfair.com/careers/tech-blog",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Wayfair Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Bluevine",
+    "name_original": "Bluevine Logo",
+    "company_url": "https://www.bluevine.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Bluevine Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Deepgram",
+    "name_original": "Deepgram Logo",
+    "company_url": "https://developers.deepgram.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Deepgram Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Sourcery",
+    "name_original": "Sourcery Logo",
+    "company_url": "https://sourcery.ai",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Sourcery Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "PagerDuty",
+    "name_original": "PagerDuty Logo",
+    "company_url": "https://www.pagerduty.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=PagerDuty Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Cuttlesoft",
+    "name_original": "Cuttlesoft Logo",
+    "company_url": "https://cuttlesoft.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Cuttlesoft Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Anvil",
+    "name_original": "Anvil Logo",
+    "company_url": "https://anvil.works/?utm_source=sponsorship:pycon-2021",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Anvil Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Cockroach Labs",
+    "name_original": "Cockroach Labs Logo",
+    "company_url": "http://www.cockroachlabs.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Cockroach Labs Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Platform.sh",
+    "name_original": "Platform.sh Logo",
+    "company_url": "https://platform.sh/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Platform.sh Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Auth0",
+    "name_original": "Auth0 Logo",
+    "company_url": "https://auth0.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Auth0 Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Contrast Security",
+    "name_original": "Contrast Security Logo",
+    "company_url": "https://www.contrastsecurity.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Contrast Security Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Reuven Lerner — Python training",
+    "name_original": "Reuven Lerner — Python training Logo",
+    "company_url": "https://lerner.co.il",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Reuven Lerner — Python training Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Saturn Cloud",
+    "name_original": "Saturn Cloud Logo",
+    "company_url": "https://saturncloud.io/?utm_source=PyCon&utm_medium=Try&utm_campaign=Try",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Saturn Cloud Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Tatari, Inc.",
+    "name_original": "Tatari, Inc. Logo",
+    "company_url": "https://www.tatari.tv/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Tatari, Inc. Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "CircleCI",
+    "name_original": "CircleCI Logo",
+    "company_url": "https://circleci.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=CircleCI Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Python Academy",
+    "name_original": "Python Academy Logo",
+    "company_url": "https://www.python-academy.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Python Academy Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Twitter",
+    "name_original": "Twitter Logo",
+    "company_url": "https://about.twitter.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Twitter Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Guidebook",
+    "name_original": "Guidebook Logo",
+    "company_url": "http://www.guidebook.com",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Guidebook Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Quansight",
+    "name_original": "Quansight Logo",
+    "company_url": "https://www.quansight.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Quansight Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Netflix",
+    "name_original": "Netflix Logo",
+    "company_url": "https://about.netflix.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Netflix Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Sticker Mule",
+    "name_original": "Sticker Mule Logo",
+    "company_url": "https://mule.to/p2oh",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Sticker Mule Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "PythonAnywhere LLP",
+    "name_original": "PythonAnywhere LLP Logo",
+    "company_url": "https://www.pythonanywhere.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=PythonAnywhere LLP Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Ordina Pythoneers",
+    "name_original": "Ordina Pythoneers Logo",
+    "company_url": "https://www.ordina.nl/vakgebieden/python/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Ordina Pythoneers Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "REVSYS",
+    "name_original": "REVSYS Logo",
+    "company_url": "https://www.revsys.com",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=REVSYS Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Twilio",
+    "name_original": "Twilio Logo",
+    "company_url": "https://www.twilio.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Twilio Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Python Engineer Development Association",
+    "name_original": "Python Engineer Development Association Logo",
+    "company_url": "https://www.pythonic-exam.com/en",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Python Engineer Development Association Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Recursion Pharmaceuticals",
+    "name_original": "Recursion Pharmaceuticals Logo",
+    "company_url": "https://www.recursion.com",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Recursion Pharmaceuticals Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "IP2Location",
+    "name_original": "IP2Location Logo",
+    "company_url": "https://www.ip2location.com",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=IP2Location Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Fulfil.iO",
+    "name_original": "Fulfil.iO Logo",
+    "company_url": "https://www.fulfil.io/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Fulfil.iO Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Hostinger",
+    "name_original": "Hostinger Logo",
+    "company_url": "https://www.hostinger.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Hostinger Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Research Affiliates",
+    "name_original": "Research Affiliates Logo",
+    "company_url": "https://www.researchaffiliates.com/about-us/technology",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Research Affiliates Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Gretel.ai",
+    "name_original": "Gretel.ai Logo",
+    "company_url": "https://gretel.ai/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Gretel.ai Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Praca.pl",
+    "name_original": "Praca.pl Logo",
+    "company_url": "https://www.praca.pl/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Praca.pl Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Accounting Data Solutions, LLC",
+    "name_original": "Accounting Data Solutions, LLC Logo",
+    "company_url": "https://www.accountingdatasolutions.com",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Accounting Data Solutions, LLC Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "SEO25.com",
+    "name_original": "SEO25.com Logo",
+    "company_url": "https://www.seo25.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=SEO25.com Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Fortive",
+    "name_original": "Fortive Logo",
+    "company_url": "https://fortive.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Fortive Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "PostgreSQL",
+    "name_original": "PostgreSQL Logo",
+    "company_url": "https://www.postgresql.org/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=PostgreSQL Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Targeted Web Traffic",
+    "name_original": "Targeted Web Traffic Logo",
+    "company_url": "https://www.targetedwebtraffic.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Targeted Web Traffic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "LaunchDarkly",
+    "name_original": "LaunchDarkly Logo",
+    "company_url": "https://launchdarkly.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=LaunchDarkly Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "minimumdepositcasinos.org",
+    "name_original": "minimumdepositcasinos.org Logo",
+    "company_url": "https://www.minimumdepositcasinos.org/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=minimumdepositcasinos.org Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "BeProud",
+    "name_original": "BeProud Logo",
+    "company_url": "https://www.beproud.jp/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=BeProud Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "PyLadies",
+    "name_original": "PyLadies Logo",
+    "company_url": "https://pyladies.com",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=PyLadies Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "The Open Source Initiative",
+    "name_original": "The Open Source Initiative Logo",
+    "company_url": "https://opensource.org/",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=The Open Source Initiative Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Python Software Foundation",
+    "name_original": "Python Software Foundation Logo",
+    "company_url": "https://www.python.org/psf-landing/",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=Python Software Foundation Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "No Starch Press",
+    "name_original": "No Starch Press Logo",
+    "company_url": "https://nostarch.com/",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=No Starch Press Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "NumFOCUS",
+    "name_original": "NumFOCUS Logo",
+    "company_url": "https://numfocus.org",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=NumFOCUS Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2022,
+    "name": "Chainguard",
+    "name_original": "Chainguard Logo",
+    "company_url": "https://chainguard.dev/",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=Chainguard Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2022,
+    "name": "OtterTune, Inc.",
+    "name_original": "OtterTune, Inc. Logo",
+    "company_url": "https://ottertune.com/",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=OtterTune, Inc. Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2022,
+    "name": "Devron",
+    "name_original": "Devron Logo",
+    "company_url": "https://www.devron.ai/",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=Devron Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2022,
+    "name": "Slim.AI",
+    "name_original": "Slim.AI Logo",
+    "company_url": "https://www.slim.ai/",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=Slim.AI Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2022,
+    "name": "OpenBlender",
+    "name_original": "OpenBlender Logo",
+    "company_url": "https://www.openblender.io/",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=OpenBlender Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2022,
+    "name": "Union.ai",
+    "name_original": "Union.ai Logo",
+    "company_url": "https://union.ai",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=Union.ai Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2022,
+    "name": "Ploomber",
+    "name_original": "Ploomber Logo",
+    "company_url": "https://ploomber.io/",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=Ploomber Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2022,
+    "name": "Rasgo",
+    "name_original": "Rasgo Logo",
+    "company_url": "https://www.rasgoml.com/",
+    "level": "PyCon Startup Row",
+    "source_url": "https://us.pycon.org/2022/sponsorship/sponsors/",
+    "locator": "h2=PyCon Startup Row; img alt=Rasgo Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Meta",
+    "name_original": "Meta Logo",
+    "company_url": "https://about.facebook.com/meta/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Meta Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Bloomberg",
+    "name_original": "Bloomberg Logo",
+    "company_url": "https://www.techatbloomberg.com/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Bloomberg Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Google",
+    "name_original": "Google Logo",
+    "company_url": "https://opensource.google/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Google Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Microsoft",
+    "name_original": "Microsoft Logo",
+    "company_url": "https://github.com/microsoft/pycon",
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=Microsoft Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "NVIDIA",
+    "name_original": "NVIDIA Logo",
+    "company_url": "https://developer.nvidia.com",
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=NVIDIA Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Salesforce",
+    "name_original": "Salesforce Logo",
+    "company_url": "https://opensource.salesforce.com/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Salesforce Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Qube Research & Technologies Limited",
+    "name_original": "Qube Research & Technologies Limited Logo",
+    "company_url": "https://www.qube-rt.com/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Qube Research & Technologies Limited Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "AWS",
+    "name_original": "AWS Logo",
+    "company_url": "https://aws.amazon.com/opensource",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=AWS Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Ansys",
+    "name_original": "Ansys Logo",
+    "company_url": "https://www.ansys.com/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Ansys Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Indeed",
+    "name_original": "Indeed Logo",
+    "company_url": "http://opensource.indeed.com",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Indeed Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Capital One",
+    "name_original": "Capital One Logo",
+    "company_url": "https://www.capitalone.com/tech/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Capital One Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Citadel Securities",
+    "name_original": "Citadel Securities Logo",
+    "company_url": "https://www.citadelsecurities.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Citadel Securities Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Fannie Mae",
+    "name_original": "Fannie Mae Logo",
+    "company_url": "https://www.fanniemae.com",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Fannie Mae Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Anaconda, Inc",
+    "name_original": "Anaconda, Inc Logo",
+    "company_url": "https://www.anaconda.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Anaconda, Inc Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "SonarSource",
+    "name_original": "SonarSource Logo",
+    "company_url": "https://www.sonarsource.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=SonarSource Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "OpenEDG Python Institute",
+    "name_original": "OpenEDG Python Institute Logo",
+    "company_url": "https://pythoninstitute.org/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=OpenEDG Python Institute Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Red Hat",
+    "name_original": "Red Hat Logo",
+    "company_url": "https://www.redhat.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Red Hat Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Sentry",
+    "name_original": "Sentry Logo",
+    "company_url": "https://sentry.io/welcome/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Sentry Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Delta Lake",
+    "name_original": "Delta Lake Logo",
+    "company_url": "https://delta.io",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Delta Lake Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Courier",
+    "name_original": "Courier Logo",
+    "company_url": "https://www.courier.com",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Courier Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Jane Street",
+    "name_original": "Jane Street Logo",
+    "company_url": "https://www.janestreet.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Jane Street Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Voloridge Investment Management",
+    "name_original": "Voloridge Investment Management Logo",
+    "company_url": "https://www.voloridge.com",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Voloridge Investment Management Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Sourcegraph",
+    "name_original": "Sourcegraph Logo",
+    "company_url": "https://about.sourcegraph.com",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Sourcegraph Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "JetBrains",
+    "name_original": "JetBrains Logo",
+    "company_url": "https://www.jetbrains.com/pycharm/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=JetBrains Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Tidelift",
+    "name_original": "Tidelift Logo",
+    "company_url": "https://tidelift.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Tidelift Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Crunchy Data",
+    "name_original": "Crunchy Data Logo",
+    "company_url": "https://www.crunchydata.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Crunchy Data Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Covalent",
+    "name_original": "Covalent Logo",
+    "company_url": "https://www.covalent.xyz/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Covalent Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Descope",
+    "name_original": "Descope Logo",
+    "company_url": "https://www.descope.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Descope Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Taipy",
+    "name_original": "Taipy Logo",
+    "company_url": "https://www.taipy.io/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Taipy Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Jina AI",
+    "name_original": "Jina AI Logo",
+    "company_url": "http://www.jina.ai",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Jina AI Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "LaunchDarkly",
+    "name_original": "LaunchDarkly Logo",
+    "company_url": "https://launchdarkly.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=LaunchDarkly Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Noteable",
+    "name_original": "Noteable Logo",
+    "company_url": "https://noteable.io/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Noteable Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Temporal",
+    "name_original": "Temporal Logo",
+    "company_url": "https://www.temporal.io/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Temporal Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Retool",
+    "name_original": "Retool Logo",
+    "company_url": "https://retool.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Retool Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Elastic",
+    "name_original": "Elastic Logo",
+    "company_url": "https://www.elastic.co/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Elastic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Superblocks",
+    "name_original": "Superblocks Logo",
+    "company_url": "https://www.superblocks.com/python",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Superblocks Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "deepset",
+    "name_original": "deepset Logo",
+    "company_url": "https://www.deepset.ai/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=deepset Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Akamai Cloud Computing Services",
+    "name_original": "Akamai Cloud Computing Services Logo",
+    "company_url": "https://www.linode.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Akamai Cloud Computing Services Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Real Python",
+    "name_original": "Real Python Logo",
+    "company_url": "https://realpython.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Real Python Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Sourcery",
+    "name_original": "Sourcery Logo",
+    "company_url": "https://sourcery.ai",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Sourcery Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Cape Privacy",
+    "name_original": "Cape Privacy Logo",
+    "company_url": "https://capeprivacy.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Cape Privacy Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Verizon",
+    "name_original": "Verizon Logo",
+    "company_url": "https://www.verizon.com/support/residential/internet/equipment/open-source-software",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Verizon Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "OpenTeams",
+    "name_original": "OpenTeams Logo",
+    "company_url": "https://www.openteams.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=OpenTeams Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Snowflake",
+    "name_original": "Snowflake Logo",
+    "company_url": "https://www.snowflake.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Snowflake Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Hudson River Trading",
+    "name_original": "Hudson River Trading Logo",
+    "company_url": "https://www.hudsonrivertrading.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Hudson River Trading Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Reuven Lerner — Python training",
+    "name_original": "Reuven Lerner — Python training Logo",
+    "company_url": "https://lerner.co.il",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Reuven Lerner — Python training Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "HENNGE (Japan)",
+    "name_original": "HENNGE (Japan) Logo",
+    "company_url": "https://hennge.com/global/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=HENNGE (Japan) Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Datadog",
+    "name_original": "Datadog Logo",
+    "company_url": "https://www.datadoghq.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Datadog Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "US Digital Service",
+    "name_original": "US Digital Service Logo",
+    "company_url": "http://www.usds.gov",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=US Digital Service Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "No Starch Press",
+    "name_original": "No Starch Press Logo",
+    "company_url": "https://nostarch.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=No Starch Press Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Auth0 by Okta",
+    "name_original": "Auth0 by Okta Logo",
+    "company_url": "https://a0.to/pyconus",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Auth0 by Okta Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Coherence",
+    "name_original": "Coherence Logo",
+    "company_url": "https://www.withcoherence.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Coherence Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "neo4j",
+    "name_original": "neo4j Logo",
+    "company_url": "https://neo4j.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=neo4j Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "TelemetryHub",
+    "name_original": "TelemetryHub Logo",
+    "company_url": "https://telemetryhub.com/?utm_source=pycon_2023&utm_medium=event&utm_campaign=sponsor_landingpage_link",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=TelemetryHub Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Anyscale",
+    "name_original": "Anyscale Logo",
+    "company_url": "https://www.anyscale.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Anyscale Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Infobip",
+    "name_original": "Infobip Logo",
+    "company_url": "https://www.infobip.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Infobip Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Anvil",
+    "name_original": "Anvil Logo",
+    "company_url": "https://anvil.works/?utm_source=sponsorship:pycon-2021",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Anvil Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Einblick Analytics Inc.",
+    "name_original": "Einblick Analytics Inc. Logo",
+    "company_url": "https://www.einblick.ai/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Einblick Analytics Inc. Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Netflix",
+    "name_original": "Netflix Logo",
+    "company_url": "https://jobs.netflix.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Netflix Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Six Feet Up",
+    "name_original": "Six Feet Up Logo",
+    "company_url": "https://www.sixfeetup.com",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Six Feet Up Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Toyota Financial Services",
+    "name_original": "Toyota Financial Services Logo",
+    "company_url": "https://www.toyotafinancial.com/us/en.html",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Toyota Financial Services Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Lincoln Loop",
+    "name_original": "Lincoln Loop Logo",
+    "company_url": "https://lincolnloop.com",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Lincoln Loop Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Quansight",
+    "name_original": "Quansight Logo",
+    "company_url": "https://www.quansight.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Quansight Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Guidebook",
+    "name_original": "Guidebook Logo",
+    "company_url": "https://guidebook.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Guidebook Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Two Sigma",
+    "name_original": "Two Sigma Logo",
+    "company_url": "https://www.twosigma.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Two Sigma Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Bluevine",
+    "name_original": "Bluevine Logo",
+    "company_url": "https://www.bluevine.com",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Bluevine Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Healthvana",
+    "name_original": "Healthvana Logo",
+    "company_url": "https://healthvana.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Healthvana Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Sticker Mule",
+    "name_original": "Sticker Mule Logo",
+    "company_url": "https://mule.to/p3xe",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Sticker Mule Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Python Engineer Development Association",
+    "name_original": "Python Engineer Development Association Logo",
+    "company_url": "https://www.pythonic-exam.com/en",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Python Engineer Development Association Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Canva",
+    "name_original": "Canva Logo",
+    "company_url": "https://www.canva.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Canva Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "DevITjobs",
+    "name_original": "DevITjobs Logo",
+    "company_url": "https://devitjobs.us/jobs/Python/all/all",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=DevITjobs Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "minimumdepositcasinos.org",
+    "name_original": "minimumdepositcasinos.org Logo",
+    "company_url": "https://www.minimumdepositcasinos.org/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=minimumdepositcasinos.org Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "CrossCompute",
+    "name_original": "CrossCompute Logo",
+    "company_url": "https://crosscompute.com",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=CrossCompute Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Adimian.be SPRL",
+    "name_original": "Adimian.be SPRL Logo",
+    "company_url": "https://www.adimian.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Adimian.be SPRL Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "it-jobs.de",
+    "name_original": "it-jobs.de Logo",
+    "company_url": "https://it-jobs.de",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=it-jobs.de Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "dmTECH GmbH",
+    "name_original": "dmTECH GmbH Logo",
+    "company_url": "https://www.dm-jobs.com/dmTECH/?locale=de_DE&wt_mc=.display.python.sponsoring.logo",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=dmTECH GmbH Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Targeted Web Traffic",
+    "name_original": "Targeted Web Traffic Logo",
+    "company_url": "https://www.targetedwebtraffic.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Targeted Web Traffic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "PRISMA Capacity Platform",
+    "name_original": "PRISMA Capacity Platform Logo",
+    "company_url": "https://www.prisma-capacity.eu/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=PRISMA Capacity Platform Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "SEO25.com",
+    "name_original": "SEO25.com Logo",
+    "company_url": "https://www.seo25.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=SEO25.com Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "EaseUS Software",
+    "name_original": "EaseUS Software Logo",
+    "company_url": "https://www.easeus.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=EaseUS Software Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "BeProud",
+    "name_original": "BeProud Logo",
+    "company_url": "https://www.beproud.jp/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=BeProud Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "ionic",
+    "name_original": "ionic Logo",
+    "company_url": "https://ionic.io/framework",
+    "level": "Mobile App Sponsor",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Mobile App Sponsor; img alt=ionic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Nixtla",
+    "name_original": "Nixtla Logo",
+    "company_url": "https://www.nixtla.io/",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Nixtla Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Ponder",
+    "name_original": "Ponder Logo",
+    "company_url": "https://ponder.io/",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Ponder Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Predibase",
+    "name_original": "Predibase Logo",
+    "company_url": "https://www.predibase.com",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Predibase Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Fixie AI",
+    "name_original": "Fixie AI Logo",
+    "company_url": "https://fixie.ai",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Fixie AI Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Wherobots Inc.",
+    "name_original": "Wherobots Inc. Logo",
+    "company_url": "https://www.wherobots.ai",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Wherobots Inc. Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Pynecone",
+    "name_original": "Pynecone Logo",
+    "company_url": "https://pynecone.io",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Pynecone Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Neptyne",
+    "name_original": "Neptyne Logo",
+    "company_url": "https://neptyne.com",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Neptyne Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "Generally Intelligent",
+    "name_original": "Generally Intelligent Logo",
+    "company_url": "https://generallyintelligent.com/",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Generally Intelligent Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2023,
+    "name": "IMC Trading",
+    "name_original": "IMC Trading Logo",
+    "company_url": "https://www.imc.com/us/",
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=IMC Trading Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "PostgreSQL",
+    "name_original": "PostgreSQL Logo",
+    "company_url": "https://www.postgresql.org/",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=PostgreSQL Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "PyCon APAC Community",
+    "name_original": "PyCon APAC Community Logo",
+    "company_url": null,
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=PyCon APAC Community Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "NumFOCUS",
+    "name_original": "NumFOCUS Logo",
+    "company_url": "https://numfocus.org",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=NumFOCUS Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Department of Biostatistics and Data Science, University of Kansas Medical Center",
+    "name_original": "Department of Biostatistics and Data Science, University of Kansas Medical Center Logo",
+    "company_url": "https://www.kumc.edu/school-of-medicine/academics/departments/biostatistics-and-data-science.html",
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Department of Biostatistics and Data Science, University of Kansas Medical Center Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Python Software Foundation",
+    "name_original": "Python Software Foundation Logo",
+    "company_url": "https://python.org/psf/",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=Python Software Foundation Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Open Source Initiative",
+    "name_original": "Open Source Initiative Logo",
+    "company_url": "https://opensource.org",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=Open Source Initiative Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "BeeWare Project",
+    "name_original": "BeeWare Project Logo",
+    "company_url": "https://beeware.org/",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=BeeWare Project Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "CodeDay",
+    "name_original": "CodeDay Logo",
+    "company_url": "https://www.codeday.org/",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=CodeDay Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Research Affiliates LLC",
+    "name_original": "Research Affiliates LLC Logo",
+    "company_url": "https://www.researchaffiliates.com/about-us/technology",
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Research Affiliates LLC Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "PyLadies",
+    "name_original": "PyLadies Logo",
+    "company_url": "https://pyladies.com",
+    "level": "Open Source and Community",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Open Source and Community; img alt=PyLadies Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2023,
+    "name": "Federal Reserve Bank of Kansas City",
+    "name_original": "Federal Reserve Bank of Kansas City Logo",
+    "company_url": "https://www.kansascityfed.org/",
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2023/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Federal Reserve Bank of Kansas City Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "NVIDIA",
+    "name_original": "NVIDIA Logo",
+    "company_url": null,
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=NVIDIA Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Google",
+    "name_original": "Google Logo",
+    "company_url": null,
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Google Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Meta",
+    "name_original": "Meta Logo",
+    "company_url": null,
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Meta Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Fastly",
+    "name_original": "Fastly Logo",
+    "company_url": null,
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Fastly Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Bloomberg",
+    "name_original": "Bloomberg Logo",
+    "company_url": null,
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Bloomberg Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Microsoft",
+    "name_original": "Microsoft Logo",
+    "company_url": null,
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=Microsoft Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Ansys",
+    "name_original": "Ansys Logo",
+    "company_url": null,
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=Ansys Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Red Hat",
+    "name_original": "Red Hat Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Red Hat Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Cubist Systematic Strategies",
+    "name_original": "Cubist Systematic Strategies Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Cubist Systematic Strategies Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Capital One",
+    "name_original": "Capital One Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Capital One Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Streamlit",
+    "name_original": "Streamlit Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Streamlit Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Qube Research & Technologies Limited",
+    "name_original": "Qube Research & Technologies Limited Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Qube Research & Technologies Limited Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "American Express",
+    "name_original": "American Express Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=American Express Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "MongoDB",
+    "name_original": "MongoDB Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=MongoDB Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "AWS",
+    "name_original": "AWS Logo",
+    "company_url": null,
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=AWS Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "JetBrains",
+    "name_original": "JetBrains Logo",
+    "company_url": null,
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=JetBrains Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "OpenEDG Python Institute",
+    "name_original": "OpenEDG Python Institute Logo",
+    "company_url": null,
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=OpenEDG Python Institute Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Indeed",
+    "name_original": "Indeed Logo",
+    "company_url": null,
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Indeed Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Algorand",
+    "name_original": "Algorand Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Algorand Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Jane Street",
+    "name_original": "Jane Street Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Jane Street Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Oracle",
+    "name_original": "Oracle Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Oracle Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Pydantic",
+    "name_original": "Pydantic Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Pydantic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Covalent",
+    "name_original": "Covalent Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Covalent Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Crunchy Data",
+    "name_original": "Crunchy Data Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Crunchy Data Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Anaconda, Inc",
+    "name_original": "Anaconda, Inc Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Anaconda, Inc Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Sentry",
+    "name_original": "Sentry Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Sentry Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "DataStax",
+    "name_original": "DataStax Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=DataStax Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Western Governors University",
+    "name_original": "Western Governors University Logo",
+    "company_url": null,
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Western Governors University Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Datadog",
+    "name_original": "Datadog Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Datadog Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "ActiveState",
+    "name_original": "ActiveState Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=ActiveState Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Haystack (by deepset)",
+    "name_original": "Haystack (by deepset) Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Haystack (by deepset) Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Endor labs",
+    "name_original": "Endor labs Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Endor labs Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Posit, PBC",
+    "name_original": "Posit, PBC Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Posit, PBC Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Sauce Labs",
+    "name_original": "Sauce Labs Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Sauce Labs Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Hudson River Trading",
+    "name_original": "Hudson River Trading Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Hudson River Trading Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Swan Softweb Solutions",
+    "name_original": "Swan Softweb Solutions Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Swan Softweb Solutions Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Reuven Lerner — Python training",
+    "name_original": "Reuven Lerner — Python training Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Reuven Lerner — Python training Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Rezoomex",
+    "name_original": "Rezoomex Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Rezoomex Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Vonage",
+    "name_original": "Vonage Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Vonage Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Temporal",
+    "name_original": "Temporal Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Temporal Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Twilio",
+    "name_original": "Twilio Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Twilio Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "EdgeDB",
+    "name_original": "EdgeDB Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=EdgeDB Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Anvil",
+    "name_original": "Anvil Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Anvil Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Elastic",
+    "name_original": "Elastic Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Elastic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Cloudflare",
+    "name_original": "Cloudflare Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Cloudflare Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Awesomic",
+    "name_original": "Awesomic Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Awesomic Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Coiled",
+    "name_original": "Coiled Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Coiled Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Bright Data",
+    "name_original": "Bright Data Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Bright Data Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "No Starch Press",
+    "name_original": "No Starch Press Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=No Starch Press Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Tecton",
+    "name_original": "Tecton Logo",
+    "company_url": null,
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Tecton Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "U.S. Digital Service",
+    "name_original": "U.S. Digital Service Logo",
+    "company_url": null,
+    "level": "Government Participant",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Government Participant; img alt=U.S. Digital Service Logo",
+    "role": "government_participant"
+  },
+  {
+    "year": 2024,
+    "name": "Netflix",
+    "name_original": "Netflix Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Netflix Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "OpenTeams",
+    "name_original": "OpenTeams Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=OpenTeams Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Python Engineer Development Association",
+    "name_original": "Python Engineer Development Association Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Python Engineer Development Association Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Six Feet Up",
+    "name_original": "Six Feet Up Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Six Feet Up Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Quansight",
+    "name_original": "Quansight Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Quansight Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "ASML",
+    "name_original": "ASML Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=ASML Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Flet",
+    "name_original": "Flet Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Flet Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Two Sigma",
+    "name_original": "Two Sigma Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Two Sigma Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Astral",
+    "name_original": "Astral Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Astral Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Buttondown",
+    "name_original": "Buttondown Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Buttondown Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Sticker Robot",
+    "name_original": "Sticker Robot Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Sticker Robot Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "LambdaTest Inc.",
+    "name_original": "LambdaTest Inc. Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=LambdaTest Inc. Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Zama",
+    "name_original": "Zama Logo",
+    "company_url": null,
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Zama Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "DevITJobs",
+    "name_original": "DevITJobs Logo",
+    "company_url": null,
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=DevITJobs Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "BeProud",
+    "name_original": "BeProud Logo",
+    "company_url": null,
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=BeProud Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Pixee",
+    "name_original": "Pixee Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Pixee Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "dltHub",
+    "name_original": "dltHub Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=dltHub Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "PandasAI",
+    "name_original": "PandasAI Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=PandasAI Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "Exaloop",
+    "name_original": "Exaloop Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Exaloop Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "dispatch.run",
+    "name_original": "dispatch.run Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=dispatch.run Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "Trellis",
+    "name_original": "Trellis Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Trellis Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "DAGWorks Inc.",
+    "name_original": "DAGWorks Inc. Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=DAGWorks Inc. Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "Martian Learning, Inc.",
+    "name_original": "Martian Learning, Inc. Logo",
+    "company_url": null,
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Martian Learning, Inc. Logo",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2024,
+    "name": "Turn the Tables",
+    "name_original": "Turn the Tables Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Turn the Tables Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "NumFOCUS",
+    "name_original": "NumFOCUS Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=NumFOCUS Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "Black Python Devs",
+    "name_original": "Black Python Devs Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Black Python Devs Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "Open Source Initiative",
+    "name_original": "Open Source Initiative Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Open Source Initiative Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "PyLadies",
+    "name_original": "PyLadies Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PyLadies Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "PyData Pittsburgh",
+    "name_original": "PyData Pittsburgh Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PyData Pittsburgh Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "Python en Español",
+    "name_original": "Python en Español Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Python en Español Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "PyCon APAC Community",
+    "name_original": "PyCon APAC Community Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PyCon APAC Community Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "BeeWare Project",
+    "name_original": "BeeWare Project Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=BeeWare Project Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "CodeDay",
+    "name_original": "CodeDay Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=CodeDay Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "Python Software Foundation",
+    "name_original": "Python Software Foundation Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Python Software Foundation Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "PostgreSQL",
+    "name_original": "PostgreSQL Logo",
+    "company_url": null,
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PostgreSQL Logo",
+    "role": "community"
+  },
+  {
+    "year": 2024,
+    "name": "Plotly Technologies Inc",
+    "name_original": "Plotly Technologies Inc Logo",
+    "company_url": null,
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Plotly Technologies Inc Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "PJM Interconnection",
+    "name_original": "PJM Interconnection Logo",
+    "company_url": null,
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=PJM Interconnection Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Code & Supply Scholarship Fund",
+    "name_original": "Code & Supply Scholarship Fund Logo",
+    "company_url": null,
+    "level": "A la carte",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=A la carte; img alt=Code & Supply Scholarship Fund Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Department of Biostatistics and Data Science, University of Kansas Medical Center",
+    "name_original": "Department of Biostatistics and Data Science, University of Kansas Medical Center Logo",
+    "company_url": null,
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Department of Biostatistics and Data Science, University of Kansas Medical Center Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Research Affiliates LLC",
+    "name_original": "Research Affiliates LLC Logo",
+    "company_url": null,
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Research Affiliates LLC Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Summit Technology Group (STG)",
+    "name_original": "Summit Technology Group (STG) Logo",
+    "company_url": null,
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Summit Technology Group (STG) Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "Code & Supply",
+    "name_original": "Code & Supply Logo",
+    "company_url": null,
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=Code & Supply Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2024,
+    "name": "The New Stack",
+    "name_original": "The New Stack Logo",
+    "company_url": null,
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2024/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=The New Stack Logo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Meta",
+    "name_original": "Meta",
+    "company_url": "https://about.facebook.com/meta/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Meta",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "NVIDIA",
+    "name_original": "NVIDIA",
+    "company_url": "https://developer.nvidia.com",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=NVIDIA",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Fastly",
+    "name_original": "Fastly",
+    "company_url": "https://www.fastly.com/fast-forward",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Fastly",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Bloomberg",
+    "name_original": "Bloomberg",
+    "company_url": "https://www.techatbloomberg.com/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Bloomberg",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Google",
+    "name_original": "Google",
+    "company_url": "https://opensource.google/",
+    "level": "Visionary",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Visionary; img alt=Google",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Microsoft",
+    "name_original": "Microsoft",
+    "company_url": "https://www.microsoft.com/",
+    "level": "Sustainability",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Sustainability; img alt=Microsoft",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "AWS",
+    "name_original": "AWS",
+    "company_url": "https://aws.amazon.com/opensource",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=AWS",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Qube Research & Technologies",
+    "name_original": "Qube Research & Technologies",
+    "company_url": "https://www.qube-rt.com/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Qube Research & Technologies",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Capital One",
+    "name_original": "Capital One",
+    "company_url": "https://www.capitalone.com/tech/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Capital One",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Red Hat",
+    "name_original": "Red Hat",
+    "company_url": "https://www.redhat.com/en",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Red Hat",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "MongoDB",
+    "name_original": "MongoDB",
+    "company_url": "https://mdb.link/pycon",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=MongoDB",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Snowflake",
+    "name_original": "Snowflake",
+    "company_url": "https://www.snowflake.com/en/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=Snowflake",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "American Express",
+    "name_original": "American Express",
+    "company_url": "https://www.americanexpress.com/en-us/careers/career-areas/technology/",
+    "level": "Maintaining",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Maintaining; img alt=American Express",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Western Governors University (WGU)",
+    "name_original": "Western Governors University (WGU)",
+    "company_url": "https://www.wgu.edu/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Western Governors University (WGU)",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Indeed",
+    "name_original": "Indeed",
+    "company_url": "https://www.indeed.com/about",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Indeed",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Cubist Systematic Strategies",
+    "name_original": "Cubist Systematic Strategies",
+    "company_url": "https://point72.com/cubist/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Cubist Systematic Strategies",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Anaconda, Inc",
+    "name_original": "Anaconda, Inc",
+    "company_url": "https://www.anaconda.com/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=Anaconda, Inc",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "JetBrains",
+    "name_original": "JetBrains",
+    "company_url": "https://www.jetbrains.com/pycharm/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=JetBrains",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "OpenEDG Python Institute",
+    "name_original": "OpenEDG Python Institute",
+    "company_url": "https://pythoninstitute.org/",
+    "level": "Contributing",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Contributing; img alt=OpenEDG Python Institute",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Sentry",
+    "name_original": "Sentry",
+    "company_url": "https://sentry.io/for/python/?utm_source=pypi&utm_medium=paid-community&utm_campaign=python-na-evergreen&utm_content=static-ad-pypi-sponsor-learnmore",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Sentry",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "AutoKitteh",
+    "name_original": "AutoKitteh",
+    "company_url": "http://autokitteh.com",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=AutoKitteh",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Old Mission",
+    "name_original": "Old Mission",
+    "company_url": "https://www.oldmissioncapital.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Old Mission",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Salesforce Heroku",
+    "name_original": "Salesforce Heroku",
+    "company_url": "https://www.heroku.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Salesforce Heroku",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Jane Street",
+    "name_original": "Jane Street",
+    "company_url": "https://www.janestreet.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Jane Street",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "PydanticAI",
+    "name_original": "PydanticAI",
+    "company_url": "https://docs.pydantic.dev/latest/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=PydanticAI",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Algorand",
+    "name_original": "Algorand",
+    "company_url": "https://developer.algorand.org",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Algorand",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Gel",
+    "name_original": "Gel",
+    "company_url": "https://www.geldata.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Gel",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Ansys",
+    "name_original": "Ansys",
+    "company_url": "https://www.ansys.com/",
+    "level": "Supporting",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Supporting; img alt=Ansys",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Kensho",
+    "name_original": "Kensho",
+    "company_url": "https://kensho.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Kensho",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Codeflash",
+    "name_original": "Codeflash",
+    "company_url": "http://codeflash.ai",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Codeflash",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Chainguard",
+    "name_original": "Chainguard",
+    "company_url": "https://www.chainguard.dev/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Chainguard",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Analog Devices, Inc.",
+    "name_original": "Analog Devices, Inc.",
+    "company_url": "https://analog.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Analog Devices, Inc.",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Temporal",
+    "name_original": "Temporal",
+    "company_url": "https://temporal.io",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Temporal",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Motional",
+    "name_original": "Motional",
+    "company_url": "https://motional.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Motional",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Datadog",
+    "name_original": "Datadog",
+    "company_url": "https://www.datadoghq.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Datadog",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Anvil",
+    "name_original": "Anvil",
+    "company_url": "https://anvil.works/?utm_source=sponsorship:pycon-2025",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Anvil",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Hudson River Trading",
+    "name_original": "Hudson River Trading",
+    "company_url": "https://www.hudsonrivertrading.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Hudson River Trading",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "ReversingLabs",
+    "name_original": "ReversingLabs",
+    "company_url": "https://www.reversinglabs.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=ReversingLabs",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Duolingo",
+    "name_original": "Duolingo",
+    "company_url": "https://careers.duolingo.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Duolingo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "AlphaSense",
+    "name_original": "AlphaSense",
+    "company_url": "https://www.alpha-sense.com/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=AlphaSense",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Posit, PBC",
+    "name_original": "Posit, PBC",
+    "company_url": "https://posit.co/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Posit, PBC",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Dagster Labs",
+    "name_original": "Dagster Labs",
+    "company_url": "https://dagster.io/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Dagster Labs",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Coiled",
+    "name_original": "Coiled",
+    "company_url": "https://coiled.io/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Coiled",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Redis",
+    "name_original": "Redis",
+    "company_url": "https://redis.io/",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Redis",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "CodSpeed",
+    "name_original": "CodSpeed",
+    "company_url": "https://codspeed.io",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=CodSpeed",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Reuven Lerner — Python training",
+    "name_original": "Reuven Lerner — Python training",
+    "company_url": "https://LernerPython.com",
+    "level": "Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Partner; img alt=Reuven Lerner — Python training",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Astral",
+    "name_original": "Astral",
+    "company_url": "https://astral.sh/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Astral",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Packt",
+    "name_original": "Packt",
+    "company_url": "https://www.packtpub.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Packt",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Six Feet Up",
+    "name_original": "Six Feet Up",
+    "company_url": "https://www.sixfeetup.com/?utm_source=psf",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Six Feet Up",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "No Starch Press",
+    "name_original": "No Starch Press",
+    "company_url": "https://nostarch.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=No Starch Press",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Python Engineer Development Association",
+    "name_original": "Python Engineer Development Association",
+    "company_url": "https://www.pythonic-exam.com/en",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Python Engineer Development Association",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Parafin",
+    "name_original": "Parafin",
+    "company_url": "https://www.parafin.com",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Parafin",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Litestar",
+    "name_original": "Litestar",
+    "company_url": "https://litestar.dev/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Litestar",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Hackers Guild PGH",
+    "name_original": "Hackers Guild PGH",
+    "company_url": "https://hackersguildpgh.com/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Hackers Guild PGH",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Netflix",
+    "name_original": "Netflix",
+    "company_url": "https://about.netflix.com/en",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Netflix",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Commonwealth Bank of Australia",
+    "name_original": "Commonwealth Bank of Australia",
+    "company_url": "https://www.commbank.com.au/",
+    "level": "Participating",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Participating; img alt=Commonwealth Bank of Australia",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "BeProud",
+    "name_original": "BeProud",
+    "company_url": "https://www.beproud.jp/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=BeProud",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Quansight",
+    "name_original": "Quansight",
+    "company_url": "https://quansight.com/",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Quansight",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Feedzai",
+    "name_original": "Feedzai",
+    "company_url": "https://www.feedzai.com",
+    "level": "Associate",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Associate; img alt=Feedzai",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Fern",
+    "name_original": "Fern",
+    "company_url": "https://link.buildwithfern.com/pycon",
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Fern",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Research Affiliates LLC",
+    "name_original": "Research Affiliates LLC",
+    "company_url": "https://www.researchaffiliates.com/",
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Research Affiliates LLC",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Povera Loads & Logic",
+    "name_original": "Povera Loads & Logic",
+    "company_url": "https://povera-lnl.com/",
+    "level": "Standalone Only",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Standalone Only; img alt=Povera Loads & Logic",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Altitude/C",
+    "name_original": "Altitude/C",
+    "company_url": "https://www.altitudec.com/en",
+    "level": "AV Partner",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=AV Partner; img alt=Altitude/C",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "The New Stack",
+    "name_original": "The New Stack",
+    "company_url": "https://thenewstack.io",
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=The New Stack",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "LWN.net",
+    "name_original": "LWN.net",
+    "company_url": "https://lwn.net",
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=LWN.net",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Open Source JobHub",
+    "name_original": "Open Source JobHub",
+    "company_url": "https://opensourcejobhub.com",
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=Open Source JobHub",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "DevITjobs",
+    "name_original": "DevITjobs",
+    "company_url": "https://devitjobs.us/jobs/Python/all/all",
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=DevITjobs",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Linux Magazine",
+    "name_original": "Linux Magazine",
+    "company_url": "https://www.linux-magazine.com",
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=Linux Magazine",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Cult.Repo",
+    "name_original": "Cult.Repo",
+    "company_url": "https://www.cultrepo.com/",
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=Cult.Repo",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "Technical.ly",
+    "name_original": "Technical.ly",
+    "company_url": "https://technical.ly/subscribe/?utm_source=mediapartner&utm_medium=mediapartner&utm_campaign=1682conf",
+    "level": "Media",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Media; img alt=Technical.ly",
+    "role": "sponsor"
+  },
+  {
+    "year": 2025,
+    "name": "All Hands AI",
+    "name_original": "All Hands AI",
+    "company_url": "https://all-hands.dev",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=All Hands AI",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "MLJAR",
+    "name_original": "MLJAR",
+    "company_url": "https://mljar.com",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=MLJAR",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "Fabi.ai",
+    "name_original": "Fabi.ai",
+    "company_url": "https://www.fabi.ai/?isAgentOpen=false",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Fabi.ai",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "DiffStudio Labs LLC",
+    "name_original": "DiffStudio Labs LLC",
+    "company_url": "https://diffstudio.co/",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=DiffStudio Labs LLC",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "Gooey.AI",
+    "name_original": "Gooey.AI",
+    "company_url": "https://gooey.ai/",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Gooey.AI",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "Ragas",
+    "name_original": "Ragas",
+    "company_url": "https://www.ragas.io/",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Ragas",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "AgentOpsAI",
+    "name_original": "AgentOpsAI",
+    "company_url": "#",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=AgentOpsAI",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "Griptape",
+    "name_original": "Griptape",
+    "company_url": "https://griptape.ai/",
+    "level": "PyCon US Startup Row",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=PyCon US Startup Row; img alt=Griptape",
+    "role": "startup_exhibitor"
+  },
+  {
+    "year": 2025,
+    "name": "PyLadies",
+    "name_original": "PyLadies",
+    "company_url": "https://pyladies.com",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PyLadies",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "Django Software Foundation",
+    "name_original": "Django Software Foundation",
+    "company_url": "https://www.djangoproject.com/foundation/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Django Software Foundation",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "Code & Supply",
+    "name_original": "Code & Supply",
+    "company_url": "https://codeandsupply.co",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Code & Supply",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "PostgreSQL",
+    "name_original": "PostgreSQL",
+    "company_url": "https://www.postgresql.org/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PostgreSQL",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "NumFOCUS",
+    "name_original": "NumFOCUS",
+    "company_url": "https://numfocus.org",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=NumFOCUS",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "Electronic Frontier Foundation",
+    "name_original": "Electronic Frontier Foundation",
+    "company_url": "https://eff.org",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Electronic Frontier Foundation",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "Python Software Foundation",
+    "name_original": "Python Software Foundation",
+    "company_url": "https://python.org/psf/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Python Software Foundation",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "CodeDay",
+    "name_original": "CodeDay",
+    "company_url": "https://www.codeday.org/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=CodeDay",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "Python Asia Organization",
+    "name_original": "Python Asia Organization",
+    "company_url": "https://pycon.asia/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Python Asia Organization",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "The Carpentries",
+    "name_original": "The Carpentries",
+    "company_url": "https://carpentries.org/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=The Carpentries",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "Black Python Devs",
+    "name_original": "Black Python Devs",
+    "company_url": "https://blackpythondevs.com",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Black Python Devs",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "Python en Español",
+    "name_original": "Python en Español",
+    "company_url": "https://hablemospython.dev",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=Python en Español",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "PyData Pittsburgh",
+    "name_original": "PyData Pittsburgh",
+    "company_url": "https://pypgh.org",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PyData Pittsburgh",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "PyBeach",
+    "name_original": "PyBeach",
+    "company_url": "https://pybeach.org/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=PyBeach",
+    "role": "community"
+  },
+  {
+    "year": 2025,
+    "name": "EuroPython Society",
+    "name_original": "EuroPython Society",
+    "company_url": "https://www.europython-society.org/",
+    "level": "Community",
+    "source_url": "https://us.pycon.org/2025/sponsorship/sponsors/",
+    "locator": "h2=Community; img alt=EuroPython Society",
+    "role": "community"
+  }
+]

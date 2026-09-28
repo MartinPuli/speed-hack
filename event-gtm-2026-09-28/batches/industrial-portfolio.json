@@ -1,0 +1,1783 @@
+{
+  "batch": "deutsche-messe-worldwide-portfolio",
+  "sources": [
+    {
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "title": "Industry, energy and logistics events worldwide — position 25.3.2026",
+      "publisher": "Deutsche Messe",
+      "source_type": "organizer_portfolio_pdf",
+      "language": "en",
+      "published_at": "2026-03-25",
+      "checked_at": "2026-09-28",
+      "access_method": "web_pdf_read",
+      "reuse_status": "pending_commercial_review",
+      "notes": "Metadatos y hechos; no PDF retenido. Fecha impresa de posición, no prueba de captura histórica."
+    }
+  ],
+  "editions": [
+    {
+      "key": "cemat-south-east-asia-2026",
+      "title": "CeMAT South East Asia 2026",
+      "series_name": "CeMAT South East Asia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-05-12",
+      "end_date": "2026-05-14",
+      "date_precision": "day",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue_name": "Singapore Expo",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 120,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "CeMAT South East Asia",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 5000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "CeMAT South East Asia",
+          "scope": "edition",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "let-2026",
+      "title": "LET — A CeMAT ASIA EVENT 2026",
+      "series_name": "LET — A CeMAT ASIA EVENT",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-06-03",
+      "end_date": "2026-06-05",
+      "date_precision": "day",
+      "city": "Guangzhou",
+      "country": "China",
+      "venue_name": "China Import Export Fair Complex",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 1000,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "LET — A CeMAT ASIA EVENT",
+          "scope": "edition",
+          "comparator": "over"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 50000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "LET — A CeMAT ASIA EVENT",
+          "scope": "edition",
+          "comparator": "over"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "cemat-australia-2026",
+      "title": "CeMAT Australia 2026",
+      "series_name": "CeMAT Australia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-06-23",
+      "end_date": "2026-06-25",
+      "date_precision": "day",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue_name": "Melbourne Convention & Exhibition Centre",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 131,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "CeMAT Australia",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 4577,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "CeMAT Australia",
+          "scope": "edition",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "cemat-asia-2026",
+      "title": "CeMAT Asia 2026",
+      "series_name": "CeMAT Asia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-06",
+      "date_precision": "day",
+      "city": "Shanghai",
+      "country": "China",
+      "venue_name": "Shanghai New International Expo Centre",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 900,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "CeMAT Asia",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 140000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "CeMAT Asia",
+          "scope": "TIFN combined; do not sum across co-located events",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "logistics-automation-nz-2026",
+      "title": "Logistics Automation New Zealand 2026",
+      "series_name": "Logistics Automation New Zealand",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-11-10",
+      "end_date": "2026-11-11",
+      "date_precision": "day",
+      "city": "Auckland",
+      "country": "New Zealand",
+      "venue_name": "Auckland Showgrounds",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 130,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Logistics Automation New Zealand",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 4000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Logistics Automation New Zealand",
+          "scope": "edition",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "supply-chain-indonesia-2026",
+      "title": "Supply Chain Indonesia 2026",
+      "series_name": "Supply Chain Indonesia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-11-25",
+      "end_date": "2026-11-27",
+      "date_precision": "day",
+      "city": "Jakarta",
+      "country": "Indonesia",
+      "venue_name": "Nusantara International Convention & Exhibition",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 190,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Supply Chain Indonesia",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 5000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Supply Chain Indonesia",
+          "scope": "edition",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "hub-of-warehouse-2027",
+      "title": "HOW — Hub of Warehouse 2027",
+      "series_name": "HOW — Hub of Warehouse",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2027-09-23",
+      "end_date": "2027-09-25",
+      "date_precision": "day",
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "venue_name": "Istanbul Expo Center",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 150,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "HOW — Hub of Warehouse",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 15000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "HOW — Hub of Warehouse",
+          "scope": "edition",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "intralogistica-italia-2028",
+      "title": "Intralogistica Italia 2028",
+      "series_name": "Intralogistica Italia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2028-05-29",
+      "end_date": "2028-06-01",
+      "date_precision": "day",
+      "city": "Milano",
+      "country": "Italy",
+      "venue_name": "Fieramilano",
+      "format": "trade_fair",
+      "sector": "logistics",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 120,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Intralogistica Italia",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 25000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Intralogistica Italia",
+          "scope": "edition",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "win-eurasia-2026",
+      "title": "WIN EURASIA 2026",
+      "series_name": "WIN EURASIA",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-06-10",
+      "end_date": "2026-06-13",
+      "date_precision": "day",
+      "city": "Istanbul",
+      "country": "Türkiye",
+      "venue_name": "Istanbul Expo Center",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "win-eurasia-2025",
+      "title": "WIN EURASIA 2025",
+      "series_name": "WIN EURASIA",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2025",
+      "end_date": null,
+      "date_precision": "year",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "reported_held",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_reported",
+          "value": 702,
+          "unit": "organizations",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "WIN EURASIA — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_reported",
+          "value": 40243,
+          "unit": "visitors",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "WIN EURASIA — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "La ficha cita resultados 2025; fecha exacta y sede histórica no acreditadas por la sede 2026. No transportar ubicación entre ediciones."
+    },
+    {
+      "key": "industrial-transformation-australia-2026",
+      "title": "Industrial Transformation Australia 2026",
+      "series_name": "Industrial Transformation Australia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-06-23",
+      "end_date": "2026-06-25",
+      "date_precision": "day",
+      "city": "Melbourne",
+      "country": "Australia",
+      "venue_name": "Melbourne Convention & Exhibition Centre",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "ime-sea-2026",
+      "title": "Intelligent Manufacturing Expo Southeast Asia 2026",
+      "series_name": "Intelligent Manufacturing Expo Southeast Asia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-07-22",
+      "end_date": "2026-07-24",
+      "date_precision": "day",
+      "city": "Bangkok",
+      "country": "Thailand",
+      "venue_name": "IMPACT Exhibition Center",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "industrial-transformation-africa-2026",
+      "title": "Industrial Transformation Africa 2026",
+      "series_name": "Industrial Transformation Africa",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-09-29",
+      "end_date": "2026-10-01",
+      "date_precision": "day",
+      "city": "Casablanca",
+      "country": "Morocco",
+      "venue_name": "OFEC Exhibition Center",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 100,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Industrial Transformation Africa",
+          "scope": "edition",
+          "comparator": "at_least"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 8000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Industrial Transformation Africa",
+          "scope": "edition",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "selangor-techsphere-2026",
+      "title": "Selangor Techsphere Summit 2026",
+      "series_name": "Selangor Techsphere Summit",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-10-14",
+      "end_date": "2026-10-17",
+      "date_precision": "day",
+      "city": "Kuala Lumpur",
+      "country": "Malaysia",
+      "venue_name": "Kuala Lumpur Convention Centre",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "selangor-techsphere-2025",
+      "title": "Selangor Techsphere Summit 2025",
+      "series_name": "Selangor Techsphere Summit",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2025",
+      "end_date": null,
+      "date_precision": "year",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "reported_held",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "visitors_reported",
+          "value": 1535,
+          "unit": "visitors",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Selangor Techsphere Summit — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "La ficha cita resultados 2025; fecha exacta y sede histórica no acreditadas por la sede 2026. No transportar ubicación entre ediciones."
+    },
+    {
+      "key": "ias-2026",
+      "title": "Industrial Automation Show 2026",
+      "series_name": "Industrial Automation Show",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-10-12",
+      "end_date": "2026-10-16",
+      "date_precision": "day",
+      "city": "Shanghai",
+      "country": "China",
+      "venue_name": "National Exhibition and Convention Center",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "itap-2026",
+      "title": "Industrial Transformation Asia-Pacific 2026",
+      "series_name": "Industrial Transformation Asia-Pacific",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-23",
+      "date_precision": "day",
+      "city": "Singapore",
+      "country": "Singapore",
+      "venue_name": "Singapore Expo",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "itap-2025",
+      "title": "Industrial Transformation Asia-Pacific 2025",
+      "series_name": "Industrial Transformation Asia-Pacific",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2025",
+      "end_date": null,
+      "date_precision": "year",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "reported_held",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_reported",
+          "value": 152,
+          "unit": "organizations",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Industrial Transformation Asia-Pacific — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_reported",
+          "value": 13328,
+          "unit": "visitors",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Industrial Transformation Asia-Pacific — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "La ficha cita resultados 2025; fecha exacta y sede histórica no acreditadas por la sede 2026. No transportar ubicación entre ediciones."
+    },
+    {
+      "key": "ptc-asia-2026",
+      "title": "PTC Asia 2026",
+      "series_name": "PTC Asia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-06",
+      "date_precision": "day",
+      "city": "Shanghai",
+      "country": "China",
+      "venue_name": "Shanghai New International Expo Centre",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 1600,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "PTC Asia",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 140000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "PTC Asia",
+          "scope": "TIFN combined; do not sum across co-located events",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "comvac-asia-2026",
+      "title": "ComVac Asia 2026",
+      "series_name": "ComVac Asia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-11-03",
+      "end_date": "2026-11-06",
+      "date_precision": "day",
+      "city": "Shanghai",
+      "country": "China",
+      "venue_name": "Shanghai New International Expo Centre",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_expected",
+          "value": 300,
+          "unit": "organizations",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "ComVac Asia",
+          "scope": "edition",
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_expected",
+          "value": 140000,
+          "unit": "visitors",
+          "denominator": null,
+          "status": "announced",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "ComVac Asia",
+          "scope": "TIFN combined; do not sum across co-located events",
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "smart-technology-expo-2026",
+      "title": "Smart Technology Expo 2026",
+      "series_name": "Smart Technology Expo",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-20",
+      "date_precision": "day",
+      "city": "Guadalajara",
+      "country": "Mexico",
+      "venue_name": "Expo Guadalajara",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "smart-technology-expo-2025",
+      "title": "Smart Technology Expo 2025",
+      "series_name": "Smart Technology Expo",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2025",
+      "end_date": null,
+      "date_precision": "year",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "reported_held",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_reported",
+          "value": 220,
+          "unit": "organizations",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Smart Technology Expo — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_reported",
+          "value": 8000,
+          "unit": "visitors",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Smart Technology Expo — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "La ficha cita resultados 2025; fecha exacta y sede histórica no acreditadas por la sede 2026. No transportar ubicación entre ediciones."
+    },
+    {
+      "key": "industrial-transformation-saudi-2026",
+      "title": "Industrial Transformation Saudi Arabia 2026",
+      "series_name": "Industrial Transformation Saudi Arabia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2026-11-30",
+      "end_date": "2026-12-02",
+      "date_precision": "day",
+      "city": "Riyadh",
+      "country": "Saudi Arabia",
+      "venue_name": "Riyadh International Convention & Exhibition Center",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "industrial-transformation-saudi-2025",
+      "title": "Industrial Transformation Saudi Arabia 2025",
+      "series_name": "Industrial Transformation Saudi Arabia",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2025",
+      "end_date": null,
+      "date_precision": "year",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "reported_held",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_reported",
+          "value": 283,
+          "unit": "organizations",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Industrial Transformation Saudi Arabia — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_reported",
+          "value": 8420,
+          "unit": "visitors",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Industrial Transformation Saudi Arabia — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "La ficha cita resultados 2025; fecha exacta y sede histórica no acreditadas por la sede 2026. No transportar ubicación entre ediciones."
+    },
+    {
+      "key": "hannover-messe-2027",
+      "title": "Hannover Messe 2027",
+      "series_name": "Hannover Messe",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2027-04-05",
+      "end_date": "2027-04-09",
+      "date_precision": "day",
+      "city": "Hannover",
+      "country": "Germany",
+      "venue_name": "Messegelände Hannover",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "hannover-messe-2025",
+      "title": "Hannover Messe 2025",
+      "series_name": "Hannover Messe",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2025",
+      "end_date": null,
+      "date_precision": "year",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "reported_held",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_reported",
+          "value": 3694,
+          "unit": "organizations",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Hannover Messe — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_reported",
+          "value": 123000,
+          "unit": "visitors",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Hannover Messe — 2025 figures",
+          "denominator": null,
+          "comparator": "over"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "La ficha cita resultados 2025; fecha exacta y sede histórica no acreditadas por la sede 2026. No transportar ubicación entre ediciones."
+    },
+    {
+      "key": "cdiif-2027",
+      "title": "Chengdu International Industry Fair 2027",
+      "series_name": "Chengdu International Industry Fair",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2027-04-27",
+      "end_date": "2027-04-29",
+      "date_precision": "day",
+      "city": "Chengdu",
+      "country": "China",
+      "venue_name": "Western China International Expo City",
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "announced",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "end_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "city": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "country": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "venue_name": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "Calendario anunciado al 25-03-2026; verificar vigencia antes de recomendar. Publicación del portfolio no demuestra organizador legal único."
+    },
+    {
+      "key": "cdiif-2025",
+      "title": "Chengdu International Industry Fair 2025",
+      "series_name": "Chengdu International Industry Fair",
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "start_date": "2025",
+      "end_date": null,
+      "date_precision": "year",
+      "city": null,
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair",
+      "sector": "industrial_automation",
+      "status": "reported_held",
+      "source_urls": [
+        "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ],
+        "start_date": [
+          "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf"
+        ]
+      },
+      "organizations": [
+        {
+          "name": "Deutsche Messe",
+          "domain": "messe.de",
+          "role": "portfolio_publisher",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "status": "listed_by_publisher"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "exhibitors_reported",
+          "value": 618,
+          "unit": "organizations",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Chengdu International Industry Fair — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        },
+        {
+          "name": "visitors_reported",
+          "value": 49105,
+          "unit": "visitors",
+          "status": "reported",
+          "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+          "locator": "Chengdu International Industry Fair — 2025 figures",
+          "denominator": null,
+          "comparator": "stated"
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "notes": "La ficha cita resultados 2025; fecha exacta y sede histórica no acreditadas por la sede 2026. No transportar ubicación entre ediciones."
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "status": "web_pdf_opened",
+      "notes": "2 páginas; metadatos transcritos y cantidades con ámbito separado"
+    }
+  ],
+  "queue": [],
+  "conflicts": [
+    {
+      "entity": "SCIIF 2026",
+      "field": "end_date",
+      "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "locator": "p2 SCIIF",
+      "values": [
+        "June 10–2, 2026"
+      ],
+      "status": "pending",
+      "notes": "Texto extraído inconsistente; no corregido por suposición ni incorporado como fecha completa."
+    }
+  ],
+  "relations": [
+    {
+      "from_key": "industrial-transformation-australia-2026",
+      "to_key": "cemat-australia-2026",
+      "type": "co_located_official",
+      "source_url": "https://www.hannovermesse.de/files/files/001/media/globale-bilder-downloads/presse/auslandsveranstaltungen/industry-logistic-worldwide-flyer.pdf",
+      "locator": "p2 Industrial Transformation Australia"
+    }
+  ]
+}

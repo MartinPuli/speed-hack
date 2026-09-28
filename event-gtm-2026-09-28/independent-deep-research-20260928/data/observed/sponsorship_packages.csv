@@ -1,0 +1,17 @@
+id,event_id,name,amount_min,amount_max,currency,benefits_json,exclusivity,inventory,availability,valid_from,valid_to,deadline,source_id
+sponsorship_packages_9049ea803184f13a,evt_5b75e8160a2e1a5d,Teide,6000,6000,EUR,"{""website_logo"":true,""stand"":true,""sponsored_talk"":true}",,,historical_offer; not_current_inventory,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_a9ea7a6cdcbdcc65,evt_5b75e8160a2e1a5d,Tamadaba,4500,4500,EUR,"{""website_logo"":true,""stand"":true,""sponsored_talk"":true}",,,historical_offer; not_current_inventory,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_f7e3b2f8c81c6772,evt_5b75e8160a2e1a5d,Teneguia,3000,3000,EUR,"{""website_logo"":true,""stand"":true,""sponsored_talk"":false}",,,historical_offer; not_current_inventory,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_16fbd85574726cb0,evt_5b75e8160a2e1a5d,Timanfaya,1000,1000,EUR,"{""website_logo"":true,""stand"":false,""sponsored_talk"":false}",,,historical_offer; not_current_inventory,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_ffaa0bcdef2b9814,evt_5b75e8160a2e1a5d,Add-on Patrocinio de Salas,3000,3000,EUR,,,4,historical_offer; some slots per day; see source,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_5e328cee047925e8,evt_5b75e8160a2e1a5d,Add-on Coffee Breaks,1000,1000,EUR,,,1,historical_offer; some slots per day; see source,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_dbeac5e5e062f6f8,evt_5b75e8160a2e1a5d,Add-on Patrocinio de Becas,500,500,EUR,,,4,historical_offer; some slots per day; see source,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_0c7a50e3e7e3c592,evt_5b75e8160a2e1a5d,Add-on Streaming,900,900,EUR,,,4,historical_offer; some slots per day; see source,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_3fe107418e9d403b,evt_5b75e8160a2e1a5d,Add-on Ludoteca,800,800,EUR,,,1,historical_offer; some slots per day; see source,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_f040c60e39d05758,evt_5b75e8160a2e1a5d,Add-on Entrevistas,1000,1000,EUR,,,2,historical_offer; some slots per day; see source,2023,,,src_ce8c1dd48eac4cc9
+sponsorship_packages_a8bb3e6848164cc7,evt_46dba274af8639b7,Digital,3000,3000,AUD,"{""exhibition_space"":null,""taxes"":""ex_GST"",""price_status"":""published""}",,,historical_offer_not_current_availability,2025,,,src_89db9a524d695750
+sponsorship_packages_d70107b8124ee1be,evt_46dba274af8639b7,Startup,3500,3500,AUD,"{""exhibition_space"":""shared"",""taxes"":""ex_GST"",""price_status"":""published""}",,,historical_offer_not_current_availability,2025,,,src_89db9a524d695750
+sponsorship_packages_0ee91e477e5c0411,evt_46dba274af8639b7,Standard,7000,7000,AUD,"{""exhibition_space"":""2x2m"",""taxes"":""ex_GST"",""price_status"":""published""}",,,historical_offer_not_current_availability,2025,,,src_89db9a524d695750
+sponsorship_packages_4e9607d9cab3ee77,evt_46dba274af8639b7,Gold,10000,10000,AUD,"{""exhibition_space"":""2x2m"",""taxes"":""ex_GST"",""price_status"":""published""}",,5,historical_offer_not_current_availability,2025,,,src_89db9a524d695750
+sponsorship_packages_7b5eb5933272b24a,evt_46dba274af8639b7,Platinum,15000,15000,AUD,"{""exhibition_space"":""3x3m"",""taxes"":""ex_GST"",""price_status"":""published""}",,3,historical_offer_not_current_availability,2025,,,src_89db9a524d695750
+sponsorship_packages_37dc0c3d971266f3,evt_46dba274af8639b7,Diamond,,,AUD,"{""exhibition_space"":""4x4m"",""taxes"":""ex_GST"",""price_status"":""quote_required""}",,1,historical_offer_not_current_availability,2025,,,src_89db9a524d695750

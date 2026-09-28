@@ -1,0 +1,329 @@
+[
+  {
+    "source_url": "https://www.cncf.io/wp-content/uploads/2025/07/KubeCon-CloudNativeCon-Japan-2025-Transparency-Report-FINAL.pdf",
+    "event": {
+      "event_title": "KubeCon + CloudNativeCon Japan 2025",
+      "event_start": "2025-06-16",
+      "event_end": "2025-06-17",
+      "event_url": "https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-japan/",
+      "city": "Tokyo",
+      "country": "Japan"
+    },
+    "facts": [
+      {
+        "kind": "audience_metric",
+        "metric": "registrations",
+        "value": 1502,
+        "unit": "registrations",
+        "denominator": null,
+        "definition": "Organizer-reported registrations; not an exact count of actual attendance.",
+        "locator": "PDF page 3 (1-based)",
+        "required_text": "1,502",
+        "published_at": "2025-07"
+      },
+      {
+        "kind": "audience_metric",
+        "metric": "attendance_rate",
+        "value": 98,
+        "unit": "percent",
+        "denominator": null,
+        "definition": "Organizer-reported rounded attendance rate. Denominator and audit method not explicitly defined. Do not calculate an exact attendee count.",
+        "locator": "PDF page 3 (1-based)",
+        "required_text": "98%",
+        "published_at": "2025-07"
+      },
+      {
+        "kind": "audience_metric",
+        "metric": "companies_represented",
+        "value": 471,
+        "unit": "organizations",
+        "denominator": null,
+        "definition": "Organizer-reported companies represented; not all were sponsors.",
+        "locator": "PDF page 3 (1-based)",
+        "required_text": "471",
+        "published_at": "2025-07"
+      },
+      {
+        "kind": "outcome_metric",
+        "metric": "onsite_leads_total",
+        "value": 6065,
+        "unit": "lead_captures",
+        "denominator": null,
+        "definition": "Organizer-reported booth traffic leads. Not unique people, qualified leads, revenue, or conversions.",
+        "locator": "PDF page 11 (1-based)",
+        "required_text": "6,065",
+        "published_at": "2025-07"
+      },
+      {
+        "kind": "outcome_metric",
+        "metric": "onsite_leads_average_per_booth",
+        "value": 178,
+        "unit": "lead_captures_per_booth",
+        "denominator": null,
+        "definition": "Organizer-reported average; number of booths used as denominator not disclosed.",
+        "locator": "PDF page 11 (1-based)",
+        "required_text": "178",
+        "published_at": "2025-07"
+      },
+      {
+        "kind": "outcome_metric",
+        "metric": "unique_sponsors",
+        "value": 42,
+        "unit": "organizations",
+        "denominator": null,
+        "definition": "Organizer-reported unique sponsors including marketing opportunities; website logo list coverage differs.",
+        "locator": "PDF page 11 (1-based)",
+        "required_text": "42",
+        "published_at": "2025-07"
+      }
+    ]
+  },
+  {
+    "source_url": "https://www.cncf.io/wp-content/uploads/2025/09/KubeCon_India25_TransparencyReport.pdf",
+    "event": {
+      "event_title": "KubeCon + CloudNativeCon India 2025",
+      "event_start": "2025-08-06",
+      "event_end": "2025-08-07",
+      "event_url": "https://events.linuxfoundation.org/archive/2025/kubecon-cloudnativecon-india/",
+      "city": "Hyderabad",
+      "country": "India"
+    },
+    "facts": [
+      {
+        "kind": "audience_metric",
+        "metric": "registrations",
+        "value": 4017,
+        "unit": "registrations",
+        "denominator": null,
+        "definition": "Organizer-reported registrations; not an exact count of actual attendance.",
+        "locator": "PDF page 3 (1-based)",
+        "required_text": "4,017",
+        "published_at": "2025-09"
+      },
+      {
+        "kind": "audience_metric",
+        "metric": "attendance_rate",
+        "value": 96,
+        "unit": "percent",
+        "denominator": null,
+        "definition": "Organizer-reported rounded attendance rate. Denominator and audit method not explicitly defined. Do not calculate an exact attendee count.",
+        "locator": "PDF page 3 (1-based)",
+        "required_text": "96%",
+        "published_at": "2025-09"
+      },
+      {
+        "kind": "audience_metric",
+        "metric": "companies_represented",
+        "value": 1256,
+        "unit": "organizations",
+        "denominator": null,
+        "definition": "Organizer-reported companies represented; not all were sponsors.",
+        "locator": "PDF page 3 (1-based)",
+        "required_text": "1,256",
+        "published_at": "2025-09"
+      },
+      {
+        "kind": "outcome_metric",
+        "metric": "onsite_leads_total",
+        "value": 19248,
+        "unit": "lead_captures",
+        "denominator": null,
+        "definition": "Organizer-reported booth traffic leads. Not unique people, qualified leads, revenue, or conversions.",
+        "locator": "PDF page 11 (1-based)",
+        "required_text": "19,248",
+        "published_at": "2025-09"
+      },
+      {
+        "kind": "outcome_metric",
+        "metric": "onsite_leads_average_per_booth",
+        "value": 494,
+        "unit": "lead_captures_per_booth",
+        "denominator": null,
+        "definition": "Organizer-reported average; number of booths used as denominator not disclosed.",
+        "locator": "PDF page 11 (1-based)",
+        "required_text": "494",
+        "published_at": "2025-09"
+      },
+      {
+        "kind": "outcome_metric",
+        "metric": "unique_sponsors",
+        "value": 42,
+        "unit": "organizations",
+        "denominator": null,
+        "definition": "Organizer-reported unique sponsors including marketing opportunities; website logo list coverage differs.",
+        "locator": "PDF page 11 (1-based)",
+        "required_text": "42",
+        "published_at": "2025-09"
+      }
+    ]
+  },
+  {
+    "source_url": "https://2025.pycon.org.au/files/Sponsor%20PyCon%20AU%202025%20-%20Prospectus%20v4.pdf",
+    "event": {
+      "event_title": "PyCon AU 2025",
+      "event_start": "2025-09-12",
+      "event_end": "2025-09-16",
+      "event_url": "https://2025.pycon.org.au/",
+      "city": "Melbourne",
+      "country": "Australia"
+    },
+    "facts": [
+      {
+        "kind": "sponsor_package",
+        "level": "Digital",
+        "metric": "advertised_package_price",
+        "value": 3000,
+        "unit": "AUD",
+        "currency": "AUD",
+        "tax_status": "excluding_GST",
+        "definition": "Published asking price in v4 prospectus. Discounts may apply; not proof of sale, sponsor spending or an executed contract. Historical 2025 offer.",
+        "locator": "PDF page 12; Company Sponsorships table",
+        "required_text": "$3k"
+      },
+      {
+        "kind": "sponsor_package",
+        "level": "Startup",
+        "metric": "advertised_package_price",
+        "value": 3500,
+        "unit": "AUD",
+        "currency": "AUD",
+        "tax_status": "excluding_GST",
+        "definition": "Published asking price in v4 prospectus. Discounts may apply; not proof of sale, sponsor spending or an executed contract. Historical 2025 offer.",
+        "locator": "PDF page 12; Company Sponsorships table",
+        "required_text": "$3.5k"
+      },
+      {
+        "kind": "sponsor_package",
+        "level": "Standard",
+        "metric": "advertised_package_price",
+        "value": 7000,
+        "unit": "AUD",
+        "currency": "AUD",
+        "tax_status": "excluding_GST",
+        "definition": "Published asking price in v4 prospectus. Discounts may apply; not proof of sale, sponsor spending or an executed contract. Historical 2025 offer.",
+        "locator": "PDF page 12; Company Sponsorships table",
+        "required_text": "$7k"
+      },
+      {
+        "kind": "sponsor_package",
+        "level": "Gold",
+        "metric": "advertised_package_price",
+        "value": 10000,
+        "unit": "AUD",
+        "currency": "AUD",
+        "tax_status": "excluding_GST",
+        "definition": "Published asking price in v4 prospectus. Discounts may apply; not proof of sale, sponsor spending or an executed contract. Historical 2025 offer.",
+        "locator": "PDF page 12; Company Sponsorships table",
+        "required_text": "$10k"
+      },
+      {
+        "kind": "sponsor_package",
+        "level": "Platinum",
+        "metric": "advertised_package_price",
+        "value": 15000,
+        "unit": "AUD",
+        "currency": "AUD",
+        "tax_status": "excluding_GST",
+        "definition": "Published asking price in v4 prospectus. Discounts may apply; not proof of sale, sponsor spending or an executed contract. Historical 2025 offer.",
+        "locator": "PDF page 12; Company Sponsorships table",
+        "required_text": "$15k"
+      },
+      {
+        "kind": "call_for_sponsors",
+        "metric": "most_addons_contract_deadline",
+        "value": "2025-08-29",
+        "unit": "date",
+        "definition": "Most add-ons had this deadline; exceptions printed on page. Historical closed opportunity.",
+        "locator": "PDF page 15; add-on deadline note",
+        "required_text": "Most add-ons must be contracted by 29 August",
+        "status": "closed_historical"
+      }
+    ]
+  },
+  {
+    "source_url": "https://www.snowflake.com/en/news/press-releases/snowflake-expands-aws-collaboration-with-6b-commitment-to-accelerate-enterprise-agentic-ai-adoption/",
+    "facts": [
+      {
+        "kind": "company_news",
+        "company_name": "Snowflake",
+        "company_url": "https://www.snowflake.com/",
+        "related_company_name": "AWS",
+        "related_company_url": "https://aws.amazon.com/",
+        "metric": "strategic_collaboration_announced",
+        "value": "Expanded multi-year strategic collaboration with AWS for enterprise agentic AI",
+        "published_at": "2026-05-27",
+        "locator": "headline and opening announcement paragraph",
+        "required_text": "May 27, 2026",
+        "definition": "Company press release announcing a collaboration. Not evidence of current event sponsorship interest or available marketing budget."
+      },
+      {
+        "kind": "company_profile",
+        "company_name": "Snowflake",
+        "company_url": "https://www.snowflake.com/",
+        "metric": "public_product_positioning",
+        "value": "AI Data Cloud for enterprise data, applications and AI",
+        "locator": "About Snowflake",
+        "required_text": "AI Data Cloud",
+        "definition": "Company self-description in official press release; public profile only, not a user-supplied ICP or campaign objective."
+      }
+    ]
+  },
+  {
+    "source_url": "https://2025.pycon.org.au/sponsor/",
+    "event": {
+      "event_title": "PyCon AU 2025",
+      "event_start": "2025-09-12",
+      "event_end": "2025-09-16",
+      "event_url": "https://2025.pycon.org.au/",
+      "city": "Melbourne",
+      "country": "Australia"
+    },
+    "facts": [
+      {
+        "kind": "audience_profile",
+        "metric": "promoted_audience_roles",
+        "value": [
+          "Python developers",
+          "data scientists",
+          "educators",
+          "open-source advocates"
+        ],
+        "unit": "role_labels",
+        "denominator": null,
+        "locator": "Sponsorship Opportunities section",
+        "required_text": "data scientists",
+        "definition": "Advertised target audience; no actual attendance counts or composition verified."
+      }
+    ]
+  },
+  {
+    "source_url": "https://valkey.io/",
+    "facts": [
+      {
+        "kind": "company_profile",
+        "company_name": "Valkey",
+        "company_url": "https://valkey.io/",
+        "metric": "public_product_positioning",
+        "value": "Open source BSD key-value datastore for caching, queues and database workloads, backed by Linux Foundation",
+        "locator": "homepage opening product paragraph",
+        "required_text": "key/value datastore",
+        "definition": "Project-owned website product self-description; not a commercial company, campaign objective or budget."
+      }
+    ]
+  },
+  {
+    "source_url": "https://clickhouse.com/",
+    "facts": [
+      {
+        "kind": "company_profile",
+        "company_name": "ClickHouse",
+        "company_url": "https://clickhouse.com/",
+        "metric": "public_product_positioning",
+        "value": "Open-source OLAP database; cloud offerings and use cases in real-time analytics, observability, data warehousing, machine learning and GenAI.",
+        "required_text": "real-time analytics",
+        "locator": "Products menu; Use cases section",
+        "definition": "Current company-owned homepage product/use-case positioning. These use cases are public; user ICP, event objectives and budget remain unknown."
+      }
+    ]
+  }
+]

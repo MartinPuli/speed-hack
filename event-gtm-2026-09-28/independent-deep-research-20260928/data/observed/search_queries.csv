@@ -1,0 +1,68 @@
+id,query,service,language,filters_json,geography,window_start,window_end,observed_at,new_sources_count,batch_id
+search_queries_692d9352c88b11ec,site.rolandgarros.com 2024 2023 tournament attendance partners BNP Paribas Lacoste dates,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_83042b6f9cf59c67,site.frieze.com London 2024 2023 fair attendance Deutsche Bank dates,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_8d264defbb368e9d,site.flip.org.br 2023 2024 balanço Flip patrocinadores,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_d8784512b14c4636,site.flip.org.br edições anteriores 2021 2022 2023 2024 2025 2026,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_f138edcfd4429d7d,site.fil.com.mx 2025 2024 2023 cifras visitantes 2026 fechas,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_99bb5f7d5016a368,site.frieze.com London 2021 2022 2023 2024 2025 2026 dates,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_f2b2b83758c11476,"""Flip 2024"" ""9 a 13"" site:flip.org.br",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_b10b7d3f32808709,"""Flip 2022"" ""23 a 27"" site:flip.org.br",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_82197a155c43dd77,"""Flip 2025"" ""balanço"" site:flip.org.br",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_641235ae80e6b575,"""Flip 2026"" site:flip.org.br",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_108ed706fa964c81,FIL Guadalajara 2021 251900 27 noviembre 5 diciembre site:udg.mx,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_06a1e3af6797696b,FIL Guadalajara 2022 806805 26 noviembre 4 diciembre site:udg.mx,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_8ad75c2ae308164b,FIL Guadalajara 2023 857315 25 noviembre 3 diciembre site:udg.mx,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_aea2e0d96916862b,FIL Guadalajara 2024 907300 30 noviembre 8 diciembre site:udg.mx,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_2a345c2ade3812ea,"""FIL"" ""2021"" ""27 de noviembre"" site:udg.mx",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_b73130160ee6af45,"""FIL 2022"" ""806"" site:udg.mx",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_57a8b415df291b38,"""FIL 2025"" ""29 de noviembre"" site:fil.com.mx",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_50d422d3d6f9b63a,"""FIL 2025"" patrocinadores HSBC Bancomext site:fil.com.mx",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_8bf5109dd873665c,"site.udg.mx ""2022"" ""806 mil"" ""FIL""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_77881334c7941f6d,"site.fil.com.mx ""2025"" ""29 de noviembre al 7 de diciembre""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_0a1ea408b4643a67,"site.fil.com.mx ""2025"" ""patrocinadores""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_8b023d74293a1f92,"site.press.frieze.com ""London"" ""2021"" ""13"" ""Deutsche""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_96a35123b1ab1472,"site.press.frieze.com ""London"" ""2022"" ""12"" ""Deutsche""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_23314347fd657805,"site.press.frieze.com ""London"" ""2023"" ""11"" ""Deutsche""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_9d3d4bb9626ad80b,"site.press.frieze.com ""London"" ""2024"" ""9"" ""Deutsche""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_16241b69b0644dc0,"site.frieze.com ""Frieze London"" ""2021"" ""13–17""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_a19d584876ac2a18,"site.frieze.com ""Frieze London"" ""2022"" ""85,000""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_02ba661c1bc1073d,"site.frieze.com ""Frieze London"" ""2023"" ""85,000""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_97c88fa975421127,"site.press.frieze.com ""2024"" ""90,000"" ""London""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_2b63f5f55b13db82,Frieze London 2022 end of fair report site:frieze.com,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_b46a8534319b8867,Frieze London 2023 end of fair report site:frieze.com,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_708117402cb58756,Frieze London 2024 end of fair report site:frieze.com,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_2ae99bace0d4e5ca,"site.flip.org.br ""2021"" ""27 de novembro a 5""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_c80bc1d54e6d37a4,"site.flip.org.br ""2023"" ""Itaú""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_0e4687d8d7c5ff42,"site.flip.org.br ""2024"" ""Petrobras""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_ebec988f4b5f2265,"site.flip.org.br ""2025"" ""Shell""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_52155e6d16bb8489,"""Flip"" ""2025"" ""patrocinadores""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_9a44914badccc64a,"""Flip"" ""2024"" ""patrocínio""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_815cf523a453cf7c,"""Flip"" ""2023"" ""CCR""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_8e88c39765ae9566,"site.motiva.com.br ""Flip"" ""2025""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_d30610d434ced4a0,"site.motiva.com.br ""Flip"" ""2023""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_8b590c225a99873b,"site.flip.org.br ""2026"" ""balanço""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_43dd701fc8de7c64,"site.flip.org.br ""2025"" ""35 mil""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_c8dece2ac1879d4e,"site.rolandgarros.com ""2022"" ""16 May"" ""5 June""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_b8f8ffccb5bef35c,"site.rolandgarros.com ""2023"" ""22 May"" ""11 June""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_49687a28704c7afd,"site.rolandgarros.com ""2024"" ""20 May"" ""9 June""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_70b9ee1b5b5fb4c6,"site.rolandgarros.com ""2025"" ""19 May"" ""8 June""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_571c4d72cf01fb27,"site.rolandgarros.com ""2026"" ""bilan"" ""spectateurs""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_0b501439ad3592b2,"site.rolandgarros.com ""2025"" ""687""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_7b3780bcb57540c6,"site.media.renault.com ""Roland-Garros"" ""2022"" ""premium""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_36a8e6eb8ee82b00,"site.rolandgarros.com ""2027"" ""17 mai""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_e7a93ebcdaae03c2,"site.rolandgarros.com ""2026"" ""bilan"" ""juin""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_df29c3d3604d0bdc,"site.rolandgarros.com ""2025"" ""687"" ""spectateurs""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_e47097628c80edb1,"site.media.renault.com ""Roland-Garros"" ""2025"" ""19 mai""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_14e96afebc0b3222,"site.rolandgarros.com ""2026"" ""partenaires"" ""BNP""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_a41026326e45678c,"site.motiva.com.br ""CCR"" ""agora"" ""Motiva"" ""2025""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_984ceb3c7ac5078b,"site.flip.org.br ""Associação Casa Azul"" ""Flip""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_c2c586f6485560c5,"site.frieze.com ""Stone Island"" ""2023"" ""Focus""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_2a7257c1e93c8fbe,"site.frieze.com ""Frieze London"" ""2023"" ""Wins"" ""Focus""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_8345cb538207aba7,"site.frieze.com ""Frieze London"" ""2024"" ""Wins"" ""Focus""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_ea821b4311d45d04,"site.flip.org.br ""2026"" ""encerra""",web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_f05b5bec707ca414,Flip 2025 2024 2023 balanço festa literária,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_ea048fdfa864e611,Flip 2021 2022 edição datas,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_f0eeb502e39b075f,FIL Guadalajara 2025 2024 2023 cifras,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_89180ad802fc56ca,FIL Guadalajara 2021 2022 2026 fechas,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_b68b3e956d84e4b9,Roland Garros 2022 2023 2024 bilan spectateurs,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration
+search_queries_3dfb3138cc39b271,Roland Garros 2025 2026 dates bilan Renault,web_search,mixed_es_pt_fr_en_it,,,2021-09-28,2026-09-28,2026-09-28,,nontech-exploration

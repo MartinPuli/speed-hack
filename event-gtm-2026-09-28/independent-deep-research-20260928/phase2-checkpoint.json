@@ -1,0 +1,40 @@
+{
+  "phase": "phase2_architecture_recovery_costs_complete",
+  "completed_at_utc": "2026-09-28T15:20:17.738420+00:00",
+  "phase1_checkpoint": "phase1-checkpoint.json",
+  "counts": {
+    "event_editions": 688,
+    "series": 101,
+    "organizations": 288,
+    "sponsor_roles": 320,
+    "sponsor_or_partner_roles": 21,
+    "sources": 160,
+    "assertions": 21570,
+    "original_news_articles": 10,
+    "historical_editions": 650,
+    "upcoming_or_current_editions": 38,
+    "provisional_or_secondary_cores": 8,
+    "observed_repeat_presences": 127
+  },
+  "qa_checks": 13,
+  "qa_passed": true,
+  "artifacts": {
+    "dataset.sqlite": "c7b116fd3b4387ad5a37394e979116debeee1ed29fc09e4dcd60b5c8cb0d8be1",
+    "run_manifest.json": "99f30c0b1b987c4b50ed9d26dfe7d1774a6c075b55aec9a736867d6f4f849854",
+    "coverage.csv": "c63e64fddc49423797b6cbe55e4a634e8e9746357b7ef5f9d5c6d83931fc7b0e",
+    "data_dictionary.csv": "de0146eb7563a49f63d10f1236348684ef1f131caa2649d32cb502e4d17ab788",
+    "qa-results.json": "f0ad46886d8a4aa2edd21f85d8a7c1a7fc72cfce15f2eaedfbe12cc3c6d49df3",
+    "phase1-research.md": "91a13fb68660355a0072f66ef10ebe4c716190ac72ced36c00be3e765c76fc2e",
+    "phase2-architecture.md": "2cbcede69ef3059ab57efdf62e5b91f55a9359df0ee5558ae98c698a5f54dca6",
+    "phase2-economics.md": "57aca36d3c99cc57f79ee2ac97f4ae7ade125862a1671dace679658bbe653c31",
+    "validation_report.md": "53364ec802fb5c3780051ec34c7dde312d15879a0469c25d01738a3522693500",
+    "README.md": "2168063bf80abe00bba9df5d422b246a2456b6be9d2d331cde252ee4023f8f20"
+  },
+  "limitations": [
+    "No historical pre-event web captures for temporal backtest",
+    "No real customer profile or human ranking labels",
+    "Commercial content licenses unconfirmed",
+    "No production-scale PostgreSQL, provider or LLM benchmark",
+    "No current event API, account or paid provider usage"
+  ]
+}

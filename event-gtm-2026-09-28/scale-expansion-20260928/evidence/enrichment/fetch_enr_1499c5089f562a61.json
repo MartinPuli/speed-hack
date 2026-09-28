@@ -1,0 +1,15 @@
+{
+  "fetch_id": "fetch_enr_1499c5089f562a61",
+  "source_url": "https://www.cncf.io/wp-content/uploads/2025/07/KubeCon-CloudNativeCon-Japan-2025-Transparency-Report-FINAL.pdf",
+  "final_url": "https://www.cncf.io/wp-content/uploads/2025/07/KubeCon-CloudNativeCon-Japan-2025-Transparency-Report-FINAL.pdf",
+  "observed_at": "2026-09-28T15:48:02.578149+00:00",
+  "http_status": 200,
+  "content_sha256": "613cda4eb7cacd15f386d4005a60bb5bdd0f2b2dae08deb92fad270a17070ebb",
+  "bytes": 4635620,
+  "content_type": "application/pdf",
+  "robots_status": 200,
+  "robots_decision": "allowed",
+  "attempts": 1,
+  "prior_error": null,
+  "pdf_page_count": 15
+}

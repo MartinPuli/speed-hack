@@ -1,0 +1,389 @@
+{
+  "batch": "pycon-decision-enrichment",
+  "sources": [
+    {
+      "url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "title": "PyCon US 2026 and PSF prospectus",
+      "publisher": "Python Software Foundation",
+      "source_type": "sponsorship_prospectus",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_commercial_review"
+    },
+    {
+      "url": "https://us.pycon.org/2026/attend/information/",
+      "title": "PyCon US 2026 registration",
+      "publisher": "Python Software Foundation",
+      "source_type": "organizer_official",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_commercial_review"
+    },
+    {
+      "url": "https://us.pycon.org/2024/schedule/sponsor-presentations/index.html",
+      "title": "PyCon US 2024 sponsor presentations",
+      "publisher": "Python Software Foundation",
+      "source_type": "agenda",
+      "language": "en",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_commercial_review"
+    }
+  ],
+  "packages": [
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Visionary",
+      "amount": 160000,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Sustainability",
+      "amount": 99000,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Maintaining",
+      "amount": 65000,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Contributing",
+      "amount": 33500,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Supporting",
+      "amount": 16750,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Partner",
+      "amount": 11500,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Participating",
+      "amount": 4250,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Associate",
+      "amount": 1750,
+      "currency": "USD",
+      "unit": "annual_integrated_PSF_and_PyCon_sponsorship",
+      "benefits": "Programa anual integrado; no precio exclusivo de un evento. Desglose de beneficios por confirmar contra prospecto.",
+      "availability": "historical_tariff_not_current_inventory",
+      "taxes": null,
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p9 package table"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "AI track lead",
+      "amount": 75000,
+      "currency": "USD",
+      "unit": "track_sponsorship",
+      "benefits": "Patrocinio de track; beneficios exactos requieren confirmación.",
+      "availability": "historical_offer",
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p7 AI and Security tracks"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "AI track co-sponsor",
+      "amount": 50000,
+      "currency": "USD",
+      "unit": "track_sponsorship",
+      "benefits": "Patrocinio de track; beneficios exactos requieren confirmación.",
+      "availability": "historical_offer_limit_2",
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p7 AI and Security tracks"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Security track lead",
+      "amount": 45000,
+      "currency": "USD",
+      "unit": "track_sponsorship",
+      "benefits": "Patrocinio de track; beneficios exactos requieren confirmación.",
+      "availability": "filled_in_document",
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p7 AI and Security tracks"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "name": "Security track co-sponsor",
+      "amount": 25000,
+      "currency": "USD",
+      "unit": "track_sponsorship",
+      "benefits": "Patrocinio de track; beneficios exactos requieren confirmación.",
+      "availability": "historical_offer_limit_2",
+      "source_url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "locator": "p7 AI and Security tracks"
+    }
+  ],
+  "costs": [
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "ticket",
+      "name": "Corporate admission",
+      "amount": 899,
+      "currency": "USD",
+      "unit": "per_person",
+      "taxes": null,
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Registration prices",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "ticket",
+      "name": "Individual admission",
+      "amount": 469,
+      "currency": "USD",
+      "unit": "per_person",
+      "taxes": null,
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Registration prices",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "ticket",
+      "name": "Student admission",
+      "amount": 139,
+      "currency": "USD",
+      "unit": "per_person",
+      "taxes": null,
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Registration prices",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "ticket",
+      "name": "Tutorial",
+      "amount": 150,
+      "currency": "USD",
+      "unit": "per_person_per_tutorial",
+      "taxes": null,
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Registration prices",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "lodging",
+      "name": "Courtyard Long Beach Downtown",
+      "amount": 274,
+      "currency": "USD",
+      "unit": "per_night",
+      "taxes": "plus_tax",
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Hotels",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "lodging",
+      "name": "Marriott Long Beach Downtown",
+      "amount": 284,
+      "currency": "USD",
+      "unit": "per_night",
+      "taxes": "plus_tax",
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Hotels",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "lodging",
+      "name": "Hyatt Regency Long Beach",
+      "amount": 304,
+      "currency": "USD",
+      "unit": "per_night",
+      "taxes": "plus_tax",
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Hotels",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "category": "lodging",
+      "name": "Westin Long Beach",
+      "amount": 290,
+      "currency": "USD",
+      "unit": "per_night",
+      "taxes": "plus_tax",
+      "price_type": "published_historical_tariff",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Hotels",
+      "notes": "Tarifa de edición pasada; no cotización actual. Las tres primeras tarifas de hotel se publican como starting at."
+    }
+  ],
+  "sessions": [
+    {
+      "edition_key": "pycon-us-2024",
+      "title": "Python in Cloudflare Workers – Running Pyodide on the Edge",
+      "date": "2024-05-16",
+      "time": null,
+      "room": null,
+      "format": "sponsor_presentation",
+      "sponsor": "Cloudflare",
+      "speakers": [
+        "Hood Chatham",
+        "Garrett Gu"
+      ],
+      "status": "announced_in_agenda",
+      "source_url": "https://us.pycon.org/2024/schedule/sponsor-presentations/index.html",
+      "locator": "Thursday May 16 sponsor presentations",
+      "affiliation": null
+    },
+    {
+      "edition_key": "pycon-us-2024",
+      "title": "Python Powered Serverless Observability",
+      "date": "2024-05-16",
+      "time": null,
+      "room": null,
+      "format": "sponsor_presentation",
+      "sponsor": "Capital One",
+      "speakers": [
+        "Brian McNamara",
+        "Dan Furman"
+      ],
+      "status": "announced_in_agenda",
+      "source_url": "https://us.pycon.org/2024/schedule/sponsor-presentations/index.html",
+      "locator": "Thursday May 16 sponsor presentations",
+      "affiliation": null
+    },
+    {
+      "edition_key": "pycon-us-2024",
+      "title": "Introducing Pydantic’s new platform",
+      "date": "2024-05-16",
+      "time": null,
+      "room": null,
+      "format": "sponsor_presentation",
+      "sponsor": "Pydantic",
+      "speakers": [
+        "Samuel Colvin"
+      ],
+      "status": "announced_in_agenda",
+      "source_url": "https://us.pycon.org/2024/schedule/sponsor-presentations/index.html",
+      "locator": "Thursday May 16 sponsor presentations",
+      "affiliation": null
+    },
+    {
+      "edition_key": "pycon-us-2024",
+      "title": "State of Python Supply Chain Security",
+      "date": "2024-05-16",
+      "time": null,
+      "room": null,
+      "format": "sponsor_presentation",
+      "sponsor": "Alpha-Omega",
+      "speakers": [
+        "Seth Michael Larson",
+        "Michael Winser"
+      ],
+      "status": "announced_in_agenda",
+      "source_url": "https://us.pycon.org/2024/schedule/sponsor-presentations/index.html",
+      "locator": "Thursday May 16 sponsor presentations",
+      "affiliation": null
+    }
+  ],
+  "deadlines": [
+    {
+      "edition_key": "pycon-us-2026",
+      "type": "individual_ticket_transfer",
+      "date": "2026-05-01",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Cancellation / transfer policies"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "type": "registration_refund",
+      "date": "2026-05-01",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Cancellation / transfer policies"
+    },
+    {
+      "edition_key": "pycon-us-2026",
+      "type": "organizer_hotel_cancellation_assistance",
+      "date": "2026-04-24",
+      "source_url": "https://us.pycon.org/2026/attend/information/",
+      "locator": "Cancellation / transfer policies"
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://s3.dualstack.us-east-2.amazonaws.com/pythondotorg-assets/media/files/psf_sponsor_prospectus_feb26-compressed.pdf",
+      "status": "web_opened"
+    },
+    {
+      "url": "https://us.pycon.org/2026/attend/information/",
+      "status": "web_opened"
+    },
+    {
+      "url": "https://us.pycon.org/2024/schedule/sponsor-presentations/index.html",
+      "status": "web_opened"
+    }
+  ]
+}

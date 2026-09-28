@@ -1,0 +1,433 @@
+{
+  "schema_version": "1.0",
+  "scope": "Fuentes primarias para workflow, seguridad y observabilidad de Growth Atlas; fase 2 posterior al gate",
+  "checked_at": "2026-09-28",
+  "evidence_policy": "Hechos documentales separados de recomendaciones locales. No pruebas de runtime de los SDKs ni llamadas de escritura.",
+  "internal_inputs": [
+    "docs/architecture.md",
+    "docs/research/event-gtm-2026-09-28/checkpoints/phase-1-gate.md",
+    "docs/research/event-gtm-2026-09-28/reports/acceso-fuentes-y-luma.md",
+    "docs/research/event-gtm-2026-09-28/reports/lote-eventos-diversos.md"
+  ],
+  "sources": [
+    {
+      "id": "wf-01",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "title": "Building effective agents",
+      "publisher": "Anthropic",
+      "source_type": "official_engineering_article",
+      "language": "en",
+      "published_at": "2024-12-19",
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "workflow_agent_distinction",
+          "value": "Workflow: caminos predefinidos; agente: el modelo dirige dinámicamente proceso y herramientas.",
+          "locator": "What are agents?",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "complexity_policy",
+          "value": "Recomienda empezar simple y agregar complejidad cuando mejore resultados medidos.",
+          "locator": "When (and when not) to use agents; Combining and customizing these patterns",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "independent_work",
+          "value": "Distingue paralelización de subtareas independientes de delegación dinámica por orquestador.",
+          "locator": "Parallelization; Orchestrator-workers",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "El aviso actual indica que cambió el panorama de herramientas desde 2024. Se usa como patrón, no inventario vigente."
+    },
+    {
+      "id": "wf-02",
+      "url": "https://developers.openai.com/api/docs/guides/agents/sdk",
+      "title": "Agents SDK",
+      "publisher": "OpenAI",
+      "source_type": "official_documentation",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "runtime_responsibility",
+          "value": "El loop se ejecuta en la aplicación; esta controla despliegue, herramientas, almacenamiento y aprobaciones.",
+          "locator": "Agents SDK",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "languages",
+          "value": "Documenta SDKs TypeScript y Python.",
+          "locator": "Start with the Agents SDK",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "Referencia conceptual; no instalación, benchmark ni migración del adaptador Gemini."
+    },
+    {
+      "id": "wf-03",
+      "url": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals",
+      "title": "Guardrails and human review",
+      "publisher": "OpenAI",
+      "source_type": "official_documentation",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "guardrail_timing",
+          "value": "Distingue guardrails bloqueantes de paralelos; los paralelos pueden permitir trabajo antes del resultado del control.",
+          "locator": "Blocking vs parallel guardrails",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "approval_resume",
+          "value": "La herramienta que requiere aprobación interrumpe; la aplicación aprueba/rechaza y reanuda estado serializado.",
+          "locator": "Human review; needsApproval",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "guardrail_scope",
+          "value": "Los controles de entrada/salida y de herramienta tienen puntos distintos de aplicación.",
+          "locator": "Guardrail scope",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "Patrón transferible al executor propio; no supone heredar controles de Codex ni resolver autorización de negocio."
+    },
+    {
+      "id": "wf-04",
+      "url": "https://docs.langchain.com/oss/javascript/langgraph/persistence",
+      "title": "Persistence",
+      "publisher": "LangChain / LangGraph",
+      "source_type": "official_documentation",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "persistence_split",
+          "value": "Checkpointers guardan estado del hilo; stores mantienen datos entre hilos.",
+          "locator": "Persistence; Checkpointer vs. store",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "memory_limit",
+          "value": "MemorySaver/InMemorySaver pierden checkpoints al reiniciar; recomienda checkpointer persistente para producción.",
+          "locator": "MemorySaver does not persist between restarts",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "Se contrastó con persistencia propia existente; no se compararon tiempos ni consumo."
+    },
+    {
+      "id": "wf-05",
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/server/tools",
+      "title": "Tools — MCP specification 2026-07-28",
+      "publisher": "Model Context Protocol",
+      "source_type": "official_specification",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "tool_contract",
+          "value": "Documenta inputSchema, outputSchema y validación de resultados estructurados; structuredContent no es structured output del LLM.",
+          "locator": "Data Types; Structured Content; Output Schema",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "controls",
+          "value": "Requiere validación y acceso en servidor; recomienda confirmación sensible, mostrar entradas, timeout y auditoría en cliente.",
+          "locator": "Security Considerations",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "state_handles",
+          "value": "La revisión consultada describe estado explícito por handle y autorización en cada llamada.",
+          "locator": "Stateful Tools",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "Versión de especificación 2026-07-28; no se asume compatibilidad idéntica con versiones anteriores."
+    },
+    {
+      "id": "wf-06",
+      "url": "https://modelcontextprotocol.io/docs/2026-07-28/tutorials/security/security_best_practices",
+      "title": "Security Best Practices",
+      "publisher": "Model Context Protocol",
+      "source_type": "official_documentation",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "token_validation",
+          "value": "Prohíbe aceptar tokens no emitidos para el servidor y advierte sobre token passthrough.",
+          "locator": "Token Passthrough",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "ssrf",
+          "value": "Describe riesgos SSRF de URLs OAuth, redirects y DNS; controles HTTPS, rangos privados y egress.",
+          "locator": "Server-Side Request Forgery",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "handle_authorization",
+          "value": "Un handle no autentica al usuario; verificar acceso en cada petición.",
+          "locator": "State Handle Hijacking",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "La aplicación a lectores HTML es inferencia de diseño explícita, no alcance literal del ejemplo OAuth."
+    },
+    {
+      "id": "wf-07",
+      "url": "https://blog.modelcontextprotocol.io/posts/2026-03-16-tool-annotations/",
+      "title": "Tool Annotations as Risk Vocabulary: What Hints Can and Can't Do",
+      "publisher": "Model Context Protocol maintainers",
+      "source_type": "official_maintainer_article",
+      "language": "en",
+      "published_at": "2026-03-16",
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "hints_not_enforcement",
+          "value": "Annotations son hints; un servidor no confiable puede mentir y el runtime debe aplicar controles.",
+          "locator": "What Annotations Are; What Annotations Can't Do",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "prompt_injection",
+          "value": "Annotations no hacen al modelo resistente a instrucciones maliciosas en datos de una herramienta.",
+          "locator": "What Annotations Can't Do",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "No se usan las propuestas SEP del artículo como capacidades implementadas."
+    },
+    {
+      "id": "wf-08",
+      "url": "https://opentelemetry.io/docs/specs/semconv/gen-ai/",
+      "title": "Moved: Generative AI semantic conventions",
+      "publisher": "OpenTelemetry",
+      "source_type": "official_documentation",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "relocation",
+          "value": "La página anuncia traslado de convenciones GenAI al repositorio semantic-conventions-genai y que ya no se mantiene aquí.",
+          "locator": "Moved: Generative AI semantic conventions",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "Fuente breve de navegación/vigencia; no respalda atributos específicos."
+    },
+    {
+      "id": "wf-09",
+      "url": "https://github.com/open-telemetry/semantic-conventions-genai",
+      "title": "OpenTelemetry GenAI Semantic Conventions",
+      "publisher": "OpenTelemetry",
+      "source_type": "official_repository",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "scope",
+          "value": "Repositorio de convenciones para spans, métricas y eventos GenAI, MCP y proveedores.",
+          "locator": "README: OpenTelemetry GenAI Semantic Conventions",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "docs_location",
+          "value": "README enlaza docs para documentación humana y model para definiciones YAML.",
+          "locator": "Read the docs",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "README leído. El enlace docs devolvió denegación robots; no se sorteó ni se afirma haber leído todo el esquema."
+    },
+    {
+      "id": "wf-10",
+      "url": "https://opentelemetry.io/docs/security/handling-sensitive-data/",
+      "title": "Handling sensitive data",
+      "publisher": "OpenTelemetry",
+      "source_type": "official_documentation",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "data_minimization",
+          "value": "Recomienda recopilar solo datos necesarios, evitar personales y revisar atributos de instrumentación.",
+          "locator": "Your responsibility; Data minimization",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "collector_controls",
+          "value": "Describe procesadores attributes, filter, redaction y transform para reducir información sensible.",
+          "locator": "Protecting sensitive data",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "hash_limit",
+          "value": "Hash de valores predecibles no garantiza anonimización suficiente.",
+          "locator": "Risk and limitations of hashing for anonymization",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "No sustituye revisar requisitos y datos reales de la aplicación."
+    },
+    {
+      "id": "wf-11",
+      "url": "https://docs.luma.com/reference/post_v1-events-create",
+      "title": "Create Event",
+      "publisher": "Luma",
+      "source_type": "official_api_reference",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "operation",
+          "value": "POST https://public-api.luma.com/v1/events/create crea un evento.",
+          "locator": "Create Event",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "required_fields",
+          "value": "name, start_at y timezone aparecen obligatorios.",
+          "locator": "Body Params",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "remote_state",
+          "value": "visibility incluye public, members-only y private; registration_open controla registro; no se observa campo draft en el contrato.",
+          "locator": "Body Params: visibility; registration_open",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "communications",
+          "value": "Documenta mensajes de registro y recordatorios predeterminados antes del evento.",
+          "locator": "confirmation_email_md; reminders_disabled",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "Lectura de documentación únicamente. No autenticación, creación, publicación ni invitaciones; ausencia de draft limitada al contrato consultado."
+    },
+    {
+      "id": "wf-12",
+      "url": "https://opentelemetry.io/blog/2026/genai-observability/",
+      "title": "Inside the LLM Call: GenAI Observability with OpenTelemetry",
+      "publisher": "OpenTelemetry",
+      "source_type": "official_engineering_article",
+      "language": "en",
+      "published_at": "2026-05-14",
+      "checked_at": "2026-09-28",
+      "access_method": "web_public_read",
+      "access_status": "read",
+      "reuse_status": "documentation_summary_only",
+      "facts": [
+        {
+          "field": "model_attributes",
+          "value": "Describe gen_ai.request.model y contadores gen_ai.usage.input_tokens/output_tokens.",
+          "locator": "Explore traces",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "metrics",
+          "value": "Describe gen_ai.client.operation.duration y gen_ai.client.token.usage.",
+          "locator": "Explore metrics",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "content_opt_in",
+          "value": "El ejemplo registra metadatos por defecto y habilita contenido explícitamente por su sensibilidad.",
+          "locator": "Configure telemetry export",
+          "evidence_class": "primary_documentation"
+        },
+        {
+          "field": "evolution",
+          "value": "Señala que las convenciones continúan en desarrollo.",
+          "locator": "Beyond this demo",
+          "evidence_class": "primary_documentation"
+        }
+      ],
+      "notes": "Artículo oficial explicativo, no prueba de conformidad de una librería instalada; versión de instrumentación pendiente."
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://developers.openai.com/api/docs/guides/agents/sdk.md",
+      "status": "tool_fetch_error",
+      "notes": "Se leyó la página HTML oficial; sin reintento evasivo."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/agents/guardrails-approvals.md",
+      "status": "tool_fetch_error",
+      "notes": "Se leyó la página HTML oficial."
+    },
+    {
+      "url": "https://docs.langchain.com/oss/javascript/langgraph/durable-execution",
+      "status": "redirected",
+      "notes": "Redirigió a persistence; esta es la URL canónica registrada."
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2026-07-28/basic/security_best_practices",
+      "status": "redirected",
+      "notes": "Redirigió a docs/2026-07-28/tutorials/security/security_best_practices."
+    },
+    {
+      "url": "https://github.com/open-telemetry/semantic-conventions-genai/blob/main/docs",
+      "status": "robots_denied",
+      "notes": "No se eludió. Se leyó README permitido y guía explicativa oficial de OpenTelemetry; no se declara revisión del esquema completo."
+    }
+  ],
+  "limitations": [
+    "No benchmark de frameworks.",
+    "No auditoría exhaustiva de implementación: estado interno tomado del documento de arquitectura.",
+    "Las cifras del gate son preliminares; no se presentaron como cobertura final.",
+    "No fuentes LlamaIndex: no se identificó necesidad medida de otro framework de recuperación.",
+    "No llamadas autenticadas de Luma ni creación de eventos.",
+    "No contenido privado ni credenciales recopilados."
+  ]
+}

@@ -1,0 +1,5 @@
+price_id,ticket_id,amount,currency,taxes,observed_at,valid_at,availability,source_id,extra_json,missing_reasons_json
+price_940d3af2c9568f21,ticket_7120ec221af7b5b6,899,USD,,2026-09-28,,historical_tariff,src_614ad78f4394b65d,,"{""taxes"":""not_found_in_consulted_sources"",""valid_at"":""not_found_in_consulted_sources""}"
+price_e1212d6161788dbd,ticket_438aa51ec2567376,469,USD,,2026-09-28,,historical_tariff,src_614ad78f4394b65d,,"{""taxes"":""not_found_in_consulted_sources"",""valid_at"":""not_found_in_consulted_sources""}"
+price_543282c6131ab5f5,ticket_6cfa24e883a117df,139,USD,,2026-09-28,,historical_tariff,src_614ad78f4394b65d,,"{""taxes"":""not_found_in_consulted_sources"",""valid_at"":""not_found_in_consulted_sources""}"
+price_6902800153d632b5,ticket_af28f3a104b06b09,150,USD,,2026-09-28,,historical_tariff,src_614ad78f4394b65d,,"{""taxes"":""not_found_in_consulted_sources"",""valid_at"":""not_found_in_consulted_sources""}"

@@ -1,0 +1,20 @@
+[
+  {
+    "path": "docs/research/event-gtm-2026-09-28/independent-deep-research-20260928/data/observed/companies.csv",
+    "sha256": "da27093cdd4e732add2e5e22e2fbf011459f0a5f65ce7fd13dbd5b250bede7d1",
+    "rows": 288,
+    "action": "read_only_not_modified"
+  },
+  {
+    "path": "docs/research/event-gtm-2026-09-28/independent-deep-research-20260928/data/observed/event_editions.csv",
+    "sha256": "5b11b369379729a48de3db89c036749309cc9768a4ed23b73397ae1d7155a40a",
+    "rows": 688,
+    "action": "read_only_not_modified"
+  },
+  {
+    "path": "docs/research/event-gtm-2026-09-28/independent-deep-research-20260928/data/observed/sponsorship_history.csv",
+    "sha256": "9de6082e63ff35a641c3410ae412fa2340e75913fb74b69464905de7f1771213",
+    "rows": 320,
+    "action": "read_only_not_modified"
+  }
+]

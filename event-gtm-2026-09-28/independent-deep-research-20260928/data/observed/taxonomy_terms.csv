@@ -1,0 +1,28 @@
+id,category,term,definition,parent_id,synonyms_json,language,version
+term_01545e79603f6421,format,art_fair,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_9a8b72d37593b97b,format,book_fair,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_0eacf6d65c014b6b,format,community_meeting,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_d3e490ad5456338a,format,conference,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_9500ed854d384571,format,cultural_festival,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_742ab9af8c0e56b5,format,cultural_gathering,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_732b30380a459b7d,format,hackathon,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_6c4784ffd7df7f22,format,literary_festival,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_cd626ba34bca24ac,format,other_technical,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_40c60608d8ba89fe,format,sprint,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_fee6e66a7fbf59f1,format,tennis_tournament,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_173132128dad8374,format,trade_fair,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_8a5ce25569f7ddd3,format,webinar,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_532eb8d033169181,format,workshop,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_4a6fb9ac22d2fd4c,sector,arte contemporáneo / mercado del arte,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_2d555b811623f730,sector,arts,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_7fe14ac08773eb74,sector,deporte / tenis,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_d0c92b54232a5330,sector,editorial / cultura,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_23bc91e532bc7887,sector,literatura / cultura,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_c6bd1b70dd4c991e,sector,other,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_8e3e47e5599ad5a5,sector,technology,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_1889f288e2cea2dc,modality,hybrid,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_8713bf2191b359fb,modality,hybrid_inferred,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_2c39a8c6ee94fdf0,modality,in_person,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_9becc75b86733c1e,modality,in_person_inferred,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_41da9beea25fc1c1,modality,online,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1
+term_3f306b151415275a,modality,unknown,Exploratory classification; terms not mutually exclusive at source,,,en_or_source,1

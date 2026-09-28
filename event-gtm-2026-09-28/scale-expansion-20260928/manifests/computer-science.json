@@ -1,0 +1,17 @@
+{
+  "source_url": "https://conferences-computer.science/data/conferences.json",
+  "publisher": "Étienne André / conferences.computer.science",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "upstream_sha256": "23f72216dd1990dab3d950bee0e92174c5acc41551fa224a0ee0f745f09acee4",
+  "rows_read": 1293,
+  "source_generated": "2026-09-25T08:56:58.490591+00:00",
+  "selection": "event_start >= 2021-09-28; no deadline timezone reused as event timezone",
+  "batch": "computer-science",
+  "rows_selected": 480,
+  "observed_at": "2026-09-28T15:38:39.874545+00:00",
+  "sha256": "b62a70b952a794c4c8b879dae732b06139d5f2ed159a949cb98aac770db0d3c0",
+  "path": "batches/computer-science.jsonl.gz",
+  "extractor_version": "2.0",
+  "privacy": "allowlisted event metadata; no attendees, contact fields, images or raw HTML"
+}

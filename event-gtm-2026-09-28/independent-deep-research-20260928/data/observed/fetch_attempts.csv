@@ -1,0 +1,27 @@
+id,run_id,url,observed_at,result,error_class,duration_ms,attempt_number,next_step
+fetch_attempts_3fc67f7593b02967,nontech-web-research,https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/,2026-09-28,failed,Failed to fetch https://www.flip.org.br/flip-anuncia-a-data-da-23a-edicao/: (403) Forbidden,,,bounded_failure; see continuation queue
+fetch_attempts_5c239bb6a4e34042,nontech-web-research,https://flip.org.br,2026-09-28,failed,Failed to fetch https://flip.org.br/: (403) Forbidden,,,bounded_failure; see continuation queue
+fetch_attempts_d5ed2def50636a07,nontech-web-research,https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023,2026-09-28,failed,Failed to fetch https://www.frieze.com/article/galleries-and-curators-frieze-london-and-frieze-masters-2023: (400) Timeout fetching,,,bounded_failure; see continuation queue
+fetch_attempts_5a63fe5a33b4e10a,nontech-web-research,https://fil.com.mx/ingles/prensa/boletin.asp?id=3316&ids=,2026-09-28,failed,Failed to fetch https://fil.com.mx/ingles/prensa/boletin.asp?id=3316&ids=: (400) Timeout fetching,,,bounded_failure; see continuation queue
+fetch_attempts_c556a0ad7a34d05a,nontech-web-research,https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf,2026-09-28,failed,Failed to fetch https://arquivos.motiva.com.br/relatorios/ri2023/en/downloads/CCR_RI2023.pdf: (400) Content length is too large: 17389726,,,bounded_failure; see continuation queue
+fetch_attempts_7c8b2c6d4c65ac23,nontech-web-research,https://www.fil.com.mx/patro/patro.asp,2026-09-28,failed,Error de recuperación; no se obtuvo cuerpo legible.,,,bounded_failure; see continuation queue
+fetch_attempts_307c66fef6bff30c,nontech-web-research,https://digital.fft.fr/04-divers/federal/2025/NL%20CLUBS/TI571-Interactif_compressed.pdf,2026-09-28,failed,Failed to fetch https://digital.fft.fr/04-divers/federal/2025/NL%20CLUBS/TI571-Interactif_compressed.pdf: (400) Timeout fetching,,,bounded_failure; see continuation queue
+fetch_attempts_86ef554fe6c46ee5,nontech-web-research,https://www.eletronuclear.gov.br/Quem-Somos/Governanca/Documents/Balan%C3%A7os/2024/1.%20RELAT%C3%93RIO%20ADMINISTRA%C3%87%C3%83O%20E%20RESPONSABILIDADE%20SOCIAL%202024.pdf,2026-09-28,failed,Failed to fetch https://www.eletronuclear.gov.br/Quem-Somos/Governanca/Documents/Balan%C3%A7os/2024/1.%20RELAT%C3%93RIO%20ADMINISTRA%C3%87%C3%83O%20E%20RESPONSABILIDADE%20SOCIAL%202024.pdf: (400) Timeout fetching,,,bounded_failure; see continuation queue
+fetch_9482620511582404,acquisition-v1,https://www.python.org/events/python-events/,2026-09-28T09:39:17.556521+00:00,200,,130,1,parsed_or_inspected
+fetch_c9ec8f633015f9bd,acquisition-v1,https://www.google.com/calendar/ical/j7gov1cmnqr9tvg14k621j7t5c@group.calendar.google.com/public/basic.ics,2026-09-28T09:39:18.703934+00:00,200,,1556,1,parsed_or_inspected
+fetch_36da092521ea044b,acquisition-v1,https://www.python.org/events/python-user-group/,2026-09-28T09:39:20.288088+00:00,200,,126,1,parsed_or_inspected
+fetch_c76342f1d1fee869,acquisition-v1,https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics,2026-09-28T09:39:21.436660+00:00,200,,2102,1,parsed_or_inspected
+fetch_d8a5e2ed5ba4a779,acquisition-v1,https://us.pycon.org/2024/sponsorship/sponsors/,2026-09-28T09:39:49.228511+00:00,200,,336,1,parsed_or_inspected
+fetch_93333c9c1894ea39,acquisition-v1,https://us.pycon.org/2024/sponsorship/sponsors/,2026-09-28T09:40:08.698845+00:00,200,,108,2,parsed_or_inspected
+fetch_f53e6c0dea440dfc,acquisition-v1,https://us.pycon.org/2024/sponsorship/sponsors/,2026-09-28T09:41:17.831295+00:00,200,,263,3,parsed_or_inspected
+fetch_a4878f17cd863f20,acquisition-v1,https://us.pycon.org/2022/sponsorship/sponsors/,2026-09-28T09:41:36.101208+00:00,200,,341,1,parsed_or_inspected
+fetch_e8ec022e128e9c85,acquisition-v1,https://us.pycon.org/2023/sponsorship/sponsors/,2026-09-28T09:41:36.467260+00:00,200,,201,1,parsed_or_inspected
+fetch_6a601f2b0466c6ce,acquisition-v1,https://us.pycon.org/2025/sponsorship/sponsors/,2026-09-28T09:41:36.715740+00:00,200,,324,1,parsed_or_inspected
+fetch_c69bd8f10d73b06c,acquisition-v1,https://us.pycon.org/2022/sponsorship/sponsors/,2026-09-28T09:42:09.818228+00:00,200,,175,2,parsed_or_inspected
+fetch_2ef8749221241c0f,acquisition-v1,https://us.pycon.org/2023/sponsorship/sponsors/,2026-09-28T09:42:11.030054+00:00,200,,203,2,parsed_or_inspected
+fetch_c70602e7ae4dacf9,acquisition-v1,https://us.pycon.org/2024/sponsorship/sponsors/,2026-09-28T09:42:12.281475+00:00,200,,75,4,parsed_or_inspected
+fetch_a616dd83fdfad3bb,acquisition-v1,https://us.pycon.org/2025/sponsorship/sponsors/,2026-09-28T09:42:13.392206+00:00,200,,134,2,parsed_or_inspected
+fetch_fa3efdfcbb5db74f,acquisition-v1,https://2023.es.pycon.org/theme/assets/files/pycones2023_patrocinios.pdf,2026-09-28T09:42:55.834652+00:00,200,,1105,1,parsed_or_inspected
+fetch_20a98af1a1ad57cd,acquisition-v1,https://2025.pycon.org.au/files/Sponsor%20PyCon%20AU%202025%20-%20Prospectus%20v3.pdf,2026-09-28T09:42:56.948561+00:00,200,,944,1,parsed_or_inspected
+fetch_8c180b19ead43f78,acquisition-v1,https://us.pycon.org/2025/attend/information/,2026-09-28T10:02:21.890534+00:00,200,,454,1,parsed_or_inspected
+fetch_743d4e2ff8cb5284,acquisition-v1,https://2023.es.pycon.org/patrocinios/,2026-09-28T10:02:22.362310+00:00,200,,604,1,parsed_or_inspected

@@ -1,0 +1,1313 @@
+dimension,stratum,value,count,denominator,percent
+country,all,Algeria,1,16986,0.006
+country,all,Angola,3,16986,0.018
+country,all,Argentina,10,16986,0.059
+country,all,Armenia,7,16986,0.041
+country,all,Australia,48,16986,0.283
+country,all,Austria,44,16986,0.259
+country,all,Azerbaijan,1,16986,0.006
+country,all,Bangladesh,3,16986,0.018
+country,all,Belgium,34,16986,0.2
+country,all,Bolivia,4,16986,0.024
+country,all,Bosnia and Herzegovina,1,16986,0.006
+country,all,Brazil,51,16986,0.3
+country,all,Bulgaria,9,16986,0.053
+country,all,Cameroon,14,16986,0.082
+country,all,Canada,71,16986,0.418
+country,all,Cayman Islands,1,16986,0.006
+country,all,Chile,7,16986,0.041
+country,all,China,16,16986,0.094
+country,all,Colombia,23,16986,0.135
+country,all,Costa Rica,1,16986,0.006
+country,all,Croatia,14,16986,0.082
+country,all,Cuba,1,16986,0.006
+country,all,Cyprus,7,16986,0.041
+country,all,Czech Republic,30,16986,0.177
+country,all,Denmark,50,16986,0.294
+country,all,Dominican Republic,3,16986,0.018
+country,all,Ecuador,4,16986,0.024
+country,all,Egypt,3,16986,0.018
+country,all,Equatorial Guinea,1,16986,0.006
+country,all,Estonia,7,16986,0.041
+country,all,Finland,12820,16986,75.474
+country,all,France,145,16986,0.854
+country,all,Gambia,5,16986,0.029
+country,all,Georgia,7,16986,0.041
+country,all,Germany,505,16986,2.973
+country,all,Ghana,12,16986,0.071
+country,all,Greece,28,16986,0.165
+country,all,Hong Kong,10,16986,0.059
+country,all,Hungary,14,16986,0.082
+country,all,Iceland,3,16986,0.018
+country,all,India,77,16986,0.453
+country,all,Indonesia,5,16986,0.029
+country,all,Iran,4,16986,0.024
+country,all,Ireland,23,16986,0.135
+country,all,Israel,27,16986,0.159
+country,all,Italy,105,16986,0.618
+country,all,Japan,50,16986,0.294
+country,all,Kenya,5,16986,0.029
+country,all,Kosovo,1,16986,0.006
+country,all,Latvia,2,16986,0.012
+country,all,Lithuania,24,16986,0.141
+country,all,Luxembourg,11,16986,0.065
+country,all,Macao,1,16986,0.006
+country,all,Malawi,1,16986,0.006
+country,all,Malaysia,4,16986,0.024
+country,all,Malta,6,16986,0.035
+country,all,Mauritius,1,16986,0.006
+country,all,Mexico,16,16986,0.094
+country,all,Moldova,2,16986,0.012
+country,all,Morocco,4,16986,0.024
+country,all,Mozambique,7,16986,0.041
+country,all,Namibia,6,16986,0.035
+country,all,Nepal,5,16986,0.029
+country,all,Netherlands,169,16986,0.995
+country,all,New Zealand,23,16986,0.135
+country,all,Niger,7,16986,0.041
+country,all,Nigeria,31,16986,0.183
+country,all,North Macedonia,3,16986,0.018
+country,all,Norway,31,16986,0.183
+country,all,Pakistan,1,16986,0.006
+country,all,Panama,3,16986,0.018
+country,all,Peru,3,16986,0.018
+country,all,Philippines,10,16986,0.059
+country,all,Poland,87,16986,0.512
+country,all,Portugal,45,16986,0.265
+country,all,Qatar,1,16986,0.006
+country,all,Romania,24,16986,0.141
+country,all,Russia,7,16986,0.041
+country,all,Saudi Arabia,1,16986,0.006
+country,all,Serbia,11,16986,0.065
+country,all,Singapore,32,16986,0.188
+country,all,Slovakia,7,16986,0.041
+country,all,Slovenia,3,16986,0.018
+country,all,Somalia,3,16986,0.018
+country,all,South Africa,11,16986,0.065
+country,all,South Korea,20,16986,0.118
+country,all,Spain,94,16986,0.553
+country,all,Sri Lanka,1,16986,0.006
+country,all,Sweden,46,16986,0.271
+country,all,Switzerland,49,16986,0.288
+country,all,Taiwan,10,16986,0.059
+country,all,Tanzania,3,16986,0.018
+country,all,Thailand,10,16986,0.059
+country,all,Togo,3,16986,0.018
+country,all,Tunisia,3,16986,0.018
+country,all,Turkey,9,16986,0.053
+country,all,UNKNOWN,753,16986,4.433
+country,all,Uganda,5,16986,0.029
+country,all,Ukraine,20,16986,0.118
+country,all,United Arab Emirates,22,16986,0.13
+country,all,United Kingdom,235,16986,1.383
+country,all,United States,778,16986,4.58
+country,all,Vietnam,5,16986,0.029
+country,all,Zimbabwe,2,16986,0.012
+city,all,A Coruña,1,16986,0.006
+city,all,"Aalborg, Denmark",1,16986,0.006
+city,all,Aarhus,6,16986,0.035
+city,all,"Aarhus, Denmark",5,16986,0.029
+city,all,Aberystwyth,3,16986,0.018
+city,all,Ahmedabad,1,16986,0.006
+city,all,"Alexandria, VA",1,16986,0.006
+city,all,Alicante,2,16986,0.012
+city,all,"Almería, Spain",1,16986,0.006
+city,all,"Ames, Iowa, USA",2,16986,0.012
+city,all,Amsterdam,83,16986,0.489
+city,all,"Amsterdam, The Netherlands",3,16986,0.018
+city,all,"Anaheim, CA",7,16986,0.041
+city,all,Antwerp,5,16986,0.029
+city,all,"Antwerp, Belgium",6,16986,0.035
+city,all,Aracaju,1,16986,0.006
+city,all,Arequipa,1,16986,0.006
+city,all,"Arlington, VA",7,16986,0.041
+city,all,"Asheville, NC",2,16986,0.012
+city,all,"Aspen, CO",1,16986,0.006
+city,all,Athens,13,16986,0.077
+city,all,"Athens, Greece",1,16986,0.006
+city,all,Athlone,1,16986,0.006
+city,all,"Atlanta, GA",22,16986,0.13
+city,all,"Atlantic Beach, FL",1,16986,0.006
+city,all,Auckland,3,16986,0.018
+city,all,"Auckland, New Zealand",1,16986,0.006
+city,all,"Augusta, GA",2,16986,0.012
+city,all,"Aurora, CO",2,16986,0.012
+city,all,"Austin, TX",23,16986,0.135
+city,all,"Aveiro, Portugal",2,16986,0.012
+city,all,"Baku, Azerbaijan",1,16986,0.006
+city,all,"Baltimore, MD",2,16986,0.012
+city,all,Banff,1,16986,0.006
+city,all,Bangalore,12,16986,0.071
+city,all,"Bangalore, India",2,16986,0.012
+city,all,Bangkok,6,16986,0.035
+city,all,Bangkok - Thailand,1,16986,0.006
+city,all,Banja Luka,1,16986,0.006
+city,all,Barcelona,31,16986,0.183
+city,all,"Barcelona, Catalonia, Spain",2,16986,0.012
+city,all,"Bariloche, Argentina",1,16986,0.006
+city,all,Basel,1,16986,0.006
+city,all,Beijing,1,16986,0.006
+city,all,"Beijing, China",3,16986,0.018
+city,all,Belgrade,8,16986,0.047
+city,all,"Bellevue, WA",3,16986,0.018
+city,all,Belém,1,16986,0.006
+city,all,"Bend, OR",1,16986,0.006
+city,all,Bengaluru,15,16986,0.088
+city,all,"Bentonville, AR",1,16986,0.006
+city,all,Bergamo,1,16986,0.006
+city,all,"Bergamo, Italy",1,16986,0.006
+city,all,"Bergen, Norway",4,16986,0.024
+city,all,"Berkeley, CA",3,16986,0.018
+city,all,Berlin,184,16986,1.083
+city,all,"Berlin, Germany",2,16986,0.012
+city,all,Bern,2,16986,0.012
+city,all,Bilbao,4,16986,0.024
+city,all,Birmingham,3,16986,0.018
+city,all,"Birmingham, AL",3,16986,0.018
+city,all,"Birmingham, England",1,16986,0.006
+city,all,Bochum,5,16986,0.029
+city,all,Bogotá,4,16986,0.024
+city,all,"Boise, ID",1,16986,0.006
+city,all,Bologna,6,16986,0.035
+city,all,Bolzano,3,16986,0.018
+city,all,Bonn,1,16986,0.006
+city,all,Bordeaux,4,16986,0.024
+city,all,"Bordeaux, France",2,16986,0.012
+city,all,"Boston, MA",15,16986,0.088
+city,all,"Boston, Massachusetts, USA",3,16986,0.018
+city,all,"Boulder, CO",1,16986,0.006
+city,all,"Boulder, Colorado, USA",3,16986,0.018
+city,all,"Bozeman, MT",2,16986,0.012
+city,all,Bratislava,1,16986,0.006
+city,all,"Bratislava, Slovakia",1,16986,0.006
+city,all,Brighton,3,16986,0.018
+city,all,"Brighton, England",1,16986,0.006
+city,all,Brisbane,3,16986,0.018
+city,all,"Brisbane, Australia",2,16986,0.012
+city,all,Bristol,6,16986,0.035
+city,all,"Bristol, England",2,16986,0.012
+city,all,Brno,1,16986,0.006
+city,all,"Brno, Czech Republic",1,16986,0.006
+city,all,"Brooklyn, NY",2,16986,0.012
+city,all,Brussels,14,16986,0.082
+city,all,"Brussels, Belgium",2,16986,0.012
+city,all,Brühl,2,16986,0.012
+city,all,Bucharest,4,16986,0.024
+city,all,"Bucharest, Romania",3,16986,0.018
+city,all,Budapest,14,16986,0.082
+city,all,Buenos Aires,3,16986,0.018
+city,all,"Buffalo, NY",2,16986,0.012
+city,all,"Burlingame, CA",3,16986,0.018
+city,all,Cairo,3,16986,0.018
+city,all,Calgary,2,16986,0.012
+city,all,"Calgary, Canada",2,16986,0.012
+city,all,Cambridge,2,16986,0.012
+city,all,Cape Town,3,16986,0.018
+city,all,Cardiff,2,16986,0.012
+city,all,"Carlsbad, CA",1,16986,0.006
+city,all,"Carthage, Tunis, Tunisia",1,16986,0.006
+city,all,Casablanca,1,16986,0.006
+city,all,"Cascais, Lisbon, Portugal",1,16986,0.006
+city,all,"Cascais, Portugal",1,16986,0.006
+city,all,Catania,3,16986,0.018
+city,all,"Catania, Italy",1,16986,0.006
+city,all,"Catania, Sicily, Italy",1,16986,0.006
+city,all,Chapecó,1,16986,0.006
+city,all,"Charlotte, NC",3,16986,0.018
+city,all,"Charlotte, North Carolina, USA",2,16986,0.012
+city,all,"Chattanooga, TN",3,16986,0.018
+city,all,Chemnitz,1,16986,0.006
+city,all,"Chengdu, China",1,16986,0.006
+city,all,Chennai,3,16986,0.018
+city,all,"Chicago, IL",29,16986,0.171
+city,all,"Chicago, Illinois, USA",1,16986,0.006
+city,all,Chișinău,2,16986,0.012
+city,all,"Chongqing, China",1,16986,0.006
+city,all,"Cincinnati, OH",3,16986,0.018
+city,all,"Clear Water, FL",2,16986,0.012
+city,all,"Clearwater, FL",16,16986,0.094
+city,all,"Clermont-Ferrand, France",1,16986,0.006
+city,all,"Cleveland, OH",2,16986,0.012
+city,all,Cluj-Napoca,8,16986,0.047
+city,all,"Cluj-Napoca, Romania",1,16986,0.006
+city,all,Coimbra,1,16986,0.006
+city,all,"Coimbra, Portugal",1,16986,0.006
+city,all,Cologne,20,16986,0.118
+city,all,"Columbus, OH",9,16986,0.053
+city,all,"Constantine, Algeria",1,16986,0.006
+city,all,Copenhagen,30,16986,0.177
+city,all,"Copenhagen, Denmark",4,16986,0.024
+city,all,"Corfu, Greece",1,16986,0.006
+city,all,"Cork, Ireland",1,16986,0.006
+city,all,"Coruña, Spain",1,16986,0.006
+city,all,"Crete, Greece",1,16986,0.006
+city,all,"Cupertino, CA",1,16986,0.006
+city,all,Cáceres,1,16986,0.006
+city,all,Cádiz,2,16986,0.012
+city,all,Córdoba,2,16986,0.012
+city,all,"Daejeon, South Korea",1,16986,0.006
+city,all,"Dallas, TX",6,16986,0.035
+city,all,Darmstadt,4,16986,0.024
+city,all,Davos,1,16986,0.006
+city,all,Delft,2,16986,0.012
+city,all,Delhi,7,16986,0.041
+city,all,"Denver, CO",16,16986,0.094
+city,all,"Denver, Colorado, USA",2,16986,0.012
+city,all,"Des Moines, IA",4,16986,0.024
+city,all,"Detroit, MI",5,16986,0.029
+city,all,"Detroit, Michigan, USA",1,16986,0.006
+city,all,Dhaka,1,16986,0.006
+city,all,"Dinard, Bretagne, France",1,16986,0.006
+city,all,"Djerba, Tunisia",1,16986,0.006
+city,all,Doha,1,16986,0.006
+city,all,Dortmund,2,16986,0.012
+city,all,"Dortmund, Germany",1,16986,0.006
+city,all,Dresden,4,16986,0.024
+city,all,Dubai,18,16986,0.106
+city,all,"Dubai, United Arab Emirates",1,16986,0.006
+city,all,Dublin,10,16986,0.059
+city,all,"Dublin, Ireland",4,16986,0.024
+city,all,"Durham, NC",3,16986,0.018
+city,all,Düsseldorf,3,16986,0.018
+city,all,"Düsseldorf, Germany",2,16986,0.012
+city,all,Ede,1,16986,0.006
+city,all,Edinburgh,7,16986,0.041
+city,all,Edmonton,2,16986,0.012
+city,all,"Egham, England",1,16986,0.006
+city,all,Eindhoven,3,16986,0.018
+city,all,"Eindhoven, The Netherlands",1,16986,0.006
+city,all,"Emden, Germany",1,16986,0.006
+city,all,"Enschede, The Netherlands",2,16986,0.012
+city,all,Esch-sur-Alzette,1,16986,0.006
+city,all,Espoo,1392,16986,8.195
+city,all,Essen,4,16986,0.024
+city,all,Exeter,1,16986,0.006
+city,all,Faenza,2,16986,0.012
+city,all,Florence,12,16986,0.071
+city,all,"Florence, Italy",3,16986,0.018
+city,all,Folkestone,3,16986,0.018
+city,all,"Fort Lauderdale, FL",3,16986,0.018
+city,all,Fortaleza,1,16986,0.006
+city,all,Frankfurt am Main,16,16986,0.094
+city,all,Freiburg,5,16986,0.029
+city,all,Fukuoka,1,16986,0.006
+city,all,Funchal,1,16986,0.006
+city,all,Gabrovo,1,16986,0.006
+city,all,Gdansk,5,16986,0.029
+city,all,Gdynia,2,16986,0.012
+city,all,Geneva,7,16986,0.041
+city,all,"Geneva, Switzerland",2,16986,0.012
+city,all,George Town,1,16986,0.006
+city,all,"Glasgow, Scotland",1,16986,0.006
+city,all,Goa,5,16986,0.029
+city,all,"Goa Campus, India",1,16986,0.006
+city,all,Goiânia,1,16986,0.006
+city,all,Gold Coast,1,16986,0.006
+city,all,"Gold Coast, Australia",1,16986,0.006
+city,all,Gothenburg,3,16986,0.018
+city,all,"Gothenburg, Sweden",1,16986,0.006
+city,all,Gran Canaria,1,16986,0.006
+city,all,"Gran Canaria, Spain",1,16986,0.006
+city,all,"Grand Rapids, MI",2,16986,0.012
+city,all,"Grants Pass, OR",1,16986,0.006
+city,all,"Grapevine, TX",1,16986,0.006
+city,all,Graz,4,16986,0.024
+city,all,"Graz, Austria",4,16986,0.024
+city,all,"Greenville, SC",1,16986,0.006
+city,all,Grenoble,1,16986,0.006
+city,all,"Grenoble, France",1,16986,0.006
+city,all,"Groningen, The Netherlands",1,16986,0.006
+city,all,Guadalajara,1,16986,0.006
+city,all,"Guiyang City, China",1,16986,0.006
+city,all,"Gwangju, South Korea",1,16986,0.006
+city,all,"Göttingen, Germany",2,16986,0.012
+city,all,"Haifa, Israel",6,16986,0.035
+city,all,"Half Moon Bay, CA",1,16986,0.006
+city,all,Halifax,2,16986,0.012
+city,all,Hamburg,8,16986,0.047
+city,all,"Hamburg, Germany",4,16986,0.024
+city,all,"Hamilton, Canada",4,16986,0.024
+city,all,"Hamilton, Ontario, Canada",1,16986,0.006
+city,all,"Hampton Roads, VA, USA",1,16986,0.006
+city,all,"Hangzhou, China",2,16986,0.012
+city,all,Hannover,5,16986,0.029
+city,all,Heidelberg,2,16986,0.012
+city,all,Helsingborg,1,16986,0.006
+city,all,Helsinki,10475,16986,61.668
+city,all,"Henderson, NV",2,16986,0.012
+city,all,Heraklion,1,16986,0.006
+city,all,"Hiroshima, Japan",1,16986,0.006
+city,all,Ho Chi Minh City,1,16986,0.006
+city,all,"Hollywood, FL",2,16986,0.012
+city,all,Hong Kong,4,16986,0.024
+city,all,"Hong Kong, China",4,16986,0.024
+city,all,"Honolulu, Hawaii, USA",1,16986,0.006
+city,all,"Houston, TX",8,16986,0.047
+city,all,"Houston, Texas, USA",4,16986,0.024
+city,all,"Huntsville, AL",1,16986,0.006
+city,all,"Hybrid (Tehran, Iran)",1,16986,0.006
+city,all,Hyderabad,5,16986,0.029
+city,all,"Hà Nội, Việt Nam",1,16986,0.006
+city,all,"Hồ Chí Minh City, Việt Nam",1,16986,0.006
+city,all,"IIT Delhi, New Delhi, India",1,16986,0.006
+city,all,"IIT Gandhinagar, India",1,16986,0.006
+city,all,"IIT Hyderabad, India",1,16986,0.006
+city,all,"IIT Madras, India",1,16986,0.006
+city,all,Iasi,3,16986,0.018
+city,all,"Iasi, Romania",1,16986,0.006
+city,all,"Iași, România",1,16986,0.006
+city,all,Ibiza,1,16986,0.006
+city,all,"Indian Statistical Institute Kolkata, India",1,16986,0.006
+city,all,"Indianapolis, IN",3,16986,0.018
+city,all,"Irvine, California, USA",3,16986,0.018
+city,all,Istanbul,7,16986,0.041
+city,all,"Istanbul, Türkiye",1,16986,0.006
+city,all,"Jackson, MS",1,16986,0.006
+city,all,Jaipur,4,16986,0.024
+city,all,Jakarta,2,16986,0.012
+city,all,Jeju,1,16986,0.006
+city,all,"Jena, Germany",1,16986,0.006
+city,all,Johannesburg,5,16986,0.029
+city,all,Juiz de Fora,1,16986,0.006
+city,all,"Kaiserslautern, Germany",1,16986,0.006
+city,all,Kalmar,1,16986,0.006
+city,all,"Kansas City, KS",2,16986,0.012
+city,all,"Kansas City, MO",5,16986,0.029
+city,all,Karlsruhe,10,16986,0.059
+city,all,"Kassel, Germany",1,16986,0.006
+city,all,Kathmandu,4,16986,0.024
+city,all,Katowice,1,16986,0.006
+city,all,Kauniainen,36,16986,0.212
+city,all,"Kingston, Canada",1,16986,0.006
+city,all,"Kirchberg, Luxembourg",1,16986,0.006
+city,all,"Knoxville, TN",1,16986,0.006
+city,all,Kochi,1,16986,0.006
+city,all,Kongsberg,3,16986,0.018
+city,all,Koto,1,16986,0.006
+city,all,"Krakow, Poland",2,16986,0.012
+city,all,Kraków,20,16986,0.118
+city,all,Krynica Zdrój,1,16986,0.006
+city,all,Kuala Lumpur,3,16986,0.018
+city,all,"Kuala Lumpur, Malaysia",1,16986,0.006
+city,all,Kyiv,19,16986,0.112
+city,all,Kyoto,1,16986,0.006
+city,all,"Kyoto, Japan",2,16986,0.012
+city,all,Labin,1,16986,0.006
+city,all,Lagos,5,16986,0.029
+city,all,Larvik,2,16986,0.012
+city,all,"Las Vegas, NV",30,16986,0.177
+city,all,"Las Vegas, Nevada, USA",2,16986,0.012
+city,all,Laško,1,16986,0.006
+city,all,Leeds,8,16986,0.047
+city,all,"Leicester, England",1,16986,0.006
+city,all,"Leiden, the Netherlands",1,16986,0.006
+city,all,"Leipzig, Germany",1,16986,0.006
+city,all,Leuven,2,16986,0.012
+city,all,Lille,3,16986,0.018
+city,all,"Lille, France",3,16986,0.018
+city,all,Lima,1,16986,0.006
+city,all,"Lima, Peru",1,16986,0.006
+city,all,Limassol,1,16986,0.006
+city,all,"Limassol, Cyprus",3,16986,0.018
+city,all,"Lincoln, NE",1,16986,0.006
+city,all,Lisbon,15,16986,0.088
+city,all,"Lisbon, Portugal",13,16986,0.077
+city,all,"Liverpool, England",5,16986,0.029
+city,all,Ljubljana,1,16986,0.006
+city,all,Lodz,1,16986,0.006
+city,all,Logroño,2,16986,0.012
+city,all,London,141,16986,0.83
+city,all,"London, England",5,16986,0.029
+city,all,"Los Angeles, CA",9,16986,0.053
+city,all,"Los Angeles, California, USA",1,16986,0.006
+city,all,"Louisville, KY",2,16986,0.012
+city,all,"Lucca, Italy",1,16986,0.006
+city,all,Ludwigsburg,1,16986,0.006
+city,all,Lugano,1,16986,0.006
+city,all,"Lugano, Switzerland",1,16986,0.006
+city,all,"Lund, Sweden",1,16986,0.006
+city,all,Luxembourg,9,16986,0.053
+city,all,Lyon,2,16986,0.012
+city,all,"Lyon, France",2,16986,0.012
+city,all,"Lübeck, Germany",1,16986,0.006
+city,all,"Macao, China",1,16986,0.006
+city,all,"Madison, WI",1,16986,0.006
+city,all,Madrid,10,16986,0.059
+city,all,"Madrid, Spain",3,16986,0.018
+city,all,Mainz,13,16986,0.077
+city,all,Malaga,10,16986,0.059
+city,all,Malmö,3,16986,0.018
+city,all,Malta,1,16986,0.006
+city,all,"Manaus, Brazil",1,16986,0.006
+city,all,Manchester,10,16986,0.059
+city,all,"Manchester, England",1,16986,0.006
+city,all,Manila,2,16986,0.012
+city,all,Mannheim,11,16986,0.065
+city,all,Marburg,1,16986,0.006
+city,all,"Marrakech, Morocco",2,16986,0.012
+city,all,"Marseille, France",1,16986,0.006
+city,all,Mauritius,1,16986,0.006
+city,all,Mazatlán,1,16986,0.006
+city,all,Medellín,6,16986,0.035
+city,all,Melbourne,15,16986,0.088
+city,all,"Menlo Park, CA",1,16986,0.006
+city,all,"Menlo Park, California, USA",2,16986,0.012
+city,all,Mexico City,3,16986,0.018
+city,all,"Mexico City, Mexico",2,16986,0.012
+city,all,"Miami, FL",12,16986,0.071
+city,all,Middlesbrough,2,16986,0.012
+city,all,Mie,1,16986,0.006
+city,all,"Milan, Italy",10,16986,0.059
+city,all,Milano,6,16986,0.035
+city,all,"Milwaukee, WI",1,16986,0.006
+city,all,"Minneapolis, MN",6,16986,0.035
+city,all,"Modena, Italy",1,16986,0.006
+city,all,"Moffett Field, California, USA",1,16986,0.006
+city,all,"Montpellier, France",1,16986,0.006
+city,all,Montreal,14,16986,0.082
+city,all,"Montreal, Québec, Canada",1,16986,0.006
+city,all,"Montréal, Québec, Canada",2,16986,0.012
+city,all,Moscow,2,16986,0.012
+city,all,"Mountain View, CA",7,16986,0.041
+city,all,Mulhouse,1,16986,0.006
+city,all,Mumbai,4,16986,0.024
+city,all,Munich,93,16986,0.548
+city,all,"Munich, Germany",6,16986,0.035
+city,all,"Münster, Germany",1,16986,0.006
+city,all,Nairobi,2,16986,0.012
+city,all,"Nancy, France",2,16986,0.012
+city,all,"Nanjing, China",1,16986,0.006
+city,all,Nantes,1,16986,0.006
+city,all,"Nantes, France",1,16986,0.006
+city,all,Napels,2,16986,0.012
+city,all,"Naples, Italy",3,16986,0.018
+city,all,"Nashville, TN",12,16986,0.071
+city,all,"Nashville, Tennessee, USA",1,16986,0.006
+city,all,"New Haven, Connecticut, USA",1,16986,0.006
+city,all,"New Orleans, LA",2,16986,0.012
+city,all,"New York, NY",76,16986,0.447
+city,all,Newcastle,3,16986,0.018
+city,all,Newcastle-Upon-Tyne,1,16986,0.006
+city,all,Newquay,1,16986,0.006
+city,all,"Nha Trang, Việt Nam",1,16986,0.006
+city,all,"Nice, France",1,16986,0.006
+city,all,Nitra,1,16986,0.006
+city,all,Novi Sad,3,16986,0.018
+city,all,Nürburgring,2,16986,0.012
+city,all,Nürnberg,10,16986,0.059
+city,all,"Oakland, CA",6,16986,0.035
+city,all,"Oakland, California, USA",1,16986,0.006
+city,all,"Oberbronn, France",1,16986,0.006
+city,all,"Obergurgl, Austria",1,16986,0.006
+city,all,Odense,1,16986,0.006
+city,all,"Omaha, NE",1,16986,0.006
+city,all,Opatija,4,16986,0.024
+city,all,"Orlando, FL",17,16986,0.1
+city,all,"Osaka, Japan",1,16986,0.006
+city,all,Oslo,18,16986,0.106
+city,all,Ottawa,3,16986,0.018
+city,all,"Ottawa, Ontario, Canada",2,16986,0.012
+city,all,Oulu,1,16986,0.006
+city,all,"Oxford, England",1,16986,0.006
+city,all,"Oxon Hill, MD",1,16986,0.006
+city,all,"Paderborn, Germany",1,16986,0.006
+city,all,"Palermo, Italy",1,16986,0.006
+city,all,"Palm Springs, CA",1,16986,0.006
+city,all,Paphos,1,16986,0.006
+city,all,"Paphos, Cyprus",1,16986,0.006
+city,all,Paris,51,16986,0.3
+city,all,"Paris, France",23,16986,0.135
+city,all,"Park City, UT",1,16986,0.006
+city,all,"Pasadena, CA",5,16986,0.029
+city,all,"Pasadena, California, USA",2,16986,0.012
+city,all,"Pau, France",1,16986,0.006
+city,all,Perth,1,16986,0.006
+city,all,"Perth, Australia",1,16986,0.006
+city,all,Pescara,1,16986,0.006
+city,all,"Philadelphia, PA",4,16986,0.024
+city,all,"Philadelphia, Pennsylvania, USA",2,16986,0.012
+city,all,"Phoenix, AZ",4,16986,0.024
+city,all,"Pisa, Italy",4,16986,0.024
+city,all,"Pittsburgh, PA",1,16986,0.006
+city,all,"Pittsburgh, Pennsylvania, USA",3,16986,0.018
+city,all,Playa Dorada,1,16986,0.006
+city,all,"Pocono Manor, PA",4,16986,0.024
+city,all,Pohang,1,16986,0.006
+city,all,"Portland, OR",10,16986,0.059
+city,all,Porto,5,16986,0.029
+city,all,"Porto de Galinhas, Brazil",1,16986,0.006
+city,all,"Porto, Portugal",2,16986,0.012
+city,all,Portorož,1,16986,0.006
+city,all,Potsdam,6,16986,0.035
+city,all,Prague,20,16986,0.118
+city,all,"Prague, Czech Republic",2,16986,0.012
+city,all,Prizren,1,16986,0.006
+city,all,Puerto Plata,1,16986,0.006
+city,all,Pune,3,16986,0.018
+city,all,"Qingdao, China",1,16986,0.006
+city,all,Quebec,2,16986,0.012
+city,all,"Raleigh, NC",7,16986,0.041
+city,all,"Raleigh, North Carolina, USA",2,16986,0.012
+city,all,Rapperswil-Jona,4,16986,0.024
+city,all,Recife,1,16986,0.006
+city,all,"Recife - Pernambuco, Brazil",1,16986,0.006
+city,all,"Redmond, WA",4,16986,0.024
+city,all,"Redwood City, CA",1,16986,0.006
+city,all,Regensburg,2,16986,0.012
+city,all,Regina,1,16986,0.006
+city,all,"Reims, France",1,16986,0.006
+city,all,"Rennes, Bretagne, France",4,16986,0.024
+city,all,"Reston, VA",3,16986,0.018
+city,all,"Reykjavik, Iceland",2,16986,0.012
+city,all,"Reykjavík, Iceland (hybrid)",1,16986,0.006
+city,all,"Rhodes, Greece",1,16986,0.006
+city,all,"Richmond, VA",2,16986,0.012
+city,all,Riga,2,16986,0.012
+city,all,Rio De Janeiro,2,16986,0.012
+city,all,"Rio de Janeiro, Brazil",5,16986,0.029
+city,all,Riyadh,1,16986,0.006
+city,all,Rome,7,16986,0.041
+city,all,Rotterdam,4,16986,0.024
+city,all,Rouen,3,16986,0.018
+city,all,"Round Rock, TX",3,16986,0.018
+city,all,Rovinj,1,16986,0.006
+city,all,Rust,1,16986,0.006
+city,all,Rzeszów,1,16986,0.006
+city,all,"Saarbrücken, Germany",1,16986,0.006
+city,all,"Saclay, France",1,16986,0.006
+city,all,"Sacramento, California, USA",1,16986,0.006
+city,all,Saint Petersburg,1,16986,0.006
+city,all,"Saint-Malo, Bretagne, France",2,16986,0.012
+city,all,"Salt Lake City, UT",9,16986,0.053
+city,all,"San Antonio, Texas, USA",2,16986,0.012
+city,all,"San Diego, CA",13,16986,0.077
+city,all,"San Francisco, CA",62,16986,0.365
+city,all,"San Francisco, California, USA",2,16986,0.012
+city,all,"San Jose, CA",17,16986,0.1
+city,all,"San Mateo, CA",3,16986,0.018
+city,all,"Sandusky, OH",4,16986,0.024
+city,all,Sankt Augustin,1,16986,0.006
+city,all,"Santa Clara, CA",18,16986,0.106
+city,all,"Santa Cruz, California, USA",1,16986,0.006
+city,all,Santiago,5,16986,0.029
+city,all,Santiago de los Caballeros,1,16986,0.006
+city,all,"Scottsdale, AZ",1,16986,0.006
+city,all,"Seattle, WA",31,16986,0.183
+city,all,"Seattle, Washington, USA",1,16986,0.006
+city,all,Seoul,7,16986,0.041
+city,all,"Seoul, South Korea",4,16986,0.024
+city,all,"Seville, Spain",1,16986,0.006
+city,all,Shanghai,1,16986,0.006
+city,all,"Shanghai, China",3,16986,0.018
+city,all,Sheffield,1,16986,0.006
+city,all,Sidney,1,16986,0.006
+city,all,Singapore,31,16986,0.183
+city,all,Skien,1,16986,0.006
+city,all,Skopje,3,16986,0.018
+city,all,Sofia,7,16986,0.041
+city,all,"Sokcho, South Korea",1,16986,0.006
+city,all,South Wharf,1,16986,0.006
+city,all,"Southampton, England",2,16986,0.012
+city,all,"Spetses, Greece",1,16986,0.006
+city,all,St Julian's,2,16986,0.012
+city,all,"St. Charles, MO",1,16986,0.006
+city,all,St. Leon-Rot,1,16986,0.006
+city,all,"St. Louis, MO",8,16986,0.047
+city,all,"St. Petersburg, FL",1,16986,0.006
+city,all,"St. Raphael Resort and Marina, Limassol, Cyprus",1,16986,0.006
+city,all,Stockholm,25,16986,0.147
+city,all,"Stockholm, Sweden",2,16986,0.012
+city,all,Strasbourg,7,16986,0.041
+city,all,"Strasbourg, France",1,16986,0.006
+city,all,Stuttgart,3,16986,0.018
+city,all,"Sunnyvale, CA",1,16986,0.006
+city,all,Sydney,11,16986,0.065
+city,all,"Sydney, Australia",1,16986,0.006
+city,all,São Paulo,6,16986,0.035
+city,all,"São Paulo, Brazil",1,16986,0.006
+city,all,"Taghazout, Agadir",1,16986,0.006
+city,all,Taipei,1,16986,0.006
+city,all,"Taipei, Taiwan",3,16986,0.018
+city,all,"Taipei, Taiwan (hybrid)",1,16986,0.006
+city,all,Takamatsu,1,16986,0.006
+city,all,"Tallinn, Estonia",3,16986,0.018
+city,all,Tamil Nadu,1,16986,0.006
+city,all,"Tampa Bay, FL",1,16986,0.006
+city,all,"Tampa, FL",5,16986,0.029
+city,all,Tatras,1,16986,0.006
+city,all,Tbilisi,2,16986,0.012
+city,all,"Tbilisi, Georgia",5,16986,0.029
+city,all,Tel Aviv,16,16986,0.094
+city,all,"Tempe, AZ",2,16986,0.012
+city,all,Tenerife,1,16986,0.006
+city,all,Texel,2,16986,0.012
+city,all,The Hague,4,16986,0.024
+city,all,Thessaloniki,4,16986,0.024
+city,all,"Thessaloniki, Greece",2,16986,0.012
+city,all,Timisoara,1,16986,0.006
+city,all,"Timișoara, Romania",2,16986,0.012
+city,all,Tokyo,15,16986,0.088
+city,all,"Tokyo, Japan",4,16986,0.024
+city,all,"Toledo, Spain",2,16986,0.012
+city,all,"Torino, Italy",2,16986,0.012
+city,all,Toronto,18,16986,0.106
+city,all,"Toronto, Canada",2,16986,0.012
+city,all,"Toulouse, France",8,16986,0.047
+city,all,"Trento, Italy",2,16986,0.012
+city,all,"Trondheim, Norway",2,16986,0.012
+city,all,"Tsukuba, Japan",1,16986,0.006
+city,all,"Tulsa, OK",2,16986,0.012
+city,all,Tunis,1,16986,0.006
+city,all,Tunja,1,16986,0.006
+city,all,Turin,5,16986,0.029
+city,all,"Turin, Italy",3,16986,0.018
+city,all,"Turku, Finland",1,16986,0.006
+city,all,UNKNOWN,1414,16986,8.325
+city,all,Udaipur,1,16986,0.006
+city,all,"Udine, Italy",1,16986,0.006
+city,all,"University of Calabria, Rende, Italy",1,16986,0.006
+city,all,"Urbino, Italy",2,16986,0.012
+city,all,Utrecht,6,16986,0.035
+city,all,"Utrecht, The Netherlands",1,16986,0.006
+city,all,Valencia,4,16986,0.024
+city,all,Valletta,1,16986,0.006
+city,all,"Valletta, Malta",2,16986,0.012
+city,all,Vancouver,9,16986,0.053
+city,all,"Vannes, France",1,16986,0.006
+city,all,Vantaa,805,16986,4.739
+city,all,Varberg,1,16986,0.006
+city,all,Varna,1,16986,0.006
+city,all,"Venice, Italy",1,16986,0.006
+city,all,Verona,11,16986,0.065
+city,all,"Verona, Italy",1,16986,0.006
+city,all,Vienna,27,16986,0.159
+city,all,"Vienna, Austria",5,16986,0.029
+city,all,Vilnius,19,16986,0.112
+city,all,"Virginia Beach, VA",1,16986,0.006
+city,all,Vitoria,1,16986,0.006
+city,all,"Vitória - Espírito Santo, Brazil",1,16986,0.006
+city,all,"Västerås, Sweden",3,16986,0.018
+city,all,Warsaw,24,16986,0.141
+city,all,"Warsaw, Poland",8,16986,0.047
+city,all,"Washington, DC",13,16986,0.077
+city,all,Weiden,3,16986,0.018
+city,all,Wellington,4,16986,0.024
+city,all,Windhoek,1,16986,0.006
+city,all,Winnipeg,1,16986,0.006
+city,all,"Wisconsin Dells, WI",3,16986,0.018
+city,all,"Wonju, South Korea",1,16986,0.006
+city,all,Wrocław,5,16986,0.029
+city,all,"Wrocław, Poland",1,16986,0.006
+city,all,Wuerzburg,1,16986,0.006
+city,all,"Xi’An, China",1,16986,0.006
+city,all,Yerevan,6,16986,0.035
+city,all,Yokohama,1,16986,0.006
+city,all,"Yokohama, Japan",1,16986,0.006
+city,all,"York, England",1,16986,0.006
+city,all,Zadar,4,16986,0.024
+city,all,"Zagreb, Croatia",4,16986,0.024
+city,all,Zaragoza,1,16986,0.006
+city,all,"Zaragoza, Spain",1,16986,0.006
+city,all,Zawiercie,1,16986,0.006
+city,all,Zurich,19,16986,0.112
+city,all,s-Hertogenbosch,1,16986,0.006
+city,all,"Ávila, Spain",1,16986,0.006
+city,all,"Đà Nẵng, Việt Nam",1,16986,0.006
+category,all,academic-technology,480,16986,2.826
+category,all,arte contemporáneo / mercado del arte,6,16986,0.035
+category,all,arts,3,16986,0.018
+category,all,community-mixed,12829,16986,75.527
+category,all,deporte / tenis,6,16986,0.035
+category,all,editorial / cultura,6,16986,0.035
+category,all,literatura / cultura,6,16986,0.035
+category,all,other,4,16986,0.024
+category,all,technology,3646,16986,21.465
+platform,all,computer-science,480,16986,2.826
+platform,all,confs-tech,2986,16986,17.579
+platform,all,helsinki_linked_events,12829,16986,75.527
+platform,all,inherited,688,16986,4.05
+platform,all,primary_enrichment,3,16986,0.018
+record_type,all,event_edition,4157,16986,24.473
+record_type,all,scheduled_occurrence,12829,16986,75.527
+status,all,EventCancelled,327,16986,1.925
+status,all,EventRescheduled,5737,16986,33.775
+status,all,EventScheduled,6765,16986,39.827
+status,all,announced,668,16986,3.933
+status,all,listed_occurrence_unconfirmed,3469,16986,20.423
+status,all,reported_held,20,16986,0.118
+language,all,CS,1,16986,0.006
+language,all,DE,139,16986,0.818
+language,all,"DE,EN",15,16986,0.088
+language,all,"EL,EN",1,16986,0.006
+language,all,EN,1729,16986,10.179
+language,all,"EN, DE",1,16986,0.006
+language,all,"EN, ES",2,16986,0.012
+language,all,"EN, JP",1,16986,0.006
+language,all,"EN,BG",1,16986,0.006
+language,all,"EN,CS",2,16986,0.012
+language,all,"EN,DE",48,16986,0.283
+language,all,"EN,ES",15,16986,0.088
+language,all,"EN,ES,GL,PT",1,16986,0.006
+language,all,"EN,FR",19,16986,0.112
+language,all,"EN,FR,AR",1,16986,0.006
+language,all,"EN,FR,ZH",1,16986,0.006
+language,all,"EN,HE",4,16986,0.024
+language,all,"EN,HI",1,16986,0.006
+language,all,"EN,HR",1,16986,0.006
+language,all,"EN,HY,RU",1,16986,0.006
+language,all,"EN,IT",10,16986,0.059
+language,all,"EN,JA",7,16986,0.041
+language,all,"EN,KO",1,16986,0.006
+language,all,"EN,NE",1,16986,0.006
+language,all,"EN,NL",1,16986,0.006
+language,all,"EN,PL",11,16986,0.065
+language,all,"EN,PT",2,16986,0.012
+language,all,"EN,RU",2,16986,0.012
+language,all,"EN,SL",2,16986,0.012
+language,all,"EN,SV",1,16986,0.006
+language,all,"EN,TH",1,16986,0.006
+language,all,"EN,TR",2,16986,0.012
+language,all,"EN,UK",21,16986,0.124
+language,all,"EN,ZH",2,16986,0.012
+language,all,ES,13,16986,0.077
+language,all,"ES,EN",1,16986,0.006
+language,all,FR,22,16986,0.13
+language,all,"FR,EN",2,16986,0.012
+language,all,HY,1,16986,0.006
+language,all,IT,6,16986,0.035
+language,all,"IT,EN",2,16986,0.012
+language,all,JA,2,16986,0.012
+language,all,PL,4,16986,0.024
+language,all,PT,2,16986,0.012
+language,all,RU,1,16986,0.006
+language,all,"SK,CS",1,16986,0.006
+language,all,SV,1,16986,0.006
+language,all,TR,3,16986,0.018
+language,all,UK,1,16986,0.006
+language,all,UNKNOWN,1564,16986,9.208
+language,all,en,3867,16986,22.766
+language,all,fi,9255,16986,54.486
+language,all,ru,41,16986,0.241
+language,all,sv,149,16986,0.877
+month,all,2021-09,265,16986,1.56
+month,all,2021-10,626,16986,3.685
+month,all,2021-11,527,16986,3.103
+month,all,2021-12,361,16986,2.125
+month,all,2022-01,564,16986,3.32
+month,all,2022-02,489,16986,2.879
+month,all,2022-03,847,16986,4.986
+month,all,2022-04,383,16986,2.255
+month,all,2022-05,549,16986,3.232
+month,all,2022-06,579,16986,3.409
+month,all,2022-07,466,16986,2.743
+month,all,2022-08,629,16986,3.703
+month,all,2022-09,795,16986,4.68
+month,all,2022-10,551,16986,3.244
+month,all,2022-11,679,16986,3.997
+month,all,2022-12,247,16986,1.454
+month,all,2023-01,758,16986,4.462
+month,all,2023-02,403,16986,2.373
+month,all,2023-03,884,16986,5.204
+month,all,2023-04,258,16986,1.519
+month,all,2023-05,773,16986,4.551
+month,all,2023-06,553,16986,3.256
+month,all,2023-07,353,16986,2.078
+month,all,2023-08,829,16986,4.88
+month,all,2023-09,653,16986,3.844
+month,all,2023-10,504,16986,2.967
+month,all,2023-11,91,16986,0.536
+month,all,2023-12,34,16986,0.2
+month,all,2024-01,19,16986,0.112
+month,all,2024-02,42,16986,0.247
+month,all,2024-03,56,16986,0.33
+month,all,2024-04,84,16986,0.495
+month,all,2024-05,100,16986,0.589
+month,all,2024-06,119,16986,0.701
+month,all,2024-07,61,16986,0.359
+month,all,2024-08,44,16986,0.259
+month,all,2024-09,117,16986,0.689
+month,all,2024-10,150,16986,0.883
+month,all,2024-11,121,16986,0.712
+month,all,2024-12,36,16986,0.212
+month,all,2025-01,23,16986,0.135
+month,all,2025-02,37,16986,0.218
+month,all,2025-03,62,16986,0.365
+month,all,2025-04,56,16986,0.33
+month,all,2025-05,104,16986,0.612
+month,all,2025-06,77,16986,0.453
+month,all,2025-07,36,16986,0.212
+month,all,2025-08,36,16986,0.212
+month,all,2025-09,103,16986,0.606
+month,all,2025-10,101,16986,0.595
+month,all,2025-11,82,16986,0.483
+month,all,2025-12,22,16986,0.13
+month,all,2026-01,13,16986,0.077
+month,all,2026-02,22,16986,0.13
+month,all,2026-03,44,16986,0.259
+month,all,2026-04,53,16986,0.312
+month,all,2026-05,73,16986,0.43
+month,all,2026-06,67,16986,0.394
+month,all,2026-07,35,16986,0.206
+month,all,2026-08,21,16986,0.124
+month,all,2026-09,63,16986,0.371
+month,all,2026-10,88,16986,0.518
+month,all,2026-11,77,16986,0.453
+month,all,2026-12,23,16986,0.135
+month,all,2027-01,6,16986,0.035
+month,all,2027-02,9,16986,0.053
+month,all,2027-03,13,16986,0.077
+month,all,2027-04,18,16986,0.106
+month,all,2027-05,10,16986,0.059
+month,all,2027-06,8,16986,0.047
+month,all,2027-07,2,16986,0.012
+month,all,2027-09,2,16986,0.012
+month,all,2027-11,1,16986,0.006
+country,computer-science,Algeria,1,480,0.208
+country,computer-science,Argentina,1,480,0.208
+country,computer-science,Australia,5,480,1.042
+country,computer-science,Austria,10,480,2.083
+country,computer-science,Azerbaijan,1,480,0.208
+country,computer-science,Belgium,8,480,1.667
+country,computer-science,Brazil,10,480,2.083
+country,computer-science,Canada,15,480,3.125
+country,computer-science,China,14,480,2.917
+country,computer-science,Croatia,4,480,0.833
+country,computer-science,Cyprus,5,480,1.042
+country,computer-science,Czech Republic,3,480,0.625
+country,computer-science,Denmark,10,480,2.083
+country,computer-science,Estonia,3,480,0.625
+country,computer-science,Finland,1,480,0.208
+country,computer-science,France,59,480,12.292
+country,computer-science,Georgia,5,480,1.042
+country,computer-science,Germany,26,480,5.417
+country,computer-science,Greece,7,480,1.458
+country,computer-science,Hong Kong,6,480,1.25
+country,computer-science,Iceland,3,480,0.625
+country,computer-science,India,8,480,1.667
+country,computer-science,Iran,1,480,0.208
+country,computer-science,Ireland,5,480,1.042
+country,computer-science,Israel,6,480,1.25
+country,computer-science,Italy,39,480,8.125
+country,computer-science,Japan,10,480,2.083
+country,computer-science,Luxembourg,10,480,2.083
+country,computer-science,Macao,1,480,0.208
+country,computer-science,Malaysia,1,480,0.208
+country,computer-science,Malta,3,480,0.625
+country,computer-science,Mauritius,1,480,0.208
+country,computer-science,Mexico,2,480,0.417
+country,computer-science,Morocco,2,480,0.417
+country,computer-science,Netherlands,9,480,1.875
+country,computer-science,New Zealand,1,480,0.208
+country,computer-science,Norway,6,480,1.25
+country,computer-science,Peru,1,480,0.208
+country,computer-science,Poland,11,480,2.292
+country,computer-science,Portugal,20,480,4.167
+country,computer-science,Romania,8,480,1.667
+country,computer-science,Singapore,6,480,1.25
+country,computer-science,Slovakia,1,480,0.208
+country,computer-science,South Korea,8,480,1.667
+country,computer-science,Spain,13,480,2.708
+country,computer-science,Sweden,7,480,1.458
+country,computer-science,Switzerland,3,480,0.625
+country,computer-science,Taiwan,4,480,0.833
+country,computer-science,Thailand,1,480,0.208
+country,computer-science,Tunisia,2,480,0.417
+country,computer-science,Turkey,1,480,0.208
+country,computer-science,UNKNOWN,17,480,3.542
+country,computer-science,United Arab Emirates,1,480,0.208
+country,computer-science,United Kingdom,22,480,4.583
+country,computer-science,United States,48,480,10.0
+country,computer-science,Vietnam,4,480,0.833
+month,computer-science,2021-10,6,480,1.25
+month,computer-science,2021-11,5,480,1.042
+month,computer-science,2021-12,5,480,1.042
+month,computer-science,2022-01,2,480,0.417
+month,computer-science,2022-02,1,480,0.208
+month,computer-science,2022-03,3,480,0.625
+month,computer-science,2022-04,8,480,1.667
+month,computer-science,2022-05,8,480,1.667
+month,computer-science,2022-06,11,480,2.292
+month,computer-science,2022-07,5,480,1.042
+month,computer-science,2022-08,8,480,1.667
+month,computer-science,2022-09,19,480,3.958
+month,computer-science,2022-10,9,480,1.875
+month,computer-science,2022-11,4,480,0.833
+month,computer-science,2022-12,6,480,1.25
+month,computer-science,2023-01,1,480,0.208
+month,computer-science,2023-02,1,480,0.208
+month,computer-science,2023-03,3,480,0.625
+month,computer-science,2023-04,9,480,1.875
+month,computer-science,2023-05,8,480,1.667
+month,computer-science,2023-06,7,480,1.458
+month,computer-science,2023-07,7,480,1.458
+month,computer-science,2023-08,3,480,0.625
+month,computer-science,2023-09,17,480,3.542
+month,computer-science,2023-10,13,480,2.708
+month,computer-science,2023-11,7,480,1.458
+month,computer-science,2023-12,4,480,0.833
+month,computer-science,2024-01,2,480,0.417
+month,computer-science,2024-02,2,480,0.417
+month,computer-science,2024-03,1,480,0.208
+month,computer-science,2024-04,10,480,2.083
+month,computer-science,2024-05,8,480,1.667
+month,computer-science,2024-06,10,480,2.083
+month,computer-science,2024-07,10,480,2.083
+month,computer-science,2024-08,3,480,0.625
+month,computer-science,2024-09,16,480,3.333
+month,computer-science,2024-10,12,480,2.5
+month,computer-science,2024-11,11,480,2.292
+month,computer-science,2024-12,8,480,1.667
+month,computer-science,2025-01,2,480,0.417
+month,computer-science,2025-02,2,480,0.417
+month,computer-science,2025-03,4,480,0.833
+month,computer-science,2025-04,4,480,0.833
+month,computer-science,2025-05,13,480,2.708
+month,computer-science,2025-06,15,480,3.125
+month,computer-science,2025-07,11,480,2.292
+month,computer-science,2025-08,10,480,2.083
+month,computer-science,2025-09,17,480,3.542
+month,computer-science,2025-10,10,480,2.083
+month,computer-science,2025-11,15,480,3.125
+month,computer-science,2025-12,8,480,1.667
+month,computer-science,2026-01,3,480,0.625
+month,computer-science,2026-02,2,480,0.417
+month,computer-science,2026-03,2,480,0.417
+month,computer-science,2026-04,9,480,1.875
+month,computer-science,2026-05,10,480,2.083
+month,computer-science,2026-06,6,480,1.25
+month,computer-science,2026-07,10,480,2.083
+month,computer-science,2026-08,2,480,0.417
+month,computer-science,2026-09,10,480,2.083
+month,computer-science,2026-10,8,480,1.667
+month,computer-science,2026-11,8,480,1.667
+month,computer-science,2026-12,7,480,1.458
+month,computer-science,2027-01,4,480,0.833
+month,computer-science,2027-03,1,480,0.208
+month,computer-science,2027-04,6,480,1.25
+month,computer-science,2027-05,5,480,1.042
+month,computer-science,2027-06,1,480,0.208
+month,computer-science,2027-07,2,480,0.417
+country,confs-tech,Argentina,5,2986,0.167
+country,confs-tech,Armenia,6,2986,0.201
+country,confs-tech,Australia,36,2986,1.206
+country,confs-tech,Austria,31,2986,1.038
+country,confs-tech,Bangladesh,1,2986,0.033
+country,confs-tech,Belgium,20,2986,0.67
+country,confs-tech,Bosnia and Herzegovina,1,2986,0.033
+country,confs-tech,Brazil,16,2986,0.536
+country,confs-tech,Bulgaria,9,2986,0.301
+country,confs-tech,Canada,55,2986,1.842
+country,confs-tech,Cayman Islands,1,2986,0.033
+country,confs-tech,Chile,5,2986,0.167
+country,confs-tech,China,2,2986,0.067
+country,confs-tech,Colombia,11,2986,0.368
+country,confs-tech,Croatia,10,2986,0.335
+country,confs-tech,Cyprus,2,2986,0.067
+country,confs-tech,Czech Republic,21,2986,0.703
+country,confs-tech,Denmark,37,2986,1.239
+country,confs-tech,Dominican Republic,3,2986,0.1
+country,confs-tech,Egypt,3,2986,0.1
+country,confs-tech,Finland,10,2986,0.335
+country,confs-tech,France,73,2986,2.445
+country,confs-tech,Georgia,2,2986,0.067
+country,confs-tech,Germany,425,2986,14.233
+country,confs-tech,Greece,18,2986,0.603
+country,confs-tech,Hong Kong,2,2986,0.067
+country,confs-tech,Hungary,14,2986,0.469
+country,confs-tech,India,61,2986,2.043
+country,confs-tech,Indonesia,2,2986,0.067
+country,confs-tech,Ireland,11,2986,0.368
+country,confs-tech,Israel,16,2986,0.536
+country,confs-tech,Italy,59,2986,1.976
+country,confs-tech,Japan,20,2986,0.67
+country,confs-tech,Kenya,2,2986,0.067
+country,confs-tech,Kosovo,1,2986,0.033
+country,confs-tech,Latvia,2,2986,0.067
+country,confs-tech,Lithuania,19,2986,0.636
+country,confs-tech,Luxembourg,1,2986,0.033
+country,confs-tech,Malaysia,3,2986,0.1
+country,confs-tech,Malta,3,2986,0.1
+country,confs-tech,Mexico,5,2986,0.167
+country,confs-tech,Moldova,2,2986,0.067
+country,confs-tech,Morocco,2,2986,0.067
+country,confs-tech,Namibia,1,2986,0.033
+country,confs-tech,Nepal,4,2986,0.134
+country,confs-tech,Netherlands,106,2986,3.55
+country,confs-tech,New Zealand,7,2986,0.234
+country,confs-tech,Nigeria,5,2986,0.167
+country,confs-tech,North Macedonia,3,2986,0.1
+country,confs-tech,Norway,24,2986,0.804
+country,confs-tech,Peru,2,2986,0.067
+country,confs-tech,Philippines,2,2986,0.067
+country,confs-tech,Poland,61,2986,2.043
+country,confs-tech,Portugal,22,2986,0.737
+country,confs-tech,Qatar,1,2986,0.033
+country,confs-tech,Romania,16,2986,0.536
+country,confs-tech,Russia,3,2986,0.1
+country,confs-tech,Saudi Arabia,1,2986,0.033
+country,confs-tech,Serbia,11,2986,0.368
+country,confs-tech,Singapore,25,2986,0.837
+country,confs-tech,Slovakia,3,2986,0.1
+country,confs-tech,Slovenia,3,2986,0.1
+country,confs-tech,South Africa,8,2986,0.268
+country,confs-tech,South Korea,7,2986,0.234
+country,confs-tech,Spain,71,2986,2.378
+country,confs-tech,Sweden,34,2986,1.139
+country,confs-tech,Switzerland,35,2986,1.172
+country,confs-tech,Taiwan,1,2986,0.033
+country,confs-tech,Thailand,6,2986,0.201
+country,confs-tech,Tunisia,1,2986,0.033
+country,confs-tech,Turkey,7,2986,0.234
+country,confs-tech,UNKNOWN,581,2986,19.457
+country,confs-tech,Ukraine,19,2986,0.636
+country,confs-tech,United Arab Emirates,18,2986,0.603
+country,confs-tech,United Kingdom,194,2986,6.497
+country,confs-tech,United States,675,2986,22.605
+country,confs-tech,Vietnam,1,2986,0.033
+month,confs-tech,2021-09,6,2986,0.201
+month,confs-tech,2021-10,85,2986,2.847
+month,confs-tech,2021-11,65,2986,2.177
+month,confs-tech,2021-12,25,2986,0.837
+month,confs-tech,2022-01,14,2986,0.469
+month,confs-tech,2022-02,24,2986,0.804
+month,confs-tech,2022-03,28,2986,0.938
+month,confs-tech,2022-04,42,2986,1.407
+month,confs-tech,2022-05,54,2986,1.808
+month,confs-tech,2022-06,63,2986,2.11
+month,confs-tech,2022-07,28,2986,0.938
+month,confs-tech,2022-08,23,2986,0.77
+month,confs-tech,2022-09,81,2986,2.713
+month,confs-tech,2022-10,96,2986,3.215
+month,confs-tech,2022-11,82,2986,2.746
+month,confs-tech,2022-12,33,2986,1.105
+month,confs-tech,2023-01,18,2986,0.603
+month,confs-tech,2023-02,33,2986,1.105
+month,confs-tech,2023-03,55,2986,1.842
+month,confs-tech,2023-04,50,2986,1.674
+month,confs-tech,2023-05,97,2986,3.248
+month,confs-tech,2023-06,60,2986,2.009
+month,confs-tech,2023-07,24,2986,0.804
+month,confs-tech,2023-08,30,2986,1.005
+month,confs-tech,2023-09,88,2986,2.947
+month,confs-tech,2023-10,97,2986,3.248
+month,confs-tech,2023-11,67,2986,2.244
+month,confs-tech,2023-12,21,2986,0.703
+month,confs-tech,2024-01,12,2986,0.402
+month,confs-tech,2024-02,31,2986,1.038
+month,confs-tech,2024-03,44,2986,1.474
+month,confs-tech,2024-04,59,2986,1.976
+month,confs-tech,2024-05,77,2986,2.579
+month,confs-tech,2024-06,92,2986,3.081
+month,confs-tech,2024-07,35,2986,1.172
+month,confs-tech,2024-08,29,2986,0.971
+month,confs-tech,2024-09,80,2986,2.679
+month,confs-tech,2024-10,111,2986,3.717
+month,confs-tech,2024-11,95,2986,3.182
+month,confs-tech,2024-12,23,2986,0.77
+month,confs-tech,2025-01,15,2986,0.502
+month,confs-tech,2025-02,23,2986,0.77
+month,confs-tech,2025-03,50,2986,1.674
+month,confs-tech,2025-04,40,2986,1.34
+month,confs-tech,2025-05,77,2986,2.579
+month,confs-tech,2025-06,43,2986,1.44
+month,confs-tech,2025-07,13,2986,0.435
+month,confs-tech,2025-08,12,2986,0.402
+month,confs-tech,2025-09,67,2986,2.244
+month,confs-tech,2025-10,64,2986,2.143
+month,confs-tech,2025-11,50,2986,1.674
+month,confs-tech,2025-12,13,2986,0.435
+month,confs-tech,2026-01,5,2986,0.167
+month,confs-tech,2026-02,16,2986,0.536
+month,confs-tech,2026-03,34,2986,1.139
+month,confs-tech,2026-04,31,2986,1.038
+month,confs-tech,2026-05,56,2986,1.875
+month,confs-tech,2026-06,56,2986,1.875
+month,confs-tech,2026-07,15,2986,0.502
+month,confs-tech,2026-08,5,2986,0.167
+month,confs-tech,2026-09,47,2986,1.574
+month,confs-tech,2026-10,65,2986,2.177
+month,confs-tech,2026-11,58,2986,1.942
+month,confs-tech,2026-12,15,2986,0.502
+month,confs-tech,2027-01,2,2986,0.067
+month,confs-tech,2027-02,6,2986,0.201
+month,confs-tech,2027-03,11,2986,0.368
+month,confs-tech,2027-04,9,2986,0.301
+month,confs-tech,2027-05,3,2986,0.1
+month,confs-tech,2027-06,7,2986,0.234
+month,confs-tech,2027-09,1,2986,0.033
+country,helsinki_linked_events,Finland,12801,12829,99.782
+country,helsinki_linked_events,UNKNOWN,28,12829,0.218
+month,helsinki_linked_events,2021-09,259,12829,2.019
+month,helsinki_linked_events,2021-10,527,12829,4.108
+month,helsinki_linked_events,2021-11,448,12829,3.492
+month,helsinki_linked_events,2021-12,324,12829,2.526
+month,helsinki_linked_events,2022-01,544,12829,4.24
+month,helsinki_linked_events,2022-02,459,12829,3.578
+month,helsinki_linked_events,2022-03,811,12829,6.322
+month,helsinki_linked_events,2022-04,328,12829,2.557
+month,helsinki_linked_events,2022-05,480,12829,3.742
+month,helsinki_linked_events,2022-06,496,12829,3.866
+month,helsinki_linked_events,2022-07,428,12829,3.336
+month,helsinki_linked_events,2022-08,587,12829,4.576
+month,helsinki_linked_events,2022-09,680,12829,5.3
+month,helsinki_linked_events,2022-10,431,12829,3.36
+month,helsinki_linked_events,2022-11,577,12829,4.498
+month,helsinki_linked_events,2022-12,202,12829,1.575
+month,helsinki_linked_events,2023-01,737,12829,5.745
+month,helsinki_linked_events,2023-02,363,12829,2.83
+month,helsinki_linked_events,2023-03,819,12829,6.384
+month,helsinki_linked_events,2023-04,190,12829,1.481
+month,helsinki_linked_events,2023-05,659,12829,5.137
+month,helsinki_linked_events,2023-06,478,12829,3.726
+month,helsinki_linked_events,2023-07,314,12829,2.448
+month,helsinki_linked_events,2023-08,788,12829,6.142
+month,helsinki_linked_events,2023-09,531,12829,4.139
+month,helsinki_linked_events,2023-10,369,12829,2.876
+country,inherited,Angola,3,688,0.436
+country,inherited,Argentina,4,688,0.581
+country,inherited,Armenia,1,688,0.145
+country,inherited,Australia,7,688,1.017
+country,inherited,Austria,3,688,0.436
+country,inherited,Bangladesh,2,688,0.291
+country,inherited,Belgium,5,688,0.727
+country,inherited,Bolivia,4,688,0.581
+country,inherited,Brazil,25,688,3.634
+country,inherited,Cameroon,14,688,2.035
+country,inherited,Canada,1,688,0.145
+country,inherited,Chile,2,688,0.291
+country,inherited,Colombia,12,688,1.744
+country,inherited,Costa Rica,1,688,0.145
+country,inherited,Cuba,1,688,0.145
+country,inherited,Czech Republic,6,688,0.872
+country,inherited,Denmark,3,688,0.436
+country,inherited,Ecuador,4,688,0.581
+country,inherited,Equatorial Guinea,1,688,0.145
+country,inherited,Estonia,4,688,0.581
+country,inherited,Finland,8,688,1.163
+country,inherited,France,13,688,1.89
+country,inherited,Gambia,5,688,0.727
+country,inherited,Germany,54,688,7.849
+country,inherited,Ghana,12,688,1.744
+country,inherited,Greece,3,688,0.436
+country,inherited,Hong Kong,2,688,0.291
+country,inherited,India,7,688,1.017
+country,inherited,Indonesia,3,688,0.436
+country,inherited,Iran,3,688,0.436
+country,inherited,Ireland,7,688,1.017
+country,inherited,Israel,5,688,0.727
+country,inherited,Italy,7,688,1.017
+country,inherited,Japan,19,688,2.762
+country,inherited,Kenya,3,688,0.436
+country,inherited,Lithuania,5,688,0.727
+country,inherited,Malawi,1,688,0.145
+country,inherited,Mexico,9,688,1.308
+country,inherited,Mozambique,7,688,1.017
+country,inherited,Namibia,5,688,0.727
+country,inherited,Nepal,1,688,0.145
+country,inherited,Netherlands,54,688,7.849
+country,inherited,New Zealand,15,688,2.18
+country,inherited,Niger,7,688,1.017
+country,inherited,Nigeria,26,688,3.779
+country,inherited,Norway,1,688,0.145
+country,inherited,Pakistan,1,688,0.145
+country,inherited,Panama,3,688,0.436
+country,inherited,Philippines,8,688,1.163
+country,inherited,Poland,15,688,2.18
+country,inherited,Portugal,3,688,0.436
+country,inherited,Russia,4,688,0.581
+country,inherited,Singapore,1,688,0.145
+country,inherited,Slovakia,3,688,0.436
+country,inherited,Somalia,3,688,0.436
+country,inherited,South Africa,3,688,0.436
+country,inherited,South Korea,5,688,0.727
+country,inherited,Spain,10,688,1.453
+country,inherited,Sri Lanka,1,688,0.145
+country,inherited,Sweden,5,688,0.727
+country,inherited,Switzerland,11,688,1.599
+country,inherited,Taiwan,5,688,0.727
+country,inherited,Tanzania,3,688,0.436
+country,inherited,Thailand,3,688,0.436
+country,inherited,Togo,3,688,0.436
+country,inherited,Turkey,1,688,0.145
+country,inherited,UNKNOWN,127,688,18.459
+country,inherited,Uganda,5,688,0.727
+country,inherited,Ukraine,1,688,0.145
+country,inherited,United Arab Emirates,3,688,0.436
+country,inherited,United Kingdom,19,688,2.762
+country,inherited,United States,55,688,7.994
+country,inherited,Zimbabwe,2,688,0.291
+month,inherited,2021-10,8,688,1.163
+month,inherited,2021-11,9,688,1.308
+month,inherited,2021-12,7,688,1.017
+month,inherited,2022-01,4,688,0.581
+month,inherited,2022-02,5,688,0.727
+month,inherited,2022-03,5,688,0.727
+month,inherited,2022-04,5,688,0.727
+month,inherited,2022-05,7,688,1.017
+month,inherited,2022-06,9,688,1.308
+month,inherited,2022-07,5,688,0.727
+month,inherited,2022-08,11,688,1.599
+month,inherited,2022-09,15,688,2.18
+month,inherited,2022-10,15,688,2.18
+month,inherited,2022-11,16,688,2.326
+month,inherited,2022-12,6,688,0.872
+month,inherited,2023-01,2,688,0.291
+month,inherited,2023-02,6,688,0.872
+month,inherited,2023-03,7,688,1.017
+month,inherited,2023-04,9,688,1.308
+month,inherited,2023-05,9,688,1.308
+month,inherited,2023-06,8,688,1.163
+month,inherited,2023-07,8,688,1.163
+month,inherited,2023-08,8,688,1.163
+month,inherited,2023-09,17,688,2.471
+month,inherited,2023-10,25,688,3.634
+month,inherited,2023-11,17,688,2.471
+month,inherited,2023-12,9,688,1.308
+month,inherited,2024-01,5,688,0.727
+month,inherited,2024-02,8,688,1.163
+month,inherited,2024-03,11,688,1.599
+month,inherited,2024-04,15,688,2.18
+month,inherited,2024-05,15,688,2.18
+month,inherited,2024-06,17,688,2.471
+month,inherited,2024-07,16,688,2.326
+month,inherited,2024-08,12,688,1.744
+month,inherited,2024-09,21,688,3.052
+month,inherited,2024-10,27,688,3.924
+month,inherited,2024-11,15,688,2.18
+month,inherited,2024-12,5,688,0.727
+month,inherited,2025-01,6,688,0.872
+month,inherited,2025-02,12,688,1.744
+month,inherited,2025-03,8,688,1.163
+month,inherited,2025-04,12,688,1.744
+month,inherited,2025-05,14,688,2.035
+month,inherited,2025-06,18,688,2.616
+month,inherited,2025-07,12,688,1.744
+month,inherited,2025-08,13,688,1.89
+month,inherited,2025-09,19,688,2.762
+month,inherited,2025-10,27,688,3.924
+month,inherited,2025-11,17,688,2.471
+month,inherited,2025-12,1,688,0.145
+month,inherited,2026-01,5,688,0.727
+month,inherited,2026-02,4,688,0.581
+month,inherited,2026-03,8,688,1.163
+month,inherited,2026-04,13,688,1.89
+month,inherited,2026-05,7,688,1.017
+month,inherited,2026-06,5,688,0.727
+month,inherited,2026-07,10,688,1.453
+month,inherited,2026-08,14,688,2.035
+month,inherited,2026-09,6,688,0.872
+month,inherited,2026-10,15,688,2.18
+month,inherited,2026-11,11,688,1.599
+month,inherited,2026-12,1,688,0.145
+month,inherited,2027-02,3,688,0.436
+month,inherited,2027-03,1,688,0.145
+month,inherited,2027-04,3,688,0.436
+month,inherited,2027-05,2,688,0.291
+month,inherited,2027-09,1,688,0.145
+month,inherited,2027-11,1,688,0.145
+country,primary_enrichment,Belgium,1,3,33.333
+country,primary_enrichment,India,1,3,33.333
+country,primary_enrichment,Japan,1,3,33.333
+month,primary_enrichment,2024-02,1,3,33.333
+month,primary_enrichment,2025-06,1,3,33.333
+month,primary_enrichment,2025-08,1,3,33.333

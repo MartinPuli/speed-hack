@@ -1,0 +1,21 @@
+{
+  "url": "https://api.hel.fi/robots.txt",
+  "attempts": [
+    {
+      "checked_at": "2026-09-28T17:31:43.207443+00:00",
+      "attempt": 1,
+      "status": "unknown",
+      "error": "URLError: <urlopen error [Errno 51] Network is unreachable>"
+    },
+    {
+      "checked_at": "2026-09-28T17:31:49.001267+00:00",
+      "attempt": 2,
+      "status": "unknown",
+      "error": "URLError: <urlopen error [Errno 51] Network is unreachable>"
+    }
+  ],
+  "decision": "stop_unknown",
+  "collection_permitted": false,
+  "explicit_permission_source": "https://avoindata.suomi.fi/data/en_GB/dataset/linked-events-tapahtumarajapinta",
+  "scope": "documented open API only; no website crawling or access bypass"
+}

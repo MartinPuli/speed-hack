@@ -1,0 +1,1 @@
+{"url": "https://clickhouse.com/robots.txt", "status": 200, "observed_at": "2026-09-28T15:48:06.443540+00:00", "content_sha256": "f551b986ecda5d8565a3ef5adf54ee6cf0a5d0f491a3acf7ada53edeebfd1c4b", "rules": "User-Agent: *\nContent-Signal: ai-train=yes, search=yes, ai-input=yes\nAllow: /\nDisallow: /admin/\nDisallow: /marketo-forms/\n\nSitemap: https://clickhouse.com/sitemap.xml"}

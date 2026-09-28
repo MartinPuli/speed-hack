@@ -1,0 +1,227 @@
+{
+  "design": "Three predeclared synthetic functional cases, no tuning or relevance ground truth",
+  "ranking_runs": [
+    {
+      "case": "dev-python-global",
+      "method": "keyword_geo_date",
+      "candidates": 31,
+      "elapsed_ms": 0.187,
+      "top5": [
+        {
+          "event_id": "evt_3a3a17d29cb47ddf",
+          "title": "PyCon Africa 2026",
+          "score": 0.4
+        },
+        {
+          "event_id": "evt_c43d6fa25b911b1b",
+          "title": "PyCon Greece 2026",
+          "score": 0.4
+        },
+        {
+          "event_id": "evt_f7f941f37fc9424b",
+          "title": "PyCon NL 2026",
+          "score": 0.4
+        },
+        {
+          "event_id": "evt_6f2e680bdac0b5b0",
+          "title": "PyCon Taiwan",
+          "score": 0.4
+        },
+        {
+          "event_id": "evt_8e903408da778d07",
+          "title": "PyCon Panamá 2026",
+          "score": 0.4
+        }
+      ]
+    },
+    {
+      "case": "dev-python-global",
+      "method": "profile_tfidf",
+      "candidates": 31,
+      "elapsed_ms": 0.2101,
+      "top5": [
+        {
+          "event_id": "evt_f8ca29d8aaf3554c",
+          "title": "PyLadies Rivers In-Person Python Workshop",
+          "score": 0.30242
+        },
+        {
+          "event_id": "evt_f7f941f37fc9424b",
+          "title": "PyCon NL 2026",
+          "score": 0.16639
+        },
+        {
+          "event_id": "evt_3a3a17d29cb47ddf",
+          "title": "PyCon Africa 2026",
+          "score": 0.16537
+        },
+        {
+          "event_id": "evt_c8fb1781b754e939",
+          "title": "PyCon ES 2026",
+          "score": 0.15993
+        },
+        {
+          "event_id": "evt_4ef0b5307ada4c97",
+          "title": "PyCon SK 2027",
+          "score": 0.14394
+        }
+      ]
+    },
+    {
+      "case": "dev-python-global",
+      "method": "profile_history_evidence",
+      "candidates": 31,
+      "elapsed_ms": 0.2152,
+      "top5": [
+        {
+          "event_id": "evt_f8ca29d8aaf3554c",
+          "title": "PyLadies Rivers In-Person Python Workshop",
+          "score": 0.24194
+        },
+        {
+          "event_id": "evt_9438314c52d10a5f",
+          "title": "PyCon Ireland 2026",
+          "score": 0.2299
+        },
+        {
+          "event_id": "evt_97e632c8a9413bf1",
+          "title": "PyCon Namibia 2027",
+          "score": 0.21984
+        },
+        {
+          "event_id": "evt_ce6bd55ee3cb5a28",
+          "title": "Python Meeting Düsseldorf",
+          "score": 0.21924
+        },
+        {
+          "event_id": "evt_eef12d21d0b907b9",
+          "title": "Python Meeting Düsseldorf",
+          "score": 0.21924
+        }
+      ]
+    },
+    {
+      "case": "eval-culture-uk",
+      "method": "keyword_geo_date",
+      "candidates": 2,
+      "elapsed_ms": 0.029,
+      "top5": [
+        {
+          "event_id": "evt_d4fe659e50c08239",
+          "title": "Frieze London 2026",
+          "score": 0.2
+        },
+        {
+          "event_id": "evt_955a04bc4b73ce70",
+          "title": "Python E-Commerce Forum",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "case": "eval-culture-uk",
+      "method": "profile_tfidf",
+      "candidates": 2,
+      "elapsed_ms": 0.0216,
+      "top5": [
+        {
+          "event_id": "evt_d4fe659e50c08239",
+          "title": "Frieze London 2026",
+          "score": 0.12086
+        },
+        {
+          "event_id": "evt_955a04bc4b73ce70",
+          "title": "Python E-Commerce Forum",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "case": "eval-culture-uk",
+      "method": "profile_history_evidence",
+      "candidates": 2,
+      "elapsed_ms": 0.0165,
+      "top5": [
+        {
+          "event_id": "evt_d4fe659e50c08239",
+          "title": "Frieze London 2026",
+          "score": 0.24669
+        },
+        {
+          "event_id": "evt_955a04bc4b73ce70",
+          "title": "Python E-Commerce Forum",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "case": "eval-python-us",
+      "method": "keyword_geo_date",
+      "candidates": 2,
+      "elapsed_ms": 0.0212,
+      "top5": [
+        {
+          "event_id": "evt_9da972220c78ac0f",
+          "title": "PyBay 2026",
+          "score": 0.0
+        },
+        {
+          "event_id": "evt_fa0ae2541f8d36ea",
+          "title": "PyBeach 2026",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "case": "eval-python-us",
+      "method": "profile_tfidf",
+      "candidates": 2,
+      "elapsed_ms": 0.0178,
+      "top5": [
+        {
+          "event_id": "evt_9da972220c78ac0f",
+          "title": "PyBay 2026",
+          "score": 0.0
+        },
+        {
+          "event_id": "evt_fa0ae2541f8d36ea",
+          "title": "PyBeach 2026",
+          "score": 0.0
+        }
+      ]
+    },
+    {
+      "case": "eval-python-us",
+      "method": "profile_history_evidence",
+      "candidates": 2,
+      "elapsed_ms": 0.0148,
+      "top5": [
+        {
+          "event_id": "evt_9da972220c78ac0f",
+          "title": "PyBay 2026",
+          "score": 0.14
+        },
+        {
+          "event_id": "evt_fa0ae2541f8d36ea",
+          "title": "PyBeach 2026",
+          "score": 0.03
+        }
+      ]
+    }
+  ],
+  "history_ablation": {
+    "recent_12m": {
+      "editions": 118,
+      "sponsor_roles": 1,
+      "sponsor_organizations": 1,
+      "warning": "Extraction depth differs by year; coverage difference not causal utility."
+    },
+    "full_60m": {
+      "editions": 650,
+      "sponsor_roles": 319,
+      "sponsor_organizations": 193,
+      "warning": "Extraction depth differs by year; coverage difference not causal utility."
+    }
+  },
+  "temporal_validation": "invalid_without_pre_cutoff_snapshots; all observations made today"
+}

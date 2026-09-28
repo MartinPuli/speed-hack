@@ -1,0 +1,233 @@
+{
+  "all_passed": false,
+  "checks": [
+    {
+      "check": "all compressed CSV exports exact cell/order parity with SQLite",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": "\\N encodes SQL NULL, empty strings remain empty"
+    },
+    {
+      "check": "SQLite integrity",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "physical foreign keys",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "all rows inherited from 66 tables preserved unchanged",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "all inherited package files unchanged",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "logical foreign keys inherited and new",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "unique stable primary keys all data tables",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "valid JSON cells",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "polymorphic assertion references",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "dates valid and five-year lower boundary",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "every edition has metadata row",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "core event field provenance",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "source URLs present",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "source native IDs unique canonical",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "no same-source observation duplicated",
+      "passed": false,
+      "error_count": 46,
+      "examples": [
+        [
+          "confs-tech",
+          "03015694b0fcb57633970ae2",
+          "$[4]",
+          2
+        ],
+        [
+          "confs-tech",
+          "0e2466d5dd1eb9b4687811e6",
+          "$[13]",
+          2
+        ],
+        [
+          "confs-tech",
+          "0e54fdb610cc4b658b95c9e8",
+          "$[0]",
+          2
+        ],
+        [
+          "confs-tech",
+          "10fa9cedfc2e00f4003ce084",
+          "$[1]",
+          2
+        ],
+        [
+          "confs-tech",
+          "1a0d3314631409c0f2f939c0",
+          "$[14]",
+          2
+        ],
+        [
+          "confs-tech",
+          "1a2d4a7cf00a18e2fa820fae",
+          "$[27]",
+          2
+        ],
+        [
+          "confs-tech",
+          "1e4a758ba1f3e4d4c99843a7",
+          "$[8]",
+          2
+        ],
+        [
+          "confs-tech",
+          "225541a2b7aa3262dcd7cb02",
+          "$[9]",
+          2
+        ]
+      ],
+      "detail": null
+    },
+    {
+      "check": "privacy private-client tables empty",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "no live Luma publication",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "new observation payloads contain no attendee/contact fields",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": "Professional speaker names inherited remain public professional participation, never attendee lists"
+    },
+    {
+      "check": "all importer/build scripts parse",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "coordinate pairs ranges and country sanity",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    },
+    {
+      "check": "GeoJSON event count and ID parity",
+      "passed": true,
+      "error_count": 0,
+      "examples": [],
+      "detail": null
+    }
+  ],
+  "events_total": 16986,
+  "inherited": 688,
+  "new": 16298,
+  "countries_or_territories": 103,
+  "historical": 16715,
+  "future_or_current": 271,
+  "with_published_coordinates": 13264,
+  "table_count": 73,
+  "populated_tables": 54,
+  "empty_tables": [
+    "audience_overlap",
+    "communities",
+    "community_event_links",
+    "customer_briefs",
+    "distribution_channels",
+    "distribution_metrics",
+    "event_relations",
+    "event_space_assignments",
+    "market_context",
+    "opportunity_clusters",
+    "participation",
+    "partner_relationships",
+    "scale_rejections",
+    "sponsor_match_scores",
+    "sponsor_profiles",
+    "sponsorship_observations",
+    "topic_trends",
+    "user_feedback",
+    "venue_spaces"
+  ],
+  "database_bytes": 260296704,
+  "compressed_csv_bytes": 32369938
+}

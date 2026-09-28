@@ -1,0 +1,2 @@
+Logical mapping:66/66, unique, no missing. Proposed physical tables:23. SQL reviewed as design; PostgreSQL execution not performed.
+scopes, entities, sources, source_snapshots, assertions, event_editions, profiles, relations, measurements, offers, offer_versions, external_ids, entity_aliases, changes, jobs, job_steps, deadlines, briefs, runs, candidates, artifacts, feedback, search_documents

@@ -1,0 +1,5 @@
+id,event_id,category,amount_min,amount_max,currency,unit,taxes,inclusions,valid_from,valid_to,cost_status,source_id
+event_costs_df7908392b3636ef,evt_1fc974874ad3a13f,hotel_Drury Plaza Hotel,189,,USD,night,excluded,,2024,,historical_conference_rate; availability_unknown,src_8968da04e54783b9
+event_costs_f1d3671fa067b197,evt_1fc974874ad3a13f,hotel_The Westin Pittsburgh,209,,USD,night,excluded,,2024,,historical_conference_rate; availability_unknown,src_8968da04e54783b9
+event_costs_87e05b6cb49de1b7,evt_ec56dad6b0f54653,hotel_Drury Plaza Hotel,189,,USD,night,excluded,,2025,,historical_conference_rate; availability_unknown,src_97831f9940b13eb4
+event_costs_6612bc8568ef902b,evt_ec56dad6b0f54653,hotel_The Westin Pittsburgh,215,,USD,night,excluded,,2025,,historical_conference_rate; availability_unknown,src_97831f9940b13eb4

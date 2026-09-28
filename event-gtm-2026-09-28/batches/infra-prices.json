@@ -1,0 +1,1149 @@
+{
+  "schema_version": 1,
+  "title": "Infraestructura y mapas: tarifas observadas y escenarios separados",
+  "observed_at": "2026-09-28",
+  "currency": "USD",
+  "scope": "Documentación e investigación; ningún servicio activado ni app modificada",
+  "dataset_gate": {
+    "path": "checkpoints/phase-1-gate.md",
+    "stats_path": "checkpoints/dataset-stats.json",
+    "partial_editions": 87,
+    "partial_assertions": 5385,
+    "quality_benchmark": "No labels humanos; comparaciones funcionales no prueban utilidad comercial."
+  },
+  "sources": [
+    {
+      "id": "pg_jsonb",
+      "url": "https://www.postgresql.org/docs/current/datatype-json.html",
+      "title": "JSON Types",
+      "publisher": "PostgreSQL",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "JSONB indexable; no conserva representación textual exacta; actualización bloquea fila."
+      ]
+    },
+    {
+      "id": "pg_rls",
+      "url": "https://www.postgresql.org/docs/current/ddl-rowsecurity.html",
+      "title": "Row Security Policies",
+      "publisher": "PostgreSQL",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Default deny al habilitar sin política; excepciones de owner/BYPASSRLS y restricciones."
+      ]
+    },
+    {
+      "id": "pg_fts",
+      "url": "https://www.postgresql.org/docs/current/textsearch-indexes.html",
+      "title": "Preferred Index Types for Text Search",
+      "publisher": "PostgreSQL",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "GIN preferido para búsqueda de texto."
+      ]
+    },
+    {
+      "id": "pg_trgm",
+      "url": "https://www.postgresql.org/docs/current/pgtrgm.html",
+      "title": "pg_trgm",
+      "publisher": "PostgreSQL",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Similitud de cadenas e índices para búsqueda lexical."
+      ]
+    },
+    {
+      "id": "pgvector",
+      "url": "https://github.com/pgvector/pgvector",
+      "title": "pgvector README",
+      "publisher": "pgvector",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Búsqueda exacta y ANN; filtrado posterior y scans iterativos afectan recall."
+      ]
+    },
+    {
+      "id": "duckdb_parquet",
+      "url": "https://duckdb.org/docs/current/data/parquet/overview",
+      "title": "Reading and Writing Parquet Files",
+      "publisher": "DuckDB",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Lectura/escritura Parquet; proyección y filtro en lector."
+      ]
+    },
+    {
+      "id": "duckdb_concurrency",
+      "url": "https://duckdb.org/docs/current/connect/concurrency",
+      "title": "Concurrency",
+      "publisher": "DuckDB",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Distingue concurrencia in-process y opciones remotas; no se requiere otro servidor para este análisis."
+      ]
+    },
+    {
+      "id": "supabase_pricing",
+      "url": "https://supabase.com/pricing",
+      "title": "Pricing",
+      "publisher": "Supabase",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Pro, disco, Auth, egress, backups y almacenamiento incluidos."
+      ]
+    },
+    {
+      "id": "supabase_compute",
+      "url": "https://supabase.com/docs/guides/platform/manage-your-usage/compute",
+      "title": "Manage Compute usage",
+      "publisher": "Supabase",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Cobro horario; crédito $10; compute fuera de spend cap."
+      ]
+    },
+    {
+      "id": "railway",
+      "url": "https://docs.railway.com/pricing/plans",
+      "title": "Pricing Plans",
+      "publisher": "Railway",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Pro $20 aplicado a recursos; RAM, CPU, egreso y volúmenes por uso."
+      ]
+    },
+    {
+      "id": "r2_pricing",
+      "url": "https://developers.cloudflare.com/r2/pricing/",
+      "title": "R2 Pricing",
+      "publisher": "Cloudflare",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Standard: almacenamiento, operaciones y egreso; franquicias."
+      ]
+    },
+    {
+      "id": "r2_lifecycle",
+      "url": "https://developers.cloudflare.com/r2/buckets/object-lifecycles/",
+      "title": "Object lifecycles",
+      "publisher": "Cloudflare",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Expiración por reglas; no establece derechos sobre documentos ajenos."
+      ]
+    },
+    {
+      "id": "neon_compute_2025",
+      "url": "https://neon.com/blog/major-compute-price-reduction-on-neon",
+      "title": "Major compute price reduction on Neon",
+      "publisher": "Neon",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Launch .106/CU-h sustituye .14; Scale .222; storage .35/GB-mes."
+      ],
+      "published_at": "2025-11-03"
+    },
+    {
+      "id": "neon_usage_2025",
+      "url": "https://neon.com/blog/new-usage-based-pricing",
+      "title": "Neon’s New Pricing, Explained: Usage-Based, No Minimum",
+      "publisher": "Neon",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Update diciembre 2025 elimina mínimo; restore history .20/GB-mes; texto antiguo conserva compute superado."
+      ],
+      "published_at": "2025-08-14",
+      "update_note": "Actualización explícita de diciembre de 2025 para mínimo; otras secciones conservan tarifas anteriores."
+    },
+    {
+      "id": "neon_pricing_unreadable",
+      "url": "https://neon.com/pricing",
+      "title": "Pricing, pendiente de lectura",
+      "publisher": "Neon",
+      "observed_at": "2026-09-28",
+      "access_status": "parser_unsupported_content_type",
+      "facts": [
+        "No leído: parser rechaza text/markdown. No usar como confirmación del tarifario actual."
+      ]
+    },
+    {
+      "id": "neon_patterns",
+      "url": "https://neon.com/blog/building-patterns-unlocked-by-scale-to-zero",
+      "title": "Building patterns unlocked by scale to zero",
+      "publisher": "Neon",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Discute cargas intermitentes; no prueba suspensión de nuestra carga con worker."
+      ]
+    },
+    {
+      "id": "pgboss",
+      "url": "https://pgboss.io/",
+      "title": "pg-boss",
+      "publisher": "pg-boss",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Cola de trabajos sobre PostgreSQL; requiere validar patrón de actividad de la instalación real."
+      ]
+    },
+    {
+      "id": "maplibre",
+      "url": "https://maplibre.org/projects/gl-js/",
+      "title": "MapLibre GL JS",
+      "publisher": "MapLibre",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Renderizador web; distinto de proveedor de tiles/geocoding."
+      ]
+    },
+    {
+      "id": "openfreemap",
+      "url": "https://openfreemap.org/",
+      "title": "OpenFreeMap",
+      "publisher": "OpenFreeMap",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Instancia pública gratuita sin límites publicados de requests/vistas; sin SLA; atribución."
+      ]
+    },
+    {
+      "id": "maptiler_pricing",
+      "url": "https://www.maptiler.com/cloud/pricing/",
+      "title": "Flexible pricing for maps, data processing & storage",
+      "publisher": "MapTiler",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Flex $30; bolsas separadas y excedentes; Free no presupuesto comercial estable."
+      ]
+    },
+    {
+      "id": "maptiler_units",
+      "url": "https://docs.maptiler.com/guides/account/sessions-vs-requests/",
+      "title": "Sessions vs. requests",
+      "publisher": "MapTiler",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "SDK habilitado usa sesiones; MapLibre directo requests; batch geocode cuenta por consulta."
+      ]
+    },
+    {
+      "id": "maptiler_cloud_terms",
+      "url": "https://www.maptiler.com/terms/cloud/",
+      "title": "MapTiler Cloud Terms and Conditions",
+      "publisher": "MapTiler",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Permite bulk geocoding y uso externo de resultados search; restricciones distintas para tiles/proxy."
+      ]
+    },
+    {
+      "id": "maptiler_terms",
+      "url": "https://www.maptiler.com/terms/",
+      "title": "Terms",
+      "publisher": "MapTiler",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Atribución y terminación; revisar contrato aplicable al catálogo exportable."
+      ]
+    },
+    {
+      "id": "mapbox_pricing",
+      "url": "https://www.mapbox.com/pricing",
+      "title": "Mapbox pricing",
+      "publisher": "Mapbox",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Map Loads, geocoding temporal/permanente; permanente excluye distribución/sublicencia."
+      ]
+    },
+    {
+      "id": "mapbox_geocoding",
+      "url": "https://docs.mapbox.com/api/search/geocoding/",
+      "title": "Geocoding API",
+      "publisher": "Mapbox",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Temporal no cacheable; permanente almacenable, uso junto a mapa Mapbox; 1000 req/min por defecto."
+      ]
+    },
+    {
+      "id": "mapbox_attribution",
+      "url": "https://docs.mapbox.com/help/dive-deeper/attribution/",
+      "title": "Attribution",
+      "publisher": "Mapbox",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Requisitos de atribución para mapas."
+      ]
+    },
+    {
+      "id": "nominatim_policy",
+      "url": "https://operations.osmfoundation.org/policies/nominatim/",
+      "title": "Nominatim Usage Policy",
+      "publisher": "OpenStreetMap Foundation",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Máximo 1 req/s; identificación/cache; no autocomplete, restricciones bulk/periódico."
+      ]
+    },
+    {
+      "id": "osm_tiles",
+      "url": "https://operations.osmfoundation.org/policies/tiles/",
+      "title": "Tile Usage Policy",
+      "publisher": "OpenStreetMap Foundation",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "Best effort sin SLA; atribución/cache; prohíbe bulk/offline sobre servidor público."
+      ]
+    },
+    {
+      "id": "osm_license",
+      "url": "https://www.openstreetmap.org/copyright",
+      "title": "Copyright and License",
+      "publisher": "OpenStreetMap",
+      "observed_at": "2026-09-28",
+      "access_status": "opened",
+      "facts": [
+        "ODbL y atribución; datos y servicio público son distintos."
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "id": "supa_pro",
+      "provider": "Supabase",
+      "item": "Pro",
+      "currency": "USD",
+      "price": 25,
+      "unit": "organization_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_pricing"
+      ],
+      "limitations": [
+        "Una organización y un proyecto en escenarios; compute por separado con crédito."
+      ]
+    },
+    {
+      "id": "supa_compute_credit",
+      "provider": "Supabase",
+      "item": "Crédito compute",
+      "currency": "USD",
+      "price": 10,
+      "unit": "USD_per_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_compute"
+      ],
+      "limitations": [
+        "Solo compute; no arrastre; no descontar dos veces."
+      ]
+    },
+    {
+      "id": "supa_micro",
+      "provider": "Supabase",
+      "item": "Micro compute",
+      "currency": "USD",
+      "price": 0.01344,
+      "unit": "instance_hour",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_compute"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "supa_small",
+      "provider": "Supabase",
+      "item": "Small compute",
+      "currency": "USD",
+      "price": 0.0206,
+      "unit": "instance_hour",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_compute"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "supa_medium",
+      "provider": "Supabase",
+      "item": "Medium compute",
+      "currency": "USD",
+      "price": 0.0822,
+      "unit": "instance_hour",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_compute"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "supa_disk",
+      "provider": "Supabase",
+      "item": "Disco sobre franquicia Pro",
+      "currency": "USD",
+      "price": 0.125,
+      "unit": "GB_month",
+      "included_quantity": 8,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_pricing"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "supa_egress",
+      "provider": "Supabase",
+      "item": "Egress sobre franquicia Pro",
+      "currency": "USD",
+      "price": 0.09,
+      "unit": "GB",
+      "included_quantity": 250,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_pricing"
+      ],
+      "limitations": [
+        "Tráfico cached tiene bolsa/tarifa separada; no modelado."
+      ]
+    },
+    {
+      "id": "supa_auth",
+      "provider": "Supabase",
+      "item": "Auth sobre franquicia Pro",
+      "currency": "USD",
+      "price": 0.00325,
+      "unit": "MAU",
+      "included_quantity": 100000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_pricing"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "supa_files",
+      "provider": "Supabase",
+      "item": "Archivos sobre franquicia Pro",
+      "currency": "USD",
+      "price": 0.0213,
+      "unit": "GB_month",
+      "included_quantity": 100,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "supabase_pricing"
+      ],
+      "limitations": [
+        "Alternativa a R2; no sumar almacenamiento duplicado por defecto."
+      ]
+    },
+    {
+      "id": "railway_pro",
+      "provider": "Railway",
+      "item": "Pro mínimo consumible",
+      "currency": "USD",
+      "price": 20,
+      "unit": "workspace_month",
+      "included_quantity": 20,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "railway"
+      ],
+      "limitations": [
+        "Incluye USD20 de consumo; factura max(20,uso), no 20+uso."
+      ]
+    },
+    {
+      "id": "railway_ram",
+      "provider": "Railway",
+      "item": "RAM contenedores",
+      "currency": "USD",
+      "price": 10,
+      "unit": "GB_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "railway"
+      ],
+      "limitations": [
+        "Promedio de uso; tarifa publicada equivalente mensual."
+      ]
+    },
+    {
+      "id": "railway_cpu",
+      "provider": "Railway",
+      "item": "CPU contenedores",
+      "currency": "USD",
+      "price": 20,
+      "unit": "vCPU_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "railway"
+      ],
+      "limitations": [
+        "No usar tarifa VM de agentes para estos contenedores."
+      ]
+    },
+    {
+      "id": "railway_egress",
+      "provider": "Railway",
+      "item": "Egress",
+      "currency": "USD",
+      "price": 0.05,
+      "unit": "GB",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "railway"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "railway_volume",
+      "provider": "Railway",
+      "item": "Volumen",
+      "currency": "USD",
+      "price": 0.15,
+      "unit": "GB_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "railway"
+      ],
+      "limitations": [
+        "No usado en estos escenarios; DB alojada fuera."
+      ]
+    },
+    {
+      "id": "r2_storage",
+      "provider": "Cloudflare",
+      "item": "R2 Standard storage",
+      "currency": "USD",
+      "price": 0.015,
+      "unit": "GB_month",
+      "included_quantity": 10,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "r2_pricing"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "r2_a",
+      "provider": "Cloudflare",
+      "item": "R2 Standard Class A",
+      "currency": "USD",
+      "price": 4.5,
+      "unit": "million_operations",
+      "included_quantity": 1000000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "r2_pricing"
+      ],
+      "limitations": [
+        "La franquicia se expresa en operaciones; cobra redondeo de unidades cuando corresponda."
+      ]
+    },
+    {
+      "id": "r2_b",
+      "provider": "Cloudflare",
+      "item": "R2 Standard Class B",
+      "currency": "USD",
+      "price": 0.36,
+      "unit": "million_operations",
+      "included_quantity": 10000000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "r2_pricing"
+      ],
+      "limitations": []
+    },
+    {
+      "id": "r2_egress",
+      "provider": "Cloudflare",
+      "item": "R2 directo a Internet",
+      "currency": "USD",
+      "price": 0,
+      "unit": "GB",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "r2_pricing"
+      ],
+      "limitations": [
+        "Otros servicios usados como proxy sí pueden cobrar."
+      ]
+    },
+    {
+      "id": "neon_launch",
+      "provider": "Neon",
+      "item": "Launch compute",
+      "currency": "USD",
+      "price": 0.106,
+      "unit": "CU_hour",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "official_dated_announcement_current_unconfirmed",
+      "source_ids": [
+        "neon_compute_2025"
+      ],
+      "limitations": [
+        "Tarifa de anuncio oficial abierto; página de pricing actual no legible; reconfirmar antes de contratar."
+      ]
+    },
+    {
+      "id": "neon_storage",
+      "provider": "Neon",
+      "item": "Storage",
+      "currency": "USD",
+      "price": 0.35,
+      "unit": "GB_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "official_dated_announcement_current_unconfirmed",
+      "source_ids": [
+        "neon_compute_2025",
+        "neon_usage_2025"
+      ],
+      "limitations": [
+        "Tarifa de anuncio oficial abierto; página de pricing actual no legible; reconfirmar antes de contratar."
+      ]
+    },
+    {
+      "id": "neon_restore",
+      "provider": "Neon",
+      "item": "Restore history",
+      "currency": "USD",
+      "price": 0.2,
+      "unit": "GB_month_of_retained_changes",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "official_dated_announcement_current_unconfirmed",
+      "source_ids": [
+        "neon_usage_2025"
+      ],
+      "limitations": [
+        "Tarifa de anuncio oficial abierto; página de pricing actual no legible; reconfirmar antes de contratar.",
+        "No multiplicar por tamaño total DB; son cambios retenidos."
+      ]
+    },
+    {
+      "id": "openfreemap_public",
+      "provider": "OpenFreeMap",
+      "item": "Instancia pública tiles",
+      "currency": "USD",
+      "price": 0,
+      "unit": "service_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "openfreemap"
+      ],
+      "limitations": [
+        "Sin límites publicados de vistas/requests; no SLA ni geocoding. No implica costo cero para self-hosting."
+      ]
+    },
+    {
+      "id": "maptiler_flex",
+      "provider": "MapTiler",
+      "item": "Flex base",
+      "currency": "USD",
+      "price": 30,
+      "unit": "account_month",
+      "included_quantity": null,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "maptiler_pricing"
+      ],
+      "limitations": [
+        "USD sin VAT; incluye bolsas descritas en quotas; excedentes automáticos salvo límite de gasto."
+      ]
+    },
+    {
+      "id": "maptiler_api",
+      "provider": "MapTiler",
+      "item": "API requests excedentes",
+      "currency": "USD",
+      "price": 0.15,
+      "unit": "thousand_requests",
+      "included_quantity": 500000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "maptiler_pricing",
+        "maptiler_units"
+      ],
+      "limitations": [
+        "MapLibre directo cuenta tiles y geocoding en esta bolsa; no equiparar request HTTP batch con una sola consulta."
+      ]
+    },
+    {
+      "id": "maptiler_sessions",
+      "provider": "MapTiler",
+      "item": "Sesiones excedentes",
+      "currency": "USD",
+      "price": 2.5,
+      "unit": "thousand_sessions",
+      "included_quantity": 25000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "maptiler_pricing",
+        "maptiler_units"
+      ],
+      "limitations": [
+        "Requiere SDK/integración elegible; no se aplica por usar MapLibre directo."
+      ]
+    },
+    {
+      "id": "maptiler_search_sessions",
+      "provider": "MapTiler",
+      "item": "Sesiones búsqueda excedentes",
+      "currency": "USD",
+      "price": 2.5,
+      "unit": "thousand_search_sessions",
+      "included_quantity": 3000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "maptiler_pricing"
+      ],
+      "limitations": [
+        "Bolsa separada; no se modela autocomplete."
+      ]
+    },
+    {
+      "id": "mapbox_loads",
+      "provider": "Mapbox",
+      "item": "GL JS Map Loads tramo 50001–100000",
+      "currency": "USD",
+      "price": 5,
+      "unit": "thousand_loads",
+      "included_quantity": 50000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "mapbox_pricing"
+      ],
+      "limitations": [
+        "Solo primer tramo pago; no Map Seats; no asumir tarifa válida para MapLibre."
+      ]
+    },
+    {
+      "id": "mapbox_permanent",
+      "provider": "Mapbox",
+      "item": "Geocoding permanente primeras 500000",
+      "currency": "USD",
+      "price": 5,
+      "unit": "thousand_queries",
+      "included_quantity": 0,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "mapbox_pricing",
+        "mapbox_geocoding"
+      ],
+      "limitations": [
+        "Retención sí; redistribución/sublicencia no implícita; validar uso con mapa Mapbox y contratación."
+      ]
+    },
+    {
+      "id": "mapbox_temp",
+      "provider": "Mapbox",
+      "item": "Geocoding temporal tramo 100001–500000",
+      "currency": "USD",
+      "price": 0.75,
+      "unit": "thousand_queries",
+      "included_quantity": 100000,
+      "observed_at": "2026-09-28",
+      "verification_status": "observed_current_page",
+      "source_ids": [
+        "mapbox_pricing",
+        "mapbox_geocoding"
+      ],
+      "limitations": [
+        "No persistir/cache; excluido del costo de catálogo guardado."
+      ]
+    }
+  ],
+  "quotas": [
+    {
+      "provider": "MapTiler",
+      "plan": "Free",
+      "map_sessions": 5000,
+      "search_sessions": 1000,
+      "api_requests": 100000,
+      "period": "month",
+      "commercial_pilot_budget": false,
+      "source_ids": [
+        "maptiler_pricing",
+        "maptiler_cloud_terms"
+      ]
+    },
+    {
+      "provider": "MapTiler",
+      "plan": "Flex",
+      "map_sessions": 25000,
+      "search_sessions": 3000,
+      "api_requests": 500000,
+      "period": "month",
+      "source_ids": [
+        "maptiler_pricing"
+      ]
+    },
+    {
+      "provider": "Mapbox",
+      "api": "Geocoding",
+      "default_requests_per_minute": 1000,
+      "source_ids": [
+        "mapbox_geocoding"
+      ]
+    },
+    {
+      "provider": "Nominatim public",
+      "maximum_requests_per_second": 1,
+      "periodic_bulk_requests_per_minute": 4,
+      "autocomplete_allowed": false,
+      "unattended_global_enrichment_recommended": false,
+      "source_ids": [
+        "nominatim_policy"
+      ]
+    }
+  ],
+  "rights": [
+    {
+      "provider": "MapTiler",
+      "storage": "Cloud terms permiten bulk geocoding con atribución de base y uso externo de search results.",
+      "unknowns": [
+        "Duración tras terminación",
+        "Catálogo exportable/reventa y proxy específicos"
+      ],
+      "not_allowed_by_general_tile_license": [
+        "Bulk tiles",
+        "Cache cartográfico servidor",
+        "Proxy no acordado"
+      ],
+      "source_ids": [
+        "maptiler_cloud_terms",
+        "maptiler_terms"
+      ]
+    },
+    {
+      "provider": "Mapbox",
+      "temporary_storage_allowed": false,
+      "permanent_storage_allowed": true,
+      "limitations": [
+        "Documentación: respuestas junto a mapa Mapbox",
+        "Pricing: no distribución ni sublicencia de resultados permanentes",
+        "Onboarding docs tarjeta/contrato vs pricing contactar ventas"
+      ],
+      "source_ids": [
+        "mapbox_geocoding",
+        "mapbox_pricing",
+        "mapbox_attribution"
+      ]
+    },
+    {
+      "provider": "OpenFreeMap",
+      "public_service_commercial_use": true,
+      "sla": false,
+      "attribution": [
+        "OpenMapTiles",
+        "OpenStreetMap"
+      ],
+      "source_ids": [
+        "openfreemap",
+        "osm_license"
+      ]
+    },
+    {
+      "provider": "OSM public services",
+      "limitations": [
+        "Servicio público best effort no equivale a derecho sobre datos ni capacidad contratada",
+        "Nominatim no autocomplete, cache requerido, bulk restringido",
+        "Tiles públicos no bulk/offline"
+      ],
+      "source_ids": [
+        "osm_tiles",
+        "nominatim_policy",
+        "osm_license"
+      ]
+    }
+  ],
+  "formulas": {
+    "supabase": "25 + max(0, compute_hour_rate*730 - 10) + max(0, db_GB - 8)*0.125",
+    "railway": "max(20, RAM_GB_mean*10 + CPU_vCPU_mean*20 + egress_GB*0.05)",
+    "r2": "max(0, GB_month - 10)*0.015; operaciones dentro de franquicia en los tres escenarios",
+    "neon": "CU_mean*730*0.106 + db_GB*0.35 + retained_changes_GB_month*0.20; tarifa oficial histórica pendiente",
+    "maptiler_direct": "30 + max(0, vector_tiles + geocode_queries - 500000)/1000*0.15",
+    "maptiler_sdk": "30 + max(0, sessions - 25000)/1000*2.5 + max(0, geocode_queries - 500000)/1000*0.15; sesiones breves",
+    "mapbox": "max(0, loads - 50000)/1000*5 + permanent_queries/1000*5; solo rangos modelados"
+  },
+  "scenarios": [
+    {
+      "id": "mau_100",
+      "status": "analyst_scenario_not_observed_load",
+      "mau": 100,
+      "month_hours": 730,
+      "assumptions": {
+        "map_opens_per_mau": 6,
+        "map_loads": 600,
+        "vector_tiles_per_open": 20,
+        "vector_tiles": 12000,
+        "unique_geocode_queries": 500,
+        "geocode_explanation": "Hipótesis de ingesta: 5 direcciones únicas por MAU; no geocodificar cada vista.",
+        "db_GB_mean": 1,
+        "object_GB_month": 10,
+        "r2_class_A": 5000,
+        "r2_class_B": 50000,
+        "railway_combined_RAM_GB_mean": 1,
+        "railway_combined_CPU_vCPU_mean": 0.1,
+        "railway_egress_GB": 10,
+        "supabase_compute": "Micro",
+        "neon_CU_mean": 0.25,
+        "neon_retained_changes_GB_month": 1
+      },
+      "costs_usd_month": {
+        "supabase": 25,
+        "railway": 20,
+        "r2": 0,
+        "stack_A_known": 45,
+        "neon_known_historical_tariff": 19.9,
+        "stack_B_known_excludes_auth_and_unconfirmed_db_egress": 39.9,
+        "openfreemap_without_new_geocoder": 0,
+        "openfreemap_plus_maptiler_geocoding": 30,
+        "maplibre_maptiler_tiles_and_geocoding": 30,
+        "maptiler_sdk_and_geocoding": 30,
+        "mapbox_gljs_and_permanent_geocoding": 2.5,
+        "stack_A_with_openfreemap_and_maptiler_geo": 75,
+        "stack_A_with_maplibre_maptiler": 75
+      },
+      "capacity_verified": false,
+      "rights_fit_verified": false
+    },
+    {
+      "id": "mau_1000",
+      "status": "analyst_scenario_not_observed_load",
+      "mau": 1000,
+      "month_hours": 730,
+      "assumptions": {
+        "map_opens_per_mau": 6,
+        "map_loads": 6000,
+        "vector_tiles_per_open": 20,
+        "vector_tiles": 120000,
+        "unique_geocode_queries": 5000,
+        "geocode_explanation": "Hipótesis de ingesta: 5 direcciones únicas por MAU; no geocodificar cada vista.",
+        "db_GB_mean": 10,
+        "object_GB_month": 100,
+        "r2_class_A": 50000,
+        "r2_class_B": 500000,
+        "railway_combined_RAM_GB_mean": 2,
+        "railway_combined_CPU_vCPU_mean": 0.25,
+        "railway_egress_GB": 50,
+        "supabase_compute": "Small",
+        "neon_CU_mean": 0.5,
+        "neon_retained_changes_GB_month": 5
+      },
+      "costs_usd_month": {
+        "supabase": 30.29,
+        "railway": 27.5,
+        "r2": 1.35,
+        "stack_A_known": 59.14,
+        "neon_known_historical_tariff": 43.19,
+        "stack_B_known_excludes_auth_and_unconfirmed_db_egress": 72.04,
+        "openfreemap_without_new_geocoder": 0,
+        "openfreemap_plus_maptiler_geocoding": 30,
+        "maplibre_maptiler_tiles_and_geocoding": 30,
+        "maptiler_sdk_and_geocoding": 30,
+        "mapbox_gljs_and_permanent_geocoding": 25,
+        "stack_A_with_openfreemap_and_maptiler_geo": 89.14,
+        "stack_A_with_maplibre_maptiler": 89.14
+      },
+      "capacity_verified": false,
+      "rights_fit_verified": false
+    },
+    {
+      "id": "mau_10000",
+      "status": "analyst_scenario_not_observed_load",
+      "mau": 10000,
+      "month_hours": 730,
+      "assumptions": {
+        "map_opens_per_mau": 6,
+        "map_loads": 60000,
+        "vector_tiles_per_open": 20,
+        "vector_tiles": 1200000,
+        "unique_geocode_queries": 50000,
+        "geocode_explanation": "Hipótesis de ingesta: 5 direcciones únicas por MAU; no geocodificar cada vista.",
+        "db_GB_mean": 50,
+        "object_GB_month": 1000,
+        "r2_class_A": 500000,
+        "r2_class_B": 5000000,
+        "railway_combined_RAM_GB_mean": 4,
+        "railway_combined_CPU_vCPU_mean": 1,
+        "railway_egress_GB": 250,
+        "supabase_compute": "Medium",
+        "neon_CU_mean": 1,
+        "neon_retained_changes_GB_month": 20
+      },
+      "costs_usd_month": {
+        "supabase": 80.26,
+        "railway": 72.5,
+        "r2": 14.85,
+        "stack_A_known": 167.61,
+        "neon_known_historical_tariff": 98.88,
+        "stack_B_known_excludes_auth_and_unconfirmed_db_egress": 186.23,
+        "openfreemap_without_new_geocoder": 0,
+        "openfreemap_plus_maptiler_geocoding": 30,
+        "maplibre_maptiler_tiles_and_geocoding": 142.5,
+        "maptiler_sdk_and_geocoding": 117.5,
+        "mapbox_gljs_and_permanent_geocoding": 300,
+        "stack_A_with_openfreemap_and_maptiler_geo": 197.61,
+        "stack_A_with_maplibre_maptiler": 310.11
+      },
+      "capacity_verified": false,
+      "rights_fit_verified": false
+    }
+  ],
+  "sensitivity_10000_mau": [
+    {
+      "tiles_per_open": 5,
+      "loads": 60000,
+      "geocodes": 50000,
+      "total_api_requests": 350000,
+      "maptiler_direct_usd": 30
+    },
+    {
+      "tiles_per_open": 20,
+      "loads": 60000,
+      "geocodes": 50000,
+      "total_api_requests": 1250000,
+      "maptiler_direct_usd": 142.5
+    },
+    {
+      "tiles_per_open": 100,
+      "loads": 60000,
+      "geocodes": 50000,
+      "total_api_requests": 6050000,
+      "maptiler_direct_usd": 862.5
+    }
+  ],
+  "exclusions": [
+    "LLM y embeddings",
+    "APIs de adquisición/búsqueda",
+    "Revisión humana",
+    "Email",
+    "Observabilidad paga",
+    "Impuestos",
+    "Staging/proyectos adicionales",
+    "Alta disponibilidad",
+    "Backups independientes y PITR adicionales",
+    "Restauraciones y soporte",
+    "Auth adicional en opción B",
+    "DB egress no confirmado en opción B",
+    "Tráfico superior al supuesto; intermediarios"
+  ],
+  "uncertainties": [
+    {
+      "topic": "Neon tarifa vigente",
+      "detail": "Pricing y docs no legibles por herramienta; shell sin resolución DNS. Blog 2025 leído, no confirmado como precio actual; no usar $19/$69 de planes antiguos.",
+      "source_ids": [
+        "neon_pricing_unreadable",
+        "neon_compute_2025",
+        "neon_usage_2025"
+      ]
+    },
+    {
+      "topic": "Scale to zero",
+      "detail": "Inferencia: polling de worker puede impedir inactividad. Escenario usa 730 horas; medir.",
+      "source_ids": [
+        "neon_usage_2025",
+        "pgboss"
+      ]
+    },
+    {
+      "topic": "Retención de geocoding",
+      "detail": "Permitir guardar no equivale a permitir vender/exportar un catálogo a clientes. Verificar acuerdo concreto sin activar servicios.",
+      "source_ids": [
+        "maptiler_cloud_terms",
+        "maptiler_terms",
+        "mapbox_geocoding",
+        "mapbox_pricing"
+      ]
+    },
+    {
+      "topic": "MAU y capacidad",
+      "detail": "Cargas y tamaños elegidos para presupuestar; no benchmarks ni garantía de rendimiento."
+    },
+    {
+      "topic": "Geografía",
+      "detail": "El geocoder actual rechaza fuera de SF; un proveedor mundial debe preservar ubicación observada y derivación por separado."
+    }
+  ],
+  "recommendation": {
+    "database": "PostgreSQL relacional + JSONB validado; FTS/alias primero; pgvector solo con mejora medida",
+    "offline": "Parquet/DuckDB como derivados versionados; no segunda fuente de verdad",
+    "pilot_stack": "Supabase Pro + Railway Pro web/worker; objetos autorizados en R2 cuando sea necesario",
+    "maps": "Conservar MapLibre + OpenFreeMap con atribución/fallback; evaluar MapTiler para geocoding global y tiles opcionales",
+    "do_not_assume": [
+      "MapLibre trae tiles gratis",
+      "Nominatim público admite ingesta automática global",
+      "Mapbox temporal puede guardarse",
+      "Un pin confirma una edición",
+      "Un precio de infraestructura demuestra utilidad comercial"
+    ]
+  }
+}

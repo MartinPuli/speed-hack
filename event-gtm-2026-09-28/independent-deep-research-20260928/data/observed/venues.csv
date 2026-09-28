@@ -1,0 +1,4 @@
+id,name,address,city,country,latitude,longitude,geo_method,geo_precision,capacity,capacity_format,url,business_channel,source_id
+venue_358f68d3e462dfb0,UCSF Mission Bay Conference Center,"1675 Owens St, San Francisco, CA 94158, USA",San Francisco,United States,,,organizer_published; no_geocoding,published_address_ungeocoded,,,,,src_abf7fb34450f3065
+venue_5b2580ac3ded97d0,Speke Resort Munyonyo,"Wavamunno Rd, Kampala, Uganda",Kampala,Uganda,,,organizer_published; no_geocoding,published_address_ungeocoded,,,,,src_ace0e2408f544ea8
+venue_e0186424148b71b2,Jaarbeurs Utrecht,"Jaarbeursplein 6, 3521 AL Utrecht, The Netherlands",Utrecht,Netherlands,,,organizer_published; no_geocoding,published_address_ungeocoded,,,,,src_ea5884ec8892fb06

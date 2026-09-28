@@ -1,0 +1,15 @@
+{
+  "source_url": "https://codeload.github.com/tech-conferences/conference-data/zip/refs/heads/main",
+  "publisher": "confs.tech community",
+  "license": "MIT",
+  "upstream_sha256": "b88fc15fbe7f3d5dd8a7cc56e81e71c18f1b9075e52147b325c23818c1f72f14",
+  "rows_read": 6911,
+  "selection": "start >= 2021-09-28; all topic files; duplicates retained for downstream union",
+  "batch": "confs-tech",
+  "rows_selected": 3790,
+  "observed_at": "2026-09-28T15:38:38.555530+00:00",
+  "sha256": "e462c1e0f1b18ef1da76dae5a5b61a4572b576cdb15b19164f283501231b3a88",
+  "path": "batches/confs-tech.jsonl.gz",
+  "extractor_version": "2.0",
+  "privacy": "allowlisted event metadata; no attendees, contact fields, images or raw HTML"
+}

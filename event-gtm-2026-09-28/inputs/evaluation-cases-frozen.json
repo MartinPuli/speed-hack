@@ -1,0 +1,172 @@
+[
+  {
+    "case_id": "functional-dev-01",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "logistics",
+      "keywords": [
+        "logistics",
+        "warehouse"
+      ],
+      "city": "Singapore"
+    },
+    "objective": "investigate_sponsorship",
+    "restrictions_json": {
+      "country": "Singapore",
+      "until": "2027-03-28"
+    },
+    "split": "development",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  },
+  {
+    "case_id": "functional-dev-02",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "industrial_automation",
+      "keywords": [
+        "automation",
+        "manufacturing"
+      ],
+      "city": "Shanghai"
+    },
+    "objective": "attend",
+    "restrictions_json": {
+      "country": "China",
+      "until": "2027-03-28"
+    },
+    "split": "development",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  },
+  {
+    "case_id": "functional-dev-03",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "software_python",
+      "keywords": [
+        "Python"
+      ],
+      "city": null
+    },
+    "objective": "recruit",
+    "restrictions_json": {
+      "country": "United States",
+      "until": "2026-12-28"
+    },
+    "split": "development",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  },
+  {
+    "case_id": "functional-dev-04",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "publishing",
+      "keywords": [
+        "book",
+        "Buchmesse"
+      ],
+      "city": "Frankfurt"
+    },
+    "objective": "exhibit",
+    "restrictions_json": {
+      "country": "Germany",
+      "until": "2026-12-28"
+    },
+    "split": "development",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  },
+  {
+    "case_id": "functional-test-01",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "industrial_automation",
+      "keywords": [
+        "robotics",
+        "automation"
+      ],
+      "city": null
+    },
+    "objective": "attend",
+    "restrictions_json": {
+      "country": "Morocco",
+      "until": "2026-11-28"
+    },
+    "split": "heldout_functional",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  },
+  {
+    "case_id": "functional-test-02",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "culture",
+      "keywords": [
+        "ciné",
+        "littéraire"
+      ],
+      "city": "Paris"
+    },
+    "objective": "partnership",
+    "restrictions_json": {
+      "city": "Paris",
+      "until": "2026-12-28"
+    },
+    "split": "heldout_functional",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  },
+  {
+    "case_id": "functional-test-03",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "logistics",
+      "keywords": [
+        "supply",
+        "warehouse"
+      ],
+      "city": null
+    },
+    "objective": "sponsor",
+    "restrictions_json": {
+      "country": null,
+      "until": "2027-03-28",
+      "budget": 100,
+      "currency": "USD",
+      "total_cost_must_be_known": true
+    },
+    "split": "heldout_functional",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  },
+  {
+    "case_id": "functional-test-04",
+    "profile_json": {
+      "hypothetical": true,
+      "sector": "sport",
+      "keywords": [
+        "marathon",
+        "tennis"
+      ],
+      "city": null
+    },
+    "objective": "sponsor",
+    "restrictions_json": {
+      "country": null,
+      "until": "2027-12-31"
+    },
+    "split": "heldout_functional",
+    "cutoff": "2026-09-28",
+    "label_origin": "synthetic_researcher_case; no human relevance labels",
+    "ground_truth_quality": "functional_constraints_only"
+  }
+]

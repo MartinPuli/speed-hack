@@ -1,0 +1,20 @@
+{
+  "title": "De los logs a una decisión: laboratorio de analítica operativa",
+  "description": "Un encuentro práctico para equipos que necesitan convertir señales operativas en decisiones. Trabajaremos con datos de demostración, compararemos decisiones de arquitectura y compartiremos los límites de cada enfoque. Trae tu portátil y una pregunta técnica; no necesitas traer datos de tu empresa.\n\nDirigido a: platform engineers, SRE y responsables de analítica en empresas B2B de Europa.\n\nAgenda propuesta\n18:00 — Recepción y presentación de problemas de observabilidad\n18:15 — Demostración: consultas analíticas sobre telemetría anonimizada\n18:40 — Laboratorio guiado: latencia, coste y diseño del esquema\n19:20 — Discusión de arquitecturas y preguntas\n19:45 — Networking con inscripción opcional para seguimiento\n\nLa fecha, sede y facilitadores se anunciarán después de su confirmación. Las marcas citadas en el análisis no son sponsors confirmados de este encuentro. El seguimiento será opcional.",
+  "start_at": null,
+  "end_at": null,
+  "timezone": null,
+  "location": null,
+  "status": "local_editorial_draft_not_publishable_until_required_fields_confirmed",
+  "publication_target": "Luma",
+  "luma_event_id": null,
+  "pending": [
+    "Customer objective and success metric",
+    "Exact ICP and region",
+    "Confirmed budget and currency",
+    "Date, venue and capacity",
+    "Organizer identity and speakers",
+    "Sponsor fit, conflicts and interest",
+    "Consent and privacy copy for follow-up"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "executed_on": "2026-09-28",
+  "checks": {
+    "all_required_keys": true,
+    "unique_series_and_start_date": true,
+    "valid_ordered_dates": true,
+    "no_future_reported_held": true,
+    "every_claim_has_url_locator_access": true,
+    "all_claim_sources_in_manifest": true,
+    "no_platform_links_fabricated": true,
+    "non_unique_attendance_caveat_present": true,
+    "future_metrics_not_labeled_actual": true
+  },
+  "events": 24,
+  "historical_editions": 21,
+  "future_confirmed_editions": 3,
+  "series": {
+    "FIL Guadalajara": 6,
+    "Flip": 6,
+    "Frieze London": 6,
+    "Roland-Garros": 6
+  },
+  "countries": {
+    "México": 6,
+    "Brasil": 6,
+    "Reino Unido": 6,
+    "Francia": 6
+  },
+  "years": {
+    "2021": 3,
+    "2022": 4,
+    "2023": 4,
+    "2024": 4,
+    "2025": 4,
+    "2026": 4,
+    "2027": 1
+  },
+  "status": {
+    "reported_held": 20,
+    "announced": 4
+  },
+  "core_evidence": {
+    "primary_body_verified": 18,
+    "provisional_primary_index_only": 6
+  },
+  "field_evidence": {
+    "primary_body_verified": 174,
+    "provisional_primary_index_only": 43
+  },
+  "facts": 168,
+  "sponsor_relations": 21,
+  "metrics": 28,
+  "source_urls": 57,
+  "source_access": {
+    "search_index": 11,
+    "web_open": 46
+  },
+  "search_queries": 67,
+  "failed_attempts": 8,
+  "limitations": [
+    "QA estructural y manual, no auditoría independiente de asistencia, ventas ni contratos.",
+    "No cobertura global ni denominador territorial; cuatro series seleccionadas de forma intencional.",
+    "País, sector, serie y nombres canónicos son normalizaciones curatoriales, no citas literales."
+  ],
+  "file_sha256": {
+    "nontech-facts.json": "7e105df98f4f9b02a097304f8351bdd4ee6f8aec78ff226777622009153c76ef",
+    "nontech-retrieval.json": "3a732d39bebf31024783b00e56612a092292abcfaa16ef57cf7d07ec23d6b269",
+    "build_nontech_facts.py": "47b62236ed422f5dc6d9ae026eadded35acdc9a042d097f0d7a3111b8a77ae54"
+  }
+}

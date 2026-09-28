@@ -1,0 +1,2507 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-09-28",
+  "scope": "Mapa competitivo internacional exploratorio: 10 proveedores solicitados y 4 sustitutos adicionales.",
+  "status_legend": {
+    "D": "Documentado por proveedor, no prueba de desempeño ni disponibilidad comprobada con cuenta",
+    "P": "Parcial o adyacente al requisito",
+    "A": "Anunciado, roadmap o acceso anticipado",
+    "C": "Contradictorio",
+    "U": "No documentado en las fuentes examinadas; no equivale a ausente"
+  },
+  "competitors": [
+    {
+      "competitor_id": "vendelux",
+      "name": "Vendelux",
+      "url": "https://vendelux.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Inteligencia y ejecución Event GTM",
+      "buyer": "Marketing, ventas y RevOps",
+      "job": "Elegir eventos y preparar reuniones",
+      "onboarding": "Listas/CRM; demo o prueba",
+      "data_sources": "Asistentes propietarios + CRM",
+      "geography": "Global, según proveedor",
+      "history": "Profundidad no publicada",
+      "refresh": "Segmentos en tiempo real declarados",
+      "integrations": "Salesforce, HubSpot",
+      "api_export": "API y descargas documentadas",
+      "public_price": "Cotización; Starter: 20 eventos con insights/mes",
+      "free_offer": "Lead scanner gratuito; prueba del producto",
+      "business_model": "SaaS + créditos de reuniones/datos",
+      "commercial_status": "Comercial documentado; ChatVDX disponible para Meetings",
+      "client_evidence": "Testimonios atribuidos a ShipBob, Glean y Contentful; no auditados",
+      "limits": "250k+ eventos es cifra del proveedor; exactitud no medida",
+      "prompt_profile": "P: conversación para campañas, discovery anunciado",
+      "website_profile": "U",
+      "recurring_recommendations": "D: alertas/reportes",
+      "existing_events_ranking": "D",
+      "geographic_map": "U: geofiltros no prueban mapa",
+      "new_event_concepts": "P: campañas/RSVP; concepto completo desconocido",
+      "luma_preparation": "U",
+      "sponsor_search": "P: solución organizadores",
+      "participant_profiles": "D",
+      "commercial_outcomes": "D: CRM/atribución",
+      "learning_from_outcomes": "P: usa rendimiento pasado; eficacia desconocida",
+      "field_sources": {
+        "category": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "buyer": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "job": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "onboarding": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "data_sources": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "geography": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "history": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "refresh": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "integrations": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "api_export": [
+          "comp_source_01",
+          "comp_source_35"
+        ],
+        "public_price": [
+          "comp_source_03"
+        ],
+        "free_offer": [
+          "comp_source_36",
+          "comp_source_03"
+        ],
+        "business_model": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "commercial_status": [
+          "comp_source_04",
+          "comp_source_03"
+        ],
+        "client_evidence": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "limits": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "prompt_profile": [
+          "comp_source_04"
+        ],
+        "website_profile": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "recurring_recommendations": [
+          "comp_source_35"
+        ],
+        "existing_events_ranking": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "geographic_map": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "new_event_concepts": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "luma_preparation": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "sponsor_search": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "participant_profiles": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "commercial_outcomes": [
+          "comp_source_01",
+          "comp_source_02"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_01",
+          "comp_source_02"
+        ]
+      },
+      "source_ids": [
+        "comp_source_01",
+        "comp_source_02",
+        "comp_source_35",
+        "comp_source_03",
+        "comp_source_36",
+        "comp_source_04"
+      ]
+    },
+    {
+      "competitor_id": "pana-events",
+      "name": "Pana Events",
+      "url": "https://www.pana.space/events",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Event GTM",
+      "buyer": "Growth, sponsors, organizadores y agencias",
+      "job": "Descubrir, ejecutar y medir eventos",
+      "onboarding": "Demo; perfil ICP",
+      "data_sources": "Directorio y datos de audiencia; metodología desconocida",
+      "geography": "Global declarada",
+      "history": "Desconocido",
+      "refresh": "Desconocido",
+      "integrations": "HubSpot; otras según plan/roadmap",
+      "api_export": "API Enterprise y CSV anunciados",
+      "public_price": "Solo $29/mes visible; restantes importes incompletos",
+      "free_offer": "Conflicto: 14 días pricing, 7 días términos",
+      "business_model": "Suscripción + asientos/eventos/créditos",
+      "commercial_status": "Oferta comercial; directorio 250k coming soon",
+      "client_evidence": "No se verificó caso nombrado en fuentes examinadas",
+      "limits": "No equiparar planificar participación con generar concepto original",
+      "prompt_profile": "D: prompt de objetivos",
+      "website_profile": "U",
+      "recurring_recommendations": "P: calendario anual; cadencia desconocida",
+      "existing_events_ranking": "A: dependencia de directorio anunciado",
+      "geographic_map": "U",
+      "new_event_concepts": "P: configuración de eventos; generación integral desconocida",
+      "luma_preparation": "U",
+      "sponsor_search": "D: oferta organizadores",
+      "participant_profiles": "D: declarado",
+      "commercial_outcomes": "D: ROI declarado",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "buyer": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "job": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "onboarding": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "data_sources": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "geography": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "history": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "refresh": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "integrations": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "api_export": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "public_price": [
+          "comp_source_06"
+        ],
+        "free_offer": [
+          "comp_source_06",
+          "comp_source_07"
+        ],
+        "business_model": [
+          "comp_source_07"
+        ],
+        "commercial_status": [
+          "comp_source_05"
+        ],
+        "client_evidence": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "limits": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "prompt_profile": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "website_profile": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "recurring_recommendations": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "existing_events_ranking": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "geographic_map": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "new_event_concepts": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "luma_preparation": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "sponsor_search": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "participant_profiles": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "commercial_outcomes": [
+          "comp_source_05",
+          "comp_source_06"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_05",
+          "comp_source_06"
+        ]
+      },
+      "source_ids": [
+        "comp_source_05",
+        "comp_source_06",
+        "comp_source_07"
+      ]
+    },
+    {
+      "competitor_id": "sponsorunited",
+      "name": "SponsorUnited",
+      "url": "https://www.sponsorunited.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Inteligencia de patrocinio",
+      "buyer": "Marcas, titulares de derechos, medios y agencias",
+      "job": "Prospectar socios y valorar propuestas",
+      "onboarding": "Demo comercial",
+      "data_sources": "Acuerdos, activos y creatividad propietarios",
+      "geography": "Internacional declarada",
+      "history": "Profundidad exacta desconocida",
+      "refresh": "SLA desconocido",
+      "integrations": "Desconocido",
+      "api_export": "Desconocido en fuentes revisadas",
+      "public_price": "Cotización; SPND con nivel de acceso",
+      "free_offer": "No encontrado",
+      "business_model": "Acceso comercial por capacidades",
+      "commercial_status": "Comercial con documentación de soporte",
+      "client_evidence": "1.100+ organizaciones declaradas; no auditadas",
+      "limits": "SPND estima precio negociado; no demuestra ROI",
+      "prompt_profile": "P: consultas y evaluación de propuestas",
+      "website_profile": "U",
+      "recurring_recommendations": "U",
+      "existing_events_ranking": "P: propiedades/patrocinios",
+      "geographic_map": "U",
+      "new_event_concepts": "U",
+      "luma_preparation": "U",
+      "sponsor_search": "D",
+      "participant_profiles": "P: audiencias, no asistentes individuales verificados",
+      "commercial_outcomes": "P: datos comerciales; SPND no es ROI",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_08"
+        ],
+        "buyer": [
+          "comp_source_08"
+        ],
+        "job": [
+          "comp_source_08"
+        ],
+        "onboarding": [
+          "comp_source_08"
+        ],
+        "data_sources": [
+          "comp_source_08"
+        ],
+        "geography": [
+          "comp_source_08"
+        ],
+        "history": [
+          "comp_source_08"
+        ],
+        "refresh": [
+          "comp_source_08"
+        ],
+        "integrations": [
+          "comp_source_08"
+        ],
+        "api_export": [
+          "comp_source_08"
+        ],
+        "public_price": [
+          "comp_source_10"
+        ],
+        "free_offer": [
+          "comp_source_08"
+        ],
+        "business_model": [
+          "comp_source_10"
+        ],
+        "commercial_status": [
+          "comp_source_10"
+        ],
+        "client_evidence": [
+          "comp_source_08"
+        ],
+        "limits": [
+          "comp_source_09"
+        ],
+        "prompt_profile": [
+          "comp_source_08"
+        ],
+        "website_profile": [
+          "comp_source_08"
+        ],
+        "recurring_recommendations": [
+          "comp_source_08"
+        ],
+        "existing_events_ranking": [
+          "comp_source_08"
+        ],
+        "geographic_map": [
+          "comp_source_08"
+        ],
+        "new_event_concepts": [
+          "comp_source_08"
+        ],
+        "luma_preparation": [
+          "comp_source_08"
+        ],
+        "sponsor_search": [
+          "comp_source_08"
+        ],
+        "participant_profiles": [
+          "comp_source_08"
+        ],
+        "commercial_outcomes": [
+          "comp_source_09"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_08"
+        ]
+      },
+      "source_ids": [
+        "comp_source_08",
+        "comp_source_10",
+        "comp_source_09"
+      ]
+    },
+    {
+      "competitor_id": "partable",
+      "name": "Partable",
+      "url": "https://partable.ai/events",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Prospección de sponsors por chat",
+      "buyer": "Organizadores de conferencias",
+      "job": "Encontrar sponsors y redactar propuestas",
+      "onboarding": "Early access/demo",
+      "data_sources": "Apollo, Exa, Firecrawl y empresas, declarados",
+      "geography": "Desconocido",
+      "history": "Desconocido",
+      "refresh": "Desconocido",
+      "integrations": "HubSpot/Salesforce declarados",
+      "api_export": "BYOK/custom; API pública desconocida",
+      "public_price": "Outreach $79/asiento/mes; BYOK cotizado",
+      "free_offer": "Sin tarjeta no demuestra plan gratuito",
+      "business_model": "Por asiento + custom",
+      "commercial_status": "Early access",
+      "client_evidence": "No encontrada; ejemplos comerciales no son casos verificados",
+      "limits": "No validamos cifras de ahorro ni presupuestos inferidos",
+      "prompt_profile": "D: describe evento; early access",
+      "website_profile": "U",
+      "recurring_recommendations": "U",
+      "existing_events_ranking": "U",
+      "geographic_map": "U",
+      "new_event_concepts": "U",
+      "luma_preparation": "U",
+      "sponsor_search": "D: early access",
+      "participant_profiles": "P: contactos profesionales",
+      "commercial_outcomes": "P: pipeline hasta firmado",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_11"
+        ],
+        "buyer": [
+          "comp_source_11"
+        ],
+        "job": [
+          "comp_source_11"
+        ],
+        "onboarding": [
+          "comp_source_11"
+        ],
+        "data_sources": [
+          "comp_source_11"
+        ],
+        "geography": [
+          "comp_source_11"
+        ],
+        "history": [
+          "comp_source_11"
+        ],
+        "refresh": [
+          "comp_source_11"
+        ],
+        "integrations": [
+          "comp_source_11"
+        ],
+        "api_export": [
+          "comp_source_11"
+        ],
+        "public_price": [
+          "comp_source_11"
+        ],
+        "free_offer": [
+          "comp_source_11"
+        ],
+        "business_model": [
+          "comp_source_11"
+        ],
+        "commercial_status": [
+          "comp_source_11"
+        ],
+        "client_evidence": [
+          "comp_source_11"
+        ],
+        "limits": [
+          "comp_source_11"
+        ],
+        "prompt_profile": [
+          "comp_source_11"
+        ],
+        "website_profile": [
+          "comp_source_11"
+        ],
+        "recurring_recommendations": [
+          "comp_source_11"
+        ],
+        "existing_events_ranking": [
+          "comp_source_11"
+        ],
+        "geographic_map": [
+          "comp_source_11"
+        ],
+        "new_event_concepts": [
+          "comp_source_11"
+        ],
+        "luma_preparation": [
+          "comp_source_11"
+        ],
+        "sponsor_search": [
+          "comp_source_11"
+        ],
+        "participant_profiles": [
+          "comp_source_11"
+        ],
+        "commercial_outcomes": [
+          "comp_source_11"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_11"
+        ]
+      },
+      "source_ids": [
+        "comp_source_11"
+      ]
+    },
+    {
+      "competitor_id": "identyca",
+      "name": "Identyca",
+      "url": "https://identyca.io/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Planificación e inteligencia de conferencias",
+      "buyer": "Organizadores y proveedores",
+      "job": "Brief a planificación y sponsors",
+      "onboarding": "Demo; piloto networking",
+      "data_sources": "Grafo global propietario declarado",
+      "geography": "Global; sede Singapur",
+      "history": "Desconocido",
+      "refresh": "Feed continuo anunciado",
+      "integrations": "Desconocido",
+      "api_export": "Exportación informe; API desconocida",
+      "public_price": "No encontrado para Event Intelligence",
+      "free_offer": "Demo; no plan gratis confirmado",
+      "business_model": "Comercial; licencia de recintos aparte",
+      "commercial_status": "Organizer: Now; Vendor: Next; Marketplace: Soon",
+      "client_evidence": "Testimonio anónimo; no auditado",
+      "limits": "Roadmap contradice disponibilidad aparente del feed",
+      "prompt_profile": "D: brief",
+      "website_profile": "U",
+      "recurring_recommendations": "A: Vendor Discovery",
+      "existing_events_ranking": "A: proveedores/marketplace",
+      "geographic_map": "P: mapa interno; geográfico desconocido",
+      "new_event_concepts": "D: planificación",
+      "luma_preparation": "U",
+      "sponsor_search": "D: Organizer",
+      "participant_profiles": "P: networking piloto",
+      "commercial_outcomes": "P: engagement",
+      "learning_from_outcomes": "A: matchmaking aprendido",
+      "field_sources": {
+        "category": [
+          "comp_source_12"
+        ],
+        "buyer": [
+          "comp_source_12"
+        ],
+        "job": [
+          "comp_source_12"
+        ],
+        "onboarding": [
+          "comp_source_12"
+        ],
+        "data_sources": [
+          "comp_source_12"
+        ],
+        "geography": [
+          "comp_source_12"
+        ],
+        "history": [
+          "comp_source_12"
+        ],
+        "refresh": [
+          "comp_source_12"
+        ],
+        "integrations": [
+          "comp_source_12"
+        ],
+        "api_export": [
+          "comp_source_12"
+        ],
+        "public_price": [
+          "comp_source_12"
+        ],
+        "free_offer": [
+          "comp_source_12"
+        ],
+        "business_model": [
+          "comp_source_12"
+        ],
+        "commercial_status": [
+          "comp_source_12"
+        ],
+        "client_evidence": [
+          "comp_source_12"
+        ],
+        "limits": [
+          "comp_source_12"
+        ],
+        "prompt_profile": [
+          "comp_source_12"
+        ],
+        "website_profile": [
+          "comp_source_12"
+        ],
+        "recurring_recommendations": [
+          "comp_source_12"
+        ],
+        "existing_events_ranking": [
+          "comp_source_12"
+        ],
+        "geographic_map": [
+          "comp_source_12"
+        ],
+        "new_event_concepts": [
+          "comp_source_12"
+        ],
+        "luma_preparation": [
+          "comp_source_12"
+        ],
+        "sponsor_search": [
+          "comp_source_12"
+        ],
+        "participant_profiles": [
+          "comp_source_12"
+        ],
+        "commercial_outcomes": [
+          "comp_source_12"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_12"
+        ]
+      },
+      "source_ids": [
+        "comp_source_12"
+      ]
+    },
+    {
+      "competitor_id": "kuration-ai",
+      "name": "Kuration AI",
+      "url": "https://kurationai.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Extracción y enriquecimiento comercial",
+      "buyer": "Growth, ventas y agencias",
+      "job": "URL de evento a lista investigada",
+      "onboarding": "Primera lista sin tarjeta",
+      "data_sources": "Páginas, PDF, web y LinkedIn declarados",
+      "geography": "Internacional; multilingüe declarado",
+      "history": "Depende de páginas disponibles",
+      "refresh": "Cadencia programada en Pro",
+      "integrations": "CRM, Sheets, MCP",
+      "api_export": "API/webhooks; CSV/Sheets",
+      "public_price": "$49/$149/$499 por mes; Enterprise desde $2.500/mes",
+      "free_offer": "20 empresas; conflicto 1.500 vs 500 créditos",
+      "business_model": "Suscripción/créditos; adquisición a medida",
+      "commercial_status": "Comercial con signup/documentación",
+      "client_evidence": "3.500+ equipos declarados; no auditados",
+      "limits": "Contrato de derechos Enterprise requiere revisión; extracción no garantiza licencia",
+      "prompt_profile": "D: instrucciones de extracción",
+      "website_profile": "P: enriquecimiento, no brief completo",
+      "recurring_recommendations": "P: refresh de listas",
+      "existing_events_ranking": "U",
+      "geographic_map": "U: market map no acredita mapa",
+      "new_event_concepts": "U",
+      "luma_preparation": "U",
+      "sponsor_search": "P: extracción/prospección",
+      "participant_profiles": "P: speakers/contactos",
+      "commercial_outcomes": "U: testimonios no son función medida",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_13"
+        ],
+        "buyer": [
+          "comp_source_13"
+        ],
+        "job": [
+          "comp_source_13"
+        ],
+        "onboarding": [
+          "comp_source_13"
+        ],
+        "data_sources": [
+          "comp_source_13"
+        ],
+        "geography": [
+          "comp_source_13"
+        ],
+        "history": [
+          "comp_source_13"
+        ],
+        "refresh": [
+          "comp_source_14"
+        ],
+        "integrations": [
+          "comp_source_14"
+        ],
+        "api_export": [
+          "comp_source_14"
+        ],
+        "public_price": [
+          "comp_source_14"
+        ],
+        "free_offer": [
+          "comp_source_14"
+        ],
+        "business_model": [
+          "comp_source_14"
+        ],
+        "commercial_status": [
+          "comp_source_13"
+        ],
+        "client_evidence": [
+          "comp_source_13"
+        ],
+        "limits": [
+          "comp_source_14"
+        ],
+        "prompt_profile": [
+          "comp_source_13"
+        ],
+        "website_profile": [
+          "comp_source_13"
+        ],
+        "recurring_recommendations": [
+          "comp_source_13"
+        ],
+        "existing_events_ranking": [
+          "comp_source_13"
+        ],
+        "geographic_map": [
+          "comp_source_13"
+        ],
+        "new_event_concepts": [
+          "comp_source_13"
+        ],
+        "luma_preparation": [
+          "comp_source_13"
+        ],
+        "sponsor_search": [
+          "comp_source_13"
+        ],
+        "participant_profiles": [
+          "comp_source_13"
+        ],
+        "commercial_outcomes": [
+          "comp_source_13"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_13"
+        ]
+      },
+      "source_ids": [
+        "comp_source_13",
+        "comp_source_14"
+      ]
+    },
+    {
+      "competitor_id": "huntex",
+      "name": "Events Intelligence / HuntEx",
+      "url": "https://www.events-intelligence.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Inteligencia de expositores",
+      "buyer": "Organizadores de ferias",
+      "job": "Descubrir expositores afines",
+      "onboarding": "Consulta comercial",
+      "data_sources": "850k+ expositores declarados",
+      "geography": "Ferias globales",
+      "history": "Desconocido",
+      "refresh": "Desconocido",
+      "integrations": "Desconocido",
+      "api_export": "Desconocido",
+      "public_price": "No publicado",
+      "free_offer": "No encontrada",
+      "business_model": "Servicio/plataforma comercial; contrato desconocido",
+      "commercial_status": "Oferta comercial por consulta",
+      "client_evidence": "Testimonios anónimos",
+      "limits": "Patrones de exposición no prueban interés actual",
+      "prompt_profile": "U",
+      "website_profile": "U",
+      "recurring_recommendations": "U",
+      "existing_events_ranking": "U",
+      "geographic_map": "U",
+      "new_event_concepts": "U",
+      "luma_preparation": "U",
+      "sponsor_search": "P: expositores",
+      "participant_profiles": "P: empresas expositoras",
+      "commercial_outcomes": "U",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_15"
+        ],
+        "buyer": [
+          "comp_source_15"
+        ],
+        "job": [
+          "comp_source_15"
+        ],
+        "onboarding": [
+          "comp_source_15"
+        ],
+        "data_sources": [
+          "comp_source_15"
+        ],
+        "geography": [
+          "comp_source_15"
+        ],
+        "history": [
+          "comp_source_15"
+        ],
+        "refresh": [
+          "comp_source_15"
+        ],
+        "integrations": [
+          "comp_source_15"
+        ],
+        "api_export": [
+          "comp_source_15"
+        ],
+        "public_price": [
+          "comp_source_15"
+        ],
+        "free_offer": [
+          "comp_source_15"
+        ],
+        "business_model": [
+          "comp_source_15"
+        ],
+        "commercial_status": [
+          "comp_source_15"
+        ],
+        "client_evidence": [
+          "comp_source_15"
+        ],
+        "limits": [
+          "comp_source_15"
+        ],
+        "prompt_profile": [
+          "comp_source_15"
+        ],
+        "website_profile": [
+          "comp_source_15"
+        ],
+        "recurring_recommendations": [
+          "comp_source_15"
+        ],
+        "existing_events_ranking": [
+          "comp_source_15"
+        ],
+        "geographic_map": [
+          "comp_source_15"
+        ],
+        "new_event_concepts": [
+          "comp_source_15"
+        ],
+        "luma_preparation": [
+          "comp_source_15"
+        ],
+        "sponsor_search": [
+          "comp_source_15"
+        ],
+        "participant_profiles": [
+          "comp_source_15"
+        ],
+        "commercial_outcomes": [
+          "comp_source_15"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_15"
+        ]
+      },
+      "source_ids": [
+        "comp_source_15"
+      ]
+    },
+    {
+      "competitor_id": "eventopulse",
+      "name": "EventoPulse",
+      "url": "https://www.eventopulse.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Inteligencia de eventos y entidades",
+      "buyer": "GTM, organizadores y proveedores",
+      "job": "Investigar participaciones y oportunidades",
+      "onboarding": "Alerta gratis/demo",
+      "data_sources": "Webs, directorios e índice Google declarados",
+      "geography": "Global declarada",
+      "history": "3+ años declarados",
+      "refresh": "Diaria declarada",
+      "integrations": "FAQ: no CRM directo; marketing contradictorio",
+      "api_export": "CSV/Excel; API Enterprise",
+      "public_price": "$49/$99/$179 por mes; Enterprise cotizado",
+      "free_offer": "1 alerta/mes; sin informes ni exportación",
+      "business_model": "Suscripción por alertas/reportes/exportaciones",
+      "commercial_status": "Comercial anunciado con precios",
+      "client_evidence": "200+ equipos declarados, no auditados",
+      "limits": "12k/200k/500k: coberturas de alcance no reconciliado",
+      "prompt_profile": "D: lenguaje natural declarado",
+      "website_profile": "U",
+      "recurring_recommendations": "D: alertas",
+      "existing_events_ranking": "D: ICP/participación declarado",
+      "geographic_map": "U",
+      "new_event_concepts": "U",
+      "luma_preparation": "U",
+      "sponsor_search": "D: antecedentes",
+      "participant_profiles": "P: speakers/empresas/audiencia",
+      "commercial_outcomes": "P: correlación, no ROI causal",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "buyer": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "job": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "onboarding": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "data_sources": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "geography": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "history": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "refresh": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "integrations": [
+          "comp_source_18",
+          "comp_source_19"
+        ],
+        "api_export": [
+          "comp_source_18"
+        ],
+        "public_price": [
+          "comp_source_18"
+        ],
+        "free_offer": [
+          "comp_source_18"
+        ],
+        "business_model": [
+          "comp_source_18"
+        ],
+        "commercial_status": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "client_evidence": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "limits": [
+          "comp_source_17",
+          "comp_source_16",
+          "comp_source_37"
+        ],
+        "prompt_profile": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "website_profile": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "recurring_recommendations": [
+          "comp_source_18"
+        ],
+        "existing_events_ranking": [
+          "comp_source_19"
+        ],
+        "geographic_map": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "new_event_concepts": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "luma_preparation": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "sponsor_search": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "participant_profiles": [
+          "comp_source_17",
+          "comp_source_16"
+        ],
+        "commercial_outcomes": [
+          "comp_source_19"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_17",
+          "comp_source_16"
+        ]
+      },
+      "source_ids": [
+        "comp_source_17",
+        "comp_source_16",
+        "comp_source_18",
+        "comp_source_19",
+        "comp_source_37"
+      ]
+    },
+    {
+      "competitor_id": "acirio",
+      "name": "Acirio",
+      "url": "https://acirio.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Descubrimiento de sponsors",
+      "buyer": "Organizadores",
+      "job": "Competidores a shortlist y outreach",
+      "onboarding": "Registro/login",
+      "data_sources": "Webs competidoras y enriquecimiento",
+      "geography": "Desconocido",
+      "history": "Depende de webs",
+      "refresh": "Bajo solicitud; cadencia desconocida",
+      "integrations": "Desconocido",
+      "api_export": "Desconocido",
+      "public_price": "No encontrado",
+      "free_offer": "No confirmada",
+      "business_model": "No publicado",
+      "commercial_status": "Proyecto personal en desarrollo",
+      "client_evidence": "No encontrada",
+      "limits": "Página indexada; apertura sin cuerpo legible",
+      "prompt_profile": "P: URL/evento",
+      "website_profile": "U",
+      "recurring_recommendations": "U",
+      "existing_events_ranking": "U",
+      "geographic_map": "U",
+      "new_event_concepts": "U",
+      "luma_preparation": "U",
+      "sponsor_search": "D: declarado",
+      "participant_profiles": "P: contactos",
+      "commercial_outcomes": "P: estado outreach",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_20"
+        ],
+        "buyer": [
+          "comp_source_20"
+        ],
+        "job": [
+          "comp_source_20"
+        ],
+        "onboarding": [
+          "comp_source_20"
+        ],
+        "data_sources": [
+          "comp_source_20"
+        ],
+        "geography": [
+          "comp_source_20"
+        ],
+        "history": [
+          "comp_source_20"
+        ],
+        "refresh": [
+          "comp_source_20"
+        ],
+        "integrations": [
+          "comp_source_20"
+        ],
+        "api_export": [
+          "comp_source_20"
+        ],
+        "public_price": [
+          "comp_source_20"
+        ],
+        "free_offer": [
+          "comp_source_20"
+        ],
+        "business_model": [
+          "comp_source_20"
+        ],
+        "commercial_status": [
+          "comp_source_20"
+        ],
+        "client_evidence": [
+          "comp_source_20"
+        ],
+        "limits": [
+          "comp_source_20"
+        ],
+        "prompt_profile": [
+          "comp_source_20"
+        ],
+        "website_profile": [
+          "comp_source_20"
+        ],
+        "recurring_recommendations": [
+          "comp_source_20"
+        ],
+        "existing_events_ranking": [
+          "comp_source_20"
+        ],
+        "geographic_map": [
+          "comp_source_20"
+        ],
+        "new_event_concepts": [
+          "comp_source_20"
+        ],
+        "luma_preparation": [
+          "comp_source_20"
+        ],
+        "sponsor_search": [
+          "comp_source_20"
+        ],
+        "participant_profiles": [
+          "comp_source_20"
+        ],
+        "commercial_outcomes": [
+          "comp_source_20"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_20"
+        ]
+      },
+      "source_ids": [
+        "comp_source_20"
+      ]
+    },
+    {
+      "competitor_id": "run-events",
+      "name": "run.events",
+      "url": "https://run.events/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Operación integral de eventos",
+      "buyer": "Organizadores profesionales",
+      "job": "Gestionar evento y monetización",
+      "onboarding": "Demo; módulos según evento",
+      "data_sources": "Registro, sesiones, booths, reuniones propios",
+      "geography": "Europa; operación internacional declarada",
+      "history": "Eventos propios; inventario externo desconocido",
+      "refresh": "Señales operativas en vivo declaradas",
+      "integrations": "Servicios CRM/ERP y sincronización",
+      "api_export": "Integraciones documentadas; acceso contractual",
+      "public_price": "Conferencias ≤500 asistentes: desde €4.300/año; IA adicional",
+      "free_offer": "No encontrada",
+      "business_model": "Licencia anual por escala/módulos",
+      "commercial_status": "Comercial documentado",
+      "client_evidence": "Casos enlazados; resultados no auditados",
+      "limits": "Suite propia; no prueba discovery global",
+      "prompt_profile": "P: constructor web IA",
+      "website_profile": "U",
+      "recurring_recommendations": "U",
+      "existing_events_ranking": "U",
+      "geographic_map": "P: booths; global desconocido",
+      "new_event_concepts": "P: web/agenda, no concepto integral probado",
+      "luma_preparation": "U",
+      "sponsor_search": "P: CRM/matching de base propia",
+      "participant_profiles": "D",
+      "commercial_outcomes": "P: engagement/ventas de evento",
+      "learning_from_outcomes": "D: declarado, sin benchmark",
+      "field_sources": {
+        "category": [
+          "comp_source_22"
+        ],
+        "buyer": [
+          "comp_source_22"
+        ],
+        "job": [
+          "comp_source_22"
+        ],
+        "onboarding": [
+          "comp_source_22"
+        ],
+        "data_sources": [
+          "comp_source_22"
+        ],
+        "geography": [
+          "comp_source_22"
+        ],
+        "history": [
+          "comp_source_22"
+        ],
+        "refresh": [
+          "comp_source_22"
+        ],
+        "integrations": [
+          "comp_source_24"
+        ],
+        "api_export": [
+          "comp_source_24"
+        ],
+        "public_price": [
+          "comp_source_23"
+        ],
+        "free_offer": [
+          "comp_source_22"
+        ],
+        "business_model": [
+          "comp_source_23"
+        ],
+        "commercial_status": [
+          "comp_source_22"
+        ],
+        "client_evidence": [
+          "comp_source_22"
+        ],
+        "limits": [
+          "comp_source_22"
+        ],
+        "prompt_profile": [
+          "comp_source_22"
+        ],
+        "website_profile": [
+          "comp_source_22"
+        ],
+        "recurring_recommendations": [
+          "comp_source_22"
+        ],
+        "existing_events_ranking": [
+          "comp_source_22"
+        ],
+        "geographic_map": [
+          "comp_source_22"
+        ],
+        "new_event_concepts": [
+          "comp_source_22"
+        ],
+        "luma_preparation": [
+          "comp_source_22"
+        ],
+        "sponsor_search": [
+          "comp_source_22"
+        ],
+        "participant_profiles": [
+          "comp_source_22"
+        ],
+        "commercial_outcomes": [
+          "comp_source_22"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_22"
+        ]
+      },
+      "source_ids": [
+        "comp_source_22",
+        "comp_source_24",
+        "comp_source_23"
+      ]
+    },
+    {
+      "competitor_id": "luma-assistant",
+      "name": "Luma + asistente conectado",
+      "url": "https://luma.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Sustituto: descubrimiento y creación",
+      "buyer": "Anfitriones y asistentes",
+      "job": "Buscar eventos y administrar propios",
+      "onboarding": "Cuenta y OAuth MCP",
+      "data_sources": "Luma público; propios autorizados",
+      "geography": "Según inventario Luma",
+      "history": "Propios pasados; global histórico no acreditado",
+      "refresh": "Lectura de plataforma; SLA desconocido",
+      "integrations": "MCP, Zoom, Zapier Plus",
+      "api_export": "CSV gratis; API Plus; MCP sin Plus",
+      "public_price": "Gratis; Plus US$59/mes anual; procesamiento aparte",
+      "free_offer": "Eventos/invitados ilimitados; 500 envíos/semana; comisión 5% pagos",
+      "business_model": "Freemium + comisiones",
+      "commercial_status": "Documentado en soporte",
+      "client_evidence": "No auditada en esta revisión",
+      "limits": "Asistente puede costar aparte; no es dataset global licenciable",
+      "prompt_profile": "P: prompt vía asistente",
+      "website_profile": "U",
+      "recurring_recommendations": "U: depende de cliente externo",
+      "existing_events_ranking": "P: búsqueda; ranking comercial no probado",
+      "geographic_map": "U en fuentes revisadas",
+      "new_event_concepts": "P: creación; calidad del concepto depende del asistente",
+      "luma_preparation": "D: nativo",
+      "sponsor_search": "U",
+      "participant_profiles": "P: propios con permisos",
+      "commercial_outcomes": "P: registro/pagos, no ROI sponsor",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "buyer": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "job": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "onboarding": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "data_sources": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "geography": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "history": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "refresh": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "integrations": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "api_export": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "public_price": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "free_offer": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "business_model": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "commercial_status": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "client_evidence": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "limits": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "prompt_profile": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "website_profile": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "recurring_recommendations": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "existing_events_ranking": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "geographic_map": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "new_event_concepts": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "luma_preparation": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "sponsor_search": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "participant_profiles": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "commercial_outcomes": [
+          "comp_source_26",
+          "comp_source_25"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_26",
+          "comp_source_25"
+        ]
+      },
+      "source_ids": [
+        "comp_source_26",
+        "comp_source_25"
+      ]
+    },
+    {
+      "competitor_id": "eventbrite",
+      "name": "Eventbrite",
+      "url": "https://www.eventbrite.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Sustituto: marketplace y ticketing",
+      "buyer": "Organizadores y asistentes",
+      "job": "Crear, descubrir y vender entradas",
+      "onboarding": "Cuenta autoservicio",
+      "data_sources": "Eventos/listados y registros propios",
+      "geography": "Internacional; planes varían por país",
+      "history": "Profundidad pública no verificada",
+      "refresh": "Datos propios operativos",
+      "integrations": "No evaluadas aquí",
+      "api_export": "No evaluado aquí",
+      "public_price": "Publicación gratis; Premium EE.UU. $69/mes o $708/año",
+      "free_offer": "Sin cargos por entradas gratis",
+      "business_model": "Comisiones + suscripción/ads",
+      "commercial_status": "Comercial; Premium gradual",
+      "client_evidence": "Testimonios de organizadores; no auditados",
+      "limits": "Página Pro antigua y Premium conviven; fuentes indexadas, open limitado",
+      "prompt_profile": "P: creación IA",
+      "website_profile": "U",
+      "recurring_recommendations": "U",
+      "existing_events_ranking": "P: discovery, no ICP validado",
+      "geographic_map": "U en fuentes revisadas",
+      "new_event_concepts": "P: generación de página",
+      "luma_preparation": "U",
+      "sponsor_search": "U",
+      "participant_profiles": "P: registros propios",
+      "commercial_outcomes": "P: ticketing/reportes",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "buyer": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "job": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "onboarding": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "data_sources": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "geography": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "history": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "refresh": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "integrations": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "api_export": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "public_price": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "free_offer": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "business_model": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "commercial_status": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "client_evidence": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "limits": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "prompt_profile": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "website_profile": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "recurring_recommendations": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "existing_events_ranking": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "geographic_map": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "new_event_concepts": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "luma_preparation": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "sponsor_search": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "participant_profiles": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "commercial_outcomes": [
+          "comp_source_27",
+          "comp_source_28"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_27",
+          "comp_source_28"
+        ]
+      },
+      "source_ids": [
+        "comp_source_27",
+        "comp_source_28"
+      ]
+    },
+    {
+      "competitor_id": "10times",
+      "name": "10times",
+      "url": "https://10times.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Sustituto: directorio y red profesional",
+      "buyer": "Asistentes y organizadores",
+      "job": "Descubrir eventos y generar contactos",
+      "onboarding": "Exploración pública; cuenta oDASH",
+      "data_sources": "Eventos, roles empresariales y reseñas",
+      "geography": "Internacional; 248+ países/territorios declarados",
+      "history": "Reseñas históricas; plazo desconocido",
+      "refresh": "SLA desconocido",
+      "integrations": "No verificadas aquí",
+      "api_export": "No se acredita API global",
+      "public_price": "Free; pagos dependen de cuenta/moneda",
+      "free_offer": "Navegación; contactos bloqueados en oDASH Free",
+      "business_model": "Freemium + promoción/servicios",
+      "commercial_status": "Comercial documentado",
+      "client_evidence": "No auditada",
+      "limits": "Perfiles no prueban ROI ni cobertura exhaustiva",
+      "prompt_profile": "U",
+      "website_profile": "U",
+      "recurring_recommendations": "P: preferencias/seguimiento",
+      "existing_events_ranking": "P: filtros/reseñas",
+      "geographic_map": "P: cercanía/direcciones",
+      "new_event_concepts": "U",
+      "luma_preparation": "U",
+      "sponsor_search": "P: historial de empresas",
+      "participant_profiles": "D: networking declarado",
+      "commercial_outcomes": "P: leads, no ROI causal",
+      "learning_from_outcomes": "U",
+      "field_sources": {
+        "category": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "buyer": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "job": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "onboarding": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "data_sources": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "geography": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "history": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "refresh": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "integrations": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "api_export": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "public_price": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "free_offer": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "business_model": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "commercial_status": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "client_evidence": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "limits": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "prompt_profile": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "website_profile": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "recurring_recommendations": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "existing_events_ranking": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "geographic_map": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "new_event_concepts": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "luma_preparation": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "sponsor_search": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "participant_profiles": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "commercial_outcomes": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_29",
+          "comp_source_30",
+          "comp_source_31"
+        ]
+      },
+      "source_ids": [
+        "comp_source_29",
+        "comp_source_30",
+        "comp_source_31"
+      ]
+    },
+    {
+      "competitor_id": "swapcard",
+      "name": "Swapcard",
+      "url": "https://www.swapcard.com/",
+      "observed_at": "2026-09-28",
+      "evidence_class": "Declaraciones públicas del proveedor; producto no probado",
+      "category": "Sustituto: operación y networking",
+      "buyer": "Organizadores, expositores y asociaciones",
+      "job": "Registro, reuniones y datos propios",
+      "onboarding": "Cuenta → organización → comunidad → evento",
+      "data_sources": "Registros/interacciones propios",
+      "geography": "Global declarada",
+      "history": "Cartera propia; no inventario global acreditado",
+      "refresh": "Analítica de operación",
+      "integrations": "CRM y APIs documentadas",
+      "api_export": "Portal developer y exportación leads",
+      "public_price": "Cotización: licencia anual + asistentes/expositores",
+      "free_offer": "Crear/probar antes de suscribir; no publicación gratis confirmada",
+      "business_model": "Anual + volumen/add-ons",
+      "commercial_status": "Comercial con soporte",
+      "client_evidence": "No auditada",
+      "limits": "No trasladar antiguo Free de changelog a oferta actual",
+      "prompt_profile": "U",
+      "website_profile": "U",
+      "recurring_recommendations": "P: conexiones dentro de evento",
+      "existing_events_ranking": "U",
+      "geographic_map": "P: mapa recinto",
+      "new_event_concepts": "P: builder",
+      "luma_preparation": "U",
+      "sponsor_search": "P: matching/monetización interna",
+      "participant_profiles": "D",
+      "commercial_outcomes": "P: leads/engagement",
+      "learning_from_outcomes": "P: personalización; impacto no medido",
+      "field_sources": {
+        "category": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "buyer": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "job": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "onboarding": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "data_sources": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "geography": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "history": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "refresh": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "integrations": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "api_export": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "public_price": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "free_offer": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "business_model": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "commercial_status": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "client_evidence": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "limits": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "prompt_profile": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "website_profile": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "recurring_recommendations": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "existing_events_ranking": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "geographic_map": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "new_event_concepts": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "luma_preparation": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "sponsor_search": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "participant_profiles": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "commercial_outcomes": [
+          "comp_source_32",
+          "comp_source_33"
+        ],
+        "learning_from_outcomes": [
+          "comp_source_32",
+          "comp_source_33"
+        ]
+      },
+      "source_ids": [
+        "comp_source_32",
+        "comp_source_33"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "comp_source_01",
+      "url": "https://vendelux.com/product",
+      "title": "Product Overview",
+      "publisher": "Vendelux",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Inteligencia, CRM, API y testimonios atribuidos a clientes.",
+      "direct_citations": [
+        {
+          "quote": "Proprietary Attendee Data",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_02",
+      "url": "https://vendelux.com/event-discovery",
+      "title": "Event Discovery",
+      "publisher": "Vendelux",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Calendario priorizado por ICP y restricciones; cobertura declarada.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_03",
+      "url": "https://vendelux.com/pricing",
+      "title": "Pricing",
+      "publisher": "Vendelux",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Planes por capacidad; importe no publicado.",
+      "direct_citations": [
+        {
+          "quote": "Full insights for 20 events per month",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_04",
+      "url": "https://vendelux.com/blog/introducing-chatvdx",
+      "title": "Introducing ChatVDX",
+      "publisher": "Vendelux",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": "2026-04-03",
+      "facts": "Campañas conversacionales disponibles; discovery conversacional anunciado.",
+      "direct_citations": [
+        {
+          "quote": "Event discovery and recommendations",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_05",
+      "url": "https://www.pana.space/events/ai-event-planner",
+      "title": "AI Event Planner",
+      "publisher": "Pana Events",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Descubrimiento por prompt; directorio con lanzamiento pendiente.",
+      "direct_citations": [
+        {
+          "quote": "events (Coming soon)",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_06",
+      "url": "https://www.pana.space/events/pricing",
+      "title": "Plans for Event GTM Teams",
+      "publisher": "Pana Events",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Oferta por roles; importes y condiciones inconsistentes.",
+      "direct_citations": [
+        {
+          "quote": "14-day free trial",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_07",
+      "url": "https://www.pana.space/events/terms-and-conditions",
+      "title": "Terms & Conditions",
+      "publisher": "Mathiverse / Pana",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Suscripción y prueba discrecional de siete días.",
+      "direct_citations": [
+        {
+          "quote": "7-day free trial",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_08",
+      "url": "https://www.sponsorunited.com/",
+      "title": "Sponsorship Intelligence Platform",
+      "publisher": "SponsorUnited",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Análisis de propuestas y búsqueda de socios para marcas y titulares.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_09",
+      "url": "https://help.sponsorunited.com/en/articles/10166311-general-spnd-questions",
+      "title": "General SPND Questions",
+      "publisher": "SponsorUnited",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": "2025-04-08",
+      "facts": "SPND estima precio de transacción, no retorno.",
+      "direct_citations": [
+        {
+          "quote": "it is the estimated transaction price of the deal.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_10",
+      "url": "https://help.sponsorunited.com/en/articles/10166349-spnd-access",
+      "title": "SPND Access",
+      "publisher": "SponsorUnited",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": "2024-11-20",
+      "facts": "Precio por consulta comercial.",
+      "direct_citations": [
+        {
+          "quote": "Contact us (info@sponsorunited.com) for a demo and pricing.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_11",
+      "url": "https://partable.ai/events",
+      "title": "Partable for Event Sponsorship",
+      "publisher": "Partable",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Chat de prospección y propuestas; early access y precio publicado.",
+      "direct_citations": [
+        {
+          "quote": "Get Early Access",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_12",
+      "url": "https://identyca.io/",
+      "title": "Identyca Event Intelligence",
+      "publisher": "Identyca",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Brief a planificación; roadmap diferencia Organizer, Vendor y Marketplace.",
+      "direct_citations": [
+        {
+          "quote": "From Event Brief to Full Intelligence in Minutes.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_13",
+      "url": "https://kurationai.com/solutions/event-intelligence",
+      "title": "Event Intelligence Database",
+      "publisher": "Kuration AI",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "URL a compañías, sponsors y speakers enriquecidos; exportación.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_14",
+      "url": "https://kurationai.com/pricing",
+      "title": "Pricing — First list free",
+      "publisher": "Kuration AI",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Planes, créditos, API y licencia enterprise; cuota gratis contradictoria.",
+      "direct_citations": [
+        {
+          "quote": "20 companies with contacts, plus 1,500 credits.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_15",
+      "url": "https://www.events-intelligence.com/",
+      "title": "Events Intelligence / HuntEx",
+      "publisher": "Events Intelligence Limited",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Prospección de expositores con datos globales.",
+      "direct_citations": [
+        {
+          "quote": "over 850,000 live media exhibitors",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_16",
+      "url": "https://www.eventopulse.com/about-us/",
+      "title": "About EventoPulse",
+      "publisher": "EventoPulse",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Tres años y pipeline diario declarados; 500k eventos.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_17",
+      "url": "https://www.eventopulse.com/",
+      "title": "EventoPulse — Event Signal Intelligence",
+      "publisher": "EventoPulse",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió error",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Cinco tipos de inteligencia; 200k eventos declarados.",
+      "direct_citations": [
+        {
+          "quote": "200,000+",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_18",
+      "url": "https://www.eventopulse.com/pricing/",
+      "title": "Pricing",
+      "publisher": "EventoPulse",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Planes y exportación; ausencia explícita de CRM directo.",
+      "direct_citations": [
+        {
+          "quote": "There's no direct CRM integration at the moment.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_19",
+      "url": "https://www.eventopulse.com/solutions/gtm-revops/",
+      "title": "Trade Show Pipeline Management",
+      "publisher": "EventoPulse",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió timeout",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Marketing de flujos CRM; contrasta con FAQ comercial.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_20",
+      "url": "https://acirio.com/",
+      "title": "Acirio — AI-Powered Sponsor Discovery",
+      "publisher": "Acirio",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió cuerpo vacío",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Proyecto personal para extraer sponsors de competidores.",
+      "direct_citations": [
+        {
+          "quote": "Personal project — shared publicly",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_21",
+      "url": "https://acirio.com/privacy",
+      "title": "Privacy Policy",
+      "publisher": "Acirio",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió cuerpo vacío",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Describe enriquecimiento de contactos profesionales vía terceros.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_22",
+      "url": "https://run.events/",
+      "title": "All Your Events. One Platform.",
+      "publisher": "run.events",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Suite operacional; interacciones propias alimentan inteligencia.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_23",
+      "url": "https://run.events/pricing",
+      "title": "Event Management Platform — Pricing",
+      "publisher": "run.events",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Licencia anual por escala y módulos; AI es add-on.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_24",
+      "url": "https://www.run.events/services/api-integration",
+      "title": "API Integration",
+      "publisher": "run.events",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Servicio de integración bidireccional de datos de eventos.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_25",
+      "url": "https://luma.com/pricing",
+      "title": "Pricing",
+      "publisher": "Luma",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Plan gratuito y Plus; API, CSV y comisiones.",
+      "direct_citations": [
+        {
+          "quote": "Free, forever",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_26",
+      "url": "https://help.luma.com/p/mcp",
+      "title": "Luma MCP Server",
+      "publisher": "Luma",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Descubrimiento y gestión autorizada sin Plus; no backfill global.",
+      "direct_citations": [
+        {
+          "quote": "you don’t need Luma Plus.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_27",
+      "url": "https://www.eventbrite.com/help/en-us/articles/193833/",
+      "title": "Eventbrite's pricing and plans",
+      "publisher": "Eventbrite",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió error",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Publicación gratis; Premium opcional con disponibilidad gradual.",
+      "direct_citations": [
+        {
+          "quote": "There are no fees for free tickets.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_28",
+      "url": "https://www.eventbrite.com/organizer/pricing/?page=24",
+      "title": "Create an Event for Free: Pricing",
+      "publisher": "Eventbrite",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; ruta canónica devolvió 429",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Creación con IA y ticketing; página también menciona Pro histórico.",
+      "direct_citations": [
+        {
+          "quote": "AI event creation",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_29",
+      "url": "https://10times.com/app",
+      "title": "Mobile App for Events",
+      "publisher": "10times",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Preferencias, filtros, directorio y networking internacional.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_30",
+      "url": "https://login.10times.com/plans?type=unlimited",
+      "title": "Pricing, List your Events",
+      "publisher": "10times",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Free limita contactos; upgrades por cuenta y moneda.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_31",
+      "url": "https://10times.com/company/tradeshows",
+      "title": "Top Companies",
+      "publisher": "10times",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Perfiles agregan roles y eventos históricos; sin denominador auditado.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_32",
+      "url": "https://help.swapcard.com/en/articles/9423581-get-started-with-swapcard-as-an-event-organizer",
+      "title": "Get Started with Swapcard",
+      "publisher": "Swapcard",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": "2026-07-02",
+      "facts": "Onboarding, prueba, participantes, APIs y mapas internos.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_33",
+      "url": "https://www.swapcard.com/pricing",
+      "title": "Compare Plans & Features",
+      "publisher": "Swapcard",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió timeout",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Licencia anual y volumen; importe cotizado.",
+      "direct_citations": [
+        {
+          "quote": "Our plans are all annual subscriptions.",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_34",
+      "url": "https://www.swapcard.com/",
+      "title": "Event Management Platform",
+      "publisher": "Swapcard",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió error",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Gestión integral, CRM y monetización de eventos propios.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_35",
+      "url": "https://vendelux.com/help",
+      "title": "Help Center",
+      "publisher": "Vendelux",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Guías de exportación, informes programados y discrepancias.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_36",
+      "url": "https://vendelux.com/lead-scanner",
+      "title": "Universal Lead Scanner",
+      "publisher": "Vendelux",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "web_open",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Captura gratuita anunciada; no equivale a inteligencia completa.",
+      "direct_citations": [
+        {
+          "quote": "FreeUnlimited users and events",
+          "locator": "Sección identificada por el título o la frase citada"
+        }
+      ],
+      "commercial_reuse": "No se adquiere licencia; solo metadatos, resúmenes y extractos breves de investigación."
+    },
+    {
+      "source_id": "comp_source_37",
+      "url": "https://www.eventopulse.com/solutions/b2b-sales-teams/",
+      "title": "Event-Led Growth for B2B Sales Teams",
+      "publisher": "EventoPulse",
+      "source_type": "fuente_primaria_del_proveedor",
+      "access_status": "indexado_oficial; open devolvió Cache miss",
+      "observed_at": "2026-09-28",
+      "published_at": null,
+      "facts": "Declara 12.000+ eventos B2B, sin reconciliar otras cifras del sitio.",
+      "direct_citations": [],
+      "commercial_reuse": "No se adquiere licencia; resumen de investigación."
+    }
+  ]
+}

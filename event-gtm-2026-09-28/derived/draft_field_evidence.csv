@@ -1,0 +1,5 @@
+field_id,draft_id,field,value_json,origin,source_ids_json,approval_status,extra_json,missing_reasons_json
+df_1de52ecfbc62cc6e,draft_local_python_feedback,name,"""Clínica de herramientas Python: probar un flujo y registrar qué falla""",researcher_proposal_from_precedents,"[""src_864a12d7a61ca222"", ""src_ec0ee27d9ee37cc0""]",not_approved,,{}
+df_2919f9cc5bc76147,draft_local_python_feedback,description_md,"""PROPUESTA POR REVISAR. Taller para personas que desarrollan con Python y quieren probar un flujo concreto de una herramienta. Propuesta: 15 minutos de contexto, 35 de prueba guiada, 25 de trabajo sobre problemas y 15 de devolución. Producto, anfitrión, idioma, fecha, zona, modalidad, registro y cupos pendientes. Ninguna empresa ni persona está confirmada como sponsor o speaker.""",researcher_proposal_from_precedents,"[""src_864a12d7a61ca222"", ""src_ec0ee27d9ee37cc0""]",not_approved,,{}
+df_09a2d07bd9b5fdb6,draft_local_python_feedback,start_at,null,pending_human_input,[],not_approved,,{}
+df_ee9642d930918933,draft_local_python_feedback,timezone,null,pending_human_input,[],not_approved,,{}

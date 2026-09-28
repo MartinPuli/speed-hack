@@ -1,0 +1,495 @@
+{
+  "version": "2026-09-28.v1",
+  "execution_date": "2026-09-28",
+  "historical_window_start": "2021-09-28",
+  "historical_window_end_exclusive": "2026-09-28",
+  "geography": "not_selected; international_stratified_convenience_sample",
+  "segment": "not_selected; technology-heavy plus nontech strata",
+  "billing": "No paid acquisition commissioned. Tool subscription and agent execution cost not observable.",
+  "tables": {
+    "sources": {
+      "rows": 160,
+      "layer": "observed",
+      "file": "data/observed/sources.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "assertions": {
+      "rows": 21570,
+      "layer": "observed",
+      "file": "data/observed/assertions.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "companies": {
+      "rows": 288,
+      "layer": "observed",
+      "file": "data/observed/companies.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_series": {
+      "rows": 101,
+      "layer": "observed",
+      "file": "data/observed/event_series.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_editions": {
+      "rows": 688,
+      "layer": "observed",
+      "file": "data/observed/event_editions.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_company_roles": {
+      "rows": 468,
+      "layer": "observed",
+      "file": "data/observed/event_company_roles.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "sponsor_profiles": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/sponsor_profiles.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "sponsorship_packages": {
+      "rows": 16,
+      "layer": "observed",
+      "file": "data/observed/sponsorship_packages.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "people": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/people.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "participation": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/participation.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "audience_metrics": {
+      "rows": 12,
+      "layer": "observed",
+      "file": "data/observed/audience_metrics.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_metrics": {
+      "rows": 33,
+      "layer": "observed",
+      "file": "data/observed/event_metrics.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_costs": {
+      "rows": 4,
+      "layer": "observed",
+      "file": "data/observed/event_costs.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "venues": {
+      "rows": 3,
+      "layer": "observed",
+      "file": "data/observed/venues.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "distribution_channels": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/distribution_channels.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "competitors": {
+      "rows": 10,
+      "layer": "observed",
+      "file": "data/observed/competitors.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "extraction_queue": {
+      "rows": 12,
+      "layer": "observed",
+      "file": "data/observed/extraction_queue.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "platform_listings": {
+      "rows": 663,
+      "layer": "observed",
+      "file": "data/observed/platform_listings.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "source_snapshots": {
+      "rows": 18,
+      "layer": "observed",
+      "file": "data/observed/source_snapshots.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "crawl_runs": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/crawl_runs.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "fetch_attempts": {
+      "rows": 26,
+      "layer": "observed",
+      "file": "data/observed/fetch_attempts.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "search_queries": {
+      "rows": 67,
+      "layer": "observed",
+      "file": "data/observed/search_queries.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "entity_aliases": {
+      "rows": 10,
+      "layer": "observed",
+      "file": "data/observed/entity_aliases.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "record_versions": {
+      "rows": 654,
+      "layer": "observed",
+      "file": "data/observed/record_versions.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "data_conflicts": {
+      "rows": 3,
+      "layer": "observed",
+      "file": "data/observed/data_conflicts.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "taxonomy_terms": {
+      "rows": 27,
+      "layer": "observed",
+      "file": "data/observed/taxonomy_terms.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "entity_classifications": {
+      "rows": 2064,
+      "layer": "derived",
+      "file": "data/derived/entity_classifications.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "sessions": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/sessions.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "session_participants": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/session_participants.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "ticket_types": {
+      "rows": 19,
+      "layer": "observed",
+      "file": "data/observed/ticket_types.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "ticket_price_history": {
+      "rows": 19,
+      "layer": "observed",
+      "file": "data/observed/ticket_price_history.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_status_history": {
+      "rows": 1,
+      "layer": "observed",
+      "file": "data/observed/event_status_history.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_relations": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/event_relations.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "venue_spaces": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/venue_spaces.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "event_space_assignments": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/event_space_assignments.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "event_assets": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/event_assets.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "communities": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/communities.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "community_event_links": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/community_event_links.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "company_profile_history": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/company_profile_history.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "professional_affiliations": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/professional_affiliations.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_deadlines": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/event_deadlines.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "distribution_metrics": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/distribution_metrics.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "news_articles": {
+      "rows": 10,
+      "layer": "observed",
+      "file": "data/observed/news_articles.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "news_entity_links": {
+      "rows": 11,
+      "layer": "observed",
+      "file": "data/observed/news_entity_links.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "news_dedup_clusters": {
+      "rows": 10,
+      "layer": "observed",
+      "file": "data/observed/news_dedup_clusters.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "company_signals": {
+      "rows": 2,
+      "layer": "observed",
+      "file": "data/observed/company_signals.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "market_context": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/market_context.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "sponsorship_history": {
+      "rows": 320,
+      "layer": "observed",
+      "file": "data/observed/sponsorship_history.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "sponsorship_deliverables": {
+      "rows": 17,
+      "layer": "observed",
+      "file": "data/observed/sponsorship_deliverables.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "sponsorship_observations": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/sponsorship_observations.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "partner_relationships": {
+      "rows": 0,
+      "layer": "observed",
+      "file": "data/observed/partner_relationships.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "sponsorship_renewals": {
+      "rows": 127,
+      "layer": "derived",
+      "file": "data/derived/sponsorship_renewals.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "topic_trends": {
+      "rows": 0,
+      "layer": "derived",
+      "file": "data/derived/topic_trends.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "audience_overlap": {
+      "rows": 0,
+      "layer": "derived",
+      "file": "data/derived/audience_overlap.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "opportunity_clusters": {
+      "rows": 0,
+      "layer": "derived",
+      "file": "data/derived/opportunity_clusters.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "evaluation_cases": {
+      "rows": 3,
+      "layer": "derived",
+      "file": "data/derived/evaluation_cases.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "recommendation_runs": {
+      "rows": 9,
+      "layer": "derived",
+      "file": "data/derived/recommendation_runs.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "recommendation_candidates": {
+      "rows": 105,
+      "layer": "derived",
+      "file": "data/derived/recommendation_candidates.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "sponsor_match_scores": {
+      "rows": 0,
+      "layer": "derived",
+      "file": "data/derived/sponsor_match_scores.csv",
+      "state": "schema_only",
+      "empty_reason": "not_obtained_in_this_execution"
+    },
+    "scoring_evaluations": {
+      "rows": 18,
+      "layer": "derived",
+      "file": "data/derived/scoring_evaluations.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "unit_economics_scenarios": {
+      "rows": 3,
+      "layer": "derived",
+      "file": "data/derived/unit_economics_scenarios.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "event_concepts": {
+      "rows": 1,
+      "layer": "proposals",
+      "file": "data/proposals/event_concepts.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "luma_drafts": {
+      "rows": 1,
+      "layer": "proposals",
+      "file": "data/proposals/luma_drafts.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "draft_field_evidence": {
+      "rows": 4,
+      "layer": "proposals",
+      "file": "data/proposals/draft_field_evidence.csv",
+      "state": "populated",
+      "empty_reason": null
+    },
+    "customer_briefs": {
+      "rows": 0,
+      "layer": "private-schemas",
+      "file": "data/private-schemas/customer_briefs.csv",
+      "state": "schema_only",
+      "empty_reason": "requires_real_authorized_customer_data"
+    },
+    "user_feedback": {
+      "rows": 0,
+      "layer": "private-schemas",
+      "file": "data/private-schemas/user_feedback.csv",
+      "state": "schema_only",
+      "empty_reason": "requires_real_authorized_customer_data"
+    }
+  },
+  "counts": {
+    "event_editions": 688,
+    "series": 101,
+    "organizations": 288,
+    "sponsor_roles": 320,
+    "sponsor_or_partner_roles": 21,
+    "sources": 160,
+    "assertions": 21570,
+    "original_news_articles": 10,
+    "historical_editions": 650,
+    "upcoming_or_current_editions": 38,
+    "provisional_or_secondary_cores": 8,
+    "observed_repeat_presences": 127
+  },
+  "limitations": [
+    "Not exhaustive, no defined territorial universe",
+    "No private guests, CRM, actual commercial ROI or human relevance labels",
+    "No commercial redistribution rights presumed",
+    "Calendar STATUS:CONFIRMED is announcement status, not proof an event occurred",
+    "10 recurring rules withheld; not expanded into invented editions"
+  ],
+  "closure_reason": "Exploratory acquisition delivered; exact continuation queue remains."
+}

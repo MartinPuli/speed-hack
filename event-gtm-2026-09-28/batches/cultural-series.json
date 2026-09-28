@@ -1,0 +1,1871 @@
+{
+  "schema_version": "1.0",
+  "observed_at": "2026-09-28",
+  "window": {
+    "historical_start": "2021-09-28",
+    "historical_end": "2026-09-28",
+    "future_included": true
+  },
+  "notes": [
+    "Dos series culturales, selección dirigida y no representativa.",
+    "No son resultados de campañas de sponsors; son fechas, roles y métricas reportadas por organizadores.",
+    "Valores null/arrays vacíos indican no capturado, no inexistencia.",
+    "Ninguna captura otorga derechos de reutilización comercial."
+  ],
+  "sources": [
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+      "title": "73. Frankfurter Buchmesse: Neustart der Buchbranche",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "de",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "20–24 octubre 2021; 36.000 profesionales y 37.500 lectores.",
+        "2.013 empresas combina presencia física y digital; 2.500 medios acreditados."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/chronik",
+      "title": "Chronik 2020–2022",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "de",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "2021: 73.500 visitantes al recinto. 2022: 19–23 octubre; 93.000 profesionales, 87.000 público general, 4.000 expositores."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+      "title": "#fbm23: balance de la 75. Frankfurter Buchmesse",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "de",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "18–22 octubre 2023; 215.000 visitantes, divididos en 105.000 profesionales y 110.000 público general."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+      "title": "76. Frankfurter Buchmesse zieht Bilanz",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "de",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "16–20 octubre 2024: 230.000 visitantes; 115.000 profesionales y 115.000 público general.",
+        "Amnesty International, CORRECTIV y PEN Berlin colaboraron en el programa Frankfurt Calling."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+      "title": "Frankfurter Buchmesse wächst – und verbindet die Welt der Literatur",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "de",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "15–19 octubre 2025; reporte de cierre: 238.000 visitantes, 118.000 profesionales, 120.000 público general, 4.350 expositores, 7.800 medios.",
+        "Spotify y Audible ofrecieron sesiones en el programa Frankfurt Audio."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/en",
+      "title": "Frankfurter Buchmesse: edición 2026",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "La próxima edición se anuncia para 7–11 octubre 2026. Los contadores retrospectivos están rotulados 2025."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/en/imprint",
+      "title": "Imprint",
+      "publisher": "Frankfurter Buchmesse GmbH",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "La razón social del editor es Frankfurter Buchmesse GmbH, con domicilio en Frankfurt am Main, Germany."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/en/visit/arrival-accommodation",
+      "title": "Arrival at Frankfurter Buchmesse",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "Explica el acceso desde Frankfurt al recinto ferial por las estaciones Messe y Festhalle/Messe."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/en/visit/tickets",
+      "title": "Your entrance ticket to Frankfurter Buchmesse",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "Se leyó la página de tickets; no se extrajo una tarifa monetaria inequívoca en este lote."
+      ]
+    },
+    {
+      "url": "https://www.buchmesse.de/en/about-us/facts-and-figures",
+      "title": "Facts and Figures",
+      "publisher": "Frankfurter Buchmesse",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "Ofrece descarga de cifras 2025; no se reutilizan como resultados de 2026."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/",
+      "title": "The Screenings Guide 2022",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2022-05-11",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "La 75ª edición anuncia programación del 17 al 28 mayo 2022 en Cannes."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/",
+      "title": "The 76th edition: 16 to 27 May 2023",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2022-06-23",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "Anuncia 16–27 mayo 2023; el texto también declara que la edición 2022 había concluido."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/",
+      "title": "The Screenings Guide of the 77th Festival de Cannes",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2024-05-08",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "Programación en Cannes del 14 al 25 mayo 2024."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/",
+      "title": "Submission for films for the 2025 Official Selection is now open",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2024-11-14",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "La 78ª edición anuncia 13–24 mayo 2025. Distingue Official Selection, Short Film Corner y Marché du Film."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/",
+      "title": "Festival de Cannes 2026: accreditation is now open",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2026-02-02",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "79ª edición del 12 al 23 mayo 2026; menciona contribución ambiental de €20 sin IVA por acreditado.",
+        "Una línea secundaria de acreditación fotográfica conserva 2025; inconsistencia editorial retenida."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/",
+      "title": "Festival de Cannes — 80th edition",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "El sitio anuncia 11–22 mayo 2027; cifras generales sin año no se asignan a una edición."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/faq/",
+      "title": "FAQ — Festival de Cannes",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "TV Festival 2022–2026 se declara coproducido por France Télévisions, Brut. y el Festival.",
+        "15.000 asientos asignados mediante colas de última hora en 2024; no es total de asistentes.",
+        "La FAQ aún presenta 2026 como próxima edición aunque la portada anuncia 2027."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/take-part/your-festival-experience/organise-your-time/",
+      "title": "The Festival: organise your time",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "La zona Palais/Riviera y Village funciona 12–23 mayo 2026; Marché termina el 20.",
+        "WiFi publicado: €15 por día o €95 por 12 días; gratis para credenciales Marché y prensa."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/after-france-televisions-brut-the-festival-de-cannes-welcomes-bmw-and-campari-on-the-croisette/",
+      "title": "Cannes welcomes BMW and Campari on the Croisette",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2022-02-17",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "2022: BMW socio automotor; Campari nuevo socio; France Télévisions y Brut. socios de medios; Chopard y L’Oréal Paris socios históricos."
+      ]
+    },
+    {
+      "url": "https://www.festival-cannes.com/catalogueofficiel/en/61-PARTENAIRES-OFFICIELS-OFFICIAL-PARTNERS.html",
+      "title": "Official catalogue 2026, p.61: official partners",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "BMW y Angénieux están rotulados socios oficiales de la 79ª edición; el texto vincula BMW a 2026."
+      ],
+      "notes": "Texto HTML accesible; el visor informa problema JavaScript, pero presenta contenido de la página."
+    },
+    {
+      "url": "https://www.festival-cannes.com/catalogueofficiel/en/99-FOURNISSEURS-OFFICIELS-OFFICIAL-SUPPLIERS.html",
+      "title": "Official catalogue 2026, p.99: official suppliers",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": null,
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "Campari France y Château Margüi figuran bajo proveedores oficiales. Campari declara relación desde 2022."
+      ],
+      "notes": "No se convierte supplier en sponsor."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/",
+      "title": "Cannes 2026: Global Visibility in Service of Cinema",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2026-05-21",
+      "checked_at": "2026-09-28",
+      "access_method": "web_read",
+      "reuse_status": "pending_review",
+      "facts": [
+        "Apertura en France 2: audiencia acumulada declarada 4,6 millones y pico 2,2 millones.",
+        "Brut. declara 113,5 millones de vistas de apertura y contenido asociado; Meta aparece como socio 2026.",
+        "La cifra declarada de 1,4285 trillion de vistas de hashtag requiere aclaración y no se admite como métrica utilizable."
+      ],
+      "notes": "Comunicado visible públicamente pese a formulario genérico de prensa; sin autenticar."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/",
+      "title": "The Festival’s Official Selection: Coming to a screen near you",
+      "publisher": "Festival de Cannes",
+      "source_type": "organizer_page",
+      "language": "en",
+      "published_at": "2026-05-29",
+      "checked_at": "2026-09-28",
+      "access_method": "official_search_index",
+      "reuse_status": "pending_review",
+      "facts": [
+        "El texto indexado sitúa una proyección del 18 mayo 2026 en Palais des Festivals, Cannes, France."
+      ],
+      "notes": "Abrir devolvió 403; solamente se usa como corroboración geográfica, con limitación explícita."
+    }
+  ],
+  "editions": [
+    {
+      "key": "frankfurter-buchmesse-2021",
+      "title": "Frankfurter Buchmesse 2021",
+      "series_name": "Frankfurter Buchmesse",
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+      "start_date": "2021-10-20",
+      "end_date": "2021-10-24",
+      "date_precision": "day",
+      "city": "Frankfurt am Main",
+      "country": null,
+      "venue_name": null,
+      "format": "hybrid_trade_fair",
+      "sector": "publishing_and_literature",
+      "status": "held_reported",
+      "source_urls": [
+        "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+        "https://www.buchmesse.de/en/imprint",
+        "https://www.buchmesse.de/en/visit/arrival-accommodation",
+        "https://www.buchmesse.de/chronik"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche"
+        ],
+        "series_name": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche"
+        ],
+        "start_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche"
+        ],
+        "end_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche"
+        ],
+        "city": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+          "https://www.buchmesse.de/en/visit/arrival-accommodation"
+        ],
+        "status": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "venue_name": "Pendiente de captura de fuente específica por edición; no se hereda el recinto actual."
+      },
+      "organizations": [
+        {
+          "name": "Frankfurter Buchmesse",
+          "domain": "buchmesse.de",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+          "status": "reported",
+          "legal_entity": "Frankfurter Buchmesse GmbH",
+          "legal_entity_source_url": "https://www.buchmesse.de/en/imprint"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "visitors_reported_total",
+          "value": 73500,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/chronik",
+          "locator": "Chronik 2021: Besucher*innen auf dem Messegelände",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "trade_visitors_reported",
+          "value": 36000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+          "locator": "36.000 Fachbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "public_visitors_reported",
+          "value": 37500,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+          "locator": "37.500 Leser*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "participating_companies_physical_or_digital",
+          "value": 2013,
+          "unit": "companies",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+          "locator": "2.013 Unternehmen / Hallen, LitAg, Workstations oder digital",
+          "method": "Incluye empresas físicas y digitales; no equivale a expositores presenciales."
+        },
+        {
+          "name": "accredited_media_representatives",
+          "value": 2500,
+          "unit": "accreditations",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+          "locator": "2.500 Medienvertreter*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "Germany",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.buchmesse.de/en/imprint"
+          ]
+        }
+      }
+    },
+    {
+      "key": "frankfurter-buchmesse-2022",
+      "title": "Frankfurter Buchmesse 2022",
+      "series_name": "Frankfurter Buchmesse",
+      "url": "https://www.buchmesse.de/chronik",
+      "start_date": "2022-10-19",
+      "end_date": "2022-10-23",
+      "date_precision": "day",
+      "city": "Frankfurt am Main",
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair_and_literary_festival",
+      "sector": "publishing_and_literature",
+      "status": "held_reported",
+      "source_urls": [
+        "https://www.buchmesse.de/chronik",
+        "https://www.buchmesse.de/en/imprint",
+        "https://www.buchmesse.de/en/visit/arrival-accommodation"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.buchmesse.de/chronik"
+        ],
+        "series_name": [
+          "https://www.buchmesse.de/chronik"
+        ],
+        "start_date": [
+          "https://www.buchmesse.de/chronik"
+        ],
+        "end_date": [
+          "https://www.buchmesse.de/chronik"
+        ],
+        "city": [
+          "https://www.buchmesse.de/chronik",
+          "https://www.buchmesse.de/en/visit/arrival-accommodation"
+        ],
+        "status": [
+          "https://www.buchmesse.de/chronik"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "venue_name": "Pendiente de captura de fuente específica por edición; no se hereda el recinto actual."
+      },
+      "organizations": [
+        {
+          "name": "Frankfurter Buchmesse",
+          "domain": "buchmesse.de",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/chronik",
+          "status": "reported",
+          "legal_entity": "Frankfurter Buchmesse GmbH",
+          "legal_entity_source_url": "https://www.buchmesse.de/en/imprint"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "trade_visitors_reported",
+          "value": 93000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/chronik",
+          "locator": "Chronik 2022: Fachbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "public_visitors_reported",
+          "value": 87000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/chronik",
+          "locator": "Chronik 2022: Privatbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "exhibitors_reported",
+          "value": 4000,
+          "unit": "exhibitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/chronik",
+          "locator": "Chronik 2022: Aussteller",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "Germany",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.buchmesse.de/en/imprint"
+          ]
+        }
+      }
+    },
+    {
+      "key": "frankfurter-buchmesse-2023",
+      "title": "Frankfurter Buchmesse 2023",
+      "series_name": "Frankfurter Buchmesse",
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+      "start_date": "2023-10-18",
+      "end_date": "2023-10-22",
+      "date_precision": "day",
+      "city": "Frankfurt am Main",
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair_and_literary_festival",
+      "sector": "publishing_and_literature",
+      "status": "held_reported",
+      "source_urls": [
+        "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+        "https://www.buchmesse.de/en/imprint",
+        "https://www.buchmesse.de/en/visit/arrival-accommodation"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine"
+        ],
+        "series_name": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine"
+        ],
+        "start_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine"
+        ],
+        "end_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine"
+        ],
+        "city": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+          "https://www.buchmesse.de/en/visit/arrival-accommodation"
+        ],
+        "status": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "venue_name": "Pendiente de captura de fuente específica por edición; no se hereda el recinto actual."
+      },
+      "organizations": [
+        {
+          "name": "Frankfurter Buchmesse",
+          "domain": "buchmesse.de",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+          "status": "reported",
+          "legal_entity": "Frankfurter Buchmesse GmbH",
+          "legal_entity_source_url": "https://www.buchmesse.de/en/imprint"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "visitors_reported_total",
+          "value": 215000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+          "locator": "Balance: visitantes totales",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "trade_visitors_reported",
+          "value": 105000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+          "locator": "Balance: Fachbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "public_visitors_reported",
+          "value": 110000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+          "locator": "Balance: Privatbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "Germany",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.buchmesse.de/en/imprint"
+          ]
+        }
+      }
+    },
+    {
+      "key": "frankfurter-buchmesse-2024",
+      "title": "Frankfurter Buchmesse 2024",
+      "series_name": "Frankfurter Buchmesse",
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+      "start_date": "2024-10-16",
+      "end_date": "2024-10-20",
+      "date_precision": "day",
+      "city": "Frankfurt am Main",
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair_and_literary_festival",
+      "sector": "publishing_and_literature",
+      "status": "held_reported",
+      "source_urls": [
+        "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+        "https://www.buchmesse.de/en/imprint",
+        "https://www.buchmesse.de/en/visit/arrival-accommodation"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024"
+        ],
+        "series_name": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024"
+        ],
+        "start_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024"
+        ],
+        "end_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024"
+        ],
+        "city": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "https://www.buchmesse.de/en/visit/arrival-accommodation"
+        ],
+        "status": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "venue_name": "Pendiente de captura de fuente específica por edición; no se hereda el recinto actual."
+      },
+      "organizations": [
+        {
+          "name": "Frankfurter Buchmesse",
+          "domain": "buchmesse.de",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "status": "reported",
+          "legal_entity": "Frankfurter Buchmesse GmbH",
+          "legal_entity_source_url": "https://www.buchmesse.de/en/imprint"
+        },
+        {
+          "name": "Amnesty International",
+          "domain": null,
+          "role": "program_partner",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "status": "reported",
+          "scope": "Frankfurt Calling",
+          "locator": "Partner in der Programmgestaltung"
+        },
+        {
+          "name": "CORRECTIV",
+          "domain": null,
+          "role": "program_partner",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "status": "reported",
+          "scope": "Frankfurt Calling",
+          "locator": "Partner in der Programmgestaltung"
+        },
+        {
+          "name": "PEN Berlin",
+          "domain": null,
+          "role": "program_partner",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "status": "reported",
+          "scope": "Frankfurt Calling",
+          "locator": "Partner in der Programmgestaltung"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "visitors_reported_total",
+          "value": 230000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "locator": "Balance: visitantes totales",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "trade_visitors_reported",
+          "value": 115000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "locator": "Balance: Fachbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "public_visitors_reported",
+          "value": 115000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+          "locator": "Balance: Privatbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "Germany",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.buchmesse.de/en/imprint"
+          ]
+        }
+      }
+    },
+    {
+      "key": "frankfurter-buchmesse-2025",
+      "title": "Frankfurter Buchmesse 2025",
+      "series_name": "Frankfurter Buchmesse",
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+      "start_date": "2025-10-15",
+      "end_date": "2025-10-19",
+      "date_precision": "day",
+      "city": "Frankfurt am Main",
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair_and_literary_festival",
+      "sector": "publishing_and_literature",
+      "status": "held_reported",
+      "source_urls": [
+        "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+        "https://www.buchmesse.de/en/imprint",
+        "https://www.buchmesse.de/en/visit/arrival-accommodation"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der"
+        ],
+        "series_name": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der"
+        ],
+        "start_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der"
+        ],
+        "end_date": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der"
+        ],
+        "city": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "https://www.buchmesse.de/en/visit/arrival-accommodation"
+        ],
+        "status": [
+          "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "venue_name": "Pendiente de captura de fuente específica por edición; no se hereda el recinto actual."
+      },
+      "organizations": [
+        {
+          "name": "Frankfurter Buchmesse",
+          "domain": "buchmesse.de",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "status": "reported",
+          "legal_entity": "Frankfurter Buchmesse GmbH",
+          "legal_entity_source_url": "https://www.buchmesse.de/en/imprint"
+        },
+        {
+          "name": "Spotify",
+          "domain": null,
+          "role": "program_participant",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "status": "reported",
+          "scope": "Frankfurt Audio",
+          "locator": "Sessions von Spotify und Audible",
+          "notes": "Sesión de programa; no se afirma pago de sponsorship."
+        },
+        {
+          "name": "Audible",
+          "domain": null,
+          "role": "program_participant",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "status": "reported",
+          "scope": "Frankfurt Audio",
+          "locator": "Sessions von Spotify und Audible",
+          "notes": "Sesión de programa; no se afirma pago de sponsorship."
+        }
+      ],
+      "metrics": [
+        {
+          "name": "visitors_reported_total",
+          "value": 238000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "locator": "Balance: visitantes totales",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "trade_visitors_reported",
+          "value": 118000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "locator": "Balance: Fachbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "public_visitors_reported",
+          "value": 120000,
+          "unit": "reported_visitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "locator": "Balance: Privatbesucher*innen",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "exhibitors_reported",
+          "value": 4350,
+          "unit": "exhibitors",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "locator": "4.350 Aussteller",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        },
+        {
+          "name": "media_registrations_reported",
+          "value": 7800,
+          "unit": "registrations",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+          "locator": "7.800 Medienvertreter*innen registrierten sich",
+          "method": "Cifra publicada por el organizador; auditoría y deduplicación no documentadas."
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "notes": [
+        "El texto del cierre dice que el balance se perfila durante la última tarde: cifras reportadas, posiblemente provisionales.",
+        "No se suma número de entradas a LitAg al total de visitantes; pueden solaparse."
+      ],
+      "derived": {
+        "country": {
+          "value": "Germany",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.buchmesse.de/en/imprint"
+          ]
+        }
+      }
+    },
+    {
+      "key": "frankfurter-buchmesse-2026",
+      "title": "Frankfurter Buchmesse 2026",
+      "series_name": "Frankfurter Buchmesse",
+      "url": "https://www.buchmesse.de/en",
+      "start_date": "2026-10-07",
+      "end_date": "2026-10-11",
+      "date_precision": "day",
+      "city": "Frankfurt am Main",
+      "country": null,
+      "venue_name": null,
+      "format": "trade_fair_and_literary_festival",
+      "sector": "publishing_and_literature",
+      "status": "future_confirmed",
+      "source_urls": [
+        "https://www.buchmesse.de/en",
+        "https://www.buchmesse.de/en/imprint",
+        "https://www.buchmesse.de/en/visit/arrival-accommodation"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.buchmesse.de/en"
+        ],
+        "series_name": [
+          "https://www.buchmesse.de/en"
+        ],
+        "start_date": [
+          "https://www.buchmesse.de/en"
+        ],
+        "end_date": [
+          "https://www.buchmesse.de/en"
+        ],
+        "city": [
+          "https://www.buchmesse.de/en",
+          "https://www.buchmesse.de/en/visit/arrival-accommodation"
+        ],
+        "status": [
+          "https://www.buchmesse.de/en"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "venue_name": "Pendiente de captura de fuente específica por edición; no se hereda el recinto actual."
+      },
+      "organizations": [
+        {
+          "name": "Frankfurter Buchmesse",
+          "domain": "buchmesse.de",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.buchmesse.de/en",
+          "status": "announced",
+          "legal_entity": "Frankfurter Buchmesse GmbH",
+          "legal_entity_source_url": "https://www.buchmesse.de/en/imprint"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "notes": [
+        "Futuro confirmado al corte; resultados 2025 de la portada no se asignan a 2026.",
+        "Tarifas y sponsors de esta edición pendientes."
+      ],
+      "derived": {
+        "country": {
+          "value": "Germany",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.buchmesse.de/en/imprint"
+          ]
+        }
+      }
+    },
+    {
+      "key": "festival-de-cannes-2022",
+      "title": "Festival de Cannes 2022",
+      "series_name": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/",
+      "start_date": "2022-05-17",
+      "end_date": "2022-05-28",
+      "date_precision": "day",
+      "city": "Cannes",
+      "country": null,
+      "venue_name": null,
+      "format": "film_festival",
+      "sector": "film_and_audiovisual",
+      "status": "held_reported",
+      "source_urls": [
+        "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/",
+        "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/",
+        "https://www.festival-cannes.com/en/faq/",
+        "https://www.festival-cannes.com/en/press/press-releases/after-france-televisions-brut-the-festival-de-cannes-welcomes-bmw-and-campari-on-the-croisette/",
+        "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/"
+        ],
+        "series_name": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/"
+        ],
+        "start_date": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/"
+        ],
+        "end_date": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/"
+        ],
+        "city": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/"
+        ],
+        "status": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "status": "Anuncio de 2023 declara retrospectivamente que 2022 terminó."
+      },
+      "organizations": [
+        {
+          "name": "Festival de Cannes",
+          "domain": "festival-cannes.com",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/",
+          "status": "reported"
+        },
+        {
+          "name": "France Télévisions",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        },
+        {
+          "name": "Brut.",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        },
+        {
+          "name": "BMW",
+          "domain": null,
+          "role": "official_automotive_partner",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/after-france-televisions-brut-the-festival-de-cannes-welcomes-bmw-and-campari-on-the-croisette/",
+          "status": "reported"
+        },
+        {
+          "name": "Campari",
+          "domain": null,
+          "role": "partner",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/after-france-televisions-brut-the-festival-de-cannes-welcomes-bmw-and-campari-on-the-croisette/",
+          "status": "reported"
+        },
+        {
+          "name": "Chopard",
+          "domain": null,
+          "role": "partner",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/after-france-televisions-brut-the-festival-de-cannes-welcomes-bmw-and-campari-on-the-croisette/",
+          "status": "reported"
+        },
+        {
+          "name": "L’Oréal Paris",
+          "domain": null,
+          "role": "partner",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/after-france-televisions-brut-the-festival-de-cannes-welcomes-bmw-and-campari-on-the-croisette/",
+          "status": "reported"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "France",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/"
+          ]
+        }
+      }
+    },
+    {
+      "key": "festival-de-cannes-2023",
+      "title": "Festival de Cannes 2023",
+      "series_name": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/",
+      "start_date": "2023-05-16",
+      "end_date": "2023-05-27",
+      "date_precision": "day",
+      "city": "Cannes",
+      "country": null,
+      "venue_name": null,
+      "format": "film_festival",
+      "sector": "film_and_audiovisual",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/",
+        "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/",
+        "https://www.festival-cannes.com/en/faq/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+        ],
+        "series_name": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+        ],
+        "start_date": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+        ],
+        "end_date": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+        ],
+        "city": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+        ],
+        "status": [
+          "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "status": "Anuncio/programa histórico; fecha pasada por sí sola no demuestra ejecución."
+      },
+      "organizations": [
+        {
+          "name": "Festival de Cannes",
+          "domain": "festival-cannes.com",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/",
+          "status": "reported"
+        },
+        {
+          "name": "France Télévisions",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        },
+        {
+          "name": "Brut.",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "France",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/"
+          ]
+        }
+      }
+    },
+    {
+      "key": "festival-de-cannes-2024",
+      "title": "Festival de Cannes 2024",
+      "series_name": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/",
+      "start_date": "2024-05-14",
+      "end_date": "2024-05-25",
+      "date_precision": "day",
+      "city": "Cannes",
+      "country": null,
+      "venue_name": null,
+      "format": "film_festival",
+      "sector": "film_and_audiovisual",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/",
+        "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/",
+        "https://www.festival-cannes.com/en/faq/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/"
+        ],
+        "series_name": [
+          "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/"
+        ],
+        "start_date": [
+          "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/"
+        ],
+        "end_date": [
+          "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/"
+        ],
+        "city": [
+          "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/"
+        ],
+        "status": [
+          "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "status": "Anuncio/programa histórico; fecha pasada por sí sola no demuestra ejecución."
+      },
+      "organizations": [
+        {
+          "name": "Festival de Cannes",
+          "domain": "festival-cannes.com",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/",
+          "status": "reported"
+        },
+        {
+          "name": "France Télévisions",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        },
+        {
+          "name": "Brut.",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        }
+      ],
+      "metrics": [
+        {
+          "name": "last_minute_seats_allocated",
+          "value": 15000,
+          "unit": "seats",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "locator": "FAQ online ticket office: 2024 last-minute queues",
+          "method": "Asientos asignados, no personas únicas ni asistencia total."
+        }
+      ],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "France",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/"
+          ]
+        }
+      }
+    },
+    {
+      "key": "festival-de-cannes-2025",
+      "title": "Festival de Cannes 2025",
+      "series_name": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/",
+      "start_date": "2025-05-13",
+      "end_date": "2025-05-24",
+      "date_precision": "day",
+      "city": "Cannes",
+      "country": null,
+      "venue_name": null,
+      "format": "film_festival",
+      "sector": "film_and_audiovisual",
+      "status": "historical_listing",
+      "source_urls": [
+        "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/",
+        "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/",
+        "https://www.festival-cannes.com/en/faq/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/"
+        ],
+        "series_name": [
+          "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/"
+        ],
+        "start_date": [
+          "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/"
+        ],
+        "end_date": [
+          "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/"
+        ],
+        "city": [
+          "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/"
+        ],
+        "status": [
+          "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "status": "Anuncio/programa histórico; fecha pasada por sí sola no demuestra ejecución."
+      },
+      "organizations": [
+        {
+          "name": "Festival de Cannes",
+          "domain": "festival-cannes.com",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/",
+          "status": "reported"
+        },
+        {
+          "name": "France Télévisions",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        },
+        {
+          "name": "Brut.",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "derived": {
+        "country": {
+          "value": "France",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/"
+          ]
+        }
+      }
+    },
+    {
+      "key": "festival-de-cannes-2026",
+      "title": "Festival de Cannes 2026",
+      "series_name": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/",
+      "start_date": "2026-05-12",
+      "end_date": "2026-05-23",
+      "date_precision": "day",
+      "city": "Cannes",
+      "country": null,
+      "venue_name": "Palais des Festivals",
+      "format": "film_festival",
+      "sector": "film_and_audiovisual",
+      "status": "held_reported",
+      "source_urls": [
+        "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/",
+        "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/",
+        "https://www.festival-cannes.com/en/faq/",
+        "https://www.festival-cannes.com/en/take-part/your-festival-experience/organise-your-time/",
+        "https://www.festival-cannes.com/catalogueofficiel/en/61-PARTENAIRES-OFFICIELS-OFFICIAL-PARTNERS.html",
+        "https://www.festival-cannes.com/catalogueofficiel/en/99-FOURNISSEURS-OFFICIELS-OFFICIAL-SUPPLIERS.html",
+        "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/"
+        ],
+        "series_name": [
+          "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/"
+        ],
+        "start_date": [
+          "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/"
+        ],
+        "end_date": [
+          "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/"
+        ],
+        "city": [
+          "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/"
+        ],
+        "status": [
+          "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/"
+        ],
+        "venue_name": [
+          "https://www.festival-cannes.com/en/take-part/your-festival-experience/organise-your-time/"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "status": "El comunicado del 21 mayo reporta actividad efectuada durante la edición; no equivale a auditoría de todas las sesiones."
+      },
+      "organizations": [
+        {
+          "name": "Festival de Cannes",
+          "domain": "festival-cannes.com",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/",
+          "status": "reported"
+        },
+        {
+          "name": "France Télévisions",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        },
+        {
+          "name": "Brut.",
+          "domain": null,
+          "role": "media_coproducer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/faq/",
+          "status": "reported",
+          "scope": "TV Festival / ceremonias",
+          "notes": "FAQ atribuye expresamente intervalo 2022–2026; no es una extrapolación de logos."
+        },
+        {
+          "name": "BMW",
+          "domain": "bmw.com",
+          "role": "official_partner",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/catalogueofficiel/en/61-PARTENAIRES-OFFICIELS-OFFICIAL-PARTNERS.html",
+          "status": "reported"
+        },
+        {
+          "name": "Angénieux",
+          "domain": "angenieux.com",
+          "role": "official_partner",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/catalogueofficiel/en/61-PARTENAIRES-OFFICIELS-OFFICIAL-PARTNERS.html",
+          "status": "reported"
+        },
+        {
+          "name": "Campari France",
+          "domain": null,
+          "role": "official_supplier",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/catalogueofficiel/en/99-FOURNISSEURS-OFFICIELS-OFFICIAL-SUPPLIERS.html",
+          "status": "reported"
+        },
+        {
+          "name": "Château Margüi",
+          "domain": "chateaumargui.com",
+          "role": "official_supplier",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/catalogueofficiel/en/99-FOURNISSEURS-OFFICIELS-OFFICIAL-SUPPLIERS.html",
+          "status": "reported"
+        },
+        {
+          "name": "Meta",
+          "domain": null,
+          "role": "partner",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/",
+          "status": "reported",
+          "scope": "Distribución y alcance de contenidos"
+        }
+      ],
+      "metrics": [
+        {
+          "name": "opening_tv_cumulative_audience",
+          "value": 4600000,
+          "unit": "reported_viewers",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/",
+          "locator": "May 12 opening ceremony; cumulative audience France 2",
+          "method": "Audiencia televisiva acumulada declarada; no presencial ni necesariamente personas únicas."
+        },
+        {
+          "name": "opening_tv_peak_audience",
+          "value": 2200000,
+          "unit": "reported_viewers",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/",
+          "locator": "May 12 opening ceremony; peak France 2",
+          "method": "Pico de audiencia; no sumar a audiencia acumulada."
+        },
+        {
+          "name": "brut_opening_and_related_content_views",
+          "value": 113500000,
+          "unit": "video_views",
+          "denominator": null,
+          "status": "reported",
+          "source_url": "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/",
+          "locator": "Brut: ceremony and related platform content",
+          "method": "Vistas de contenidos declaradas hasta 21 mayo; no asistencia ni ROI; ventanas/formas de deduplicar sin documentar."
+        }
+      ],
+      "costs": [
+        {
+          "name": "environmental_contribution",
+          "amount": 20,
+          "currency": "EUR",
+          "basis": "per_festivalgoer",
+          "tax": "excluding_VAT",
+          "status": "reported",
+          "source_url": "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/",
+          "notes": "Contribución ambiental; no equivale a tarifa total de acreditación, sponsorship ni costo total."
+        },
+        {
+          "name": "palais_wifi_day",
+          "amount": 15,
+          "currency": "EUR",
+          "basis": "per_day",
+          "tax": null,
+          "status": "published",
+          "source_url": "https://www.festival-cannes.com/en/take-part/your-festival-experience/organise-your-time/",
+          "notes": "WiFi opcional; Marché y prensa tienen acceso gratuito. No es entrada."
+        },
+        {
+          "name": "palais_wifi_12_days",
+          "amount": 95,
+          "currency": "EUR",
+          "basis": "12_day_package",
+          "tax": null,
+          "status": "published",
+          "source_url": "https://www.festival-cannes.com/en/take-part/your-festival-experience/organise-your-time/",
+          "notes": "Alternativa al precio diario; no sumar ambos."
+        }
+      ],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "notes": [
+        "No incorpora como cifra comparable el claim de 1,4285 trillion hashtag views: unidad/metodología pendientes de aclaración.",
+        "Los partners no implican patrocinio monetario ni se atribuyen resultados comerciales individuales."
+      ],
+      "derived": {
+        "country": {
+          "value": "France",
+          "status": "proposed",
+          "method": "Noticia oficial indexada dice Cannes, France para una proyección de 2026, pero web open devolvió 403; no se eleva a observado.",
+          "source_urls": [
+            "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/"
+          ]
+        }
+      }
+    },
+    {
+      "key": "festival-de-cannes-2027",
+      "title": "Festival de Cannes 2027",
+      "series_name": "Festival de Cannes",
+      "url": "https://www.festival-cannes.com/en/",
+      "start_date": "2027-05-11",
+      "end_date": "2027-05-22",
+      "date_precision": "day",
+      "city": "Cannes",
+      "country": null,
+      "venue_name": null,
+      "format": "film_festival",
+      "sector": "film_and_audiovisual",
+      "status": "future_confirmed",
+      "source_urls": [
+        "https://www.festival-cannes.com/en/",
+        "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/"
+      ],
+      "field_sources": {
+        "title": [
+          "https://www.festival-cannes.com/en/"
+        ],
+        "series_name": [
+          "https://www.festival-cannes.com/en/"
+        ],
+        "start_date": [
+          "https://www.festival-cannes.com/en/"
+        ],
+        "end_date": [
+          "https://www.festival-cannes.com/en/"
+        ],
+        "city": [
+          "https://www.festival-cannes.com/en/"
+        ],
+        "status": [
+          "https://www.festival-cannes.com/en/"
+        ]
+      },
+      "field_methods": {
+        "country": "No confirmado en fuente geográfica efectivamente abierta; propuesta separada en derived.country.",
+        "status": "Fecha futura explícitamente anunciada por portada."
+      },
+      "organizations": [
+        {
+          "name": "Festival de Cannes",
+          "domain": "festival-cannes.com",
+          "role": "organizer",
+          "tier": null,
+          "source_url": "https://www.festival-cannes.com/en/",
+          "status": "announced"
+        }
+      ],
+      "metrics": [],
+      "costs": [],
+      "platform_urls": [],
+      "classification_origin": "researcher_derived_from_description",
+      "notes": [
+        "Solo fechas futuras confirmadas; recinto, partners, métricas y precios no heredados de 2026."
+      ],
+      "derived": {
+        "country": {
+          "value": "France",
+          "status": "proposed",
+          "method": "Normalización ciudad→país o corroboración de índice no abierta; no es campo observado.",
+          "source_urls": [
+            "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/"
+          ]
+        }
+      }
+    }
+  ],
+  "attempts": [
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2021-10-24-73-frankfurter-buchmesse-neustart-der-buchbranche",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/chronik",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2023-10-22-fbm23-der-internationale-branchentreff-beweist-seine",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2024-10-20-abschluss-pm-2024",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/presse/pressemitteilungen/2025-10-19-frankfurter-buchmesse-waechst-und-verbindet-die-welt-der",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/en",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/en/imprint",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/en/visit/arrival-accommodation",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/en/visit/tickets",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.buchmesse.de/en/about-us/facts-and-figures",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/the-screenings-guide-2022/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2026/festival-de-cannes-2026-accreditation-is-now-open/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/faq/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/take-part/your-festival-experience/organise-your-time/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/after-france-televisions-brut-the-festival-de-cannes-welcomes-bmw-and-campari-on-the-croisette/",
+      "status": "read",
+      "notes": "Lectura pública sin login."
+    },
+    {
+      "url": "https://www.festival-cannes.com/catalogueofficiel/en/61-PARTENAIRES-OFFICIELS-OFFICIAL-PARTNERS.html",
+      "status": "read",
+      "notes": "Texto HTML accesible; el visor informa problema JavaScript, pero presenta contenido de la página."
+    },
+    {
+      "url": "https://www.festival-cannes.com/catalogueofficiel/en/99-FOURNISSEURS-OFFICIELS-OFFICIAL-SUPPLIERS.html",
+      "status": "read",
+      "notes": "No se convierte supplier en sponsor."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/",
+      "status": "read",
+      "notes": "Comunicado visible públicamente pese a formulario genérico de prensa; sin autenticar."
+    },
+    {
+      "url": "https://www.festival-cannes.com/en/2026/the-festivals-official-selection-coming-to-a-screen-near-you/",
+      "status": "blocked_open_index_visible",
+      "notes": "Abrir devolvió 403; solamente se usa como corroboración geográfica, con limitación explícita."
+    },
+    {
+      "url": "https://cdn.festival-cannes.com/media/uploads/2026/05/catalogue_officiel_2026-bassedef.pdf",
+      "status": "tool_fetch_error",
+      "notes": "Dos intentos web open devolvieron Internal Error. Se usaron las páginas HTML 61 y 99 del catálogo oficial, enlazadas/indexadas públicamente."
+    },
+    {
+      "url": "https://cdn.festival-cannes.com/media/uploads/2025/05/2025_fdc_catalogue_webbd.pdf",
+      "status": "tool_fetch_error",
+      "notes": "Índice público visible pero PDF no abierto; listado de partners 2025 no incorporado."
+    }
+  ],
+  "queue": [
+    {
+      "target": "Cannes 2023–2025",
+      "reason": "Confirmar ejecución con cierre/archivo posterior y capturar métricas por edición; listado histórico no prueba asistencia.",
+      "candidate_sources": [
+        "https://www.festival-cannes.com/en/press/press-releases/the-76th-edition-of-the-festival-de-cannes-due-to-take-place-from-16-to-27-may-2023/",
+        "https://www.festival-cannes.com/en/2024/the-screenings-guide-of-the-77th-festival-de-cannes/",
+        "https://www.festival-cannes.com/en/2024/submission-for-films-for-the-2025-official-selection-is-now-open/"
+      ]
+    },
+    {
+      "target": "Cannes catálogos 2022–2025",
+      "reason": "Completar partners por año y tipo, sin heredar la lista 2026.",
+      "candidate_sources": [
+        "https://cdn.festival-cannes.com/media/uploads/2025/05/2025_fdc_catalogue_webbd.pdf"
+      ]
+    },
+    {
+      "target": "Cannes hashtag 2026",
+      "reason": "Aclarar unidad y metodología de la cifra extraordinaria de vistas publicada. No usarla para ranking o ROI.",
+      "candidate_sources": [
+        "https://www.festival-cannes.com/en/press/press-releases/cannes-2026-global-visibility-in-service-of-cinema/"
+      ]
+    },
+    {
+      "target": "Buchmesse recintos y empresas 2021–2026",
+      "reason": "Completar recinto por año, directorios de expositores/partners y precios; no convertir totals en nombres.",
+      "candidate_sources": [
+        "https://www.buchmesse.de/chronik",
+        "https://www.buchmesse.de/en/visit/tickets",
+        "https://www.buchmesse.de/en/about-us/facts-and-figures"
+      ]
+    },
+    {
+      "target": "Outcomes comerciales y gastos individuales",
+      "reason": "No publicados en las fuentes abiertas consultadas; requerir datos autorizados del participante para ROI.",
+      "candidate_sources": []
+    }
+  ]
+}

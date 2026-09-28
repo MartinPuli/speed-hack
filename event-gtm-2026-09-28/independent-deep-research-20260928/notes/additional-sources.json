@@ -1,0 +1,614 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-09-28",
+  "phase": 1,
+  "scope": "Inventario complementario: evidencia de acceso, no dataset comercial de eventos.",
+  "sources": [
+    {
+      "id": "meetup-access",
+      "platform": "Meetup",
+      "url": "https://help.meetup.com/hc/en-us/articles/41453576628749-How-can-I-get-access-to-Meetup-s-API",
+      "source_type": "official_help",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Pro activo permite solicitar API; aprobación no garantizada.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "meetup-guide",
+      "platform": "Meetup",
+      "url": "https://www.meetup.com/graphql/guide/",
+      "source_type": "official_api_docs",
+      "retrieval_status": "indexed",
+      "checked_on": "2026-09-28",
+      "note": "GraphQL; autenticación Bearer. No ejecutado.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "meetup-terms",
+      "platform": "Meetup",
+      "url": "https://help.meetup.com/hc/en-us/articles/360028705532-Meetup-API-license-terms",
+      "source_type": "official_terms",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "§5: consentimiento escrito para uso comercial; restringe replicación/reventa.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "meetup-example",
+      "platform": "Meetup",
+      "url": "https://www.meetup.com/python-edinburgh/",
+      "source_type": "organizer_group_page",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Una edición pasada comprobada en lista del grupo.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "10times-platform",
+      "platform": "10times",
+      "url": "https://login.10times.com/platform",
+      "source_type": "vendor_marketing",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Anuncia Data Access API; sin contrato de búsqueda global probado.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "10times-example",
+      "platform": "10times",
+      "url": "https://10times.com/easa",
+      "source_type": "aggregator_event_page",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "EASA 2024; requiere corroboración con organizador.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "10times-terms",
+      "platform": "10times",
+      "url": "https://10times.com/terms-of-service",
+      "source_type": "official_terms",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Uso comercial requiere acuerdo escrito; restringe scripts/crawlers y republicación.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "sessionize-api",
+      "platform": "Sessionize",
+      "url": "https://sessionize.com/playbook/api",
+      "source_type": "official_api_docs",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Read-only; endpoint generado por organizador, sin auth; confidencialidad depende de publicación.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "sessionize-demo",
+      "platform": "Sessionize",
+      "url": "https://sessionize.com/api/v2/jl4ktls0/view/All",
+      "source_type": "official_demo_api",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "JSON de demostración leído; excluido de eventos reales.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "sessionize-example",
+      "platform": "Sessionize",
+      "url": "https://sessionize.com/2024-all-day-devops/",
+      "source_type": "organizer_event_page",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Página histórica con fechas y convocatoria.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "pretix-auth",
+      "platform": "pretix",
+      "url": "https://docs.pretix.eu/dev/api/fundamentals.html",
+      "source_type": "official_api_docs",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Token/OAuth; ámbito de equipo; sesión web no oficialmente soportada para terceros.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "pretix-events",
+      "platform": "pretix",
+      "url": "https://docs.pretix.eu/dev/api/resources/events.html",
+      "source_type": "official_api_docs",
+      "retrieval_status": "indexed",
+      "checked_on": "2026-09-28",
+      "note": "Eventos por organizador; no llamada autenticada.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "pretix-example",
+      "platform": "pretix",
+      "url": "https://pretix.eu/OpenEmbedded/OEW24/",
+      "source_type": "organizer_ticket_page",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Fechas, horario, lugar, tarifas anunciadas y venta cerrada.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "tt-access",
+      "platform": "Ticket Tailor",
+      "url": "https://help.tickettailor.com/en/articles/4593218-how-do-i-connect-to-the-ticket-tailor-api",
+      "source_type": "official_help",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "API de box office propio; emisión de entrada API consume un crédito.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "tt-api",
+      "platform": "Ticket Tailor",
+      "url": "https://developers.tickettailor.com/docs/api/ticket-tailor-api/",
+      "source_type": "official_api_docs",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Clave box office; Basic Auth; no catálogo global probado.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "tt-example",
+      "platform": "Ticket Tailor",
+      "url": "https://www.tickettailor.com/events/tickettailorwebinars/1021136",
+      "source_type": "organizer_event_page",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Webinar propio pasado con horario GMT.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "humanitix-api",
+      "platform": "Humanitix",
+      "url": "https://help.humanitix.com/en/articles/8888275-public-api-documentation",
+      "source_type": "official_api_docs",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Read-only con x-api-key; eventos propios/creados/compartidos; 200 solicitudes por minuto.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "humanitix-terms",
+      "platform": "Humanitix",
+      "url": "https://static.humanitix.com/pdfs/api_terms_of_use.pdf",
+      "source_type": "official_terms_pdf",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "§3 limita retención de eventos pasados salvo permiso explícito de usuario para sus eventos; confirmar versión aplicable.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "humanitix-example",
+      "platform": "Humanitix",
+      "url": "https://events.humanitix.com/ra-2023-transport-summit-sydney/contact",
+      "source_type": "organizer_event_contact_page",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Metadatos fechados accesibles; formulario no enviado.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "dice-api",
+      "platform": "DICE",
+      "url": "https://partners-endpoint.dice.fm/graphql/docs/index.html",
+      "source_type": "official_api_docs",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "GraphQL partner/MIO token; sin llamada autenticada ni datos de clientes.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "dice-site",
+      "platform": "DICE",
+      "url": "https://dice.fm/",
+      "source_type": "official_site",
+      "retrieval_status": "blocked_403",
+      "checked_on": "2026-09-28",
+      "note": "No se recuperó evento fechado.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "wayback-docs",
+      "platform": "Internet Archive",
+      "url": "https://archive.org/help/wayback_api.php",
+      "source_type": "official_api_docs",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Availability devuelve captura cercana si disponible; no garantiza coincidencia exacta.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "wayback-query",
+      "platform": "Internet Archive",
+      "url": "https://archive.org/wayback/available?url=us.pycon.org%2F2022%2F&timestamp=20220401",
+      "source_type": "official_public_api",
+      "retrieval_status": "blocked_429_after_tool_error",
+      "checked_on": "2026-09-28",
+      "note": "Sin respuesta de disponibilidad ni URL de snapshot.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "stanford-example",
+      "platform": "Stanford",
+      "url": "https://events.stanford.edu/event/52nd_annual_stanford_powwow",
+      "source_type": "university_event_page",
+      "retrieval_status": "indexed_direct_429",
+      "checked_on": "2026-09-28",
+      "note": "Fecha visible en índice de fuente primaria; lectura directa pendiente.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "fira-history",
+      "platform": "Fira Barcelona",
+      "url": "https://www.firabarcelona.com/en/our-history/",
+      "source_type": "official_institutional_history",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Historia anual contextual; sin lista completa de ediciones fechadas.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "ise-release",
+      "platform": "ISE",
+      "url": "https://www.iseurope.org/press-releases/ise-2024-breaks-records-anniversary-show",
+      "source_type": "official_postevent_release",
+      "retrieval_status": "read",
+      "checked_on": "2026-09-28",
+      "note": "Publicación 2024-02-02; métricas declaradas por organizador. Pie actual se refiere a 2027.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "ise-countdown",
+      "platform": "ISE",
+      "url": "https://www.iseurope.org/press-releases/countdown-ise-2024-begins-registration-opens-today",
+      "source_type": "official_press_release",
+      "retrieval_status": "read_dynamic_inconsistent",
+      "checked_on": "2026-09-28",
+      "note": "Dos aperturas devolvieron distinta extensión; no usada para fechas de edición.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "ise-date-search",
+      "platform": "ISE",
+      "url": "https://www.iseurope.org/press-releases/countdown-ise-2024-barcelona-hosts-unprecedented-av-extravaganza-record-breaking-show-floor",
+      "source_type": "official_press_release",
+      "retrieval_status": "indexed",
+      "checked_on": "2026-09-28",
+      "note": "Anuncio fechado 2023-12-12 corrobora 30 enero–2 febrero 2024.",
+      "commercial_reuse_permission_verified": false
+    },
+    {
+      "id": "ise-report",
+      "platform": "ISE",
+      "url": "https://cdn.asp.events/CLIENT_Integrat_169E7B04_E6F3_39F6_8BE4DB27C54F731E/sites/ise-2024/media/Facts-and-Figures-2024_ISE_0404.pdf",
+      "source_type": "official_postevent_pdf",
+      "retrieval_status": "read_text_screenshot_timeout",
+      "checked_on": "2026-09-28",
+      "note": "Texto de 12 páginas leído; captura página 2 falló. Fechas y métricas con definiciones.",
+      "commercial_reuse_permission_verified": false
+    }
+  ],
+  "examples": [
+    {
+      "id": "meetup-python-edinburgh-2024-09",
+      "source_ids": [
+        "meetup-example"
+      ],
+      "title": "Python Edinburgh - September Pub Meetup",
+      "start_date": "2024-09-24",
+      "start_time_local": "18:30",
+      "timezone_as_published": "BST",
+      "end_date": null,
+      "venue": "Fierce Beer, Edinburgh",
+      "fields_verified": [
+        "title",
+        "date",
+        "start_time",
+        "venue"
+      ],
+      "evidence_status": "read",
+      "actual_attendance_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    },
+    {
+      "id": "10times-easa-2024",
+      "source_ids": [
+        "10times-example"
+      ],
+      "title": "EASA Convention",
+      "start_date": "2024-06-23",
+      "end_date": "2024-06-25",
+      "venue": "Caesars Palace, Las Vegas",
+      "fields_verified": [
+        "title",
+        "dates",
+        "venue",
+        "organizer_name"
+      ],
+      "evidence_status": "read_aggregator_needs_organizer_confirmation",
+      "actual_attendance_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    },
+    {
+      "id": "sessionize-addo-2024",
+      "source_ids": [
+        "sessionize-example"
+      ],
+      "title": "2024 All Day DevOps",
+      "start_date": "2024-10-10",
+      "end_date": "2024-10-11",
+      "venue": "Online",
+      "organizer": "Sonatype",
+      "fields_verified": [
+        "title",
+        "dates",
+        "format",
+        "organizer",
+        "cfp"
+      ],
+      "evidence_status": "read",
+      "actual_attendance_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    },
+    {
+      "id": "pretix-oew-2024",
+      "source_ids": [
+        "pretix-example"
+      ],
+      "title": "OpenEmbedded Workshop 2024",
+      "start_date": "2024-02-05",
+      "end_date": "2024-02-05",
+      "start_time_local": "09:00",
+      "end_time_local": "18:00",
+      "timezone_as_published": null,
+      "venue": "Avenue Louise 523, 1050 Brussels, Belgium",
+      "fields_verified": [
+        "title",
+        "date",
+        "local_times",
+        "venue",
+        "announced_ticket_prices",
+        "sales_closed"
+      ],
+      "evidence_status": "read",
+      "ticket_prices_announced": [
+        {
+          "amount": 50,
+          "currency": "EUR",
+          "type": "early_bird",
+          "announced_until": "2023-12-31"
+        },
+        {
+          "amount": 75,
+          "currency": "EUR",
+          "type": "regular",
+          "announced_from": "2024-01-01"
+        }
+      ],
+      "actual_attendance_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    },
+    {
+      "id": "tt-webinar-2023-10",
+      "source_ids": [
+        "tt-example"
+      ],
+      "title": "Sell smart not hard: drive more sales and get smart insights from your new reporting tools",
+      "start_date": "2023-10-31",
+      "end_date": "2023-10-31",
+      "start_time_local": "16:00",
+      "end_time_local": "16:30",
+      "timezone_as_published": "GMT",
+      "venue": "Online, Zoom",
+      "fields_verified": [
+        "title",
+        "date",
+        "times",
+        "timezone",
+        "format",
+        "description"
+      ],
+      "evidence_status": "read",
+      "recording_retrieved": false,
+      "actual_attendance_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    },
+    {
+      "id": "humanitix-ra-2023",
+      "source_ids": [
+        "humanitix-example"
+      ],
+      "title": "RA 2023 Transport Summit (Sydney)",
+      "start_date": "2023-04-27",
+      "end_date": "2023-04-27",
+      "start_time_local": "08:00",
+      "end_time_local": "17:00",
+      "timezone_as_published": "AEST",
+      "venue": "Sofitel Sydney Wentworth Ballroom, 61-101 Phillip St, Sydney NSW 2000, Australia",
+      "fields_verified": [
+        "title",
+        "date",
+        "times",
+        "timezone",
+        "venue"
+      ],
+      "evidence_status": "read",
+      "retention_permission_verified": false,
+      "form_submitted": false,
+      "actual_attendance_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    },
+    {
+      "id": "stanford-powwow-2023",
+      "source_ids": [
+        "stanford-example"
+      ],
+      "title": "52nd Annual Stanford Powwow and Art Market",
+      "start_date": "2023-05-12",
+      "end_date": "2023-05-14",
+      "venue": "Eucalyptus Grove, Stanford",
+      "fields_verified": [
+        "title",
+        "dates",
+        "venue",
+        "free_entry_as_indexed"
+      ],
+      "evidence_status": "indexed_only_direct_read_blocked",
+      "actual_attendance_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    },
+    {
+      "id": "ise-2024",
+      "source_ids": [
+        "ise-report",
+        "ise-release",
+        "ise-date-search"
+      ],
+      "title": "Integrated Systems Europe 2024",
+      "start_date": "2024-01-30",
+      "end_date": "2024-02-02",
+      "venue": "Fira de Barcelona Gran Via",
+      "fields_verified": [
+        "title",
+        "dates",
+        "venue",
+        "reported_metrics",
+        "metrics_definitions"
+      ],
+      "evidence_status": "read_text_pdf",
+      "metrics": [
+        {
+          "name": "attendees",
+          "value": 73891,
+          "source_id": "ise-report",
+          "definition": "Organizador, sistema de registro"
+        },
+        {
+          "name": "exhibitors",
+          "value": 1408,
+          "source_id": "ise-report"
+        },
+        {
+          "name": "visits_four_event_days",
+          "value": 163784,
+          "source_id": "ise-report"
+        },
+        {
+          "name": "visits_including_previous_day_2024_01_29",
+          "value": 172627,
+          "source_id": "ise-report"
+        },
+        {
+          "name": "registrations",
+          "value": 95396,
+          "source_id": "ise-release"
+        }
+      ],
+      "independent_audit_verified": false,
+      "main_dataset_added": false,
+      "pre_event_snapshot_obtained": false
+    }
+  ],
+  "attempts": [
+    {
+      "source_id": "sessionize-demo",
+      "method": "web.open",
+      "result": "success_json_demo",
+      "real_event": false,
+      "authenticated": false
+    },
+    {
+      "source_id": "dice-site",
+      "method": "web.open",
+      "result": "HTTP_403",
+      "retry": false
+    },
+    {
+      "source_id": "wayback-query",
+      "method": "web.open",
+      "result": "internal_error",
+      "snapshot_url": null
+    },
+    {
+      "source_id": "wayback-query",
+      "method": "single_ordinary_urllib_request",
+      "result": "HTTP_429",
+      "timeout_seconds": 20,
+      "approx_elapsed_seconds": 0.16,
+      "snapshot_url": null,
+      "stopped": true
+    },
+    {
+      "source_id": "stanford-example",
+      "method": "web.search",
+      "result": "indexed_primary_page_text"
+    },
+    {
+      "source_id": "stanford-example",
+      "method": "web.open",
+      "result": "HTTP_429",
+      "retry": false
+    },
+    {
+      "source_id": "ise-report",
+      "method": "web.open",
+      "result": "success_pdf_text",
+      "pages": 12
+    },
+    {
+      "source_id": "ise-report",
+      "method": "web.screenshot",
+      "page_index": 1,
+      "result": "timeout_error",
+      "retry": false
+    },
+    {
+      "source_id": "ise-countdown",
+      "method": "web.open_then_find",
+      "result": "dynamic_page_content_differed",
+      "use_for_dates": false
+    }
+  ],
+  "summary": {
+    "platform_families_requested": 8,
+    "institutional_types_observed": 2,
+    "sources_recorded": 29,
+    "historical_dated_examples_content_read": 7,
+    "indexed_only_dated_candidates": 1,
+    "real_historical_wayback_captures": 0,
+    "dice_dated_events_recovered": 0,
+    "unauthenticated_demo_api_successes": 1,
+    "authenticated_api_tests": 0,
+    "main_dataset_rows_added": 0
+  },
+  "constraints": {
+    "crawler_used": false,
+    "paid_access": false,
+    "external_contact": false,
+    "private_attendees_retrieved": false,
+    "phase2_started": false,
+    "exhaustive_coverage_claimed": false
+  },
+  "qa": {
+    "json_validated": true,
+    "report_links_covered": true,
+    "unique_source_ids_and_urls": true,
+    "all_examples_dated": true,
+    "references_validated": true,
+    "validation_date": "2026-09-28"
+  }
+}

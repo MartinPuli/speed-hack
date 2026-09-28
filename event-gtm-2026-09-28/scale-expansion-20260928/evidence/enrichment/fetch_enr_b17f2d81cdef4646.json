@@ -1,0 +1,15 @@
+{
+  "fetch_id": "fetch_enr_b17f2d81cdef4646",
+  "source_url": "https://2025.pycon.org.au/files/Sponsor%20PyCon%20AU%202025%20-%20Prospectus%20v4.pdf",
+  "final_url": "https://2025.pycon.org.au/files/Sponsor%20PyCon%20AU%202025%20-%20Prospectus%20v4.pdf",
+  "observed_at": "2026-09-28T15:48:04.678312+00:00",
+  "http_status": 200,
+  "content_sha256": "5863239fe32abf9d68a72060e771039c5cf501b3f9a4370f60364a10821a4c6e",
+  "bytes": 24838899,
+  "content_type": "application/pdf",
+  "robots_status": 404,
+  "robots_decision": "robots_absent",
+  "attempts": 1,
+  "prior_error": null,
+  "pdf_page_count": 21
+}

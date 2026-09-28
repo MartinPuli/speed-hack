@@ -1,0 +1,659 @@
+[
+  {
+    "table": "assertions",
+    "rows": 357893,
+    "bytes": 22789449,
+    "sha256": "766a706318683b179016845984b7ee93907d6027043ec32de9465410c9ce2557",
+    "canonical_row_sha256": "5639ad63204cbd377352861ae93399cbd91cad856574f5350f210f6f45a2f444",
+    "null_encoding": "\\N",
+    "path": "exports/assertions.csv.gz"
+  },
+  {
+    "table": "audience_metrics",
+    "rows": 19,
+    "bytes": 1371,
+    "sha256": "48401ef69f6ecd8fb6e8957020130b47611f13e06b7878b220f05260d379d2ed",
+    "canonical_row_sha256": "8e535eefaf5fc6bac34cea0fdde8c48226cb6361a653bddf9523aea1adb64a24",
+    "null_encoding": "\\N",
+    "path": "exports/audience_metrics.csv.gz"
+  },
+  {
+    "table": "audience_overlap",
+    "rows": 0,
+    "bytes": 132,
+    "sha256": "26e06aac5212ca0b00d3083a3164818e137b88e13e1801d360288fd8c0d132bd",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/audience_overlap.csv.gz"
+  },
+  {
+    "table": "communities",
+    "rows": 0,
+    "bytes": 107,
+    "sha256": "1ef754c99f10475e8ac12aac2fca0f4e022cfcf75e4cdeb917040d1d502f76e6",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/communities.csv.gz"
+  },
+  {
+    "table": "community_event_links",
+    "rows": 0,
+    "bytes": 105,
+    "sha256": "5632384026041038306ffc734dfd514b580fca073e13b3642882226cc6328f57",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/community_event_links.csv.gz"
+  },
+  {
+    "table": "companies",
+    "rows": 374,
+    "bytes": 12778,
+    "sha256": "790c004e4d65592b7ce3572d0fccbdc4b13cc658622549e1e5b56e879c701c72",
+    "canonical_row_sha256": "ed5eba2c8134ccf6399cef01ae1557c302f9b2703b7234440821ede03c88cf09",
+    "null_encoding": "\\N",
+    "path": "exports/companies.csv.gz"
+  },
+  {
+    "table": "company_profile_history",
+    "rows": 3,
+    "bytes": 584,
+    "sha256": "8328cc7282f1b3d5be3c5bbedb1a920e387ec52d2ecdefa03aa34503eabd8680",
+    "canonical_row_sha256": "6835c4f6404a2499bd51eb5d4536c729bf4fb6d1a9ff5a2c90fcfb76a8c11aa2",
+    "null_encoding": "\\N",
+    "path": "exports/company_profile_history.csv.gz"
+  },
+  {
+    "table": "company_signals",
+    "rows": 3,
+    "bytes": 643,
+    "sha256": "d81824a6fe388396088645b955c3ac14e2050558b2152f21463b4a0643a5b171",
+    "canonical_row_sha256": "2952178b1d7a6a5603d6e1747c694da9aa8e264d7f822ad0be425535221a9b7e",
+    "null_encoding": "\\N",
+    "path": "exports/company_signals.csv.gz"
+  },
+  {
+    "table": "competitors",
+    "rows": 10,
+    "bytes": 1026,
+    "sha256": "b919639b70beed53c1b90e112788a5181b6ce930e7bea5f66d1b44109fd09177",
+    "canonical_row_sha256": "62ca239c4f1aef862842eac4bdb521066e684cb8bcc0de49166e3bd5796eea87",
+    "null_encoding": "\\N",
+    "path": "exports/competitors.csv.gz"
+  },
+  {
+    "table": "crawl_runs",
+    "rows": 2,
+    "bytes": 481,
+    "sha256": "6266f0c68f70c306dea21555f5da15b946b5ce7f95f824b1d7b77cceb0bb2fca",
+    "canonical_row_sha256": "803bfb9deecd9c0b6436ef87d883ec4299991fc06f80e5d94a83756860dfa040",
+    "null_encoding": "\\N",
+    "path": "exports/crawl_runs.csv.gz"
+  },
+  {
+    "table": "customer_briefs",
+    "rows": 0,
+    "bytes": 140,
+    "sha256": "e22670dde6aa1e74087e064afd679b3cb77a30093603f2c2aa20d90a6ef2170e",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/customer_briefs.csv.gz"
+  },
+  {
+    "table": "data_conflicts",
+    "rows": 15,
+    "bytes": 1167,
+    "sha256": "e62127cb5767b1b6db7611798d39412d929734eba93907389e662d525d2f90cd",
+    "canonical_row_sha256": "b988ad3ef091a1637d8237bdbd227e508546734fa93fd2c9b4ea6728bdb6557a",
+    "null_encoding": "\\N",
+    "path": "exports/data_conflicts.csv.gz"
+  },
+  {
+    "table": "distribution_channels",
+    "rows": 0,
+    "bytes": 140,
+    "sha256": "9d695bb6b801438308610464741ecc851074d69718a4ba8a5aff03f69a5bc295",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/distribution_channels.csv.gz"
+  },
+  {
+    "table": "distribution_metrics",
+    "rows": 0,
+    "bytes": 109,
+    "sha256": "551b204382d2fd83c98ebcbaf495b30da7b28023e0c756dc240aa8796a1df04b",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/distribution_metrics.csv.gz"
+  },
+  {
+    "table": "draft_field_evidence",
+    "rows": 4,
+    "bytes": 634,
+    "sha256": "8c5def77e9683d34b0848e33d51c188af361f321ceff1ea2bf8a7d54abaead74",
+    "canonical_row_sha256": "65b1c97417e179972015c65b73e8c4d70f179e3460ca9df6f351c89e246003a8",
+    "null_encoding": "\\N",
+    "path": "exports/draft_field_evidence.csv.gz"
+  },
+  {
+    "table": "entity_aliases",
+    "rows": 23,
+    "bytes": 1509,
+    "sha256": "39d7ec535652f949b3cc81e4c7b1a0b2194bfe4493cf8b76b757e413562af83e",
+    "canonical_row_sha256": "e6b2d4f6bab4b6d32da4e4b7bde2bfd515ed1ea34374a7a7400b0c2f30764b6f",
+    "null_encoding": "\\N",
+    "path": "exports/entity_aliases.csv.gz"
+  },
+  {
+    "table": "entity_classifications",
+    "rows": 2064,
+    "bytes": 46388,
+    "sha256": "17187824e45f3ca6bc90b545ae33e67696130977b5a261097d1354b762f2ab83",
+    "canonical_row_sha256": "eab7c122c9bb388f3eba43edd32263f5b66144f53ca1e80c6f85089febcbb401",
+    "null_encoding": "\\N",
+    "path": "exports/entity_classifications.csv.gz"
+  },
+  {
+    "table": "evaluation_cases",
+    "rows": 3,
+    "bytes": 616,
+    "sha256": "ff99f28279b103cff5d395ad1eb5612886c43c2ecf06fd5dd21f26824027eef1",
+    "canonical_row_sha256": "43283324b555527d009659ca41c6e85419e95c4105a558b23acc0c673ad3e846",
+    "null_encoding": "\\N",
+    "path": "exports/evaluation_cases.csv.gz"
+  },
+  {
+    "table": "event_assets",
+    "rows": 2,
+    "bytes": 376,
+    "sha256": "50efb83251b26586a1cc5cf653cabee41cd305246bdfddaaad477b4426405cfd",
+    "canonical_row_sha256": "96a6228d87f3233957d67ccb863b1e190afa1af49f41d5e7930760f7442211dc",
+    "null_encoding": "\\N",
+    "path": "exports/event_assets.csv.gz"
+  },
+  {
+    "table": "event_company_roles",
+    "rows": 607,
+    "bytes": 16854,
+    "sha256": "c9f62d7e19e4e2d535f43b3bdebb3a5a394604cc2705752a6e3663e3545084d1",
+    "canonical_row_sha256": "dff25db144f75cfefd7c233baa41b8c096d93fa2fda4f209fe406d521a5880d0",
+    "null_encoding": "\\N",
+    "path": "exports/event_company_roles.csv.gz"
+  },
+  {
+    "table": "event_concepts",
+    "rows": 1,
+    "bytes": 518,
+    "sha256": "fd5e1b6b8ecf7af86f30a71415d1f546dc9df5bd0d4a76a74c3db7609e692871",
+    "canonical_row_sha256": "7146ffd70aaeb0bd251845fb2f6b39394fa1e82baafb4f274bfcafc3ea2bb905",
+    "null_encoding": "\\N",
+    "path": "exports/event_concepts.csv.gz"
+  },
+  {
+    "table": "event_costs",
+    "rows": 4,
+    "bytes": 369,
+    "sha256": "b05460edb757829ba3fdac140db1b062cab26ddc105261d8b371924a6086a29a",
+    "canonical_row_sha256": "99eaaf2c7311aac0f4b29c6437aac9dd268b509cd5550ffa008001a37fefbea0",
+    "null_encoding": "\\N",
+    "path": "exports/event_costs.csv.gz"
+  },
+  {
+    "table": "event_deadlines",
+    "rows": 1993,
+    "bytes": 110887,
+    "sha256": "d9a4db7530c6e5592ee798f0f0b91703edb758fb1a5eae297089839ebf83bc2e",
+    "canonical_row_sha256": "528ce57e06fdb4a1657c1aecc9c8f7e940b9141e0299c03a9896b7960d65814f",
+    "null_encoding": "\\N",
+    "path": "exports/event_deadlines.csv.gz"
+  },
+  {
+    "table": "event_editions",
+    "rows": 16986,
+    "bytes": 2161213,
+    "sha256": "1e6bbd3ca38133c9c418f9e4d4adc30a2fbf826a6cf7e71c2570c13a5f1f4206",
+    "canonical_row_sha256": "1161346f5fe85fe089e19b6d97473a094fe9b83b7239b6fe372d9bc862fc9492",
+    "null_encoding": "\\N",
+    "path": "exports/event_editions.csv.gz"
+  },
+  {
+    "table": "event_metrics",
+    "rows": 233,
+    "bytes": 9047,
+    "sha256": "eee9e6f5d7e5acab9a06c9a55056608ded73b4160f5b4183d444f521f34af903",
+    "canonical_row_sha256": "4227d76d8f0819533c8acf4bf304fe4b3d86e577646a23c2c0439a0d3d99e3a1",
+    "null_encoding": "\\N",
+    "path": "exports/event_metrics.csv.gz"
+  },
+  {
+    "table": "event_relations",
+    "rows": 0,
+    "bytes": 98,
+    "sha256": "3c5fcee38228689d6ba3994ce2ee8ddc3f72f4a78cfd301bde5b97e6f2cce113",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/event_relations.csv.gz"
+  },
+  {
+    "table": "event_series",
+    "rows": 246,
+    "bytes": 5917,
+    "sha256": "095aba61948fb770212ac208a358d21ff400b8ea59031270639b2c94f4dee49d",
+    "canonical_row_sha256": "be8cfaf12c4b73a7829700c3894fad696ab0cabd11398aab202075209487ce01",
+    "null_encoding": "\\N",
+    "path": "exports/event_series.csv.gz"
+  },
+  {
+    "table": "event_space_assignments",
+    "rows": 0,
+    "bytes": 107,
+    "sha256": "29ab284ff70bdd6b28110fb46bd94e2d76f0a3e7ab5b467b3ec86918932d91a6",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/event_space_assignments.csv.gz"
+  },
+  {
+    "table": "event_status_history",
+    "rows": 1,
+    "bytes": 275,
+    "sha256": "b05de519a6e982592fde38703fbf09b714fca6e0f43cd21eeeb4a49d365c9174",
+    "canonical_row_sha256": "1e7ffe04a7da6131e46f04c783f1e96ce1876c6b1d3b09a177885ab294811f99",
+    "null_encoding": "\\N",
+    "path": "exports/event_status_history.csv.gz"
+  },
+  {
+    "table": "extraction_queue",
+    "rows": 12,
+    "bytes": 1918,
+    "sha256": "6b033b03fc499f76ea5d0394b6a19ff4430d5314eba78b175328c2d0afa1bf10",
+    "canonical_row_sha256": "ab9a289cb420213c3163077110eaae997272229ab577a750aa7b99bfe5371a5d",
+    "null_encoding": "\\N",
+    "path": "exports/extraction_queue.csv.gz"
+  },
+  {
+    "table": "fetch_attempts",
+    "rows": 26,
+    "bytes": 1589,
+    "sha256": "0a4e7ed7762e652bdb8a625d2e5ba35855de2256a60b50b3bec6b73980ae989f",
+    "canonical_row_sha256": "8f524b2e1307aca66f868d7002f097b58eddf0b45433db2fdcb29ff5310cd76e",
+    "null_encoding": "\\N",
+    "path": "exports/fetch_attempts.csv.gz"
+  },
+  {
+    "table": "luma_drafts",
+    "rows": 1,
+    "bytes": 614,
+    "sha256": "2e447e186258569da478c109849ec705c12c4586f79aa161185ead919967f427",
+    "canonical_row_sha256": "3fd5a536fc6a4264e40697c2c0e508b0574ec0d8e47d548300f8611b456c985d",
+    "null_encoding": "\\N",
+    "path": "exports/luma_drafts.csv.gz"
+  },
+  {
+    "table": "market_context",
+    "rows": 0,
+    "bytes": 106,
+    "sha256": "dbaaadf3ac816759b462dfc4df2ef759ad2bccf57e7235a467947a67b9c16773",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/market_context.csv.gz"
+  },
+  {
+    "table": "news_articles",
+    "rows": 11,
+    "bytes": 1805,
+    "sha256": "82ae5d36bc10a2d3997d1585b5351793bcc4208a75d2716532f9421d2ef36089",
+    "canonical_row_sha256": "3f0a8b134217aa8403e2c35ef5d1d928bc9bbda63e77cb9944a2f80f113c04fb",
+    "null_encoding": "\\N",
+    "path": "exports/news_articles.csv.gz"
+  },
+  {
+    "table": "news_dedup_clusters",
+    "rows": 10,
+    "bytes": 600,
+    "sha256": "e36ad6ffabed5b27a5fada6327f98639e7f13da278d9186f5c7e564084d08eae",
+    "canonical_row_sha256": "d9611a531af9ac4a7255aa0c45b8ea557432952cc52fd819b74d506b2ee2887c",
+    "null_encoding": "\\N",
+    "path": "exports/news_dedup_clusters.csv.gz"
+  },
+  {
+    "table": "news_entity_links",
+    "rows": 13,
+    "bytes": 801,
+    "sha256": "d8aa4319f3259aa570cb4bbee488b2b759ca146d953e8dee73eb413653976990",
+    "canonical_row_sha256": "ebdc53863245fea187fece7da97035e9d899f5cec66eadbd5b43f98488e3511e",
+    "null_encoding": "\\N",
+    "path": "exports/news_entity_links.csv.gz"
+  },
+  {
+    "table": "opportunity_clusters",
+    "rows": 0,
+    "bytes": 144,
+    "sha256": "d076be7a00b397d49fbbe0602a16d8edb182fd2e8ea6961e768b99f678daa2e3",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/opportunity_clusters.csv.gz"
+  },
+  {
+    "table": "participation",
+    "rows": 0,
+    "bytes": 118,
+    "sha256": "107907910ab927f40e047478ee1fbcc6ecf2dd87ef8691b8dfe73019e70beed4",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/participation.csv.gz"
+  },
+  {
+    "table": "partner_relationships",
+    "rows": 0,
+    "bytes": 130,
+    "sha256": "d73b8cf8c44bdada6fdd4e5d88283bc30ff3e88b84c8e403ba90b04160decc37",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/partner_relationships.csv.gz"
+  },
+  {
+    "table": "people",
+    "rows": 2,
+    "bytes": 215,
+    "sha256": "7f2fd1ec663743eb11b8738fdcc237ea447d4526bbed3f0040256746c7b330e8",
+    "canonical_row_sha256": "f198857aa2e139e3f6ff5a8cac517edbfbb2dc06453685606896dba482734d53",
+    "null_encoding": "\\N",
+    "path": "exports/people.csv.gz"
+  },
+  {
+    "table": "platform_listings",
+    "rows": 16967,
+    "bytes": 1002336,
+    "sha256": "e2ce659d7e627acc1333ef8585b50328f393f6edfb9ffe5b348033e7eded7e29",
+    "canonical_row_sha256": "49e0e554c499122871623b81727a8312779f91dfedebf91bd83cbe8046367bb4",
+    "null_encoding": "\\N",
+    "path": "exports/platform_listings.csv.gz"
+  },
+  {
+    "table": "professional_affiliations",
+    "rows": 2,
+    "bytes": 267,
+    "sha256": "09daaf7047a423137227131ab7b5ce215bc8b7ebb2d8e289d1b01333e6e3dcbc",
+    "canonical_row_sha256": "fe49e09347d4a1be309af5b14337ed4f6215793d7e12e44b193d550842313986",
+    "null_encoding": "\\N",
+    "path": "exports/professional_affiliations.csv.gz"
+  },
+  {
+    "table": "recommendation_candidates",
+    "rows": 105,
+    "bytes": 4861,
+    "sha256": "6be31fcb5dc54fa1cce07bbb04384a77049a26316a28daa2cf0b1370338e3bfd",
+    "canonical_row_sha256": "2ee91525e7ef2508e5702ddd5bbeca516c818f3af25d8181cda2e4d62d8296bc",
+    "null_encoding": "\\N",
+    "path": "exports/recommendation_candidates.csv.gz"
+  },
+  {
+    "table": "recommendation_runs",
+    "rows": 9,
+    "bytes": 462,
+    "sha256": "d20d11eabd9188b0818612f23c31f9e09f580dcdf1096eb96d09f844ae629423",
+    "canonical_row_sha256": "0532ca6829b33eb8c44806a39d2c454ce05e27bc5b23d4a665f6c64e1e693817",
+    "null_encoding": "\\N",
+    "path": "exports/recommendation_runs.csv.gz"
+  },
+  {
+    "table": "record_versions",
+    "rows": 654,
+    "bytes": 45495,
+    "sha256": "926504f7892453e26ebda584e6c373b88b93ef372786ba3eeec9108983fce295",
+    "canonical_row_sha256": "0ef2e854af7595578ba2ea7997ebf6a4c8fab8c90dc747cc2f20588bc59f1479",
+    "null_encoding": "\\N",
+    "path": "exports/record_versions.csv.gz"
+  },
+  {
+    "table": "scale_batches",
+    "rows": 31,
+    "bytes": 4241,
+    "sha256": "02e2d40b0c0a63d2732717dbb8deb8a75ced0ad652be2c83f9a37d7cec0b6fe0",
+    "canonical_row_sha256": "c3639c10b93de15e4ea094bd9e37ac364240b3ce0bb7938266edc8a5efb29d29",
+    "null_encoding": "\\N",
+    "path": "exports/scale_batches.csv.gz"
+  },
+  {
+    "table": "scale_dedupe_candidates",
+    "rows": 3,
+    "bytes": 286,
+    "sha256": "18a0d83cdf77a300251595d443ea8e857c49de7cf8365c9194debc34d7285424",
+    "canonical_row_sha256": "3ea714a9fe6ddcd7fb9b012a23f1bfc8a6419a04518c068999cb90eaa5096f5d",
+    "null_encoding": "\\N",
+    "path": "exports/scale_dedupe_candidates.csv.gz"
+  },
+  {
+    "table": "scale_enrichment_observations",
+    "rows": 162,
+    "bytes": 18845,
+    "sha256": "9e93ce12d0795f31a779583c45394fa653f364ab11a671321ac288e4195d4810",
+    "canonical_row_sha256": "5e29093dfa447a5ab23266b5ce292dca4779a84005fe677ed6e6f70bce3f0a50",
+    "null_encoding": "\\N",
+    "path": "exports/scale_enrichment_observations.csv.gz"
+  },
+  {
+    "table": "scale_event_metadata",
+    "rows": 16986,
+    "bytes": 744666,
+    "sha256": "3f1242004f670c7c29e70382d8b4b25f79bfd1eeb45d3550d36ec1cca80fbec2",
+    "canonical_row_sha256": "be07de9c2ebfa873c4f1973f74252e0f78cdcab7f3995fa9bb401baa9e5f0aa6",
+    "null_encoding": "\\N",
+    "path": "exports/scale_event_metadata.csv.gz"
+  },
+  {
+    "table": "scale_migrations",
+    "rows": 1,
+    "bytes": 152,
+    "sha256": "e1be2c1c8988c3feebf8da1dc76f70798546cd414ea5b86eff62bbe9f2b43309",
+    "canonical_row_sha256": "11646f4e6ca5b5a869a816fd320da55a313d18bcd88313d386a1cf17e369c156",
+    "null_encoding": "\\N",
+    "path": "exports/scale_migrations.csv.gz"
+  },
+  {
+    "table": "scale_observations",
+    "rows": 17102,
+    "bytes": 5286960,
+    "sha256": "3ab56821181f16edf1e519ea9a4c3e01bb46ca87c40094838bfa1ffb21555d01",
+    "canonical_row_sha256": "43f12905362ad1e81cf68c66ea3c73fc6aee1180031e034346a172e76dd4879b",
+    "null_encoding": "\\N",
+    "path": "exports/scale_observations.csv.gz"
+  },
+  {
+    "table": "scale_rejections",
+    "rows": 0,
+    "bytes": 83,
+    "sha256": "b96cce381766537ab5e096b314d52e8f9db03c588974c2efe25e706f234d9f83",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/scale_rejections.csv.gz"
+  },
+  {
+    "table": "scoring_evaluations",
+    "rows": 18,
+    "bytes": 847,
+    "sha256": "7f400723af2665eef6dfad1a26ab6ba64919e57a8d6794b0d311681e266a7d77",
+    "canonical_row_sha256": "e27ec070ebe0978c93cbd27ad47092050952248ea4027c5f81cfc35b332d5140",
+    "null_encoding": "\\N",
+    "path": "exports/scoring_evaluations.csv.gz"
+  },
+  {
+    "table": "search_queries",
+    "rows": 67,
+    "bytes": 1997,
+    "sha256": "94ffb429c0d3bb5ad1bee5be30726c9ab05ca4cb16e32d02a15651425e31f34c",
+    "canonical_row_sha256": "12bff117415ef3b89357edf64dae395abe9fd7aced12bab9a2e2d021bce6aaab",
+    "null_encoding": "\\N",
+    "path": "exports/search_queries.csv.gz"
+  },
+  {
+    "table": "session_participants",
+    "rows": 2,
+    "bytes": 295,
+    "sha256": "37846767768316d453e1d290e7fe535b54bc9ce8167a360bbd95e74818ce3cd6",
+    "canonical_row_sha256": "2f8fa2cbe4e0519615b2f544e4eac5ba665248549e627160ce274aa1a0db32e2",
+    "null_encoding": "\\N",
+    "path": "exports/session_participants.csv.gz"
+  },
+  {
+    "table": "sessions",
+    "rows": 2,
+    "bytes": 364,
+    "sha256": "f59ec66bae9fff502013eb790da6307be869df8ca93a3696bff2d963fc958161",
+    "canonical_row_sha256": "169fe0e4a0bdebb4f90b006f514bd278c11851ae2f4825256cf0558cbde6357e",
+    "null_encoding": "\\N",
+    "path": "exports/sessions.csv.gz"
+  },
+  {
+    "table": "source_snapshots",
+    "rows": 32,
+    "bytes": 3123,
+    "sha256": "0493824c119e23925e7a4821e1acbcaa475287979e34188c9b6aa95c2a7aed63",
+    "canonical_row_sha256": "18cbf35be89a290c2c43c136dc72df959c4fb33276bd67e0a34a76d9c462d9f9",
+    "null_encoding": "\\N",
+    "path": "exports/source_snapshots.csv.gz"
+  },
+  {
+    "table": "sources",
+    "rows": 549,
+    "bytes": 23703,
+    "sha256": "a37a52f155786804549f7acdeeaae4bd87eb262832866e18fadd623925cf9920",
+    "canonical_row_sha256": "cd1923214fbe13e9e5148c8875a65fe07edb5bff2ab4ca4ecd9bbc70de90ea54",
+    "null_encoding": "\\N",
+    "path": "exports/sources.csv.gz"
+  },
+  {
+    "table": "sponsor_match_scores",
+    "rows": 0,
+    "bytes": 150,
+    "sha256": "06514e48b80562295bbd1097a26d60c04675d33aca7984d1a47c1c38e3c73eca",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/sponsor_match_scores.csv.gz"
+  },
+  {
+    "table": "sponsor_profiles",
+    "rows": 0,
+    "bytes": 158,
+    "sha256": "f2c0f7bed51b6ae725f7d1b05acdde1c020137d96786654b84ce114ead409aa1",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/sponsor_profiles.csv.gz"
+  },
+  {
+    "table": "sponsorship_deliverables",
+    "rows": 17,
+    "bytes": 639,
+    "sha256": "16067c9ade60d3dffca110347af982bead373297e04c05dc332203f2f7da621f",
+    "canonical_row_sha256": "30ed517a9e2183785737fb2b366b2fe34279bbb936619ec772e952ec77d843d1",
+    "null_encoding": "\\N",
+    "path": "exports/sponsorship_deliverables.csv.gz"
+  },
+  {
+    "table": "sponsorship_history",
+    "rows": 453,
+    "bytes": 12300,
+    "sha256": "788b370cac86515e836f096e91c3204bd73cada4af3e2700c7534f99c0b48fc6",
+    "canonical_row_sha256": "d98386ebd76da3087a6bee1743212181bd0b021f4dea5734296c51f8ad0ca940",
+    "null_encoding": "\\N",
+    "path": "exports/sponsorship_history.csv.gz"
+  },
+  {
+    "table": "sponsorship_observations",
+    "rows": 0,
+    "bytes": 125,
+    "sha256": "b8d50d26eabec25e19a70c8e3000bc1d69ced0148bdd186f55ddd368e533b5b0",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/sponsorship_observations.csv.gz"
+  },
+  {
+    "table": "sponsorship_packages",
+    "rows": 21,
+    "bytes": 1163,
+    "sha256": "4af81bb1ee8f773e611ec1b7f0f8dce39493b135aa66c02063c1cbdb6ff5b941",
+    "canonical_row_sha256": "a5ff8d20190353b0fc417dbb55739fb32fe2bf34e1452daca1f6a34462a2bbdb",
+    "null_encoding": "\\N",
+    "path": "exports/sponsorship_packages.csv.gz"
+  },
+  {
+    "table": "sponsorship_renewals",
+    "rows": 127,
+    "bytes": 6206,
+    "sha256": "c5e78a98752a13ac3f2bbfc03ab2274f626a83c001498a8065563bd0331bc204",
+    "canonical_row_sha256": "932bbd76c04123a1081efa0d610170a0eef24ec62b7219987eceac2c838c06ce",
+    "null_encoding": "\\N",
+    "path": "exports/sponsorship_renewals.csv.gz"
+  },
+  {
+    "table": "taxonomy_terms",
+    "rows": 27,
+    "bytes": 780,
+    "sha256": "47ff262c9cfe04b25600aeefc51ad1678ecb27f82e11fe6119bc09c1d7f4cf38",
+    "canonical_row_sha256": "366ed710bc9fbcf083ebc0f0970390ebe765d83b570ec4a55bef716757bf924d",
+    "null_encoding": "\\N",
+    "path": "exports/taxonomy_terms.csv.gz"
+  },
+  {
+    "table": "ticket_price_history",
+    "rows": 19,
+    "bytes": 938,
+    "sha256": "a34f6c6e69ec966c298419b1328db6a3e264e786b1dfd0e4671bfa3dae1adde0",
+    "canonical_row_sha256": "2967e9b9ab25046ee373cc284dc26e1928d54c16abc98855da31456353bbce7d",
+    "null_encoding": "\\N",
+    "path": "exports/ticket_price_history.csv.gz"
+  },
+  {
+    "table": "ticket_types",
+    "rows": 19,
+    "bytes": 730,
+    "sha256": "eadda6568e14ba5478d724936017436f29f9f506b04ee2003f66877f5c485a2e",
+    "canonical_row_sha256": "5f18ee29d5c596e11a84f448979d805cedb6baf7631b5117e49871a4708ddbba",
+    "null_encoding": "\\N",
+    "path": "exports/ticket_types.csv.gz"
+  },
+  {
+    "table": "topic_trends",
+    "rows": 0,
+    "bytes": 128,
+    "sha256": "5ebaa485eb5cdf0747ae7659b32bae18922efda6e25665d8d156451d546ac8bd",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/topic_trends.csv.gz"
+  },
+  {
+    "table": "unit_economics_scenarios",
+    "rows": 3,
+    "bytes": 543,
+    "sha256": "487bd6c8a5cd2e75bc5fa06331b397090e9ad64178dd5a2d4a13aa4f95f016af",
+    "canonical_row_sha256": "8076ecefeaeeafad8c673c2e86d4f8ea7eac5da745c69c4e17275db9a91d117b",
+    "null_encoding": "\\N",
+    "path": "exports/unit_economics_scenarios.csv.gz"
+  },
+  {
+    "table": "user_feedback",
+    "rows": 0,
+    "bytes": 111,
+    "sha256": "dffb32c7b81820f510c00ce1de53d663302bb7a37f1b528e86dbfb70bf3841e6",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/user_feedback.csv.gz"
+  },
+  {
+    "table": "venue_spaces",
+    "rows": 0,
+    "bytes": 121,
+    "sha256": "ed9dbf61d7cf46f38fd9853c0b2e4a10f640ceb4e98a85d5189df97087b9cee5",
+    "canonical_row_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "null_encoding": "\\N",
+    "path": "exports/venue_spaces.csv.gz"
+  },
+  {
+    "table": "venues",
+    "rows": 658,
+    "bytes": 35783,
+    "sha256": "ae581ea8952200ea1d0209c039a5bbffd4fb6b9c62fcc3bf323cf82da05d74e7",
+    "canonical_row_sha256": "53dd2da1a66e3795d45bceab40a20e3c05a7e32d7652f9edd90e3027be8afda8",
+    "null_encoding": "\\N",
+    "path": "exports/venues.csv.gz"
+  }
+]

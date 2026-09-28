@@ -1,0 +1,1683 @@
+{
+  "checked_at": "2026-09-28",
+  "scope": "API directa de cada proveedor, texto, tarifas públicas pagadas globales; no suscripciones Codex/Claude Code/ChatGPT, impuestos, acuerdos empresariales ni modalidades multimodales.",
+  "method": "Búsqueda primaria seguida de apertura HTML; ningún precio depende solo del índice. No inferencias API ni benchmark.",
+  "sources": [
+    {
+      "id": "o-pricing",
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "publisher": "OpenAI",
+      "title": "API pricing",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Flagship models; Standard y Batch",
+      "facts": [
+        {
+          "field": "currency",
+          "value": "USD por 1M tokens"
+        },
+        {
+          "field": "rates_standard_short",
+          "value": {
+            "astra": [
+              10,
+              1,
+              12.5,
+              50
+            ],
+            "sol": [
+              2,
+              0.2,
+              2.5,
+              10
+            ],
+            "luna": [
+              0.1,
+              0.01,
+              0.125,
+              0.5
+            ]
+          },
+          "order": "input, cached_input, cache_write, output"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "o-astra",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "publisher": "OpenAI",
+      "title": "GPT-6 astra",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Pricing; Features; Context window",
+      "facts": [
+        {
+          "field": "context_window",
+          "value": 1050000
+        },
+        {
+          "field": "max_output",
+          "value": 128000
+        },
+        {
+          "field": "structured_outputs",
+          "value": true
+        },
+        {
+          "field": "function_calling",
+          "value": true
+        },
+        {
+          "field": "long_input_threshold",
+          "value": 272000
+        },
+        {
+          "field": "long_input_multiplier",
+          "value": 2
+        },
+        {
+          "field": "long_output_multiplier",
+          "value": 1.5
+        }
+      ],
+      "notes": [
+        "Esfuerzos low, medium, high, xhigh, max."
+      ]
+    },
+    {
+      "id": "o-sol",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "publisher": "OpenAI",
+      "title": "GPT-6 sol",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Pricing; Features; Context window",
+      "facts": [
+        {
+          "field": "context_window",
+          "value": 1050000
+        },
+        {
+          "field": "max_output",
+          "value": 128000
+        },
+        {
+          "field": "structured_outputs",
+          "value": true
+        },
+        {
+          "field": "function_calling",
+          "value": true
+        },
+        {
+          "field": "long_input_threshold",
+          "value": 272000
+        },
+        {
+          "field": "long_input_multiplier",
+          "value": 2
+        },
+        {
+          "field": "long_output_multiplier",
+          "value": 1.5
+        }
+      ],
+      "notes": [
+        "Esfuerzos none, low, medium, high, xhigh, max. Con function calling y razonamiento usar Responses; Chat Completions solo admite herramientas con effort none."
+      ]
+    },
+    {
+      "id": "o-luna",
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "publisher": "OpenAI",
+      "title": "GPT-6 luna",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Pricing; Features; Context window",
+      "facts": [
+        {
+          "field": "context_window",
+          "value": 1050000
+        },
+        {
+          "field": "max_output",
+          "value": 128000
+        },
+        {
+          "field": "structured_outputs",
+          "value": true
+        },
+        {
+          "field": "function_calling",
+          "value": true
+        },
+        {
+          "field": "long_input_threshold",
+          "value": 272000
+        },
+        {
+          "field": "long_input_multiplier",
+          "value": 2
+        },
+        {
+          "field": "long_output_multiplier",
+          "value": 1.5
+        }
+      ],
+      "notes": [
+        "Esfuerzos none, low, medium, high, xhigh, max. Con function calling y razonamiento usar Responses; Chat Completions solo admite herramientas con effort none."
+      ]
+    },
+    {
+      "id": "o-cache",
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+      "publisher": "OpenAI",
+      "title": "Prompt caching",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "L882; GPT-5.6 and later; Cache lifetime",
+      "facts": [
+        {
+          "field": "cache_write_is_additive",
+          "value": false
+        },
+        {
+          "field": "cache_write_multiplier",
+          "value": 1.25
+        },
+        {
+          "field": "cache_read_multiplier",
+          "value": 0.1
+        },
+        {
+          "field": "cache_ttl_minutes",
+          "value": 30
+        },
+        {
+          "field": "minimum_visible_input_tokens",
+          "value": 1024
+        }
+      ],
+      "notes": [
+        "La tarifa de escritura reemplaza la tarifa de input de esos tokens. No garantiza hits."
+      ]
+    },
+    {
+      "id": "o-reasoning",
+      "url": "https://developers.openai.com/api/docs/guides/reasoning",
+      "publisher": "OpenAI",
+      "title": "Reasoning models",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "How reasoning works; Controlling costs",
+      "facts": [
+        {
+          "field": "reasoning_billing",
+          "value": "output_tokens"
+        },
+        {
+          "field": "output_cap_includes_reasoning",
+          "value": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "o-batch",
+      "url": "https://developers.openai.com/api/docs/guides/batch",
+      "publisher": "OpenAI",
+      "title": "Batch API",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Overview",
+      "facts": [
+        {
+          "field": "discount_fraction",
+          "value": 0.5
+        },
+        {
+          "field": "turnaround_hours",
+          "value": 24
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c-pricing",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "publisher": "Anthropic",
+      "title": "Pricing",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Model pricing; Batch processing; Long context pricing",
+      "facts": [
+        {
+          "field": "sonnet_5_standard",
+          "value": [
+            2,
+            10,
+            2.5,
+            4,
+            0.2
+          ],
+          "order": "input, output, 5m_write, 1h_write, cache_read"
+        },
+        {
+          "field": "haiku_45_standard",
+          "value": [
+            1,
+            5,
+            1.25,
+            2,
+            0.1
+          ],
+          "order": "input, output, 5m_write, 1h_write, cache_read"
+        },
+        {
+          "field": "batch_input_output_discount_fraction",
+          "value": 0.5
+        },
+        {
+          "field": "new_tokenizer_tokens_same_text_approx_increase",
+          "value": 0.3
+        }
+      ],
+      "notes": [
+        "El incremento de tokens depende del contenido; no aplicar automáticamente como medición de este corpus."
+      ]
+    },
+    {
+      "id": "c-sonnet",
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "publisher": "Anthropic",
+      "title": "Claude Sonnet 5",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Specifications; Capabilities",
+      "facts": [
+        {
+          "field": "model_id",
+          "value": "claude-sonnet-5"
+        },
+        {
+          "field": "context_window",
+          "value": 1000000
+        },
+        {
+          "field": "max_output_standard",
+          "value": 128000
+        },
+        {
+          "field": "thinking",
+          "value": "adaptive_default_on"
+        },
+        {
+          "field": "default_effort",
+          "value": "high"
+        }
+      ],
+      "notes": [
+        "Manual extended thinking y sampling no predeterminado retornan 400."
+      ]
+    },
+    {
+      "id": "c-haiku",
+      "url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "publisher": "Anthropic",
+      "title": "Claude Haiku 4.5",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Specifications; Good to know",
+      "facts": [
+        {
+          "field": "model_id",
+          "value": "claude-haiku-4-5-20251001"
+        },
+        {
+          "field": "alias",
+          "value": "claude-haiku-4-5"
+        },
+        {
+          "field": "context_window",
+          "value": 200000
+        },
+        {
+          "field": "max_output_standard",
+          "value": 64000
+        },
+        {
+          "field": "thinking",
+          "value": "manual_extended"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c-announcement",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "publisher": "Anthropic",
+      "title": "Introducing Claude Sonnet 5",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Changelog; Edit August 10, 2026",
+      "facts": [
+        {
+          "field": "permanent_input_output_price",
+          "value": [
+            2,
+            10
+          ]
+        },
+        {
+          "field": "superseded_september_1_input_output_price",
+          "value": [
+            3,
+            15
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c-cache",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+      "publisher": "Anthropic",
+      "title": "Prompt caching",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Pricing multipliers; batch compatibility",
+      "facts": [
+        {
+          "field": "5m_write_multiplier",
+          "value": 1.25
+        },
+        {
+          "field": "1h_write_multiplier",
+          "value": 2
+        },
+        {
+          "field": "read_multiplier",
+          "value": 0.1
+        },
+        {
+          "field": "multipliers_stack_with_batch",
+          "value": true
+        }
+      ],
+      "notes": [
+        "Hits de batch best effort."
+      ]
+    },
+    {
+      "id": "c-batch",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+      "publisher": "Anthropic",
+      "title": "Batch processing",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Using prompt caching with Message Batches",
+      "facts": [
+        {
+          "field": "cache_discounts_stack",
+          "value": true
+        },
+        {
+          "field": "cache_hits_guaranteed",
+          "value": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c-thinking",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking",
+      "publisher": "Anthropic",
+      "title": "Thinking",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Introduction; Summarized thinking",
+      "facts": [
+        {
+          "field": "reasoning_billing",
+          "value": "output_tokens"
+        },
+        {
+          "field": "thinking_summary_is_billed_token_count",
+          "value": false
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "c-structured",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "publisher": "Anthropic",
+      "title": "Structured outputs",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Compatibility; Feature compatibility",
+      "facts": [
+        {
+          "field": "supported_models_relevant",
+          "value": [
+            "claude-sonnet-5",
+            "claude-haiku-4-5-20251001"
+          ]
+        },
+        {
+          "field": "strict_tool_use",
+          "value": true
+        },
+        {
+          "field": "native_citations_with_json_schema",
+          "value": "incompatible_http_400"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "g-pricing",
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "publisher": "Google",
+      "title": "Gemini Developer API pricing",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Gemini 3.8 Flash; Gemini 3.5 Flash-Lite; Standard/Batch",
+      "facts": [
+        {
+          "field": "flash_38_promo_until",
+          "value": "2026-12-31"
+        },
+        {
+          "field": "flash_38_input_output_current",
+          "value": [
+            0.75,
+            3.75
+          ]
+        },
+        {
+          "field": "flash_38_input_output_announced_2027_01_01",
+          "value": [
+            1.5,
+            7.5
+          ]
+        },
+        {
+          "field": "lite_35_input_output_current",
+          "value": [
+            0.3,
+            2.5
+          ]
+        },
+        {
+          "field": "lite_35_batch_cached",
+          "value": 0.02
+        },
+        {
+          "field": "output_includes_thinking",
+          "value": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "g-flash",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "publisher": "Google",
+      "title": "gemini-3.8-flash",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Model code; Token limits; Capabilities; Versions",
+      "facts": [
+        {
+          "field": "input_limit",
+          "value": 1048576
+        },
+        {
+          "field": "output_limit",
+          "value": 65536
+        },
+        {
+          "field": "structured_outputs",
+          "value": true
+        },
+        {
+          "field": "function_calling",
+          "value": true
+        },
+        {
+          "field": "thinking",
+          "value": true
+        },
+        {
+          "field": "batch",
+          "value": true
+        },
+        {
+          "field": "stable",
+          "value": true
+        },
+        {
+          "field": "source_updated_at",
+          "value": "2026-09-02"
+        }
+      ],
+      "notes": [
+        "Thinking low, medium, high; minimal devuelve error."
+      ]
+    },
+    {
+      "id": "g-lite",
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "publisher": "Google",
+      "title": "gemini-3.5-flash-lite",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Model code; Token limits; Capabilities; Versions",
+      "facts": [
+        {
+          "field": "input_limit",
+          "value": 1048576
+        },
+        {
+          "field": "output_limit",
+          "value": 65536
+        },
+        {
+          "field": "structured_outputs",
+          "value": true
+        },
+        {
+          "field": "function_calling",
+          "value": true
+        },
+        {
+          "field": "thinking",
+          "value": true
+        },
+        {
+          "field": "batch",
+          "value": true
+        },
+        {
+          "field": "stable",
+          "value": true
+        },
+        {
+          "field": "source_updated_at",
+          "value": "2026-07-30"
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "g-cache",
+      "url": "https://ai.google.dev/gemini-api/docs/caching",
+      "publisher": "Google",
+      "title": "Context caching",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Implicit caching",
+      "facts": [
+        {
+          "field": "implicit_caching_default",
+          "value": "Gemini 2.5 y posteriores"
+        },
+        {
+          "field": "interactions_explicit_caching",
+          "value": false
+        },
+        {
+          "field": "generateContent_explicit_caching",
+          "value": true
+        },
+        {
+          "field": "flash_38_min_input_for_cache",
+          "value": 4096
+        }
+      ],
+      "notes": [
+        "La tabla consultada no especifica mínimo para 3.5 Flash-Lite; no se extrapola."
+      ]
+    },
+    {
+      "id": "g-structured",
+      "url": "https://ai.google.dev/gemini-api/docs/structured-output",
+      "publisher": "Google",
+      "title": "Structured outputs",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Best practices; Limitations",
+      "facts": [
+        {
+          "field": "json_schema_support",
+          "value": "subconjunto"
+        },
+        {
+          "field": "value_semantic_validation_required",
+          "value": true
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "exa-docs",
+      "url": "https://exa.ai/docs/admin/pricing",
+      "publisher": "Exa",
+      "title": "Pricing",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Search, Contents, Answer, and Monitors; Cost glossary; Deep Search",
+      "facts": [
+        {
+          "field": "search_per_1000_requests",
+          "value": 7
+        },
+        {
+          "field": "included_results_per_search",
+          "value": 10
+        },
+        {
+          "field": "additional_results_per_1000",
+          "value": 1
+        },
+        {
+          "field": "contents_per_1000_pages_per_type",
+          "value": 1
+        },
+        {
+          "field": "summary_per_1000_pages",
+          "value": 1
+        },
+        {
+          "field": "deep_per_1000_requests",
+          "value": 12
+        },
+        {
+          "field": "deep_reasoning_per_1000_requests",
+          "value": 15
+        },
+        {
+          "field": "source_updated_at",
+          "value": "2026-09-23"
+        }
+      ],
+      "notes": [
+        "/docs/reference/pricing redirige a /docs/admin/pricing. Text+highlights para una URL cuenta dos tipos."
+      ]
+    },
+    {
+      "id": "exa-pricing",
+      "url": "https://exa.ai/pricing",
+      "publisher": "Exa",
+      "title": "Exa API Pricing",
+      "language": "en",
+      "source_type": "documentacion_oficial",
+      "access_method": "web_open_html",
+      "access_status": "read",
+      "checked_at": "2026-09-28",
+      "locator": "Products; Endpoint pricing",
+      "facts": [
+        {
+          "field": "search_text_highlights",
+          "value": "incluidos en producto Search"
+        },
+        {
+          "field": "search_per_1000_requests",
+          "value": 7
+        },
+        {
+          "field": "contents_per_1000_pages_per_type",
+          "value": 1
+        }
+      ],
+      "notes": [
+        "No confundir coste interno de búsqueda en Exa Agent con /search independiente."
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-astra",
+      "tier": "standard",
+      "input": 10,
+      "cached_input": 1,
+      "cache_write": 12.5,
+      "cache_write_ttl_minutes": 30,
+      "output": 50,
+      "context_input_range": "<=272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-astra",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-astra",
+      "tier": "standard",
+      "input": 20,
+      "cached_input": 2,
+      "cache_write": 25,
+      "cache_write_ttl_minutes": 30,
+      "output": 75,
+      "context_input_range": ">272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-astra",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": [
+        "Recargo aplicado a toda la solicitud, no solo exceso."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-astra",
+      "tier": "batch",
+      "input": 5,
+      "cached_input": 0.5,
+      "cache_write": 6.25,
+      "cache_write_ttl_minutes": 30,
+      "output": 25,
+      "context_input_range": "<=272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-astra",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-astra",
+      "tier": "batch",
+      "input": 10,
+      "cached_input": 1,
+      "cache_write": 12.5,
+      "cache_write_ttl_minutes": 30,
+      "output": 37.5,
+      "context_input_range": ">272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-astra",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": [
+        "Recargo aplicado a toda la solicitud, no solo exceso."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-sol",
+      "tier": "standard",
+      "input": 2,
+      "cached_input": 0.2,
+      "cache_write": 2.5,
+      "cache_write_ttl_minutes": 30,
+      "output": 10,
+      "context_input_range": "<=272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-sol",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-sol",
+      "tier": "standard",
+      "input": 4,
+      "cached_input": 0.4,
+      "cache_write": 5,
+      "cache_write_ttl_minutes": 30,
+      "output": 15,
+      "context_input_range": ">272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-sol",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": [
+        "Recargo aplicado a toda la solicitud, no solo exceso."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-sol",
+      "tier": "batch",
+      "input": 1,
+      "cached_input": 0.1,
+      "cache_write": 1.25,
+      "cache_write_ttl_minutes": 30,
+      "output": 5,
+      "context_input_range": "<=272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-sol",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-sol",
+      "tier": "batch",
+      "input": 2,
+      "cached_input": 0.2,
+      "cache_write": 2.5,
+      "cache_write_ttl_minutes": 30,
+      "output": 7.5,
+      "context_input_range": ">272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-sol",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": [
+        "Recargo aplicado a toda la solicitud, no solo exceso."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-luna",
+      "tier": "standard",
+      "input": 0.1,
+      "cached_input": 0.01,
+      "cache_write": 0.125,
+      "cache_write_ttl_minutes": 30,
+      "output": 0.5,
+      "context_input_range": "<=272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-luna",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-luna",
+      "tier": "standard",
+      "input": 0.2,
+      "cached_input": 0.02,
+      "cache_write": 0.25,
+      "cache_write_ttl_minutes": 30,
+      "output": 0.75,
+      "context_input_range": ">272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-luna",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": [
+        "Recargo aplicado a toda la solicitud, no solo exceso."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-luna",
+      "tier": "batch",
+      "input": 0.05,
+      "cached_input": 0.005,
+      "cache_write": 0.0625,
+      "cache_write_ttl_minutes": 30,
+      "output": 0.25,
+      "context_input_range": "<=272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-luna",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "OpenAI",
+      "model_id": "gpt-6-luna",
+      "tier": "batch",
+      "input": 0.1,
+      "cached_input": 0.01,
+      "cache_write": 0.125,
+      "cache_write_ttl_minutes": 30,
+      "output": 0.375,
+      "context_input_range": ">272000",
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "o-pricing",
+        "o-luna",
+        "o-cache",
+        "o-reasoning"
+      ],
+      "notes": [
+        "Recargo aplicado a toda la solicitud, no solo exceso."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Anthropic",
+      "model_id": "claude-sonnet-5",
+      "tier": "standard",
+      "input": 2,
+      "output": 10,
+      "cached_input": 0.2,
+      "cache_write_5m": 2.5,
+      "cache_write_1h": 4,
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "c-pricing",
+        "c-cache",
+        "c-thinking"
+      ],
+      "cache_batch_rates_basis": "tabla_publicada",
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Anthropic",
+      "model_id": "claude-sonnet-5",
+      "tier": "batch",
+      "input": 1,
+      "output": 5,
+      "cached_input": 0.1,
+      "cache_write_5m": 1.25,
+      "cache_write_1h": 2,
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "c-pricing",
+        "c-cache",
+        "c-thinking"
+      ],
+      "cache_batch_rates_basis": "calculo_0.5_por_multiplicadores_oficiales_acumulables",
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Anthropic",
+      "model_id": "claude-haiku-4-5-20251001",
+      "tier": "standard",
+      "input": 1,
+      "output": 5,
+      "cached_input": 0.1,
+      "cache_write_5m": 1.25,
+      "cache_write_1h": 2,
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "c-pricing",
+        "c-cache",
+        "c-thinking"
+      ],
+      "cache_batch_rates_basis": "tabla_publicada",
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Anthropic",
+      "model_id": "claude-haiku-4-5-20251001",
+      "tier": "batch",
+      "input": 0.5,
+      "output": 2.5,
+      "cached_input": 0.05,
+      "cache_write_5m": 0.625,
+      "cache_write_1h": 1,
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "c-pricing",
+        "c-cache",
+        "c-thinking"
+      ],
+      "cache_batch_rates_basis": "calculo_0.5_por_multiplicadores_oficiales_acumulables",
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Google",
+      "model_id": "gemini-3.8-flash",
+      "tier": "standard",
+      "input": 0.75,
+      "output": 3.75,
+      "cached_input": 0.075,
+      "cache_storage_usd_per_1M_token_hour": 0.5,
+      "cache_write": null,
+      "reasoning_billed_as": "output",
+      "valid_through": "2026-12-31",
+      "source_ids": [
+        "g-pricing"
+      ],
+      "notes": [
+        "Tarifa promocional, no prolongar automáticamente a 2027."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "announced_future",
+      "provider": "Google",
+      "model_id": "gemini-3.8-flash",
+      "tier": "standard",
+      "input": 1.5,
+      "output": 7.5,
+      "cached_input": 0.15,
+      "cache_storage_usd_per_1M_token_hour": 1,
+      "cache_write": null,
+      "reasoning_billed_as": "output",
+      "valid_from": "2027-01-01",
+      "source_ids": [
+        "g-pricing"
+      ],
+      "notes": [
+        "Anunciada al leer 2026-09-28, no precio vigente ese día."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Google",
+      "model_id": "gemini-3.5-flash-lite",
+      "tier": "standard",
+      "input": 0.3,
+      "output": 2.5,
+      "cached_input": 0.03,
+      "cache_storage_usd_per_1M_token_hour": 1,
+      "cache_write": null,
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "g-pricing"
+      ],
+      "notes": []
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Google",
+      "model_id": "gemini-3.8-flash",
+      "tier": "batch",
+      "input": 0.375,
+      "output": 1.875,
+      "cached_input": 0.0375,
+      "cache_storage_usd_per_1M_token_hour": 0.5,
+      "cache_write": null,
+      "reasoning_billed_as": "output",
+      "valid_through": "2026-12-31",
+      "source_ids": [
+        "g-pricing"
+      ],
+      "notes": [
+        "Tarifa promocional, no prolongar automáticamente a 2027."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "announced_future",
+      "provider": "Google",
+      "model_id": "gemini-3.8-flash",
+      "tier": "batch",
+      "input": 0.75,
+      "output": 3.75,
+      "cached_input": 0.075,
+      "cache_storage_usd_per_1M_token_hour": 1,
+      "cache_write": null,
+      "reasoning_billed_as": "output",
+      "valid_from": "2027-01-01",
+      "source_ids": [
+        "g-pricing"
+      ],
+      "notes": [
+        "Anunciada al leer 2026-09-28, no precio vigente ese día."
+      ]
+    },
+    {
+      "currency": "USD",
+      "unit": "per_1M_tokens",
+      "checked_at": "2026-09-28",
+      "status": "observed_current",
+      "provider": "Google",
+      "model_id": "gemini-3.5-flash-lite",
+      "tier": "batch",
+      "input": 0.15,
+      "output": 1.25,
+      "cached_input": 0.02,
+      "cache_storage_usd_per_1M_token_hour": 1,
+      "cache_write": null,
+      "reasoning_billed_as": "output",
+      "source_ids": [
+        "g-pricing"
+      ],
+      "notes": [
+        "0.02 es cifra publicada; no sustituir por 0.015 inferido."
+      ]
+    }
+  ],
+  "capabilities": [
+    {
+      "model_id": "gpt-6-astra",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "structured_outputs": true,
+      "function_calling": true,
+      "reasoning_efforts": [
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "source_ids": [
+        "o-astra"
+      ]
+    },
+    {
+      "model_id": "gpt-6-sol",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "structured_outputs": true,
+      "function_calling": true,
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "source_ids": [
+        "o-sol"
+      ]
+    },
+    {
+      "model_id": "gpt-6-luna",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "structured_outputs": true,
+      "function_calling": true,
+      "reasoning_efforts": [
+        "none",
+        "low",
+        "medium",
+        "high",
+        "xhigh",
+        "max"
+      ],
+      "source_ids": [
+        "o-luna"
+      ]
+    },
+    {
+      "model_id": "claude-sonnet-5",
+      "context_window": 1000000,
+      "max_output_tokens": 128000,
+      "structured_outputs": true,
+      "function_calling": true,
+      "thinking": "adaptive_default_on",
+      "default_effort": "high",
+      "source_ids": [
+        "c-sonnet",
+        "c-structured"
+      ]
+    },
+    {
+      "model_id": "claude-haiku-4-5-20251001",
+      "context_window": 200000,
+      "max_output_tokens": 64000,
+      "structured_outputs": true,
+      "function_calling": true,
+      "thinking": "manual_extended",
+      "source_ids": [
+        "c-haiku",
+        "c-structured"
+      ]
+    },
+    {
+      "model_id": "gemini-3.8-flash",
+      "max_input_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "structured_outputs": true,
+      "function_calling": true,
+      "thinking_levels": [
+        "low",
+        "medium",
+        "high"
+      ],
+      "source_ids": [
+        "g-flash"
+      ]
+    },
+    {
+      "model_id": "gemini-3.5-flash-lite",
+      "max_input_tokens": 1048576,
+      "max_output_tokens": 65536,
+      "structured_outputs": true,
+      "function_calling": true,
+      "thinking": true,
+      "source_ids": [
+        "g-lite"
+      ]
+    }
+  ],
+  "retrieval_prices": [
+    {
+      "provider": "Exa",
+      "operation": "search",
+      "price_usd": 7,
+      "unit": "1000_requests",
+      "included_results_per_request": 10,
+      "source_ids": [
+        "exa-docs",
+        "exa-pricing"
+      ]
+    },
+    {
+      "provider": "Exa",
+      "operation": "search_result_above_10",
+      "price_usd": 1,
+      "unit": "1000_additional_results",
+      "source_ids": [
+        "exa-docs"
+      ]
+    },
+    {
+      "provider": "Exa",
+      "operation": "contents",
+      "price_usd": 1,
+      "unit": "1000_pages_per_content_type",
+      "source_ids": [
+        "exa-docs"
+      ],
+      "notes": [
+        "text+highlights para una página son dos unidades de página-tipo; no duplicar lectura ya obtenida en Search."
+      ]
+    },
+    {
+      "provider": "Exa",
+      "operation": "ai_page_summary",
+      "price_usd": 1,
+      "unit": "1000_pages",
+      "source_ids": [
+        "exa-docs"
+      ],
+      "notes": [
+        "Cargo de resumen generado según tabla; no activado en escenarios base."
+      ]
+    },
+    {
+      "provider": "Exa",
+      "operation": "deep_or_deep_lite",
+      "price_usd": 12,
+      "unit": "1000_requests",
+      "included_results_per_request": 10,
+      "source_ids": [
+        "exa-docs"
+      ]
+    },
+    {
+      "provider": "Exa",
+      "operation": "deep_reasoning",
+      "price_usd": 15,
+      "unit": "1000_requests",
+      "included_results_per_request": 10,
+      "source_ids": [
+        "exa-docs"
+      ]
+    }
+  ],
+  "conflicts": [
+    {
+      "issue": "Sonnet 5: precio de septiembre anteriormente anunciado",
+      "resolution": "Enmienda oficial 2026-08-10: 2/10 permanente; 3/15 previsto para septiembre no aplica.",
+      "source_ids": [
+        "c-announcement",
+        "c-pricing"
+      ]
+    },
+    {
+      "issue": "Gemini 3.8 Flash promoción vs 2027",
+      "resolution": "Separar filas actuales hasta 2026-12-31 y anunciadas desde 2027-01-01.",
+      "source_ids": [
+        "g-pricing"
+      ]
+    },
+    {
+      "issue": "Gemini 3.5 Flash-Lite cached batch no es mitad exacta",
+      "resolution": "Mantener .02 publicado; no corregir a .015 por regla general.",
+      "source_ids": [
+        "g-pricing"
+      ]
+    },
+    {
+      "issue": "GPT-6 vs guías antiguas de caché gratuita al escribir",
+      "resolution": "GPT-5.6 y posteriores cobran escritura 1.25x, tarifa sustitutiva; TTL 30m.",
+      "source_ids": [
+        "o-cache"
+      ]
+    },
+    {
+      "issue": "Exa /search standalone vs tarifa de herramienta en Agent",
+      "resolution": "Usar 7/1000requests para standalone; no usar coste interno por búsqueda de Agent.",
+      "source_ids": [
+        "exa-docs",
+        "exa-pricing"
+      ]
+    }
+  ],
+  "limitations": [
+    "Precios documentados no demuestran acceso en la cuenta del proyecto.",
+    "No se ha medido precisión, latencia, consumo de tokens ni tasa de caché en este corpus.",
+    "Las ventanas son límites documentados; no recomendación de enviar el corpus completo.",
+    "null en cache_write Google significa cargo separado no determinado en esta verificación; no significa coste cero.",
+    "Fuentes pueden cambiar después del día de lectura; usar URL, sección y fecha."
+  ],
+  "attempts": [
+    {
+      "url": "https://developers.openai.com/api/docs/pricing",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-sol",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/models/gpt-6-luna",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/prompt-caching",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/reasoning",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/guides/batch",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/models/sonnet-5/overview",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/models/haiku-4-5/overview",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/prompt-caching",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/batch-processing",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://platform.claude.com/docs/en/build-with-claude/structured-outputs",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.8-flash",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash-lite",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/caching",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://ai.google.dev/gemini-api/docs/structured-output",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://exa.ai/docs/admin/pricing",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    },
+    {
+      "url": "https://exa.ai/pricing",
+      "method": "web_open_html_and_find",
+      "status": "read",
+      "checked_at": "2026-09-28",
+      "notes": "Lectura directa de secciones indicadas; descubrimiento por índice no empleado como evidencia final."
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "summary": [
+    {
+      "case": "functional-dev-01",
+      "method": "keyword_geo_date",
+      "candidates": 2,
+      "excluded": 95,
+      "top3": [
+        "national-gallery-sunset-yoga-2026",
+        "itap-2026"
+      ],
+      "zero_match_top3": 2,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-01",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 2,
+      "excluded": 95,
+      "top3": [
+        "national-gallery-sunset-yoga-2026",
+        "itap-2026"
+      ],
+      "zero_match_top3": 2,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-01",
+      "method": "profile_plus_history_audience",
+      "candidates": 2,
+      "excluded": 95,
+      "top3": [
+        "itap-2026",
+        "national-gallery-sunset-yoga-2026"
+      ],
+      "zero_match_top3": 1,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-02",
+      "method": "keyword_geo_date",
+      "candidates": 5,
+      "excluded": 92,
+      "top3": [
+        "ias-2026",
+        "comvac-asia-2026",
+        "ptc-asia-2026"
+      ],
+      "zero_match_top3": 2,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-02",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 5,
+      "excluded": 92,
+      "top3": [
+        "ias-2026",
+        "comvac-asia-2026",
+        "ptc-asia-2026"
+      ],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-02",
+      "method": "profile_plus_history_audience",
+      "candidates": 5,
+      "excluded": 92,
+      "top3": [
+        "ias-2026",
+        "comvac-asia-2026",
+        "ptc-asia-2026"
+      ],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-03",
+      "method": "keyword_geo_date",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-03",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-03",
+      "method": "profile_plus_history_audience",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-04",
+      "method": "keyword_geo_date",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-04",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-dev-04",
+      "method": "profile_plus_history_audience",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-01",
+      "method": "keyword_geo_date",
+      "candidates": 1,
+      "excluded": 96,
+      "top3": [
+        "industrial-transformation-africa-2026"
+      ],
+      "zero_match_top3": 1,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-01",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 1,
+      "excluded": 96,
+      "top3": [
+        "industrial-transformation-africa-2026"
+      ],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-01",
+      "method": "profile_plus_history_audience",
+      "candidates": 1,
+      "excluded": 96,
+      "top3": [
+        "industrial-transformation-africa-2026"
+      ],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-02",
+      "method": "keyword_geo_date",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-02",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-02",
+      "method": "profile_plus_history_audience",
+      "candidates": 0,
+      "excluded": 97,
+      "top3": [],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-03",
+      "method": "keyword_geo_date",
+      "candidates": 15,
+      "excluded": 82,
+      "top3": [
+        "supply-chain-indonesia-2026",
+        "industrial-transformation-africa-2026",
+        "cccb-siglo-xviii-2026-2027"
+      ],
+      "zero_match_top3": 2,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-03",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 15,
+      "excluded": 82,
+      "top3": [
+        "supply-chain-indonesia-2026",
+        "cemat-asia-2026",
+        "logistics-automation-nz-2026"
+      ],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-03",
+      "method": "profile_plus_history_audience",
+      "candidates": 15,
+      "excluded": 82,
+      "top3": [
+        "supply-chain-indonesia-2026",
+        "cemat-asia-2026",
+        "logistics-automation-nz-2026"
+      ],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-04",
+      "method": "keyword_geo_date",
+      "candidates": 19,
+      "excluded": 78,
+      "top3": [
+        "cape-town-marathon-2027",
+        "industrial-transformation-africa-2026",
+        "cccb-siglo-xviii-2026-2027"
+      ],
+      "zero_match_top3": 2,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-04",
+      "method": "profile_taxonomy_overlap",
+      "candidates": 19,
+      "excluded": 78,
+      "top3": [
+        "cape-town-marathon-2027",
+        "industrial-transformation-africa-2026",
+        "cccb-siglo-xviii-2026-2027"
+      ],
+      "zero_match_top3": 2,
+      "budget_feasible_confirmed": 0
+    },
+    {
+      "case": "functional-test-04",
+      "method": "profile_plus_history_audience",
+      "candidates": 19,
+      "excluded": 78,
+      "top3": [
+        "cape-town-marathon-2027",
+        "frankfurter-buchmesse-2026",
+        "festival-de-cannes-2027"
+      ],
+      "zero_match_top3": 0,
+      "budget_feasible_confirmed": 0
+    }
+  ],
+  "coverage_history": {
+    "events": 97,
+    "sample_union_increment_over_largest_document": 69,
+    "largest_document_editions": 28,
+    "pycon_sponsors_5_years": 225,
+    "pycon_sponsors_2_years": 99,
+    "extra_names_in_older_history": 126,
+    "warning": "Exploratory sample counts, not global coverage or sponsorship propensity. Display-name normalization may split brands; no churn inferred."
+  }
+}

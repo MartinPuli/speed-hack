@@ -1,0 +1,89 @@
+{
+  "checks": [
+    {
+      "check": "66 logical tables exactly match master contract",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "unique primary keys",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "referential integrity including polymorphic assertions",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "date validity and historical boundary",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "SQLite integrity_check",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "CSV SQLite parity and valid JSON cells",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "no fabricated customer or feedback rows",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "no live Luma event IDs created",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "event core title/date/location have field evidence",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "no exact normalized title date location duplicates",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "coordinates absent rather than invented",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "money has declared supported currency and nonnegative amount",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    },
+    {
+      "check": "synthetic evaluations have no fabricated human labels",
+      "passed": true,
+      "error_count": 0,
+      "examples": []
+    }
+  ],
+  "all_passed": true,
+  "event_count": 688,
+  "countries_or_territories": 72,
+  "historical_count": 650,
+  "future_or_current_count": 38,
+  "end_date_max": "2027-11-30",
+  "table_count": 66
+}

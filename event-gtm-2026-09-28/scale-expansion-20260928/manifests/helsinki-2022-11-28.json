@@ -1,0 +1,23 @@
+{
+  "source": "Helsinki Linked Events",
+  "source_documentation": "https://avoindata.suomi.fi/data/en_GB/dataset/linked-events-tapahtumarajapinta",
+  "window_start_inclusive": "2022-11-28",
+  "window_end_exclusive": "2022-12-28",
+  "target_records": 500,
+  "kept_leaf_records": 500,
+  "raw_records": 1000,
+  "excluded": {
+    "parent_series": 243,
+    "outside_start_window_or_invalid": 164,
+    "over_quota_in_last_page": 93
+  },
+  "pages": 10,
+  "server_matching_count": 2837,
+  "next_url": "https://api.hel.fi/linkedevents/v1/event/?end=2022-12-28&include=location%2Ckeywords&page=10&page_size=100&sort=start_time&start=2022-11-28",
+  "batch_path": "batches/helsinki-2022-11-28.jsonl.gz",
+  "batch_sha256": "b217887ea9d26a9cdaac26bfd08c4d54c545a09101fadd28a0b7b6f215c4e836",
+  "updated_at": "2026-09-28T15:46:46.463699+00:00",
+  "complete_census": false,
+  "sampling": "first qualifying 500 records per rolling month, chronological; configurable",
+  "status": "quota_reached"
+}

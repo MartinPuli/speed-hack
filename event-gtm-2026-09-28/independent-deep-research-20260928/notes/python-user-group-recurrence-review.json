@@ -1,0 +1,186 @@
+[
+  {
+    "DTSTART": "20250426T093000Z",
+    "DTEND": "20250426T164500Z",
+    "RRULE": "FREQ=DAILY;UNTIL=20250426T215959Z",
+    "UID": "hli0kj8hcmj9ummjntsklu4g1c@google.com",
+    "CREATED": "20240722T151006Z",
+    "description_urls": [
+      "https://djangogirls.org/en/ho/"
+    ],
+    "LAST-MODIFIED": "20240722T151129Z",
+    "LOCATION": "Ho, Ghana",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "Django Girls Ho, 2025",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20240902T190000",
+    "DTSTART_params": "TZID=Europe/Berlin",
+    "DTEND": "20240902T210000",
+    "DTEND_params": "TZID=Europe/Berlin",
+    "RRULE": "FREQ=MONTHLY;BYDAY=1MO",
+    "UID": "cc8ad320-32a3-4cbf-9c1c-0a2e63d150c3",
+    "CREATED": "20240817T151812Z",
+    "description_urls": [
+      "https://pybodensee.com/meetups/"
+    ],
+    "LAST-MODIFIED": "20240817T151812Z",
+    "LOCATION": "Wangen im Allgaeu, Germany",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "PyBodensee Monthly Meetup",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20250520T183000",
+    "DTSTART_params": "TZID=Europe/Berlin",
+    "DTEND": "20250520T200000",
+    "DTEND_params": "TZID=Europe/Berlin",
+    "RRULE": "FREQ=MONTHLY;BYDAY=3TU",
+    "UID": "b67a63b5-4e8c-4c82-97ae-c3fc2d16f92d",
+    "CREATED": "20250430T121821Z",
+    "description_urls": [
+      "https://www.meetup.com/de-de/koln-django-meetup-gruppe/"
+    ],
+    "LAST-MODIFIED": "20250430T121821Z",
+    "LOCATION": "Cologne, Germany",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "DjangoCologne",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20240910T183000",
+    "DTSTART_params": "TZID=America/Mexico_City",
+    "DTEND": "20240910T203000",
+    "DTEND_params": "TZID=America/Mexico_City",
+    "RRULE": "FREQ=MONTHLY;BYDAY=2TU",
+    "UID": "b98ca23a-60ff-487b-9ce6-bfec6a5ebb94",
+    "CREATED": "20240817T152836Z",
+    "description_urls": [
+      "https://www.meetup.com/python-mexico/"
+    ],
+    "LAST-MODIFIED": "20240817T152836Z",
+    "LOCATION": "Juarez, Cuahutemoc, Mexiko",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "Python CDMX",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20250425T093000Z",
+    "DTEND": "20250425T164500Z",
+    "RRULE": "FREQ=DAILY;UNTIL=20250425T215959Z",
+    "UID": "6m8bggvmu101qetac88j57p577@google.com",
+    "CREATED": "20240722T151006Z",
+    "description_urls": [
+      "https://djangogirls.org/en/ho/"
+    ],
+    "LAST-MODIFIED": "20240722T151147Z",
+    "LOCATION": "Ho, Ghana",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "Django Girls Ho, 2025",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20250614T090000Z",
+    "DTEND": "20250614T113000Z",
+    "RRULE": "FREQ=DAILY;UNTIL=20250616T090000Z",
+    "UID": "b6c2d873-7547-43cf-a5be-9ac5b9ef9cfd",
+    "CREATED": "20250425T102515Z",
+    "description_urls": [
+      "https://pythonniger.org/events"
+    ],
+    "LAST-MODIFIED": "20250425T102515Z",
+    "LOCATION": "Agadez, Niger",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "Python Fundamentals for Data Analysis (PyAgadez)",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20250221T080000",
+    "DTSTART_params": "TZID=Africa/Lagos",
+    "DTEND": "20250221T160000",
+    "DTEND_params": "TZID=Africa/Lagos",
+    "RRULE": "FREQ=DAILY;UNTIL=20250322T225959Z;INTERVAL=2",
+    "UID": "0c6j3c27pduvkkmjq197j15ues@google.com",
+    "CREATED": "20250204T132127Z",
+    "description_urls": [
+      "https://codecampus.com.ng/python-weekend/"
+    ],
+    "LAST-MODIFIED": "20250204T132303Z",
+    "LOCATION": "Abuja, Federal Capital Territory, Nigeria",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "Python Weekend Abuja",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20230111T190000",
+    "DTSTART_params": "TZID=Europe/Berlin",
+    "DTEND": "20230111T210000",
+    "DTEND_params": "TZID=Europe/Berlin",
+    "RRULE": "FREQ=MONTHLY;BYDAY=2WE",
+    "UID": "e5ce622a-a16a-450d-9caf-5c8e66f9645e",
+    "CREATED": "20230110T120629Z",
+    "description_urls": [
+      "https://www.meetup.com/pyCologne/"
+    ],
+    "LAST-MODIFIED": "20230425T170539Z",
+    "LOCATION": "Köln, Germany",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "pyCologne User Group Treffen",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20250826T193000",
+    "DTSTART_params": "TZID=America/Jamaica",
+    "DTEND": "20250826T203000",
+    "DTEND_params": "TZID=America/Jamaica",
+    "RRULE": "FREQ=MONTHLY;BYDAY=-1TU",
+    "UID": "6t6ih1g285fdj19jh2ps0un16f@google.com",
+    "CREATED": "20250822T095320Z",
+    "description_urls": [
+      "https://www.meetup.com/pythonswfl/"
+    ],
+    "LAST-MODIFIED": "20250822T095321Z",
+    "LOCATION": "online",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "Python Southwest Florida (PySWFL)",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  },
+  {
+    "DTSTART": "20241113T183000",
+    "DTSTART_params": "TZID=Europe/Dublin",
+    "DTEND": "20241113T203000",
+    "DTEND_params": "TZID=Europe/Dublin",
+    "RRULE": "FREQ=MONTHLY;BYDAY=2WE",
+    "UID": "e8f96d80-fcf9-47a7-af08-6274f4ce9411",
+    "CREATED": "20241016T191727Z",
+    "description_urls": [
+      "https://www.meetup.com/pythonireland/"
+    ],
+    "LAST-MODIFIED": "20241016T191727Z",
+    "LOCATION": "Dublin, Ireland",
+    "STATUS": "CONFIRMED",
+    "SUMMARY": "Python Ireland Monthly Meetup",
+    "source_url": "https://www.google.com/calendar/ical/3haig2m9msslkpf2tn1h56nn9g@group.calendar.google.com/public/basic.ics",
+    "seed_url": "https://www.python.org/events/python-user-group/",
+    "calendar_kind": "python-user-group"
+  }
+]

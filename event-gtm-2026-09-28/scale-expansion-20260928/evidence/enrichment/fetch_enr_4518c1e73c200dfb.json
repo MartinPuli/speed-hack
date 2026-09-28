@@ -1,0 +1,14 @@
+{
+  "fetch_id": "fetch_enr_4518c1e73c200dfb",
+  "source_url": "https://valkey.io/",
+  "final_url": "https://valkey.io/",
+  "observed_at": "2026-09-28T15:48:06.188676+00:00",
+  "http_status": 200,
+  "content_sha256": "bb720602541fee36f3b2360ca508313f560cd6c2c8ab9ac62ffeac9d9d0eb38e",
+  "bytes": 62875,
+  "content_type": "text/html; charset=utf-8",
+  "robots_status": 200,
+  "robots_decision": "allowed",
+  "attempts": 1,
+  "prior_error": null
+}
