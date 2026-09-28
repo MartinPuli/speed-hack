@@ -24,29 +24,6 @@ GrowthX hands that job to a team of agents:
 
 Nothing irreversible happens without a human. The agents never send email, buy a sponsorship or publish a registration.
 
-## Architecture
-
-```mermaid
-flowchart TB
-  U["Browser: React UI"] --> W["Cloudflare Worker<br/>API and static assets"]
-  W --> DO[("SQLite Durable Object<br/>one per session")]
-  DO -->|"alarms run queued tasks"| D["Task dispatcher"]
-  D --> BB["Brainbase agent threads<br/>Claude"]
-  BB -->|"tool calls"| T["GrowthX tools<br/>validated schemas"]
-  T --> DO
-  T --> CAT[("Event catalog snapshot<br/>read-only")]
-  T --> TASTE["Taste Labs Brand API"]
-  R["Python research pipelines"] --> RDB[("Research SQLite<br/>21,747 event editions")]
-  RDB -->|"export upcoming tech events"| CAT
-```
-
-- **Coordination through state, not chat.** Agents never call each other directly. Each task ends with a structured result and can queue one follow-up task for another role, so every handoff is a stored record that the UI shows as a live timeline.
-- **Durable by default.** Each session gets its own SQLite Durable Object holding the brief, tasks, opportunities, evidence, draft revisions and activity. Durable Object alarms run the queued tasks, so work survives restarts and failed tasks can be retried.
-- **Agents decide, code enforces.** Each role runs as a managed Brainbase thread backed by Claude. The tools run inside GrowthX, where they validate inputs, check evidence IDs against the catalog and cap tasks, tool calls and retries.
-- **Evidence first.** The catalog comes from open-licensed sources (confs.tech, conferences.computer.science, Helsinki Linked Events). Every record keeps its source IDs. The app reads it in read-only mode.
-
-For local development, the same agent runtime runs in a Next.js app with a separate queue worker that calls the Anthropic API directly.
-
 ## Repository
 
 | Path | What it holds |
