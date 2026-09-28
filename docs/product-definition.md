@@ -68,6 +68,7 @@ Cada oportunidad tiene **razón para actuar, evidencia, responsable, siguiente p
    - Al volver, el usuario aterriza en su workspace con lo que cambió desde la última visita.
 2. **Mini onboarding.**
    - Del website se extraen nombre, producto, audiencia, industria, mercados y señales de marca propuestos. El usuario los corrige.
+   - Un campo opcional de objetivo en texto libre.
    - Máximo cuatro preguntas:
      1. Qué resultado importa ahora (clientes, alianzas, contratación, comunidad, lanzamiento).
      2. A quién quiere en la sala.
@@ -112,6 +113,30 @@ Cada oportunidad tiene **razón para actuar, evidencia, responsable, siguiente p
 - **Ubicación:**
   - Los eventos online van en la lista, no en coordenadas inventadas.
   - Si solo se conoce la ciudad, se muestra un área a nivel de ciudad marcada "ubicación aproximada". Nunca un pin de recinto inventado.
+  - El corpus inicial no trae coordenadas de recinto: los pines precisos requieren un paso real de geocodificación y verificación.
+- **Legibilidad:**
+  - Los puntos densos se agrupan en clusters; nunca burbujas gigantes superpuestas.
+  - Filtros por ciudad, periodo, tipo de evento y presupuesto.
+- **Tarjeta al hacer clic:** una sola, excelente, con:
+  - título y portada;
+  - fecha y ubicación verificadas;
+  - por qué importa *para esta empresa*;
+  - enlaces de evidencia y desconocidos;
+  - gasto esperado si se conoce;
+  - una única acción principal: **Explorar plan** o **Crear mi evento**.
+
+## Taste como función del producto
+
+- **El website sirve para dos cosas:** entender el negocio y capturar la identidad visual.
+- **Taste Labs Brand API (P1):** extrae logo, paleta, tipografía y otras señales de marca, y puede verificar que se respeten.
+  - La extracción puede tardar minutos. Primero se renderizan el mapa y una vista previa neutra, y la marca se aplica cuando llega.
+  - Si la API no está disponible, se usa un tema neutro diseñado a propósito, nunca gradientes aleatorios ni assets de marca inventados.
+- **Reglas de diseño:**
+  - Tipografía: una display fuerte y una de lectura.
+  - Paleta sobria y fotografía de eventos o gráficos editoriales creíbles.
+  - Pocos controles visibles y estados vacío, carga y error cuidados.
+  - Sin métricas falsas, avatares de stock ni burbujas de chat interminables.
+- **Resultado esperado:** la vista previa del evento se siente compartible y el mapa se mantiene calmo y legible.
 
 ## El equipo autónomo
 
@@ -124,7 +149,7 @@ Cada rol es un trabajador real con herramientas acotadas, estado compartido y la
 | **Opportunity Strategist** | Elegir entre asistir, patrocinar, hablar u organizar; explicar el encaje | Leer brief, candidatos, historial y restricciones | Propuesta de acción ordenada con razones |
 | **Partnerships Agent** | Conversaciones con organizadores, cohosts y sponsors | Leer canales de contacto verificados; redactar outreach; procesar respuestas | Plan de contacto, mensaje propuesto y resumen de la respuesta |
 | **Event Producer** | Concepto y ejecución del evento propio | Leer marca, brief e investigación; editar el borrador y las tareas | Borrador local listo para Luma y brief privado |
-| *Learning Agent* | *Después del MVP* | Decisiones y resultados explícitos del usuario | Preferencias actualizadas |
+| **Learning Agent** *(después del MVP)* | Feedback y resultados | Leer decisiones explícitas del usuario y resultados de campañas | Preferencias actualizadas y registro de evaluación |
 
 **Mecánica:**
 - **Tareas y despacho:**
@@ -192,26 +217,28 @@ El workspace se deriva de la sesión autenticada.
 | Respuesta entrante que cambia el plan | **Falta** |
 | Estudio del evento y borrador local para Luma | **Falta**; hay un patrón de exportación en `web/lib/drafts/export.ts` |
 
-## Catálogo inicial para la demo (SF y alrededores)
+## Catálogo inicial para la demo (Área de la Bahía)
 
-Estos son los candidatos reales del dataset con fecha entre octubre de 2026 y marzo de 2027, consultados el 28-sep-2026:
+Estos son los candidatos reales del Área de la Bahía en el dataset con fecha entre octubre de 2026 y marzo de 2027, consultados el 28-sep-2026:
 
 | ID | Fecha | Evento | Ciudad | Fuente | Modalidad |
 |---|---|---|---|---|---|
 | `evt_9da972220c78ac0f` | 2026-10-03 | PyBay 2026 | San Francisco | inherited · [pybay.org](https://pybay.org/) | presencial (inferida) |
-| `evt2_488feb4ea13a8d9c37e22f7a` | 2026-10-14 | FLOCK – The Autonomous-Ops Summit by NeuBird AI | San Francisco | confs-tech · [goflock.ai](https://www.goflock.ai) | sin especificar |
+| `evt2_488feb4ea13a8d9c37e22f7a` | 2026-10-14 | FLOCK - The Autonomous-Ops Summit by NeuBird AI | San Francisco | confs-tech · [goflock.ai](https://www.goflock.ai) | sin especificar |
 | `evt2_f93ab62e26178df8e9a33f97` | 2026-10-17 | MIT AI Conference | Mountain View | confs-tech · [mitaiconference.org](https://www.mitaiconference.org) | sin especificar |
-| `evt2_dcb2c9c0886e36953b85d667` | 2026-10-26 | KubeCon + CloudNativeCon North America | Los Ángeles | confs-tech · [linuxfoundation.org](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america-2026) | sin especificar |
 | `evt2_70e4b620a766798264c91d9c` | 2026-10-27 | SEV0 | San Francisco | confs-tech · [sev0.com](https://sev0.com) | sin especificar |
 | `evt2_875de1f6b99c2a50b7e51e6d` | 2026-11-02 | Open Source Analytics Conference | San Francisco | confs-tech · [osacon.io](https://osacon.io) | **online** (va en la lista, no en el mapa) |
 | `evt2_4f630a01f3ab3c5276259bfb` | 2026-11-09 | Gerrit User Summit | San Francisco | confs-tech · [gus26.gerritforge.com](https://gus26.gerritforge.com) | sin especificar |
 | `evt2_645b6b3ce4f50eebb8c768f8` | 2027-02-09 | Developer Week | Santa Clara | confs-tech · [developerweek.com](https://www.developerweek.com) | sin especificar |
-| `evt2_3601dd31ef3c019079c85132` | 2026-10-03 | ISSTA 2026 (académico) | Oakland | computer-science · [researchr.org](https://conf.researchr.org/home/issta-2026) | sin especificar |
+| `evt2_3601dd31ef3c019079c85132` | 2026-10-03 | 35th International Symposium on Software Testing and Analysis (ISSTA 2026, académico) | Oakland | computer-science · [researchr.org](https://conf.researchr.org/home/issta-2026) | sin especificar |
 
 **Cómo usar este catálogo:**
-- Todos arrancan en **ámbar**. Salvo PyBay, que viene de la investigación heredada, provienen de listados comunitarios con estado `listed_occurrence_unconfirmed` y sin recinto geocodificado.
+- Todos arrancan en **ámbar**, y ninguno tiene recinto geocodificado.
+  - PyBay viene de la investigación heredada, con estado `announced` y dirección publicada sin geocodificar.
+  - El resto proviene de listados comunitarios o académicos con estado `listed_occurrence_unconfirmed`. ISSTA solo tiene el centroide de la ciudad; los de confs-tech no tienen ubicación.
 - Pasan a **verde** solo cuando el Scout abre la web oficial y confirma fecha y ubicación. Esa verificación real es parte de la demo.
 - Ninguno tiene sponsors registrados en el dataset. El historial de sponsors (PyCon US, KubeCon JP/IN, FOSDEM, PyCon AU) sirve para investigar posibles co-sponsors, **no** como prueba de interés.
+- En California pero fuera del filtro SF: KubeCon + CloudNativeCon North America (`evt2_dcb2c9c0886e36953b85d667`, Los Ángeles, 26-oct) y PyBeach 2026 (`evt_fa0ae2541f8d36ea`, Santa Monica, 24-oct).
 - **Límite del catálogo:** 21.749 ediciones, pero el 81 % son actividades municipales de Helsinki. El estrato tech tiene unas 4.100 y solo 269 son futuras. No se afirma cobertura universal.
 
 ## Alcance
@@ -256,8 +283,8 @@ Estos son los candidatos reales del dataset con fecha entre octubre de 2026 y ma
 
 1. "Pegamos el website de una startup y le dimos un objetivo a nuestro equipo de event growth: conocer compradores de infraestructura de IA en SF."
 2. En el mapa se ven un evento verde verificado y un concepto violeta. Clic en la oportunidad más fuerte: su razón respaldada por la fuente.
-3. El GTM Lead asigna tareas distintas a Scout, Partnerships y Producer. Se abre la vista previa del evento y su texto listo para Luma.
-4. Se dispara la respuesta del organizador: el patrocinio supera el presupuesto, pero hay un workshop disponible. Cambian las tareas y la recomendación, el marcador pasa a azul y el borrador se actualiza.
+3. El GTM Lead asigna tareas distintas a Scout, Partnerships y Producer, y la oportunidad pasa a azul (plan activo). Se abre la vista previa del evento y su texto listo para Luma.
+4. Se dispara la respuesta del organizador: el patrocinio supera el presupuesto, pero hay un workshop disponible. Cambian las tareas y la recomendación, y se actualizan el marcador azul y el borrador.
 5. Recarga: el equipo, la decisión y el borrador persisten. Cierre: "Este equipo sigue trabajando entre visitas."
 
 ## Reglas de honestidad
@@ -265,7 +292,7 @@ Estos son los candidatos reales del dataset con fecha entre octubre de 2026 y ma
 - Ninguna pantalla dice que se envió un email, que un sponsor se comprometió, que se reservó un recinto o que se creó un evento en Luma, salvo que haya ocurrido.
 - Si la respuesta del organizador es simulada, la interfaz lo indica.
 - Un evento propio siempre se etiqueta como propuesta, nunca como listado confirmado.
-- La API de Luma crea eventos y no documenta un estado de borrador. Por eso el borrador es **local**. "Crear en Luma" necesita las credenciales del usuario, los campos obligatorios (`name`, `start_at`, `timezone`), revisión del payload exacto y autorización explícita.
+- La API de Luma crea eventos y no documenta un estado de borrador. Por eso el borrador es **local**. "Crear en Luma" necesita las credenciales del usuario, los campos obligatorios de la API, revisión del payload exacto y autorización explícita. Según la revisión documental de la investigación, esos campos son `name`, `start_at` y `timezone`; hay que reconfirmarlos en la [Create Event API](https://docs.luma.com/reference/post_v1-events-create) antes de integrar.
 - Las cifras que aparezcan en la demo se leen del manifiesto correspondiente.
 
 ## Checklist de aceptación
@@ -274,9 +301,10 @@ Estos son los candidatos reales del dataset con fecha entre octubre de 2026 y ma
 - [ ] Un usuario que vuelve aterriza en su workspace guardado.
 - [ ] El color y el tamaño de los marcadores tienen significados separados y legibles; no hay coordenadas inventadas.
 - [ ] Al menos un evento real del catálogo tiene URL de fuente y fecha de verificación.
-- [ ] El evento propio aparece como propuesta.
+- [ ] El evento propio aparece como propuesta, nunca como listado confirmado.
 - [ ] Los roles crean y consumen tareas persistidas, y una respuesta entrante cambia la tarea de otro agente y el plan visible.
 - [ ] Las ediciones del borrador sobreviven a una recarga y producen un paquete usable para Luma.
+- [ ] Ninguna pantalla dice que se envió un email, que un sponsor se comprometió, que se reservó un recinto o que se creó un evento en Luma, salvo que haya ocurrido.
 
 ## Decisiones abiertas
 
