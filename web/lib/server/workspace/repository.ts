@@ -391,6 +391,28 @@ export function retryFailedRun(workspaceId: string, runId: string): AgentRun {
   });
 }
 
+/** Import recorded outputs for the explicitly selected prepared demo; never execute them as new work. */
+export function recordPreparedDemoRun(workspaceId: string, key: string, sourceRunId: string, tasks: {
+  role: WorkspaceAgentRole; objective: string; result: unknown; opportunityId: string | null;
+  sourceTaskId: string; sourceThreadId?: string; completedAt: string;
+}[]): AgentRun {
+  requireWorkspace(workspaceId);
+  return withTransaction(() => {
+    const existing = row<Record<string, unknown>>(db().prepare('SELECT * FROM runs WHERE workspace_id = ? AND idempotency_key = ?').get(workspaceId, key));
+    if (existing) return mapRun(existing);
+    const snapshot = readWorkspaceSnapshot(workspaceId);
+    const runId = id('run'); const timestamp = now();
+    db().prepare(`INSERT INTO runs(id, workspace_id, status, brief_version, idempotency_key, created_at, updated_at) VALUES(?, ?, 'succeeded', ?, ?, ?, ?)`).run(runId, workspaceId, snapshot.briefVersion, key, timestamp, timestamp);
+    insertEvent(workspaceId, { runId, role: 'system', kind: 'demo.loaded', message: 'Prepared examples from real Brainbase and Taste runs. No new agent run was started.', metadata: { sourceRunId, prepared: true } });
+    for (const item of tasks) {
+      const task = insertTask(workspaceId, { runId, assignedRole: item.role, objective: item.objective, opportunityId: item.opportunityId, inputRefs: [`brief:${snapshot.briefVersion}`] });
+      db().prepare(`UPDATE tasks SET status = 'succeeded', result_json = ?, updated_at = ? WHERE id = ?`).run(JSON.stringify(item.result), timestamp, task.id);
+      insertEvent(workspaceId, { runId, opportunityId: item.opportunityId, role: item.role, kind: 'brainbase.archived', message: 'Loaded a completed example from Brainbase.', metadata: { threadId: item.sourceThreadId ?? null, sourceTaskId: item.sourceTaskId, completedAt: item.completedAt, prepared: true } });
+    }
+    return mapRun(row<Record<string, unknown>>(db().prepare('SELECT * FROM runs WHERE id = ?').get(runId))!);
+  });
+}
+
 export function createTask(workspaceId: string, input: CreateTaskInput): AgentTask {
   requireWorkspace(workspaceId);
   return withTransaction(() => insertTask(workspaceId, input));

@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { workspaceHeaders } from '@/lib/client/workspace-request';
 import { Copy, Download, MapPin, Users, Image as ImageIcon, Lamp, Utensils, Wallet } from 'lucide-react';
 import type { CompanyBrand } from '@/lib/contracts/company-brand';
 import type { EventDraftFields, EventDraftRecord, WorkspaceOpportunity, WorkspaceSnapshot } from '@/lib/contracts/agent-workspace';
@@ -18,7 +19,7 @@ export function teamOutput(workspace: WorkspaceSnapshot | null, opportunityId?: 
     const draft = result?.toolCalls?.outreachDrafts?.[0];
     if (typeof draft?.body === 'string') { outreach = `${draft.subject ?? ''}\n\n${draft.body}${draft.questions?.length ? `\n\n${draft.questions.map((question, index) => `${index + 1}. ${question}`).join('\n')}` : ''}`.trim(); break; }
   }
-  return { previewUrl: typeof url === 'string' && /^\/preview\/[a-f0-9]+$/.test(url) ? url : undefined, outreach };
+  return { previewUrl: typeof url === 'string' && /^\/(?:demo\/)?preview\/[a-f0-9]+$/.test(url) ? (typeof window !== 'undefined' && window.location.pathname === '/demo' && url.startsWith('/preview/') ? `/demo${url}` : url) : undefined, outreach };
 }
 const actionLabel = (action: WorkspaceOpportunity['action']) => action === 'host' ? 'Create' : action === 'sponsor' ? 'Partner' : 'Explore';
 export function TeamCard({ opportunity, draft, brand, onClick }: { opportunity: WorkspaceOpportunity; draft?: EventDraftRecord; brand: CompanyBrand | null; onClick: () => void }) {
@@ -68,7 +69,7 @@ export function TeamDetails({ opportunity, draft, brand, previewUrl, outreach, o
     if (!fields) return;
     setBusy(true);
     try {
-      const response = await fetch('/api/event-design', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ opportunityId: opportunity.id, draft: fields }) });
+      const response = await fetch('/api/event-design', { method: 'POST', headers: { ...workspaceHeaders(), 'Content-Type': 'application/json' }, body: JSON.stringify({ opportunityId: opportunity.id, draft: fields }) });
       const data = await response.json(); if (!response.ok) throw new Error(data.error); setPageUrl(data.previewUrl); setStatus('Your Taste landing is ready.');
     } catch (error) { setStatus(error instanceof Error ? error.message : 'Could not prepare the page.'); }
     finally { setBusy(false); }

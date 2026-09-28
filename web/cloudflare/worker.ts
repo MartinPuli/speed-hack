@@ -9,6 +9,7 @@ import { TASTE_OPPORTUNITIES } from '../lib/demo/taste-labs';
 import type { ResearchBrief } from '../lib/contracts/event-gtm';
 import type { EventDraftFields } from '../lib/contracts/agent-workspace';
 import { getEventDetail } from './catalog';
+import { loadPreparedDemo } from '../lib/server/prepared-demo';
 
 interface Env {
   ASSETS: Fetcher;
@@ -61,6 +62,10 @@ export class EventWorkspace extends DurableObject<Env> {
           const snapshot = repository.readWorkspaceSnapshot(id);
           if (snapshot.tasks.some(task => ['queued', 'running'].includes(task.status))) await this.ctx.storage.setAlarm(Date.now() + 1000);
           return Response.json({ ...snapshot, modelConfigured: Boolean(this.env.BRAINBASE_API_KEY), provider: 'brainbase', opportunities: snapshot.opportunities.map(item => ({ ...item, event: item.catalogEventId ? getEventDetail(item.catalogEventId) : null })) });
+        }
+        if (path === '/api/demo/plan' && method === 'POST') {
+          const result = loadPreparedDemo(id, request.headers.get('X-GrowthX-Workspace') === 'prepared-demo' ? '/demo/preview' : '/preview');
+          return Response.json({ ...result, workspace: { ...result.workspace, modelConfigured: Boolean(this.env.BRAINBASE_API_KEY), provider: 'brainbase', opportunities: result.workspace.opportunities.map(item => ({ ...item, event: item.catalogEventId ? getEventDetail(item.catalogEventId) : null })) } });
         }
         if (path === '/api/briefs' && method === 'POST') {
           const brief = body.brief as ResearchBrief;
@@ -122,8 +127,9 @@ export class EventWorkspace extends DurableObject<Env> {
           if (opportunityId && !stored) throw new TypeError('Save the event draft first.');
           const fields: EventDraftFields = stored?.fields ?? { title: draft.title, description: draft.description, audience: draft.audience, format: 'Proposed event', agenda: '', host: brand.name, cta: 'Registration not open', date: draft.date ? `${draft.date} · proposed` : '', timezone: '', location: draft.venue ? `${draft.venue} · unconfirmed` : '', productionBrief: design.enhancedPrompt, sourceRefs: [brand.sourceUrl] };
           const preview = repository.provisionEventPreview(id, { opportunityId, fields, brand, design });
-          if (opportunityId) { const run = repository.readWorkspaceSnapshot(id).runs[0]; if (run) repository.appendTimelineEvent(id, { runId: run.id, opportunityId, role: 'producer', kind: 'preview.provisioned', message: 'A Taste event landing is ready.', metadata: { url: `/preview/${preview.id}`, visibility: 'private' } }); }
-          return Response.json({ design, brand, previewUrl: `/preview/${preview.id}` });
+          const previewUrl = `${request.headers.get('X-GrowthX-Workspace') === 'prepared-demo' ? '/demo' : ''}/preview/${preview.id}`;
+          if (opportunityId) { const run = repository.readWorkspaceSnapshot(id).runs[0]; if (run) repository.appendTimelineEvent(id, { runId: run.id, opportunityId, role: 'producer', kind: 'preview.provisioned', message: 'A Taste event landing is ready.', metadata: { url: previewUrl, visibility: 'private' } }); }
+          return Response.json({ design, brand, previewUrl });
         }
         return Response.json({ error: 'This action is unavailable.' }, { status: 404 });
       } catch (error) {
@@ -175,7 +181,8 @@ export default {
       return Response.json({ demoMode: true, expiresAt: new Date(expiration).toISOString() }, { headers: { 'Set-Cookie': `${COOKIE}=${value}.${await sign(value, env.SESSION_SECRET)}; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=2592000`, 'Cache-Control': 'no-store' } });
     }
     if (!existing) return Response.json({ error: 'Open your workspace to continue.' }, { status: 401 });
-    const response = await env.WORKSPACES.getByName(existing).handle(request);
+    const namespace = request.headers.get('X-GrowthX-Workspace') === 'prepared-demo' ? `${existing}:prepared` : existing;
+    const response = await env.WORKSPACES.getByName(namespace).handle(request);
     response.headers.set('Cache-Control', 'no-store');
     return response;
   },

@@ -1,5 +1,6 @@
 'use client';
 import { useCallback, useEffect, useRef, useState } from 'react';
+import { workspaceHeaders } from '@/lib/client/workspace-request';
 import type { CompanyBrand } from '@/lib/contracts/company-brand';
 import type { EventDraftFields, EventDraftRecord, WorkspaceSnapshot } from '@/lib/contracts/agent-workspace';
 import type { EventDraft, TasteOpportunity } from '@/lib/demo/taste-labs';
@@ -7,12 +8,12 @@ export type TeamBrief = { website: string; goal: string; audience: string; budge
 async function api<T>(url: string, body?: unknown, method?: string): Promise<T> {
   const verb = method ?? (body ? 'POST' : 'GET');
   const liveUrl = verb === 'GET' ? `${url}${url.includes('?') ? '&' : '?'}_refresh=${Date.now()}` : url;
-  const response = await fetch(liveUrl, { method: verb, cache: 'no-store', headers: body ? { 'Content-Type': 'application/json' } : undefined, body: body ? JSON.stringify(body) : undefined });
+  const response = await fetch(liveUrl, { method: verb, cache: 'no-store', headers: { ...workspaceHeaders(), ...(body ? { 'Content-Type': 'application/json' } : {}) }, body: body ? JSON.stringify(body) : undefined });
   const data = await response.json();
   if (!response.ok) throw new Error(data.error || 'The event team could not complete that request.');
   return data as T;
 }
-export function useEventTeam() {
+export function useEventTeam(preparedDemo = false) {
   const [workspace, setWorkspace] = useState<WorkspaceSnapshot | null>(null);
   const [brand, setBrand] = useState<CompanyBrand | null>(null);
   const [error, setError] = useState('');
@@ -32,11 +33,12 @@ export function useEventTeam() {
   useEffect(() => {
     let cancelled = false;
     void ensure().then(async () => {
-      const [snapshot, branding] = await Promise.all([api<WorkspaceSnapshot>('/api/workspace'), api<{ brand: CompanyBrand | null }>('/api/brand')]);
+      const result = preparedDemo ? await api<{ workspace: WorkspaceSnapshot; brand: CompanyBrand }>('/api/demo/plan', {}) : null;
+      const [snapshot, branding] = result ? [result.workspace, { brand: result.brand }] : await Promise.all([api<WorkspaceSnapshot>('/api/workspace'), api<{ brand: CompanyBrand | null }>('/api/brand')]);
       if (!cancelled) { setWorkspace(snapshot); setBrand(branding.brand); const current = snapshot.runs.find(run => ['queued', 'running'].includes(run.status)); if (current) { activeRun.current = current.id; setRunning(true); } setMapping(Object.fromEntries(snapshot.opportunities.flatMap(item => { const ref = item.evidenceIds.find(value => value.startsWith('research:taste:')); return ref ? [[ref.replace('research:taste:', ''), item.id]] : []; }))); }
     }).catch(error => { if (!cancelled) setError(error.message); });
     return () => { cancelled = true; };
-  }, [ensure]);
+  }, [ensure, preparedDemo]);
   useEffect(() => {
     if (brand?.status !== 'pending') return;
     const timer = setInterval(() => { void api<{ brand: CompanyBrand | null }>('/api/brand').then(result => setBrand(result.brand)).catch(error => setError(error.message)); }, 6000);
