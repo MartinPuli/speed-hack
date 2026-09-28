@@ -12,7 +12,7 @@ Live: https://growthx-event-team.mpulitano1701.workers.dev/
 GrowthX: your autonomous event team
 
 **Elevator pitch** (≤200 chars)
-Paste your company's website. A team of four agents on Brainbase plans an original event, designs it with your brand, finds events to sponsor and drafts the outreach. Live on Cloudflare.
+Events need taste. Paste your website and a team of agents plans events that fit your brand and budget: venue, guests, experience, sponsors and a landing page, ready for Luma.
 
 **Track:** Autonomous Organizations
 
@@ -31,7 +31,9 @@ brainbase, anthropic, claude, cloudflare-workers, durable-objects, taste-labs-br
 ## 2. About the project (Markdown for Devpost)
 
 ### Inspiration
-Startups spend thousands of dollars a quarter on events, and most of those choices come from stale directories, a sponsor logo wall and a hunch. Doing it properly takes a growth person days: finding which rooms actually have your buyers, what they really cost, who to contact, and what to host yourself. Listing events is already a commodity. Deciding what to do, backing it with evidence and then acting on it is not. We wanted to hand that job to a team of agents.
+I'm Martín. I organize events twice a month in Argentina and I've attended hundreds. At the events I run, sponsors were always the weak point. Sometimes 100 people show up and the budget doesn't even cover the food. Or a company spends $25,000 on a sponsorship and doesn't win a single new user. Maybe that's your case too.
+
+Events need **taste**. A cybersecurity hackathon in a military-base museum is not the same as one in a café. So we built GrowthX: **the intelligence and taste layer for event creation.**
 
 ### What it does
 GrowthX is an event growth team made of agents.
@@ -125,7 +127,7 @@ Most of the difficulty in agent autonomy is in the runtime around the model: get
 - **Slack/Linear:** agents post tasks and ask for approvals where the growth team already works.
 - **Native publishing:** Luma and Eventbrite, after a human approves.
 - **Accounts** and a broader catalog that updates continuously.
-- **Business model** (hypothesis): about $299 per month per company for a continuous event radar plus drafts, and later a success fee on sponsorships we negotiate. Our cost model estimates about $0.14 of model and search cost per research workflow, against about $6.67 of equivalent human review time.
+- **Business model:** a $50/month subscription, charged through Stripe. We haven't built the checkout yet. We spent the day talking to event organizers, and several were interested.
 
 ---
 
@@ -138,13 +140,13 @@ Most of the difficulty in agent autonomy is in the runtime around the model: get
 
 | Time | On screen | What we say |
 |---|---|---|
-| 0:00–0:15 | **Team on camera** | "We're [names]. Startups spend thousands on events chosen from a hunch. Today we built GrowthX: an event growth team made of agents." |
-| 0:15–0:40 | Live URL → website → **Build my event plan** → brief (goal, room, budget) → **See my event plan** | "You paste your website, and Taste reads your brand. Goal, who you want in the room, budget. From here, we don't click anything." |
-| 0:40–1:15 | Empty plan "Shaping your first event…" → **Your crew** → agents go Up next → Working → Done; expand **Brainbase session**; **Activity** timeline; cards and pins appear | "The plan starts empty. Everything you'll see is made by four agents on Brainbase, running on Cloudflare. Noa decides what to do and proposes an original event. Ari designs it with Taste. Atlas searches our event catalog and can only save something with evidence. June prepares the sponsorship inquiry. Each handoff is a persisted task, and if something fails, we retry without losing work." |
-| 1:15–1:45 | "Create" card → **Experience** tab (The setting, The people, The feeling, The image, The table, The budget) → **Edit draft** (change one line) → **Save changes** → **Share** → **Update landing from draft** → **Open landing** | "This is the event Ari designed: the setting, the people, the feeling, the image, the table, the budget. Every line is editable and versioned. Here's the private landing in the company's brand. Registration isn't open, and nothing is published." |
-| 1:45–2:05 | "Partner" card → **Partnership inquiry** with June's numbered questions + **Sources** → back to the event → **Share** → **Luma** (Copy event details) | "June writes the outreach and the questions for the organizer, but it's never sent without a human. Our event copies to Luma, Eventbrite or Partiful." |
-| 2:05–2:15 | Tap **Find a sponsorship** (starts a new run) | "And you can keep steering it. Any request becomes a new run for the team." |
-| 2:15–2:30 | **Team on camera** | "It's live on Cloudflare right now. Next: a real inbox, Slack, and native publishing. That's GrowthX." |
+| 0:00–0:25 | **Martín on camera** | "I'm Martín. I organize events twice a month in Argentina and I've attended hundreds. Sponsors were always the problem. Sometimes 100 people show up and the budget doesn't cover the food. Or a company spends $25,000 and doesn't win a single new user. Maybe that's your case." |
+| 0:25–0:35 | **Team on camera** | "Events need taste. A cybersecurity hackathon in a military-base museum isn't the same as one in a café. So we built GrowthX, the intelligence and taste layer for event creation." |
+| 0:35–0:50 | Website → **Build my event plan** → brief → **See my event plan** | "You paste your website and add a few details. Here's our example, Taste Labs." |
+| 0:50–1:20 | **Your crew** → Noa, Ari, Atlas and June working, with their Brainbase sessions and activity timeline | "From here the agents are proactive. They analyze your brand and context, then propose. Four agents on Brainbase talk to each other through persisted tasks, all running on Cloudflare." |
+| 1:20–1:50 | "Create" card → **Experience** (The setting, The people, The feeling, The image, The table, The budget) → **Share** → **Open landing** | "They generate the event: date, venue and budget, the ideal guests, the experience, and a landing page in your brand. You can prompt for new ideas or edit anything." |
+| 1:50–2:05 | **Share** → Luma / Eventbrite / Partiful → "Partner" card → **Partnership inquiry** | "It's ready to publish on Luma, Eventbrite or Partiful. And the sponsors they suggest come with evidence, not guesses. Nothing is sent without you." |
+| 2:05–2:30 | **Martín on camera** | "We spent today talking to organizers, and they want this. It'll be $50 a month through Stripe. That's GrowthX: events with taste, within your budget." |
 
 ---
 
