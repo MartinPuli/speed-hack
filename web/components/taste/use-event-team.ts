@@ -5,7 +5,9 @@ import type { EventDraftFields, EventDraftRecord, WorkspaceSnapshot } from '@/li
 import type { EventDraft, TasteOpportunity } from '@/lib/demo/taste-labs';
 export type TeamBrief = { website: string; goal: string; audience: string; budget: string };
 async function api<T>(url: string, body?: unknown, method?: string): Promise<T> {
-  const response = await fetch(url, { method: method ?? (body ? 'POST' : 'GET'), headers: body ? { 'Content-Type': 'application/json' } : undefined, body: body ? JSON.stringify(body) : undefined });
+  const verb = method ?? (body ? 'POST' : 'GET');
+  const liveUrl = verb === 'GET' ? `${url}${url.includes('?') ? '&' : '?'}_refresh=${Date.now()}` : url;
+  const response = await fetch(liveUrl, { method: verb, cache: 'no-store', headers: body ? { 'Content-Type': 'application/json' } : undefined, body: body ? JSON.stringify(body) : undefined });
   const data = await response.json();
   if (!response.ok) throw new Error(data.error || 'The event team could not complete that request.');
   return data as T;
@@ -68,12 +70,14 @@ export function useEventTeam() {
     if (!running) return;
     let cancelled = false;
     let fetching = false;
+    let disconnected = false;
     const timer = setInterval(async () => {
       if (fetching) return;
       fetching = true;
       try {
         const snapshot = await api<WorkspaceSnapshot>('/api/workspace');
         if (cancelled) return;
+        if (disconnected) { setError(''); disconnected = false; }
         setWorkspace(snapshot);
         const run = snapshot.runs.find(item => item.id === activeRun.current);
         if (run && ['succeeded', 'failed', 'waiting_input'].includes(run.status)) {
@@ -84,7 +88,7 @@ export function useEventTeam() {
           const result = final?.result as { summary?: string; outcome?: { summary?: string } } | null;
           setAnswer(result?.summary ?? result?.outcome?.summary ?? 'Your event plan has been updated.');
         }
-      } catch (error) { if (!cancelled) { setError(error instanceof Error ? error.message : 'Could not load the team response.'); setRunning(false); } }
+      } catch { if (!cancelled) { disconnected = true; setError('Reconnecting to your team… Your work continues in the background.'); } }
       finally { fetching = false; }
     }, 2500);
     return () => { cancelled = true; clearInterval(timer); };
