@@ -21,6 +21,7 @@ brainbase, anthropic, claude, cloudflare-workers, durable-objects, taste-labs-br
 
 **Links**
 - Live product: https://growthx-event-team.mpulitano1701.workers.dev/
+- Prepared demo (instant): https://growthx-event-team.mpulitano1701.workers.dev/demo
 - Code: https://github.com/MartinPuli/speed-hack (**make it public first**)
 - Demo video: <YouTube, unlisted>
 - Public post: <link to X/LinkedIn post tagging @BrainbaseHQ>
@@ -56,6 +57,8 @@ In one live run on the deployed app, all five tasks across the four roles succee
 5. Partnerships wrote a private inquiry with eight clarifying questions.
 
 The run then stopped in `waiting_input` for human review.
+
+**Prepared demo:** `/demo` opens instantly on a Taste Labs workspace recorded from our live Brainbase runs today. It includes the real Taste brand extraction and the original task and thread IDs. We edited the short card descriptions and the budget arithmetic for presentation. The crew panel labels this as completed example work, and any new prompt runs live.
 
 Earlier, in a local run with a $2,000 brief, we injected a simulated organizer reply: *"Sponsorship is USD 5,000. We can also offer a workshop, but its price has not been confirmed."* From there no human was involved. Partnerships interpreted the reply, and Lead ruled out the sponsorship as over budget. Lead kept the workshop as a conditional option and listed five open blockers, citing catalog evidence IDs where they existed.
 
@@ -99,6 +102,7 @@ Earlier, in a local run with a $2,000 brief, we injected a simulated organizer r
 - Budgets and venues are proposals until someone confirms them.
 - There are no payments.
 - The example map on the welcome screen is a static sample. The plan itself is built by the agents.
+- The portraits of Noa, Atlas, June and Ari are AI-generated fictional characters.
 
 **Pre-existing code (disclosed):** a MapLibre map component, date utilities, evidence-formatting helpers and CSS come from our earlier public open-source repo ([Julian0444/GrowthX-for-hackaton](https://github.com/Julian0444/GrowthX-for-hackaton), last pushed Sep 17). Everything else was written today: the agent runtime, the Brainbase and Cloudflare integration, the Durable Object workspace, the four roles, the planning UI, the Taste integration and the tests. The first commit in this repo is at 10:45 AM PT. The event dataset was compiled by research scripts on Sep 28.
 
@@ -128,7 +132,7 @@ Most of the difficulty in agent autonomy is in the runtime around the model: get
 ## 3. Demo video script (2:30, team on camera)
 
 **Before recording**
-1. **Start a full run on the live URL now and record it.** A full run takes several minutes, and Noa's first task alone took over 2 min when we tested. Cut the waits and caption each cut, for example "[2 min skipped, real run]".
+1. **Use `/demo` for the walkthrough.** It loads instantly and shows recorded results from our live runs. For the autonomy proof, also record one live prompt on the main URL: a full run takes several minutes, and Noa's first task alone took over 2 min when we tested. Cut the waits and caption each cut, for example "[2 min skipped, real run]". Say on camera that `/demo` is a recording of today's runs.
 2. Use a real website. Taste works with any company. As a backup, "Explore the Taste Labs demo" runs the same live team on tastelabs.com.
 3. Click **Your crew** (top right) to open the "Your event team" panel. Expand each agent's **Brainbase session** so the thread ID shows on camera, and keep the **Activity** timeline in view. That panel is the proof of autonomy.
 
