@@ -1,22 +1,22 @@
 # Plan de implementación de agentes — Event GTM
 
-Estado: actualización al 28 de septiembre de 2026. Base: [revisión del backend](backend-review-20260928.md), [definición del producto](product-definition.md) y [brief](../HACKATHON_BUILD_BRIEF.md). El backend de demo, el worker, los cuatro roles, la respuesta simulada y la UI de actividad están implementados. La configuración local de Anthropic está lista; Lead ya completó una llamada real y se está validando un recorrido nuevo de Lead/Scout tras endurecer sus límites y corregir una respuesta final mal formada.
+Estado de cierre al 28 de septiembre de 2026. Base: [revisión del backend](backend-review-20260928.md), [definición del producto](product-definition.md) y [brief](../HACKATHON_BUILD_BRIEF.md). El usuario cerró el alcance en backend: la conexión con el frontend queda a cargo del equipo y se conserva el diseño de `main`. No se continúa la implementación ni el ensayo del ciclo completo en esta entrega.
 
 ### Estado de implementación
 
-| Área | Estado actual |
+| Área | Estado al cierre |
 |---|---|
-| Persistencia operacional, sesión compartida de demo, brief/versiones, oportunidades, tareas, eventos y borradores | ✅ Implementado en una SQLite separada del catálogo, con migración y control de concurrencia |
+| Persistencia operacional, sesión compartida de demo, brief/versiones, oportunidades, tareas, eventos y borradores | ✅ SQLite separada del catálogo, con migración y control de concurrencia |
 | Worker independiente, reservas, recuperación y reintentos | ✅ Implementado; arranca con `cd web && pnpm worker` |
-| Lead, Scout, Partnerships y Producer con herramientas autorizadas y límites | ✅ Implementado. No se sustituyen respuestas del modelo con actividad falsa |
+| Lead, Scout, Partnerships y Producer con herramientas autorizadas y límites | ✅ Implementados y cubiertos por tests; un solo pase de Scout por run y sin repetir Partnerships para una respuesta interpretada |
 | API de workspace, brief, runs, draft y respuesta simulada | ✅ Implementada. El catálogo conserva acceso de solo lectura |
-| Timeline, plan, propuesta privada y respuesta de demo en la UI | ✅ Implementado |
-| Estados de oportunidad, top 3 y filtro por ciudad | ✅ Implementado en lista y mapa, ordenado por fit guardado por Lead; la calibración comercial requiere evaluación |
-| Llamada real al proveedor y recorrido completo | 🟡 Anthropic configurado; Lead completó una llamada real. Scout tiene presupuesto de 14 herramientas, 12 turnos de modelo, búsqueda limitada a tres candidatos y una corrección acotada para salida final inválida; el recorrido de cuatro roles sigue en validación |
-| Extracción de perfil desde website con edición/confirmación | ⛔ Pendiente; se conserva el brief manual existente |
-| Borrador editable/exportable para Luma, autenticación real, aislamiento multiusuario y deploy persistente | ⛔ Pendiente |
+| Llamadas reales a Anthropic | ✅ Lead, Scout y Partnerships completaron tareas y persistieron resultados |
+| Recorrido real hasta borrador de Producer | 🟡 Pendiente: hubo timeouts y después salida truncada por `max_tokens`, sin `completeTask`; no se persistió un borrador de esa ejecución |
+| Tests, TypeScript y build | ✅ 44/44 tests, typecheck y build de producción aislado |
+| Lint global | 🟡 2 errores preexistentes del frontend en `map-first-workspace.tsx` y `onboarding.tsx`, más 4 avisos de imágenes |
+| Diseño e integración frontend | A cargo del equipo; sin cambios de interfaz en este cierre respecto de `main` |
 
-**Estimación desde este punto:** unas **30–90 minutos** para cerrar el recorrido real con el modelo y ensayar el guion, si no aparecen fallos nuevos; **1–2 jornadas** adicionales para cerrar el P0 con extracción/corrección de perfil, edición/exportación del borrador, autenticación y despliegue. El recorrido con proveedor no se considera validado hasta que el run real complete los roles esperados y deje resultados y eventos persistidos.
+Consulta la [entrega del backend](hackathon-demo.md) para arrancar el worker y consumir las rutas. Las estimaciones, etapas y criterios siguientes conservan el plan original para una integración futura; no afirman que el P0 esté terminado. No se considera validado el ciclo completo con proveedor hasta que Producer finalice y guarde el borrador.
 
 **Propuesta:** construir primero un ciclo completo con cuatro roles, tareas persistentes y una respuesta entrante que cambie el plan y el borrador. Mantener Next.js, el catálogo SQLite de solo lectura y el Event Studio existente. Añadir una segunda SQLite operacional y un worker Node independiente de las peticiones HTTP.
 
@@ -60,7 +60,7 @@ El escenario de USD 5.000 es un fixture controlado del inbox de demo, etiquetado
 | Rol | Responsabilidad | Herramientas disponibles | Resultado persistido |
 |---|---|---|---|
 | Lead + Strategist | Priorizar, elegir acción y asignar siguiente trabajo | `readBrief`, `readOpportunity`, `readTaskResults`, `createTask`, `proposePlan` | Decisión con versión de brief, fuentes, razones breves y siguientes tareas |
-| Scout | Recuperar candidatos y verificar hechos | `searchCatalog`, `getEventEvidence`, `fetchAllowedSource`, `saveClaim`, `requestTask` | Candidatos y claims con URL, fecha, soporte e incertidumbre |
+| Scout | Recuperar candidatos y verificar hechos | `searchCatalog`, `getEventEvidence`, `verifyOfficialSource`, `saveOpportunity`, `saveClaim`, `requestTask` | Candidatos y claims con URL, fecha, soporte e incertidumbre |
 | Partnerships | Preparar preguntas e interpretar respuestas | `readContact`, `draftOutreach`, `readInboundReply`, `saveReplySummary`, `requestTask` | Mensaje propuesto y resumen con referencia a la respuesta original |
 | Producer | Preparar y revisar concepto y brief de producción | `readPlan`, `readBrief`, `readClaims`, `proposeDraftRevision`, `requestTask` | Revisión del borrador vinculada al plan que la motivó |
 
@@ -131,10 +131,10 @@ Los rangos de esta tabla suman **6–10 horas** para la demo integrada.
 | Etapa | Trabajo | Tiempo | Evidencia para darla por terminada |
 |---|---|---|---|
 | 1. Estado operacional | Migraciones, repositorio, sesión de demo, brief/versiones, oportunidad y borrador | Hecho | API y tests cubren persistencia/versiones; workspace separado; catálogo inmutable |
-| 2. Worker y runtime | Reclamación/reservas, recuperación, adaptador de modelo, validación, permisos y eventos | Implementado; integración real en validación | Worker, contratos y tests locales implementados; Lead ya invocó Anthropic. Completar la validación de tareas reales por rol |
+| 2. Worker y runtime | Reclamación/reservas, recuperación, adaptador de modelo, validación, permisos y eventos | Implementado | Worker y contratos probados; Lead, Scout y Partnerships completaron tareas reales |
 | 3. Cuatro roles | Herramientas del catálogo, lectura acotada de fuente, decisiones, outreach propuesto y generación de borrador | Implementado; validar el ciclo de cuatro roles | Un run real anterior expuso alias de país y forma de salida del modelo; ambos casos están corregidos y cubiertos. Falta confirmar la ejecución nueva hasta Producer y el cambio por respuesta simulada |
-| 4. UI y respuesta | Estados de mapa/lista, timeline, borrador privado, respuesta simulada y replanteo | Parcial | UI y respuesta persistidas; website onboarding y exportación/edición del borrador siguen pendientes |
-| 5. Validación | Reintentos/duplicados, presupuesto cambiado, ediciones humanas, regresiones y ensayo de demo | En curso | 38 tests, typecheck, lint, build aislado y browser smoke pasan; completar recorrido entre roles y ensayo de demo |
+| 4. UI y respuesta | Estados de mapa/lista, timeline, borrador privado, respuesta simulada y replanteo | Fuera del cierre de backend | API de respuesta disponible; el equipo se encarga de la integración frontend |
+| 5. Validación | Reintentos/duplicados, presupuesto cambiado, ediciones humanas, regresiones y ensayo de demo | Cierre parcial acordado | 44 tests, typecheck y build aislado pasan. Lint falla por frontend existente; Producer real y smoke de la interfaz actual quedan pendientes |
 
 Con los refinamientos anteriores, las bandas por etapa suman aproximadamente **6,5–11 horas**. Se recomienda reservar **6–10 horas para la demo** como meta de alcance, reestimando al terminar el primer recorrido y recortando funciones opcionales si las etapas de integración o QA superan su rango. La estimación de la demo es deliberadamente distinta de tener el P0 multiusuario completo.
 

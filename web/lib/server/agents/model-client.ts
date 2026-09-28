@@ -53,8 +53,8 @@ export class AgentModelRequestError extends Error {
   }
 }
 
-const DEFAULT_TIMEOUT_MS = 45_000;
-const MAX_TIMEOUT_MS = 60_000;
+const DEFAULT_TIMEOUT_MS = 120_000;
+const MAX_TIMEOUT_MS = 120_000;
 const DEFAULT_MAX_TOKENS = 1_400;
 const MAX_MAX_TOKENS = 2_400;
 
