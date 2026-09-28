@@ -37,15 +37,25 @@ GrowthX is an event growth team made of agents.
 
 1. **Paste your website.** Taste's Brand API reads your company's logo, imagery, palette, typography and audience.
 2. **Give a short brief.** Choose a goal (product adoption, partnerships or community), who you want in the room, and a budget.
-3. **The team starts by itself.** Four agents coordinate through persisted tasks, with no further clicks:
+3. **The team starts by itself.** Your plan opens empty ("Shaping your first event…") and fills in as four agents work through persisted tasks, with no further clicks. Every card and map pin is agent output:
    - **Noa (Lead)** decides the next action and proposes an original event you could host.
-   - **Ari (Producer)** designs that event: venue character, guest mix, invitation, art direction, atmosphere, food and budget assumptions. Ari writes a versioned, editable event draft and a private preview page in your brand, grounded by Taste.
+   - **Ari (Producer)** designs that event across six sections: the setting, the people, the feeling, the image, the table and the budget. Ari also writes the invitation copy. The result is a versioned, fully editable event draft and a private landing page in your brand, grounded by Taste.
    - **Atlas (Scout)** searches our evidence catalog of upcoming tech events and follows the official sources it cites. It can only save an opportunity it has inspected, with evidence that belongs to that event.
-   - **June (Partnerships)** writes a private sponsorship inquiry. When an organizer replies, June interprets the reply and hands it back to Lead to replan.
-4. **You watch and approve.** The "Your event team" panel shows each agent's live state, its Brainbase session ID and an activity timeline. You can edit any draft, and copy the event to Luma, Eventbrite or Partiful.
+   - **June (Partnerships)** writes a private sponsorship inquiry with numbered questions for the organizer. When an organizer replies, June interprets the reply and hands it back to Lead to replan.
+4. **You watch, steer and approve.** The **Your crew** button opens the "Your event team" panel. It shows each agent's live state, its Brainbase session and an activity timeline, with a **Try again** button if a task fails.
+   - **Steer:** ask the team anything, or tap *Create an event*, *Find a sponsorship* or *Improve my plan* to start a new run.
+   - **Edit:** change every field of a draft, including date, venue and the six experience sections, then use **Update landing from draft**.
+   - **Take it out:** copy the event to Luma, Eventbrite or Partiful, or download the full brief.
 5. **Nothing irreversible happens without a human.** The agents never send email, buy a sponsorship or publish a registration.
 
-In one live run on the deployed app, Lead proposed an original event and delegated it to Producer. Producer completed "Build Night": it filled in all six experience sections, used Taste's prompt enhancement for brand direction, and provisioned a private branded preview. Scout then continued from that persisted handoff.
+In one live run on the deployed app, all five tasks across the four roles succeeded with no human steps in between:
+1. Lead proposed an original event and delegated it to Producer.
+2. Producer completed "Build Night". It filled in all six experience sections, used Taste's prompt enhancement for brand direction, and provisioned a private branded landing.
+3. Scout saved a sourced opportunity from the catalog (FLOCK).
+4. Lead flagged that opportunity's weak audience fit.
+5. Partnerships wrote a private inquiry with eight clarifying questions.
+
+The run then stopped in `waiting_input` for human review.
 
 Earlier, in a local run with a $2,000 brief, we injected a simulated organizer reply: *"Sponsorship is USD 5,000. We can also offer a workshop, but its price has not been confirmed."* From there no human was involved. Partnerships interpreted the reply, and Lead ruled out the sponsorship as over budget. Lead kept the workshop as a conditional option and listed five open blockers, citing catalog evidence IDs where they existed.
 
@@ -79,7 +89,7 @@ Earlier, in a local run with a $2,000 brief, we injected a simulated organizer r
 - Producer creates a branded event draft and a private preview.
 - Scout does evidence-backed research.
 - Partnerships drafts sponsorship inquiries.
-- Retry and resume work.
+- Retry and resume work, and the live view reconnects by itself ("Reconnecting to your team… Your work continues in the background.").
 
 **Not done yet**
 - Organizer replies are **simulated**. The reply endpoint only accepts messages flagged `simulated: true`, and the UI has no button for it. No email is sent or received.
@@ -88,6 +98,7 @@ Earlier, in a local run with a $2,000 brief, we injected a simulated organizer r
 - The catalog is a bounded snapshot, not open-web search, and its coverage of San Francisco is thin.
 - Budgets and venues are proposals until someone confirms them.
 - There are no payments.
+- The example map on the welcome screen is a static sample. The plan itself is built by the agents.
 
 **Pre-existing code (disclosed):** a MapLibre map component, date utilities, evidence-formatting helpers and CSS come from our earlier public open-source repo ([Julian0444/GrowthX-for-hackaton](https://github.com/Julian0444/GrowthX-for-hackaton), last pushed Sep 17). Everything else was written today: the agent runtime, the Brainbase and Cloudflare integration, the Durable Object workspace, the four roles, the planning UI, the Taste integration and the tests. The first commit in this repo is at 10:45 AM PT. The event dataset was compiled by research scripts on Sep 28.
 
@@ -98,7 +109,7 @@ Earlier, in a local run with a $2,000 brief, we injected a simulated organizer r
 - **Autonomy without damage.** We wanted agents that decide on their own but never send, publish or spend anything.
 
 ### Accomplishments we're proud of
-- A deployed team of four agents, hosted on Brainbase and Cloudflare. It goes from a company website to a branded event plan with no human steps in between.
+- A deployed team of four agents, hosted on Brainbase and Cloudflare. It goes from a company website to a branded, editable event plan with no human steps in between, and in our live run all five tasks succeeded.
 - A real replan triggered by an organizer's reply.
 - Durable agent runs (tasks, leases, alarms, resume, atomic effects), built in one day.
 
@@ -117,19 +128,18 @@ Most of the difficulty in agent autonomy is in the runtime around the model: get
 ## 3. Demo video script (2:30, team on camera)
 
 **Before recording**
-1. **Pre-record a full run on the live URL.** The agents take a while, so record the wait and cut it, and caption each cut, for example "[1 min skipped, real run]".
-2. Use a real website. Taste works with any company.
-3. Keep the **"Your event team"** panel open, with its states, Brainbase session IDs and timeline. That panel is the proof of autonomy.
+1. **Start a full run on the live URL now and record it.** A full run takes several minutes, and Noa's first task alone took over 2 min when we tested. Cut the waits and caption each cut, for example "[2 min skipped, real run]".
+2. Use a real website. Taste works with any company. As a backup, "Explore the Taste Labs demo" runs the same live team on tastelabs.com.
+3. Click **Your crew** (top right) to open the "Your event team" panel. Expand each agent's **Brainbase session** so the thread ID shows on camera, and keep the **Activity** timeline in view. That panel is the proof of autonomy.
 
 | Time | On screen | What we say |
 |---|---|---|
 | 0:00–0:15 | **Team on camera** | "We're [names]. Startups spend thousands on events chosen from a hunch. Today we built GrowthX: an event growth team made of agents." |
-| 0:15–0:30 | Live URL → enter the website | "You paste your website. Taste reads your brand: logo, colors, typography and audience." |
-| 0:30–0:40 | Brief → **See my event plan** | "Goal, who you want in the room, budget. From here, we don't click anything." |
-| 0:40–1:15 | **Your event team** panel: Noa → Ari → Atlas → June working, Brainbase session IDs, activity timeline | "Four agents on Brainbase, running on Cloudflare. Noa decides what to do and proposes an original event. Ari designs it with Taste. Atlas searches our catalog of 21,000 events and can only save something with evidence. June prepares the sponsorship inquiry. Each handoff is a persisted task, and if something fails, we retry without losing work." |
-| 1:15–1:45 | Producer's event draft → open the **private branded preview** | "This is the event Ari designed: venue, guest mix, invitation, food, budget. It's a private preview in the company's brand, and nothing is published." |
-| 1:45–2:05 | Sponsor card → **unsent inquiry** → Copy for Luma | "June writes the outreach, but it's never sent without a human. The event copies to Luma, Eventbrite or Partiful." |
-| 2:05–2:15 | (optional) Replan card from the local run | "When an organizer replied with a price over budget (a simulated reply), the team replanned by itself." |
+| 0:15–0:40 | Live URL → website → **Build my event plan** → brief (goal, room, budget) → **See my event plan** | "You paste your website, and Taste reads your brand. Goal, who you want in the room, budget. From here, we don't click anything." |
+| 0:40–1:15 | Empty plan "Shaping your first event…" → **Your crew** → agents go Up next → Working → Done; expand **Brainbase session**; **Activity** timeline; cards and pins appear | "The plan starts empty. Everything you'll see is made by four agents on Brainbase, running on Cloudflare. Noa decides what to do and proposes an original event. Ari designs it with Taste. Atlas searches our event catalog and can only save something with evidence. June prepares the sponsorship inquiry. Each handoff is a persisted task, and if something fails, we retry without losing work." |
+| 1:15–1:45 | "Create" card → **Experience** tab (The setting, The people, The feeling, The image, The table, The budget) → **Edit draft** (change one line) → **Save changes** → **Share** → **Update landing from draft** → **Open landing** | "This is the event Ari designed: the setting, the people, the feeling, the image, the table, the budget. Every line is editable and versioned. Here's the private landing in the company's brand. Registration isn't open, and nothing is published." |
+| 1:45–2:05 | "Partner" card → **Partnership inquiry** with June's numbered questions + **Sources** → back to the event → **Share** → **Luma** (Copy event details) | "June writes the outreach and the questions for the organizer, but it's never sent without a human. Our event copies to Luma, Eventbrite or Partiful." |
+| 2:05–2:15 | Tap **Find a sponsorship** (starts a new run) | "And you can keep steering it. Any request becomes a new run for the team." |
 | 2:15–2:30 | **Team on camera** | "It's live on Cloudflare right now. Next: a real inbox, Slack, and native publishing. That's GrowthX." |
 
 ---
@@ -142,7 +152,7 @@ Most of the difficulty in agent autonomy is in the runtime around the model: get
 **LinkedIn** (tag the Brainbase Labs company page)
 > Today at the Startup Speedrun Hackathon (Brainbase Labs × Anthropic × Cloudflare × Stripe) we built GrowthX, an event growth team made of agents.
 >
-> You paste your company's website. Taste reads your brand. Then four agents running on Brainbase (Noa, Ari, Atlas and June) coordinate through persisted tasks. They propose and design an original event with a private branded preview, research existing events with evidence, and draft the sponsorship outreach. Nothing is sent or published without a human.
+> You paste your company's website. Taste reads your brand. Then four agents running on Brainbase (Noa, Ari, Atlas and June) coordinate through persisted tasks. They propose and design an original event with a private branded landing, research existing events with evidence, and draft the sponsorship outreach. Every line is editable. Nothing is sent or published without a human.
 >
 > It runs on Cloudflare Workers + Durable Objects. Built today at Cloudflare HQ. Try it: https://growthx-event-team.mpulitano1701.workers.dev/
 
