@@ -42,10 +42,9 @@ function TaskEntry({ task }: { task: AgentTask }) {
 
 function EventEntry({ event }: { event: AgentTimelineEvent }) {
   const proposal = event.kind === 'draft.revision_conflict' ? readProposal(event.metadata.proposal) : null;
-  const failure = event.kind === 'task.failed' && typeof event.metadata.error === 'string' ? event.metadata.error.slice(0, 500) : null;
   return <li className={`agent-activity-row event-kind-${event.kind}`}>
     <span className={`agent-timeline-node event-node role-${event.role}`} aria-hidden="true"><Activity size={12} /></span>
-    <div className="agent-activity-body"><div className="agent-activity-top"><span className={`agent-role-label role-${event.role}`}>{displayAgentRole(event.role)}</span><span className="agent-event-kind">{displayAgentStatus(event.kind)}</span></div><p>{event.message}</p>{failure && <p className="agent-failure-detail">Reason: {failure}</p>}{event.kind === 'draft.revision_conflict' && <ProposalPreview proposal={proposal} />}<div className="agent-activity-meta"><time dateTime={event.createdAt}>{formatAgentDate(event.createdAt)}</time></div></div>
+    <div className="agent-activity-body"><div className="agent-activity-top"><span className={`agent-role-label role-${event.role}`}>{displayAgentRole(event.role)}</span><span className="agent-event-kind">{displayAgentStatus(event.kind)}</span></div><p>{event.message}</p>{event.kind === 'draft.revision_conflict' && <ProposalPreview proposal={proposal} />}<div className="agent-activity-meta"><time dateTime={event.createdAt}>{formatAgentDate(event.createdAt)}</time></div></div>
   </li>;
 }
 

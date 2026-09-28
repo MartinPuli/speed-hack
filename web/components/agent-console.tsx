@@ -84,7 +84,6 @@ export function AgentConsole({ initialOpportunityId, initialBrief, onSnapshot, e
   const [loadError, setLoadError] = useState('');
   const [teamAction, setTeamAction] = useState<ActionState>('idle');
   const [replyAction, setReplyAction] = useState<ActionState>('idle');
-  const [showAllActivity, setShowAllActivity] = useState(false);
   const [notice, setNotice] = useState<{ tone: 'success' | 'error' | 'info'; message: string } | null>(null);
   const hasSession = useRef(false);
   const workspaceRequest = useRef(0);
@@ -129,7 +128,6 @@ export function AgentConsole({ initialOpportunityId, initialBrief, onSnapshot, e
     return () => window.clearTimeout(timer);
   }, [refreshWorkspace]);
 
-  const latestRun: AgentRun | null = snapshot?.runs.slice().sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt))[0] ?? null;
   const hasRunningWork = snapshot?.runs.some(run => run.status === 'queued' || run.status === 'running') ?? false;
   useEffect(() => {
     if (!hasRunningWork) return;
@@ -143,16 +141,11 @@ export function AgentConsole({ initialOpportunityId, initialBrief, onSnapshot, e
       : latestByUpdated(snapshot.opportunities)
     : null;
   const matchingDrafts = activeOpportunity ? (snapshot?.drafts ?? []).filter(draft => draft.opportunityId === activeOpportunity.id) : [];
-  const activeDraft = activeOpportunity ? latestByUpdated(matchingDrafts) : null;
-  const allTasks = snapshot?.tasks ?? [];
-  const allEvents = snapshot?.events ?? [];
-  const hasOlderActivity = Boolean(latestRun && (
-    allTasks.some(task => task.runId !== latestRun.id)
-    || allEvents.some(event => event.runId !== latestRun.id)
-  ));
-  const timelineTasks = !showAllActivity && latestRun ? allTasks.filter(task => task.runId === latestRun.id) : allTasks;
-  const timelineEvents = !showAllActivity && latestRun ? allEvents.filter(event => event.runId === latestRun.id) : allEvents;
-  const hasActivity = Boolean(timelineTasks.length || timelineEvents.length);
+  const activeDraft = snapshot?.drafts.length
+    ? latestByUpdated(matchingDrafts.length ? matchingDrafts : snapshot.drafts)
+    : null;
+  const hasActivity = Boolean(snapshot?.tasks.length || snapshot?.events.length);
+  const latestRun: AgentRun | null = snapshot?.runs.slice().sort((a, b) => Date.parse(b.updatedAt) - Date.parse(a.updatedAt))[0] ?? null;
 
   async function ensureDemoSession(): Promise<boolean> {
     if (hasSession.current) return true;
@@ -245,8 +238,8 @@ export function AgentConsole({ initialOpportunityId, initialBrief, onSnapshot, e
 
     <div className="agent-console-grid">
       <section className="agent-panel agent-timeline-panel" aria-labelledby={timelineId} aria-busy={loadState === 'loading' || hasRunningWork}>
-        <div className="agent-panel-heading"><div><span className="agent-console-kicker">LIVE WORK</span><h3 id={timelineId}>Agent activity</h3><span className="agent-activity-scope">{showAllActivity ? 'All activity' : latestRun ? 'Latest run' : 'Workspace activity'}</span></div><div className="agent-timeline-controls">{(hasOlderActivity || showAllActivity) && <button className="agent-history-toggle" type="button" aria-pressed={showAllActivity} onClick={() => setShowAllActivity(value => !value)}>{showAllActivity ? 'Show latest run' : 'Show all activity'}</button>}<span className={`agent-live-state ${latestRun?.status === 'running' ? 'is-live' : latestRun?.status === 'queued' ? 'is-queued' : latestRun?.status === 'failed' ? 'is-error' : latestRun?.status === 'waiting_input' ? 'is-waiting' : ''}`}><span />{latestRun?.status === 'running' ? 'In progress' : latestRun?.status === 'queued' ? 'Queued' : latestRun?.status === 'failed' ? 'Needs attention' : latestRun?.status === 'waiting_input' ? 'Waiting on you' : latestRun?.status === 'succeeded' ? 'Complete' : snapshot ? 'Synced' : 'Not started'}</span></div></div>
-        {loadState === 'loading' && !snapshot ? <div className="agent-loading-line"><LoaderCircle size={16} className="agent-spin" />Loading workspace…</div> : hasActivity ? <AgentTimeline tasks={timelineTasks} events={timelineEvents} /> : <div className="agent-empty"><div className="agent-empty-icon"><Users size={19} aria-hidden="true" /></div><strong>{loadState === 'empty' ? 'Your team is ready when you are.' : hasOlderActivity && !showAllActivity ? 'No activity in the latest run yet.' : 'No agent activity yet.'}</strong><p>{hasOlderActivity && !showAllActivity ? 'Show all activity to review previous runs.' : 'Start a run to let the team work from your brief and the research catalog.'}</p><button className="agent-inline-action" onClick={() => void startTeam()} disabled={!canStart}>Start the team<ArrowRight size={14} aria-hidden="true" /></button></div>}
+        <div className="agent-panel-heading"><div><span className="agent-console-kicker">LIVE WORK</span><h3 id={timelineId}>Agent activity</h3></div><span className={`agent-live-state ${hasRunningWork ? 'is-live' : ''}`}><span />{hasRunningWork ? 'In progress' : snapshot ? 'Synced' : 'Not started'}</span></div>
+        {loadState === 'loading' && !snapshot ? <div className="agent-loading-line"><LoaderCircle size={16} className="agent-spin" />Loading workspace…</div> : hasActivity ? <AgentTimeline tasks={snapshot?.tasks ?? []} events={snapshot?.events ?? []} /> : <div className="agent-empty"><div className="agent-empty-icon"><Users size={19} aria-hidden="true" /></div><strong>{loadState === 'empty' ? 'Your team is ready when you are.' : 'No agent activity yet.'}</strong><p>Start a run to let the team work from your brief and the research catalog.</p><button className="agent-inline-action" onClick={() => void startTeam()} disabled={!canStart}>Start the team<ArrowRight size={14} aria-hidden="true" /></button></div>}
       </section>
 
       <div className="agent-side-stack">
