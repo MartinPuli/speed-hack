@@ -14,6 +14,8 @@ import {
   createDraft,
   createOpportunity,
   createRun,
+  createTask,
+  failTask,
   readWorkspaceSnapshot,
   recordInboundReply,
   resolveDemoWorkspaceId,
@@ -146,6 +148,51 @@ test('duplicate simulated organizer reply creates a single reply and task', (t) 
   assert.equal(duplicate.replyId, first.replyId);
   assert.equal(duplicate.task, null);
   assert.equal(readWorkspaceSnapshot(workspaceId).tasks.length, 1);
+});
+
+test('terminal task failure is not masked by a sibling success and cancels queued follow-up work', (t) => {
+  const { workspaceId, clean } = useTemporaryDatabase(); t.after(clean);
+  const { version } = saveBrief(workspaceId, brief, 0);
+  const { run } = createRun(workspaceId, { idempotencyKey: 'failure-is-terminal' });
+  createTask(workspaceId, { runId: run.id, assignedRole: 'scout', objective: 'Inspect one catalog candidate.' });
+  const failedTask = claimNextTask('worker-failure');
+  const concurrentTask = claimNextTask('worker-success');
+  assert.ok(failedTask);
+  assert.ok(concurrentTask);
+  failTask(workspaceId, failedTask.id, 'worker-failure', 'Provider task failed.', false);
+
+  const completion = completeAgentTask({
+    workspaceId, taskId: concurrentTask.id, workerId: 'worker-success', expectedBriefVersion: version,
+    result: { summary: 'The sibling completed successfully.' },
+    nextTasks: [{ assignedRole: 'lead', objective: 'Continue after the sibling task.' }],
+  });
+  assert.equal(completion.run.status, 'failed');
+  assert.equal(completion.run.error, 'Provider task failed.');
+  const snapshot = readWorkspaceSnapshot(workspaceId);
+  assert.equal(snapshot.runs.find(item => item.id === run.id)?.status, 'failed');
+  assert.equal(snapshot.tasks.find(item => item.objective === 'Continue after the sibling task.')?.status, 'cancelled');
+});
+
+test('a retryable running sibling is failed rather than requeued after another task terminally fails', (t) => {
+  const { workspaceId, clean } = useTemporaryDatabase(); t.after(clean);
+  saveBrief(workspaceId, brief, 0);
+  const { run } = createRun(workspaceId, { idempotencyKey: 'retry-after-terminal-sibling' });
+  createTask(workspaceId, { runId: run.id, assignedRole: 'scout', objective: 'Search the catalog.' });
+  const first = claimNextTask('worker-terminal-failure');
+  const second = claimNextTask('worker-retryable-failure');
+  assert.ok(first);
+  assert.ok(second);
+
+  failTask(workspaceId, first.id, 'worker-terminal-failure', 'First task failed terminally.', false);
+  const secondResult = failTask(workspaceId, second.id, 'worker-retryable-failure', 'Second task had a transient error.', true);
+
+  assert.equal(secondResult.status, 'failed');
+  const snapshot = readWorkspaceSnapshot(workspaceId);
+  const failedRun = snapshot.runs.find(item => item.id === run.id);
+  assert.equal(failedRun?.status, 'failed');
+  assert.equal(failedRun?.error, 'First task failed terminally.');
+  assert.equal(snapshot.tasks.filter(task => task.runId === run.id && task.status === 'queued').length, 0);
+  assert.ok(snapshot.events.some(event => event.kind === 'task.failed' && event.metadata.taskId === second.id));
 });
 
 test('expired worker reservation returns the same task to the queue for a new attempt', async (t) => {

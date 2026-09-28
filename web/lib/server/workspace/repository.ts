@@ -525,17 +525,32 @@ export function completeAgentTask(input: CompleteAgentTaskInput): { task: AgentT
       }
     }
     if (!stale) insertEvent(input.workspaceId, { runId: task.runId, opportunityId: task.opportunityId, role: task.assignedRole, kind: 'task.succeeded', message: 'Task result was saved.', metadata: { taskId: task.id, resultRefs: resultRefs.slice(0, 20) } });
+    const failedSibling = row<{ id: string }>(database.prepare(`SELECT id FROM tasks WHERE workspace_id = ? AND run_id = ? AND id <> ? AND status = 'failed' LIMIT 1`)
+      .get(input.workspaceId, task.runId, input.taskId));
+    if (failedSibling) {
+      const cancelled = database.prepare(`UPDATE tasks SET status = 'cancelled', lease_owner = NULL, lease_until = NULL, updated_at = ?
+        WHERE workspace_id = ? AND run_id = ? AND id <> ? AND status IN ('queued', 'waiting_input', 'waiting_approval')`)
+        .run(timestamp, input.workspaceId, task.runId, input.taskId);
+      if (Number(cancelled.changes) > 0) insertEvent(input.workspaceId, {
+        runId: task.runId, role: 'system', kind: 'run.tasks_cancelled',
+        message: 'Unstarted follow-up tasks were cancelled because another task in this run failed.',
+        metadata: { cancelledCount: Number(cancelled.changes) },
+      });
+    }
     const remaining = rows<{ status: AgentTaskStatus }>(database.prepare(`SELECT status FROM tasks WHERE workspace_id = ? AND run_id = ? AND id <> ? AND status IN ('queued', 'running', 'waiting_input', 'waiting_approval')`)
       .all(input.workspaceId, task.runId, input.taskId));
     let nextRunStatus: AgentRun['status'];
-    if (draftConflict && !(input.nextTasks?.length)) nextRunStatus = 'waiting_input';
+    if (failedSibling) nextRunStatus = 'failed';
+    else if (draftConflict && !(input.nextTasks?.length)) nextRunStatus = 'waiting_input';
     else if (input.runStatus) nextRunStatus = input.runStatus;
     else if (stale) nextRunStatus = remaining.some(({ status }) => status === 'running') ? 'running' : 'succeeded';
     else if (remaining.some(({ status }) => status === 'waiting_input' || status === 'waiting_approval')) nextRunStatus = 'waiting_input';
     else if (remaining.length > 0 || (input.nextTasks?.length ?? 0) > 0) nextRunStatus = 'queued';
     else nextRunStatus = 'succeeded';
-    database.prepare('UPDATE runs SET status = ?, error = NULL, updated_at = ? WHERE id = ? AND workspace_id = ?')
-      .run(nextRunStatus, now(), task.runId, input.workspaceId);
+    const priorRun = row<{ error: string | null }>(database.prepare('SELECT error FROM runs WHERE id = ? AND workspace_id = ?').get(task.runId, input.workspaceId));
+    const runError = failedSibling ? priorRun?.error ?? 'Another task in this run failed and needs attention.' : null;
+    database.prepare('UPDATE runs SET status = ?, error = ?, updated_at = ? WHERE id = ? AND workspace_id = ?')
+      .run(nextRunStatus, runError, now(), task.runId, input.workspaceId);
     return {
       task: mapTask(row<Record<string, unknown>>(database.prepare('SELECT * FROM tasks WHERE id = ?').get(input.taskId))!),
       stale,
@@ -568,11 +583,29 @@ export function failTask(workspaceId: string, taskId: string, workerId: string, 
     const task = row<Record<string, unknown>>(db().prepare(`SELECT * FROM tasks WHERE id = ? AND workspace_id = ? AND status = 'running' AND lease_owner = ?`).get(taskId, workspaceId, workerId));
     if (!task) throw new WorkspaceNotFound('Task is not actively leased by this worker.');
     const mapped = mapTask(task); const timestamp = now();
-    const shouldRetry = retryable && mapped.attempts < MAX_TASK_ATTEMPTS;
+    const database = db();
+    const priorRun = row<{ status: AgentRun['status']; error: string | null }>(database.prepare('SELECT status, error FROM runs WHERE id = ? AND workspace_id = ?').get(mapped.runId, workspaceId));
+    const failedSibling = row<{ id: string }>(database.prepare(`SELECT id FROM tasks WHERE workspace_id = ? AND run_id = ? AND id <> ? AND status = 'failed' LIMIT 1`).get(workspaceId, mapped.runId, taskId));
+    const runWasAlreadyFailed = priorRun?.status === 'failed';
+    const shouldRetry = retryable && mapped.attempts < MAX_TASK_ATTEMPTS && !failedSibling && !runWasAlreadyFailed;
     db().prepare('UPDATE tasks SET status = ?, lease_owner = NULL, lease_until = NULL, updated_at = ? WHERE id = ?')
       .run(shouldRetry ? 'queued' : 'failed', timestamp, taskId);
-    const status: AgentRun['status'] = shouldRetry ? 'queued' : 'failed';
-    db().prepare('UPDATE runs SET status = ?, error = ?, updated_at = ? WHERE id = ? AND workspace_id = ?').run(status, shouldRetry ? null : error.slice(0, 2000), timestamp, mapped.runId, workspaceId);
+    const runFailed = !shouldRetry || Boolean(failedSibling) || runWasAlreadyFailed;
+    const status: AgentRun['status'] = runFailed ? 'failed' : 'queued';
+    const runError = failedSibling || runWasAlreadyFailed
+      ? priorRun?.error ?? 'Another task in this run failed and needs attention.'
+      : !shouldRetry ? error.slice(0, 2000) : null;
+    database.prepare('UPDATE runs SET status = ?, error = ?, updated_at = ? WHERE id = ? AND workspace_id = ?').run(status, runError, timestamp, mapped.runId, workspaceId);
+    if (runFailed) {
+      const cancelled = database.prepare(`UPDATE tasks SET status = 'cancelled', lease_owner = NULL, lease_until = NULL, updated_at = ?
+        WHERE workspace_id = ? AND run_id = ? AND id <> ? AND status IN ('queued', 'waiting_input', 'waiting_approval')`)
+        .run(timestamp, workspaceId, mapped.runId, taskId);
+      if (Number(cancelled.changes) > 0) insertEvent(workspaceId, {
+        runId: mapped.runId, role: 'system', kind: 'run.tasks_cancelled',
+        message: 'Unstarted follow-up tasks were cancelled because this run failed.',
+        metadata: { cancelledCount: Number(cancelled.changes) },
+      });
+    }
     insertEvent(workspaceId, { runId: mapped.runId, opportunityId: mapped.opportunityId, role: 'system', kind: shouldRetry ? 'task.retry' : 'task.failed', message: shouldRetry ? 'Task failed and was queued for another attempt.' : 'Task failed and needs attention.', metadata: { taskId, error: error.slice(0, 500), attempts: mapped.attempts } });
     return mapTask(row<Record<string, unknown>>(db().prepare('SELECT * FROM tasks WHERE id = ?').get(taskId))!);
   });

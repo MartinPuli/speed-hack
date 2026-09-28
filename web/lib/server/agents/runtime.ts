@@ -361,14 +361,31 @@ function validSourceRefs(refs: string[], state: StagedState, context: ClaimedAge
   return true;
 }
 
+function hasInterpretedInboundReply(context: ClaimedAgentTask, opportunityId: string): boolean {
+  const inboundMessageIds = new Set(context.events
+    .filter(event => /^inbound\./i.test(event.kind) && event.opportunityId === opportunityId)
+    .map(event => String(event.metadata.messageId ?? event.id)));
+  return context.events.some(event => {
+    if (event.kind !== 'reply_interpreted' || event.opportunityId !== opportunityId || !object(event.metadata.summary)) return false;
+    return inboundMessageIds.has(String(event.metadata.summary.messageId ?? ''));
+  });
+}
+
 function normalizeTaskInput(value: Record<string, unknown>, context: ClaimedAgentTask, state: StagedState): StagedTask {
   const assignedRole = value.assignedRole;
   if (assignedRole !== 'lead' && assignedRole !== 'scout' && assignedRole !== 'partnerships' && assignedRole !== 'producer') throw new Error('Unknown follow-up role.');
+  if (assignedRole === 'scout' && context.tasks.some(item => item.assignedRole === 'scout' && item.status === 'succeeded')) {
+    throw new Error('Scout has already completed its one catalog research pass for this run. Use the existing evidence to make a provisional plan, ask Partnerships to prepare clarification questions, or wait for more information.');
+  }
   if (state.nextTasks.length >= MAX_DERIVED_TASKS || context.tasks.length + state.nextTasks.length >= MAX_TOTAL_RUN_TASKS) throw new Error('This run reached its follow-up task limit.');
   const objective = String(value.objective).trim();
   if (context.tasks.some(item => item.objective.trim().toLowerCase() === objective.toLowerCase()) || state.nextTasks.some(item => item.objective.toLowerCase() === objective.toLowerCase())) throw new Error('A task with this objective already exists in this run.');
   const opportunityId = value.opportunityId === null ? null : String(value.opportunityId);
   if (opportunityId !== null) checkOpportunity(context, opportunityId);
+  const effectiveOpportunityId = opportunityId ?? (value.opportunityCreateIndex === null ? context.task.opportunityId : null);
+  if (assignedRole === 'partnerships' && effectiveOpportunityId && hasInterpretedInboundReply(context, effectiveOpportunityId)) {
+    throw new Error('Partnerships has already interpreted the current inbound reply for this opportunity. Use that interpretation to make a provisional plan or assign Producer; ask Partnerships again only after a new reply arrives.');
+  }
   const refs = Array.isArray(value.inputRefs) ? value.inputRefs as string[] : [];
   if (!validSourceRefs(refs, state, context)) throw new Error('Task inputRefs must point to known evidence or source references.');
   const task = { assignedRole: assignedRole as WorkspaceAgentRole, objective, opportunityId, inputRefs: refs };
@@ -380,6 +397,15 @@ function normalizeTaskInput(value: Record<string, unknown>, context: ClaimedAgen
   const taskWithCreatedOpportunity = { ...task, opportunityCreateIndex: rawCreateIndex === null ? null : Number(rawCreateIndex) };
   state.nextTasks.push(taskWithCreatedOpportunity);
   return taskWithCreatedOpportunity;
+}
+
+function hasMinimumProducerEvidence(context: ClaimedAgentTask, state: StagedState): boolean {
+  const opportunity = context.opportunity;
+  if (!opportunity) return false;
+  if (opportunity.evidenceIds.length > 0) return true;
+  if (opportunity.catalogEventId && (state.evidence.get(opportunity.catalogEventId)?.evidence.length ?? 0) > 0) return true;
+  return context.events.some(event => event.opportunityId === opportunity.id && /^inbound\./i.test(event.kind)
+    && String(event.metadata.message ?? event.message).trim().length >= 40);
 }
 
 function toolHandler(
@@ -510,6 +536,7 @@ function toolHandler(
     case 'proposeDraftRevision': {
       const opportunity = context.opportunity;
       if (!opportunity) throw new Error('A draft requires an assigned opportunity.');
+      if (!hasMinimumProducerEvidence(context, state)) throw new Error('There is not enough source evidence or useful organizer-reply detail to ground a private concept yet. Do not draft assumptions; report the missing information and wait or request research.');
       const fields = args as unknown as EventDraftFields;
       const refs = fields.sourceRefs ?? [];
       if (!validSourceRefs(refs, state, context)) throw new Error('Draft sourceRefs must refer to known evidence or fetched source URLs.');
@@ -712,7 +739,7 @@ export async function executeClaimedTask(claim: ClaimedTask, dependencies: Agent
   try {
     const result = await runModel(context, state, client, fetcher, now);
     if (role === 'scout' && !state.toolEvents.some(event => event.kind === 'catalog_search')) throw new Error('Scout must perform a catalog search before completing the task.');
-    if (role === 'producer' && !state.draftRevision) throw new Error('Producer must stage an Event Studio draft revision before completing the task.');
+    if (role === 'producer' && hasMinimumProducerEvidence(context, state) && !state.draftRevision) throw new Error('There is enough evidence to prepare a private conditional concept; stage a draft revision.');
     if (role === 'partnerships') {
       if (context.events.some(event => event.kind === 'inbound.simulated') && state.replySummaries.length === 0) throw new Error('Partnerships must save a summary of the persisted inbound reply.');
       if (state.replySummaries.length === 0 && state.outreachDrafts.length === 0) throw new Error('Partnerships must stage an outreach draft or interpret an inbound reply.');

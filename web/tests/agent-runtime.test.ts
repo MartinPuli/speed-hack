@@ -186,6 +186,29 @@ test('Lead follow-ups keep a run queued for the next role instead of marking it 
   assert.equal(completion.nextTasks?.[0]?.assignedRole, 'scout');
 });
 
+test('Lead cannot schedule another Scout after one Scout pass succeeded in the run', async () => {
+  const base = claim('lead');
+  const priorScout: AgentTask = {
+    ...base.runTasks[0], id: 'task_scout_done', assignedRole: 'scout', status: 'succeeded',
+    objective: 'Search the event catalog once.',
+  };
+  const leased = { ...base, runTasks: [priorScout, base] };
+  const captures = { completed: [] as unknown[] };
+  const requests: Array<{ messages: AnthropicMessage[]; tools: unknown[] }> = [];
+  const client = scriptedClient([
+    response([toolUse('scout-again', 'createTask', {
+      assignedRole: 'scout', objective: 'Search for more events on the open web.', opportunityId: null,
+      opportunityCreateIndex: null, inputRefs: ['brief:1'],
+    })]),
+    response([toolUse('done', 'completeTask', finalInput)]),
+  ], requests);
+  await dispatchClaimedTask(leased, { repository: repositoryStub(captures), client });
+  const blockedResult = requests[1].messages.filter(message => message.role === 'user').flatMap(message => Array.isArray(message.content) ? message.content : []);
+  assert.ok(blockedResult.some(block => block.type === 'tool_result' && block.is_error === true && String(block.content).includes('one catalog research pass')));
+  const completion = captures.completed[0] as { nextTasks?: unknown[] };
+  assert.equal(completion.nextTasks?.length ?? 0, 0);
+});
+
 test('Partnerships reads the persisted reply and queues a Lead replanning task', async () => {
   const opportunity: WorkspaceOpportunity = {
     id: 'opp_sim', catalogEventId: null, title: 'Demo event', state: 'planned', action: 'sponsor', fit: 70,
@@ -216,6 +239,110 @@ test('Partnerships reads the persisted reply and queues a Lead replanning task',
   assert.equal(completion.runStatus, 'queued');
   assert.equal(completion.nextTasks?.[0]?.assignedRole, 'lead');
   assert.equal(completion.nextTasks?.[0]?.opportunityId, opportunity.id);
+});
+
+test('Lead uses an interpreted over-budget reply to plan provisionally and schedule Producer, not Partnerships again', async () => {
+  const opportunity: WorkspaceOpportunity = {
+    id: 'opp_reply_plan', catalogEventId: null, title: 'Demo event', state: 'needs_review', action: 'research', fit: null,
+    rationale: 'Awaiting organizer details.', evidenceIds: [], createdAt: '2026-09-28T12:00:00.000Z', updatedAt: '2026-09-28T12:00:00.000Z',
+  };
+  const inbound: AgentTimelineEvent = {
+    id: 'evt_reply_plan', runId: 'run_test', opportunityId: opportunity.id, role: 'system', kind: 'inbound.simulated',
+    message: 'A simulated organizer reply was received.',
+    metadata: { messageId: 'demo-reply-plan', message: 'Sponsorship is $5,000; the workshop price is still unknown.', simulated: true },
+    createdAt: '2026-09-28T12:01:00.000Z',
+  };
+  const interpreted: AgentTimelineEvent = {
+    id: 'evt_reply_interpreted', runId: 'run_test', opportunityId: opportunity.id, role: 'partnerships', kind: 'reply_interpreted',
+    message: 'Sponsorship exceeds budget; workshop pricing is unknown.',
+    metadata: { summary: { messageId: 'demo-reply-plan', summary: 'The $5,000 sponsorship exceeds budget; workshop price is unknown.', confirmedFacts: ['$5,000 sponsorship offer'], unknowns: ['workshop price'], simulated: true } },
+    createdAt: '2026-09-28T12:02:00.000Z',
+  };
+  const base = claim('lead', opportunity.id);
+  const priorPartnerships: AgentTask = {
+    ...base.runTasks[0], id: 'task_partnerships_done', assignedRole: 'partnerships', status: 'succeeded',
+    objective: 'Interpret organizer reply.', result: { toolCalls: { replySummaries: [{ messageId: 'demo-reply-plan' }] } },
+  };
+  const leased = { ...base, opportunity, opportunities: [opportunity], runTasks: [priorPartnerships, base], runEvents: [inbound, interpreted] };
+  const captures = { completed: [] as unknown[] };
+  const requests: Array<{ messages: AnthropicMessage[]; tools: unknown[] }> = [];
+  const client = scriptedClient([
+    response([toolUse('repeat-partnerships', 'createTask', {
+      assignedRole: 'partnerships', objective: 'Ask the organizer again for workshop pricing.', opportunityId: null,
+      opportunityCreateIndex: null, inputRefs: ['demo-reply-plan'],
+    })]),
+    response([
+      toolUse('provisional-plan', 'proposePlan', {
+        opportunityId: opportunity.id, action: 'research', state: 'needs_review', fit: null,
+        rationale: 'Provisional: the $5,000 sponsorship exceeds the $2,000 budget; workshop price remains unknown.', evidenceIds: [],
+      }),
+      toolUse('producer', 'createTask', {
+        assignedRole: 'producer', objective: 'Prepare a private nonbinding concept from the useful organizer reply.', opportunityId: opportunity.id,
+        opportunityCreateIndex: null, inputRefs: ['demo-reply-plan'],
+      }),
+    ]),
+    response([toolUse('done', 'completeTask', { ...finalInput, nextRecommendedAction: 'produce' })]),
+  ], requests);
+  await dispatchClaimedTask(leased, { repository: repositoryStub(captures), client });
+  const rejectedPartnerships = requests[1].messages.filter(message => message.role === 'user').flatMap(message => Array.isArray(message.content) ? message.content : []);
+  assert.ok(rejectedPartnerships.some(block => block.type === 'tool_result' && block.is_error === true && String(block.content).includes('already interpreted the current inbound reply')));
+  const completion = captures.completed[0] as { nextTasks?: Array<{ assignedRole: string }>; opportunityUpdate?: { patch?: { rationale?: string } }; runStatus?: string };
+  assert.equal(completion.runStatus, 'queued');
+  assert.equal(completion.nextTasks?.length, 1);
+  assert.equal(completion.nextTasks?.[0]?.assignedRole, 'producer');
+  assert.match(completion.opportunityUpdate?.patch?.rationale ?? '', /workshop price remains unknown/i);
+});
+
+test('Producer may finish without a draft when the assigned opportunity has no grounding evidence', async () => {
+  const opportunity: WorkspaceOpportunity = {
+    id: 'opp_no_grounding', catalogEventId: null, title: 'Unverified concept', state: 'needs_review', action: 'research', fit: null,
+    rationale: 'Awaiting evidence.', evidenceIds: [], createdAt: '2026-09-28T12:00:00.000Z', updatedAt: '2026-09-28T12:00:00.000Z',
+  };
+  const base = claim('producer', opportunity.id);
+  const leased = { ...base, opportunity, opportunities: [opportunity] };
+  const captures = { completed: [] as unknown[] };
+  const client = scriptedClient([
+    response([toolUse('plan', 'readPlan', { opportunityId: opportunity.id }), toolUse('claims', 'readClaims', {})]),
+    response([toolUse('done', 'completeTask', { ...finalInput, blockers: ['No source evidence or useful organizer reply is available.'], nextRecommendedAction: 'wait' })]),
+  ]);
+  await dispatchClaimedTask(leased, { repository: repositoryStub(captures), client });
+  const completion = captures.completed[0] as { draftRevision?: unknown; runStatus?: string };
+  assert.equal(completion.draftRevision, undefined);
+  assert.equal(completion.runStatus, 'waiting_input');
+});
+
+test('Producer can draft a private conditional concept from a useful simulated reply with unknowns left blank', async () => {
+  const opportunity: WorkspaceOpportunity = {
+    id: 'opp_conditional', catalogEventId: null, title: 'Demo event', state: 'needs_review', action: 'research', fit: null,
+    rationale: 'Workshop option under review.', evidenceIds: [], createdAt: '2026-09-28T12:00:00.000Z', updatedAt: '2026-09-28T12:00:00.000Z',
+  };
+  const inbound: AgentTimelineEvent = {
+    id: 'evt_conditional', runId: 'run_test', opportunityId: opportunity.id, role: 'system', kind: 'inbound.simulated',
+    message: 'A simulated organizer reply was received.',
+    metadata: { messageId: 'reply-conditional', message: 'Sponsorship is $5,000; the workshop price is still unknown.', simulated: true },
+    createdAt: '2026-09-28T12:01:00.000Z',
+  };
+  const base = claim('producer', opportunity.id);
+  const leased = { ...base, opportunity, opportunities: [opportunity], runEvents: [inbound] };
+  const captures = { completed: [] as unknown[] };
+  const client = scriptedClient([
+    response([toolUse('plan', 'readPlan', { opportunityId: opportunity.id }), toolUse('claims', 'readClaims', {})]),
+    response([toolUse('draft', 'proposeDraftRevision', {
+      title: 'Conditional infrastructure workshop',
+      description: 'A private, nonbinding workshop concept subject to organizer confirmation.',
+      audience: 'Infrastructure founders', format: 'Conditional workshop', agenda: 'Welcome; practical discussion; next steps.',
+      host: 'Example Co', cta: 'Request confirmed workshop details.', date: '', timezone: '', location: '',
+      productionBrief: 'Private and nonbinding. Sponsorship is $5,000; workshop pricing is pending confirmation.',
+      sourceRefs: ['reply-conditional'],
+    })]),
+    response([toolUse('done', 'completeTask', { ...finalInput, nextRecommendedAction: 'produce' })]),
+  ]);
+  await dispatchClaimedTask(leased, { repository: repositoryStub(captures), client });
+  const completion = captures.completed[0] as { draftRevision?: { fields: Record<string, unknown> } };
+  assert.equal(completion.draftRevision?.fields.date, '');
+  assert.equal(completion.draftRevision?.fields.timezone, '');
+  assert.equal(completion.draftRevision?.fields.location, '');
+  assert.match(String(completion.draftRevision?.fields.productionBrief), /pricing is pending/i);
 });
 
 test('Scout can stage no more than three evidence-backed opportunities per run', async () => {
