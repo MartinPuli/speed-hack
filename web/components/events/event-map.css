@@ -1,0 +1,39 @@
+/* Scoped adaptation of GrowthX sf-event-map.css for the global catalog. */
+.event-map { color: #203a33; min-width: 0; font: inherit; }
+.event-map .event-map-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; min-height: 42px; color: #64716b; font-size: 11px; }
+.event-map button { font: inherit; }
+.event-map .event-map-toolbar button, .event-map .event-map-fallback button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; border: 1px solid #dbe2d8; color: #203a33; background: #fff; padding: 7px 9px; border-radius: 7px; cursor: pointer; white-space: nowrap; }
+.event-map .event-map-toolbar button:disabled { opacity: .45; cursor: default; }
+.event-map .event-map-frame { position: relative; overflow: hidden; border: 1px solid #dbe2d8; border-radius: 11px; }
+.event-map .event-map-canvas { height: 440px; width: 100%; background: #eef0e8; }
+.event-map .event-map-loading { position: absolute; top: 12px; left: 12px; padding: 8px 12px; background: #fff; color: #64716b; border-radius: 7px; font-size: 12px; pointer-events: none; }
+.event-map .event-map-fallback { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; gap: 10px; padding: 28px; background: #f5f6f1; }
+.event-map .event-map-fallback p { max-width: 310px; color: #64716b; margin: 0; font-size: 13px; line-height: 1.6; }
+.event-map .event-map-empty { min-height: 380px; display: flex; align-items: center; justify-content: center; flex-direction: column; text-align: center; border: 1px dashed #cbd4c6; background: #f5f6f1; border-radius: 11px; padding: 32px; }
+.event-map .event-map-empty h3 { font-size: 17px; max-width: 270px; line-height: 1.4; margin: 16px 0 8px; }
+.event-map .event-map-empty p { max-width: 310px; margin: 0; font-size: 13px; color: #64716b; line-height: 1.6; }
+.event-map .event-map-count { font-size: 12px; margin: 13px 0 5px; }
+.event-map .event-map-note { font-size: 11px; color: #64716b; margin: 5px 0; line-height: 1.6; }
+.event-map .maplibregl-ctrl-attrib { font-size: 9px; line-height: 14px; background: #fffffff2; }
+.event-map .maplibregl-ctrl-attrib a { color: #203a33; text-decoration: underline; }
+.event-map .maplibregl-ctrl-group button { width: 33px; height: 33px; }
+.event-map .event-map-pin { cursor: pointer; width: 35px; height: 35px; border: 3px solid #fff; border-radius: 50%; color: #fff; background: #285b48; font: 700 18px/1 system-ui; box-shadow: 0 2px 8px #0003; }
+.event-map .event-map-pin.approximate { border-style: dashed; background: #786440; }
+.event-map .event-map-pin[aria-pressed=true] { background: #203a33; box-shadow: 0 0 0 5px #285b4840; transform: scale(1.12); }
+.event-map button:focus-visible, .event-map a:focus-visible { outline: 3px solid #638978; outline-offset: 3px; }
+.event-map .event-map-popup { position: relative; color: #203a33; font-family: inherit; font-size: 12px; line-height: 1.5; max-height: 280px; overflow-y: auto; overscroll-behavior: contain; padding: 5px; }
+.event-map .event-map-popup h4 { padding-right: 25px; margin: 4px 0 10px; font-size: 16px; line-height: 1.3; }
+.event-map .event-map-popup p { margin: 8px 0; overflow-wrap: anywhere; }
+.event-map .event-map-popup a { color: #285b48; text-decoration: underline; display: inline-block; margin-top: 6px; }
+.event-map .event-map-evidence { display: block; margin-top: 12px; border: 0; border-radius: 6px; padding: 9px 12px; background: #285b48; color: white; cursor: pointer; font: inherit; }
+.event-map .event-map-close { float: right; cursor: pointer; border: 0; background: #eef0e8; border-radius: 50%; width: 25px; height: 25px; font-size: 19px; color: #203a33; }
+.event-map .event-map-precision { padding: 8px; border-radius: 6px; background: #faf2e3; font-size: 11px; }
+.event-map .event-map-shared { border-top: 1px solid #dbe2d8; margin-top: 10px; padding-top: 5px; }
+.event-map .event-map-shared button { display: block; text-align: left; margin-top: 5px; background: none; border: 0; color: #285b48; text-decoration: underline; cursor: pointer; padding: 3px 0; }
+.event-map .event-map-shared button[aria-pressed=true] { font-weight: 700; }
+.event-map .maplibregl-popup { z-index: 3; max-width: min(310px, calc(100vw - 70px)) !important; }
+@media (max-width: 700px) {
+  .event-map .event-map-canvas { height: 360px; }
+  .event-map .event-map-empty { min-height: 280px; }
+  .event-map .event-map-popup { max-height: 225px; }
+}
