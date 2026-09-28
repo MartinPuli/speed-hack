@@ -118,6 +118,21 @@ test('dispatcher caps model tool calls and records a non-retryable limit failure
   assert.equal(failures[0].retryable, false);
 });
 
+test('dispatcher grants one bounded correction when a final result violates its schema', async () => {
+  const captures = { completed: [] as unknown[] };
+  const requests: Array<{ messages: AnthropicMessage[]; tools: unknown[] }> = [];
+  const malformed = { ...finalInput, findings: [{ detail: 'Evidence is not a plain string.' }] };
+  const client = scriptedClient([
+    response([toolUse('bad-final', 'completeTask', malformed)]),
+    response([toolUse('good-final', 'completeTask', finalInput)]),
+  ], requests);
+  await dispatchClaimedTask(claim('lead'), { repository: repositoryStub(captures), client });
+  assert.equal(captures.completed.length, 1);
+  assert.equal(requests.length, 2);
+  const correction = requests[1].messages.at(-1)?.content;
+  assert.ok(Array.isArray(correction) && correction.some(block => block.type === 'tool_result' && block.is_error));
+});
+
 test('Scout receives its larger bounded budget to search and inspect candidates', async () => {
   const captures = { completed: [] as unknown[] };
   const calls = [
@@ -131,6 +146,29 @@ test('Scout receives its larger bounded budget to search and inspect candidates'
   assert.ok(completion.events?.some(event => event.kind === 'catalog_search'));
   assert.equal(completion.nextTasks?.length, 1);
   assert.equal(completion.nextTasks?.[0]?.assignedRole, 'lead');
+});
+
+test('Scout country aliases are normalized to the catalog country labels', async () => {
+  const captures = { completed: [] as unknown[] };
+  const requests: Array<{ messages: AnthropicMessage[]; tools: unknown[] }> = [];
+  const client = scriptedClient([
+    response([toolUse('search', 'searchCatalog', {
+      q: 'AI', from: '2026-10-01', to: '2026-12-31', country: 'US', city: 'San Francisco',
+    })]),
+    response([toolUse('search-again', 'searchCatalog', {
+      q: 'MLOps', from: '2026-10-01', to: '2026-12-31', country: '', city: 'San Francisco',
+    })]),
+    response([toolUse('done', 'completeTask', finalInput)]),
+  ], requests);
+  await dispatchClaimedTask(claim('scout'), { repository: repositoryStub(captures), client });
+  const completion = captures.completed[0] as { events?: Array<{ kind: string; metadata: Record<string, unknown> }> };
+  const searchEvents = completion.events?.filter(event => event.kind === 'catalog_search') ?? [];
+  const searchEvent = searchEvents[0];
+  assert.equal(searchEvent?.metadata.country, 'United States');
+  assert.equal(searchEvent?.metadata.returned, 1);
+  assert.equal(searchEvents.length, 1, 'one Scout task performs at most one catalog query');
+  const repeatedSearchResult = requests[2].messages.at(-1)?.content;
+  assert.ok(Array.isArray(repeatedSearchResult) && JSON.stringify(repeatedSearchResult).includes('FLOCK - The Autonomous-Ops Summit'));
 });
 
 test('Lead follow-ups keep a run queued for the next role instead of marking it complete', async () => {
@@ -189,18 +227,25 @@ test('Scout can stage no more than three evidence-backed opportunities per run',
   assert.equal(candidates.length, 4, 'the checked-in catalog should provide four upcoming events with evidence');
   const captures = { completed: [] as unknown[] };
   const requests: Array<{ messages: AnthropicMessage[]; tools: unknown[] }> = [];
+  // Model calls can serialize tool use, so exercise the longest ordinary path
+  // instead of batching all evidence and writes into single responses.
   const client = scriptedClient([
     response([toolUse('search', 'searchCatalog', { q: filters.q, from: filters.from, to: filters.to, country: filters.country, city: filters.city })]),
-    response(candidates.map((event, index) => toolUse(`evidence-${index}`, 'getEventEvidence', { eventId: event.id }))),
-    response(candidates.map((event, index) => toolUse(`save-${index}`, 'saveOpportunity', {
+    ...candidates.slice(0, 3).map((event, index) => response([toolUse(`evidence-${index}`, 'getEventEvidence', { eventId: event.id })])),
+    ...candidates.map((event, index) => response([toolUse(`save-${index}`, 'saveOpportunity', {
       catalogEventId: event.id, action: 'attend', rationale: 'This event is a possible audience fit.', evidenceIds: [event.evidence[0].id],
-    }))),
+    })])),
+    response([toolUse('lead-follow-up', 'requestTask', {
+      assignedRole: 'lead', objective: 'Rank the scouted opportunities and choose the next useful action.', opportunityId: null,
+      opportunityCreateIndex: 0, inputRefs: ['task_test'],
+    })]),
     response([toolUse('done', 'completeTask', finalInput)]),
   ], requests);
   await dispatchClaimedTask(claim('scout'), { repository: repositoryStub(captures), client });
   const completion = captures.completed[0] as { opportunityCreates?: Array<{ catalogEventId: string }> };
   assert.equal(completion.opportunityCreates?.length, 3);
-  const saveResults = requests[3].messages.filter(message => message.role === 'user').flatMap(message => Array.isArray(message.content) ? message.content : []);
+  assert.equal(requests.length, 10, 'serial search, evidence, saves, follow-up, and finalization must complete');
+  const saveResults = requests[8].messages.filter(message => message.role === 'user').flatMap(message => Array.isArray(message.content) ? message.content : []);
   assert.ok(saveResults.some(block => block.type === 'tool_result' && block.tool_use_id === 'save-3' && block.is_error === true));
 });
 

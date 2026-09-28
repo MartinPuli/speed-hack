@@ -1,6 +1,6 @@
 # Plan de implementación de agentes — Event GTM
 
-Estado: plan parcialmente implementado, 28 de septiembre de 2026. Base: [revisión del backend](backend-review-20260928.md), [definición del producto](product-definition.md) y [brief](../HACKATHON_BUILD_BRIEF.md). El backend de demo, el worker, los cuatro roles, la respuesta simulada y la UI de actividad ya están en el repositorio. La ejecución real con Anthropic, el onboarding desde website, el login multiusuario y el editor/exportador del borrador todavía necesitan cierre o validación.
+Estado: actualización al 28 de septiembre de 2026. Base: [revisión del backend](backend-review-20260928.md), [definición del producto](product-definition.md) y [brief](../HACKATHON_BUILD_BRIEF.md). El backend de demo, el worker, los cuatro roles, la respuesta simulada y la UI de actividad están implementados. La configuración local de Anthropic está lista; Lead ya completó una llamada real y se está validando un recorrido nuevo de Lead/Scout tras endurecer sus límites y corregir una respuesta final mal formada.
 
 ### Estado de implementación
 
@@ -12,11 +12,11 @@ Estado: plan parcialmente implementado, 28 de septiembre de 2026. Base: [revisi�
 | API de workspace, brief, runs, draft y respuesta simulada | ✅ Implementada. El catálogo conserva acceso de solo lectura |
 | Timeline, plan, propuesta privada y respuesta de demo en la UI | ✅ Implementado |
 | Estados de oportunidad, top 3 y filtro por ciudad | ✅ Implementado en lista y mapa, ordenado por fit guardado por Lead; la calibración comercial requiere evaluación |
-| Llamada real al proveedor y recorrido completo | 🟡 Configuración lista y Lead completó una llamada real; el primer run encontró un límite de herramientas demasiado bajo en Scout, ahora corregido y bajo nueva validación |
+| Llamada real al proveedor y recorrido completo | 🟡 Anthropic configurado; Lead completó una llamada real. Scout tiene presupuesto de 14 herramientas, 12 turnos de modelo, búsqueda limitada a tres candidatos y una corrección acotada para salida final inválida; el recorrido de cuatro roles sigue en validación |
 | Extracción de perfil desde website con edición/confirmación | ⛔ Pendiente; se conserva el brief manual existente |
 | Borrador editable/exportable para Luma, autenticación real, aislamiento multiusuario y deploy persistente | ⛔ Pendiente |
 
-**Estimación desde este punto:** unas **1,5–3 horas** para configurar y recorrer la demo real con el modelo, arreglar problemas de integración que aparezcan y ensayar el guion; **1–2 jornadas** adicionales para cerrar el P0 con extracción/corrección de perfil, edición/exportación del borrador, autenticación y despliegue. El recorrido con proveedor no se considera validado hasta que la configuración se complete y el run real deje eventos persistidos.
+**Estimación desde este punto:** unas **30–90 minutos** para cerrar el recorrido real con el modelo y ensayar el guion, si no aparecen fallos nuevos; **1–2 jornadas** adicionales para cerrar el P0 con extracción/corrección de perfil, edición/exportación del borrador, autenticación y despliegue. El recorrido con proveedor no se considera validado hasta que el run real complete los roles esperados y deje resultados y eventos persistidos.
 
 **Propuesta:** construir primero un ciclo completo con cuatro roles, tareas persistentes y una respuesta entrante que cambie el plan y el borrador. Mantener Next.js, el catálogo SQLite de solo lectura y el Event Studio existente. Añadir una segunda SQLite operacional y un worker Node independiente de las peticiones HTTP.
 
@@ -131,10 +131,10 @@ Los rangos de esta tabla suman **6–10 horas** para la demo integrada.
 | Etapa | Trabajo | Tiempo | Evidencia para darla por terminada |
 |---|---|---|---|
 | 1. Estado operacional | Migraciones, repositorio, sesión de demo, brief/versiones, oportunidad y borrador | Hecho | API y tests cubren persistencia/versiones; workspace separado; catálogo inmutable |
-| 2. Worker y runtime | Reclamación/reservas, recuperación, adaptador de modelo, validación, permisos y eventos | Hecho en código; prueba con proveedor pendiente | Worker y tests locales implementados; falta observar una ejecución real con proveedor |
-| 3. Cuatro roles | Herramientas del catálogo, lectura acotada de fuente, decisiones, outreach propuesto y generación de borrador | Hecho en código; validación E2E pendiente | Roles y herramientas integrados; validar el recorrido real una vez configurado Anthropic |
+| 2. Worker y runtime | Reclamación/reservas, recuperación, adaptador de modelo, validación, permisos y eventos | Implementado; integración real en validación | Worker, contratos y tests locales implementados; Lead ya invocó Anthropic. Completar la validación de tareas reales por rol |
+| 3. Cuatro roles | Herramientas del catálogo, lectura acotada de fuente, decisiones, outreach propuesto y generación de borrador | Implementado; validar el ciclo de cuatro roles | Un run real anterior expuso alias de país y forma de salida del modelo; ambos casos están corregidos y cubiertos. Falta confirmar la ejecución nueva hasta Producer y el cambio por respuesta simulada |
 | 4. UI y respuesta | Estados de mapa/lista, timeline, borrador privado, respuesta simulada y replanteo | Parcial | UI y respuesta persistidas; website onboarding y exportación/edición del borrador siguen pendientes |
-| 5. Validación | Reintentos/duplicados, presupuesto cambiado, ediciones humanas, regresiones y ensayo de demo | En curso | 36 tests, typecheck, lint, build y browser smoke pasan; completar recorrido entre roles y ensayo de demo |
+| 5. Validación | Reintentos/duplicados, presupuesto cambiado, ediciones humanas, regresiones y ensayo de demo | En curso | 38 tests, typecheck, lint, build aislado y browser smoke pasan; completar recorrido entre roles y ensayo de demo |
 
 Con los refinamientos anteriores, las bandas por etapa suman aproximadamente **6,5–11 horas**. Se recomienda reservar **6–10 horas para la demo** como meta de alcance, reestimando al terminar el primer recorrido y recortando funciones opcionales si las etapas de integración o QA superan su rango. La estimación de la demo es deliberadamente distinta de tener el P0 multiusuario completo.
 

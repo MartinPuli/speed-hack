@@ -4,7 +4,7 @@ import type {
   AgentRun, AgentTask, AgentTimelineEvent, EventDraftFields, EventDraftRecord,
   WorkspaceAgentRole, WorkspaceOpportunity,
 } from '../../contracts/agent-workspace';
-import type { ResearchBrief, SearchFilters } from '../../contracts/event-gtm';
+import type { EventSummary, ResearchBrief, SearchFilters } from '../../contracts/event-gtm';
 import { getEventDetail, searchEvents } from '../dataset-repository';
 import type { ClaimedTask, CompleteAgentTaskInput } from '../workspace/repository';
 import { AgentModelRequestError, AnthropicModelClient, type AnthropicContentBlock, type AnthropicMessage, type AnthropicTool } from './model-client';
@@ -87,6 +87,7 @@ interface FinalResult {
 interface StagedState {
   tasteDesign?: EventDesignBrief;
   candidates: Map<string, { id: string; title: string; sourceEvidenceIds: string[] }>;
+  catalogSearchResult: EventSummary[] | null;
   evidence: Map<string, ReturnType<typeof getEventDetail>>;
   fetchedSources: Map<string, { eventId: string; text: string; fetchedAt: string }>;
   sourceFetchAttempts: number;
@@ -100,12 +101,14 @@ interface StagedState {
   toolEvents: AgentTaskCompletion['events'];
 }
 
-const MAX_CANDIDATES = 5;
+const MAX_CANDIDATES = 3;
 const MAX_SAVED_OPPORTUNITIES = 3;
 // Scout needs a larger budget to inspect several candidates, while each role
 // still has its own lower cap (Lead/Partnerships/Producer: 10; Scout: 14).
 const MAX_TOOL_CALLS = 14;
-const MAX_MODEL_ROUNDS = 8;
+// A three-candidate Scout run can need up to ten serial model turns (search,
+// inspect/save each candidate, stage the Lead follow-up, and finalize).
+const MAX_MODEL_ROUNDS = 12;
 const MAX_DERIVED_TASKS = 1;
 const MAX_TOTAL_RUN_TASKS = 10;
 const MAX_FETCH_BYTES = 192 * 1024;
@@ -193,6 +196,16 @@ function isAllowedCandidate(eventId: string, state: StagedState, context: Claime
 
 function briefView(brief: ResearchBrief | null): Record<string, unknown> | null {
   return brief ? { ...brief } : null;
+}
+
+function canonicalCountryFilter(value: string): string {
+  const normalized = value.trim().toLocaleLowerCase().replaceAll('.', '');
+  const aliases: Record<string, string> = {
+    us: 'United States', usa: 'United States', 'united states of america': 'United States',
+    uk: 'United Kingdom', gb: 'United Kingdom', 'great britain': 'United Kingdom',
+    uae: 'United Arab Emirates',
+  };
+  return aliases[normalized] ?? value.trim();
 }
 
 function safeUrl(candidate: string): URL | null {
@@ -417,8 +430,11 @@ function toolHandler(
     case 'readClaims': return { claims: state.claims, taskClaims: context.tasks.filter(item => item.assignedRole === 'scout').map(item => item.result).slice(-5) };
     case 'searchCatalog': {
       if (context.task.assignedRole !== 'scout') throw new Error('Only Scout may search the event catalog.');
-      const country = String(args.country ?? '').trim();
+      const country = canonicalCountryFilter(String(args.country ?? ''));
       const city = String(args.city ?? '').trim();
+      if (state.catalogSearchResult !== null) {
+        return { events: state.catalogSearchResult, totalReturned: state.catalogSearchResult.length, limitedTo: MAX_CANDIDATES, cityFilter: city || null, note: 'One focused search has already run for this task; use those candidates or ask Lead to broaden criteria in a follow-up.' };
+      }
       const filters: SearchFilters = {
         q: String(args.q ?? '').slice(0, 180), from: String(args.from ?? ''), to: String(args.to ?? ''), country, city,
         scope: 'upcoming', sector: 'tech', page: 1, pageSize: 30,
@@ -428,6 +444,7 @@ function toolHandler(
       const remaining = Math.max(0, MAX_CANDIDATES - state.candidates.size);
       const limited = events.filter(event => !state.candidates.has(event.id)).slice(0, remaining);
       for (const event of limited) state.candidates.set(event.id, { id: event.id, title: event.title, sourceEvidenceIds: [] });
+      state.catalogSearchResult = limited;
       state.toolEvents.push({ role: 'scout', kind: 'catalog_search', message: `Searched the catalog and received ${limited.length} candidate event${limited.length === 1 ? '' : 's'}.`, opportunityId: context.opportunity?.id ?? null, metadata: { returned: limited.length, q: filters.q, country, city, from: filters.from, to: filters.to } });
       return { events: limited, totalReturned: limited.length, limitedTo: MAX_CANDIDATES, cityFilter: city || null };
     }
@@ -588,6 +605,7 @@ async function runModel(
   const schemaByName = new Map(definition.tools.filter(item => item.name !== 'completeTask').map(item => [item.name, item.input_schema]));
   const apiTools = definition.tools.map(item => ({ ...item, input_schema: anthropicStrictSchema(item.input_schema) }));
   let totalCalls = 0;
+  let finalResultRepairs = 0;
   const maxCalls = Math.min(MAX_TOOL_CALLS, definition.maxToolCalls);
   for (let round = 0; round < MAX_MODEL_ROUNDS; round++) {
     const response = await client.createMessage({ system: definition.system, messages, tools: apiTools, toolChoice: { type: 'auto' } });
@@ -596,7 +614,16 @@ async function runModel(
     if (finalBlock && toolUses.length === 1) {
       const finalSchema = finalizerSpec(definition.tools)?.input_schema;
       const invalid = finalSchema ? validateSchema(finalSchema, finalBlock.input) : 'missing schema';
-      if (invalid) throw new Error(`The model returned an invalid final result: ${invalid}.`);
+      if (invalid) {
+        if (finalResultRepairs >= 1) throw new Error(`The model returned an invalid final result after one correction: ${invalid}.`);
+        finalResultRepairs += 1;
+        messages.push({ role: 'assistant', content: response.content });
+        messages.push({ role: 'user', content: [{
+          type: 'tool_result', tool_use_id: finalBlock.id, is_error: true,
+          content: `Invalid final result: ${invalid}. Call completeTask again. Use plain strings for every findings and blockers item; do not return objects or nested data.`,
+        }] });
+        continue;
+      }
       return validateFinalResult(finalBlock.input);
     }
     if (!toolUses.length || response.stop_reason !== 'tool_use') {
@@ -706,7 +733,7 @@ export async function executeClaimedTask(claim: ClaimedTask, dependencies: Agent
   const now = dependencies.now ?? (() => new Date());
   const role = context.task.assignedRole;
   const state: StagedState = {
-    candidates: new Map(), evidence: new Map(), fetchedSources: new Map(), sourceFetchAttempts: 0, claims: [], opportunityCreates: [],
+    candidates: new Map(), catalogSearchResult: null, evidence: new Map(), fetchedSources: new Map(), sourceFetchAttempts: 0, claims: [], opportunityCreates: [],
     opportunityUpdate: null, draftRevision: null, nextTasks: [], outreachDrafts: [], replySummaries: [], toolEvents: [],
   };
   try {

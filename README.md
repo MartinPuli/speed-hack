@@ -2,7 +2,7 @@
 
 Event GTM (nombre de trabajo: Growth Atlas) combina una base de investigación de eventos con una aplicación web para consultar ediciones, comparar alternativas y revisar la evidencia de cada dato. Está pensada para equipos de growth y field marketing que deciden a qué eventos ir, dónde hablar o qué patrocinar.
 
-**Estado al 28-sep-2026 (Startup Speedrun Hackathon):** `web/` combina un catálogo SQLite de solo lectura (21.747 ediciones canónicas) con un workspace de demo persistente, un worker de agentes de cuatro roles y una línea de tiempo. El backend ya tiene runtime con herramientas acotadas, persistencia operacional separada y respuesta de organizador simulada. La configuración local de Anthropic está lista y Lead completó una llamada real; el recorrido completo con Scout está en validación. No hay login multiusuario ni extracción de perfil desde website.
+**Estado al 28-sep-2026 (Startup Speedrun Hackathon):** `web/` combina un catálogo SQLite de solo lectura (21.747 ediciones canónicas) con un workspace de demo persistente, un worker de agentes de cuatro roles y una línea de tiempo. El backend tiene runtime con herramientas acotadas, persistencia operacional separada y respuesta de organizador simulada. Anthropic está configurado y Lead completó una llamada real; el ciclo entre roles está en validación. No hay login multiusuario ni extracción de perfil desde website.
 
 La aplicación reutiliza selectivamente módulos de [GrowthX / Growth Atlas](https://github.com/Julian0444/GrowthX-for-hackaton). Lee el catálogo en modo de solo lectura. Los archivos originales de `event-gtm-2026-09-28/` conservan su estructura.
 
@@ -66,7 +66,7 @@ Leyenda: ✅ funciona · 🟡 parcial o con defectos · ⛔ falta
 | Cuenta / login | 🟡 Sesión de demo compartida con cookie segura; no hay usuarios ni membresías |
 | Workspace persistente en servidor | ✅ SQLite operacional separada e ignorada por Git; el catálogo permanece de solo lectura |
 | Onboarding desde el website | ⛔ El brief se puede completar manualmente; no hay extracción ni propuesta de perfil desde una web |
-| Cuatro roles, tareas durables, worker y línea de tiempo | ✅ Runtime Lead, Scout, Partnerships y Producer con herramientas permitidas, reintentos acotados y persistencia. Lead ya completó una llamada real; se está validando el ciclo entre roles |
+| Cuatro roles, tareas durables, worker y línea de tiempo | ✅ Runtime Lead, Scout, Partnerships y Producer con herramientas permitidas, reintentos acotados y persistencia. Lead ya completó una llamada real; se valida el ciclo entre roles |
 | Estados de oportunidad en lista y mapa | ✅ Estados semánticos, filtro de ciudad y top 3 por fit guardado; la fórmula/ajuste comercial del fit aún necesita evaluación |
 | Respuesta entrante del organizador | ✅ Fixture de demo marcado como simulado, persistido e idempotente; genera trabajo posterior para los agentes |
 | Borrador privado para Luma | 🟡 El Producer persiste una propuesta y la UI la muestra; el editor/exportador conectado a esas revisiones sigue pendiente |
@@ -76,12 +76,12 @@ Leyenda: ✅ funciona · 🟡 parcial o con defectos · ⛔ falta
 
 | Comprobación | Resultado |
 |---|---|
-| `pnpm test` | ✅ 36/36 |
+| `pnpm test` | ✅ 38/38 |
 | `pnpm typecheck` (`tsc --noEmit`) | ✅ sin diagnósticos |
 | `pnpm lint` (`eslint .`) | ✅ 0 errores, 0 avisos |
-| `pnpm build` (`next build --webpack`) | Pendiente en checkout aislado para no interferir con el servidor de desarrollo |
+| `pnpm build` (`next build --webpack`) | ✅ Build de producción en una copia aislada |
 | `next dev` + smoke HTTP | ✅ `/api/health` responde 200; catálogo 21.747 y modo `read-only` |
-| `pnpm test:browser` contra `:3010` | En curso; el primer intento detectó un selector ambiguo que ya fue corregido |
+| `pnpm test:browser` contra `:3010` | ✅ Playwright smoke en Chrome; se corrigió el selector ambiguo detectado en el primer intento |
 | Integridad del catálogo | ✅ SHA-256 `8e1973…50cc`, 338.649.088 bytes. Coincide con [la verificación del traslado](docs/growthx-transfer-verification-20260928.md) |
 
 El único aviso en todos los procesos es `ExperimentalWarning: SQLite is an experimental feature` de `node:sqlite` en Node 22. No es un fallo.
@@ -599,13 +599,13 @@ La app necesita un proceso Node con acceso de lectura al catálogo y escritura p
 | Script | Comando | Qué hace | Última ejecución (2026-09-28) |
 |---|---|---|---|
 | `pnpm dev` | `node scripts/copy-maplibre-worker.mjs && next dev --webpack -p 3010` | Desarrollo en :3010 | En ejecución, respondiendo 200 |
-| `pnpm worker` | `node --env-file-if-exists=.env.local --import tsx scripts/run-agent-worker.ts` | Consume tareas durables; requiere configuración Anthropic | Configuración local pendiente para E2E |
-| `pnpm build` | `node scripts/copy-maplibre-worker.mjs && next build --webpack` | Build de producción | Pendiente en checkout aislado |
+| `pnpm worker` | `node --env-file-if-exists=.env.local --import tsx scripts/run-agent-worker.ts` | Consume tareas durables; requiere configuración Anthropic | Anthropic configurado; Lead ejecutado y ciclo de roles en validación |
+| `pnpm build` | `node scripts/copy-maplibre-worker.mjs && next build --webpack` | Build de producción | ✅ Compila correctamente en copia aislada |
 | `pnpm start` | `next start -p 3010` | Sirve el build | Sin cambios |
 | `pnpm typecheck` | `tsc --noEmit` | Tipos, incluidos los tests | ✅ |
 | `pnpm lint` | `eslint .` | `next/core-web-vitals` + `next/typescript`. Ignora `.next/`, `public/maplibre/` y `next-env.d.ts` | ✅ |
-| `pnpm test` | `node --import tsx --test tests/*.test.ts` | Tests `node:test` del catálogo, workspace, runtime y estados de oportunidad | ✅ 36/36 |
-| `pnpm test:browser` | `node tests/browser-smoke.mjs` | Recorrido de Playwright en Chrome contra un servidor ya en marcha; incluye presencia de los cuatro roles | En curso tras corregir un selector ambiguo |
+| `pnpm test` | `node --import tsx --test tests/*.test.ts` | Tests `node:test` del catálogo, workspace, runtime y estados de oportunidad | ✅ 38/38 |
+| `pnpm test:browser` | `node tests/browser-smoke.mjs` | Recorrido de Playwright en Chrome contra un servidor ya en marcha; incluye presencia de los cuatro roles | ✅ |
 
 ### Qué cubre cada test
 
