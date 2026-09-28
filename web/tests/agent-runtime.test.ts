@@ -118,6 +118,21 @@ test('dispatcher caps model tool calls and records a non-retryable limit failure
   assert.equal(failures[0].retryable, false);
 });
 
+test('Scout receives its larger bounded budget to search and inspect candidates', async () => {
+  const captures = { completed: [] as unknown[] };
+  const calls = [
+    toolUse('search', 'searchCatalog', { q: 'zzzxqvnonmatchingevent', from: '', to: '', country: '', city: '' }),
+    ...Array.from({ length: 13 }, (_, index) => toolUse(`brief-${index}`, 'readBrief', {})),
+  ];
+  const client = scriptedClient([response(calls), response([toolUse('done', 'completeTask', finalInput)])]);
+  await dispatchClaimedTask(claim('scout'), { repository: repositoryStub(captures), client });
+  assert.equal(captures.completed.length, 1);
+  const completion = captures.completed[0] as { events?: Array<{ kind: string }>; nextTasks?: Array<{ assignedRole: string }> };
+  assert.ok(completion.events?.some(event => event.kind === 'catalog_search'));
+  assert.equal(completion.nextTasks?.length, 1);
+  assert.equal(completion.nextTasks?.[0]?.assignedRole, 'lead');
+});
+
 test('Lead follow-ups keep a run queued for the next role instead of marking it complete', async () => {
   const captures = { completed: [] as unknown[] };
   const client = scriptedClient([

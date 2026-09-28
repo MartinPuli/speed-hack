@@ -97,9 +97,11 @@ interface StagedState {
 
 const MAX_CANDIDATES = 5;
 const MAX_SAVED_OPPORTUNITIES = 3;
-const MAX_TOOL_CALLS = 10;
+// Scout needs a larger budget to inspect several candidates, while each role
+// still has its own lower cap (Lead/Partnerships/Producer: 10; Scout: 14).
+const MAX_TOOL_CALLS = 14;
 const MAX_MODEL_ROUNDS = 8;
-const MAX_DERIVED_TASKS = 2;
+const MAX_DERIVED_TASKS = 1;
 const MAX_TOTAL_RUN_TASKS = 10;
 const MAX_FETCH_BYTES = 192 * 1024;
 const MAX_SOURCE_FETCH_ATTEMPTS = 2;

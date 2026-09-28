@@ -2,7 +2,7 @@
 
 Event GTM (nombre de trabajo: Growth Atlas) combina una base de investigación de eventos con una aplicación web para consultar ediciones, comparar alternativas y revisar la evidencia de cada dato. Está pensada para equipos de growth y field marketing que deciden a qué eventos ir, dónde hablar o qué patrocinar.
 
-**Estado al 28-sep-2026 (Startup Speedrun Hackathon):** `web/` combina un catálogo SQLite de solo lectura (21.747 ediciones canónicas) con un workspace de demo persistente, un worker de agentes de cuatro roles y una línea de tiempo. El backend ya tiene runtime con herramientas acotadas, persistencia operacional separada y respuesta de organizador simulada; la ejecución real con Anthropic aún requiere completar la configuración local del workspace del proveedor y hacer un recorrido de extremo a extremo. No hay login multiusuario ni extracción de perfil desde website.
+**Estado al 28-sep-2026 (Startup Speedrun Hackathon):** `web/` combina un catálogo SQLite de solo lectura (21.747 ediciones canónicas) con un workspace de demo persistente, un worker de agentes de cuatro roles y una línea de tiempo. El backend ya tiene runtime con herramientas acotadas, persistencia operacional separada y respuesta de organizador simulada. La configuración local de Anthropic está lista y Lead completó una llamada real; el recorrido completo con Scout está en validación. No hay login multiusuario ni extracción de perfil desde website.
 
 La aplicación reutiliza selectivamente módulos de [GrowthX / Growth Atlas](https://github.com/Julian0444/GrowthX-for-hackaton). Lee el catálogo en modo de solo lectura. Los archivos originales de `event-gtm-2026-09-28/` conservan su estructura.
 
@@ -66,7 +66,7 @@ Leyenda: ✅ funciona · 🟡 parcial o con defectos · ⛔ falta
 | Cuenta / login | 🟡 Sesión de demo compartida con cookie segura; no hay usuarios ni membresías |
 | Workspace persistente en servidor | ✅ SQLite operacional separada e ignorada por Git; el catálogo permanece de solo lectura |
 | Onboarding desde el website | ⛔ El brief se puede completar manualmente; no hay extracción ni propuesta de perfil desde una web |
-| Cuatro roles, tareas durables, worker y línea de tiempo | ✅ Runtime Lead, Scout, Partnerships y Producer con herramientas permitidas, reintentos acotados y persistencia. Recorrido con el proveedor pendiente de completar configuración |
+| Cuatro roles, tareas durables, worker y línea de tiempo | ✅ Runtime Lead, Scout, Partnerships y Producer con herramientas permitidas, reintentos acotados y persistencia. Lead ya completó una llamada real; se está validando el ciclo entre roles |
 | Estados de oportunidad en lista y mapa | ✅ Estados semánticos, filtro de ciudad y top 3 por fit guardado; la fórmula/ajuste comercial del fit aún necesita evaluación |
 | Respuesta entrante del organizador | ✅ Fixture de demo marcado como simulado, persistido e idempotente; genera trabajo posterior para los agentes |
 | Borrador privado para Luma | 🟡 El Producer persiste una propuesta y la UI la muestra; el editor/exportador conectado a esas revisiones sigue pendiente |
@@ -76,7 +76,7 @@ Leyenda: ✅ funciona · 🟡 parcial o con defectos · ⛔ falta
 
 | Comprobación | Resultado |
 |---|---|
-| `pnpm test` | ✅ 35/35 |
+| `pnpm test` | ✅ 36/36 |
 | `pnpm typecheck` (`tsc --noEmit`) | ✅ sin diagnósticos |
 | `pnpm lint` (`eslint .`) | ✅ 0 errores, 0 avisos |
 | `pnpm build` (`next build --webpack`) | Pendiente en checkout aislado para no interferir con el servidor de desarrollo |
@@ -604,7 +604,7 @@ La app necesita un proceso Node con acceso de lectura al catálogo y escritura p
 | `pnpm start` | `next start -p 3010` | Sirve el build | Sin cambios |
 | `pnpm typecheck` | `tsc --noEmit` | Tipos, incluidos los tests | ✅ |
 | `pnpm lint` | `eslint .` | `next/core-web-vitals` + `next/typescript`. Ignora `.next/`, `public/maplibre/` y `next-env.d.ts` | ✅ |
-| `pnpm test` | `node --import tsx --test tests/*.test.ts` | Tests `node:test` del catálogo, workspace, runtime y estados de oportunidad | ✅ 35/35 |
+| `pnpm test` | `node --import tsx --test tests/*.test.ts` | Tests `node:test` del catálogo, workspace, runtime y estados de oportunidad | ✅ 36/36 |
 | `pnpm test:browser` | `node tests/browser-smoke.mjs` | Recorrido de Playwright en Chrome contra un servidor ya en marcha; incluye presencia de los cuatro roles | En curso tras corregir un selector ambiguo |
 
 ### Qué cubre cada test

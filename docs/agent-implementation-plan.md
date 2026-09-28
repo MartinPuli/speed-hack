@@ -12,7 +12,7 @@ Estado: plan parcialmente implementado, 28 de septiembre de 2026. Base: [revisi�
 | API de workspace, brief, runs, draft y respuesta simulada | ✅ Implementada. El catálogo conserva acceso de solo lectura |
 | Timeline, plan, propuesta privada y respuesta de demo en la UI | ✅ Implementado |
 | Estados de oportunidad, top 3 y filtro por ciudad | ✅ Implementado en lista y mapa, ordenado por fit guardado por Lead; la calibración comercial requiere evaluación |
-| Llamada real al proveedor y recorrido completo | 🟡 Falta `ANTHROPIC_WORKSPACE_ID` en configuración local y completar una ejecución observada |
+| Llamada real al proveedor y recorrido completo | 🟡 Configuración lista y Lead completó una llamada real; el primer run encontró un límite de herramientas demasiado bajo en Scout, ahora corregido y bajo nueva validación |
 | Extracción de perfil desde website con edición/confirmación | ⛔ Pendiente; se conserva el brief manual existente |
 | Borrador editable/exportable para Luma, autenticación real, aislamiento multiusuario y deploy persistente | ⛔ Pendiente |
 
@@ -134,7 +134,7 @@ Los rangos de esta tabla suman **6–10 horas** para la demo integrada.
 | 2. Worker y runtime | Reclamación/reservas, recuperación, adaptador de modelo, validación, permisos y eventos | Hecho en código; prueba con proveedor pendiente | Worker y tests locales implementados; falta observar una ejecución real con proveedor |
 | 3. Cuatro roles | Herramientas del catálogo, lectura acotada de fuente, decisiones, outreach propuesto y generación de borrador | Hecho en código; validación E2E pendiente | Roles y herramientas integrados; validar el recorrido real una vez configurado Anthropic |
 | 4. UI y respuesta | Estados de mapa/lista, timeline, borrador privado, respuesta simulada y replanteo | Parcial | UI y respuesta persistidas; website onboarding y exportación/edición del borrador siguen pendientes |
-| 5. Validación | Reintentos/duplicados, presupuesto cambiado, ediciones humanas, regresiones y ensayo de demo | En curso | 35 tests, typecheck y lint pasan; falta build, browser smoke y recorrido con el proveedor |
+| 5. Validación | Reintentos/duplicados, presupuesto cambiado, ediciones humanas, regresiones y ensayo de demo | En curso | 36 tests, typecheck, lint, build y browser smoke pasan; completar recorrido entre roles y ensayo de demo |
 
 Con los refinamientos anteriores, las bandas por etapa suman aproximadamente **6,5–11 horas**. Se recomienda reservar **6–10 horas para la demo** como meta de alcance, reestimando al terminar el primer recorrido y recortando funciones opcionales si las etapas de integración o QA superan su rango. La estimación de la demo es deliberadamente distinta de tener el P0 multiusuario completo.
 
