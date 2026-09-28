@@ -1,0 +1,10 @@
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { getEventDetail, searchEvents } from '../lib/server/dataset-repository';
+const filters = { q: '', from: '2026-09-28', to: '2027-01-01', country: '', city: '', scope: 'upcoming' as const, sector: 'tech' as const, page: 1, pageSize: 50 };
+const first = searchEvents(filters);
+const events = [...first.events];
+for (let page = 2; page <= Math.min(first.totalPages, 20); page++) events.push(...searchEvents({ ...filters, page }).events);
+const details = events.map(event => getEventDetail(event.id)).filter(Boolean);
+mkdirSync('cloudflare/generated', { recursive: true });
+writeFileSync('cloudflare/generated/catalog.json', JSON.stringify({ exportedAt: new Date().toISOString(), events: details }));
+console.log(`Exported ${details.length} real catalog records with evidence for the Cloudflare deployment.`);

@@ -1,10 +1,17 @@
 import { createHash } from 'node:crypto';
+import { workspaceCacheScope } from '@growthx/storage';
 import type { CompanyBrand, EventDesignBrief } from '@/lib/contracts/company-brand';
 import { readCompanyBrand, readEventDesignBrief, saveCompanyBrand, saveEventDesignBrief } from '../workspace/repository';
 
 const BASE = 'https://api.tastelabs.com';
-const active = new Map<string, Promise<CompanyBrand>>();
-const enhancing = new Map<string, Promise<EventDesignBrief>>();
+const activeScopes = new WeakMap<object, Map<string, Promise<CompanyBrand>>>();
+const enhancingScopes = new WeakMap<object, Map<string, Promise<EventDesignBrief>>>();
+function scoped<T>(scopes: WeakMap<object, Map<string, Promise<T>>>) {
+  const scope = workspaceCacheScope();
+  let cache = scopes.get(scope);
+  if (!cache) { cache = new Map(); scopes.set(scope, cache); }
+  return cache;
+}
 export function tasteConfigured() { return Boolean(process.env.TASTE_API_KEY?.trim()); }
 export function companyUrl(value: string): string {
   const url = new URL(value.includes('://') ? value : `https://${value}`);
@@ -34,11 +41,11 @@ export function normalizeBrand(payload: Record<string, unknown>, submissionId: s
   const logo = logos.find(item => /monochrome/i.test(text(item.role))) ?? logos.find(item => /primary/i.test(text(item.role)));
   const font = (key: string) => text(array(record(typography[key]).variants)[0]?.name, 80);
   const palette = [...array(colors.baseline), ...array(colors.secondary)].filter(item => /^#[0-9a-f]{6}$/i.test(text(item.hex))).map(item => ({ name: text(item.name, 80), hex: text(item.hex, 7) })).slice(0, 8);
-  return { submissionId, sourceUrl, status: payload.status === 'completed' ? 'completed' : payload.status === 'failed' ? 'failed' : 'pending', name: text(profile.brand_name, 100), logoUrl: assetUrl(logo?.origin_url ?? logo?.url), palette, displayFont: font('titles'), bodyFont: font('paragraphs'), tone: strings(profile.copy_tone), signature: text(profile.brand_signature), audience: strings(record(profile.strategy).target_audience), extractedAt: text(payload.completed_at, 80) || null, error: payload.status === 'failed' ? 'Taste could not extract this website. You can continue with the current design.' : null };
+  return { submissionId, sourceUrl, status: payload.status === 'completed' ? 'completed' : payload.status === 'failed' ? 'failed' : 'pending', name: text(profile.brand_name, 100), logoUrl: assetUrl(logo?.origin_url ?? logo?.url), imagery: array(assets.media).filter(item => item.type === 'image' && !/icon|arrow|logo|bracket/i.test(text(item.name)) && assetUrl(item.origin_url ?? item.url)).slice(0, 8).map(item => ({ url: assetUrl(item.origin_url ?? item.url)!, description: `${text(item.name, 120)}. ${text(item.usage_context, 300)}` })), palette, displayFont: font('titles'), bodyFont: font('paragraphs'), tone: strings(profile.copy_tone), signature: text(profile.brand_signature), audience: strings(record(profile.strategy).target_audience), extractedAt: text(payload.completed_at, 80) || null, error: payload.status === 'failed' ? 'Taste could not extract this website. You can continue with the current design.' : null };
 }
 export async function refreshCompanyBrand(workspaceId: string, sourceUrl?: string): Promise<CompanyBrand | null> {
   const brand = readCompanyBrand(workspaceId, sourceUrl);
-  if (!brand || brand.status !== 'pending') return brand;
+  if (!brand || (brand.status !== 'pending' && brand.imagery !== undefined)) return brand;
   const payload = await request(`/design/submissions/${encodeURIComponent(brand.submissionId)}/result?sections=profile,colors,typography,assets`);
   return saveCompanyBrand(workspaceId, normalizeBrand(payload, brand.submissionId, brand.sourceUrl));
 }
@@ -47,6 +54,7 @@ export async function extractCompanyBrand(workspaceId: string, website: string):
   const saved = readCompanyBrand(workspaceId, url);
   if (saved) return (await refreshCompanyBrand(workspaceId, url))!;
   const key = `${workspaceId}:${url}`;
+  const active = scoped(activeScopes);
   const inFlight = active.get(key); if (inFlight) return inFlight;
   const operation = (async () => {
     const payload = await request('/design/submissions', { url, force: false, enable_deep_analysis: false });
@@ -66,6 +74,7 @@ export async function groundEventDesign(workspaceId: string, prompt: string): Pr
   const hash = createHash('sha256').update(brand.submissionId + bounded).digest('hex');
   const cached = readEventDesignBrief(workspaceId, hash); if (cached) return cached;
   const key = `${workspaceId}:${hash}`;
+  const enhancing = scoped(enhancingScopes);
   const inFlight = enhancing.get(key); if (inFlight) return inFlight;
   const operation = (async () => {
     const payload = await request('/design/prompts/enhance', { submission_id: brand.submissionId, prompt: bounded });

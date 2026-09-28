@@ -1,13 +1,13 @@
 import { isIP } from 'node:net';
-import { lookup } from 'node:dns/promises';
+import { lookup } from '@growthx/dns';
 import type {
   AgentRun, AgentTask, AgentTimelineEvent, EventDraftFields, EventDraftRecord,
   WorkspaceAgentRole, WorkspaceOpportunity,
 } from '../../contracts/agent-workspace';
 import type { EventSummary, ResearchBrief, SearchFilters } from '../../contracts/event-gtm';
-import { getEventDetail, searchEvents } from '../dataset-repository';
+import { getEventDetail, searchEvents } from '@growthx/catalog';
 import type { ClaimedTask, CompleteAgentTaskInput } from '../workspace/repository';
-import { AgentModelRequestError, AnthropicModelClient, type AnthropicContentBlock, type AnthropicMessage, type AnthropicTool } from './model-client';
+import { AgentModelRequestError, AgentTaskYield, AnthropicModelClient, type AnthropicContentBlock, type AnthropicMessage, type AnthropicTool, type AgentModelClient } from './model-client';
 import { getRoleDefinition } from './roles';
 import { readCompanyBrand, provisionEventPreview } from '../workspace/repository';
 import { groundEventDesign } from '../taste/client';
@@ -29,7 +29,7 @@ export interface ClaimedAgentTask {
 }
 
 export interface StagedOpportunityCreate {
-  catalogEventId: string;
+  catalogEventId: string | null;
   title: string;
   action: WorkspaceOpportunity['action'];
   fit: number | null;
@@ -71,7 +71,7 @@ export interface AgentRuntimeRepository {
 
 export interface AgentRuntimeDependencies {
   repository: AgentRuntimeRepository;
-  client?: AnthropicModelClient;
+  client?: AgentModelClient;
   fetcher?: typeof fetch;
   now?: () => Date;
 }
@@ -103,9 +103,9 @@ interface StagedState {
 
 const MAX_CANDIDATES = 3;
 const MAX_SAVED_OPPORTUNITIES = 3;
-// Scout needs a larger budget to inspect several candidates, while each role
-// still has its own lower cap (Lead/Partnerships/Producer: 10; Scout: 14).
-const MAX_TOOL_CALLS = 14;
+// Producer builds the full experience; Scout inspects up to three candidates.
+// Lead and Partnerships retain lower role-specific limits.
+const MAX_TOOL_CALLS = 16;
 // A three-candidate Scout run can need up to ten serial model turns (search,
 // inspect/save each candidate, stage the Lead follow-up, and finalize).
 const MAX_MODEL_ROUNDS = 12;
@@ -257,7 +257,7 @@ async function readLimited(response: Response): Promise<string> {
       chunks.push(value);
     }
   } finally { reader.releaseLock(); }
-  const text = new TextDecoder('utf-8', { fatal: false }).decode(Buffer.concat(chunks));
+  const text = new TextDecoder('utf-8', { fatal: false, ignoreBOM: false }).decode(Buffer.concat(chunks));
   return text.replace(/<script\b[^>]*>[\s\S]*?<\/script\s*>/gi, ' ')
     .replace(/<style\b[^>]*>[\s\S]*?<\/style\s*>/gi, ' ')
     .replace(/<[^>]+>/g, ' ').replace(/&nbsp;/gi, ' ').replace(/&amp;/gi, '&')
@@ -356,7 +356,10 @@ function validSourceRefs(refs: string[], state: StagedState, context: ClaimedAge
   const allowed = evidenceIdSet(state, context);
   for (const ref of context.task.inputRefs) allowed.add(ref);
   allowed.add(`brief:${context.briefVersion}`);
-  for (const opportunity of context.opportunities) allowed.add(`opportunity:${opportunity.id}`);
+  const brand = readCompanyBrand(context.workspaceId);
+  if (brand?.sourceUrl) allowed.add(brand.sourceUrl);
+  if (context.brief?.website) allowed.add(context.brief.website);
+  for (const opportunity of context.opportunities) { allowed.add(`opportunity:${opportunity.id}`); allowed.add(opportunity.id); }
   for (const event of context.events) {
     if (typeof event.metadata.messageId === 'string') allowed.add(event.metadata.messageId);
     if (typeof event.metadata.replyId === 'string') allowed.add(event.metadata.replyId);
@@ -422,6 +425,15 @@ function toolHandler(
   now: () => Date,
 ): Promise<unknown> | unknown {
   switch (name) {
+    case 'createEventConcept': {
+      if (context.task.assignedRole !== 'lead') throw new Error('Only Lead can propose an owned event.');
+      if (state.opportunityCreates.length >= 2) throw new Error('Choose at most two owned concepts.');
+      const title = String(args.title).trim();
+      if (context.opportunities.some(item => item.title.toLowerCase() === title.toLowerCase())) throw new Error('This concept already exists. Develop the existing opportunity.');
+      const opportunityCreateIndex = state.opportunityCreates.length;
+      state.opportunityCreates.push({ catalogEventId: null, title, action: 'host', fit: null, rationale: String(args.rationale), evidenceIds: [`brief:${context.briefVersion}`] });
+      return { staged: true, opportunityCreateIndex, proposed: true };
+    }
     case 'readBrand': return readCompanyBrand(context.workspaceId);
     case 'readEventResearch': {
       const opportunity = checkOpportunity(context, args.opportunityId);
@@ -438,7 +450,7 @@ function toolHandler(
       if (!brand || brand.status !== 'completed') throw new Error('The company brand is not ready.');
       const preview = provisionEventPreview(context.workspaceId, { opportunityId: state.draftRevision.opportunityId, fields: state.draftRevision.fields, brand, design: state.tasteDesign ?? null });
       const url = `/preview/${preview.id}`;
-      state.toolEvents.push({ role: 'producer', kind: 'preview.provisioned', message: 'An event-page preview is ready.', opportunityId: context.opportunity?.id ?? null, metadata: { url, previewId: preview.id, visibility: 'private', deployment: 'local-app' } });
+      state.toolEvents.push({ role: 'producer', kind: 'preview.provisioned', message: 'An event-page preview is ready.', opportunityId: context.opportunity?.id ?? null, metadata: { url, previewId: preview.id, visibility: 'private', deployment: 'growthx-app' } });
       return { url, private: true, published: false, registrationOpen: false };
     }
     case 'readBrief': return { briefVersion: context.briefVersion, brief: briefView(context.brief) };
@@ -565,6 +577,7 @@ function toolHandler(
       if (!opportunity) throw new Error('A draft requires an assigned opportunity.');
       if (!hasMinimumProducerEvidence(context, state)) throw new Error('There is not enough source evidence or useful organizer-reply detail to ground a private concept yet. Do not draft assumptions; report the missing information and wait or request research.');
       const fields = args as unknown as EventDraftFields;
+      if (fields.coverImageUrl && !readCompanyBrand(context.workspaceId)?.imagery?.some(image => image.url === fields.coverImageUrl)) throw new Error('Choose a cover from the company imagery returned by Taste, or leave the image URL blank.');
       const refs = fields.sourceRefs ?? [];
       if (!validSourceRefs(refs, state, context)) throw new Error('Draft sourceRefs must refer to known evidence or fetched source URLs.');
       state.draftRevision = { opportunityId: opportunity.id, expectedVersion: context.draft?.version ?? 0, fields };
@@ -610,7 +623,7 @@ function anthropicStrictSchema(schema: Record<string, unknown>): Record<string, 
 async function runModel(
   context: ClaimedAgentTask,
   state: StagedState,
-  client: AnthropicModelClient,
+  client: AgentModelClient,
   fetcher: typeof fetch,
   now: () => Date,
 ): Promise<FinalResult> {
@@ -622,6 +635,7 @@ async function runModel(
       task: { id: context.task.id, objective: context.task.objective, inputRefs: context.task.inputRefs, resultRefs: context.task.resultRefs },
       currentBriefVersion: context.briefVersion,
       brief: briefView(context.brief),
+      brand: readCompanyBrand(context.workspaceId),
       assignedOpportunity: context.opportunity,
       opportunities: context.opportunities.slice(0, 12),
       taskResults: context.tasks.filter(task => task.id !== context.task.id).slice(-8).map(task => ({ role: task.assignedRole, objective: task.objective, status: task.status, result: task.result })),
@@ -630,7 +644,8 @@ async function runModel(
     }, 14_000)}`,
   }];
   const schemaByName = new Map(definition.tools.filter(item => item.name !== 'completeTask').map(item => [item.name, item.input_schema]));
-  const apiTools = definition.tools.map(item => ({ ...item, input_schema: anthropicStrictSchema(item.input_schema) }));
+  // Brainbase receives ordinary JSON schemas; keep bounds visible to the agent.
+  const apiTools = client.model.startsWith('brainbase/') ? definition.tools : definition.tools.map(item => ({ ...item, input_schema: anthropicStrictSchema(item.input_schema) }));
   let totalCalls = 0;
   let finalResultRepairs = 0;
   const maxCalls = Math.min(MAX_TOOL_CALLS, definition.maxToolCalls);
@@ -812,6 +827,7 @@ export async function executeClaimedTask(claim: ClaimedTask, dependencies: Agent
     dependencies.repository.completeAgentTask(completion);
     return result;
   } catch (error) {
+    if (error instanceof AgentTaskYield) throw error;
     const retryable = error instanceof AgentModelRequestError ? error.retryable
       : error instanceof Error && /timed out|temporar|429|5\d\d|network|fetch failed/i.test(error.message);
     const message = error instanceof Error ? error.message.slice(0, 1_000) : 'Agent task failed.';

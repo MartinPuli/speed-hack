@@ -1,5 +1,8 @@
 'use client';
 
+import './legacy-workspaces.css';
+import Link from 'next/link';
+
 import { useState, type FormEvent } from 'react';
 import { ArrowDownToLine, ArrowRight, Bookmark, Filter, MapPin, Search, X, CalendarDays, Sparkles, Handshake, Wrench } from 'lucide-react';
 import type { EventSummary, SearchFilters, SearchResponse } from '@/lib/contracts/event-gtm';
@@ -41,7 +44,7 @@ export function MapFirstWorkspace({ form, setForm, search, current, loading, err
 
   return <div className="fieldwork-shell">
     <header className="fieldwork-topbar">
-      <a className="workspace-wordmark" href="/" aria-label="GrowthX home">GrowthX</a>
+      <Link className="workspace-wordmark" href="/" aria-label="GrowthX home">GrowthX</Link>
       <div className="fieldwork-topbar-actions">{view === 'shortlist' && <button className="shortlist-nav" onClick={() => setView('map')}><MapPin size={15} /> Back to map</button>}</div>
     </header>
 

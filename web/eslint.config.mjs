@@ -5,5 +5,6 @@ import nextTs from 'eslint-config-next/typescript';
 export default defineConfig([
   ...nextVitals,
   ...nextTs,
-  globalIgnores(['.next/**', 'public/maplibre/**', 'next-env.d.ts']),
+  { files: ['cloudflare/**/*.tsx'], rules: { '@next/next/no-html-link-for-pages': 'off' } },
+  globalIgnores(['.next/**', '.wrangler/**', 'dist-cloudflare/**', 'cloudflare/generated/**', 'public/maplibre/**', 'next-env.d.ts']),
 ]);

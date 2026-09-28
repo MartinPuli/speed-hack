@@ -10,3 +10,9 @@ web/.env*
 !web/.env.example
 web/.data/
 web/test-results/
+
+# Cloudflare build output and local credentials
+web/.wrangler/
+web/.dev.vars*
+web/dist-cloudflare/
+web/cloudflare/generated/

@@ -1,11 +1,11 @@
 import type { ClaimedTask } from '../workspace/repository';
 import { executeClaimedTask, type AgentRuntimeRepository } from './runtime';
-import { AnthropicModelClient } from './model-client';
+import type { AgentModelClient } from './model-client';
 import { getRoleDefinition } from './roles';
 
 export interface AgentDispatcherOptions {
   repository: AgentRuntimeRepository;
-  client?: AnthropicModelClient;
+  client?: AgentModelClient;
   fetcher?: typeof fetch;
 }
 

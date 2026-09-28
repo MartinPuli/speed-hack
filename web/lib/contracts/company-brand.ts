@@ -4,6 +4,7 @@ export interface CompanyBrand {
   status: 'pending' | 'completed' | 'failed';
   name: string;
   logoUrl: string | null;
+  imagery?: Array<{ url: string; description: string }>;
   palette: Array<{ name: string; hex: string }>;
   displayFont: string;
   bodyFont: string;

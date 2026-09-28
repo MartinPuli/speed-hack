@@ -1,7 +1,5 @@
+import { database as db, transaction as withTransaction } from '@growthx/storage';
 import { createHash, randomBytes, randomUUID } from 'node:crypto';
-import { mkdirSync } from 'node:fs';
-import { dirname, resolve } from 'node:path';
-import { DatabaseSync } from 'node:sqlite';
 import type { ResearchBrief } from '@/lib/contracts/event-gtm';
 import type {
   AgentRun,
@@ -16,8 +14,6 @@ import type {
   WorkspaceOpportunity,
   WorkspaceSnapshot,
 } from '@/lib/contracts/agent-workspace';
-import { initialWorkspaceMigration } from './migrations/001_initial';
-import { brandWorkspaceMigration } from './migrations/002_brand';
 import type { CompanyBrand, EventDesignBrief } from '@/lib/contracts/company-brand';
 
 const DEMO_WORKSPACE_ID = 'demo-workspace';
@@ -42,6 +38,7 @@ export interface CreateTaskInput {
 }
 
 export interface ClaimedTask extends AgentTask {
+  resumed?: boolean;
   workspaceId: string;
   leaseOwner: string;
   leaseUntil: string;
@@ -121,39 +118,6 @@ export class WorkspaceVersionConflict extends Error {
 export class WorkspaceNotFound extends Error {
   readonly code = 'NOT_FOUND';
   constructor(message = 'Workspace record was not found.') { super(message); }
-}
-
-let cachedDatabase: { path: string; db: DatabaseSync } | undefined;
-
-function databasePath(): string {
-  const configured = process.env.EVENT_GTM_WORKSPACE_PATH?.trim();
-  return resolve(configured || resolve(process.cwd(), '.data', 'workspace.sqlite'));
-}
-
-function db(): DatabaseSync {
-  const path = databasePath();
-  if (cachedDatabase?.path === path) return cachedDatabase.db;
-  if (cachedDatabase) cachedDatabase.db.close();
-  mkdirSync(dirname(path), { recursive: true });
-  const database = new DatabaseSync(path);
-  database.exec('PRAGMA foreign_keys = ON; PRAGMA busy_timeout = 5000; PRAGMA journal_mode = WAL;');
-  database.exec('CREATE TABLE IF NOT EXISTS workspace_schema_migrations (version INTEGER PRIMARY KEY, applied_at TEXT NOT NULL)');
-  const migrationExists = database.prepare('SELECT 1 FROM workspace_schema_migrations WHERE version = 1').get();
-  if (!migrationExists) {
-    database.exec('BEGIN IMMEDIATE');
-    try {
-      database.exec(initialWorkspaceMigration);
-      database.prepare('INSERT INTO workspace_schema_migrations(version, applied_at) VALUES(1, ?)').run(now());
-      database.exec('COMMIT');
-    } catch (error) {
-      database.exec('ROLLBACK');
-      database.close();
-      throw error;
-    }
-  }
-  database.exec(brandWorkspaceMigration);
-  cachedDatabase = { path, db: database };
-  return database;
 }
 
 function now(): string { return new Date().toISOString(); }
@@ -304,13 +268,9 @@ function validateDraftFields(fields: EventDraftFields): void {
   if (!Array.isArray(fields.sourceRefs) || fields.sourceRefs.length > 40 || fields.sourceRefs.some((ref) => typeof ref !== 'string' || ref.length > 500)) {
     throw new TypeError('Draft source references are invalid.');
   }
+  if (fields.experience && (typeof fields.experience !== 'object' || Object.values(fields.experience).some(value => typeof value !== 'string' || value.length > 2000))) throw new TypeError('Event experience sections must be concise text.');
+  if (fields.coverImageUrl && !/^https:\/\/[^\s]+$/.test(fields.coverImageUrl)) throw new TypeError('The cover image must use HTTPS.');
   if (JSON.stringify(fields).length > 45_000) throw new TypeError('Draft revision is too large.');
-}
-
-function withTransaction<T>(operation: () => T): T {
-  const database = db(); database.exec('BEGIN IMMEDIATE');
-  try { const result = operation(); database.exec('COMMIT'); return result; }
-  catch (error) { database.exec('ROLLBACK'); throw error; }
 }
 
 export function getDemoWorkspaceId(): string {
@@ -320,7 +280,7 @@ export function getDemoWorkspaceId(): string {
 }
 
 export function createDemoSession(): DemoSession {
-  const workspaceId = getDemoWorkspaceId(); const token = randomBytes(32).toString('base64url');
+  const workspaceId = getDemoWorkspaceId(); const token = Buffer.from(randomBytes(32)).toString('base64url');
   const expiresAt = new Date(Date.now() + SESSION_LIFETIME_MS).toISOString();
   db().prepare('DELETE FROM demo_sessions WHERE expires_at <= ?').run(now());
   db().prepare('INSERT INTO demo_sessions(token_hash, workspace_id, expires_at, created_at) VALUES(?, ?, ?, ?)')
@@ -367,7 +327,7 @@ export function readWorkspaceSnapshot(workspaceId: string): WorkspaceSnapshot {
     ON latest.opportunity_id = d.opportunity_id AND latest.version = d.version WHERE d.workspace_id = ? ORDER BY d.updated_at DESC`).all(workspaceId, workspaceId));
   return {
     workspaceId, demoMode: true,
-    modelConfigured: Boolean(process.env.ANTHROPIC_API_KEY?.trim() && process.env.ANTHROPIC_WORKSPACE_ID?.trim() && process.env.ANTHROPIC_MODEL?.trim()),
+    modelConfigured: Boolean(process.env.BRAINBASE_API_KEY?.trim() || (process.env.ANTHROPIC_API_KEY?.trim() && process.env.ANTHROPIC_WORKSPACE_ID?.trim() && process.env.ANTHROPIC_MODEL?.trim())),
     latestBrief: brief ? parseJson(brief.data_json, null as ResearchBrief | null) : null,
     briefVersion: brief?.version ?? 0,
     opportunities: opportunityRows.map(mapOpportunity), runs: runRows.map(mapRun), tasks: taskRows.map(mapTask),
@@ -417,14 +377,28 @@ export function updateRun(workspaceId: string, runId: string, patch: RunPatch): 
   return mapRun(updated!);
 }
 
+export function retryFailedRun(workspaceId: string, runId: string): AgentRun {
+  return withTransaction(() => {
+    const snapshot = readWorkspaceSnapshot(workspaceId);
+    const run = snapshot.runs.find(item => item.id === runId);
+    if (!run) throw new WorkspaceNotFound('This run is unavailable.');
+    if (run.status !== 'failed' || snapshot.runs.some(item => ['queued', 'running'].includes(item.status))) throw new WorkspaceVersionConflict('Wait for the current plan to finish.');
+    if (run.briefVersion !== snapshot.briefVersion) throw new WorkspaceVersionConflict('Your brief changed. Start a new plan with the updated details.');
+    if (snapshot.events.filter(event => event.runId === runId && event.kind === 'run.resumed').length >= 3) throw new WorkspaceVersionConflict('This plan could not finish after three retries. Start a new request.');
+    db().prepare(`UPDATE tasks SET status = 'queued', lease_owner = NULL, lease_until = NULL, attempts = 0, updated_at = ? WHERE workspace_id = ? AND run_id = ? AND status IN ('failed', 'cancelled')`).run(now(), workspaceId, runId);
+    insertEvent(workspaceId, { runId, role: 'system', kind: 'run.resumed', message: 'Continuing the unfinished work. Completed results are preserved.', metadata: {} });
+    return updateRun(workspaceId, runId, { status: 'queued', error: null });
+  });
+}
+
 export function createTask(workspaceId: string, input: CreateTaskInput): AgentTask {
   requireWorkspace(workspaceId);
   return withTransaction(() => insertTask(workspaceId, input));
 }
 
-export function claimNextTask(workerId: string, leaseMs = DEFAULT_LEASE_MS): ClaimedTask | null {
+export function claimNextTask(workerId: string, leaseMs = DEFAULT_LEASE_MS, resumeOwned = false): ClaimedTask | null {
   assertText(workerId, 'workerId', 160);
-  const boundedLeaseMs = Math.min(Math.max(leaseMs, 5_000), 5 * 60_000);
+  const boundedLeaseMs = Math.min(Math.max(leaseMs, 5_000), 30 * 60_000);
   return withTransaction(() => {
     const database = db(); const timestamp = now();
     const expired = rows<{ id: string; workspace_id: string; run_id: string; attempts: number }>(database.prepare(`SELECT id, workspace_id, run_id, attempts FROM tasks
@@ -438,11 +412,11 @@ export function claimNextTask(workerId: string, leaseMs = DEFAULT_LEASE_MS): Cla
         database.prepare(`UPDATE tasks SET status = 'queued', lease_owner = NULL, lease_until = NULL, updated_at = ? WHERE id = ?`).run(timestamp, task.id);
       }
     }
-    const queued = row<{ id: string; workspace_id: string; run_id: string }>(database.prepare(`SELECT id, workspace_id, run_id FROM tasks WHERE status = 'queued' ORDER BY created_at LIMIT 1`).get());
+    const queued = row<{ id: string; workspace_id: string; run_id: string; status: string }>(database.prepare(`SELECT id, workspace_id, run_id, status FROM tasks WHERE status = 'queued' OR (? = 1 AND status = 'running' AND lease_owner = ?) ORDER BY created_at LIMIT 1`).get(resumeOwned ? 1 : 0, workerId));
     if (!queued) return null;
     const leaseUntil = new Date(Date.now() + boundedLeaseMs).toISOString();
-    const changed = database.prepare(`UPDATE tasks SET status = 'running', lease_owner = ?, lease_until = ?, attempts = attempts + 1, updated_at = ? WHERE id = ? AND status = 'queued'`)
-      .run(workerId, leaseUntil, timestamp, queued.id);
+    const changed = database.prepare(`UPDATE tasks SET status = 'running', lease_owner = ?, lease_until = ?, attempts = attempts + ?, updated_at = ? WHERE id = ? AND (status = 'queued' OR (status = 'running' AND lease_owner = ?))`)
+      .run(workerId, leaseUntil, queued.status === 'running' ? 0 : 1, timestamp, queued.id, workerId);
     if (Number(changed.changes) !== 1) return null;
     database.prepare(`UPDATE runs SET status = 'running', updated_at = ? WHERE id = ? AND workspace_id = ? AND status IN ('queued', 'running')`).run(timestamp, queued.run_id, queued.workspace_id);
     const claimedRecord = row<Record<string, unknown>>(database.prepare('SELECT * FROM tasks WHERE id = ?').get(queued.id));
@@ -456,7 +430,7 @@ export function claimNextTask(workerId: string, leaseMs = DEFAULT_LEASE_MS): Cla
     const eventRows = rows<Record<string, unknown>>(database.prepare('SELECT * FROM timeline_events WHERE workspace_id = ? AND run_id = ? ORDER BY created_at DESC LIMIT 200').all(queued.workspace_id, queued.run_id)).reverse();
     const draftRecord = claimedTask.opportunityId ? row<Record<string, unknown>>(database.prepare('SELECT * FROM drafts WHERE workspace_id = ? AND opportunity_id = ? ORDER BY version DESC LIMIT 1').get(queued.workspace_id, claimedTask.opportunityId)) : undefined;
     return {
-      ...claimedTask, workspaceId: queued.workspace_id, leaseOwner: workerId, leaseUntil,
+      ...claimedTask, resumed: queued.status === 'running', workspaceId: queued.workspace_id, leaseOwner: workerId, leaseUntil,
       run: mapRun(runRecord!), brief: briefRecord ? parseJson(briefRecord.data_json, null as ResearchBrief | null) : null,
       briefVersion: briefRecord?.version ?? 0,
       opportunity: claimedTask.opportunityId ? opportunityRows.map(mapOpportunity).find(({ id: opportunityId }) => opportunityId === claimedTask.opportunityId) ?? null : null,

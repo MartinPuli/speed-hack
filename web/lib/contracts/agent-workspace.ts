@@ -7,6 +7,7 @@ export type AgentRunStatus = 'queued' | 'running' | 'waiting_input' | 'succeeded
 export type AgentTaskStatus = 'queued' | 'running' | 'waiting_input' | 'waiting_approval' | 'succeeded' | 'failed' | 'cancelled';
 
 export interface WorkspaceOpportunity {
+  event?: import('./event-gtm').EventDetail | null;
   id: string;
   catalogEventId: string | null;
   title: string;
@@ -56,6 +57,8 @@ export interface AgentTimelineEvent {
 }
 
 export interface EventDraftFields {
+  experience?: { venue: string; guests: string; atmosphere: string; artDirection: string; foodAndDrink: string; budgetGuidance: string };
+  coverImageUrl?: string;
   title: string;
   description: string;
   audience: string;
@@ -81,6 +84,7 @@ export interface EventDraftRecord {
 }
 
 export interface WorkspaceSnapshot {
+  provider?: 'brainbase' | 'anthropic';
   workspaceId: string;
   demoMode: true;
   modelConfigured: boolean;

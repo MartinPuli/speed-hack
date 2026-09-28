@@ -1,8 +1,10 @@
+> Live GrowthX: https://growthx-event-team.mpulitano1701.workers.dev/ · [Brainbase, Taste and Cloudflare deployment](docs/cloudflare-brainbase.md)
+
 # Event GTM
 
 Event GTM (nombre de trabajo: Growth Atlas) combina una base de investigación de eventos con una aplicación web para consultar ediciones, comparar alternativas y revisar la evidencia de cada dato. Está pensada para equipos de growth y field marketing que deciden a qué eventos ir, dónde hablar o qué patrocinar.
 
-**Estado al 28-sep-2026 (Startup Speedrun Hackathon):** `web/` combina un catálogo SQLite de solo lectura (21.747 ediciones canónicas) con un workspace de demo persistente, un worker de agentes de cuatro roles y una línea de tiempo. El backend tiene runtime con herramientas acotadas, persistencia operacional separada y respuesta de organizador simulada. Lead, Scout y Partnerships completaron tareas reales con Anthropic. Producer está implementado y cubierto por tests, pero su prueba real no completó el borrador: agotó primero el tiempo de espera y después el límite de salida del modelo. El cierre de esta entrega es solo de backend; el equipo se encarga de la conexión con el frontend y se conserva el diseño existente.
+**Entrega inicial del backend (antes de integrar Cloudflare y Brainbase):** `web/` combina un catálogo SQLite de solo lectura (21.747 ediciones canónicas) con un workspace de demo persistente, un worker de agentes de cuatro roles y una línea de tiempo. El backend tiene runtime con herramientas acotadas, persistencia operacional separada y respuesta de organizador simulada. Lead, Scout y Partnerships completaron tareas reales con Anthropic. Producer está implementado y cubierto por tests, pero su prueba real no completó el borrador: agotó primero el tiempo de espera y después el límite de salida del modelo. El cierre de esta entrega es solo de backend; el equipo se encarga de la conexión con el frontend y se conserva el diseño existente.
 
 La [entrega del backend de agentes](docs/hackathon-demo.md) documenta las rutas, el arranque y los pendientes.
 

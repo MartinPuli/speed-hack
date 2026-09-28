@@ -1,5 +1,8 @@
 'use client';
 
+import './legacy-workspaces.css';
+import Link from 'next/link';
+
 import { useState, type FormEvent } from 'react';
 import { ArrowRight, Globe2 } from 'lucide-react';
 import type { EventSummary, ResearchBrief } from '@/lib/contracts/event-gtm';
@@ -25,7 +28,7 @@ export function Onboarding({ brief, onChange, onComplete, events }: { brief: Res
 
   return <main className="onboarding-shell">
     <header className="onboarding-topbar">
-      <a className="onboarding-brand" href="/" aria-label="GrowthX home">GrowthX</a>
+      <Link className="onboarding-brand" href="/" aria-label="GrowthX home">GrowthX</Link>
     </header>
     <div className="onboarding-body">
       <section className="onboarding-copy">

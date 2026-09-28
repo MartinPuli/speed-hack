@@ -2,8 +2,9 @@ import { existsSync } from 'node:fs';
 import { randomUUID } from 'node:crypto';
 import { resolve } from 'node:path';
 import { dispatchClaimedTask } from '../lib/server/agents/dispatcher';
-import { AgentModelConfigurationError, AnthropicModelClient } from '../lib/server/agents/model-client';
-import { claimNextTask, completeAgentTask, failTask } from '../lib/server/workspace/repository';
+import { BrainbaseModelClient } from '../lib/server/agents/brainbase-client';
+import { AgentModelConfigurationError, AnthropicModelClient, type AgentModelClient } from '../lib/server/agents/model-client';
+import { appendTimelineEvent, claimNextTask, completeAgentTask, failTask } from '../lib/server/workspace/repository';
 
 function loadLocalEnvironment(): void {
   if (typeof process.loadEnvFile !== 'function') return;
@@ -37,7 +38,7 @@ function parseMaxTasks(): number {
 
 const delay = (ms: number) => new Promise<void>(resolveDelay => setTimeout(resolveDelay, ms));
 
-async function runWorker(client: AnthropicModelClient): Promise<void> {
+async function runWorker(fallback?: AgentModelClient): Promise<void> {
   const repository = { completeAgentTask, failTask };
   const workerId = `agent-worker-${process.pid}-${randomUUID().slice(0, 8)}`;
   const maxTasks = parseMaxTasks();
@@ -48,9 +49,9 @@ async function runWorker(client: AnthropicModelClient): Promise<void> {
   process.once('SIGINT', () => { shouldStop = true; process.stderr.write('Stopping after the active agent task finishes.\n'); });
   process.once('SIGTERM', () => { shouldStop = true; process.stderr.write('Stopping after the active agent task finishes.\n'); });
 
-  process.stdout.write(`Agent worker ready (model ${client.model}, poll ${pollMs}ms).\n`);
+  process.stdout.write(`Agent worker ready (provider ${process.env.BRAINBASE_API_KEY ? 'Brainbase' : fallback?.model}, poll ${pollMs}ms).\n`);
   while (!shouldStop && (!maxTasks || processed < maxTasks)) {
-    const claim = claimNextTask(workerId, 5 * 60_000);
+    const claim = claimNextTask(workerId, 30 * 60_000);
     if (!claim) {
       if (once) break;
       if (maxTasks && processed >= maxTasks) break;
@@ -59,6 +60,7 @@ async function runWorker(client: AnthropicModelClient): Promise<void> {
     }
     process.stdout.write(`Claimed ${claim.assignedRole} task ${claim.id}.\n`);
     try {
+      const client = process.env.BRAINBASE_API_KEY ? new BrainbaseModelClient({ apiKey: process.env.BRAINBASE_API_KEY, taskId: claim.id, onThread: threadId => { appendTimelineEvent(claim.workspaceId, { runId: claim.runId, opportunityId: claim.opportunityId, role: claim.assignedRole, kind: 'brainbase.started', message: `${claim.assignedRole} started work in Brainbase.`, metadata: { threadId, provider: 'brainbase' } }); } }) : fallback;
       await dispatchClaimedTask(claim, { repository, client });
       processed += 1;
       process.stdout.write(`Completed task ${claim.id}.\n`);
@@ -74,7 +76,7 @@ async function runWorker(client: AnthropicModelClient): Promise<void> {
 try {
   loadLocalEnvironment();
   // Fail before claiming work when the model configuration is incomplete.
-  const client = new AnthropicModelClient();
+  const client = process.env.BRAINBASE_API_KEY ? undefined : new AnthropicModelClient();
   void runWorker(client).catch(error => {
     process.stderr.write(`${error instanceof Error ? error.message : 'Agent worker failed.'}\n`);
     process.exitCode = 1;

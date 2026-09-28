@@ -1,6 +1,6 @@
 # Taste integration and hackathon status
 
-Updated September 28, 2026.
+Historical implementation notes from earlier on September 28, 2026. The deployed Brainbase runtime, isolated Cloudflare workspaces, dynamic onboarding and current limits are documented in [Cloudflare + Brainbase](cloudflare-brainbase.md). The earlier credential and static-seed limitations below no longer describe the live app.
 
 ## Implemented
 

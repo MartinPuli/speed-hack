@@ -31,7 +31,7 @@ export function useEventTeam() {
     let cancelled = false;
     void ensure().then(async () => {
       const [snapshot, branding] = await Promise.all([api<WorkspaceSnapshot>('/api/workspace'), api<{ brand: CompanyBrand | null }>('/api/brand')]);
-      if (!cancelled) { setWorkspace(snapshot); setBrand(branding.brand); setMapping(Object.fromEntries(snapshot.opportunities.flatMap(item => { const ref = item.evidenceIds.find(value => value.startsWith('research:taste:')); return ref ? [[ref.replace('research:taste:', ''), item.id]] : []; }))); }
+      if (!cancelled) { setWorkspace(snapshot); setBrand(branding.brand); const current = snapshot.runs.find(run => ['queued', 'running'].includes(run.status)); if (current) { activeRun.current = current.id; setRunning(true); } setMapping(Object.fromEntries(snapshot.opportunities.flatMap(item => { const ref = item.evidenceIds.find(value => value.startsWith('research:taste:')); return ref ? [[ref.replace('research:taste:', ''), item.id]] : []; }))); }
     }).catch(error => { if (!cancelled) setError(error.message); });
     return () => { cancelled = true; };
   }, [ensure]);
@@ -44,19 +44,26 @@ export function useEventTeam() {
   const saveBrief = useCallback(async (brief: TeamBrief) => {
     await ensure();
     const snapshot = await refresh();
-    await api('/api/briefs', { expectedVersion: snapshot.briefVersion, brief: { company: 'Taste Labs', website: brief.website, objective: brief.goal === 'Partnerships' ? 'partnerships' : brief.goal === 'Community' ? 'feedback' : 'adoption', audience: brief.audience, topics: 'Brand API, design engineering, AI agents, machine creativity', geography: 'San Francisco first; international alternatives only with a specific objective', from: '2026-10-01', to: '2026-11-30', budget: brief.budget, currency: 'USD', constraints: 'Preserve unknown sponsor fees. Owned dates and venues are proposals. No email sending, spending or public publishing without approval.' } });
-    const seeded = await api<{ mapping: Record<string, string>; workspace: WorkspaceSnapshot }>('/api/taste-plan', {});
-    setMapping(seeded.mapping); setWorkspace(seeded.workspace);
-    return seeded.workspace;
-  }, [ensure, refresh]);
+    const host = new URL(brief.website.includes('://') ? brief.website : `https://${brief.website}`).hostname.replace(/^www\./, '');
+    const matchingBrand = brand?.sourceUrl && new URL(brand.sourceUrl).hostname.replace(/^www\./, '') === host ? brand : null;
+    await api('/api/briefs', { expectedVersion: snapshot.briefVersion, brief: { company: matchingBrand?.name || host, website: brief.website, objective: brief.goal === 'Partnerships' ? 'partnerships' : brief.goal === 'Community' ? 'feedback' : 'adoption', audience: brief.audience, topics: matchingBrand?.audience.join(', ') || brief.audience, geography: 'San Francisco first; worldwide alternatives when relevant', from: '2026-10-01', to: '2026-11-30', budget: brief.budget, currency: 'USD', constraints: 'Produce original event concepts, actionable sponsorship recommendations and editable event drafts. All owned dates, venues and costs are proposals. No sending, spending or public publishing.' } });
+    return refresh();
+  }, [ensure, refresh, brand]);
   const askTeam = useCallback(async (objective: string, eventId?: string) => {
     await ensure();
     const snapshot = await refresh();
     if (!snapshot.latestBrief) throw new Error('Finish your brief to start the event team.');
-    if (!snapshot.modelConfigured) throw new Error('The live event team is not connected yet. The researched plan and Taste event design are available.');
+    if (!snapshot.modelConfigured) throw new Error('Brainbase is not configured on this deployment yet.');
     const result = await api<{ run: { id: string } }>('/api/runs', { objective, opportunityId: eventId ? mapping[eventId] ?? eventId : undefined, idempotencyKey: crypto.randomUUID() });
     activeRun.current = result.run.id; setRunning(true); setError(''); setAnswer('');
   }, [ensure, refresh, mapping]);
+  async function retryRun() {
+    const run = workspace?.runs.find(item => item.status === 'failed');
+    if (!run) return;
+    const result = await api<{ run: { id: string } }>(`/api/runs/${run.id}/retry`, {});
+    activeRun.current = result.run.id; setRunning(true); setError(''); setAnswer('');
+    await refresh();
+  }
   useEffect(() => {
     if (!running) return;
     let cancelled = false;
@@ -102,5 +109,5 @@ export function useEventTeam() {
     await api(`/api/drafts/${record.id}`, { expectedVersion: record.version, fields }, 'PATCH');
     await refresh();
   }
-  return { workspace, brand, error, running, answer, mapping, editing, extractBrand, saveBrief, saveDraft, saveRecord, askTeam, refresh, clearAnswer: () => setAnswer(''), clearError: () => setError('') };
+  return { workspace, brand, error, running, answer, mapping, editing, extractBrand, saveBrief, saveDraft, saveRecord, askTeam, retryRun, refresh, clearAnswer: () => setAnswer(''), clearError: () => setError('') };
 }

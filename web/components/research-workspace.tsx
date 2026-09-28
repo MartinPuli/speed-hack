@@ -1,5 +1,7 @@
 'use client';
 
+import './legacy-workspaces.css';
+
 // Selective GrowthX extraction: the list/map/dossier relationship and editable
 // brief are retained. This new shell reads paginated SQLite-backed API results
 // instead of loading every dossier or requiring research runs and PostgreSQL.

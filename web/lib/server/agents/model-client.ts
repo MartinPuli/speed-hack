@@ -41,6 +41,11 @@ export class AgentModelConfigurationError extends Error {
   }
 }
 
+/** Continue the same durable task in a fresh worker invocation. */
+export class AgentTaskYield extends Error {
+  constructor() { super('Continue the agent task from its saved Brainbase conversation.'); this.name = 'AgentTaskYield'; }
+}
+
 export class AgentModelRequestError extends Error {
   readonly retryable: boolean;
   readonly status: number | null;
@@ -152,3 +157,5 @@ export class AnthropicModelClient {
     }
   }
 }
+
+export type AgentModelClient = Pick<AnthropicModelClient, 'model' | 'createMessage'>;
