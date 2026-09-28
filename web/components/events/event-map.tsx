@@ -31,7 +31,7 @@ function LocationPin({ engine, group, selectedId, onSelect }: {
   const approximate = group.entries.every(point => point.approximate);
   const first = group.entries[0];
   return createPortal(
-    <button type="button" className={`event-map-pin${approximate ? ' approximate' : ''}`} aria-pressed={selected}
+    <button type="button" className={`event-map-pin${approximate ? ' approximate' : ''}${first.event.temporalStatus === 'past' ? ' historical' : ''}`} aria-pressed={selected}
       aria-label={`${group.entries.length > 1 ? `${group.entries.length} events: ` : ''}${first.event.title}. ${first.precisionLabel}`}
       title={`${first.event.title} — ${first.precisionLabel}`}
       data-event-id={first.event.id} data-latitude={lat} data-longitude={lng}
@@ -140,7 +140,7 @@ function MapCanvas({ points, selectedId, onSelect, onOpen }: { points: EventPoin
 
   return <div className="event-map-view" data-map-state={status}>
     <div className="event-map-toolbar">
-      <span><span aria-hidden="true">●</span> Published point <span aria-hidden="true">≈</span> City area</span>
+      <span><span aria-hidden="true">●</span> Mapped event <span aria-hidden="true">≈</span> Approximate city area</span>
       <button type="button" disabled={!engine || status === 'error'} onClick={fit}><Expand size={13} aria-hidden="true" /> Fit results</button>
     </div>
     <div className="event-map-frame">
