@@ -20,6 +20,30 @@
 .event-map .event-map-pin { cursor: pointer; width: 35px; height: 35px; border: 3px solid #fff; border-radius: 50%; color: #fff; background: #285b48; font: 700 18px/1 system-ui; box-shadow: 0 2px 8px #0003; }
 .event-map .event-map-pin.approximate { border-style: dashed; background: #786440; }
 .event-map .event-map-pin[aria-pressed=true] { background: #203a33; box-shadow: 0 0 0 5px #285b4840; transform: scale(1.12); }
+.event-map .event-map-pin.event-map-pin.state-verified { background: #34805a; }
+.event-map .event-map-pin.event-map-pin.state-needs_review { background: #c28b39; }
+.event-map .event-map-pin.event-map-pin.state-proposed { background: #8b67b0; }
+.event-map .event-map-pin.event-map-pin.state-active { background: #4779b5; }
+.event-map .event-map-pin.event-map-pin.state-historical { background: #89928b; }
+.event-map .event-map-pin.event-map-pin.state-verified[aria-pressed=true] { background: #34805a; box-shadow: 0 0 0 5px #34805a40; }
+.event-map .event-map-pin.event-map-pin.state-needs_review[aria-pressed=true] { background: #c28b39; box-shadow: 0 0 0 5px #c28b3940; }
+.event-map .event-map-pin.event-map-pin.state-proposed[aria-pressed=true] { background: #8b67b0; box-shadow: 0 0 0 5px #8b67b040; }
+.event-map .event-map-pin.event-map-pin.state-active[aria-pressed=true] { background: #4779b5; box-shadow: 0 0 0 5px #4779b540; }
+.event-map .event-map-pin.event-map-pin.state-historical[aria-pressed=true] { background: #89928b; box-shadow: 0 0 0 5px #89928b40; }
+.event-map .event-map-state-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 7px 12px; margin: 0 0 10px; border: 1px solid #e3e8df; border-radius: 10px; padding: 9px 10px; background: #fff; color: #748077; font-size: 9px; }
+.event-map .event-map-state-legend strong { color: #5f6f63; font-size: 9px; }
+.event-map .event-map-state-legend > span { display: inline-flex; align-items: center; gap: 5px; white-space: nowrap; }
+.event-map .event-map-state-legend i, .event-map .event-map-state-pill i { width: 7px; height: 7px; display: inline-block; flex: 0 0 auto; border-radius: 50%; background: #34805a; }
+.event-map .event-map-state-legend .state-needs_review i, .event-map .event-map-state-pill.state-needs_review i { background: #c28b39; }
+.event-map .event-map-state-legend .state-proposed i, .event-map .event-map-state-pill.state-proposed i { background: #8b67b0; }
+.event-map .event-map-state-legend .state-active i, .event-map .event-map-state-pill.state-active i { background: #4779b5; }
+.event-map .event-map-state-legend .state-historical i, .event-map .event-map-state-pill.state-historical i { background: #89928b; }
+.event-map .event-map-state-pill { display: inline-flex; align-items: center; gap: 5px; border-radius: 20px; padding: 4px 7px; background: #f0f6ef; color: #4c7557; font-size: 9px; font-weight: 700; }
+.event-map .event-map-state-pill.state-needs_review { background: #fcf6eb; color: #96713f; }
+.event-map .event-map-state-pill.state-proposed { background: #f5f0fa; color: #7d6199; }
+.event-map .event-map-state-pill.state-active { background: #eef4fb; color: #4e719e; }
+.event-map .event-map-state-pill.state-historical { background: #f0f2f0; color: #78817a; }
+.event-map .event-map-plan-reason { border-left: 2px solid #90aed1; border-radius: 0 5px 5px 0; padding: 7px 8px; background: #f4f8fc; color: #687a8c; font-size: 10px; }
 .event-map button:focus-visible, .event-map a:focus-visible { outline: 3px solid #638978; outline-offset: 3px; }
 .event-map .event-map-popup { position: relative; color: #203a33; font-family: inherit; font-size: 12px; line-height: 1.5; max-height: 280px; overflow-y: auto; overscroll-behavior: contain; padding: 5px; }
 .event-map .event-map-popup h4 { padding-right: 25px; margin: 4px 0 10px; font-size: 16px; line-height: 1.3; }

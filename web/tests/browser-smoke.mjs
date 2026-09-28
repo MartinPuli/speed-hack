@@ -18,6 +18,8 @@ page.on('request', request => {
 try {
   await page.goto(origin);
   await page.locator('.event-row').first().waitFor();
+  await page.getByRole('heading', { name: 'Four roles, one shared plan.' }).waitFor();
+  assert.equal(await page.locator('.agent-role-chip').count(), 4, 'the workspace exposes the four specialized agent roles');
   assert.equal(await page.locator('.event-row').count(), 20);
   assert.equal(details.length, 0, 'initial list should not fetch each dossier');
   await page.waitForFunction(() => ['ready', 'error'].includes(document.querySelector('[data-map-state]')?.getAttribute('data-map-state')), null, { timeout: 20000 });
@@ -47,19 +49,20 @@ try {
   assert.equal(await page.locator('.comparison-table thead th').count(), 3);
   await page.getByRole('button', { name: 'Back to catalog' }).click();
 
-  await page.locator('.brief-panel summary').click();
-  await page.getByLabel('Company or product', { exact: true }).fill('Migration verification');
-  await page.getByLabel('Topics to search', { exact: false }).fill('python');
-  await page.getByLabel('Country or city', { exact: true }).fill('Germany');
+  const briefPanel = page.locator('details.brief-panel');
+  if (!(await briefPanel.evaluate(element => element.open))) await briefPanel.locator(':scope > summary').click();
+  await page.getByLabel('Company name', { exact: true }).fill('Migration verification');
+  await page.locator('.brief-form label').filter({ hasText: 'Topics' }).locator('input').fill('python');
+  await page.getByLabel('Where?', { exact: true }).fill('Germany');
   await Promise.all([
     page.waitForResponse(response => response.url().includes('/api/events?') && response.url().includes('country=Germany') && response.status() === 200),
-    page.getByRole('button', { name: 'Apply to catalog' }).click(),
+    page.getByRole('button', { name: 'Explore opportunities' }).click(),
   ]);
   await page.locator('.event-row').first().waitFor();
   assert.ok((await page.locator('.event-list').innerText()).includes('Germany'));
   await page.getByRole('heading', { name: 'No published coordinates in this view' }).waitFor();
   const downloadEvent = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Export brief', exact: true }).click();
+  await page.getByRole('button', { name: 'Export research', exact: true }).click();
   const download = await downloadEvent;
   await download.saveAs('test-results/research-brief.md');
   const exported = await readFile('test-results/research-brief.md', 'utf8');
@@ -70,9 +73,9 @@ try {
 
   await page.reload();
   await page.locator('.event-row').first().waitFor();
-  assert.equal(await page.getByLabel('Company or product', { exact: true }).inputValue(), 'Migration verification');
+  assert.equal(await page.getByLabel('Company name', { exact: true }).inputValue(), 'Migration verification');
 
-  await page.getByRole('searchbox').fill('zzzxqvnomatchingevent');
+  await page.locator('.search-field input').fill('zzzxqvnomatchingevent');
   await page.getByRole('button', { name: 'Search', exact: true }).click();
   await page.getByRole('heading', { name: 'No events match these filters' }).waitFor();
   await page.getByRole('button', { name: 'Reset filters', exact: true }).last().click();

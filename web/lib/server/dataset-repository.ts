@@ -85,6 +85,7 @@ export function parseFilters(params: URLSearchParams): SearchFilters {
     q: (params.get('q') ?? '').trim().slice(0, 500),
     from: date(params.get('from')), to: date(params.get('to')),
     country: (params.get('country') ?? '').trim().slice(0, 100),
+    city: (params.get('city') ?? '').trim().slice(0, 100),
     scope: scope === 'history' || scope === 'all' ? scope : 'upcoming',
     sector: params.get('sector') === 'all' ? 'all' : 'tech',
     page: integer(params.get('page'), 1, 100000),
@@ -168,6 +169,11 @@ export function searchEvents(input: SearchFilters, now?: Clock): SearchResponse 
   if (filters.scope === 'upcoming') { conditions.push(NOT_CANCELLED, `event_validity(e.start_at,e.start_date,?)='upcoming'`); args.push(evaluatedAt); }
   if (filters.scope === 'history') { conditions.push(`event_validity(e.start_at,e.start_date,?)='past'`); args.push(evaluatedAt); }
   if (filters.country) { conditions.push(`lower(coalesce(nullif(m.country_normalized,''),e.country,''))=lower(?)`); args.push(filters.country); }
+  if (filters.city) {
+    const escapedCity = filters.city.replace(/[!%_]/g, character => `!${character}`);
+    conditions.push(`lower(coalesce(m.city,'')) LIKE lower(?) ESCAPE '!'`);
+    args.push(`%${escapedCity}%`);
+  }
   if (filters.from) { conditions.push('e.start_date >= ?'); args.push(filters.from); }
   if (filters.to) { conditions.push('e.start_date <= ?'); args.push(filters.to); }
   const where = conditions.length ? `WHERE ${conditions.join(' AND ')}` : '';

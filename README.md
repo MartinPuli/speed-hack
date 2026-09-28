@@ -2,7 +2,7 @@
 
 Event GTM (nombre de trabajo: Growth Atlas) combina una base de investigación de eventos con una aplicación web para consultar ediciones, comparar alternativas y revisar la evidencia de cada dato. Está pensada para equipos de growth y field marketing que deciden a qué eventos ir, dónde hablar o qué patrocinar.
 
-**Estado al 28-sep-2026 (Startup Speedrun Hackathon):** hoy funciona un workspace de investigación de **solo lectura** en `web/` sobre un catálogo SQLite de 21.747 ediciones canónicas. El producto del hackathon (equipo autónomo de agentes, workspace persistente, onboarding desde el website y borrador para Luma) está definido en [docs/product-definition.md](docs/product-definition.md) y **todavía no está implementado**.
+**Estado al 28-sep-2026 (Startup Speedrun Hackathon):** `web/` combina un catálogo SQLite de solo lectura (21.747 ediciones canónicas) con un workspace de demo persistente, un worker de agentes de cuatro roles y una línea de tiempo. El backend ya tiene runtime con herramientas acotadas, persistencia operacional separada y respuesta de organizador simulada; la ejecución real con Anthropic aún requiere completar la configuración local del workspace del proveedor y hacer un recorrido de extremo a extremo. No hay login multiusuario ni extracción de perfil desde website.
 
 La aplicación reutiliza selectivamente módulos de [GrowthX / Growth Atlas](https://github.com/Julian0444/GrowthX-for-hackaton). Lee el catálogo en modo de solo lectura. Los archivos originales de `event-gtm-2026-09-28/` conservan su estructura.
 
@@ -63,25 +63,25 @@ Leyenda: ✅ funciona · 🟡 parcial o con defectos · ⛔ falta
 
 | Pieza | Estado |
 |---|---|
-| Cuenta / login | ⛔ |
-| Workspace persistente en servidor | ⛔ (todas las rutas son `GET`, la base es de solo lectura) |
-| Onboarding desde el website | ⛔ (la UI dice "Website analysis is not connected yet") |
-| Equipo de agentes, tareas tipadas, despachador y línea de tiempo | ⛔ |
-| Leyenda de estados verde/ámbar/violeta/azul/gris y top 3 | ⛔ |
-| Respuesta entrante del organizador que cambia el plan | ⛔ |
-| Estudio del evento y borrador local para Luma | ⛔ (solo existe el patrón de exportación en `web/lib/drafts/export.ts`) |
-| Puntuación de oportunidades | ⛔ (`lib/recommendations/score-utils.ts` existe y tiene tests, pero la app no lo usa) |
+| Cuenta / login | 🟡 Sesión de demo compartida con cookie segura; no hay usuarios ni membresías |
+| Workspace persistente en servidor | ✅ SQLite operacional separada e ignorada por Git; el catálogo permanece de solo lectura |
+| Onboarding desde el website | ⛔ El brief se puede completar manualmente; no hay extracción ni propuesta de perfil desde una web |
+| Cuatro roles, tareas durables, worker y línea de tiempo | ✅ Runtime Lead, Scout, Partnerships y Producer con herramientas permitidas, reintentos acotados y persistencia. Recorrido con el proveedor pendiente de completar configuración |
+| Estados de oportunidad en lista y mapa | ✅ Estados semánticos, filtro de ciudad y top 3 por fit guardado; la fórmula/ajuste comercial del fit aún necesita evaluación |
+| Respuesta entrante del organizador | ✅ Fixture de demo marcado como simulado, persistido e idempotente; genera trabajo posterior para los agentes |
+| Borrador privado para Luma | 🟡 El Producer persiste una propuesta y la UI la muestra; el editor/exportador conectado a esas revisiones sigue pendiente |
+| Puntuación de oportunidades | 🟡 Se ordena por el fit que propone Lead y se muestra la razón; falta evaluar calibración contra el brief y costos verificados |
 
 ### Verificación (2026-09-28)
 
 | Comprobación | Resultado |
 |---|---|
-| `pnpm test` | ✅ 17/17 en ~0,64 s |
+| `pnpm test` | ✅ 35/35 |
 | `pnpm typecheck` (`tsc --noEmit`) | ✅ sin diagnósticos |
 | `pnpm lint` (`eslint .`) | ✅ 0 errores, 0 avisos |
-| `pnpm build` (`next build --webpack`) | ✅ 7,5 s (con caché caliente). `/` es estático; las 3 rutas API son dinámicas |
-| `next start` + smoke HTTP | ✅ health 200, `/` 200, `/api/events` 200, id inexistente 404 |
-| `pnpm test:browser` contra `:3010` | ✅ "Browser smoke passed" en ~10 s |
+| `pnpm build` (`next build --webpack`) | Pendiente en checkout aislado para no interferir con el servidor de desarrollo |
+| `next dev` + smoke HTTP | ✅ `/api/health` responde 200; catálogo 21.747 y modo `read-only` |
+| `pnpm test:browser` contra `:3010` | En curso; el primer intento detectó un selector ambiguo que ya fue corregido |
 | Integridad del catálogo | ✅ SHA-256 `8e1973…50cc`, 338.649.088 bytes. Coincide con [la verificación del traslado](docs/growthx-transfer-verification-20260928.md) |
 
 El único aviso en todos los procesos es `ExperimentalWarning: SQLite is an experimental feature` de `node:sqlite` en Node 22. No es un fallo.
@@ -167,7 +167,7 @@ flowchart TB
 | **Fuentes externas** | Calendarios, listados abiertos, API municipal de Helsinki y páginas oficiales. Se consultaron el 28-sep-2026. Ningún script corre en la app | Ver [Datos](#datos) |
 | **Pipelines Python** | Tres ejecuciones. El corpus base y la investigación independiente (IDR) son independientes entre sí. La expansión parte de una copia de la SQLite de IDR y le añade lotes normalizados. Los pasos de construcción usan solo la biblioteca estándar; la adquisición usa `requests`, `bs4` y `pypdf` | `event-gtm-2026-09-28/**/scripts/` |
 | **Artefactos** | SQLite, espejos CSV, extractos de evidencia JSON, mapas GeoJSON, manifiestos con hashes. La app solo usa `scale-expansion-20260928/dataset.sqlite` | `event-gtm-2026-09-28/` |
-| **Servidor Next.js** | Una API delgada de solo lectura. `dataset-repository.ts` localiza y abre la SQLite (singleton por módulo), registra la función SQL `event_validity()`, construye consultas con parámetros enlazados y mapea filas a los contratos TypeScript | `web/lib/server/`, `web/app/api/` |
+| **Servidor Next.js** | Catálogo de solo lectura más API del workspace de demo. `dataset-repository.ts` usa la SQLite del catálogo; `workspace/repository.ts` mantiene otra SQLite escribible para sesiones, briefs, tareas y borradores | `web/lib/server/`, `web/app/api/` |
 | **UI React** | Una sola página. `/` es un shell estático prerenderizado; todos los datos se piden desde el cliente. Estado con `useState`/`useEffect`, sin router, store global ni librería de datos | `web/components/`, `web/app/page.tsx` |
 | **Navegador** | Solo el brief se guarda (`localStorage`). Los filtros no van en la URL y la selección no se guarda | `research-workspace.tsx:19` |
 
@@ -520,6 +520,17 @@ curl -s http://localhost:3010/api/health
 
 `upcoming` depende del reloj: se recalcula en cada petición.
 
+**Arrancar los agentes (opcional)**
+
+En `web/.env.local` define `ANTHROPIC_API_KEY`, `ANTHROPIC_WORKSPACE_ID` y `ANTHROPIC_MODEL` usando la consola de Anthropic. La clave solo la lee el servidor; no la pegues en el chat ni la guardes en Git. En otra terminal:
+
+```sh
+cd web
+pnpm worker
+```
+
+El worker valida la configuración antes de reservar tareas. Si todavía no hay credenciales válidas, la app de investigación y la UI del equipo siguen disponibles, pero los runs no se pueden completar. El workspace de demo es compartido por quienes usan esa instalación y no debe contener datos privados.
+
 **Producción local**
 
 ```sh
@@ -527,7 +538,7 @@ cd web
 pnpm build && pnpm start    # también en :3010
 ```
 
-La app necesita un proceso Node con acceso de lectura al archivo SQLite. No hay despliegue ni CI configurados: todas las comprobaciones son manuales.
+La app necesita un proceso Node con acceso de lectura al catálogo y escritura persistente en `.data/` para el workspace. No hay despliegue ni CI configurados: todas las comprobaciones son manuales.
 
 ---
 
@@ -552,12 +563,18 @@ La app necesita un proceso Node con acceso de lectura al archivo SQLite. No hay 
 | Variable | Usada por | Propósito | Valor por defecto |
 |---|---|---|---|
 | `EVENT_GTM_DATASET_PATH` | `lib/server/dataset-repository.ts`, `tests/dataset.test.ts` | Ruta a la SQLite. Si es relativa, se resuelve contra `process.cwd()`. Si apunta a un archivo inexistente o inválido, la API responde 503 | Servidor: el primero que exista de `<cwd>/../event-gtm-2026-09-28/scale-expansion-20260928/dataset.sqlite` y `<cwd>/event-gtm-2026-09-28/scale-expansion-20260928/dataset.sqlite`. Tests: solo el primero (hay que correrlos desde `web/`) |
+| `EVENT_GTM_WORKSPACE_PATH` | `lib/server/workspace/repository.ts` | Ruta de la SQLite operacional; se crea separada del catálogo | `.data/workspace.sqlite` |
+| `EVENT_GTM_DEMO_ENABLED` | `lib/server/workspace/session.ts` | Habilita la sesión de demo. En producción debe activarse explícitamente | Desarrollo: habilitada; producción: deshabilitada |
+| `ANTHROPIC_API_KEY` | `lib/server/agents/model-client.ts` | Credencial privada del servidor para Messages API | Sin valor |
+| `ANTHROPIC_WORKSPACE_ID` | `lib/server/agents/model-client.ts` | Workspace de Anthropic que delimita la clave | Sin valor |
+| `ANTHROPIC_MODEL` | `lib/server/agents/model-client.ts` | ID explícito de modelo | Sin valor |
+| `AGENT_WORKER_POLL_MS` / `AGENT_WORKER_MAX_TASKS` | `scripts/run-agent-worker.ts` | Intervalo de consulta y límite opcional del worker | 1000 ms / ilimitado |
 | `EVENT_GTM_BASE_URL` | `tests/browser-smoke.mjs` | Origen contra el que corre el smoke test | `http://localhost:3010` |
 
-- `EVENT_GTM_DATASET_PATH` se puede definir en `web/.env.local` (ignorado por git) para el servidor Next. Ver [`web/.env.example`](web/.env.example).
+- Las variables del servidor se pueden definir en `web/.env.local` (ignorado por git). Ver [`web/.env.example`](web/.env.example); reinicia Next.js tras cambiarlo.
 - `pnpm test` y `pnpm test:browser` **no leen** `.env.local`: hay que exportar las variables en la shell, por ejemplo `EVENT_GTM_BASE_URL=http://localhost:3011 pnpm test:browser`.
 - `EVENT_GTM_DATASET_PATH` solo acepta una SQLite con el esquema de la expansión: la vista `canonical_event_editions` y las tablas `scale_event_metadata`, `scale_event_search` y `scale_event_redirects`. Si se apunta a `event-gtm.sqlite` o a la SQLite de IDR, todas las rutas responden 503.
-- No hay más variables: ni credenciales, ni claves de mapa, ni LLM.
+- El worker carga `web/.env.local` y comprueba clave, workspace y modelo antes de reclamar una tarea.
 
 ### Valores fijos en el código
 
@@ -582,21 +599,25 @@ La app necesita un proceso Node con acceso de lectura al archivo SQLite. No hay 
 | Script | Comando | Qué hace | Última ejecución (2026-09-28) |
 |---|---|---|---|
 | `pnpm dev` | `node scripts/copy-maplibre-worker.mjs && next dev --webpack -p 3010` | Desarrollo en :3010 | En ejecución, respondiendo 200 |
-| `pnpm build` | `node scripts/copy-maplibre-worker.mjs && next build --webpack` | Build de producción | ✅ 7,5 s |
-| `pnpm start` | `next start -p 3010` | Sirve el build | ✅ (probado en otro puerto: "Ready in 76ms") |
+| `pnpm worker` | `node --env-file-if-exists=.env.local --import tsx scripts/run-agent-worker.ts` | Consume tareas durables; requiere configuración Anthropic | Configuración local pendiente para E2E |
+| `pnpm build` | `node scripts/copy-maplibre-worker.mjs && next build --webpack` | Build de producción | Pendiente en checkout aislado |
+| `pnpm start` | `next start -p 3010` | Sirve el build | Sin cambios |
 | `pnpm typecheck` | `tsc --noEmit` | Tipos, incluidos los tests | ✅ |
 | `pnpm lint` | `eslint .` | `next/core-web-vitals` + `next/typescript`. Ignora `.next/`, `public/maplibre/` y `next-env.d.ts` | ✅ |
-| `pnpm test` | `node --import tsx --test tests/*.test.ts` | 17 tests `node:test` | ✅ 17/17 |
-| `pnpm test:browser` | `node tests/browser-smoke.mjs` | Recorrido de Playwright en Chrome contra un servidor ya en marcha | ✅ |
+| `pnpm test` | `node --import tsx --test tests/*.test.ts` | Tests `node:test` del catálogo, workspace, runtime y estados de oportunidad | ✅ 35/35 |
+| `pnpm test:browser` | `node tests/browser-smoke.mjs` | Recorrido de Playwright en Chrome contra un servidor ya en marcha; incluye presencia de los cuatro roles | En curso tras corregir un selector ambiguo |
 
 ### Qué cubre cada test
 
 | Archivo | Tests | Cobertura |
 |---|---|---|
-| `tests/dataset.test.ts` | 8 | Contra la SQLite real, en solo lectura, con reloj fijo `2026-09-28T12:00:00Z`: límites de filtros y fechas imposibles; alias sin duplicados en estadísticas; página hostil o fuera de rango; puntuación y operadores FTS que no alteran el SQL; `upcoming` excluye "hoy sin hora exacta" y cancelados; historial evaluado con el reloj dado; país y fechas combinados; el detalle conserva IDs de fuente, clase de evidencia y roles sponsor reales. Al terminar comprueba que tamaño y mtime de la SQLite no cambiaron |
+| `tests/dataset.test.ts` | 9 | SQLite real en solo lectura, filtros y fechas, FTS, país/ciudad, detalle y procedencia. Comprueba que tamaño y mtime del catálogo no cambian |
 | `tests/evidence.test.ts` | 8 | Enlaces públicos (rechaza `javascript:`, credenciales y hosts sintéticos); identidad de URLs de Luma; fechas faltantes o imposibles quedan pendientes; incertidumbre de fechas sin zona; día de calendario con zona explícita; el mapa conserva coordenadas publicadas, marca centroides como aproximados y no inventa puntos; dimensiones de score desconocidas quedan fuera del cálculo |
 | `tests/export.test.ts` | 1 | El export conserva "Unknown; not zero" para presupuesto vacío y distingue el website declarado del investigado (solo con 0 eventos) |
-| `tests/browser-smoke.mjs` | 12 pasos | 20 filas sin pedir expedientes; mapa `ready` o `error`; pin → popup → "Inspect evidence"; expediente con fuentes y menos de 4 peticiones de detalle; comparar 2 eventos; brief con país Germany (estado vacío del mapa); export con `Dataset ID:` y `Source: https:`; brief persistente tras recargar; búsqueda sin resultados y Reset; móvil a 390 px sin desbordamiento; sin errores de página; respaldo con OpenFreeMap bloqueado. Guarda capturas y `research-brief.md` en `web/test-results/` |
+| `tests/opportunity-state.test.ts` | 3 | Top 3 por fit relativo, precedencia semántica de estados, y tratamiento de ubicaciones online/ausentes/centroides |
+| `tests/agent-runtime.test.ts` | 9 | Permisos de herramientas por rol, argumentos inválidos, tope de llamadas, tareas encadenadas, límite de candidatos, resultados obsoletos y configuración/respuestas del cliente Anthropic |
+| `tests/workspace.test.ts` | 5 | Sesión/ownership, concurrencia de brief/draft, persistencia transaccional, deduplicación de respuesta y recuperación de lease |
+| `tests/browser-smoke.mjs` | Recorrido E2E de UI | Comprueba los cuatro roles, catálogo sin expedientes precargados, mapa, evidence modal, comparación, brief/localStorage/export, búsqueda vacía, viewport móvil y respaldo de mapa. Guarda capturas y `research-brief.md` en `web/test-results/` |
 
 Limitaciones del smoke test:
 
@@ -690,16 +711,16 @@ Orden: `[acquire_pycon.py (red)] → build_dataset.py → evaluate_dataset.py �
 - **El estado futuro** significa "anunciado al corte", no ejecución garantizada.
 - **No hay cobertura universal.** La muestra no es aleatoria, el 81 % son actividades municipales de Helsinki y el estrato tech próximo tiene unas 260 ediciones.
 
-**Lo que la app no hace hoy:**
+**Límites del corte de hackathon:**
 
 - No analiza websites.
-- No ejecuta agentes ni llama a un LLM.
+- La llamada real a Anthropic está implementada, pero el recorrido E2E necesita configuración local del proveedor y todavía no se ha validado.
 - No contacta a nadie.
 - No publica ni crea eventos en Luma.
-- No guarda datos en el servidor.
-- No tiene cuentas.
+- Usa una sesión de demo compartida; no hay identidad ni aislamiento multiusuario.
+- No extrae ni verifica automáticamente un perfil desde website.
 
-El brief en el navegador no sustituye una base operacional multiusuario.
+El workspace persistente permite ensayar el ciclo; no sustituye una base operacional multiusuario.
 
 **Derechos de uso:**
 
@@ -717,11 +738,10 @@ Fuente: [docs/product-definition.md](docs/product-definition.md), que desarrolla
 
 | Agente | Responsable de | Output |
 |---|---|---|
-| GTM Lead | Objetivo, prioridades, asignación y decisiones | Decisión y siguientes tareas |
-| Event Scout | Descubrir candidatos y verificar hechos en el catálogo | Candidato verificado o desconocido explícito |
-| Opportunity Strategist | Asistir, patrocinar, hablar u organizar | Propuesta ordenada con razones |
-| Partnerships Agent | Organizadores, cohosts y sponsors | Plan de contacto, mensaje propuesto, resumen de respuesta |
-| Event Producer | Evento propio | Borrador local listo para Luma y brief privado |
+| Lead (incluye Strategist) | Objetivo, prioridades, asignación y decisiones | Decisión y siguientes tareas |
+| Scout | Descubrir candidatos y verificar hechos en el catálogo | Candidato verificado o desconocido explícito |
+| Partnerships | Organizadores, cohosts y sponsors | Plan de contacto, mensaje propuesto, resumen de respuesta |
+| Producer | Evento propio | Propuesta privada de evento y brief de producción |
 | Learning Agent *(después del MVP)* | Feedback y resultados | Preferencias actualizadas |
 
 Mecánica prevista:
@@ -729,23 +749,54 @@ Mecánica prevista:
 - Se comunican con **tareas tipadas persistidas** (`workspace_id`, `opportunity_id`, `assigned_role`, `objective`, `input_refs`, `status`, `result_refs`, `created_at`, `updated_at`).
 - Un **despachador determinístico** despierta a cada agente.
 - Contactar, publicar o gastar requiere **aprobación explícita**.
-- El workspace se guardaría en una SQLite propia y escribible (`node:sqlite`), separada del catálogo. `web/.data/` ya está reservado en `.gitignore`.
+- El workspace se guarda en una SQLite propia y escribible (`node:sqlite`), separada del catálogo. `web/.data/` está ignorado por Git.
 
 ### P0 y orden de construcción
 
 | # | Paso (orden sugerido) | Estado |
 |---|---|---|
-| 1 | Workspace persistente y tareas tipadas | ⛔ |
-| 2 | Despachador y roles | ⛔ |
-| 3 | Línea de tiempo de tareas | ⛔ |
-| 4 | Lista corta con estados | ⛔ |
-| 5 | Estudio del evento y borrador local para Luma | ⛔ (hay patrón de export) |
-| 6 | Botón y endpoint de respuesta del organizador (`POST /inbound/reply`) | ⛔ |
-| 7 | Mapa con la leyenda nueva | ⛔ (hay mapa del catálogo) |
-| 8 | Onboarding desde el website | ⛔ |
-| 9 | Login mínimo (Auth.js con Google, o email como identificador de demo) | ⛔ |
+| 1 | Workspace persistente y tareas tipadas | ✅ Demo SQLite, tareas y versiones; falta aislamiento de cuentas |
+| 2 | Despachador y roles | 🟡 Implementado; falta validar un run real con Anthropic |
+| 3 | Línea de tiempo de tareas | ✅ UI conectada al workspace |
+| 4 | Lista corta con estados | 🟡 Top 3 por fit persistido y estados en lista/mapa; falta validar calibración del ranking contra brief y costos |
+| 5 | Estudio del evento y borrador local para Luma | 🟡 Propuesta privada persistida; falta conectarla a un editor/exportador final |
+| 6 | Botón y endpoint de respuesta del organizador (`POST /inbound/reply`) | ✅ Simulador local, etiquetado e idempotente; no conecta un inbox real |
+| 7 | Mapa con la leyenda nueva | ✅ Colores/estados en lista y mapa |
+| 8 | Onboarding desde el website | ⛔ Brief manual; falta extracción verificable y confirmación de campos |
+| 9 | Login mínimo | 🟡 Sesión de demo compartida; falta autenticación y membresías |
 
-API prevista: `POST /onboard`, `GET /map`, `GET /opportunities/:id`, `POST /opportunities/:id/plan`, `POST /tasks/:id/run`, `POST /drafts`, `PATCH /drafts/:id`, `POST /approvals/:id/decision` y `POST /inbound/reply`. Hoy todas devuelven 404.
+API disponible para la demo: `POST /api/demo/session`, `GET /api/workspace`, `POST /api/briefs`, `POST /api/runs`, `GET /api/runs/:id`, `PATCH /api/drafts/:id` y `POST /api/inbound/reply`, además de las rutas de catálogo. Website onboarding, aprobaciones de acciones externas y un mapa dedicado de oportunidades aún no están implementados.
+
+**Flujo implementado:**
+
+```mermaid
+sequenceDiagram
+  actor U as Usuario
+  participant UI as UI
+  participant API as API Next.js
+  participant DB as workspace.sqlite
+  participant W as Worker Node
+  participant M as Anthropic
+  participant CAT as Catálogo SQLite (solo lectura)
+  U->>UI: Inicia equipo
+  UI->>API: POST /api/demo/session
+  API-->>UI: Cookie HttpOnly de demo
+  UI->>API: POST /api/briefs y POST /api/runs
+  API->>DB: Guarda versión del brief y encola tarea
+  W->>DB: Reclama tarea con lease
+  W->>M: Mensajes + herramientas permitidas
+  M-->>W: Decisión o llamada a herramienta
+  W->>CAT: Busca eventos y evidencia
+  W->>DB: Persiste resultado, timeline y trabajo derivado
+  UI->>API: Poll de workspace/run
+  API->>DB: Lee estado y timeline
+  API-->>UI: Decisión, actividad y borrador
+  U->>UI: Añade respuesta simulada
+  UI->>API: POST /api/inbound/reply (ID estable)
+  API->>DB: Deduplica y crea tarea de seguimiento
+```
+
+El worker hace llamadas reales solo cuando está configurado. Una respuesta del organizador solo es real en el sentido de que se persiste y genera trabajo; el contenido del botón es una fixture simulada y no envía mensajes.
 
 **P1, cuando el P0 sea fiable:**
 
@@ -775,7 +826,7 @@ Encontrados el 2026-09-28. Ordenados por prioridad.
 
 ### Alta
 
-1. **El loop P0 del hackathon no existe en código.** Solo está el catálogo de solo lectura. Ver [Hoja de ruta](#hoja-de-ruta).
+1. **El P0 está parcial.** El corte actual incluye persistencia, worker, roles y una respuesta simulada; falta validar el recorrido real con proveedor y terminar website onboarding, borrador/exportación, login multiusuario y despliegue. Ver [Hoja de ruta](#hoja-de-ruta).
 2. **Los derivados de la expansión son de un build anterior.** Afecta a `exports/` (73 CSV), `manifests/exports.json`, `maps/events.*`, `qa-results.json`, `coverage.csv`, `missingness.csv`, `benchmark.json`, `schema.sql` y `data_dictionary.csv`.
    - Describen 16.986 eventos y una base de 260.296.704 bytes. La SQLite actual tiene 21.749 ediciones.
    - Falta `scale_event_redirects`.

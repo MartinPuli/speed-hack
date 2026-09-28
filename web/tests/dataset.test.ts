@@ -94,6 +94,14 @@ test('country and date constraints apply together', () => {
   assert.ok(result.events.every(event => event.country === 'Germany' && !!event.startDate && event.startDate >= '2025-01-01' && event.startDate <= '2026-12-31'));
 });
 
+test('city is an explicit escaped filter, independent from lexical OR search', () => {
+  const result = searchEvents(filters('scope=upcoming&country=United%20States&city=San%20Francisco&q=AI%20infrastructure%20San%20Francisco&pageSize=50'), NOW);
+  assert.ok(result.total > 0);
+  assert.ok(result.events.every(event => event.city?.toLowerCase().includes('san francisco')));
+  const wildcard = searchEvents(filters('scope=all&sector=all&city=%25&pageSize=50'), NOW);
+  assert.equal(wildcard.total, 0, 'SQL wildcard characters in a city filter must be treated literally');
+});
+
 test('detail preserves source IDs, evidence class and actual sponsorship relationships', () => {
   const target = reference.prepare("SELECT e.id FROM canonical_event_editions e JOIN event_company_roles r ON r.event_id=e.id WHERE r.role='sponsor' GROUP BY e.id ORDER BY count(*) DESC LIMIT 1").get() as Row;
   const detail = getEventDetail(String(target.id), NOW);

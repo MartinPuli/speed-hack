@@ -87,6 +87,7 @@ export interface SearchFilters {
   from: string;
   to: string;
   country: string;
+  city: string;
   scope: SearchScope;
   sector: 'tech' | 'all';
   page: number;
