@@ -23,6 +23,16 @@ try {
   await page.waitForFunction(() => ['ready', 'error'].includes(document.querySelector('[data-map-state]')?.getAttribute('data-map-state')), null, { timeout: 20000 });
   await page.screenshot({ path: 'test-results/catalog-desktop.png', fullPage: false });
 
+  if (await page.locator('[data-map-state="ready"]').count()) {
+    await page.locator('.event-map-pin').first().click();
+    await page.locator('.event-map-popup').waitFor();
+    assert.equal(await page.locator('dialog[open]').count(), 0, 'map selection must leave grouped-event controls accessible');
+    await page.locator('.event-map-popup').getByRole('button', { name: 'Inspect evidence' }).click();
+    await page.getByRole('heading', { name: 'Evidence by field', exact: true }).waitFor();
+    await page.getByRole('button', { name: 'Close event evidence' }).click();
+    await page.locator('.event-map-popup').waitFor();
+  }
+
   await page.getByRole('button', { name: 'View evidence', exact: true }).first().click();
   await page.getByRole('heading', { name: 'Evidence by field', exact: true }).waitFor();
   assert.ok(await page.locator('dialog .source-record a').count() > 0);

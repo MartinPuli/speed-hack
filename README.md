@@ -56,7 +56,8 @@ La app necesita un proceso Node con acceso al archivo SQLite. Este repositorio n
 ## Datos y procedencia
 
 - [Investigación original](event-gtm-2026-09-28/README.md).
-- [Idea y alcance de producto](event-gtm-2026-09-28/inputs/prompt-maestro.md).
+- [Definición del producto para el hackathon](docs/product-definition.md), basada en [el brief](HACKATHON_BUILD_BRIEF.md).
+- [Prompt original de idea y alcance](event-gtm-2026-09-28/inputs/prompt-maestro.md).
 - [Traslado y adaptaciones de GrowthX](docs/growthx-reuse.md).
 
 El catálogo canónico es la vista `canonical_event_editions` de la SQLite de expansión. Las exportaciones históricas CSV/GeoJSON pueden pertenecer a otra versión y no son la fuente de la app. La base pequeña y la investigación independiente no se concatenan automáticamente a la expansión.
