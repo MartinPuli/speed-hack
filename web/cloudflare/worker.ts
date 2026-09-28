@@ -8,10 +8,15 @@ import { extractCompanyBrand, groundEventDesign, refreshCompanyBrand } from '../
 import { TASTE_OPPORTUNITIES } from '../lib/demo/taste-labs';
 import type { ResearchBrief } from '../lib/contracts/event-gtm';
 import type { EventDraftFields } from '../lib/contracts/agent-workspace';
+import { validPreferences } from '../lib/contracts/event-brief';
 import { getEventDetail } from './catalog';
 import { loadPreparedDemo } from '../lib/server/prepared-demo';
+import { generateEventCover, readEventCover } from './event-covers';
+import { shareToken, readShare, publicPreview, escapeHtml } from './shared-preview';
+import type { EventPagePreview } from '../lib/server/workspace/repository';
 
 interface Env {
+  AI: Ai;
   ASSETS: Fetcher;
   WORKSPACES: DurableObjectNamespace<EventWorkspace>;
   BRAINBASE_API_KEY?: string;
@@ -51,6 +56,24 @@ export class EventWorkspace extends DurableObject<Env> {
     // Secrets belong to this deployment, never to browser bundles or model prompts.
     process.env.TASTE_API_KEY = env.TASTE_API_KEY ?? '';
   }
+  private async createCover(id: string, opportunityId: string) {
+    const snapshot = repository.readWorkspaceSnapshot(id);
+    const draft = snapshot.drafts.find(item => item.opportunityId === opportunityId);
+    const brand = repository.readCompanyBrand(id);
+    if (!draft || !brand) throw new TypeError('Save the event and its company identity first.');
+    const generated = await generateEventCover(this.ctx.storage, this.env.AI, draft.fields, brand);
+    const demo = await this.ctx.storage.get<boolean>('prepared-mode');
+    const fields = { ...draft.fields, coverImageUrl: `/api/${demo ? 'demo/' : ''}covers/${generated.id}`, coverSource: 'generated' as const, coverPrompt: generated.prompt };
+    const updated = repository.updateDraft(id, draft.id, draft.version, fields, 'producer');
+    const previousPreview = snapshot.events.findLast(event => event.opportunityId === opportunityId && event.kind === 'preview.provisioned')?.metadata.url;
+    const previousId = typeof previousPreview === 'string' ? previousPreview.split('/').at(-1) : undefined;
+    const previous = previousId ? repository.readEventPreview(id, previousId) : null;
+    const preview = repository.provisionEventPreview(id, { opportunityId, fields, brand, design: previous?.design ?? null });
+    const previewUrl = `${demo ? '/demo' : ''}/preview/${preview.id}`;
+    const run = snapshot.runs[0];
+    if (run) repository.appendTimelineEvent(id, { runId: run.id, opportunityId, role: 'producer', kind: 'preview.provisioned', message: 'Your event cover and landing are ready.', metadata: { url: previewUrl, generatedCover: generated.id, provider: 'cloudflare-workers-ai', visibility: 'private' } });
+    return { draft: updated, previewUrl };
+  }
   async handle(request: Request): Promise<Response> {
     return inWorkspace(this.ctx.storage, async () => {
       try {
@@ -58,18 +81,27 @@ export class EventWorkspace extends DurableObject<Env> {
         const path = new URL(request.url).pathname;
         const method = request.method;
         const body = method === 'GET' ? {} : await json(request);
+        if (/^\/api\/(?:demo\/)?covers\/[a-f0-9]+$/.test(path) && method === 'GET') {
+          const bytes = readEventCover(this.ctx.storage, path.split('/').at(-1)!);
+          return bytes ? new Response(bytes, { headers: { 'Content-Type': 'image/jpeg', 'Cache-Control': 'private, max-age=3600' } }) : new Response('Cover not found', { status: 404 });
+        }
+        if (path === '/api/event-cover' && method === 'POST') {
+          if (typeof body.opportunityId !== 'string') throw new TypeError('Choose an event first.');
+          return Response.json(await this.createCover(id, body.opportunityId));
+        }
         if (path === '/api/workspace') {
           const snapshot = repository.readWorkspaceSnapshot(id);
           if (snapshot.tasks.some(task => ['queued', 'running'].includes(task.status))) await this.ctx.storage.setAlarm(Date.now() + 1000);
           return Response.json({ ...snapshot, modelConfigured: Boolean(this.env.BRAINBASE_API_KEY), provider: 'brainbase', opportunities: snapshot.opportunities.map(item => ({ ...item, event: item.catalogEventId ? getEventDetail(item.catalogEventId) : null })) });
         }
         if (path === '/api/demo/plan' && method === 'POST') {
+          if (request.headers.get('X-GrowthX-Workspace') === 'prepared-demo') await this.ctx.storage.put('prepared-mode', true);
           const result = loadPreparedDemo(id, request.headers.get('X-GrowthX-Workspace') === 'prepared-demo' ? '/demo/preview' : '/preview');
           return Response.json({ ...result, workspace: { ...result.workspace, modelConfigured: Boolean(this.env.BRAINBASE_API_KEY), provider: 'brainbase', opportunities: result.workspace.opportunities.map(item => ({ ...item, event: item.catalogEventId ? getEventDetail(item.catalogEventId) : null })) } });
         }
         if (path === '/api/briefs' && method === 'POST') {
           const brief = body.brief as ResearchBrief;
-          if (!brief || !['company', 'website', 'objective', 'audience', 'topics', 'geography', 'from', 'to', 'budget', 'currency', 'constraints'].every(key => typeof (brief as unknown as Record<string, unknown>)[key] === 'string') || JSON.stringify(brief).length > 24_000) throw new TypeError('Complete the company brief.');
+          if (!brief || !validPreferences(brief.preferences) || !['company', 'website', 'objective', 'audience', 'topics', 'geography', 'from', 'to', 'budget', 'currency', 'constraints'].every(key => typeof (brief as unknown as Record<string, unknown>)[key] === 'string') || JSON.stringify(brief).length > 24_000) throw new TypeError('Complete the company brief.');
           return Response.json(repository.saveBrief(id, brief, Number(body.expectedVersion)), { status: 201 });
         }
         if (path === '/api/brand') {
@@ -159,6 +191,10 @@ export class EventWorkspace extends DurableObject<Env> {
         // The dispatcher persists actual task failures.
       }
       const snapshot = repository.readWorkspaceSnapshot(claim.workspaceId);
+      if (claim.assignedRole === 'producer' && claim.opportunityId && snapshot.tasks.find(task => task.id === claim.id)?.status === 'succeeded') {
+        try { await this.createCover(claim.workspaceId, claim.opportunityId); }
+        catch (error) { repository.appendTimelineEvent(claim.workspaceId, { runId: claim.runId, opportunityId: claim.opportunityId, role: 'producer', kind: 'cover.failed', message: 'The event is saved. Its cover can be retried from the event profile.', metadata: { error: error instanceof Error ? error.message : 'Image generation unavailable' } }); }
+      }
       if (snapshot.tasks.some(task => task.status === 'queued')) await this.ctx.storage.setAlarm(Date.now() + 1000);
       else if (snapshot.tasks.some(task => task.status === 'running')) await this.ctx.storage.setAlarm(Date.now() + 60_000);
       else await this.ctx.storage.deleteAlarm();
@@ -169,6 +205,26 @@ export class EventWorkspace extends DurableObject<Env> {
 export default {
   async fetch(request: Request, env: Env): Promise<Response> {
     const url = new URL(request.url);
+    const shared = url.pathname.match(/^\/(?:api\/shared|share)\/([A-Za-z0-9_.-]+)(\/cover)?$/);
+    if (shared && request.method === 'GET') {
+      const payload = await readShare(shared[1], env.SESSION_SECRET);
+      if (!payload) return new Response('This share link has expired or is unavailable.', { status: 404 });
+      const workspace = env.WORKSPACES.getByName(payload.workspace);
+      const response = await workspace.handle(new Request(`${url.origin}/api/previews/${payload.preview}`));
+      if (!response.ok) return new Response('Event unavailable', { status: 404 });
+      const preview = await response.json() as EventPagePreview;
+      if (shared[2]) {
+        const cover = preview.fields.coverImageUrl;
+        if (!cover) return new Response('Cover unavailable', { status: 404 });
+        if (/^\/api\/(?:demo\/)?covers\/[a-f0-9]+$/.test(cover)) return workspace.handle(new Request(`${url.origin}${cover}`));
+        if (cover.startsWith('/event-covers/')) return env.ASSETS.fetch(new Request(`${url.origin}${cover}`));
+        return Response.redirect(cover, 302);
+      }
+      if (url.pathname.startsWith('/api/')) return Response.json(publicPreview(preview, shared[1]), { headers: { 'Cache-Control': 'no-store' } });
+      const shell = await env.ASSETS.fetch(new Request(`${url.origin}/`));
+      const metadata = `<meta property="og:title" content="${escapeHtml(preview.fields.title)}"><meta property="og:description" content="${escapeHtml(preview.fields.description.slice(0, 200))}"><meta property="og:image" content="${url.origin}/api/shared/${shared[1]}/cover"><meta name="twitter:card" content="summary_large_image"><meta name="robots" content="noindex">`;
+      return new Response((await shell.text()).replace('</head>', `${metadata}</head>`), { headers: { 'Content-Type': 'text/html; charset=utf-8', 'Cache-Control': 'no-store' } });
+    }
     if (!url.pathname.startsWith('/api/')) return env.ASSETS.fetch(request);
     if (request.method !== 'GET' && request.headers.get('origin') && request.headers.get('origin') !== url.origin) return Response.json({ error: 'Origin not allowed.' }, { status: 403 });
     if (url.pathname === '/api/health') return Response.json({ status: 'ok', hosting: 'cloudflare-workers', agents: env.BRAINBASE_API_KEY ? 'brainbase' : 'configuration-required', taste: Boolean(env.TASTE_API_KEY), storage: 'durable-object-sqlite' });
@@ -181,7 +237,15 @@ export default {
       return Response.json({ demoMode: true, expiresAt: new Date(expiration).toISOString() }, { headers: { 'Set-Cookie': `${COOKIE}=${value}.${await sign(value, env.SESSION_SECRET)}; Path=/; HttpOnly; Secure; SameSite=Strict; Max-Age=2592000`, 'Cache-Control': 'no-store' } });
     }
     if (!existing) return Response.json({ error: 'Open your workspace to continue.' }, { status: 401 });
-    const namespace = request.headers.get('X-GrowthX-Workspace') === 'prepared-demo' ? `${existing}:prepared` : existing;
+    const namespace = request.headers.get('X-GrowthX-Workspace') === 'prepared-demo' || url.pathname.startsWith('/api/demo/covers/') ? `${existing}:prepared` : existing;
+    const sharing = url.pathname.match(/^\/api\/previews\/([a-f0-9]{24})\/share$/);
+    if (sharing && request.method === 'POST') {
+      const preview = await env.WORKSPACES.getByName(namespace).handle(new Request(`${url.origin}/api/previews/${sharing[1]}`));
+      if (!preview.ok) return Response.json({ error: 'Open a saved landing first.' }, { status: 404 });
+      const expires = Date.now() + 7 * 86_400_000;
+      const token = await shareToken({ workspace: namespace, preview: sharing[1], expires }, env.SESSION_SECRET);
+      return Response.json({ url: `${url.origin}/share/${token}`, expiresAt: new Date(expires).toISOString() }, { headers: { 'Cache-Control': 'no-store' } });
+    }
     const response = await env.WORKSPACES.getByName(namespace).handle(request);
     response.headers.set('Cache-Control', 'no-store');
     return response;

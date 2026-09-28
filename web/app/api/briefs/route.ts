@@ -1,3 +1,4 @@
+import { validPreferences } from '@/lib/contracts/event-brief';
 import type { ResearchBrief } from '@/lib/contracts/event-gtm';
 import { NextResponse } from 'next/server';
 import { WorkspaceVersionConflict, saveBrief } from '@/lib/server/workspace/repository';
@@ -11,6 +12,7 @@ function isBrief(value: unknown): value is ResearchBrief {
   if (!value || typeof value !== 'object') return false;
   const brief = value as Record<string, unknown>;
   if (!fields.every((field) => typeof brief[field] === 'string' && (brief[field] as string).length <= 2000)) return false;
+  if (!validPreferences(brief.preferences)) return false;
   return ['adoption', 'feedback', 'awareness', 'partnerships'].includes(String(brief.objective));
 }
 

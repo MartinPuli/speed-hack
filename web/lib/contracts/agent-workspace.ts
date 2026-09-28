@@ -59,6 +59,8 @@ export interface AgentTimelineEvent {
 export interface EventDraftFields {
   experience?: { venue: string; guests: string; atmosphere: string; artDirection: string; foodAndDrink: string; budgetGuidance: string };
   coverImageUrl?: string;
+  coverSource?: 'generated' | 'brand';
+  coverPrompt?: string;
   title: string;
   description: string;
   audience: string;

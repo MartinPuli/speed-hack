@@ -4,7 +4,7 @@ import { workspaceHeaders } from '@/lib/client/workspace-request';
 import type { CompanyBrand } from '@/lib/contracts/company-brand';
 import type { EventDraftFields, EventDraftRecord, WorkspaceSnapshot } from '@/lib/contracts/agent-workspace';
 import type { EventDraft, TasteOpportunity } from '@/lib/demo/taste-labs';
-export type TeamBrief = { website: string; goal: string; audience: string; budget: string };
+import type { TeamBrief } from '@/lib/contracts/event-brief';
 async function api<T>(url: string, body?: unknown, method?: string): Promise<T> {
   const verb = method ?? (body ? 'POST' : 'GET');
   const liveUrl = verb === 'GET' ? `${url}${url.includes('?') ? '&' : '?'}_refresh=${Date.now()}` : url;
@@ -40,17 +40,17 @@ export function useEventTeam(preparedDemo = false) {
     return () => { cancelled = true; };
   }, [ensure, preparedDemo]);
   useEffect(() => {
-    if (brand?.status !== 'pending') return;
+    if (brand?.status !== 'pending' && !running) return;
     const timer = setInterval(() => { void api<{ brand: CompanyBrand | null }>('/api/brand').then(result => setBrand(result.brand)).catch(error => setError(error.message)); }, 6000);
     return () => clearInterval(timer);
-  }, [brand?.status]);
+  }, [brand?.status, running]);
   const extractBrand = useCallback(async (website: string) => { await ensure(); const result = await api<{ brand: CompanyBrand }>('/api/brand', { website }); setBrand(result.brand); return result.brand; }, [ensure]);
   const saveBrief = useCallback(async (brief: TeamBrief) => {
     await ensure();
     const snapshot = await refresh();
     const host = new URL(brief.website.includes('://') ? brief.website : `https://${brief.website}`).hostname.replace(/^www\./, '');
     const matchingBrand = brand?.sourceUrl && new URL(brand.sourceUrl).hostname.replace(/^www\./, '') === host ? brand : null;
-    await api('/api/briefs', { expectedVersion: snapshot.briefVersion, brief: { company: matchingBrand?.name || host, website: brief.website, objective: brief.goal === 'Partnerships' ? 'partnerships' : brief.goal === 'Community' ? 'feedback' : 'adoption', audience: brief.audience, topics: matchingBrand?.audience.join(', ') || brief.audience, geography: 'San Francisco first; worldwide alternatives when relevant', from: '2026-10-01', to: '2026-11-30', budget: brief.budget, currency: 'USD', constraints: 'Produce original event concepts, actionable sponsorship recommendations and editable event drafts. All owned dates, venues and costs are proposals. No sending, spending or public publishing.' } });
+    await api('/api/briefs', { expectedVersion: snapshot.briefVersion, brief: { company: matchingBrand?.name || host, website: brief.website, objective: brief.goal === 'Partnerships' ? 'partnerships' : brief.goal === 'Community' ? 'feedback' : 'adoption', audience: brief.audience, topics: matchingBrand?.audience.join(', ') || brief.audience, geography: `${brief.city} first; worldwide alternatives when relevant`, from: brief.from, to: brief.to, preferences: brief.preferences, budget: brief.budget, currency: 'USD', constraints: 'Produce original event concepts, actionable sponsorship recommendations and editable event drafts. All owned dates, venues and costs are proposals. No sending, spending or public publishing.' } });
     return refresh();
   }, [ensure, refresh, brand]);
   const askTeam = useCallback(async (objective: string, eventId?: string) => {

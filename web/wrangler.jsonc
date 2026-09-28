@@ -8,12 +8,14 @@
   ],
   "account_id": "3284e03dca57951fd16ab93c51725c47",
   "workers_dev": true,
+  "ai": { "binding": "AI" },
   "assets": {
     "directory": "./dist-cloudflare",
     "binding": "ASSETS",
     "not_found_handling": "single-page-application",
     "run_worker_first": [
-      "/api/*"
+      "/api/*",
+      "/share/*"
     ]
   },
   "alias": {

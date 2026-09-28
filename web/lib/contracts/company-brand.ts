@@ -1,4 +1,5 @@
 export interface CompanyBrand {
+  analysis?: { summary: string; eventStrategy: string; audience: string; avoid: string; sourceUrl: string; analyzedAt: string };
   submissionId: string;
   sourceUrl: string;
   status: 'pending' | 'completed' | 'failed';

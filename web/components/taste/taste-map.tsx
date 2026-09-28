@@ -1,4 +1,5 @@
 'use client';
+import { CITY_CENTERS } from '@/lib/contracts/event-brief';
 
 import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
@@ -8,7 +9,7 @@ import type { TasteOpportunity } from '@/lib/demo/taste-labs';
 import 'maplibre-gl/dist/maplibre-gl.css';
 
 type Engine = { map: MapInstance; api: typeof import('maplibre-gl') };
-type Props = { events: TasteOpportunity[]; selectedId?: string; onSelect: (id: string) => void; world?: boolean; preview?: boolean };
+type Props = { events: TasteOpportunity[]; selectedId?: string; onSelect: (id: string) => void; world?: boolean; preview?: boolean; city?: string };
 
 export function EventCover({ event, className = '' }: { event: TasteOpportunity; className?: string }) {
   const [failed, setFailed] = useState(false);
@@ -37,7 +38,7 @@ function PhotoPin({ engine, event, selected, onSelect, offset = [0, 0], clusterC
   </button>, element);
 }
 
-export function TasteMap({ events, selectedId, onSelect, world = false, preview = false }: Props) {
+export function TasteMap({ events, selectedId, onSelect, world = false, preview = false, city = 'San Francisco' }: Props) {
   const container = useRef<HTMLDivElement>(null);
   const [engine, setEngine] = useState<Engine | null>(null);
   const [error, setError] = useState(false);
@@ -71,8 +72,8 @@ export function TasteMap({ events, selectedId, onSelect, world = false, preview 
     if (!engine) return;
     const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (world) engine.map.fitBounds([[-123, 35], [26, 61]], { padding: { top: 110, bottom: 140, left: 90, right: 90 }, duration: reduce ? 0 : 850 });
-    else engine.map.easeTo({ center: [-122.425, preview ? 37.791 : 37.7855], zoom: preview ? 12.65 : 12.6, duration: reduce ? 0 : 600 });
-  }, [engine, world, preview]);
+    else engine.map.easeTo({ center: city === 'San Francisco' ? [-122.425, preview ? 37.791 : 37.7855] : CITY_CENTERS[city] ?? CITY_CENTERS['San Francisco'], zoom: preview ? 12.65 : 12.6, duration: reduce ? 0 : 600 });
+  }, [engine, world, preview, city]);
   useEffect(() => {
     if (!engine) return;
     function arrange() {

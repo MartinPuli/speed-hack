@@ -1,4 +1,8 @@
 export const brandWorkspaceMigration = `
+CREATE TABLE IF NOT EXISTS event_cover_chunks (
+  id TEXT NOT NULL, part INTEGER NOT NULL, data TEXT NOT NULL,
+  PRIMARY KEY(id, part)
+);
 CREATE TABLE IF NOT EXISTS company_brands (
   workspace_id TEXT NOT NULL REFERENCES workspaces(id),
   source_url TEXT NOT NULL,

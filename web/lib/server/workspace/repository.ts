@@ -269,7 +269,7 @@ function validateDraftFields(fields: EventDraftFields): void {
     throw new TypeError('Draft source references are invalid.');
   }
   if (fields.experience && (typeof fields.experience !== 'object' || Object.values(fields.experience).some(value => typeof value !== 'string' || value.length > 2000))) throw new TypeError('Event experience sections must be concise text.');
-  if (fields.coverImageUrl && !/^https:\/\/[^\s]+$/.test(fields.coverImageUrl)) throw new TypeError('The cover image must use HTTPS.');
+  if (fields.coverImageUrl && !/^https:\/\/[^\s]+$/.test(fields.coverImageUrl) && !/^\/(?:event-covers\/[a-z0-9-]+\.png|api\/(?:demo\/)?covers\/[a-f0-9]+)$/.test(fields.coverImageUrl)) throw new TypeError('The cover image must use HTTPS.');
   if (JSON.stringify(fields).length > 45_000) throw new TypeError('Draft revision is too large.');
 }
 
@@ -298,7 +298,7 @@ export function resolveDemoWorkspaceId(sessionToken: string): string | null {
 export function saveBrief(workspaceId: string, brief: ResearchBrief, expectedVersion?: number): { version: number; savedAt: string } {
   requireWorkspace(workspaceId);
   const briefFields: Array<keyof ResearchBrief> = ['company', 'website', 'objective', 'audience', 'topics', 'geography', 'from', 'to', 'budget', 'currency', 'constraints'];
-  if (!briefFields.every((field) => typeof brief[field] === 'string' && brief[field].length <= 2_000)
+  if (!briefFields.every((field) => typeof brief[field] === 'string' && (brief[field] as string).length <= 2_000)
     || !(['adoption', 'feedback', 'awareness', 'partnerships'] as string[]).includes(brief.objective)) {
     throw new TypeError('Brief fields are invalid.');
   }

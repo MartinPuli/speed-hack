@@ -9,7 +9,7 @@ import { getEventDetail, searchEvents } from '@growthx/catalog';
 import type { ClaimedTask, CompleteAgentTaskInput } from '../workspace/repository';
 import { AgentModelRequestError, AgentTaskYield, AnthropicModelClient, type AnthropicContentBlock, type AnthropicMessage, type AnthropicTool, type AgentModelClient } from './model-client';
 import { getRoleDefinition } from './roles';
-import { readCompanyBrand, provisionEventPreview } from '../workspace/repository';
+import { readCompanyBrand, saveCompanyBrand, provisionEventPreview } from '../workspace/repository';
 import { groundEventDesign } from '../taste/client';
 import { TASTE_OPPORTUNITIES, budgetRange } from '../../demo/taste-labs';
 import type { EventDesignBrief } from '../../contracts/company-brand';
@@ -439,6 +439,14 @@ function toolHandler(
       const opportunity = checkOpportunity(context, args.opportunityId);
       const research = TASTE_OPPORTUNITIES.find(event => opportunity.evidenceIds.includes(`research:taste:${event.id}`));
       return research ? { ...research, planningCash: budgetRange(research), reviewedAt: '2026-09-28', note: 'Curated research. Proposed owned events are unconfirmed; sponsor fees are unknown. Source links are evidence references, not live verification.' } : { note: 'No curated research attached. Use the catalog and its sources.' };
+    }
+    case 'saveBrandAnalysis': {
+      const brand = readCompanyBrand(context.workspaceId);
+      if (!brand) throw new Error('Company identity is still being read. Use the user brief and try again when the brand is available.');
+      const analysis = { summary: String(args.summary), eventStrategy: String(args.eventStrategy), audience: String(args.audience), avoid: String(args.avoid), sourceUrl: brand.sourceUrl, analyzedAt: new Date().toISOString() };
+      saveCompanyBrand(context.workspaceId, { ...brand, analysis });
+      state.toolEvents.push({ role: 'lead', kind: 'brand.analyzed', message: 'Noa shaped an event strategy from your brand and brief.', opportunityId: null, metadata: { sourceUrl: brand.sourceUrl } });
+      return { saved: true, analysis };
     }
     case 'groundEventDesign': {
       if (context.task.assignedRole !== 'producer') throw new Error('Only Producer can create a design brief.');

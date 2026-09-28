@@ -114,6 +114,7 @@ export interface SearchResponse {
 }
 
 export interface ResearchBrief {
+  preferences?: import('./event-brief').EventPreferences;
   company: string;
   website: string;
   objective: 'adoption' | 'feedback' | 'awareness' | 'partnerships';
