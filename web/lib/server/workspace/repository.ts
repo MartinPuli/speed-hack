@@ -17,6 +17,8 @@ import type {
   WorkspaceSnapshot,
 } from '@/lib/contracts/agent-workspace';
 import { initialWorkspaceMigration } from './migrations/001_initial';
+import { brandWorkspaceMigration } from './migrations/002_brand';
+import type { CompanyBrand, EventDesignBrief } from '@/lib/contracts/company-brand';
 
 const DEMO_WORKSPACE_ID = 'demo-workspace';
 const MAX_TASK_ATTEMPTS = 4;
@@ -149,6 +151,7 @@ function db(): DatabaseSync {
       throw error;
     }
   }
+  database.exec(brandWorkspaceMigration);
   cachedDatabase = { path, db: database };
   return database;
 }
@@ -671,4 +674,60 @@ export function getRun(workspaceId: string, runId: string): { run: AgentRun; tas
   const tasks = rows<Record<string, unknown>>(db().prepare('SELECT * FROM tasks WHERE workspace_id = ? AND run_id = ? ORDER BY created_at').all(workspaceId, runId));
   const events = rows<Record<string, unknown>>(db().prepare('SELECT * FROM timeline_events WHERE workspace_id = ? AND run_id = ? ORDER BY created_at').all(workspaceId, runId));
   return { run: mapRun(run), tasks: tasks.map(mapTask), events: events.map(mapEvent) };
+}
+
+export function readCompanyBrand(workspaceId: string, sourceUrl?: string): CompanyBrand | null {
+  requireWorkspace(workspaceId);
+  const record = sourceUrl
+    ? db().prepare('SELECT data_json FROM company_brands WHERE workspace_id = ? AND source_url = ?').get(workspaceId, sourceUrl)
+    : db().prepare('SELECT data_json FROM company_brands WHERE workspace_id = ? ORDER BY updated_at DESC LIMIT 1').get(workspaceId);
+  return record ? parseJson(record.data_json, null as CompanyBrand | null) : null;
+}
+
+export function saveCompanyBrand(workspaceId: string, brand: CompanyBrand): CompanyBrand {
+  requireWorkspace(workspaceId);
+  db().prepare(`INSERT INTO company_brands(workspace_id, source_url, submission_id, data_json, updated_at) VALUES(?, ?, ?, ?, ?)
+    ON CONFLICT(workspace_id, source_url) DO UPDATE SET submission_id = excluded.submission_id, data_json = excluded.data_json, updated_at = excluded.updated_at`)
+    .run(workspaceId, brand.sourceUrl, brand.submissionId, JSON.stringify(brand), now());
+  return brand;
+}
+
+export function readEventDesignBrief(workspaceId: string, hash: string): EventDesignBrief | null {
+  requireWorkspace(workspaceId);
+  const record = db().prepare('SELECT data_json FROM event_design_briefs WHERE workspace_id = ? AND input_hash = ?').get(workspaceId, hash);
+  return record ? parseJson(record.data_json, null as EventDesignBrief | null) : null;
+}
+
+export function saveEventDesignBrief(workspaceId: string, hash: string, design: EventDesignBrief): EventDesignBrief {
+  requireWorkspace(workspaceId);
+  db().prepare('INSERT OR REPLACE INTO event_design_briefs(workspace_id, input_hash, data_json, created_at) VALUES(?, ?, ?, ?)')
+    .run(workspaceId, hash, JSON.stringify(design), now());
+  return design;
+}
+
+export interface EventPagePreview {
+  id: string;
+  opportunityId: string | null;
+  fields: EventDraftFields;
+  brand: CompanyBrand;
+  design: EventDesignBrief | null;
+  createdAt: string;
+}
+
+export function provisionEventPreview(workspaceId: string, input: Omit<EventPagePreview, 'id' | 'createdAt'>): EventPagePreview {
+  requireWorkspace(workspaceId);
+  if (input.opportunityId) getOpportunity(workspaceId, input.opportunityId);
+  const key = createHash('sha256').update(workspaceId + JSON.stringify(input)).digest('hex').slice(0, 24);
+  const existing = readEventPreview(workspaceId, key);
+  if (existing) return existing;
+  const result = { ...input, id: key, createdAt: now() };
+  db().prepare('INSERT INTO event_page_previews(id, workspace_id, opportunity_id, data_json, created_at, updated_at) VALUES(?, ?, ?, ?, ?, ?)')
+    .run(key, workspaceId, input.opportunityId, JSON.stringify(result), result.createdAt, result.createdAt);
+  return result;
+}
+
+export function readEventPreview(workspaceId: string, previewId: string): EventPagePreview | null {
+  requireWorkspace(workspaceId);
+  const record = db().prepare('SELECT data_json FROM event_page_previews WHERE workspace_id = ? AND id = ?').get(workspaceId, previewId);
+  return record ? parseJson(record.data_json, null as EventPagePreview | null) : null;
 }

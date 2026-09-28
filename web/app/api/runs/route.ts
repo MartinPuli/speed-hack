@@ -16,8 +16,10 @@ export async function POST(request: Request) {
     if (body.idempotencyKey !== undefined && (typeof body.idempotencyKey !== 'string' || body.idempotencyKey.length > 200)) {
       return NextResponse.json({ error: 'idempotencyKey is invalid.' }, { status: 400 });
     }
+    if (body.objective !== undefined && (typeof body.objective !== 'string' || body.objective.length > 1200)) return NextResponse.json({ error: 'The request is too long.' }, { status: 400 });
     const result = createRun(workspaceId, {
       opportunityId: body.opportunityId as string | undefined,
+      objective: body.objective as string | undefined,
       idempotencyKey: body.idempotencyKey as string | undefined,
     });
     return NextResponse.json(result, { status: 202 });

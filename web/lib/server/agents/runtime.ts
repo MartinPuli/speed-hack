@@ -9,6 +9,10 @@ import { getEventDetail, searchEvents } from '../dataset-repository';
 import type { ClaimedTask, CompleteAgentTaskInput } from '../workspace/repository';
 import { AgentModelRequestError, AnthropicModelClient, type AnthropicContentBlock, type AnthropicMessage, type AnthropicTool } from './model-client';
 import { getRoleDefinition } from './roles';
+import { readCompanyBrand, provisionEventPreview } from '../workspace/repository';
+import { groundEventDesign } from '../taste/client';
+import { TASTE_OPPORTUNITIES, budgetRange } from '../../demo/taste-labs';
+import type { EventDesignBrief } from '../../contracts/company-brand';
 
 export interface ClaimedAgentTask {
   workspaceId: string;
@@ -81,6 +85,7 @@ interface FinalResult {
 }
 
 interface StagedState {
+  tasteDesign?: EventDesignBrief;
   candidates: Map<string, { id: string; title: string; sourceEvidenceIds: string[] }>;
   catalogSearchResult: EventSummary[] | null;
   evidence: Map<string, ReturnType<typeof getEventDetail>>;
@@ -417,6 +422,25 @@ function toolHandler(
   now: () => Date,
 ): Promise<unknown> | unknown {
   switch (name) {
+    case 'readBrand': return readCompanyBrand(context.workspaceId);
+    case 'readEventResearch': {
+      const opportunity = checkOpportunity(context, args.opportunityId);
+      const research = TASTE_OPPORTUNITIES.find(event => opportunity.evidenceIds.includes(`research:taste:${event.id}`));
+      return research ? { ...research, planningCash: budgetRange(research), reviewedAt: '2026-09-28', note: 'Curated research. Proposed owned events are unconfirmed; sponsor fees are unknown. Source links are evidence references, not live verification.' } : { note: 'No curated research attached. Use the catalog and its sources.' };
+    }
+    case 'groundEventDesign': {
+      if (context.task.assignedRole !== 'producer') throw new Error('Only Producer can create a design brief.');
+      return groundEventDesign(context.workspaceId, String(args.prompt)).then(design => { state.tasteDesign = design; state.toolEvents.push({ role: 'producer', kind: 'brand.grounded', message: 'Taste grounded the event design in the company brand.', opportunityId: context.opportunity?.id ?? null, metadata: { submissionId: design.submissionId, sourceUrl: design.sourceUrl } }); return design; });
+    }
+    case 'provisionEventPreview': {
+      if (context.task.assignedRole !== 'producer' || !state.draftRevision) throw new Error('Stage the event draft before preparing its page.');
+      const brand = readCompanyBrand(context.workspaceId);
+      if (!brand || brand.status !== 'completed') throw new Error('The company brand is not ready.');
+      const preview = provisionEventPreview(context.workspaceId, { opportunityId: state.draftRevision.opportunityId, fields: state.draftRevision.fields, brand, design: state.tasteDesign ?? null });
+      const url = `/preview/${preview.id}`;
+      state.toolEvents.push({ role: 'producer', kind: 'preview.provisioned', message: 'An event-page preview is ready.', opportunityId: context.opportunity?.id ?? null, metadata: { url, previewId: preview.id, visibility: 'private', deployment: 'local-app' } });
+      return { url, private: true, published: false, registrationOpen: false };
+    }
     case 'readBrief': return { briefVersion: context.briefVersion, brief: briefView(context.brief) };
     case 'readOpportunity': {
       const opportunity = checkOpportunity(context, args.opportunityId);
@@ -510,7 +534,10 @@ function toolHandler(
     case 'readContact': {
       const opportunity = checkOpportunity(context, args.opportunityId);
       const eventId = opportunity.catalogEventId;
-      if (!eventId) return { organizations: [], note: 'This is a proposed concept without a catalog event.' };
+      if (!eventId) {
+        const research = TASTE_OPPORTUNITIES.find(event => opportunity.evidenceIds.includes(`research:taste:${event.id}`));
+        return research ? { organizations: research.partners, nextSteps: research.nextSteps, sources: research.sources, note: 'Potential collaborators and public organizer channels only. Nothing has been sent or agreed.' } : { organizations: [], note: 'No catalog contact is attached.' };
+      }
       const detail = getEventDetail(eventId);
       if (!detail) return { organizations: [], note: 'Catalog details are unavailable.' };
       return { organizations: detail.roles.filter(role => role.role.toLowerCase().includes('sponsor')).slice(0, 12).map(role => ({ organization: role.name, domain: role.domain, role: role.role, source: role.source?.url ?? null })), note: 'The research catalog contains organizations, not verified individual contacts or permission to contact them.' };

@@ -68,6 +68,7 @@ export interface EventDraftFields {
   location: string;
   productionBrief: string;
   sourceRefs: string[];
+  proposedDetails?: { date: string; time: string; venue: string; capacity: string };
 }
 
 export interface EventDraftRecord {

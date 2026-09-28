@@ -1,5 +1,5 @@
-import { ResearchWorkspace } from '@/components/research-workspace';
+import { TasteWorkspace } from '@/components/taste/taste-workspace';
 
 export default function Page() {
-  return <ResearchWorkspace />;
+  return <TasteWorkspace />;
 }

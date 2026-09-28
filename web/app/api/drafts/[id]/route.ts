@@ -10,6 +10,11 @@ function validFields(value: unknown): value is EventDraftFields {
   if (!value || typeof value !== 'object') return false;
   const fields = value as Record<string, unknown>;
   const stringFields = ['title', 'description', 'audience', 'format', 'agenda', 'host', 'cta', 'date', 'timezone', 'location', 'productionBrief'];
+  if (fields.proposedDetails !== undefined) {
+    if (!fields.proposedDetails || typeof fields.proposedDetails !== 'object') return false;
+    const proposed = fields.proposedDetails as Record<string, unknown>;
+    if (!['date', 'time', 'venue', 'capacity'].every(key => typeof proposed[key] === 'string' && proposed[key].length <= 500)) return false;
+  }
   return stringFields.every((field) => typeof fields[field] === 'string' && (fields[field] as string).length <= 5000)
     && Array.isArray(fields.sourceRefs) && fields.sourceRefs.length <= 40
     && fields.sourceRefs.every((ref) => typeof ref === 'string' && ref.length <= 500);
